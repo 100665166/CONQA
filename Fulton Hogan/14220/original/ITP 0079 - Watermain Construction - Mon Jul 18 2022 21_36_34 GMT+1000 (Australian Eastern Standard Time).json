@@ -1,0 +1,1669 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "d6011b0f-2584-5d34-8ac5-1d0ed50b4721": {
+              "title": "Traffic Direction",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EB - Eastbound",
+                " ME - Median",
+                " NB - Northbound",
+                " SB - Southbound",
+                " WB - Westbound"
+              ],
+              "order": 8
+            },
+            "e70bc765-aba7-5a5f-86aa-5d7b676b2c73": {
+              "title": "Lot Opened On",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "c6406177-076a-5991-a186-ccfcc2b264b2": {
+              "title": "Lot Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "CIL-Civil Lot",
+                " DRL- Drainage Lot",
+                " EAL- Earthworks Lot",
+                " ELL- Electrical Lot",
+                " UTL- Utility Lot",
+                " STL- Structural Lot"
+              ],
+              "order": 3
+            },
+            "011aed78-051f-572d-8414-cbb9a860edb6": {
+              "title": "From and To Chainage",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "ca3d05e2-49b1-5fda-bb92-bb4ee4c44b0c": {
+              "title": "Construction Element",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "UTIL"
+              ],
+              "order": 5
+            },
+            "c43b6057-d84b-554d-99d0-7ee082ed6d7c": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "65708e7a-d312-5e0c-bc4c-25ae16a809a4": {
+              "title": "Activity",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "WATE - Water"
+              ],
+              "order": 6
+            },
+            "a6a49029-a7d2-5b8a-b50f-82b7a9e20863": {
+              "title": "Work Commenced On",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "b341012e-a4db-51fb-8acb-3a16e8f621c5": {
+              "title": "Engineer Responsible",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "31c8dcbc-4205-57ca-9701-eede4e798759": {
+              "title": "Lot Created On",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "c6ca50cd-ae66-55fd-9bbc-5226dc208d22": {
+              "title": "Design Package No",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1145-ACM-CVD-DPK-0002",
+                " 1145-ACM-CVD-DPK-0003",
+                " 1145-ACM-CVD-DPK-0004",
+                " 1145-ACM-CVP-DPK-0001",
+                " 1145-ACM-CVP-DPK-0002",
+                " 1145-ACM-CVR-DPK-0001",
+                " 1145-ACM-CVR-DPK-0002",
+                " 1145-ACM-CVR-DPK-0003",
+                " 1145-ACM-CVR-DPK-0004",
+                " 1145-ACM-ELE-DPK-0001",
+                " 1145-ACM-ELE-DPK-0002",
+                " 1145-ACM-LDE-DPK-0001",
+                " 1145-ACM-LDE-DPK-0002",
+                " 1145-ACM-SBA-DPK-0001",
+                " 1145-ACM-STR-DPK-0001",
+                " 1145-ACM-TSI-DPK-0001",
+                " 1145-ACM-TSI-DPK-0002",
+                " 1145-ACM-TSI-DPK-0003",
+                " 1145-ACM-TSI-DPK-0004",
+                " 1145-ACM-UTL-DPK-0001",
+                " 1145-ACM-UTL-DPK-0002"
+              ],
+              "order": 7
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.0 Lot Information",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Information",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "4b9dc782-f3ec-5f21-a94d-23f6f400e8e9": {
+              "title": "Record of Conformity: Compliance checklist - Daily Prestart Form",
+              "type": "label",
+              "order": 4
+            },
+            "005424e9-206e-5eb5-95d6-b11a6fed359d": {
+              "title": "Frequency: Prior to commencement",
+              "type": "label",
+              "order": 0
+            },
+            "e6acf609-77b2-5d84-bad6-755caa0a8711": {
+              "title": "Reference Documents: IFC drawings",
+              "type": "label",
+              "order": 2
+            },
+            "4d77295f-9cb2-542f-979f-9dd752456ca2": {
+              "title": "Acceptance Criteria: Ensure the most current revision of drawings is used to conduct the works.",
+              "type": "label",
+              "order": 1
+            },
+            "c6c6ce6f-1421-5543-9af0-8dcef37b11f1": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "3c89781f-8ef6-525f-9d19-6c2476f585c0": {
+              "title": "Responsibility: Project Manager/Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "b9357645-b613-569e-9e7b-e76946422797": {
+              "title": "Inspection / Test Method: Review",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1 Issued for construction drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "dc37bc92-2557-5897-ad93-af7860eceeed": {
+              "title": "Responsibility: Project Manager/Engineer & Superintendent",
+              "type": "label",
+              "order": 6
+            },
+            "fe0561ae-51a2-55c7-9b5f-3b1aee54cf35": {
+              "title": "Reference Documents: DBYD",
+              "type": "label",
+              "order": 2
+            },
+            "555bf0a6-2b41-5d58-95fb-d2e5bcc2256a": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "2c435188-681b-560d-9a2f-2703c378bf12": {
+              "title": "Acceptance Criteria: Permits to be obtained by relevant authorities",
+              "type": "label",
+              "order": 1
+            },
+            "a2aeb62b-c303-54f5-a13a-5850daaab16c": {
+              "title": "Inspection / Test Method: Review DBYD",
+              "type": "label",
+              "order": 3
+            },
+            "d0ca089a-1d99-5cc6-8ea0-258e2d3b2bec": {
+              "title": "Record of Conformity: Compliance checklist \u0013Excavation Permit",
+              "type": "label",
+              "order": 4
+            },
+            "941fb71d-16d4-5371-a93f-a20eb8368538": {
+              "title": "Frequency: Prior to commencement",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "2 Permits with relevant authorities",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Preliminary Works",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "166445b5-25d5-53e8-bb84-84062604ad98": {
+              "title": "Inspection / Test Method: Visual check",
+              "type": "label",
+              "order": 3
+            },
+            "a1166ac5-e97f-5b26-a593-9c3281c44467": {
+              "title": "SCP",
+              "type": "label",
+              "order": 5
+            },
+            "44c6019a-580b-57a6-aa90-d76a71768b36": {
+              "title": "Acceptance Criteria: Building line pegs to be installed prior to any excavation",
+              "type": "label",
+              "order": 1
+            },
+            "cee01b64-acde-5996-93e4-b8f4b2ab4cf1": {
+              "title": "Responsibility: Surveyor",
+              "type": "label",
+              "order": 6
+            },
+            "4945f5ff-5bf7-5994-838b-98b416c57ddb": {
+              "title": "Reference Documents: IFC drawings",
+              "type": "label",
+              "order": 2
+            },
+            "a11c811c-06ab-5a55-b57e-5ce8a0b53866": {
+              "title": "Frequency: Prior to commencement",
+              "type": "label",
+              "order": 0
+            },
+            "1c34c255-f402-5893-a008-cede336104a6": {
+              "title": "Record of Conformity: Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3 Survey set-out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "051e99b7-68d1-565c-9233-ca9e8ffc3919": {
+              "title": "Inspection / Test Method: Review drawings and DBYD",
+              "type": "label",
+              "order": 3
+            },
+            "16884c96-b5c3-500f-8f06-ca5425628c01": {
+              "title": "WP",
+              "type": "label",
+              "order": 5
+            },
+            "d5fa3acb-e223-539b-b515-997376eacd7c": {
+              "title": "Reference Documents: DBYD",
+              "type": "label",
+              "order": 2
+            },
+            "d27c3513-8bfb-5177-9878-9e9d60cdb63c": {
+              "title": "Record of Conformity: Compliance checklist \u0013Excavation Permit",
+              "type": "label",
+              "order": 4
+            },
+            "fd8d2d47-8f0b-522e-898b-a62251d9b83c": {
+              "title": "Acceptance Criteria: All existing services to be located and protections in place",
+              "type": "label",
+              "order": 1
+            },
+            "b2a82b76-c06e-5f2b-998a-096e926ca45e": {
+              "title": "Responsibility: Site Manager/Engineer/Superintendent",
+              "type": "label",
+              "order": 6
+            },
+            "44afeef8-2100-50f4-80f9-416e639fb90d": {
+              "title": "Frequency: Prior to Excavations onsite",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "4 Service location",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "41ab16b2-8e79-5aa1-8afc-d2d8145a5e24": {
+              "title": "Responsibility: Site Manager/Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "cd273a32-f1c6-56a6-a2e0-8ab024b2de6f": {
+              "title": "Acceptance Criteria: All service ducts required by road contractor to be installed prior to works to be inspected and ensure they meet MRWA standards",
+              "type": "label",
+              "order": 1
+            },
+            "ac08c888-4667-5c71-bd71-18943f44f252": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "5c2b616a-8c44-52c6-a899-1b561abb25e7": {
+              "title": "Frequency: Prior to commencement",
+              "type": "label",
+              "order": 0
+            },
+            "d537e614-35f8-5fc8-ab7f-7c5cad5507c3": {
+              "title": "Inspection / Test Method: Visual check",
+              "type": "label",
+              "order": 3
+            },
+            "065f0b84-1572-5c3b-a4c0-b0981d5fc098": {
+              "title": "Reference Documents: MRWA-W-110",
+              "type": "label",
+              "order": 2
+            },
+            "9069fcf9-1766-5afb-80ba-dd12c89468eb": {
+              "title": "Record of Conformity: Site Daily Diary Entry",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "4.1 Installation of property service conduits",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "SURVEY, SETOUT & LOCATION OF EXISTING SERVICES",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "2f841908-d3d7-5b34-897e-74ce1d0fbc73": {
+              "title": "Responsibility: Site Manager/Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "8d06262b-af07-5a08-a4da-10e517cb02f3": {
+              "title": "Record of Conformity: Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            },
+            "716737a9-72fc-5fbb-b366-5d14a7377b94": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "97a09ed5-1e1a-50ad-a80b-381b33acf136": {
+              "title": "Acceptance Criteria: Inspect materials in delivery against order. Pipe size matches plans",
+              "type": "label",
+              "order": 1
+            },
+            "1a8041a1-1057-5428-8e88-872063310208": {
+              "title": "Reference Documents: Delivery docket/ IFC drawings",
+              "type": "label",
+              "order": 2
+            },
+            "8f72e55e-0fbc-5020-9749-0d3679a481e8": {
+              "title": "Inspection / Test Method: Visual check",
+              "type": "label",
+              "order": 3
+            },
+            "ea32db39-e1de-5861-8e72-086622fa31b5": {
+              "title": "Frequency: When delivered",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "5 Correct pipe and fittings onsite",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "944e7986-8769-5ed3-9d9a-b072f15d2a96": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "8dbfb2c4-42ac-5559-9ab4-44fca6e8e5b8": {
+              "title": "Reference Documents: MRWA-W-201 to 203",
+              "type": "label",
+              "order": 2
+            },
+            "2c9b479f-78a3-50af-bad3-12013981b5ef": {
+              "title": "Acceptance Criteria: Inspect bedding material to ensure suitability",
+              "type": "label",
+              "order": 1
+            },
+            "15f930dc-141a-5fc2-8f36-e20fe98258e0": {
+              "title": "Responsibility: Site Manager/Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "2ff514bf-ec35-5511-bee3-87def1dba661": {
+              "title": "Frequency: When delivered",
+              "type": "label",
+              "order": 0
+            },
+            "fb999208-446b-5fd3-925b-db5d1cb6e3da": {
+              "title": "Record of Conformity: Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            },
+            "ec5063cf-da74-5e44-b450-ad89c6e4316e": {
+              "title": "Inspection / Test Method: Visual check",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "6 Correct embedment / backfill materials onsite",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "MATERIAL CONFORMANCE",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "1257ffdb-24fe-541d-9aeb-fb1cd4955748": {
+              "title": "Frequency: Daily",
+              "type": "label",
+              "order": 0
+            },
+            "47c8250a-d811-5d20-b06d-9e7a32969a8c": {
+              "title": "Record of Conformity: Compliance checklist - Daily Prestart Form",
+              "type": "label",
+              "order": 4
+            },
+            "737c88b4-b785-53be-8590-318f65b45528": {
+              "title": "Acceptance Criteria: Ensure environmental controls in place and being maintained as per the site EMP (if the civil contractor is responsible for managing the site then as long as we do not distrust their controls this item can be ticked as N/A)",
+              "type": "label",
+              "order": 1
+            },
+            "970ebfbd-c897-54df-91b3-8ec03c11379f": {
+              "title": "Responsibility: Site Manager/Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "b39ec817-13d3-5618-a595-00d6f47a3e84": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "3425f7b2-3509-5219-887f-10e48f751c98": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "cff9eee2-f23f-53ac-ab87-39e239a68aef": {
+              "title": "Reference Documents: EMP",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "7 Environmental controls",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "651c83f2-9fdd-5f10-a333-aa37dcc02c8c": {
+              "title": "Frequency: Daily",
+              "type": "label",
+              "order": 0
+            },
+            "2adac862-5d22-5b3a-8d15-58ad064a9618": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "ea00c024-1d51-53b2-a9c5-86e8d8ef891a": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "6e46957d-8eec-514f-8bea-c3aca06b0df9": {
+              "title": "Record of Conformity: Compliance checklist - Daily Prestart Form",
+              "type": "label",
+              "order": 4
+            },
+            "7a17a0ba-b4c4-5f3a-b557-70300af1c999": {
+              "title": "Acceptance Criteria: Ensure safety controls are in place as per the relevant safety instructions and SWMS",
+              "type": "label",
+              "order": 1
+            },
+            "23eed3e1-324c-5bdf-a28b-6edac64f49bc": {
+              "title": "Responsibility: Site Manager/Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "a8cbe122-c053-5e9a-a0e9-20f693ea52d8": {
+              "title": "Reference Documents: SMP",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "8 Safety controls",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "ENVIRONMENTAL & SAFETY",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "f7e6256b-ead6-5640-9282-8b4849212e5f": {
+              "title": "Acceptance Criteria: Ensure trench width and depth are within tolerance",
+              "type": "label",
+              "order": 1
+            },
+            "04920597-5380-5af0-9ec5-2a62eb7e1156": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "66a76f59-7954-5ebe-b019-bd6afa4d3155": {
+              "title": "Frequency: Prior to entry into open trench",
+              "type": "label",
+              "order": 0
+            },
+            "e9ff62d3-9e42-5474-be3a-6b97d43f7146": {
+              "title": "Reference Documents: IFC drawings / MRWA-W-202",
+              "type": "label",
+              "order": 2
+            },
+            "47217893-bdd1-54c0-b290-4217b0a9156f": {
+              "title": "Record of Conformity: Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            },
+            "8496d00e-4cc9-5a05-821a-ae0bc1465c8f": {
+              "title": "SCP",
+              "type": "label",
+              "order": 5
+            },
+            "bf3b2af1-af30-521e-b51f-e09b83a346d4": {
+              "title": "Responsibility: Site Manager/Engineer",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "9 Trenching",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "27e2007b-1949-5688-bdd7-4030d00c6d92": {
+              "title": "Reference Documents: MRWA-W-202",
+              "type": "label",
+              "order": 2
+            },
+            "69621b7f-5475-58c8-801e-bf493d395b17": {
+              "title": "Record of Conformity: Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            },
+            "79e0cb20-16f8-5104-bc64-5f4dd61c8ef4": {
+              "title": "Acceptance Criteria: Ensure trench foundation & wall firm, stiff & suitable",
+              "type": "label",
+              "order": 1
+            },
+            "0d479518-b81e-5022-861d-9f4720471ae9": {
+              "title": "Frequency: Prior to entry into open trench",
+              "type": "label",
+              "order": 0
+            },
+            "5eb390fe-dc9c-52da-9082-2f4ae1a0cf92": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "d5bcf1f4-45e8-586e-abd6-60de964be874": {
+              "title": "Responsibility: Site Manager/Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "1ce76d25-7ee6-5a6a-aee4-9c4f4ff13dcd": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "10 Trenching",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "df8e35d9-7619-5a1e-91f6-c0e46a7be5b7": {
+              "title": "Acceptance Criteria: Ensure pipe bedding depth is acceptable",
+              "type": "label",
+              "order": 1
+            },
+            "f2495c29-4cae-5f3b-b95f-16999ae71be7": {
+              "title": "Responsibility: Site Manager/Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "73aa749b-7926-5aaf-a1e5-b99d2d66d76e": {
+              "title": "Frequency: Prior to backfilling of specified area of trench",
+              "type": "label",
+              "order": 0
+            },
+            "bb9bbe5c-76e9-5bc0-88cf-8d330b233a00": {
+              "title": "Reference Documents: MRWA-W-202",
+              "type": "label",
+              "order": 2
+            },
+            "7bbaaf6e-dc9c-5917-a59f-e4bc0aeb0856": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "c9e92cd9-a70d-51ba-9ffb-d54378d70d60": {
+              "title": "Record of Conformity: Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            },
+            "f8b169d6-4456-51a2-8755-0553f0ea020a": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "11 Placement of embedment material",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "TRENCHING & EXCAVATION",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "f12d7273-b3e2-5112-8d0b-db2371026351": {
+              "title": "Reference Documents: MRWA-W-103",
+              "type": "label",
+              "order": 2
+            },
+            "f8def623-6b5a-5422-b178-1d1b6e42423d": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "649c8968-abb7-5463-b041-b0213be674a8": {
+              "title": "Acceptance Criteria: Ensure pipe joint deflection is acceptable and witness marks are applied and visible",
+              "type": "label",
+              "order": 1
+            },
+            "10fe2621-9a8c-5e26-80d0-ed92d212369d": {
+              "title": "Responsibility: Site Manager/Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "d8a44e28-cd93-5b42-b042-8c5a8498b9a5": {
+              "title": "Record of Conformity: Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            },
+            "9510e770-73d5-52f3-9ce8-88c05c4c56dd": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "8a716d67-97c7-5729-9a04-275afcb7c38f": {
+              "title": "Frequency: Prior to backfilling of specified area of trench",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "12 Pipe laying",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "d3a5c370-c886-5e69-ab89-16b5a0d871e8": {
+              "title": "SCP",
+              "type": "label",
+              "order": 5
+            },
+            "a17e6071-1e28-5ab7-b131-bd033c4e9c3f": {
+              "title": "Acceptance Criteria: Ensure tapping collars are installed as per measurements on plans",
+              "type": "label",
+              "order": 1
+            },
+            "35ffb9cc-722a-538f-9c88-2e1821d92f6c": {
+              "title": "Record of Conformity: As constructed information / Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            },
+            "886a5f90-900d-561b-97e0-7de037bba387": {
+              "title": "Reference Documents: IFC drawings",
+              "type": "label",
+              "order": 2
+            },
+            "90f67bf3-f94c-5384-9cd0-8843fbd6ff68": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "9f4d9ac3-7cea-5995-ad2b-8e8d1e8771c2": {
+              "title": "Frequency: Prior to backfilling of specified area of trench",
+              "type": "label",
+              "order": 0
+            },
+            "0dd768df-4adb-5064-a144-c8e79174f712": {
+              "title": "Responsibility: Site Manager/Engineer",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "13 Property services",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "99aa0e44-aad3-5ee3-b70b-3de5666dc4ff": {
+              "title": "Responsibility: Site Manager/Engineer/Superintendent",
+              "type": "label",
+              "order": 6
+            },
+            "99b17aa6-5ae2-54dc-b6d7-d3161109bcf7": {
+              "title": "WP",
+              "type": "label",
+              "order": 5
+            },
+            "43930fc2-c915-5bad-978a-a1ff893ad694": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "93977a33-946f-5c6a-9181-db6c3e4d7b26": {
+              "title": "Frequency: Prior to backfilling of specified area of trench",
+              "type": "label",
+              "order": 0
+            },
+            "5df3400f-e810-5a66-81a2-49f5072e0363": {
+              "title": "Acceptance Criteria: Ensure tapping collars are installed as per dual water specifications (to the left of the DW)",
+              "type": "label",
+              "order": 1
+            },
+            "a2d04702-48b3-5403-8a50-6701b653b65e": {
+              "title": "Record of Conformity: As constructed information / Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            },
+            "19228fff-1883-5e9e-88ba-382fee151734": {
+              "title": "Reference Documents: IFC drawings / MRWA-W110 & 111",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "14 Dual water property services",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "cebe8e22-8896-5412-85a5-cb152f01c7fd": {
+              "title": "SCP",
+              "type": "label",
+              "order": 5
+            },
+            "132a869a-403b-52af-86c4-6da099932f4c": {
+              "title": "Acceptance Criteria: Ensure valves are installed correctly.",
+              "type": "label",
+              "order": 1
+            },
+            "9f62fd34-4094-5f58-920f-3e74e867fd24": {
+              "title": "Frequency: Prior to backfilling of specified area of trench",
+              "type": "label",
+              "order": 0
+            },
+            "cf635d9b-b38f-52e7-8f35-1e3efae16a5f": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "a7bfac67-b964-510e-a23b-e02cf04ab5e3": {
+              "title": "Record of Conformity: As constructed information / Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            },
+            "7431104c-9f86-58d9-b9d6-cb4fb3b9052d": {
+              "title": "Responsibility: Site Manager/Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "07b3358d-f55c-5496-8113-ecf72dc9b6b6": {
+              "title": "Reference Documents: IFC drawings / WSA page 233 15.4",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "15 Valve installation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "26933d78-b8ab-56e3-a085-39360ea671f9": {
+              "title": "SCP",
+              "type": "label",
+              "order": 5
+            },
+            "9a2f5880-a0e6-51f4-978e-3f2a91b46d5f": {
+              "title": "Frequency: Prior to backfilling of specified area of trench",
+              "type": "label",
+              "order": 0
+            },
+            "76f133a1-eaa8-53cb-be43-7c9ec7d1cbb1": {
+              "title": "Acceptance Criteria: Ensure hydrants are installed correctly.",
+              "type": "label",
+              "order": 1
+            },
+            "a6e618e7-a09c-5684-87d3-d5d66802d9e6": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "cff7c138-f122-570a-952c-b0ded5c86b09": {
+              "title": "Responsibility: Site Manager/Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "b8ee9d38-b5fa-56c4-867c-bfb36effb1be": {
+              "title": "Record of Conformity: As constructed information / Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            },
+            "d501c62f-7ac3-5357-9d16-6c05ccc66ed6": {
+              "title": "Reference Documents: IFC drawings / WSA page 233 15.4",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "16 Hydrant installation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {
+            "e79dcc2e-0690-5c24-9ef4-40d28755e00a": {
+              "title": "Record of Conformity: As constructed information / Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            },
+            "56bf59f6-4ef3-521c-a1a5-5cbb2adfc703": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "ab30d256-2e7c-5b4a-908e-8c09e2036054": {
+              "title": "Responsibility: Site Manager/Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "4a267c94-39f7-5276-b6b2-6eb4431d51d1": {
+              "title": "Acceptance Criteria: Ensure washouts are installed correctly.",
+              "type": "label",
+              "order": 1
+            },
+            "9db7c531-4126-57d3-bd0b-e7aee1053944": {
+              "title": "Frequency: Prior to backfilling of specified area of trench",
+              "type": "label",
+              "order": 0
+            },
+            "5588cf59-a161-51d1-a6e4-9f1864ef1b7b": {
+              "title": "SCP",
+              "type": "label",
+              "order": 5
+            },
+            "067a7012-d2c6-5d05-a511-0a0cd7d505d7": {
+              "title": "Reference Documents: IFC drawings / WSA page 233 15.4",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "17 Washout installation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "PIPE INSTALLATION",
+        "dependant": true,
+        "type": "step",
+        "order": 6
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "196a6b8e-70a0-55e3-8748-93f2b2fea737": {
+              "title": "Record of Conformity: Watermain Anchor Block Checklist \u0013 Procedural Verification Checklist (SEW .018)",
+              "type": "label",
+              "order": 4
+            },
+            "14e26a0c-472a-5f01-ab19-d8322fae8d63": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "9b547266-e73c-5a5c-ba17-609ebb7a799b": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "22e56df6-829b-524c-be49-5fad2c98ccee": {
+              "title": "Reference Documents: Concrete delivery docket",
+              "type": "label",
+              "order": 2
+            },
+            "da2252ca-d2b2-55df-abae-ccc54b39812c": {
+              "title": "Responsibility: Site Manager",
+              "type": "label",
+              "order": 6
+            },
+            "5054be07-d11c-5eb2-8240-b17f7c1b0884": {
+              "title": "Acceptance Criteria: Concrete delivered to site to be acceptable. WIN 25 WSA approved mix (25mpa, 20mm rock , 50 slump)",
+              "type": "label",
+              "order": 1
+            },
+            "d17e4a73-dffd-5141-8d81-291c855541c8": {
+              "title": "Frequency: When concrete is required",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "18 Acceptance of concrete delivery",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "ab209580-4339-5a43-99dc-823e956e9ab9": {
+              "title": "Acceptance Criteria: Installed anchor blocks / thrust restraints are acceptable",
+              "type": "label",
+              "order": 1
+            },
+            "310daf6d-9667-5d4b-a6ea-2ff1705be419": {
+              "title": "Record of Conformity: Watermain Anchor Block Checklist \u0013 Procedural Verification Checklist (SEW .018)",
+              "type": "label",
+              "order": 4
+            },
+            "96d11a7d-c93a-5b85-89fe-3700d5afdffe": {
+              "title": "Responsibility: Site Manager/Engineer/Superintendent",
+              "type": "label",
+              "order": 6
+            },
+            "6d2ffe6c-5b80-518e-a6e6-72b1aaebc4e2": {
+              "title": "Reference Documents: MRWA-W-204,205A & 205B",
+              "type": "label",
+              "order": 2
+            },
+            "3a042c5b-b009-5f8d-bdbd-cac9d8242c90": {
+              "title": "Frequency: When concrete is required",
+              "type": "label",
+              "order": 0
+            },
+            "a9d2e6d8-9361-5842-ad6a-d454872b736f": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "6dd8db83-a018-5313-b0ce-60102795a4be": {
+              "title": "WP",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "19 Installation of anchor blocks and thrust restraints",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "278ffbc7-b559-5206-b932-23cc3cda4706": {
+              "title": "Reference Documents: MRWA \u0013 W \u0013 205-A and 205-B",
+              "type": "label",
+              "order": 2
+            },
+            "0f3ed20a-b2ad-5d6e-8ad4-92be9d076a26": {
+              "title": "Responsibility: Site Manager/Engineer/Superintendent",
+              "type": "label",
+              "order": 6
+            },
+            "7d4a84a7-114c-5954-a27a-5a34ada6d104": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "ab6368b8-a672-5f1d-b4b6-adaab3f676f0": {
+              "title": "Frequency: Prior to anchor blocks being poured",
+              "type": "label",
+              "order": 0
+            },
+            "02cc1f16-24a2-5005-99e4-ce9e48f447c7": {
+              "title": "WP",
+              "type": "label",
+              "order": 5
+            },
+            "4d99e526-f199-5b3f-926b-be2db5f1a2f9": {
+              "title": "Record of Conformity: Watermain Anchor Block Checklist \u0013 Procedural Verification Checklist (SEW .018)",
+              "type": "label",
+              "order": 4
+            },
+            "007f1d7e-98ba-546e-95af-065877b09c02": {
+              "title": "Acceptance Criteria: Reinforcement is as per MRWA 205-A, 205-B and according to thrust area as noted in face sheet of project plan",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "19.1 Correct steel reinforcement used in restraint",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "CONCRETE ANCHOR BLOCKS",
+        "dependant": true,
+        "type": "step",
+        "order": 7
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "53646421-9974-5cf2-b8b0-d0313af265c7": {
+              "title": "Record of Conformity: Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            },
+            "6ff92f1f-8932-576d-8c4c-d56eef698155": {
+              "title": "Frequency: Completion of pipelaying",
+              "type": "label",
+              "order": 0
+            },
+            "fe3936c3-0b28-5ef9-ba8f-5d0b739f8168": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "46ba9f77-cda2-5a06-9f0b-e95459b094e2": {
+              "title": "Responsibility: Site Manager",
+              "type": "label",
+              "order": 6
+            },
+            "8930622c-46eb-557b-96f8-df18b832f8db": {
+              "title": "Acceptance Criteria: Ensure overlay depth & installation is acceptable",
+              "type": "label",
+              "order": 1
+            },
+            "94a2b06a-65f9-5cf6-8b18-1c1aa4d8c7d8": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "9b963021-1fb0-5de1-bfd2-8e215b679787": {
+              "title": "Reference Documents: MRWA-W-202",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "20 Placement of embedment overlay",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "457ec53e-6b7b-5786-82e4-72bb7c884b1c": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "7ae74109-9f39-508b-a143-be0f982955ff": {
+              "title": "Reference Documents: MRWA-W-202",
+              "type": "label",
+              "order": 2
+            },
+            "ca58c1c7-380d-58aa-a799-e57fab2c1b64": {
+              "title": "Responsibility: Site Manager",
+              "type": "label",
+              "order": 6
+            },
+            "7dd2b69e-9a18-5350-bee5-000ef210bd9d": {
+              "title": "Frequency: Completion of pipelaying",
+              "type": "label",
+              "order": 0
+            },
+            "b0915729-c62b-544a-9ea8-911db87a6a37": {
+              "title": "Acceptance Criteria: Detectable marker tape to be installed in first layer of backfill",
+              "type": "label",
+              "order": 1
+            },
+            "845b7149-4b73-5d8c-85c9-c601925ee1eb": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "6c503c97-d55f-5a60-a6e6-f554a60afd31": {
+              "title": "Record of Conformity: Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "21 Installation of detectable marker tape",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "d850020e-9362-547b-8384-0f56dd20e342": {
+              "title": "Responsibility: Site Manager",
+              "type": "label",
+              "order": 6
+            },
+            "5aad3fda-e23e-50bc-8d3a-6725bcb06eee": {
+              "title": "Reference Documents: MRWA-W-202,202",
+              "type": "label",
+              "order": 2
+            },
+            "07bea8a0-530c-5a89-b629-0fa45fe8b59e": {
+              "title": "Acceptance Criteria: Backfill material to be acceptable & compaction of trench line completed",
+              "type": "label",
+              "order": 1
+            },
+            "cf90cde1-69e4-5f80-b96e-5187b97e169c": {
+              "title": "Frequency: Completion of pipelaying",
+              "type": "label",
+              "order": 0
+            },
+            "bee8e032-e4e9-591f-8b62-d3bfadf7a4d7": {
+              "title": "Inspection / Test Method: Visual / NATA if required",
+              "type": "label",
+              "order": 3
+            },
+            "0262a093-0bf5-5273-8d26-21c5f506b965": {
+              "title": "Record of Conformity: Compliance checklist - Pipeline construction",
+              "type": "label",
+              "order": 4
+            },
+            "08e53659-d528-52ea-8329-146cbdc15a8c": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "22 Placement of compactable material in trafficable areas",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "c8f65581-1acb-5610-b522-0a9235755883": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "40c4f119-147f-50c8-9e77-7b9087caaa27": {
+              "title": "Acceptance Criteria: Crews compliance with all Fulton Hogan Procedures and SWMS",
+              "type": "label",
+              "order": 1
+            },
+            "f8dad5c1-fc4f-5bcc-9606-1336a61f5954": {
+              "title": "Responsibility: Project Manager/Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "6d1dd7ed-3756-5092-9de4-98034085b349": {
+              "title": "Record of Conformity: Weekly Site Safety Inspection Checklist",
+              "type": "label",
+              "order": 4
+            },
+            "84b36315-2001-50b2-8ada-526dea41677f": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "5b96a143-44c7-54ce-8a54-d10ddc11bf59": {
+              "title": "Reference Documents: Pipelines SMP, SWMS, Trenching Procedure",
+              "type": "label",
+              "order": 2
+            },
+            "895cb4d1-4452-5ed0-aa9e-1aa882f2f523": {
+              "title": "Frequency: Once per week",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "23 Monitoring of WC1 works",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "102f794e-47ec-5650-a5e2-210254359e32": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 3
+            },
+            "bfc2a08b-5d7a-588d-a01a-588448fab0ed": {
+              "title": "Responsibility: Project Manager/Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "1c89edae-51be-5e0d-bf56-1ccf7015b889": {
+              "title": "Frequency: Twice per week",
+              "type": "label",
+              "order": 0
+            },
+            "89a1b567-de23-5a34-b24e-e849018a63a2": {
+              "title": "Acceptance Criteria: Crews compliance with all Fulton Hogan Procedures and SWMS",
+              "type": "label",
+              "order": 1
+            },
+            "5f4a83d3-2f44-5f53-bc99-34135bc3e1ab": {
+              "title": "Record of Conformity: Weekly Site Safety Inspection Checklist",
+              "type": "label",
+              "order": 4
+            },
+            "8f23a9d0-5dce-505c-a6b4-fc2418182e27": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "3960d755-901c-551b-a11c-f760796397a6": {
+              "title": "Reference Documents: Pipelines SMP, SWMS, Trenching Procedure",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "24 Monitoring of WC2 works",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {
+            "1e2b75d9-8b65-5ab3-a9ee-8cb6eb7b2d5e": {
+              "title": "Position:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "7f45dcc9-0f67-5556-8aaf-57b69ff73e0e": {
+              "title": "Print Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "8496136f-536e-5881-8c26-225bf6e5516f": {
+              "title": "Work Completed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "d79f75db-f5ad-56e3-a2d0-12b7ad6b616d": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "46cc5188-0095-57d8-baaf-3b96bbaa3fca": {
+              "title": "The signature below verifies that this ITP has been completed in accordance with the Fulton Hogan's Quality system Procedures and verifies lot compliance with specifications.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "BACKFILL OF TRENCHES",
+        "dependant": true,
+        "type": "step",
+        "order": 8
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "eaec50de-cc4c-5443-bcdb-8c7db156e39a": {
+              "title": "Is the relevant NCR attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 1
+            },
+            "44daa345-26bf-5d62-b759-9b21326122da": {
+              "title": "Is the relevant RFI attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 0
+            },
+            "363eb796-3dfb-580f-9bd4-0aa434299e69": {
+              "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 2
+            },
+            "6981f91c-1d94-5926-a5b2-25cc55f41e2e": {
+              "title": "Lot Closed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "8ebb30ab-256b-54b4-a27b-c829b0b052ae": {
+              "title": "Lot verified By",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Babak Rudd-Project Quality Manager",
+                " Steve Felsinger- Area Manager"
+              ],
+              "order": 3
+            },
+            "a6125464-c7a4-5bac-9498-47ca60c628f8": {
+              "title": "Lot Status",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OUTSTANDING",
+                " CLOSED"
+              ],
+              "order": 4
+            },
+            "1d6c5e73-3c16-5c15-98af-8f2ac77097ae": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Lot Verification.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Verification",
+        "dependant": true,
+        "type": "step",
+        "order": 9
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "ITP-079-UT-LOT-XXX - Desc",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}

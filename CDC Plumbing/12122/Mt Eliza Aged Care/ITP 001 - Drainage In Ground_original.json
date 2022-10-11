@@ -1,0 +1,414 @@
+{
+  "data": {},
+  "tree": [
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {
+            "033ddcd0-28b4-5ecd-b483-3a019c36d17e": {
+              "title": "Drawing & Revision #",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "6baeda56-8d9b-52b3-8876-18699ab462f5": {
+              "title": "Service Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Stormwater",
+                "Sanitary Drainage",
+                "Trade Waste",
+                "Other (Specify Below)"
+              ],
+              "order": 4
+            },
+            "79d106c4-a946-5c64-91d3-6f23766f77d1": {
+              "title": "Other (Specify Here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Spec. Ref:",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "90f2a7cd-0efa-52dd-8e5c-1dda55a572e9": {
+              "title": "Acceptance Criteria / Reference: Approved installation drawings",
+              "type": "label",
+              "order": 7
+            },
+            "2e24c2f9-82c8-5b8f-a8ac-8747d8a807d1": {
+              "title": "Inspection Type: Hold Point",
+              "type": "label",
+              "order": 8
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "HOLD POINT - Set out and alignment",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "9c700ba0-49c0-5c24-8ce4-80857c686604": {
+              "title": "Acceptance Criteria / Reference: Approved installation drawings",
+              "type": "label",
+              "order": 10
+            },
+            "47281678-a29a-5b21-a6e4-67f85a7e6651": {
+              "title": "Inspection Type: Hold Point",
+              "type": "label",
+              "order": 11
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "HOLD POINT - Inverts and grades",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "3449356f-1e5e-5729-bd00-41447884c8bb": {
+              "title": "Acceptance Criteria / Reference: As per specification",
+              "type": "label",
+              "order": 13
+            },
+            "8c99c954-43f0-555e-af93-f45f23ad4223": {
+              "title": "Specification",
+              "type": "input",
+              "subtype": "text",
+              "order": 14
+            },
+            "1c134d02-a4ca-50f1-9de5-e93964bfc6f2": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 15
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Pipe bedding material",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "2152bfc6-0557-5146-95c9-06aa47e8e62c": {
+              "title": "Acceptance Criteria / Reference: As per approved installation drawings",
+              "type": "label",
+              "order": 17
+            },
+            "ddcb1677-19bf-503c-aaba-d21e93665cc4": {
+              "title": "STORMPRO",
+              "type": "boolean",
+              "order": 20
+            },
+            "b7f3d486-d598-55c5-add5-ef957ae94fa0": {
+              "title": "Other",
+              "type": "input",
+              "subtype": "text",
+              "order": 22
+            },
+            "f2cea29a-dcc1-50e4-869f-476dad0a9d5d": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 23
+            },
+            "19772c5f-543e-5f8e-a019-589eec74a061": {
+              "title": "PVC",
+              "type": "boolean",
+              "order": 18
+            },
+            "800674dd-5d85-5dc1-bb2f-8ea48fad0018": {
+              "title": "HDPE",
+              "type": "boolean",
+              "order": 19
+            },
+            "88c0d37e-59de-5479-9aee-845e6b9e73d9": {
+              "title": "RCP",
+              "type": "boolean",
+              "order": 21
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Pipe material correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {
+            "aed6b7e3-689f-55ad-bc02-a2e6ccbbe9d2": {
+              "title": "Comment: REF TEST CRITERIA; Air test to 15kPa, minimum of 5 min. Provide photo of test gauge to confirm test",
+              "type": "label",
+              "order": 29
+            },
+            "323a4650-c205-5cbc-ba13-4383c0901175": {
+              "title": "Acceptance Criteria / Reference",
+              "type": "label",
+              "order": 25
+            },
+            "4acf33ec-7d32-5823-a487-fd9c9b2849ee": {
+              "title": "Air test completed",
+              "type": "boolean",
+              "order": 27
+            },
+            "edf62892-5532-5bd9-be44-e01a39b7fca5": {
+              "title": "Inspection Type: Hold Point, Test, Witness",
+              "type": "label",
+              "order": 28
+            },
+            "4981e1dd-0156-5ddd-9b90-bb8d780b1dc5": {
+              "title": "Hydrostatic",
+              "type": "boolean",
+              "order": 26
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "HOLD POINT - Inspection & testing prior to Concealing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "data": {
+            "12a3fbb2-bf8d-5c8a-b005-bb913e1f0087": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 32
+            },
+            "7b92a843-2166-5cdc-9642-5401286b5954": {
+              "title": "Acceptance Criteria / Reference: Sealed",
+              "type": "label",
+              "order": 31
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Seal open drainage points",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "data": {
+            "13dbf8f4-d794-53be-b8e2-013c57b96507": {
+              "title": "Comment: Detail as per CDC shop drawing, CST By Others",
+              "type": "label",
+              "order": 36
+            },
+            "a3d47130-b506-55ca-abe7-9f6db8583a2f": {
+              "title": "Acceptance Criteria / Reference: Existing material used for backfill or approved alternative (details in comments) . ID Tape laid 300mm OVER SERVICE",
+              "type": "label",
+              "order": 34
+            },
+            "e28f2bd5-4a97-5525-b575-6ae2e4ef0a50": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 35
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Backfill trenches",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "data": {
+            "98399a46-38e8-5354-9b37-d8bc688b377a": {
+              "title": "Survey as installed works and update AS Built",
+              "type": "label",
+              "order": 38
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "As Built Records",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "data": {
+            "7fde5912-91b1-5273-bc9e-313cbc9204ea": {
+              "title": "CST By Others",
+              "type": "label",
+              "order": 42
+            },
+            "5ab3327e-21e9-578a-9dc3-b9852b936523": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 41
+            },
+            "406c777a-1c91-5217-ac2d-7b15ad074d21": {
+              "title": "Acceptance Criteria / Reference: Stabilised sand backfill, N/A, Landscaped areas N/A",
+              "type": "label",
+              "order": 40
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Compaction and compaction testing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "data": {
+            "f7378e97-9d88-5719-acf8-f1c2702dbe1c": {
+              "title": "Acceptance Criteria / Reference: Photo records during installation works and CCTV after backfilling. Attach reference drawing",
+              "type": "label",
+              "order": 44
+            },
+            "042dc182-a577-5231-9d54-91eb96e6e9e9": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 45
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "CCTV & Photo records",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Installation",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {
+            "7a9b6244-f89b-596b-9b9e-5ffc2cbd21a4": {
+              "title": "Inspections carried out by",
+              "type": "label",
+              "order": 48
+            },
+            "ede3f75a-a208-5754-80b3-76db941e5ab6": {
+              "title": "Name",
+              "type": "input",
+              "subtype": "text",
+              "order": 49
+            },
+            "49e5bb07-8047-5a10-b716-d349d55c37af": {
+              "title": "Organisation",
+              "type": "input",
+              "subtype": "text",
+              "order": 50
+            },
+            "08097d1e-fdd1-5cf8-af22-e6c0bb88eda6": {
+              "title": "Signature(s) attached below",
+              "type": "label",
+              "order": 53
+            },
+            "b8263b23-9b9d-5092-9854-a3a7863bf348": {
+              "title": "Kane Representative Sign-Off added below",
+              "type": "boolean",
+              "order": 52
+            },
+            "89a0a909-cfbd-5595-a7b9-79da99dc1ffa": {
+              "title": "CDC Representative Sign-Off added below",
+              "type": "boolean",
+              "order": 51
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Sign-Off Completed - Pass once below completed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Sign-Off",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "ITP 001 - Drainage In Ground",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

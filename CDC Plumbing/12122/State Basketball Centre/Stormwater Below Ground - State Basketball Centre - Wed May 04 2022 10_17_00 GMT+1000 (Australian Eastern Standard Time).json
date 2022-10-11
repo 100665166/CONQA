@@ -1,0 +1,135 @@
+{
+  "tree": [
+    {
+      "data": {
+        "c0b8a6fe-1545-53e1-96fd-01648a3638b8": {
+          "title": "Drawing & Rev No. (or Photograph below)",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Set-Out & Alignment",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Materials type checked & correct",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Correct fittings",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "b8c5e5ed-5edc-5803-a452-4f6fec481ebd": {
+          "title": "As per FFE Schedule",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Fittings & fixtures",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "0ac13c20-d91d-548b-a77a-392ad8df49d8": {
+          "title": "Inspection attached below as applicable",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Inspection by Authority",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "51a4ddd9-78f7-5f24-a2d7-1df7df1f9701": {
+          "title": "CDC Plumbing Signature Sign-Off added below",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 3
+        },
+        "39868e8f-45a7-5235-b14c-0265120600c8": {
+          "title": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+          "type": "label",
+          "order": 0
+        },
+        "27331e39-2db0-56a2-9ad7-ac296bc14692": {
+          "title": "Click to Attach Signature(s) below",
+          "type": "label",
+          "order": 1
+        },
+        "40e5ef9b-068d-5319-9f27-ef259797a548": {
+          "title": "Signature by Builders Site Coordinator",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 2
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Hydraulic Work(s) completed to specification/drawings & Area left clean/tidy",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "name": "Stormwater Below Ground - State Basketball Centre",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

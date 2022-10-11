@@ -1,0 +1,2668 @@
+{
+  "meta": {
+    "order": 99,
+    "display": "normal",
+    "type": "step",
+    "permissions": {
+      "addStep": true,
+      "addPost": false
+    },
+    "dependant": true,
+    "inst": "2022-04-26T03:16:31.463Z",
+    "logo": "https://conqausercontent.com/raw/52da3f66-ed84-4d20-b867-642caa0dd453",
+    "name": "7704 CDHB Dock Relocation",
+    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+    "version": "2017-02-13"
+  },
+  "resources": {
+    "-N0czv78db3hj_tSjLOx": {
+      "data": {
+        "meta": {
+          "dependant": true,
+          "display": "flat",
+          "name": "Fit Off Checklist - Ladder System",
+          "permissions": {
+            "addPost": false,
+            "addStep": false
+          },
+          "stepType": "checklist-flat",
+          "type": "step"
+        },
+        "tree": [
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Installed to manufacturer or PBI Installation instructions ",
+              "order": 0,
+              "stepType": "checkpoint-status",
+              "type": "step"
+            }
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Installed as per AS1657:2018",
+              "order": 1,
+              "stepType": "checkpoint-status",
+              "type": "step"
+            }
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "All fixings secure",
+              "order": 2,
+              "stepType": "checkpoint-status",
+              "type": "step"
+            }
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Top step of ladder flush with either walk-off kit or building edge",
+              "order": 3,
+              "stepType": "checkpoint-status",
+              "type": "step"
+            }
+          },
+          {
+            "data": {
+              "01b07b5f-e525-51a4-9c0b-f696eaca2950": {
+                "order": 1,
+                "subtype": "select",
+                "title": "If ladder is above 3.5m, does it contain a cage?",
+                "type": "enum"
+              },
+              "a389b5ba-d0a3-575c-b166-39003d5dd740": {
+                "order": 0,
+                "subtype": "select",
+                "title": "If caged, cage start between 2m and 2.2m from ground level?",
+                "type": "enum"
+              },
+              "a9eb0887-ae35-5f97-97b0-2665a1d1ee20": {
+                "order": 2,
+                "subtype": "select",
+                "title": "If ladder is above 6m, does it have a mid-way platform?",
+                "type": "enum"
+              }
+            },
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "No unsealed penetrations to the roof",
+              "order": 4,
+              "stepType": "checkpoint-status",
+              "type": "step"
+            }
+          },
+          {
+            "data": {
+              "25b468ea-233e-5fa6-bae5-da3bb549c819": {
+                "order": 0,
+                "title": "1 photo required",
+                "type": "label"
+              }
+            },
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Photo uploaded of clean work area ",
+              "order": 5,
+              "stepType": "checkpoint-status",
+              "type": "step"
+            }
+          },
+          {
+            "data": {
+              "b4657e97-3aad-5d9b-9ea9-40dc0eca0907": {
+                "order": 0,
+                "title": "1 photo required",
+                "type": "label"
+              }
+            },
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Video taken ",
+              "order": 6,
+              "stepType": "checkpoint-status",
+              "type": "step"
+            }
+          }
+        ]
+      },
+      "name": "Fit Off Checklist - Ladder System",
+      "type": "template"
+    },
+    "1ac1f32a-442d-48fb-83e0-86572827a43a": {
+      "data": {
+        "meta": {
+          "dependant": true,
+          "display": "flat",
+          "name": "Pre-Fit Off Checklist",
+          "permissions": {
+            "addPost": false,
+            "addStep": false
+          },
+          "type": "step"
+        },
+        "tree": [
+          {
+            "data": {
+              "f33b5857-8198-41c5-971a-8ab0ef42c8f7": {
+                "float": "left",
+                "order": 2,
+                "title": "If FAILED add brief explanation in comments and click below to email PM",
+                "type": "label"
+              }
+            },
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Confirm structure is in accordance to the details provided",
+              "order": 0,
+              "type": "step"
+            },
+            "tree": [
+              {
+                "meta": {
+                  "dependant": true,
+                  "display": "flat",
+                  "name": "EMAIL PM",
+                  "order": 0,
+                  "signoffs": true,
+                  "type": "step"
+                }
+              }
+            ]
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Plinths/ bases/post installed in accordance with details provided",
+              "order": 1,
+              "type": "step"
+            }
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Photos taken",
+              "order": 2,
+              "type": "step"
+            }
+          }
+        ]
+      },
+      "name": "Pre-Fit Off Checklist",
+      "type": "template"
+    },
+    "1c3caaa1-aa4b-4570-9699-2bb9783cdbc7": {
+      "data": {
+        "meta": {
+          "dependant": true,
+          "display": "flat",
+          "name": "Rail Checklist",
+          "permissions": {
+            "addPost": false,
+            "addStep": false
+          },
+          "type": "step"
+        },
+        "tree": [
+          {
+            "data": {
+              "e8290b74-d9f4-4fff-8ae6-12b9cea20415": {
+                "float": "left",
+                "order": 2,
+                "title": "If FAILED add brief explanation in comments and click below to email PM",
+                "type": "label"
+              }
+            },
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Confirm the structure is in accordance with the details supplied by PBI",
+              "order": 0,
+              "type": "step"
+            },
+            "tree": [
+              {
+                "meta": {
+                  "dependant": true,
+                  "display": "flat",
+                  "name": "EMAIL PM",
+                  "order": 0,
+                  "signoffs": true,
+                  "type": "step"
+                }
+              }
+            ]
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Photo taken of Engraved Line Plate / ID Tag",
+              "order": 1,
+              "type": "step"
+            }
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Video taken of system",
+              "order": 2,
+              "type": "step"
+            }
+          },
+          {
+            "data": {
+              "ca58e151-497c-4575-8066-88012502f631": {
+                "float": "left",
+                "order": 7,
+                "subtype": "text",
+                "title": "Location / Person:",
+                "type": "input"
+              }
+            },
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Description input of location / person Rail systems shuttle left with",
+              "order": 3,
+              "type": "step"
+            }
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Installed as per PBI drawings supplied and manufacturer's requirements",
+              "order": 4,
+              "type": "step"
+            }
+          }
+        ]
+      },
+      "name": "Rail Checklist",
+      "type": "template"
+    },
+    "5f80ab59-cb9b-44a1-b88e-0fa84d784bb9": {
+      "data": {
+        "meta": {
+          "dependant": true,
+          "display": "flat",
+          "name": "Fit Off Checklist - Line",
+          "permissions": {
+            "addPost": false,
+            "addStep": false
+          },
+          "type": "step"
+        },
+        "tree": [
+          {
+            "data": {
+              "6242ec89-db8b-4c92-ac8b-40331fb90cc3": {
+                "float": "left",
+                "order": 2,
+                "title": "If FAILED add brief explanation in comments and click below to email PM",
+                "type": "label"
+              }
+            },
+            "meta": {
+              "dependant": false,
+              "name": "Confirm the structure is in accordance with the details supplied by PBI",
+              "order": 0,
+              "type": "step"
+            },
+            "tree": [
+              {
+                "meta": {
+                  "dependant": true,
+                  "display": "flat",
+                  "name": "EMAIL PM",
+                  "order": 0,
+                  "signoffs": true,
+                  "type": "step"
+                }
+              }
+            ]
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Photo taken of line pull test and swages",
+              "order": 1,
+              "type": "step"
+            }
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Photo taken of Engraved Line Plate / ID Tag",
+              "order": 2,
+              "type": "step"
+            }
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Video taken of system",
+              "order": 3,
+              "type": "step"
+            }
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Installed as per PBI drawings supplied and manufacturer's requirements",
+              "order": 4,
+              "type": "step"
+            }
+          }
+        ]
+      },
+      "name": "Fit Off Checklist - Line",
+      "type": "template"
+    },
+    "b3ab64ac-66ef-4464-9d41-3a098cda6439": {
+      "data": {
+        "meta": {
+          "dependant": true,
+          "display": "flat",
+          "name": "Fit Off Checklist - Miscellaneous Item",
+          "permissions": {
+            "addPost": false,
+            "addStep": false
+          },
+          "type": "step"
+        },
+        "tree": [
+          {
+            "data": {
+              "31d45639-4a4a-4893-9d3e-5407e3a8b1f5": {
+                "float": "left",
+                "order": 2,
+                "title": "If FAILED add brief explanation in comments and click below to email PM",
+                "type": "label"
+              }
+            },
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Confirm the structure is in accordance with the details supplied by PBI",
+              "order": 0,
+              "type": "step"
+            },
+            "tree": [
+              {
+                "meta": {
+                  "dependant": true,
+                  "display": "flat",
+                  "name": "EMAIL PM",
+                  "order": 0,
+                  "signoffs": true,
+                  "type": "step"
+                }
+              }
+            ]
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Photos taken of installed item",
+              "order": 1,
+              "type": "step"
+            }
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Installed as per PBI drawings supplied and manufacturer's requirements",
+              "order": 2,
+              "type": "step"
+            }
+          }
+        ]
+      },
+      "name": "Fit Off Checklist - Miscellaneous Item",
+      "type": "template"
+    },
+    "e24aadf0-789c-4eca-a9cc-537016bae12c": {
+      "data": {
+        "meta": {
+          "dependant": true,
+          "display": "flat",
+          "name": "Fit Off Checklist - Anchor",
+          "permissions": {
+            "addPost": false,
+            "addStep": false
+          },
+          "type": "step"
+        },
+        "tree": [
+          {
+            "data": {
+              "10b13284-475d-4dd5-8ace-bbc47a64d07b": {
+                "float": "left",
+                "order": 2,
+                "title": "If FAILED add brief explanation in comments and click below to email PM",
+                "type": "label"
+              }
+            },
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Confirm the structure is in accordance with the details supplied by PBI",
+              "order": 0,
+              "type": "step"
+            },
+            "tree": [
+              {
+                "meta": {
+                  "dependant": true,
+                  "display": "flat",
+                  "name": "EMAIL PM",
+                  "order": 0,
+                  "signoffs": true,
+                  "type": "step"
+                }
+              }
+            ]
+          },
+          {
+            "data": {
+              "075e8ef5-42fb-423c-9690-730db3d03787": {
+                "float": "left",
+                "order": 5,
+                "subtype": "select",
+                "title": "Anchor Type",
+                "type": "enum",
+                "unsettable": false,
+                "values": [
+                  "FROG 1 photo req",
+                  "L4543 2 photos req",
+                  "L4544 3 photos req",
+                  "L4550 2 photos req",
+                  "L4551 2 photos req",
+                  "L4552 2 photos req",
+                  "M16 Chemset 2 photos req",
+                  "M16 Through BOLT 2 photos req",
+                  "SAFETOR 3 photos req",
+                  "Spiratech 1 photo req"
+                ]
+              }
+            },
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Required number of photo(s) taken of installed anchor(s)",
+              "order": 1,
+              "type": "step"
+            }
+          },
+          {
+            "meta": {
+              "dependant": false,
+              "display": "normal",
+              "name": "Installed as per PBI drawings supplied and manufacturer's requirements",
+              "order": 2,
+              "type": "step"
+            }
+          }
+        ]
+      },
+      "name": "Fit Off Checklist - Anchor",
+      "type": "template"
+    }
+  },
+  "tree": {
+    "kThcU511K4TR4Hr7oqiDap5z": {
+      "meta": {
+        "order": 2,
+        "display": "normal",
+        "type": "step",
+        "permissions": {
+          "addStep": true,
+          "addPost": false
+        },
+        "dependant": true,
+        "parent": "kTNhQUzCfoYCP6bnbCajNCvy",
+        "inst": "2019-07-25T01:30:57.652Z",
+        "name": " QA",
+        "user": "e3ee0226-6d78-4827-a3e2-c7f357508f60",
+        "version": "2017-02-13"
+      },
+      "tree": {
+        "kTUcAZt1mtmJS5Dr5NuxvTZ4": {
+          "meta": {
+            "order": 99,
+            "display": "normal",
+            "type": "step",
+            "permissions": {
+              "addStep": true,
+              "addPost": false
+            },
+            "dependant": true,
+            "parent": "kThcU511K4TR4Hr7oqiDap5z",
+            "inst": "2022-04-27T00:56:36.092Z",
+            "name": "RoofSafe Cable Line 01 ",
+            "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+            "version": "2017-02-13"
+          },
+          "tree": {
+            "kTg1CAp8khviEEF6EExTZYco": {
+              "meta": {
+                "order": 99,
+                "display": "flat",
+                "type": "step",
+                "permissions": {
+                  "addStep": false,
+                  "addPost": false
+                },
+                "dependant": true,
+                "parent": "kTUcAZt1mtmJS5Dr5NuxvTZ4",
+                "inst": "2022-04-27T00:58:58.823Z",
+                "name": "Pre-Fit Off Checklist - Line 01",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "tree": {
+                "kTN1u6a4ofxVYo1cQ8hmetkP": {
+                  "meta": {
+                    "order": 2,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTg1CAp8khviEEF6EExTZYco",
+                    "inst": "2022-04-27T00:58:58.823Z",
+                    "name": "Photos taken",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTN1u6a4ofxVYo1cQ8hmetkP"
+                },
+                "kTW7ENE3MH7aKbNqCK9QeErL": {
+                  "meta": {
+                    "order": 1,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTg1CAp8khviEEF6EExTZYco",
+                    "inst": "2022-04-27T00:58:58.823Z",
+                    "name": "Plinths/ bases/post installed in accordance with details provided",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTW7ENE3MH7aKbNqCK9QeErL"
+                },
+                "kTWeh2E8LhTTpVWMYqAABn5p": {
+                  "meta": {
+                    "order": 0,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTg1CAp8khviEEF6EExTZYco",
+                    "inst": "2022-04-27T00:58:58.823Z",
+                    "name": "Confirm structure is in accordance to the details provided",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": {
+                    "f33b5857-8198-41c5-971a-8ab0ef42c8f7": {
+                      "float": "left",
+                      "order": 2,
+                      "title": "If FAILED add brief explanation in comments and click below to email PM",
+                      "type": "label"
+                    }
+                  },
+                  "tree": {
+                    "kTMXpPoz1kSUT7t2sWYXhUFb": {
+                      "meta": {
+                        "order": 0,
+                        "display": "flat",
+                        "type": "step",
+                        "permissions": {
+                          "addStep": false,
+                          "addPost": false
+                        },
+                        "dependant": true,
+                        "parent": "kTWeh2E8LhTTpVWMYqAABn5p",
+                        "signoffs": true,
+                        "inst": "2022-04-27T00:58:58.823Z",
+                        "name": "EMAIL PM",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "tree": {},
+                      "id": "kTMXpPoz1kSUT7t2sWYXhUFb"
+                    }
+                  },
+                  "id": "kTWeh2E8LhTTpVWMYqAABn5p"
+                },
+                "5d7e60113da51d8971717ab741af31013dc6be7a0354e3cfd5946ca112783017": {
+                  "meta": {
+                    "type": "update",
+                    "parent": "kTg1CAp8khviEEF6EExTZYco",
+                    "inst": "2022-04-27T00:59:23.465Z",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": [
+                    [
+                      "meta",
+                      "name",
+                      "Pre-Fit Off Checklist - Line 01"
+                    ]
+                  ],
+                  "tree": {},
+                  "id": "5d7e60113da51d8971717ab741af31013dc6be7a0354e3cfd5946ca112783017"
+                }
+              },
+              "id": "kTg1CAp8khviEEF6EExTZYco"
+            },
+            "kTSDBVMakGPmVapf9hUJtXb7": {
+              "meta": {
+                "order": 99,
+                "display": "flat",
+                "type": "step",
+                "permissions": {
+                  "addStep": false,
+                  "addPost": false
+                },
+                "dependant": true,
+                "parent": "kTUcAZt1mtmJS5Dr5NuxvTZ4",
+                "inst": "2022-04-27T00:59:12.291Z",
+                "name": "Fit Off Checklist - Line 01",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "tree": {
+                "kTKoRXLATztZr5nTR3zj8qw8": {
+                  "meta": {
+                    "order": 0,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTSDBVMakGPmVapf9hUJtXb7",
+                    "inst": "2022-04-27T00:59:12.291Z",
+                    "name": "Confirm the structure is in accordance with the details supplied by PBI",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": {
+                    "6242ec89-db8b-4c92-ac8b-40331fb90cc3": {
+                      "float": "left",
+                      "order": 2,
+                      "title": "If FAILED add brief explanation in comments and click below to email PM",
+                      "type": "label"
+                    }
+                  },
+                  "tree": {
+                    "kTZEK2NygpLh2V1RG6CSnAEZ": {
+                      "meta": {
+                        "order": 0,
+                        "display": "flat",
+                        "type": "step",
+                        "permissions": {
+                          "addStep": false,
+                          "addPost": false
+                        },
+                        "dependant": true,
+                        "parent": "kTKoRXLATztZr5nTR3zj8qw8",
+                        "signoffs": true,
+                        "inst": "2022-04-27T00:59:12.291Z",
+                        "name": "EMAIL PM",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "tree": {},
+                      "id": "kTZEK2NygpLh2V1RG6CSnAEZ"
+                    }
+                  },
+                  "id": "kTKoRXLATztZr5nTR3zj8qw8"
+                },
+                "kTMB7ieBV352ATQJMZm52Wys": {
+                  "meta": {
+                    "order": 2,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTSDBVMakGPmVapf9hUJtXb7",
+                    "inst": "2022-04-27T00:59:12.291Z",
+                    "name": "Photo taken of Engraved Line Plate / ID Tag",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTMB7ieBV352ATQJMZm52Wys"
+                },
+                "kTQEvbMsd4pHNtY5jLJX5jy9": {
+                  "meta": {
+                    "order": 3,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTSDBVMakGPmVapf9hUJtXb7",
+                    "inst": "2022-04-27T00:59:12.291Z",
+                    "name": "Video taken of system",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTQEvbMsd4pHNtY5jLJX5jy9"
+                },
+                "kTR1Lq28WWeUqgJkxSi9hmYb": {
+                  "meta": {
+                    "order": 4,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTSDBVMakGPmVapf9hUJtXb7",
+                    "inst": "2022-04-27T00:59:12.291Z",
+                    "name": "Installed as per PBI drawings supplied and manufacturer's requirements",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTR1Lq28WWeUqgJkxSi9hmYb"
+                },
+                "kTcu5bNfQZ3BAzWMjQ4WC7ou": {
+                  "meta": {
+                    "order": 1,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTSDBVMakGPmVapf9hUJtXb7",
+                    "inst": "2022-04-27T00:59:12.291Z",
+                    "name": "Photo taken of line pull test and swages",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTcu5bNfQZ3BAzWMjQ4WC7ou"
+                }
+              },
+              "id": "kTSDBVMakGPmVapf9hUJtXb7"
+            }
+          },
+          "id": "kTUcAZt1mtmJS5Dr5NuxvTZ4"
+        },
+        "kTcPyg9e1MYy5j6bK7notULD": {
+          "meta": {
+            "order": 99,
+            "display": "normal",
+            "type": "step",
+            "permissions": {
+              "addStep": true,
+              "addPost": false
+            },
+            "dependant": true,
+            "parent": "kThcU511K4TR4Hr7oqiDap5z",
+            "inst": "2022-04-27T00:56:46.197Z",
+            "name": "RoofSafe Cable Line 02",
+            "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+            "version": "2017-02-13"
+          },
+          "tree": {
+            "kTTndvXxTwz1THwiHvntjuJS": {
+              "meta": {
+                "order": 99,
+                "display": "flat",
+                "type": "step",
+                "permissions": {
+                  "addStep": false,
+                  "addPost": false
+                },
+                "dependant": true,
+                "parent": "kTcPyg9e1MYy5j6bK7notULD",
+                "inst": "2022-04-27T00:59:40.561Z",
+                "name": "Pre-Fit Off Checklist - Line 02",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "tree": {
+                "kTGXmHCCw85Hg99kqT5HFcum": {
+                  "meta": {
+                    "order": 2,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTTndvXxTwz1THwiHvntjuJS",
+                    "inst": "2022-04-27T00:59:40.561Z",
+                    "name": "Photos taken",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTGXmHCCw85Hg99kqT5HFcum"
+                },
+                "kTJ9P8BSCkq3TeR7111g63WN": {
+                  "meta": {
+                    "order": 0,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTTndvXxTwz1THwiHvntjuJS",
+                    "inst": "2022-04-27T00:59:40.561Z",
+                    "name": "Confirm structure is in accordance to the details provided",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": {
+                    "f33b5857-8198-41c5-971a-8ab0ef42c8f7": {
+                      "float": "left",
+                      "order": 2,
+                      "title": "If FAILED add brief explanation in comments and click below to email PM",
+                      "type": "label"
+                    }
+                  },
+                  "tree": {
+                    "kTYoqMTvEVHTDStX6iwDt6k8": {
+                      "meta": {
+                        "order": 0,
+                        "display": "flat",
+                        "type": "step",
+                        "permissions": {
+                          "addStep": false,
+                          "addPost": false
+                        },
+                        "dependant": true,
+                        "parent": "kTJ9P8BSCkq3TeR7111g63WN",
+                        "signoffs": true,
+                        "inst": "2022-04-27T00:59:40.561Z",
+                        "name": "EMAIL PM",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "tree": {},
+                      "id": "kTYoqMTvEVHTDStX6iwDt6k8"
+                    }
+                  },
+                  "id": "kTJ9P8BSCkq3TeR7111g63WN"
+                },
+                "kTUe5ndq7CgHSQBKPz2unDsC": {
+                  "meta": {
+                    "order": 1,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTTndvXxTwz1THwiHvntjuJS",
+                    "inst": "2022-04-27T00:59:40.561Z",
+                    "name": "Plinths/ bases/post installed in accordance with details provided",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTUe5ndq7CgHSQBKPz2unDsC"
+                }
+              },
+              "id": "kTTndvXxTwz1THwiHvntjuJS"
+            },
+            "kTTBFnjPywNKdvMAJzkzfarR": {
+              "meta": {
+                "order": 99,
+                "display": "flat",
+                "type": "step",
+                "permissions": {
+                  "addStep": false,
+                  "addPost": false
+                },
+                "dependant": true,
+                "parent": "kTcPyg9e1MYy5j6bK7notULD",
+                "inst": "2022-04-27T00:59:47.477Z",
+                "name": "Fit Off Checklist - Line 02",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "tree": {
+                "kTHQhdJYwnkxyKYJqASQfdFy": {
+                  "meta": {
+                    "order": 0,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTTBFnjPywNKdvMAJzkzfarR",
+                    "inst": "2022-04-27T00:59:47.477Z",
+                    "name": "Confirm the structure is in accordance with the details supplied by PBI",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": {
+                    "6242ec89-db8b-4c92-ac8b-40331fb90cc3": {
+                      "float": "left",
+                      "order": 2,
+                      "title": "If FAILED add brief explanation in comments and click below to email PM",
+                      "type": "label"
+                    }
+                  },
+                  "tree": {
+                    "kTecdD2Wf3Dhv7ganGPoVDF7": {
+                      "meta": {
+                        "order": 0,
+                        "display": "flat",
+                        "type": "step",
+                        "permissions": {
+                          "addStep": false,
+                          "addPost": false
+                        },
+                        "dependant": true,
+                        "parent": "kTHQhdJYwnkxyKYJqASQfdFy",
+                        "signoffs": true,
+                        "inst": "2022-04-27T00:59:47.477Z",
+                        "name": "EMAIL PM",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "tree": {},
+                      "id": "kTecdD2Wf3Dhv7ganGPoVDF7"
+                    }
+                  },
+                  "id": "kTHQhdJYwnkxyKYJqASQfdFy"
+                },
+                "kTMcUSCfZbFFY5R3vtN3rAMq": {
+                  "meta": {
+                    "order": 2,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTTBFnjPywNKdvMAJzkzfarR",
+                    "inst": "2022-04-27T00:59:47.477Z",
+                    "name": "Photo taken of Engraved Line Plate / ID Tag",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTMcUSCfZbFFY5R3vtN3rAMq"
+                },
+                "kTYg9AieRqCwzELRkY31uPBw": {
+                  "meta": {
+                    "order": 3,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTTBFnjPywNKdvMAJzkzfarR",
+                    "inst": "2022-04-27T00:59:47.477Z",
+                    "name": "Video taken of system",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTYg9AieRqCwzELRkY31uPBw"
+                },
+                "kTZBNaPZYVbf8oZQQm9dHcv8": {
+                  "meta": {
+                    "order": 4,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTTBFnjPywNKdvMAJzkzfarR",
+                    "inst": "2022-04-27T00:59:47.477Z",
+                    "name": "Installed as per PBI drawings supplied and manufacturer's requirements",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTZBNaPZYVbf8oZQQm9dHcv8"
+                },
+                "kTjpAxg5qkFbQEf96KkuwQt8": {
+                  "meta": {
+                    "order": 1,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTTBFnjPywNKdvMAJzkzfarR",
+                    "inst": "2022-04-27T00:59:47.477Z",
+                    "name": "Photo taken of line pull test and swages",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTjpAxg5qkFbQEf96KkuwQt8"
+                }
+              },
+              "id": "kTTBFnjPywNKdvMAJzkzfarR"
+            }
+          },
+          "id": "kTcPyg9e1MYy5j6bK7notULD"
+        },
+        "kTJBrzZGbPzkJHVsYEuDo4qQ": {
+          "meta": {
+            "order": 99,
+            "display": "normal",
+            "type": "step",
+            "permissions": {
+              "addStep": true,
+              "addPost": false
+            },
+            "dependant": true,
+            "parent": "kThcU511K4TR4Hr7oqiDap5z",
+            "inst": "2022-04-27T00:57:02.485Z",
+            "name": "2no AP Type 01 Fall Arrest Anchors",
+            "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+            "version": "2017-02-13"
+          },
+          "tree": {
+            "4e21bb94cc507f409547830975046147d0bd4c15e2c677e1ded6378ba0ae922d": {
+              "meta": {
+                "type": "update",
+                "parent": "kTJBrzZGbPzkJHVsYEuDo4qQ",
+                "inst": "2022-04-27T00:57:16.197Z",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                [
+                  "meta",
+                  "name",
+                  "2no AP Type 01 Fall Arrest Anchors"
+                ]
+              ],
+              "tree": {},
+              "id": "4e21bb94cc507f409547830975046147d0bd4c15e2c677e1ded6378ba0ae922d"
+            },
+            "kTe3fFhnB8fPSAon9wqFBozq": {
+              "meta": {
+                "order": 99,
+                "display": "flat",
+                "type": "step",
+                "permissions": {
+                  "addStep": false,
+                  "addPost": false
+                },
+                "dependant": true,
+                "parent": "kTJBrzZGbPzkJHVsYEuDo4qQ",
+                "inst": "2022-04-27T00:59:58.575Z",
+                "name": "Fit Off Checklist - Anchor 03",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "tree": {
+                "kTFFSW1Vfsq42McXgxSXe71x": {
+                  "meta": {
+                    "order": 2,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTe3fFhnB8fPSAon9wqFBozq",
+                    "inst": "2022-04-27T00:59:58.575Z",
+                    "name": "Installed as per PBI drawings supplied and manufacturer's requirements",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTFFSW1Vfsq42McXgxSXe71x"
+                },
+                "kTYQd17ksRsB1KAM2d3zJPTe": {
+                  "meta": {
+                    "order": 1,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTe3fFhnB8fPSAon9wqFBozq",
+                    "inst": "2022-04-27T00:59:58.575Z",
+                    "name": "Required number of photo(s) taken of installed anchor(s)",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": {
+                    "075e8ef5-42fb-423c-9690-730db3d03787": {
+                      "float": "left",
+                      "order": 5,
+                      "subtype": "select",
+                      "title": "Anchor Type",
+                      "type": "enum",
+                      "unsettable": false,
+                      "values": [
+                        "FROG 1 photo req",
+                        "L4543 2 photos req",
+                        "L4544 3 photos req",
+                        "L4550 2 photos req",
+                        "L4551 2 photos req",
+                        "L4552 2 photos req",
+                        "M16 Chemset 2 photos req",
+                        "M16 Through BOLT 2 photos req",
+                        "SAFETOR 3 photos req",
+                        "Spiratech 1 photo req"
+                      ],
+                      "value": "FROG 1 photo req"
+                    }
+                  },
+                  "tree": {
+                    "abd6253220727f98e66a8c6e149ce0bd9e3fea3cf7f8e0c9a30096a3ff7b522c": {
+                      "meta": {
+                        "type": "update",
+                        "parent": "kTYQd17ksRsB1KAM2d3zJPTe",
+                        "inst": "2022-04-27T01:00:15.454Z",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "data": [
+                        [
+                          "data",
+                          "075e8ef5-42fb-423c-9690-730db3d03787",
+                          "value",
+                          "FROG 1 photo req"
+                        ]
+                      ],
+                      "tree": {},
+                      "id": "abd6253220727f98e66a8c6e149ce0bd9e3fea3cf7f8e0c9a30096a3ff7b522c"
+                    }
+                  },
+                  "id": "kTYQd17ksRsB1KAM2d3zJPTe"
+                },
+                "kTiuWGqH5ZPrJm14d9snJKXV": {
+                  "meta": {
+                    "order": 0,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTe3fFhnB8fPSAon9wqFBozq",
+                    "inst": "2022-04-27T00:59:58.575Z",
+                    "name": "Confirm the structure is in accordance with the details supplied by PBI",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": {
+                    "10b13284-475d-4dd5-8ace-bbc47a64d07b": {
+                      "float": "left",
+                      "order": 2,
+                      "title": "If FAILED add brief explanation in comments and click below to email PM",
+                      "type": "label"
+                    }
+                  },
+                  "tree": {
+                    "kTgjBUxzFR8qanoSJuAN9mAm": {
+                      "meta": {
+                        "order": 0,
+                        "display": "flat",
+                        "type": "step",
+                        "permissions": {
+                          "addStep": false,
+                          "addPost": false
+                        },
+                        "dependant": true,
+                        "parent": "kTiuWGqH5ZPrJm14d9snJKXV",
+                        "signoffs": true,
+                        "inst": "2022-04-27T00:59:58.575Z",
+                        "name": "EMAIL PM",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "tree": {},
+                      "id": "kTgjBUxzFR8qanoSJuAN9mAm"
+                    }
+                  },
+                  "id": "kTiuWGqH5ZPrJm14d9snJKXV"
+                },
+                "c3fd8c7cd08ed0a48ca51aae0c420a337c1ad2962eeb214f581862991b31b3ef": {
+                  "meta": {
+                    "type": "update",
+                    "parent": "kTe3fFhnB8fPSAon9wqFBozq",
+                    "inst": "2022-04-27T01:00:59.229Z",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": [
+                    [
+                      "meta",
+                      "name",
+                      "Fit Off Checklist - Anchor 03"
+                    ]
+                  ],
+                  "tree": {},
+                  "id": "c3fd8c7cd08ed0a48ca51aae0c420a337c1ad2962eeb214f581862991b31b3ef"
+                }
+              },
+              "id": "kTe3fFhnB8fPSAon9wqFBozq"
+            },
+            "kTUEqtfFFrLRDRHhWpD9Ntka": {
+              "meta": {
+                "order": 99,
+                "display": "flat",
+                "type": "step",
+                "permissions": {
+                  "addStep": false,
+                  "addPost": false
+                },
+                "dependant": true,
+                "parent": "kTJBrzZGbPzkJHVsYEuDo4qQ",
+                "inst": "2022-04-27T01:00:29.705Z",
+                "name": "Fit Off Checklist - Anchor 04",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "tree": {
+                "kTGsi9uN8tTwEnXNMDyDZQjC": {
+                  "meta": {
+                    "order": 0,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTUEqtfFFrLRDRHhWpD9Ntka",
+                    "inst": "2022-04-27T01:00:29.705Z",
+                    "name": "Confirm the structure is in accordance with the details supplied by PBI",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": {
+                    "10b13284-475d-4dd5-8ace-bbc47a64d07b": {
+                      "float": "left",
+                      "order": 2,
+                      "title": "If FAILED add brief explanation in comments and click below to email PM",
+                      "type": "label"
+                    }
+                  },
+                  "tree": {
+                    "kTSNbwJf6oPoK2esMkLRJHWj": {
+                      "meta": {
+                        "order": 0,
+                        "display": "flat",
+                        "type": "step",
+                        "permissions": {
+                          "addStep": false,
+                          "addPost": false
+                        },
+                        "dependant": true,
+                        "parent": "kTGsi9uN8tTwEnXNMDyDZQjC",
+                        "signoffs": true,
+                        "inst": "2022-04-27T01:00:29.705Z",
+                        "name": "EMAIL PM",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "tree": {},
+                      "id": "kTSNbwJf6oPoK2esMkLRJHWj"
+                    }
+                  },
+                  "id": "kTGsi9uN8tTwEnXNMDyDZQjC"
+                },
+                "kTKUPEWJyujcp59j6vJ7q9vq": {
+                  "meta": {
+                    "order": 1,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTUEqtfFFrLRDRHhWpD9Ntka",
+                    "inst": "2022-04-27T01:00:29.705Z",
+                    "name": "Required number of photo(s) taken of installed anchor(s)",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": {
+                    "075e8ef5-42fb-423c-9690-730db3d03787": {
+                      "float": "left",
+                      "order": 5,
+                      "subtype": "select",
+                      "title": "Anchor Type",
+                      "type": "enum",
+                      "unsettable": false,
+                      "values": [
+                        "FROG 1 photo req",
+                        "L4543 2 photos req",
+                        "L4544 3 photos req",
+                        "L4550 2 photos req",
+                        "L4551 2 photos req",
+                        "L4552 2 photos req",
+                        "M16 Chemset 2 photos req",
+                        "M16 Through BOLT 2 photos req",
+                        "SAFETOR 3 photos req",
+                        "Spiratech 1 photo req"
+                      ],
+                      "value": "FROG 1 photo req"
+                    }
+                  },
+                  "tree": {
+                    "bf2057b27931120110425c383943d41b4c55220d2cb069a7e006256ec50c68a1": {
+                      "meta": {
+                        "type": "update",
+                        "parent": "kTKUPEWJyujcp59j6vJ7q9vq",
+                        "inst": "2022-04-27T01:00:34.273Z",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "data": [
+                        [
+                          "data",
+                          "075e8ef5-42fb-423c-9690-730db3d03787",
+                          "value",
+                          "FROG 1 photo req"
+                        ]
+                      ],
+                      "tree": {},
+                      "id": "bf2057b27931120110425c383943d41b4c55220d2cb069a7e006256ec50c68a1"
+                    }
+                  },
+                  "id": "kTKUPEWJyujcp59j6vJ7q9vq"
+                },
+                "kTUo5f4HEzDYr4kX5DuFAgo9": {
+                  "meta": {
+                    "order": 2,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTUEqtfFFrLRDRHhWpD9Ntka",
+                    "inst": "2022-04-27T01:00:29.705Z",
+                    "name": "Installed as per PBI drawings supplied and manufacturer's requirements",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTUo5f4HEzDYr4kX5DuFAgo9"
+                },
+                "2d394b6c724e727c3c374902666e94cb2baa5e7a3bb9833c5c7f7c8c10fab64a": {
+                  "meta": {
+                    "type": "update",
+                    "parent": "kTUEqtfFFrLRDRHhWpD9Ntka",
+                    "inst": "2022-04-27T01:01:06.268Z",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": [
+                    [
+                      "meta",
+                      "name",
+                      "Fit Off Checklist - Anchor 04"
+                    ]
+                  ],
+                  "tree": {},
+                  "id": "2d394b6c724e727c3c374902666e94cb2baa5e7a3bb9833c5c7f7c8c10fab64a"
+                }
+              },
+              "id": "kTUEqtfFFrLRDRHhWpD9Ntka"
+            }
+          },
+          "id": "kTJBrzZGbPzkJHVsYEuDo4qQ"
+        },
+        "kTLj8y1w51J98agCLTNSoKUM": {
+          "meta": {
+            "order": 99,
+            "display": "normal",
+            "type": "step",
+            "permissions": {
+              "addStep": true,
+              "addPost": false
+            },
+            "dependant": true,
+            "parent": "kThcU511K4TR4Hr7oqiDap5z",
+            "inst": "2022-04-27T00:57:35.848Z",
+            "name": "2no AP Type 02 Fall Arrest Anchors (incl. first up strop)",
+            "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+            "version": "2017-02-13"
+          },
+          "tree": {
+            "kTV6LTGwtnKd8xtKyVxhV4KT": {
+              "meta": {
+                "order": 99,
+                "display": "flat",
+                "type": "step",
+                "permissions": {
+                  "addStep": false,
+                  "addPost": false
+                },
+                "dependant": true,
+                "parent": "kTLj8y1w51J98agCLTNSoKUM",
+                "inst": "2022-04-27T01:01:23.834Z",
+                "name": "Fit Off Checklist - Anchor 01",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "tree": {
+                "kTErtBqRM4noctpwYVEdQhpo": {
+                  "meta": {
+                    "order": 1,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTV6LTGwtnKd8xtKyVxhV4KT",
+                    "inst": "2022-04-27T01:01:23.834Z",
+                    "name": "Required number of photo(s) taken of installed anchor(s)",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": {
+                    "075e8ef5-42fb-423c-9690-730db3d03787": {
+                      "float": "left",
+                      "order": 5,
+                      "subtype": "select",
+                      "title": "Anchor Type",
+                      "type": "enum",
+                      "unsettable": false,
+                      "values": [
+                        "FROG 1 photo req",
+                        "L4543 2 photos req",
+                        "L4544 3 photos req",
+                        "L4550 2 photos req",
+                        "L4551 2 photos req",
+                        "L4552 2 photos req",
+                        "M16 Chemset 2 photos req",
+                        "M16 Through BOLT 2 photos req",
+                        "SAFETOR 3 photos req",
+                        "Spiratech 1 photo req"
+                      ],
+                      "value": "FROG 1 photo req"
+                    }
+                  },
+                  "tree": {
+                    "ab1ac9aaa786bc59107af513bb55a09c8d59cedd701290634badba9b772a44ed": {
+                      "meta": {
+                        "type": "update",
+                        "parent": "kTErtBqRM4noctpwYVEdQhpo",
+                        "inst": "2022-04-27T01:01:34.204Z",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "data": [
+                        [
+                          "data",
+                          "075e8ef5-42fb-423c-9690-730db3d03787",
+                          "value",
+                          "FROG 1 photo req"
+                        ]
+                      ],
+                      "tree": {},
+                      "id": "ab1ac9aaa786bc59107af513bb55a09c8d59cedd701290634badba9b772a44ed"
+                    },
+                    "af8b4bc51f6a6230a52f6b455c27c8d16eaae0a115a5ceb23d1fd634e8ea879e": {
+                      "meta": {
+                        "type": "post",
+                        "parent": "kTErtBqRM4noctpwYVEdQhpo",
+                        "inst": "2022-04-27T01:01:39.930Z",
+                        "name": "Comment",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "data": [
+                        {
+                          "note": "with first-up strop"
+                        }
+                      ],
+                      "tree": {},
+                      "id": "af8b4bc51f6a6230a52f6b455c27c8d16eaae0a115a5ceb23d1fd634e8ea879e"
+                    }
+                  },
+                  "id": "kTErtBqRM4noctpwYVEdQhpo"
+                },
+                "kTL2ToCkQVKyY7bmTcz5NzBc": {
+                  "meta": {
+                    "order": 2,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTV6LTGwtnKd8xtKyVxhV4KT",
+                    "inst": "2022-04-27T01:01:23.834Z",
+                    "name": "Installed as per PBI drawings supplied and manufacturer's requirements",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTL2ToCkQVKyY7bmTcz5NzBc"
+                },
+                "kTmeasiQ4HsyyRsJh1rWj1N9": {
+                  "meta": {
+                    "order": 0,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTV6LTGwtnKd8xtKyVxhV4KT",
+                    "inst": "2022-04-27T01:01:23.834Z",
+                    "name": "Confirm the structure is in accordance with the details supplied by PBI",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": {
+                    "10b13284-475d-4dd5-8ace-bbc47a64d07b": {
+                      "float": "left",
+                      "order": 2,
+                      "title": "If FAILED add brief explanation in comments and click below to email PM",
+                      "type": "label"
+                    }
+                  },
+                  "tree": {
+                    "kTYNDPpxsfaDxXq1GznPdsPh": {
+                      "meta": {
+                        "order": 0,
+                        "display": "flat",
+                        "type": "step",
+                        "permissions": {
+                          "addStep": false,
+                          "addPost": false
+                        },
+                        "dependant": true,
+                        "parent": "kTmeasiQ4HsyyRsJh1rWj1N9",
+                        "signoffs": true,
+                        "inst": "2022-04-27T01:01:23.834Z",
+                        "name": "EMAIL PM",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "tree": {},
+                      "id": "kTYNDPpxsfaDxXq1GznPdsPh"
+                    }
+                  },
+                  "id": "kTmeasiQ4HsyyRsJh1rWj1N9"
+                }
+              },
+              "id": "kTV6LTGwtnKd8xtKyVxhV4KT"
+            },
+            "kTNwxgyFsN7f3KbwxLXuFNEj": {
+              "meta": {
+                "order": 99,
+                "display": "flat",
+                "type": "step",
+                "permissions": {
+                  "addStep": false,
+                  "addPost": false
+                },
+                "dependant": true,
+                "parent": "kTLj8y1w51J98agCLTNSoKUM",
+                "inst": "2022-04-27T01:01:29.456Z",
+                "name": "Fit Off Checklist - Anchor 02",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "tree": {
+                "kTMkVGeytzqNyBkhDFP9CAh8": {
+                  "meta": {
+                    "order": 0,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTNwxgyFsN7f3KbwxLXuFNEj",
+                    "inst": "2022-04-27T01:01:29.456Z",
+                    "name": "Confirm the structure is in accordance with the details supplied by PBI",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": {
+                    "10b13284-475d-4dd5-8ace-bbc47a64d07b": {
+                      "float": "left",
+                      "order": 2,
+                      "title": "If FAILED add brief explanation in comments and click below to email PM",
+                      "type": "label"
+                    }
+                  },
+                  "tree": {
+                    "kTTY4tK6CqKzmyQNeBVTeWkJ": {
+                      "meta": {
+                        "order": 0,
+                        "display": "flat",
+                        "type": "step",
+                        "permissions": {
+                          "addStep": false,
+                          "addPost": false
+                        },
+                        "dependant": true,
+                        "parent": "kTMkVGeytzqNyBkhDFP9CAh8",
+                        "signoffs": true,
+                        "inst": "2022-04-27T01:01:29.456Z",
+                        "name": "EMAIL PM",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "tree": {},
+                      "id": "kTTY4tK6CqKzmyQNeBVTeWkJ"
+                    }
+                  },
+                  "id": "kTMkVGeytzqNyBkhDFP9CAh8"
+                },
+                "kTZsTqoChoKtG9eEV1o9gnzM": {
+                  "meta": {
+                    "order": 2,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTNwxgyFsN7f3KbwxLXuFNEj",
+                    "inst": "2022-04-27T01:01:29.456Z",
+                    "name": "Installed as per PBI drawings supplied and manufacturer's requirements",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTZsTqoChoKtG9eEV1o9gnzM"
+                },
+                "kTkTUdJcppXsCqPRk8W9B5ts": {
+                  "meta": {
+                    "order": 1,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTNwxgyFsN7f3KbwxLXuFNEj",
+                    "inst": "2022-04-27T01:01:29.456Z",
+                    "name": "Required number of photo(s) taken of installed anchor(s)",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": {
+                    "075e8ef5-42fb-423c-9690-730db3d03787": {
+                      "float": "left",
+                      "order": 5,
+                      "subtype": "select",
+                      "title": "Anchor Type",
+                      "type": "enum",
+                      "unsettable": false,
+                      "values": [
+                        "FROG 1 photo req",
+                        "L4543 2 photos req",
+                        "L4544 3 photos req",
+                        "L4550 2 photos req",
+                        "L4551 2 photos req",
+                        "L4552 2 photos req",
+                        "M16 Chemset 2 photos req",
+                        "M16 Through BOLT 2 photos req",
+                        "SAFETOR 3 photos req",
+                        "Spiratech 1 photo req"
+                      ],
+                      "value": "FROG 1 photo req"
+                    }
+                  },
+                  "tree": {
+                    "2b7b039a6c1a55a07d08be34669afd36bb4be3e1d91e4aeade9309b437a880be": {
+                      "meta": {
+                        "type": "update",
+                        "parent": "kTkTUdJcppXsCqPRk8W9B5ts",
+                        "inst": "2022-04-27T01:01:43.958Z",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "data": [
+                        [
+                          "data",
+                          "075e8ef5-42fb-423c-9690-730db3d03787",
+                          "value",
+                          "FROG 1 photo req"
+                        ]
+                      ],
+                      "tree": {},
+                      "id": "2b7b039a6c1a55a07d08be34669afd36bb4be3e1d91e4aeade9309b437a880be"
+                    },
+                    "0b45340bcc7aad7b7006081f517107647aab7b9da56a81f683d96125444586b5": {
+                      "meta": {
+                        "type": "post",
+                        "parent": "kTkTUdJcppXsCqPRk8W9B5ts",
+                        "inst": "2022-04-27T01:01:48.292Z",
+                        "name": "Comment",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "data": [
+                        {
+                          "note": "with first up strop"
+                        }
+                      ],
+                      "tree": {},
+                      "id": "0b45340bcc7aad7b7006081f517107647aab7b9da56a81f683d96125444586b5"
+                    }
+                  },
+                  "id": "kTkTUdJcppXsCqPRk8W9B5ts"
+                }
+              },
+              "id": "kTNwxgyFsN7f3KbwxLXuFNEj"
+            }
+          },
+          "id": "kTLj8y1w51J98agCLTNSoKUM"
+        },
+        "kTKwhj6zu8w9C1pKPDX5tfLh": {
+          "meta": {
+            "order": 99,
+            "display": "normal",
+            "type": "step",
+            "permissions": {
+              "addStep": true,
+              "addPost": false
+            },
+            "dependant": true,
+            "parent": "kThcU511K4TR4Hr7oqiDap5z",
+            "inst": "2022-04-27T00:57:59.458Z",
+            "name": "2no Ladder Brackets",
+            "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+            "version": "2017-02-13"
+          },
+          "tree": {
+            "kTNfD8STWFii1P6s8qUCTnkf": {
+              "meta": {
+                "order": 99,
+                "display": "flat",
+                "type": "step",
+                "permissions": {
+                  "addStep": false,
+                  "addPost": false
+                },
+                "dependant": true,
+                "parent": "kTKwhj6zu8w9C1pKPDX5tfLh",
+                "inst": "2022-04-27T00:58:15.981Z",
+                "name": "Fit Off Checklist - Ladder Bracket 01",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "tree": {
+                "kTMFihfVVev4kSZ4mrekCxk9": {
+                  "meta": {
+                    "order": 1,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTNfD8STWFii1P6s8qUCTnkf",
+                    "inst": "2022-04-27T00:58:15.981Z",
+                    "name": "Photos taken of installed item",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTMFihfVVev4kSZ4mrekCxk9"
+                },
+                "kTMjdHW7KhrpZszbG3KjZjpe": {
+                  "meta": {
+                    "order": 2,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTNfD8STWFii1P6s8qUCTnkf",
+                    "inst": "2022-04-27T00:58:15.981Z",
+                    "name": "Installed as per PBI drawings supplied and manufacturer's requirements",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTMjdHW7KhrpZszbG3KjZjpe"
+                },
+                "kTbweZWaEq7Y2HK1NktM6Dae": {
+                  "meta": {
+                    "order": 0,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTNfD8STWFii1P6s8qUCTnkf",
+                    "inst": "2022-04-27T00:58:15.981Z",
+                    "name": "Confirm the structure is in accordance with the details supplied by PBI",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": {
+                    "31d45639-4a4a-4893-9d3e-5407e3a8b1f5": {
+                      "float": "left",
+                      "order": 2,
+                      "title": "If FAILED add brief explanation in comments and click below to email PM",
+                      "type": "label"
+                    }
+                  },
+                  "tree": {
+                    "kTZ8CUKpGZwhDGEJCzUVkpdM": {
+                      "meta": {
+                        "order": 0,
+                        "display": "flat",
+                        "type": "step",
+                        "permissions": {
+                          "addStep": false,
+                          "addPost": false
+                        },
+                        "dependant": true,
+                        "parent": "kTbweZWaEq7Y2HK1NktM6Dae",
+                        "signoffs": true,
+                        "inst": "2022-04-27T00:58:15.981Z",
+                        "name": "EMAIL PM",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "tree": {},
+                      "id": "kTZ8CUKpGZwhDGEJCzUVkpdM"
+                    }
+                  },
+                  "id": "kTbweZWaEq7Y2HK1NktM6Dae"
+                }
+              },
+              "id": "kTNfD8STWFii1P6s8qUCTnkf"
+            },
+            "kTQNKYBM17u17b4ttJYud5vM": {
+              "meta": {
+                "order": 99,
+                "display": "flat",
+                "type": "step",
+                "permissions": {
+                  "addStep": false,
+                  "addPost": false
+                },
+                "dependant": true,
+                "parent": "kTKwhj6zu8w9C1pKPDX5tfLh",
+                "inst": "2022-04-27T00:58:35.860Z",
+                "name": "Fit Off Checklist - Ladder Bracket 02",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "tree": {
+                "kTJ5RwNUbuNdwn38zT9tNg9f": {
+                  "meta": {
+                    "order": 1,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTQNKYBM17u17b4ttJYud5vM",
+                    "inst": "2022-04-27T00:58:35.860Z",
+                    "name": "Photos taken of installed item",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTJ5RwNUbuNdwn38zT9tNg9f"
+                },
+                "kTMzh4U3PGxGr4jp68689DSB": {
+                  "meta": {
+                    "order": 2,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTQNKYBM17u17b4ttJYud5vM",
+                    "inst": "2022-04-27T00:58:35.860Z",
+                    "name": "Installed as per PBI drawings supplied and manufacturer's requirements",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "tree": {},
+                  "id": "kTMzh4U3PGxGr4jp68689DSB"
+                },
+                "kTjiCjk6MqxWffM7fS21hY8E": {
+                  "meta": {
+                    "order": 0,
+                    "display": "normal",
+                    "type": "step",
+                    "permissions": {
+                      "addStep": false,
+                      "addPost": false
+                    },
+                    "dependant": false,
+                    "parent": "kTQNKYBM17u17b4ttJYud5vM",
+                    "inst": "2022-04-27T00:58:35.860Z",
+                    "name": "Confirm the structure is in accordance with the details supplied by PBI",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": {
+                    "31d45639-4a4a-4893-9d3e-5407e3a8b1f5": {
+                      "float": "left",
+                      "order": 2,
+                      "title": "If FAILED add brief explanation in comments and click below to email PM",
+                      "type": "label"
+                    }
+                  },
+                  "tree": {
+                    "kTLC7iSDifVX41zq17iALqvn": {
+                      "meta": {
+                        "order": 0,
+                        "display": "flat",
+                        "type": "step",
+                        "permissions": {
+                          "addStep": false,
+                          "addPost": false
+                        },
+                        "dependant": true,
+                        "parent": "kTjiCjk6MqxWffM7fS21hY8E",
+                        "signoffs": true,
+                        "inst": "2022-04-27T00:58:35.860Z",
+                        "name": "EMAIL PM",
+                        "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                        "version": "2017-02-13"
+                      },
+                      "tree": {},
+                      "id": "kTLC7iSDifVX41zq17iALqvn"
+                    }
+                  },
+                  "id": "kTjiCjk6MqxWffM7fS21hY8E"
+                }
+              },
+              "id": "kTQNKYBM17u17b4ttJYud5vM"
+            }
+          },
+          "id": "kTKwhj6zu8w9C1pKPDX5tfLh"
+        }
+      },
+      "id": "kThcU511K4TR4Hr7oqiDap5z"
+    },
+    "kTdzz8kEcfud7jE2xeSnR1Lg": {
+      "meta": {
+        "order": 99,
+        "display": "flat",
+        "type": "step",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "dependant": true,
+        "parent": "kTNhQUzCfoYCP6bnbCajNCvy",
+        "inst": "2019-07-25T01:31:53.134Z",
+        "name": "Practical Completion",
+        "user": "e3ee0226-6d78-4827-a3e2-c7f357508f60",
+        "version": "2017-02-13"
+      },
+      "tree": {
+        "kTb4WxE6KqeZBAcvhR154XNT": {
+          "meta": {
+            "order": 0,
+            "display": "normal",
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "dependant": true,
+            "parent": "kTdzz8kEcfud7jE2xeSnR1Lg",
+            "inst": "2019-07-25T01:31:53.134Z",
+            "name": "System installed and ready for review from Project Manager.",
+            "user": "e3ee0226-6d78-4827-a3e2-c7f357508f60",
+            "version": "2017-02-13"
+          },
+          "tree": {
+            "kTbSKf4mvivdjjaiq8E8zwKC": {
+              "meta": {
+                "order": 0,
+                "display": "flat",
+                "type": "step",
+                "permissions": {
+                  "addStep": false,
+                  "addPost": false
+                },
+                "dependant": true,
+                "parent": "kTb4WxE6KqeZBAcvhR154XNT",
+                "signoffs": true,
+                "inst": "2019-07-25T01:31:53.134Z",
+                "name": "Request Review from PM",
+                "user": "e3ee0226-6d78-4827-a3e2-c7f357508f60",
+                "version": "2017-02-13"
+              },
+              "tree": {},
+              "id": "kTbSKf4mvivdjjaiq8E8zwKC"
+            }
+          },
+          "id": "kTb4WxE6KqeZBAcvhR154XNT"
+        },
+        "kTgYCjGgNWtBK77jJsjQVX4j": {
+          "meta": {
+            "order": 1,
+            "display": "normal",
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "dependant": false,
+            "parent": "kTdzz8kEcfud7jE2xeSnR1Lg",
+            "inst": "2019-07-25T01:31:53.134Z",
+            "name": "Project Manager has reviewed, checked and approved system.",
+            "user": "e3ee0226-6d78-4827-a3e2-c7f357508f60",
+            "version": "2017-02-13"
+          },
+          "tree": {},
+          "id": "kTgYCjGgNWtBK77jJsjQVX4j"
+        }
+      },
+      "id": "kTdzz8kEcfud7jE2xeSnR1Lg"
+    },
+    "kTduCoekU8CBuUssaQNuTzus": {
+      "meta": {
+        "order": 3,
+        "display": "flat",
+        "type": "step",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "dependant": true,
+        "parent": "kTNhQUzCfoYCP6bnbCajNCvy",
+        "inst": "2019-08-18T03:31:37.839Z",
+        "name": "Roof Access Requirements",
+        "user": "e3ee0226-6d78-4827-a3e2-c7f357508f60",
+        "version": "2017-02-13"
+      },
+      "tree": {
+        "kThvwe8qMv6W5TRRSpFz22kq": {
+          "meta": {
+            "order": 0,
+            "display": "flat",
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "dependant": true,
+            "parent": "kTduCoekU8CBuUssaQNuTzus",
+            "inst": "2019-08-18T03:31:37.838Z",
+            "name": "Brief description of roof access requirements for Recert Team",
+            "user": "e3ee0226-6d78-4827-a3e2-c7f357508f60",
+            "version": "2017-02-13"
+          },
+          "tree": {
+            "00d58b5595e14d532a7ff53e70001f918b642a0cc224e621cec65c327ebbea44": {
+              "meta": {
+                "type": "post",
+                "parent": "kThvwe8qMv6W5TRRSpFz22kq",
+                "inst": "2022-04-27T00:56:04.992Z",
+                "name": "Comment",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                {
+                  "note": "Ladder bracket (incl. access anchor with first-up strop) to both roof areas, refer to as-built"
+                }
+              ],
+              "tree": {
+                "a68e8bc70efc122c49549b8010c88b562fad21ae2297022ba6bc3945f3e22118": {
+                  "meta": {
+                    "type": "update",
+                    "parent": "00d58b5595e14d532a7ff53e70001f918b642a0cc224e621cec65c327ebbea44",
+                    "inst": "2022-04-27T01:02:21.530Z",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": [
+                    [
+                      "data",
+                      0,
+                      "note",
+                      "Ladder brackets to both roof areas, refer to as-built"
+                    ]
+                  ],
+                  "tree": {},
+                  "id": "a68e8bc70efc122c49549b8010c88b562fad21ae2297022ba6bc3945f3e22118"
+                },
+                "d9499b8d93e6d8a6665c37e44cdb8406e2b22d627bfce96594db17982e7f801e": {
+                  "meta": {
+                    "type": "update",
+                    "parent": "00d58b5595e14d532a7ff53e70001f918b642a0cc224e621cec65c327ebbea44",
+                    "inst": "2022-04-27T01:02:34.126Z",
+                    "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                    "version": "2017-02-13"
+                  },
+                  "data": [
+                    [
+                      "data",
+                      0,
+                      "note",
+                      "Ladder bracket (incl. access anchor with first-up strop) to both roof areas, refer to as-built"
+                    ]
+                  ],
+                  "tree": {},
+                  "id": "d9499b8d93e6d8a6665c37e44cdb8406e2b22d627bfce96594db17982e7f801e"
+                }
+              },
+              "id": "00d58b5595e14d532a7ff53e70001f918b642a0cc224e621cec65c327ebbea44"
+            }
+          },
+          "id": "kThvwe8qMv6W5TRRSpFz22kq"
+        }
+      },
+      "id": "kTduCoekU8CBuUssaQNuTzus"
+    },
+    "kTUnsRFX5XPKN37HwnXdwDtK": {
+      "meta": {
+        "order": 1,
+        "display": "flat",
+        "type": "step",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "dependant": true,
+        "parent": "kTNhQUzCfoYCP6bnbCajNCvy",
+        "inst": "2022-04-21T01:20:25.900Z",
+        "name": "Overall Pre-set",
+        "user": "635fa8e3-d675-4016-b478-aa4980f81856",
+        "version": "2017-02-13"
+      },
+      "tree": {
+        "kTHzWMwhK34aMC3GAMDUMrZT": {
+          "meta": {
+            "order": 0,
+            "display": "normal",
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "dependant": true,
+            "parent": "kTUnsRFX5XPKN37HwnXdwDtK",
+            "inst": "2022-04-21T01:20:25.900Z",
+            "name": "Overall Pre-set",
+            "user": "635fa8e3-d675-4016-b478-aa4980f81856",
+            "version": "2017-02-13"
+          },
+          "data": {
+            "194a8abb-7ee1-46a1-aaf2-c0563c50d08f": {
+              "float": "left",
+              "order": 2,
+              "subtype": "text",
+              "title": "Job Number and Name",
+              "type": "input",
+              "value": "7704 CDHB Dock Relocation"
+            },
+            "6f457ae1-8295-4f1f-be93-087f41ddeea8": {
+              "float": "left",
+              "order": 8,
+              "subtype": "text",
+              "title": "PBI Installer and Contact Info",
+              "type": "input"
+            },
+            "80d3a3ec-6153-4658-8a34-0ccfe36469cd": {
+              "float": "left",
+              "order": 5,
+              "subtype": "text",
+              "title": "QS and Contact Info",
+              "type": "input",
+              "value": "Ben Boddouhi - 027 234 4579 - ben.boddouhi@naylorlove.co.nz"
+            },
+            "8b012c66-bf5c-467b-9545-f91f6b685ae6": {
+              "float": "left",
+              "order": 9,
+              "subtype": "text",
+              "title": "PBI PM",
+              "type": "input",
+              "value": "Geoff Newman"
+            },
+            "9bd78c2a-bceb-44ff-a653-5a7027951586": {
+              "float": "left",
+              "order": 3,
+              "subtype": "text",
+              "title": "Site Address",
+              "type": "input",
+              "value": "Riccarton Avenue, City Centre, Christchurch"
+            },
+            "bb9435d0-d07b-4d51-8ee3-c834cec0dbf9": {
+              "float": "left",
+              "order": 6,
+              "subtype": "text",
+              "title": "Project Manager and Contact Info",
+              "type": "input",
+              "value": "Paul Brailey - 027 491 3951"
+            },
+            "c2efba36-206f-4283-b18a-c418cf8f52cd": {
+              "float": "left",
+              "order": 4,
+              "subtype": "text",
+              "title": "Main Contractor",
+              "type": "input",
+              "value": "Naylor Love Construction Ltd - Christchurch"
+            },
+            "eb04791a-a2ce-4c1f-9ad1-499a3d67e121": {
+              "float": "left",
+              "order": 7,
+              "subtype": "text",
+              "title": "Site Manager and Contact Info",
+              "type": "input",
+              "value": "James Brailey - 027 261 1379"
+            }
+          },
+          "tree": {
+            "e6f154d1410d8886d40926c681df1c4542102c2c67be2e610fc0333cc161808e": {
+              "meta": {
+                "type": "update",
+                "parent": "kTHzWMwhK34aMC3GAMDUMrZT",
+                "inst": "2022-04-26T03:16:58.245Z",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                [
+                  "data",
+                  "194a8abb-7ee1-46a1-aaf2-c0563c50d08f",
+                  "value",
+                  "7704 CDHB Dock Relocation"
+                ]
+              ],
+              "tree": {},
+              "id": "e6f154d1410d8886d40926c681df1c4542102c2c67be2e610fc0333cc161808e"
+            },
+            "89308627734a9f382d16eb7d0f6a9eafc96205888a971168b9227ba4ac505e0d": {
+              "meta": {
+                "type": "update",
+                "parent": "kTHzWMwhK34aMC3GAMDUMrZT",
+                "inst": "2022-04-26T03:17:13.805Z",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                [
+                  "data",
+                  "c2efba36-206f-4283-b18a-c418cf8f52cd",
+                  "value",
+                  "Naylor Love Construction Ltd - Christchurch"
+                ]
+              ],
+              "tree": {},
+              "id": "89308627734a9f382d16eb7d0f6a9eafc96205888a971168b9227ba4ac505e0d"
+            },
+            "cbbe9826a70b5cc732a45e0e652c35d11624b8d4bcdef5adff7526e812928eeb": {
+              "meta": {
+                "type": "update",
+                "parent": "kTHzWMwhK34aMC3GAMDUMrZT",
+                "inst": "2022-04-26T03:17:48.821Z",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                [
+                  "data",
+                  "9bd78c2a-bceb-44ff-a653-5a7027951586",
+                  "value",
+                  "Riccarton Avenue, City Centre, Christchurch"
+                ]
+              ],
+              "tree": {},
+              "id": "cbbe9826a70b5cc732a45e0e652c35d11624b8d4bcdef5adff7526e812928eeb"
+            },
+            "03e1db7b7bafc9c288032fd16f81211c2b4edccd320afde81fa8524b72080e87": {
+              "meta": {
+                "type": "update",
+                "parent": "kTHzWMwhK34aMC3GAMDUMrZT",
+                "inst": "2022-04-26T03:18:10.173Z",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                [
+                  "data",
+                  "80d3a3ec-6153-4658-8a34-0ccfe36469cd",
+                  "value",
+                  "Ben Boddouhi - 027 234 4579 - ben.boddouhi@naylorlove.co.nz"
+                ]
+              ],
+              "tree": {},
+              "id": "03e1db7b7bafc9c288032fd16f81211c2b4edccd320afde81fa8524b72080e87"
+            },
+            "9bddd3965bbb5630a1e648c654b21aaba0ce1d82117dfa97eafc96ed934eca9b": {
+              "meta": {
+                "type": "update",
+                "parent": "kTHzWMwhK34aMC3GAMDUMrZT",
+                "inst": "2022-04-26T03:18:18.109Z",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                [
+                  "data",
+                  "bb9435d0-d07b-4d51-8ee3-c834cec0dbf9",
+                  "value",
+                  "Paul Brailey - 027 491 3951"
+                ]
+              ],
+              "tree": {},
+              "id": "9bddd3965bbb5630a1e648c654b21aaba0ce1d82117dfa97eafc96ed934eca9b"
+            },
+            "f8ea0cee896056fbb951ca0798f147eb2f0c353f46ef5a6771fd91a88ba8ba0a": {
+              "meta": {
+                "type": "update",
+                "parent": "kTHzWMwhK34aMC3GAMDUMrZT",
+                "inst": "2022-04-26T03:18:26.716Z",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                [
+                  "data",
+                  "eb04791a-a2ce-4c1f-9ad1-499a3d67e121",
+                  "value",
+                  "James Brailey - 027 261 1379"
+                ]
+              ],
+              "tree": {},
+              "id": "f8ea0cee896056fbb951ca0798f147eb2f0c353f46ef5a6771fd91a88ba8ba0a"
+            },
+            "5419ae020103299657c040d6a41ed02d51bf974756924261503d4ec0c437b48f": {
+              "meta": {
+                "type": "update",
+                "parent": "kTHzWMwhK34aMC3GAMDUMrZT",
+                "inst": "2022-04-26T03:18:40.004Z",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                [
+                  "data",
+                  "8b012c66-bf5c-467b-9545-f91f6b685ae6",
+                  "value",
+                  "Geoff Newman"
+                ]
+              ],
+              "tree": {},
+              "id": "5419ae020103299657c040d6a41ed02d51bf974756924261503d4ec0c437b48f"
+            }
+          },
+          "id": "kTHzWMwhK34aMC3GAMDUMrZT"
+        },
+        "kTW1FUTRMnRmfvW3m7aWi4vp": {
+          "meta": {
+            "order": 2,
+            "display": "normal",
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "dependant": true,
+            "parent": "kTUnsRFX5XPKN37HwnXdwDtK",
+            "inst": "2022-04-21T01:20:25.900Z",
+            "name": "SSP Attached",
+            "user": "635fa8e3-d675-4016-b478-aa4980f81856",
+            "version": "2017-02-13"
+          },
+          "tree": {},
+          "id": "kTW1FUTRMnRmfvW3m7aWi4vp"
+        },
+        "kTXqsS1621cfmv7GDfaJQC3G": {
+          "meta": {
+            "order": 4,
+            "display": "normal",
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "dependant": true,
+            "parent": "kTUnsRFX5XPKN37HwnXdwDtK",
+            "inst": "2022-04-21T01:20:25.900Z",
+            "name": "Relevant Drawings Attached",
+            "user": "635fa8e3-d675-4016-b478-aa4980f81856",
+            "version": "2017-02-13"
+          },
+          "tree": {
+            "c3205abcf9233619c322f73f163e85d52aa9e3a0382d0c8842a0efd47a03dba2": {
+              "meta": {
+                "type": "post",
+                "parent": "kTXqsS1621cfmv7GDfaJQC3G",
+                "inst": "2022-04-26T03:19:30.278Z",
+                "name": "7704-02 FA Anchor to Trapezoidal.pdf",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                {
+                  "ct": "application/pdf",
+                  "hash": "8b674716-e7c7-4a50-a756-7c2ee6fc5766"
+                }
+              ],
+              "tree": {},
+              "id": "c3205abcf9233619c322f73f163e85d52aa9e3a0382d0c8842a0efd47a03dba2"
+            },
+            "351c1981f9d231d858821df738f8029021436032a7bffde18aaea4fa1084e058": {
+              "meta": {
+                "type": "post",
+                "parent": "kTXqsS1621cfmv7GDfaJQC3G",
+                "inst": "2022-04-26T03:19:30.282Z",
+                "name": "7704-03 FA Anchor with Strop to Trapezoidal.pdf",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                {
+                  "ct": "application/pdf",
+                  "hash": "f9ebbfcc-d2a6-457f-b7c6-8155e0938458"
+                }
+              ],
+              "tree": {},
+              "id": "351c1981f9d231d858821df738f8029021436032a7bffde18aaea4fa1084e058"
+            },
+            "3a423a7877d3d0308594d0e94f6766b532c0dee5154b45b208144e109f2b6f31": {
+              "meta": {
+                "type": "post",
+                "parent": "kTXqsS1621cfmv7GDfaJQC3G",
+                "inst": "2022-04-26T03:19:30.902Z",
+                "name": "7704-04 Ladder Bracket to Flashing.pdf",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                {
+                  "ct": "application/pdf",
+                  "hash": "3e0b1684-04b3-430e-b227-be11e3664b7d"
+                }
+              ],
+              "tree": {},
+              "id": "3a423a7877d3d0308594d0e94f6766b532c0dee5154b45b208144e109f2b6f31"
+            },
+            "e1cd10eee6e1f78c56cd11b3f0913e0b42aee4f813bc1f43b0c835179b56d425": {
+              "meta": {
+                "type": "post",
+                "parent": "kTXqsS1621cfmv7GDfaJQC3G",
+                "inst": "2022-04-26T03:19:30.904Z",
+                "name": "7704-01 RoofSafe Cable to Trapezoidal.pdf",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                {
+                  "ct": "application/pdf",
+                  "hash": "fc0e92d2-77e3-419b-ad59-bfb5d5c4ce55"
+                }
+              ],
+              "tree": {},
+              "id": "e1cd10eee6e1f78c56cd11b3f0913e0b42aee4f813bc1f43b0c835179b56d425"
+            },
+            "e844fc0e049688c351bec1826272ec8d02113318ddd4709cb88d6cead7254b85": {
+              "meta": {
+                "type": "post",
+                "parent": "kTXqsS1621cfmv7GDfaJQC3G",
+                "inst": "2022-04-26T03:19:34.364Z",
+                "name": "7704 Marked Plan for Install (14.04",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                {
+                  "ct": "application/pdf",
+                  "hash": "423bf6c9-895b-4ef7-8712-252e490dbbdb"
+                }
+              ],
+              "tree": {},
+              "id": "e844fc0e049688c351bec1826272ec8d02113318ddd4709cb88d6cead7254b85"
+            }
+          },
+          "id": "kTXqsS1621cfmv7GDfaJQC3G"
+        },
+        "kTf8pVQEGhgMzZaUwxch6Bkh": {
+          "meta": {
+            "order": 3,
+            "display": "normal",
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "dependant": true,
+            "parent": "kTUnsRFX5XPKN37HwnXdwDtK",
+            "inst": "2022-04-21T01:20:25.900Z",
+            "name": "Task Analysis Attached",
+            "user": "635fa8e3-d675-4016-b478-aa4980f81856",
+            "version": "2017-02-13"
+          },
+          "tree": {},
+          "id": "kTf8pVQEGhgMzZaUwxch6Bkh"
+        },
+        "kTgTYzpQb1d1AwT5FgtDh6jk": {
+          "meta": {
+            "order": 1,
+            "display": "normal",
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "dependant": true,
+            "parent": "kTUnsRFX5XPKN37HwnXdwDtK",
+            "inst": "2022-04-21T01:20:25.900Z",
+            "name": "System information:",
+            "user": "635fa8e3-d675-4016-b478-aa4980f81856",
+            "version": "2017-02-13"
+          },
+          "tree": {
+            "ad5b5b9bf0b18525a5a657b8d7c210be8ae97651b2eee26a822f4338af8f9ec0": {
+              "meta": {
+                "type": "post",
+                "parent": "kTgTYzpQb1d1AwT5FgtDh6jk",
+                "inst": "2022-04-26T03:19:07.508Z",
+                "name": "Comment",
+                "user": "72a01cc6-3203-4641-bc76-331654f86e95",
+                "version": "2017-02-13"
+              },
+              "data": [
+                {
+                  "note": "RoofSafe Cables, Fall Arrest Anchors and Ladder Brackets"
+                }
+              ],
+              "tree": {},
+              "id": "ad5b5b9bf0b18525a5a657b8d7c210be8ae97651b2eee26a822f4338af8f9ec0"
+            }
+          },
+          "id": "kTgTYzpQb1d1AwT5FgtDh6jk"
+        }
+      },
+      "id": "kTUnsRFX5XPKN37HwnXdwDtK"
+    }
+  },
+  "id": "kTNhQUzCfoYCP6bnbCajNCvy"
+}

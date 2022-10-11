@@ -1,0 +1,88 @@
+{
+  "tree": [
+    {
+      "data": {
+        "ae5d5211-eb22-58c8-9740-4cc4773c8746": {
+          "title": "Labour / operative undertaking work",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "04ef665b-b9f4-58bd-a080-6d0b8b1ee824": {
+          "title": "Materials Used:",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "54f264f4-755b-537d-8411-38b058d6cd70": {
+          "title": "Hours Worked:",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "9da19e48-cc86-5a97-abc8-634e4cbce37a": {
+          "title": "Description of work",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "f76656eb-33fb-5e36-b5fc-09076aea9116": {
+          "title": "Person requesting work:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "f55f5070-b6b8-42ef-9bac-7090b7bc6ad4",
+        "display": "normal",
+        "name": "Has an ATS / SI been received for this work",
+        "dependant": false,
+        "templateId": "cfea1467-2354-4c69-852a-7163eca25f71",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "63793647-2926-4742-96bd-bd247d65d422",
+        "display": "normal",
+        "name": "Job Completed Satisfactorily",
+        "dependant": false,
+        "templateId": "cfea1467-2354-4c69-852a-7163eca25f71",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "7d1103f8-15bd-4aaa-b7f9-17d50cdc2d71",
+        "display": "normal",
+        "name": "Signed Off",
+        "dependant": false,
+        "templateId": "cfea1467-2354-4c69-852a-7163eca25f71",
+        "type": "step",
+        "order": 2
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "templateReference": "cfea1467-2354-4c69-852a-7163eca25f71",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat",
+    "name": "Description:",
+    "dependant": true,
+    "templateId": "cfea1467-2354-4c69-852a-7163eca25f71",
+    "type": "step"
+  }
+}

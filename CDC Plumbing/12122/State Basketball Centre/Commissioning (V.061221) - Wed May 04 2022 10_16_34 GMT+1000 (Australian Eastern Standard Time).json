@@ -1,0 +1,137 @@
+{
+  "tree": [
+    {
+      "meta": {
+        "name": "Check products for imperfections",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "meta": {
+        "name": "Fixtures location & ixings all correct (as per drawings & samples)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "meta": {
+        "name": "Clean out all strainers / aerators",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "meta": {
+        "name": "Check for no cross connections / leaks / access to isolation valves",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "meta": {
+        "name": "Floor wastes (clear of debris & draining correctly)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "meta": {
+        "name": "Quality of silicone seals to fixtures acceptable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "meta": {
+        "name": "Hot water tempering valve set to 50c (+/- 5c) & DDA thermostatic mixing valve set to 42 degrees.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "meta": {
+        "name": "Water pressure acceptable 350Kpa to 500 Kpa",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "data": {
+        "39c440bf-08ca-529f-8ba1-dbdc624f6e4b": {
+          "title": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+          "type": "label",
+          "order": 0
+        },
+        "7530f49a-370d-5a29-ae46-a3bf954c188b": {
+          "title": "CDC Plumbing Signature Sign-Off added below",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 3
+        },
+        "061987c4-ff5c-5adf-b294-8d5dfa6dd8bf": {
+          "title": "Click to Attach Signature(s) below",
+          "type": "label",
+          "order": 1
+        },
+        "e24c5ffb-bc3f-58c5-89ff-95fa873f73bc": {
+          "title": "Signature by Builders Site Coordinator",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 2
+        }
+      },
+      "meta": {
+        "name": "Hydraulic Work(s) completed to specification/drawings & Area left clean/tidy",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    }
+  ],
+  "meta": {
+    "name": "Commissioning (V.061221)",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "tree": [
+    {
+      "data": {
+        "18106df7-290d-5b86-8ba3-2a1e071e1445": {
+          "title": "Drawing & Rev No. (or Photograph below)",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Set-Out & Alignment",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Materials type checked & correct",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Correct fittings",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "a4880b24-bd8d-5e72-a338-30a3679ecc48": {
+          "title": "As per FFE Schedule",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Fittings & fixtures",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "93c115aa-9016-5c49-bfb9-2d0d14878a17": {
+          "title": "As per FFE Schedule",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Fixture install completed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "a8dfe1e8-ceb9-5bb3-ad97-eeb7f46f4e72": {
+          "title": "Any issues, comment / photograph below",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Check products for imperfections",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Silicone seals completed - Neat & tidy",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "data": {
+        "464fe60c-b84f-5e0f-816d-4cc108df84e9": {
+          "title": "Inspection attached below as applicable",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Inspection by Authority",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "data": {
+        "9b4954a3-de9a-5e31-bed9-9eb5e1692aac": {
+          "title": "CDC Plumbing Signature Sign-Off added below",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 3
+        },
+        "57d634e9-aea1-574d-8780-08220c4e7ccb": {
+          "title": "Click to Attach Signature(s) below",
+          "type": "label",
+          "order": 1
+        },
+        "3bb45d94-eaf3-5b38-90b2-4d858e99f64f": {
+          "title": "Signature by Builders Site Coordinator",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 2
+        },
+        "0937b86f-d954-5c5a-9dc6-8172aba63b29": {
+          "title": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Hydraulic Work(s) completed to specification/drawings & Area left clean/tidy",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    }
+  ],
+  "meta": {
+    "name": "Sanitary Fixture - State Basketball Centre",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "tree": [
+    {
+      "data": {
+        "09b97589-8e87-5c6e-a24d-fedc29e5f4e7": {
+          "title": "Working Pressure",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "1e742a2b-46e4-540b-842c-8b4122652ba4": {
+          "title": "Duration of Test (mins)",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "1dc38530-813c-5c25-8e72-576b52c167ca": {
+          "title": "Test Pressure(PSI/Kpa)",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "1557d583-2bb6-58bd-8357-484defe06759": {
+          "title": "Test Media(Water/Gas)",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "dffa9696-567d-485e-ac02-5c5218ad6d0b",
+        "display": "normal",
+        "name": "Pressure Test",
+        "dependant": false,
+        "templateId": "7a238eaa-c209-4bc6-b006-0f94b854b957",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "7d245c42-bf40-562f-804a-9664ef21303b": {
+          "title": "Bassett Representative",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "93b677ec-a9d0-506b-abde-768c3b458c92": {
+          "title": "Witness Name & Company",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "f6ac29f3-11aa-4bd2-af92-5137b798a249",
+        "display": "normal",
+        "name": "The above systems have been installed and pressure tested",
+        "dependant": false,
+        "templateId": "7a238eaa-c209-4bc6-b006-0f94b854b957",
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "templateReference": "7a238eaa-c209-4bc6-b006-0f94b854b957",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat",
+    "name": "Pressure Test",
+    "dependant": true,
+    "templateId": "7a238eaa-c209-4bc6-b006-0f94b854b957",
+    "type": "step"
+  }
+}

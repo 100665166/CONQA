@@ -1,0 +1,86 @@
+{
+  "tree": [
+    {
+      "data": {
+        "8695b06c-281e-5408-be5c-26a2749573d4": {
+          "title": "Next test due",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "cf3cab3f-8783-5f23-b549-44835b1c95d3": {
+          "title": "Date of testing",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "RCD",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Results and/or trip current (less 30mA) for Earth Leakage Device",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Has a new tag been installed on the DB - please take a photo",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "47a880fe-f94d-5198-bfed-cd51066602ea": {
+          "title": "Please take a photo of DB",
+          "type": "label",
+          "order": 0
+        },
+        "f524ba12-8942-5ad1-ba59-8399d101f37b": {
+          "title": "License No.",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Has the front cover been updated",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "name": "Temporary DB checklist",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

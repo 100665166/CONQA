@@ -1,0 +1,86 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Pre-Requisites - All systems within the Fire and Mechanical Matrix fully commissioned",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Test - Confirm that the smoke obscuration levels of Data Hall MASDS adjust in accordance with the obscuration of the OAP MASDS",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Test - AHU and damper operate in accordance with the Fire Matrix",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "f7ab6e61-7c43-5459-829f-ca269a0a96b2": {
+          "title": "Entire Fire Signature Sign-Off added below",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 2
+        },
+        "5bc7a2c5-0a40-5229-92d7-31d1830b0889": {
+          "title": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+          "type": "label",
+          "order": 0
+        },
+        "103dc555-87e5-561c-b010-02e4deb63a5e": {
+          "title": "Signature by Builders Site Co-ordinator (If applicable) - Attached below",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Work(s) completed to specification/drawings & Area left clean/tidy",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "name": "Bushfire Mode ATP Test Sheet",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

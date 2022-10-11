@@ -1,0 +1,71 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "3062b4a6-63ee-4e4e-bf6c-3b651fe2de73",
+        "display": "normal",
+        "name": "Area floor level acceptable",
+        "dependant": false,
+        "type": "step",
+        "templateId": "1b29da8b-57cd-485b-97b7-eae46452e820",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "e0fb787d-9253-43e7-92a6-d37394f36b75",
+        "display": "normal",
+        "name": "Wiring on the floor completed (photos attached)",
+        "dependant": false,
+        "type": "step",
+        "templateId": "1b29da8b-57cd-485b-97b7-eae46452e820",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "templateReference": "cf71e51b-b30f-4f74-8028-1e36cf5bc55b",
+            "display": "flat",
+            "name": "Raise Remedial/ Main Contractor Sign Off",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "templateId": "1b29da8b-57cd-485b-97b7-eae46452e820",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "e1548822-9a09-47e1-b0c5-191d4caf0583",
+        "display": "normal",
+        "name": "Self leveling coverage completed",
+        "dependant": false,
+        "type": "step",
+        "templateId": "1b29da8b-57cd-485b-97b7-eae46452e820",
+        "order": 2
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "templateReference": "1b29da8b-57cd-485b-97b7-eae46452e820",
+    "display": "flat",
+    "name": "Underfloor Heating",
+    "dependant": true,
+    "type": "step",
+    "templateId": "1b29da8b-57cd-485b-97b7-eae46452e820"
+  }
+}

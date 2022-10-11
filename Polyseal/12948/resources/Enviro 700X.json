@@ -1,0 +1,177 @@
+{
+  "tree": [
+    {
+      "data": {
+        "851a20f0-204d-5447-a30e-9c8de343af25": {
+          "title": "Specification / Standard: AS4654.1-2012; AS3740 - 2010, Manufacturer’s Technical Data Sheet",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Relevant Australian Standards Checked",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "34d9a6a3-9257-5012-a09a-2dd6ae595206": {
+          "title": "Attach Photo. [POL HOLD POINT] / [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Check Substrate. Check for cracks/defect in concrete. Check critical areas (puddle flanges, penetrations, expansion joints, rebates/setdowns).",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "96ec5791-0edb-5427-9d93-bafb8a740b13": {
+          "title": "Attach Photo. [POL HOLD POINT] / [MPX HOLD POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Prepare Substrate. (moisture test if required) and prepare surface to accept primer using a scraper or grinder and vacuum or sweep residual debris.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check label on drum(s) to ensure correct material is being used. [MPX WITNESS POINT]",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "01d15033-248a-5c18-b0ec-8f7f2ba05bfb": {
+          "title": "Attach Photo. [MPX HOLD POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Apply primer (Enviro Shield/Enviro prime P2 or Enviro Epoxy B-LV) by brush/roller",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "763caa47-5281-55f1-9746-65a6f58ccbed": {
+          "title": "Attach Photo. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Caulking. Apply Enviro Flex FC junction fillets (where applicable)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {
+        "e735acf2-61f6-5255-918e-b599f86801e8": {
+          "title": "Attach Photo. Enter WFT/DFT reading on comment section. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Mixing and Application. Mix Enviro 700X thoroughtly using mechanical mixer. Apply Enviro 700X using brush/roller achieving 1.6mm WFT / 1.5mm DFT. Broadcast Aggregate when applying to plant rooms.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "data": {
+        "d16c6b89-af55-547d-be1e-df4b8dbe0597": {
+          "title": "Attach Photo. [MPX HOLD POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Testing. Flood test when applicable.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "HOLD POINT - CLICK HERE TO REQUEST BUILDER SIGN OFF",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Final signoff and handover. Visually inspect and ensure adequately cured. Check for any pinholes and bubbles. Sign-off from builder and hand-over",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    }
+  ],
+  "meta": {
+    "name": "Enviro 700X",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

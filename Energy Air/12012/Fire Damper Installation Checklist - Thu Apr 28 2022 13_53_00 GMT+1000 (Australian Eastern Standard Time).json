@@ -1,0 +1,255 @@
+{
+  "tree": [
+    {
+      "data": {
+        "47a73d84-00c2-59dd-8ea2-108268b72497": {
+          "title": "Fire damper manufacturer.",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "30e7156f-f1a1-5424-8a2f-ae44fee56e7f": {
+          "title": "Drawing rev",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "e82539d5-f0a5-5947-b6a0-3ef833b40004": {
+          "title": "Area/Level/Zone.",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "0e421d5e-c325-5587-ba5a-35fc44b19f4d": {
+          "title": "System Reference.",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Damper installed as per drawing",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "d333530c-1dbf-5509-a5ae-5aa0051c0a3e": {
+          "title": "Fire damper mechanism type",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Curtain",
+            " Motorised",
+            " Slab",
+            " Intumescent"
+          ],
+          "order": 0
+        },
+        "be97c855-61ad-51e4-83c4-15eb30bf26d1": {
+          "title": "Fire damper test report number (Refer to fire damper QA manual).",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Opening in fire rated construction built correctly (Signed by builder).",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Does the structure match that for which damper was tested",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Energy Air fire damper installation drawing number (Refer to fire damper QA manual).",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "d1c7debe-4681-5e7f-a64a-e1a383877512": {
+          "title": "Check damper orientation (i.e. Upside down or not).",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Is the damper & penetration construction as per Energy Air fire damper installation drawing / an opinion",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check damper air flow direction.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Is the damper casing wholly within wall structure",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Is damper expansion material fitted between damper and penetration",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check for minimum clearance between damper & penetration is as per standard.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check that the fusible link is fitted and has the correct temperature rating.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 9
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check damper blades are fully open.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 10
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check damper closure is not impeded (drop test).",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 11
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Confirm an access panel in the duct is provided and allows access to reset damper.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 12
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "If motorised, is the actuator fixed to the damper body",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 13
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Confirm break away bolts / fixings have been used (plastic or aluminium).",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 14
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Are retaining angles fitted",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 15
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Is the damper labelled with information as required",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 16
+      }
+    }
+  ],
+  "meta": {
+    "name": "Fire Damper Installation Checklist",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

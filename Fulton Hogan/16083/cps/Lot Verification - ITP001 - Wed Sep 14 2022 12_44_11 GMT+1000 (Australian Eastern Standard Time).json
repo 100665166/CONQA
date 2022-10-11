@@ -1,0 +1,116 @@
+{
+  "tree": [
+    {
+      "data": {
+        "322e6b99-8c94-5a99-8f79-535f087d6de6": {
+          "title": "Subcontractor/ Supplier records attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Yes",
+            "No",
+            "N/A"
+          ],
+          "order": 2
+        },
+        "380c03cc-ebfc-54a7-9857-3f4d2a1a658e": {
+          "title": "As built records attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Yes",
+            "No",
+            "N/A"
+          ],
+          "order": 4
+        },
+        "f1596998-0833-5b3c-8f66-36f441b22279": {
+          "title": "Lot Closed On",
+          "type": "input",
+          "subtype": "text",
+          "order": 7
+        },
+        "316ddbca-0358-5e7a-aef3-80c8f6cdf4d2": {
+          "title": "Lot Plan or “Highlighted” IFC drawings (mud maps) attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Yes",
+            "No",
+            "N/A"
+          ],
+          "order": 0
+        },
+        "b3d14b7a-3e07-53fa-9a5d-726bb73ed32b": {
+          "title": "Lot verified By",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Babak Rudd-Project Quality Manager",
+            " Nicolas Nicola Lodo (Area 2 Manager)",
+            " Nicolas Terpstra (Delivery Manager)"
+          ],
+          "order": 5
+        },
+        "5388fd08-f807-55c4-82be-266973efcdde": {
+          "title": "Survey conformance records attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Yes",
+            "No",
+            "N/A"
+          ],
+          "order": 1
+        },
+        "f6c3e5bf-796a-5396-8299-a2663e90a8cf": {
+          "title": "Lot Status",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "OUTSTANDING",
+            " CLOSED"
+          ],
+          "order": 6
+        },
+        "da1dc984-8eb8-5c51-b528-452df47cdfc1": {
+          "title": "Conforming Test Results attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Yes",
+            "No",
+            "N/A"
+          ],
+          "order": 3
+        },
+        "fe668f90-2e55-54c0-9e99-51e474c674a0": {
+          "title": "comments",
+          "type": "input",
+          "subtype": "text",
+          "order": 8
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Lot Verification.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Lot Verification",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

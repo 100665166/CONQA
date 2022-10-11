@@ -1,0 +1,221 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Services Isolation Complete for this section of works",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Protection of remaining items",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Non-friable Asbestos Removal Complete",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Friable Asbestos Removal Complete",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "1832afe4-5eae-59e1-84df-8a345718b4a6": {
+          "title": "Is there reason to believe there are load bearing elements?",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            "No"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Defit Tenancy - Removal of all joinery, doors, furniture, partitions",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Walls - Remove to correct height as outlined by scope/BuildCorp",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Ceilings - Greencap to mark out extent of mould. Confirm removed by Delta with before and after photos.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "data": {
+        "6260f157-411c-50c9-a655-383ac730da9b": {
+          "title": "Walls - Are the studs timber or steel?",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Timber",
+            "Steel",
+            "Both",
+            "Other (please specify below)"
+          ],
+          "order": 0
+        },
+        "91dbd388-324c-59be-a187-013abb999b0e": {
+          "title": "Specify if 'other'",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Only if timber - Take photo, inform BuildCorp, gain approval to remove - attach BuildCorp signature below",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Shopfront - Greencap/BuildCorp to confirm extent of demolition. Take photo to confirm marking of extent - attach BuildCorp signature below",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    },
+    {
+      "data": {
+        "c4881298-9afd-5882-8dd7-5cffc0595d4b": {
+          "title": "Flooring - Are the floors timber or tiles? Timber flooring can be removed with a photo taken upon completion - attach BuildCorp signature below",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Timber",
+            "Tiles",
+            "Vinyl",
+            "Other (please specify below)"
+          ],
+          "order": 0
+        },
+        "3884673a-8dc7-5354-a4a9-af4e754407d7": {
+          "title": "Specify if 'other'",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Only if tiles - Take photo, inform BuildCorp, gain approval to remove/leave.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 9
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Removal of subfloor services. Concrete scanning to be completed before sawcutting - attach Delta signature below",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 10
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Service in Floor - Greencap to confirm if conduit is to be removed - attach Greencap signature below",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 11
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Builders Clean complete",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 12
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Is all of Delta's scope complete and ready to handover for decontamination? Attach BuildCorp signature below",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 13
+      }
+    }
+  ],
+  "meta": {
+    "name": "Strip Out Works checklist",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

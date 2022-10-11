@@ -1,0 +1,278 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "b94abc6d-6a0f-56bd-8931-318935c39c9f": {
+              "title": "Drawing Ref No.",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "28903f6a-9099-5cd1-92f4-7b024a19bdc4": {
+              "title": "Trench type",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "dcfbf9bd-76a0-486b-86e2-52496101c281",
+            "display": "normal",
+            "name": "Latest consented drawings",
+            "dependant": false,
+            "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "8c545981-eaae-49f5-bd17-9a972461c55b",
+            "display": "normal",
+            "name": "Setout completed checked and accurate",
+            "dependant": false,
+            "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "a9e83119-527c-45c3-b786-72cb0ee78149",
+            "display": "normal",
+            "name": "Excavation Accurate - Location & Depth",
+            "dependant": false,
+            "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "0a29c509-2a74-4e2c-a181-687c458cf7a5",
+            "display": "normal",
+            "name": "Ground Conditions Checked & Acceptable",
+            "dependant": false,
+            "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "8d9d046c-8c9a-48c6-8554-6123edf101f8",
+            "display": "normal",
+            "name": "Bedding depth and material correct",
+            "dependant": false,
+            "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+            "type": "step",
+            "order": 4
+          }
+        },
+        {
+          "data": {
+            "48b06e0e-0d31-50e3-bc6d-d9663f9ef77a": {
+              "title": "Soil Removed",
+              "type": "boolean",
+              "order": 1
+            },
+            "bbd7c263-80b8-5946-a97a-60857a70e6d4": {
+              "title": "Hard Filled",
+              "type": "boolean",
+              "order": 3
+            },
+            "b1d5ab9b-fece-5507-98e2-821bdc0215a4": {
+              "title": "Bedding Sound",
+              "type": "boolean",
+              "order": 0
+            },
+            "3fbace9b-0ff4-5aa2-bcf8-ca3c2589926b": {
+              "title": "Trench Compacted",
+              "type": "boolean",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "eedb3e2e-2101-4af3-b2d1-fce668fdc690",
+            "display": "normal",
+            "name": "Services laid as per detail - attach relevant cross section",
+            "dependant": false,
+            "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+            "type": "step",
+            "order": 5
+          }
+        },
+        {
+          "data": {
+            "730b2e30-7a3a-575b-b4d6-082a10418ed1": {
+              "title": "Acknowledgement of checklist by",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "ef68055f-df7b-5c33-8d9a-25d67a6edd73": {
+              "title": "Sign Off By",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "d0e370d2-f04e-5c49-adfd-25f7c813b14f": {
+              "title": "Foreman",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "b59d4d52-b508-4f6c-91ea-d847897303c4",
+            "display": "normal",
+            "name": "Area of Work Inspection Completed & Sign Off",
+            "dependant": false,
+            "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+            "type": "step",
+            "order": 6
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "b7e9587a-c4f9-45a7-9de5-94f89a9f607c",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Trench Excavation",
+        "dependant": true,
+        "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "312b6230-c330-4b3f-8065-6342519673a3",
+            "display": "normal",
+            "name": "Backfill methodology and material confirmed",
+            "dependant": false,
+            "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "9c243f67-8314-4a51-bead-c2a1039e8149",
+            "display": "normal",
+            "name": "Any formwork/ debris removed from area",
+            "dependant": false,
+            "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "83b5e470-c228-475e-8708-f5e32dee6bef",
+            "display": "normal",
+            "name": "Any waterproofing/ drainage / service requirements completed and inspected",
+            "dependant": false,
+            "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "0f829cce-1d14-4aee-8ce2-9f6069b41537",
+            "display": "normal",
+            "name": "Approval given to commence backfill - attach any other relevant inspections and observations closed out",
+            "dependant": false,
+            "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "7d3fbb90-d863-4fc3-8a03-ca16b3d4aa85",
+            "display": "normal",
+            "name": "General photos and observations during backfill",
+            "dependant": false,
+            "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+            "type": "step",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "c3bb47b2-3d7e-4c52-b920-1f6b750b54ac",
+            "display": "normal",
+            "name": "Backfill completed correctly and heights checked/ correct",
+            "dependant": false,
+            "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+            "type": "step",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "83b5a88a-d1ed-492a-b83f-d2553bf83ec1",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Backfill",
+        "dependant": true,
+        "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "templateReference": "7c638079-4e79-41b9-9675-5a098ffef091",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "Services Trench Checklist",
+    "dependant": true,
+    "templateId": "7c638079-4e79-41b9-9675-5a098ffef091",
+    "type": "step"
+  }
+}

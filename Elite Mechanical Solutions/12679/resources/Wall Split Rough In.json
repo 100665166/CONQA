@@ -1,0 +1,69 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "bc74aa8d-cc31-4ad2-9b87-566ef8d2780c",
+        "display": "normal",
+        "name": "Drain roughed in to correct indoor unit location",
+        "dependant": false,
+        "templateId": "7abec289-fc79-4a71-b239-c2654c9ff4f3",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "0e54f794-1692-4e9c-af93-67551cc29ba5",
+        "display": "normal",
+        "name": "Condensate Drain run On Grade To T/D",
+        "dependant": false,
+        "templateId": "7abec289-fc79-4a71-b239-c2654c9ff4f3",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "4cc2fefa-f446-4ecc-b183-fc23f4fb62e4",
+        "display": "normal",
+        "name": "Condensate Pump Roughed In If Required including tubing",
+        "dependant": false,
+        "templateId": "7abec289-fc79-4a71-b239-c2654c9ff4f3",
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "e6c8a079-89f9-4a05-b4cd-edde2825e0c4",
+        "display": "normal",
+        "name": "Pipework roughed in to correct location",
+        "dependant": false,
+        "templateId": "7abec289-fc79-4a71-b239-c2654c9ff4f3",
+        "type": "step",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "templateReference": "7abec289-fc79-4a71-b239-c2654c9ff4f3",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat",
+    "name": "Wall Split Rough In",
+    "dependant": true,
+    "templateId": "7abec289-fc79-4a71-b239-c2654c9ff4f3",
+    "type": "step"
+  }
+}

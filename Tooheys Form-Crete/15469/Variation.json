@@ -1,0 +1,117 @@
+{
+  "tree": [
+    {
+      "data": {
+        "06cc61b7-4a16-4b6f-a120-195491e4fcab": {
+          "float": "left",
+          "title": "Signature/Reference Mail",
+          "type": "input",
+          "subtype": "text",
+          "order": 6
+        },
+        "2a595053-adcd-4c0a-80c3-312aad0809e8": {
+          "float": "left",
+          "title": "Variation Description",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "27391e42-12f5-42f5-939b-f73c37db06af": {
+          "float": "left",
+          "title": "Variation Name",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "f85dfc1f-02a2-43ae-93bd-35c0116e4bb3": {
+          "float": "left",
+          "title": "Materials & labour breakdown (Names, Hours & Material(s)/Quantities)",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "80a3a2d2-f52f-4761-81e6-17f85c4f8dca": {
+          "float": "left",
+          "title": "Acknowledgement",
+          "type": "input",
+          "subtype": "text",
+          "order": 5
+        }
+      },
+      "meta": {
+        "name": "Variation Details Complete (Pass once inputted)",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "meta": {
+        "name": "Photo(s)",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "meta": {
+        "name": "Supporting Documentation (Attached or Referenced)",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "c606786c-4b53-41cb-b682-d14999eac999": {
+          "unsettable": false,
+          "float": "left",
+          "title": "Toohey Representative Signature Added below",
+          "type": "enum",
+          "subtype": "button",
+          "order": 10
+        },
+        "095f1b0b-1c91-41f9-9951-def570935d99": {
+          "unsettable": false,
+          "float": "left",
+          "title": "Builder Representaitve Signature Added below",
+          "type": "enum",
+          "subtype": "button",
+          "order": 11
+        }
+      },
+      "tree": [
+        {
+          "meta": {
+            "name": "Click to Add Signatures of Allpro & Builder's Representative",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "display": "flat",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Variation Sign-Off - Click to Add signatures below",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "name": "Variation -",
+    "dependant": true,
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

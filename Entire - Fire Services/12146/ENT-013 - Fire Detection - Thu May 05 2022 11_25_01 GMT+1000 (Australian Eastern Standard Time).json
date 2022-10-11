@@ -1,0 +1,422 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "5349f820-58c3-55f0-8453-df673463203a": {
+              "title": "Drawing & Revision # (or Attach photo below)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Latest IFC drawings checked & referenced",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "444efb2c-4747-55ff-9e35-7dfe8a35635d": {
+              "title": "Attach Photos/Comments below if any issues & Send report to Builder",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Area clear, tidy and accessible ",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "15cbb4d0-0009-5b8d-b082-3a2dcdb5d9b1": {
+              "title": "PASS if received in good condition - If not FAIL & Attach Photos/Comments below",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Cable/Conduit/Tray",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "c9659d41-a29d-56d1-ad4a-115bc1d6cbcc": {
+              "title": "PASS if received in good condition - If not FAIL & Attach Photos/Comments below",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Fire Devices",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-Start",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "0af6b91c-3aab-5e43-aa1d-6a55022bfd39": {
+              "title": "Specification Ref: AS:1670",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Correct cable used (eg Fire rated as required)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "abf48ee1-78f9-526a-86cb-d9a723a53306": {
+              "title": "Specification Ref: AS:3000",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Cable Support",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "7a8957bb-3a18-5230-8466-9621e06bdcfd": {
+              "title": "Specification Ref: AS:3000",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Segregation from other electrical services",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Installation Rough-In",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "c43fa97a-a421-5909-aedb-558572b67cef": {
+              "title": "Specification Ref: Drawings & AS:1670",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Devices",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "5290736e-318f-553a-b1fe-fc2b815e518c": {
+              "title": "Specification Ref: AS:1670",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Ancillary Functions",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "2309e473-b6a9-5ec5-b5fa-b08e528b0e3a": {
+              "title": "Specification Ref: AS:1670",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "FDCIE",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "ef919105-376a-5393-8b08-f68501a7bf95": {
+              "title": "Specification Ref: AS:1670",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "ASE",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Installation Fit-Off",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "d42ebf36-668b-5c5c-b510-770f9f36418a": {
+              "title": "Specification Ref: Drawings & AS:1670",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Confirm all devices indicate at FDCIE",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "3f6de23b-d71d-5db0-87b9-f301212737f7": {
+              "title": "Specification Ref: AS:1670",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Confirm operation of all ancillary functions from FDCIE",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "a3dd96ed-ab28-534d-9488-9dd95bbc370a": {
+              "title": "Specification Ref: AS:1670",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "FDCIE. Operate each alarm test, isolate and reset for each alarm zone",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "8d68ae6d-f184-52b5-b995-33fc832b515c": {
+              "title": "Specification Ref: AS:1670",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "ASE. Confirm the master alarm facility receives all alarms",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "b9e9c623-c85c-507a-8b93-f68a747f2dcf": {
+              "title": "Specification Ref: AS:1670",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "ASE. Confirm the master alarm facility receives all alarms",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Commissioning",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "f8ed5d62-9665-509b-9e07-3a2850991415": {
+              "title": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+              "type": "label",
+              "order": 0
+            },
+            "fb165b2a-a29c-563c-860e-695d9783e1ab": {
+              "title": "Signature by Builders Site Coordinator - If applicable attach below",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 1
+            },
+            "46c64ab3-88b3-5039-86a5-c99675242f7d": {
+              "title": "Entire Fire Signature Sign-Off added below",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Work(s) completed to specification/drawings & Area left clean/tidy",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Sign-Off",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "name": "ENT-013 - Fire Detection",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

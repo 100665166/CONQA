@@ -1,0 +1,58 @@
+{
+  "tree": [
+    {
+      "data": {
+        "0f589ac6-a197-5687-ae14-e89685be711b": {
+          "title": "Site Managers Details (Name, Mobile & Email)",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "41cf9073-c98f-5e07-ab2f-3951fe8d4bf1": {
+          "title": "Main Contractor Details",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "990d6ff0-156a-598c-a993-1acef27945a8": {
+          "title": "Site Address",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "6d2b5202-35d4-5558-a524-4deee750443b": {
+          "title": "Project Managers Details (Name, Mobile & Email)",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "024e86f1-6fcb-545b-b538-0790f33b1b42": {
+          "title": "Any Additional Site Information",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Site Information Recorded",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Job Details",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

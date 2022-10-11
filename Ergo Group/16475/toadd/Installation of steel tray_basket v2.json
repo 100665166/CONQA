@@ -1,0 +1,127 @@
+{
+  "tree": [
+    {
+      "data": {
+        "23e61614-cad9-5564-989e-831d23bc1ffc": {
+          "title": "Cable support system has been selected to correctly hold the required weight",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 0
+        },
+        "10007a2c-662a-51af-a6b9-8ad067f3f131": {
+          "title": "Cable support system is as per shop drawings and not impacting any other services",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 4
+        },
+        "4469aec1-1854-5dd4-9ceb-dae07634a73e": {
+          "title": "Each cable support has sufficient room for future expansion",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 1
+        },
+        "4385ad32-2ffd-57e0-9942-f362ee0a2a34": {
+          "title": "Cable support system has been correctly installed and is secure in place",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 2
+        },
+        "5dda222b-ff08-52ed-9b73-2fe3dde71c56": {
+          "title": "Height of cable support system has been confirmed and installed to that height in all areas",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 3
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Confirm that the cable support system has been selected as per drawings and specifications",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "All threaded rods have been cut off to correct size",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "All nuts/bolts/channel nuts have been tightened",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Any changes to drawings have been noted on the site as built drawings",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "name": "Installation of steel tray/basket",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

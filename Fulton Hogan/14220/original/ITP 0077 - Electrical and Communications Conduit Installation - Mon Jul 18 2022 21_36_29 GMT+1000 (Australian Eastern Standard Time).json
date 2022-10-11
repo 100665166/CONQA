@@ -1,0 +1,1313 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "5e3571b9-9390-520a-9cdd-f3a3b45f62e5": {
+              "title": "Lot Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "CIL-Civil Lot",
+                " DRL- Drainage Lot",
+                " EAL- Earthworks Lot",
+                " ELL- Electrical Lot",
+                " UTL- Utility Lot",
+                " STL- Structural Lot"
+              ],
+              "order": 3
+            },
+            "a93b791c-7901-5f23-9ea5-39304816f8f0": {
+              "title": "Traffic Direction",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EB - Eastbound",
+                " ME - Median",
+                " NB - Northbound",
+                " SB - Southbound",
+                " WB - Westbound"
+              ],
+              "order": 8
+            },
+            "7efdc4f1-a4af-5087-89c7-b81367045a55": {
+              "title": "From and To Chainage",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "b89f0b7d-a8a1-592c-947b-dc0e570f851a": {
+              "title": "Activity",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "UTIL-Utility- Power + UTIL-Utility- Telecommunication"
+              ],
+              "order": 6
+            },
+            "76785d98-db81-50e2-9140-d7c9306044f6": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "13adb297-dc8c-568d-ba43-5d899710404f": {
+              "title": "Work Commenced On",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "4676968f-d642-56e4-8092-7b7150fe0dfe": {
+              "title": "Lot Opened On",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "c3c7412e-f724-5deb-9dbf-ad578c21bf86": {
+              "title": "Construction Element",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "UTIL - Utility"
+              ],
+              "order": 5
+            },
+            "e66aad90-00b1-5a8b-97d3-81f12dcd720f": {
+              "title": "Lot Created On",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "fcfb5556-3200-5bf5-8af7-0f1b6521127c": {
+              "title": "Engineer Responsible",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "667fd26a-7f43-558a-8540-13c5f58ec656": {
+              "title": "Design Package No",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1145-ACM-CVD-DPK-0002",
+                " 1145-ACM-CVD-DPK-0003",
+                " 1145-ACM-CVD-DPK-0004",
+                " 1145-ACM-CVP-DPK-0001",
+                " 1145-ACM-CVP-DPK-0002",
+                " 1145-ACM-CVR-DPK-0001",
+                " 1145-ACM-CVR-DPK-0002",
+                " 1145-ACM-CVR-DPK-0003",
+                " 1145-ACM-CVR-DPK-0004",
+                " 1145-ACM-ELE-DPK-0001",
+                " 1145-ACM-ELE-DPK-0002",
+                " 1145-ACM-LDE-DPK-0001",
+                " 1145-ACM-LDE-DPK-0002",
+                " 1145-ACM-SBA-DPK-0001",
+                " 1145-ACM-STR-DPK-0001",
+                " 1145-ACM-TSI-DPK-0001",
+                " 1145-ACM-TSI-DPK-0002",
+                " 1145-ACM-TSI-DPK-0003",
+                " 1145-ACM-TSI-DPK-0004",
+                " 1145-ACM-UTL-DPK-0001",
+                " 1145-ACM-UTL-DPK-0002"
+              ],
+              "order": 7
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.0 Lot Information",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Information",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "ffe51650-c66a-5c52-a875-c8b74e55f93d": {
+              "title": "Inspection / Test Method - Document review",
+              "type": "label",
+              "order": 3
+            },
+            "7fbbd419-f6e0-5668-b845-3e3844d18a81": {
+              "title": "Reference Documents - IFC Drawings",
+              "type": "label",
+              "order": 2
+            },
+            "11eb52c9-bb89-502f-8d66-58326f1a8cdf": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Project Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "bd3e7123-384f-55bc-9c87-3b4e0b35083e": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "6f2ddbd2-600a-52a8-bf3e-f7b9000f7c1f": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "3e94acb3-f162-5c26-b0ce-658e69391155": {
+              "title": "Acceptance Criteria - IFC Construction Drawings & Most Current Revision.",
+              "type": "label",
+              "order": 1
+            },
+            "92a18bc2-bb25-5dba-b413-6ce991f33129": {
+              "title": "Record of conformity - IFC Dwgs",
+              "type": "label",
+              "order": 4
+            },
+            "5f3935f6-1eed-53ea-8048-959763534410": {
+              "title": "Frequency - Prior to Commencing",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.1 - IFC / Shop Drawings Submission & Approval.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "1e130648-ec00-5f2b-9189-7ea47356afb1": {
+              "title": "Frequency - Where Required",
+              "type": "label",
+              "order": 0
+            },
+            "01d7f747-a914-51d0-a64d-22ab92a576a8": {
+              "title": "WP",
+              "type": "label",
+              "order": 5
+            },
+            "0330f339-20e6-598b-bddd-1f4c60a61237": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Foreman",
+              "type": "label",
+              "order": 6
+            },
+            "6c3104f9-8c97-55eb-b605-998c89b0926c": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "4eb5bcd7-fcaf-5c3d-b599-1c8e42c436ea": {
+              "title": "Record of conformity - Survey Calibration Certificates",
+              "type": "label",
+              "order": 4
+            },
+            "8f690e80-cefa-5361-828c-c3088934cf26": {
+              "title": "Inspection / Test Method - Survey",
+              "type": "label",
+              "order": 3
+            },
+            "ac0479e2-051a-5f66-82ae-0fc75efe7a2e": {
+              "title": "Acceptance Criteria - Qualified Surveyor to set out extent of works on ground",
+              "type": "label",
+              "order": 1
+            },
+            "33189d89-7661-5aae-9eea-a0a251b8000b": {
+              "title": "Reference Documents - IFC Drawings",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.2 - Survey Set-Out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "e01ff22c-7233-5c7f-a755-f849a3edd668": {
+              "title": "Inspection / Test Method - Survey",
+              "type": "label",
+              "order": 4
+            },
+            "36a04fab-7401-56d2-81cc-80e8ae189f99": {
+              "title": "DYBD documents",
+              "type": "label",
+              "order": 2
+            },
+            "3933a9cc-1a0d-5f00-abd2-643b7b541d7f": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Foreman",
+              "type": "label",
+              "order": 7
+            },
+            "536913ad-8ff7-522d-a6dc-106aee0ec9ec": {
+              "title": "Record of conformity - Excavation Permit",
+              "type": "label",
+              "order": 5
+            },
+            "236847e8-cbfc-5ab6-8247-cfb082cb84ae": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "fbf5b2de-1237-5c3e-8c8a-6740f4c1860f": {
+              "title": "Acceptance Criteria - Identify underground services NDD/hand dig as necessary.",
+              "type": "label",
+              "order": 1
+            },
+            "b0cf2ec7-90f4-5fab-b462-58d11e688d49": {
+              "title": "Frequency - Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "5dd7e81d-5011-5691-914e-6de1152e8e72": {
+              "title": "Reference Documents - Dial Before You Dig",
+              "type": "label",
+              "order": 3
+            },
+            "f3554011-be9a-5533-b3c5-c14b34ad5cce": {
+              "title": "HP*",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.3 - Excavation Permit/ Service Location",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Preliminaries / Pre- commencement activities",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "d086725b-530a-56f7-823e-d3f0b2428f18": {
+              "title": "Frequency - Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "b48f4b23-26cb-5cca-bf42-222f412bce87": {
+              "title": "Reference Documents - VR SS",
+              "type": "label",
+              "order": 3
+            },
+            "e5891eb1-5ad3-57f8-80c8-eeb9e0132023": {
+              "title": "Inspection / Test Method - Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "aef85d33-9226-5268-97cf-d485423d63b9": {
+              "title": "Table",
+              "type": "label",
+              "order": 4
+            },
+            "3d205e23-bb4e-53b5-b801-03f1a3c857f2": {
+              "title": "Excludes utility providers designs and requirements",
+              "type": "label",
+              "order": 2
+            },
+            "8af1ae3b-a873-5422-87b8-4c0f2ad1b175": {
+              "title": "IP",
+              "type": "label",
+              "order": 8
+            },
+            "ccd89c98-ba21-53b9-af1a-32a405c90db4": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Foreman",
+              "type": "label",
+              "order": 9
+            },
+            "c1f74729-e3a3-5404-b9d6-2ad8fbc885bb": {
+              "title": "733.021",
+              "type": "label",
+              "order": 5
+            },
+            "c83d9c26-8b65-5254-b3a4-5932d14096c8": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "f0853eec-7de1-585e-8f3d-7aa12b8d6cf1": {
+              "title": "Record of conformity - This Checklist",
+              "type": "label",
+              "order": 7
+            },
+            "db2daa66-e6c8-5836-8d15-ffccd9059231": {
+              "title": "Acceptance Criteria - Conduit sizing to comply with VR table 733.021",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "2.1 - Conduit Sizing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "b1da0d66-8ff5-51d0-807e-96bfa6dad61c": {
+              "title": "Record of conformity - This Checklist",
+              "type": "label",
+              "order": 4
+            },
+            "b9439503-6f75-56e1-9638-cb0710d5071d": {
+              "title": "IP",
+              "type": "label",
+              "order": 5
+            },
+            "95e7e70f-15e3-5491-8e41-0511a1f38981": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Foreman",
+              "type": "label",
+              "order": 6
+            },
+            "ee66f7f1-8769-59e4-9d09-1f7ddf42e529": {
+              "title": "Frequency - Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "195adfec-1336-544c-b125-2cdafd615a2f": {
+              "title": "Inspection / Test Method - Site Inspection",
+              "type": "label",
+              "order": 3
+            },
+            "1339a4e2-d53b-5772-b418-73ab1501a2f6": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "1ba5159e-932f-5027-85c6-b696cfb38edd": {
+              "title": "Acceptance Criteria - Unless otherwise specified, materials used for bedding and backfilling shall be uniform in composition and free from perishable matter and shall comply with the requirements specified in Table 706.061.",
+              "type": "label",
+              "order": 1
+            },
+            "27ef9bcf-215b-5d04-9172-8635aa4b167c": {
+              "title": "Reference Documents - VRSS 706.03",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "2.2 - Material Backfill",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Materials",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "84b5f644-86b6-5beb-bd82-4b744d16f1b7": {
+              "title": "Reference Documents -",
+              "type": "label",
+              "order": 2
+            },
+            "85fe9d52-31a7-58c6-b6ca-23df7bedb673": {
+              "title": "Inspection / Test Method - Review",
+              "type": "label",
+              "order": 3
+            },
+            "a3f53a4a-6ccd-596b-9171-0a0406ea79cd": {
+              "title": "Frequency - Prior to Excavation",
+              "type": "label",
+              "order": 0
+            },
+            "4704e575-f0b9-50d9-951a-7a21a1cdbbda": {
+              "title": "Acceptance Criteria - Entry/Exit points to be established",
+              "type": "label",
+              "order": 1
+            },
+            "492c0d13-2770-5e0e-b7a1-c5ec11ac4064": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "e0d1784e-01e0-5f61-8925-95f5a7a4d427": {
+              "title": "Record of conformity - This ITP",
+              "type": "label",
+              "order": 4
+            },
+            "caa11962-b374-5c8c-b19f-eb5bbaecce03": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Project Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "27bcc2e9-9502-5133-9980-fc64bad4d1c1": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3.1 - Entry/ Exit Points",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "2f48b85b-0f98-5f54-8324-43174e92ca34": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Project Engineer",
+              "type": "label",
+              "order": 14
+            },
+            "c5fd6576-ad3e-5af7-89de-2d317607e4ec": {
+              "title": "Frequency - Ongoing",
+              "type": "label",
+              "order": 0
+            },
+            "930b981e-1795-5336-8dd8-656e1d297e79": {
+              "title": "Under Local Road Pavement –600mm-800mm",
+              "type": "label",
+              "order": 4
+            },
+            "97fc1abe-7e7e-55c5-8809-1230d77a7fb9": {
+              "title": "Under Open Drains – 750mm",
+              "type": "label",
+              "order": 5
+            },
+            "ff44445f-3e8f-51a5-a7ac-9fa5a14bc225": {
+              "title": "Under Arterial Road Pavement – 1200mm",
+              "type": "label",
+              "order": 3
+            },
+            "0302ef86-44e8-5c8e-a030-d8e31336a354": {
+              "title": "Refer Individual asset owners specifications",
+              "type": "label",
+              "order": 10
+            },
+            "15321147-b8a9-5f4d-a20e-f792b9b86004": {
+              "title": "SCP",
+              "type": "label",
+              "order": 13
+            },
+            "2e013ac7-9604-51ab-8835-99432af52c9f": {
+              "title": "733.031",
+              "type": "label",
+              "order": 9
+            },
+            "b27fbd95-7be7-5a88-9cbe-b7c97f82302b": {
+              "title": "Reference Documents - VR SS",
+              "type": "label",
+              "order": 8
+            },
+            "2defd96b-029b-5017-8ed8-ec435201f7c4": {
+              "title": "Inspection / Test Method - Survey",
+              "type": "label",
+              "order": 11
+            },
+            "c170049e-7793-5b15-87f3-40fea1e90cb9": {
+              "title": "Record of conformity - AS Builts",
+              "type": "label",
+              "order": 12
+            },
+            "fdd7afea-c028-5372-b2dd-9d06859fd57f": {
+              "title": "Under Freeway Pavement – 1200mm",
+              "type": "label",
+              "order": 2
+            },
+            "97e01f9e-9045-5787-8d0a-9bd29516ed88": {
+              "title": "Under footpath or unpaved areas (Extra LV or Comms conduits only) – 300mm",
+              "type": "label",
+              "order": 7
+            },
+            "883ef222-16f1-5c03-af82-187eeb2bce53": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 15
+            },
+            "f74f07dd-292b-58ee-a631-a43333fc73f2": {
+              "title": "Acceptance Criteria - Minimum conduit cover shall apply as per table 733.031",
+              "type": "label",
+              "order": 1
+            },
+            "551e7b16-2e55-5f33-a2be-eb8d84375d33": {
+              "title": "Under footpath or unpaved areas (LV Circuits only) – 600mm",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3.2 - Minimum Cover",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "dbaae6df-1c57-5152-a8ae-a38480b81345": {
+              "title": "Frequency - Prior to backfilling conduits",
+              "type": "label",
+              "order": 0
+            },
+            "739aee1a-8044-51c8-a0df-8cd2904fc746": {
+              "title": "Acceptance Criteria - Once the bedding material has been laid and the conduits put in place, works shall not proceed prior to inspection by superintendent or representative.",
+              "type": "label",
+              "order": 1
+            },
+            "7cc17761-2539-5c2a-9743-fdfeb37564b6": {
+              "title": "For Vicroads assets only. Not applicable to Utility providers",
+              "type": "label",
+              "order": 2
+            },
+            "123d540d-5f36-5c86-b9e3-31f3fe2c366d": {
+              "title": "Reference Documents - VR 733.06",
+              "type": "label",
+              "order": 3
+            },
+            "7d1655e9-609d-5561-89a3-4afeb71d144a": {
+              "title": "Inspection / Test Method - Inspection",
+              "type": "label",
+              "order": 4
+            },
+            "8f643a1d-d222-52b1-8638-f55ab8aa9e33": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "ebf6921e-5489-5841-ad47-3ec3b83c6e15": {
+              "title": "Record of conformity - This ITP",
+              "type": "label",
+              "order": 5
+            },
+            "b028089d-0d11-52da-a21a-2e2f5b249658": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Superintendent or Representative",
+              "type": "label",
+              "order": 7
+            },
+            "4adbbc5a-c1c5-58b3-9219-82f9dc1076d1": {
+              "title": "HP",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "3.3 - Backfilling",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "43859873-0ad2-5d42-b237-c93f813a8f57": {
+              "title": "Inspection / Test Method - Compaction Test",
+              "type": "label",
+              "order": 6
+            },
+            "0d5601f2-9b76-522a-8174-92a04186e031": {
+              "title": "Frequency - During excavation",
+              "type": "label",
+              "order": 0
+            },
+            "158fe47c-6e4d-56b4-930e-fdc93fe94991": {
+              "title": "TP",
+              "type": "label",
+              "order": 8
+            },
+            "f20fcf46-861b-5326-8641-d3216c6de9c0": {
+              "title": "Record of conformity - Test Result",
+              "type": "label",
+              "order": 7
+            },
+            "5ab6381a-2408-5772-a529-21f1ce7cada0": {
+              "title": "Backfilling beneath areas to be paved shall be assessed for compaction in lots as defined in Section 173. The number of tests per lot shall be three. Backfill, the whole of which passes the 37.5 mm AS sieve, shall be compacted to a mean value of density ratio of not less than 97%. The calculation of density ratio shall be based on Standard compactive effort. A lot shall consist of a single layer of work. A minimum of 20% of all lots constructed shall be tested.",
+              "type": "label",
+              "order": 4
+            },
+            "5674025a-6eba-5fa1-bf36-f7bb8e4689b1": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "2e1fffab-8011-5454-a39d-9bc43266b736": {
+              "title": "Reference Documents - Test Results",
+              "type": "label",
+              "order": 5
+            },
+            "a103efc5-cef5-556f-b5af-66191e45c862": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman -",
+              "type": "label",
+              "order": 9
+            },
+            "912df347-d5ca-59c6-9efb-31920d32a30e": {
+              "title": "Bedding and Backfill (except pavement)",
+              "type": "label",
+              "order": 3
+            },
+            "62de9a88-c3af-5ea5-a54b-4fdc4246974b": {
+              "title": "Unless otherwise specified, pavement material shall have during compaction a uniform moisture content within the range 85% to 115% of the optimum moisture content as determined in the Modified compactive effort.",
+              "type": "label",
+              "order": 2
+            },
+            "f816d7ff-c407-5672-bbef-c35e0eba21de": {
+              "title": "Acceptance Criteria - Under Paved Areas - 98% Modified Compaction",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3.4 - Compaction Requirements",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "aa0ce7db-dcec-5f52-8add-a26ff1e97620": {
+              "title": "SCP",
+              "type": "label",
+              "order": 5
+            },
+            "bdd64fdd-251d-554a-8000-f2d8308bfdde": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "4976556d-0a5f-5f77-b8fe-0192c1e1cc35": {
+              "title": "Inspection / Test Method - Survey",
+              "type": "label",
+              "order": 3
+            },
+            "549ff70c-6394-5654-a91a-b2bf4073ca9e": {
+              "title": "Acceptance Criteria - Survey to pick up as record of conformity on top of laid conduit prior to backfill.",
+              "type": "label",
+              "order": 1
+            },
+            "db741149-3b11-5852-a11c-01eefc13fc06": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Foreman",
+              "type": "label",
+              "order": 6
+            },
+            "b17c35a4-4a9e-5dc9-a5d9-72faa8ceca10": {
+              "title": "Record of conformity - AS Builts.",
+              "type": "label",
+              "order": 4
+            },
+            "b02bc6f8-f192-5c1d-9d8c-8ed2c2514109": {
+              "title": "Frequency - During Bore",
+              "type": "label",
+              "order": 0
+            },
+            "058ecf7d-15ff-5a92-864f-17e9be76646f": {
+              "title": "Reference Documents - Survey",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3.5 - Survey pick up / Bore Mark Out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Excavation",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "44888dfd-5c9b-5e10-b478-bcd3114a45c6": {
+              "title": "Acceptance Criteria - Ensure clean fills is used to fill in Entry/ Exit points",
+              "type": "label",
+              "order": 1
+            },
+            "2e35d800-d02d-5fa5-91cd-529666d3cead": {
+              "title": "IP",
+              "type": "label",
+              "order": 5
+            },
+            "b796c8ae-62b3-510d-9c59-2c3eefebc4f7": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Foreman",
+              "type": "label",
+              "order": 6
+            },
+            "2fc6b9f2-55e6-5581-bd6b-cc97755c8216": {
+              "title": "Record of conformity - This ITP",
+              "type": "label",
+              "order": 4
+            },
+            "17b5556f-37fa-5909-af5c-e1dad928968b": {
+              "title": "Inspection / Test Method - Review",
+              "type": "label",
+              "order": 3
+            },
+            "b95970c7-d3bb-5a72-9894-d7e0feb1758a": {
+              "title": "Frequency - On Completion",
+              "type": "label",
+              "order": 0
+            },
+            "6f92e544-454e-515a-90df-4a5d4a43029a": {
+              "title": "Reference Documents -",
+              "type": "label",
+              "order": 2
+            },
+            "1b31328c-23a9-50c0-937b-203fe62d9454": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "4.1 - Entry/ Exit Points",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "ad1fa3de-de53-58f9-bada-37a8ef46a48f": {
+              "title": "Record of conformity - Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "9cb1c727-2bc5-581a-9cb8-0e07c4afb32f": {
+              "title": "Reference Documents - Utility Provider Drawings/ Project Plans",
+              "type": "label",
+              "order": 4
+            },
+            "52bd87d9-f2e2-5d47-b875-c48b19ef8671": {
+              "title": "Frequency - Each Lot",
+              "type": "label",
+              "order": 0
+            },
+            "16ea9300-75cc-54d7-ae85-3b33c422d22b": {
+              "title": "Inspection / Test Method - Project Engineer",
+              "type": "label",
+              "order": 5
+            },
+            "5da4e56f-4460-56cc-a89a-9f3ee44f4755": {
+              "title": "Conduit to slope towards pit for drainage purposes;",
+              "type": "label",
+              "order": 2
+            },
+            "a90e2373-66d2-5636-b7d0-d2547051bac6": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Foreman",
+              "type": "label",
+              "order": 8
+            },
+            "dc74a68e-a935-5328-bb76-da849872ab1c": {
+              "title": "Quantity of conduits to be confirmed and entered w/ each lot.",
+              "type": "label",
+              "order": 3
+            },
+            "afdd2e44-78d7-56e4-883a-d85ffd9cd186": {
+              "title": "IP",
+              "type": "label",
+              "order": 7
+            },
+            "9c726b91-fd60-5ce5-92ad-8b9ab7bb1f85": {
+              "title": "Acceptance Criteria - Conduit arrangement to suit trench detail;",
+              "type": "label",
+              "order": 1
+            },
+            "09cc37de-415f-5cbe-9fd4-4602e4185477": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "4.2 - Conduit Layout",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "e3eed623-1f30-5654-86ad-93094049ca76": {
+              "title": "IP",
+              "type": "label",
+              "order": 6
+            },
+            "bfc78e7a-371c-5922-b634-e7be0de71648": {
+              "title": "Record of conformity - This ITP",
+              "type": "label",
+              "order": 5
+            },
+            "83903bf3-d8d2-5573-98e3-68f9332f79e7": {
+              "title": "733.05",
+              "type": "label",
+              "order": 3
+            },
+            "10fdace4-e812-5fc7-a2c9-12f159fd25ea": {
+              "title": "Reference Documents - VR SS",
+              "type": "label",
+              "order": 2
+            },
+            "a9f880f3-4ab5-53b2-b993-aacd00ddccd1": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Foreman",
+              "type": "label",
+              "order": 7
+            },
+            "0adb26b8-0a90-594b-b88c-ec7c44bf221f": {
+              "title": "Acceptance Criteria - Each conduit for electrical wiring an communications cables shall be provided one synthetic draw cord not less than 3mm diameter and a minimum breaking strain of 1.6kN",
+              "type": "label",
+              "order": 1
+            },
+            "6740a94f-b3c7-5465-8807-5409a9a502b9": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "e6091c32-5c9e-53ec-b6b1-39696a923dc5": {
+              "title": "Inspection / Test Method - Inspection",
+              "type": "label",
+              "order": 4
+            },
+            "612d88df-d8e4-5fba-bed2-8326ebd90e84": {
+              "title": "Frequency - On Completion",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "4.3 - Draw Cord",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "fa4e807c-bd8f-5ed5-8872-3f77065fc192": {
+              "title": "Acceptance Criteria - Ensure site is clean and all garbage has been removed",
+              "type": "label",
+              "order": 1
+            },
+            "cf4fd12d-b432-5069-8e33-ee3b4c721f7f": {
+              "title": "IP",
+              "type": "label",
+              "order": 5
+            },
+            "d60aabb2-6f24-52dc-8cf3-a79e6019e229": {
+              "title": "Record of conformity - This ITP",
+              "type": "label",
+              "order": 4
+            },
+            "bcaff709-d38b-53a5-addf-af27ada0d816": {
+              "title": "Reference Documents - VR 733.09",
+              "type": "label",
+              "order": 2
+            },
+            "f66db0ce-61fc-5559-bcc5-91710f66dd9b": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Foreman",
+              "type": "label",
+              "order": 6
+            },
+            "c84087b3-2794-5129-b160-bac78c28bc2c": {
+              "title": "Inspection / Test Method - Inspection",
+              "type": "label",
+              "order": 3
+            },
+            "1766a336-c139-5b5e-9487-e3f9a2201f7f": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "3bfa110d-c1c9-5449-abee-166a0df962f2": {
+              "title": "Frequency - On Completion",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "4.4 - Site clean up",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "c03f3053-c417-5739-8959-6ac06dd83c81": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Foreman",
+              "type": "label",
+              "order": 6
+            },
+            "3d6a35d0-b659-527c-aba9-022ad0c76f60": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "3e6c9c95-e25e-5d5f-a7fa-2b7c60fbd519": {
+              "title": "Record of conformity - This ITP",
+              "type": "label",
+              "order": 4
+            },
+            "24e67591-ae10-51e5-bf34-f34aae58152b": {
+              "title": "Reference Documents - VR 706.11",
+              "type": "label",
+              "order": 2
+            },
+            "a699e3f0-acfb-57eb-b5db-b34f38741755": {
+              "title": "Inspection / Test Method - Inspection",
+              "type": "label",
+              "order": 3
+            },
+            "883c5d98-e006-5481-a2fd-b2f57ad0fa04": {
+              "title": "Acceptance Criteria - The reinstated surface shall be maintained in a trafficable condition after the completion of backfilling. Additional pavement material shall be placed in the trench and compacted as specified where in paved areas settlement or loss of material from the surface exceeds 20 mm measured from a straight edge laid across the top of the trench.",
+              "type": "label",
+              "order": 1
+            },
+            "06db844b-fdd8-547c-ac75-0fd21132fcd6": {
+              "title": "Frequency - On Completion",
+              "type": "label",
+              "order": 0
+            },
+            "2eb2fb95-4cbc-58bc-87e2-f072fbe35188": {
+              "title": "IP",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "4.5 - Maintenance of Pavement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {
+            "a97624d2-56fb-5c5f-ba68-411d924e89cc": {
+              "title": "Acceptance Criteria - Bore Logs of the works to be supplied from subcontractor",
+              "type": "label",
+              "order": 1
+            },
+            "246a1ae5-771b-5b1b-9fd7-ff84546cc4b6": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "ddcbf913-300f-51cb-8ab4-7d5df7b57e90": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "260cd872-d2ad-58cb-a46f-09f2c6f2ff2b": {
+              "title": "Inspection / Test Method - Document review",
+              "type": "label",
+              "order": 3
+            },
+            "2d912b6c-4697-584a-aadb-515ea2884950": {
+              "title": "Frequency - On Completion",
+              "type": "label",
+              "order": 0
+            },
+            "58637f49-d69b-5e8d-8685-23fc5d2f4593": {
+              "title": "Record of conformity - This ITP",
+              "type": "label",
+              "order": 4
+            },
+            "20a76bfa-3a1a-544b-920c-1e9e324d5e0b": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor Foreman - Project Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "e6065ccd-5b24-5aa0-8728-a60710323a3a": {
+              "title": "Reference Documents - Bore Logs",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "4.6 - Records",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "data": {
+            "1e2b75d9-8b65-5ab3-a9ee-8cb6eb7b2d5e": {
+              "title": "Position:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "7f45dcc9-0f67-5556-8aaf-57b69ff73e0e": {
+              "title": "Print Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "8496136f-536e-5881-8c26-225bf6e5516f": {
+              "title": "Work Completed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "d79f75db-f5ad-56e3-a2d0-12b7ad6b616d": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "46cc5188-0095-57d8-baaf-3b96bbaa3fca": {
+              "title": "The signature below verifies that this ITP has been completed in accordance with the Fulton Hogan's Quality system Procedures and verifies lot compliance with specifications.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "data": {
+            "05b89d3b-e11a-5357-aeff-bb786f03d4a9": {
+              "title": "Lot Closed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "795fdfa9-6efd-5a01-8408-6c9ab0db2869": {
+              "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 2
+            },
+            "fc14a151-faf0-5144-b930-563de4d90681": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "53cd978b-389f-5a45-97fb-ab78f1b2cc16": {
+              "title": "Lot Status",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OUTSTANDING",
+                " CLOSED"
+              ],
+              "order": 4
+            },
+            "e18b10ef-f930-5e19-9922-1a0d95c1bf37": {
+              "title": "Is the relevant NCR attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 1
+            },
+            "77aacab0-5cae-56a1-ab3e-ea51f6934e9b": {
+              "title": "Lot verified By",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Babak Rudd-Project Quality Manager",
+                " Steve Felsinger- Area Manager"
+              ],
+              "order": 3
+            },
+            "95f8a84a-e9a6-5bcb-8855-254f92f6b440": {
+              "title": "Is the relevant RFI attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Lot Verification.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Completion",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "ITP-077-UT-LOT-XXX - Desc",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}

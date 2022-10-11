@@ -1,0 +1,101 @@
+{
+  "tree": [
+    {
+      "data": {
+        "d94f3881-0950-5960-8f26-795759c33a8e": {
+          "title": "Inspection & Test Plan Completed, Agreed & Attached",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "N/A",
+            "Yes"
+          ],
+          "order": 1
+        },
+        "9704ef2c-251f-5634-9cbc-19e9a07a1e79": {
+          "title": "Conqa Setup & Project Team Trained & Given Access",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "N/A",
+            "Yes"
+          ],
+          "order": 3
+        },
+        "38f1cceb-f871-51f6-89d2-be7cd9e5d268": {
+          "title": "Matrix/Insights Setup (if required)",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "N/A",
+            "Yes"
+          ],
+          "order": 5
+        },
+        "cb45cefb-cac0-5afa-8e67-c8d1bd5a8292": {
+          "title": "Quality Management Plan Completed, Agreed & Attached",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "N/A",
+            "Yes"
+          ],
+          "order": 0
+        },
+        "15b88d36-082e-5bc8-a81a-32ea2683f221": {
+          "title": "Review Access Granted to Main Contractor & Relevant Parties",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "N/A",
+            "Yes"
+          ],
+          "order": 4
+        },
+        "7d9158a0-009a-5834-9614-52e1badaecd7": {
+          "title": "Relevant Breakdown & Checklists Setup on Conqa & Reviewed by Main Contractor",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "N/A",
+            "Yes"
+          ],
+          "order": 2
+        }
+      },
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Request Sign Off",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "All Pre-Commencement QC/QA checks completed & Conqa setup",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Quality Pre-Commencement",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

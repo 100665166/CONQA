@@ -1,0 +1,459 @@
+{
+  "tree": [
+    {
+      "data": {
+        "471569eb-d0d4-57dc-8afa-f495fd3d6636": {
+          "title": "Weather Conditions PM",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Fine",
+            " Overcast",
+            " Wet"
+          ],
+          "order": 1
+        },
+        "67c24fd3-b3ee-5e10-a1fb-3fe52b4a4d99": {
+          "title": "Weather Conditions AM",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Fine",
+            " Overcast",
+            " Wet"
+          ],
+          "order": 0
+        },
+        "e3b37304-2b32-5321-94c2-81aa62a7476a": {
+          "title": "Photos / evidence attached as relevant",
+          "type": "label",
+          "order": 2
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Weather Conditions Recorded",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "d01b75e8-eddd-5edc-aec0-4ef3147a5f4a": {
+          "title": "General progress on site today",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "815c50b4-a7cc-50aa-a246-7c211253069d": {
+          "title": "Photo of \"Daily Work Zones\" attached",
+          "type": "boolean",
+          "order": 0
+        },
+        "aff9e6e7-2a90-5a29-8e2e-b90e43d74cbf": {
+          "title": "Any obstructions encountered (attach relevant photos)",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "General progress photos - minimum of 3 attached",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "0c6f5c84-972b-5757-ad2f-eb75856b53d4": {
+          "title": "Architectural Visit Description",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "ccc21ad1-cc40-55e3-88aa-a9e7f0e312c1": {
+          "title": "All visitors recorded below then \"PASS\"",
+          "type": "label",
+          "order": 0
+        },
+        "795a382d-1185-5a4e-ab59-5422948ab099": {
+          "title": "Other - Heritage, Acoustic, Arborist, Archaeologist Site Visit",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 11
+        },
+        "69797700-6792-568d-acea-3bc2c9ddb56f": {
+          "title": "Geotech  Site Visit",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 5
+        },
+        "8b160b17-a36b-5732-a345-47165f1fd6b8": {
+          "title": "Services  Site Visit",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 7
+        },
+        "e0457cf1-a58a-5c29-a9d7-45008e47937e": {
+          "title": "Other - 1 Visit Description",
+          "type": "input",
+          "subtype": "text",
+          "order": 12
+        },
+        "ded52b2f-8677-54fd-98ae-8120cfb68a43": {
+          "title": "Asbestos Visit Description",
+          "type": "input",
+          "subtype": "text",
+          "order": 10
+        },
+        "f0bb321c-d0a3-5bc9-8ad5-194605d52314": {
+          "title": "Architectural  Site Visit",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 3
+        },
+        "b2a249b0-b2ea-5d3c-b6a6-566abc8ae16c": {
+          "title": "Geotech Visit Description",
+          "type": "input",
+          "subtype": "text",
+          "order": 6
+        },
+        "e2d8ca92-db6c-5827-a007-ce0aa31c6198": {
+          "title": "Structural Site Visit",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 1
+        },
+        "ee160fd1-f42c-5cfa-81bd-0e0186777ee0": {
+          "title": "Structural Visit Description",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "758488a8-83a9-5350-8eb9-450129c8a442": {
+          "title": "Other - Council, Resource Consent, Auckland Transport  Site Visit",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 13
+        },
+        "008500ce-2e86-53ab-bf7e-737a22e77af9": {
+          "title": "Services Visit Description",
+          "type": "input",
+          "subtype": "text",
+          "order": 8
+        },
+        "ac129e08-acc4-57b3-aa93-a5827ac5c1eb": {
+          "title": "Asbestos  Site Visit",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 9
+        },
+        "a850c174-2a0f-5a63-93e5-d7d0748c63d8": {
+          "title": "Other 2 - Visit Description",
+          "type": "input",
+          "subtype": "text",
+          "order": 14
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Visitors to Site (Record name, company & purpose)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "d78743de-415a-5b1a-b086-aa8870b2d4a2": {
+          "title": "Confirm the number of people present on site from each of the below categories then \"PASS\"",
+          "type": "label",
+          "order": 0
+        },
+        "f451c141-3195-51d1-8225-1e9316bc509b": {
+          "title": "Hawkins Carpentry",
+          "type": "input",
+          "subtype": "text",
+          "order": 7
+        },
+        "3d4fb52e-5420-54e8-9546-fe553346c2f3": {
+          "title": "Hawkins Labourer",
+          "type": "input",
+          "subtype": "text",
+          "order": 9
+        },
+        "00bfe552-35cc-55cc-af86-35906448e57f": {
+          "title": "Hawkins PM's",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "114f21c8-23c8-5cbc-997c-dfa22702ead0": {
+          "title": "Hawkins Foreman's",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "fb936b39-5c07-5ede-816b-a55d7b011fd5": {
+          "title": "Hawkins Service Engineers",
+          "type": "input",
+          "subtype": "text",
+          "order": 5
+        },
+        "65025a5e-5b22-53c5-9b32-f7b70fbe93ac": {
+          "title": "Hawkins Gateman",
+          "type": "input",
+          "subtype": "text",
+          "order": 8
+        },
+        "10fbd7e8-0864-54ef-b374-aed3a4245f86": {
+          "title": "Hawkins SM's",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "af17724e-ef54-58e0-aac7-286e4ba3e44f": {
+          "title": "Hawkins Other",
+          "type": "input",
+          "subtype": "text",
+          "order": 10
+        },
+        "0dc3b59c-5db1-55c2-becb-c8b05ea40198": {
+          "title": "Hawkins Engineers",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "0015789e-3d93-564b-9e58-5d9b94d4da99": {
+          "title": "Hawkins Cadet",
+          "type": "input",
+          "subtype": "text",
+          "order": 6
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Hawkins Site Management - Man Power Recorded",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "7e075cb7-ee96-50b7-8667-d249ff2a1dd4": {
+          "title": "Photo of manpower report attached then \"PASS\"",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Subcontractors on site - Recorded & Photographed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "de8a6ea4-7571-50ec-8968-24ef5f464bb6": {
+          "title": "Detail & Description of Hired Labour - Recorded then \"PASS\" or \"N/A\"",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "cb1455d6-c24f-587d-9fd5-e1d73224b44c": {
+          "title": "Man Power (Include Labourer & Company Names) & work completed",
+          "type": "label",
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Hawkins Hired Labour Recorded",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {
+        "cd6521ed-339e-5658-977d-484bcf17f820": {
+          "title": "Environmental",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes (Photo & details attached below)",
+            " N/A"
+          ],
+          "order": 3
+        },
+        "88c4aaab-9a92-5ba5-8dd2-d9f6cb4ae302": {
+          "title": "Critical Risks - Photo Uploaded",
+          "type": "boolean",
+          "order": 1
+        },
+        "3c54a34a-3e36-5f8d-9fbb-23e7f14fa95d": {
+          "title": "Any relevant information recorded then \"PASS\"",
+          "type": "label",
+          "order": 0
+        },
+        "d5abc1e2-3898-59bb-ae44-e863bde1d316": {
+          "title": "Accidents / Incidents",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes (Photo & details attached below)",
+            " N/A"
+          ],
+          "order": 2
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Health & Safety",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "data": {
+        "b5a5c985-8fe2-5846-9987-67c7baebb512": {
+          "title": "Any \"Delays\" or potential delays are recorded then select \"PASS\"",
+          "type": "label",
+          "order": 0
+        },
+        "d42e96e5-f2b6-5169-b5fa-bd61d150a6c4": {
+          "title": "If there were no delays select \"N/A\"",
+          "type": "label",
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Delays - Recorded and \"PASS\" or marked as N/A",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "data": {
+        "36a0ae39-489e-5688-a02f-67b0b1ee627a": {
+          "title": "If there were no \"Contra Charges / Non Conformance\" select \"N/A\"",
+          "type": "label",
+          "order": 1
+        },
+        "652bb2a8-94b2-5f29-8555-bafe704afbd9": {
+          "title": "Any \"Contra Charges / Non Conformance\" recorded then select \"PASS\"",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Contra Charges / Non Conformance - Recorded and \"PASS\" or marked as N/A",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Deliveries - Recorded & Photographed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 9
+      }
+    },
+    {
+      "data": {
+        "3ca7af86-ffc3-5444-bac5-72d358b02cfd": {
+          "title": "Description of hired plant on site",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "1cd09950-b5cc-523b-9ae7-238f46a836b8": {
+          "title": "Select \"N/A\" if there is none on site or detail below then \"PASS\" if there is hired plant on site",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Hired Plant Recorded",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 10
+      }
+    }
+  ],
+  "meta": {
+    "name": "Daily Site Report -",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

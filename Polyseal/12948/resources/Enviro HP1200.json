@@ -1,0 +1,198 @@
+{
+  "tree": [
+    {
+      "data": {
+        "01650cf0-430f-5b5e-8fbc-f22151da9929": {
+          "title": "AS4654.2-2012; Manufacturer’s Technical Data Sheet",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Relevant Australian Standards Checked",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "4386c7c5-61f8-572f-8e3a-9c3e39ef7834": {
+          "title": "Attach Photo. [POL HOLD POINT] / [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Check Substrate Check for cracks/defect in concrete. Check critical areas (puddle flanges, penetrations, expansion joints, rebates/setdowns).",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Prepare Substrate. (moisture test if required) and prepare surface to accept primer using a scraper or grinder and vacuum or sweep residual debris.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "6bbcc3ea-98cf-5097-ba73-28dfe7d50454": {
+          "title": "Attach Photo of moiture reading or enter moisture reading in comment section. [POL HOLD POINT] / [MPX HOLD POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Moisture Content Test",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check label on drum(s) to ensure correct material is being used. [MPX WITNESS POINT]",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "817f4896-b485-5b36-bad1-299094804983": {
+          "title": "Visual inspection. Ensure adequately cured. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Apply primer using a brush or roller",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {
+        "4e2cd027-9996-53e1-8c3f-75d3f6bcb630": {
+          "title": "Visual. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Caulking - Apply Enviro Flex FC / PRO to the junction between floor slab and walls",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Mixing. Mix HP 1200. Mixing by way of 1:1 mix ratio (by volume) in heated plural component spray equipment such as Graco E-10 or EXP-2. Both low and high pressure spray equipment can be used for the application of Enviro HP1200. [MPX WITNESS POINT]",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "data": {
+        "c5faf9f6-4304-5095-b3c1-4aa5e5091d3f": {
+          "title": "Attach photo of DFT. Enter DFT reading. [MPX HOLD POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Application. Spray on Enviro HP1200. Achieve 1.5mm DFT.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    },
+    {
+      "data": {
+        "b4e4c970-a139-5496-ac77-10a33d25f70d": {
+          "title": "Attach Photo. [MPX HOLD POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Testing. Carry out Spark Testing and adhesion tests. Repair pinholes and imperfections. Areas marked indicate location of Test.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 9
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "HOLD POINT - CLICK HERE TO REQUEST BUILDER SIGN OFF",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Final Inspection and Sign-off. Visually inspect and ensure adequately cured - DO NOT PASS UNTIL HOLDPOINT COMPLETE BELOW",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 10
+      }
+    }
+  ],
+  "meta": {
+    "name": "Enviro HP1200",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

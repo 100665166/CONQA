@@ -1,0 +1,83 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "During framing, placed all required nogs",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Prior to wall and ceilings linings",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "dfd38bb1-ff51-5603-a479-a73162142e51": {
+          "title": "Fire rating to fire rated wall/ceiling penetrations",
+          "type": "boolean",
+          "order": 3
+        },
+        "57db8bcb-c54c-514b-ab14-3894e5f8f491": {
+          "title": "All security devices at correct heights & positions",
+          "type": "boolean",
+          "order": 0
+        },
+        "d359eef5-1bb6-50b3-93a7-090ba135a93d": {
+          "title": "Cable tray supports/seismic, catenary wires supports",
+          "type": "boolean",
+          "order": 2
+        },
+        "086d249b-130f-5737-ad39-7ac99d58f73a": {
+          "title": "Cables in ceiling void for PIR, CCTV, Sirens, etc. are at correct positions",
+          "type": "boolean",
+          "order": 1
+        }
+      },
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "All required testing complete",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Correct number security devices (card readers, Break glass, Door release, etc.) installed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    }
+  ],
+  "meta": {
+    "name": "Security pre-line",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

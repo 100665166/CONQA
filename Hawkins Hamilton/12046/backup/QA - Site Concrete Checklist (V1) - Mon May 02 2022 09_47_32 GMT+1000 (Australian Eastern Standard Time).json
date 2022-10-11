@@ -1,0 +1,96 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Location of QA check (take a photo of a marked up plan and add here)",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "100mm of pile above site concrete level",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Are the pile heads clean",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Formwork - Correct Dimensions & Heights",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Height pegs installed to correct height",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Local area clear of debris, safe access and ready for work",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Request Signoff",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "display": "flat",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "General photos/comments during install",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    }
+  ],
+  "meta": {
+    "name": "QA - Site Concrete Checklist (V1)",
+    "dependant": true,
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

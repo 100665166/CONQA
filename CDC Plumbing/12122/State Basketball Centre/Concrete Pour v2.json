@@ -1,0 +1,76 @@
+{
+  "data": {},
+  "tree": [
+    {
+      "data": {
+        "0f4a2b96-415c-4ca7-8cd0-dcab21afe622": {
+          "unsettable": false,
+          "type": "enum",
+          "float": "left",
+          "subtype": "button",
+          "order": 2,
+          "values": [
+            "Survey",
+            "Site Measure"
+          ]
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Set out and alignment",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "95c997d2-7153-4a0d-9865-2a466755af1c": {
+          "unsettable": false,
+          "type": "enum",
+          "float": "left",
+          "subtype": "button",
+          "order": 4,
+          "values": [
+            "Fire collar",
+            "Sleeve"
+          ]
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Materials types",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "Inspection Prior to concrete pour",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    }
+  ],
+  "meta": {
+    "name": "Concrete Pour",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

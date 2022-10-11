@@ -1,0 +1,216 @@
+{
+  "tree": [
+    {
+      "data": {
+        "170f230a-8868-5641-8f48-e6ed912df93d": {
+          "title": "Drawing & Rev No. (or Photograph below)",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Set-Out & Alignment",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Materials type checked & correct",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Structural penetrations completed & checked",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Correct fittings",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "fe8b5ad2-d34f-5797-8223-2b53aea23038": {
+          "title": "As per FFE Schedule",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Fittings & fixtures",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "c018b3b7-b0b8-507f-bd9c-14f536b4cb78": {
+          "title": "Attach photos of Fire Collars below",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Fire collars installed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Fire penetration caulked",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Insulation / lagging installed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "data": {
+        "cf2ef836-8f6b-52e7-8d00-f12575fa34ed": {
+          "title": "Water temperature",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "b6bac99b-5190-5b33-8b82-7d2930f1e75c": {
+          "title": "Pressure test kPa",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "b4a7544a-b946-53b7-b672-a14c63349a30": {
+          "title": "Attach photos of testing apparatus below",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Pressure & Temperature testing completed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    },
+    {
+      "data": {
+        "c85dd4d4-287f-5824-baf9-b225c94f4f9d": {
+          "title": "Inspection attached below as applicable",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Inspection by Authority",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 9
+      }
+    },
+    {
+      "data": {
+        "0a1e653d-008b-5679-842d-bfeed6ac66cf": {
+          "title": "Signature by Builders Site Coordinator",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 2
+        },
+        "e1560b4b-4065-596b-a656-8a2a44c77aa2": {
+          "title": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+          "type": "label",
+          "order": 0
+        },
+        "f3a644b4-2059-5b6b-a345-83965be54622": {
+          "title": "CDC Plumbing Signature Sign-Off added below",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 3
+        },
+        "377fa29c-354d-5f1a-876f-4f823527d2b6": {
+          "title": "Click to Attach Signature(s) below",
+          "type": "label",
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Hydraulic Work(s) completed to specification/drawings & Area left clean/tidy",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 10
+      }
+    }
+  ],
+  "meta": {
+    "name": "Above Ground Sewer Drainage - State Basketball Centre",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

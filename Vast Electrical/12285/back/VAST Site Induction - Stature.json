@@ -1,0 +1,167 @@
+{
+  "tree": [
+    {
+      "data": {
+        "a4c47da8-15ca-59ec-9636-9200788095e3": {
+          "title": "Where the First Aid Kit is kept and who is the First Aider",
+          "type": "boolean",
+          "order": 10
+        },
+        "42832778-b65d-53e7-a7a7-978e587fef82": {
+          "title": "The correct minimum PPE for site",
+          "type": "boolean",
+          "order": 7
+        },
+        "fc4af3b4-0449-5462-a315-b69f21f34180": {
+          "title": "How safety is communicated on site",
+          "type": "boolean",
+          "order": 8
+        },
+        "a0926760-c5b2-510e-945e-d49918dfee5b": {
+          "title": "Name",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "6bbaa396-948d-5207-b431-8a018eee4761": {
+          "title": "How to report to the site and who you report to",
+          "type": "boolean",
+          "order": 4
+        },
+        "e9df7948-0a91-5caa-99c3-7602ca2f7fc7": {
+          "title": "The Emergency Plan and the Assembly Area for Emergency Evacuation",
+          "type": "boolean",
+          "order": 11
+        },
+        "c815c54b-c7f6-5148-854c-73e2e79628b2": {
+          "title": "Where to have lunch and where the toilets are",
+          "type": "boolean",
+          "order": 9
+        },
+        "98c191de-09ad-50df-84c8-866eff1f55c9": {
+          "title": "How to report a safety or environmental accident or incident",
+          "type": "boolean",
+          "order": 14
+        },
+        "01ca9c4b-6171-5c5c-ba22-13ff6a79894e": {
+          "title": "How to report WHS & Environmental hazards & issues",
+          "type": "boolean",
+          "order": 13
+        },
+        "12387fb9-e9c4-5501-b346-bbe7119fae36": {
+          "title": "Date of Induction",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "16b9ef28-8c10-5a9a-bf37-efd459e03cd1": {
+          "title": "Housekeeping responsibilities",
+          "type": "boolean",
+          "order": 15
+        },
+        "1e32e803-12e5-5b84-9605-5f2d4af51aca": {
+          "title": "The working hours on site",
+          "type": "boolean",
+          "order": 5
+        },
+        "7f56172b-d752-5d15-a885-1b9883ba24f5": {
+          "title": "Contact Number",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "5766791f-ba8b-5aeb-9cff-bfb1c612ac88": {
+          "title": "What the high risk activities and hazards are on site",
+          "type": "boolean",
+          "order": 12
+        },
+        "448bc8df-3cc5-5eb4-ae32-e8720ea81487": {
+          "title": "Who the managers and supervisors are on site",
+          "type": "boolean",
+          "order": 6
+        },
+        "c203cd75-13d5-53d7-9fcc-dc1dca498248": {
+          "title": "Tick if the following are understood:",
+          "type": "label",
+          "order": 3
+        }
+      },
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "484d217c-5157-41e1-ab70-d472c995f5df",
+        "display": "normal",
+        "name": "VAST Employee",
+        "dependant": false,
+        "templateId": "421abc2f-aff4-4692-8396-607ed5b51399",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "37f73d27-6663-419a-85ea-c6f814389584",
+        "display": "normal",
+        "name": "EWP Licence - Please take a photo",
+        "dependant": false,
+        "templateId": "421abc2f-aff4-4692-8396-607ed5b51399",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "a46477ac-eeb4-4fd1-8b8c-50d266358318",
+        "display": "normal",
+        "name": "Current Certificates Sighted - Please take a photo & comment on each attached certificate ",
+        "dependant": false,
+        "templateId": "421abc2f-aff4-4692-8396-607ed5b51399",
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "b24d3d9b-3245-46a5-b97e-29500fb67e8e",
+        "display": "normal",
+        "name": "VAST Employee Signature ",
+        "dependant": false,
+        "templateId": "421abc2f-aff4-4692-8396-607ed5b51399",
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "18863848-2126-44cd-8f9b-a0d5c8592d42",
+        "display": "normal",
+        "name": "VAST Supervisor Signature",
+        "dependant": false,
+        "templateId": "421abc2f-aff4-4692-8396-607ed5b51399",
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "templateReference": "421abc2f-aff4-4692-8396-607ed5b51399",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat",
+    "name": "VAST Site Induction",
+    "dependant": true,
+    "templateId": "421abc2f-aff4-4692-8396-607ed5b51399",
+    "type": "step"
+  }
+}

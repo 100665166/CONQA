@@ -1,0 +1,615 @@
+{
+  "data": {},
+  "tree": [
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {
+            "daa30a58-18ea-5846-b940-98118a2bbe80": {
+              "title": "Location survey",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "3bac13f4-2ae2-568b-a85c-4b4bf47992ed": {
+              "title": "Class",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "b7a42049-54c2-5e5c-81d7-3b9ef9046002": {
+              "title": "Date / time of standing",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "4d634d69-5484-52de-b008-7b82c6e82900": {
+              "title": "Date / time of pour",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "6a8aa172-c1e1-55b5-812d-33a9f77205e7": {
+              "title": "Floor level",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "a09645ea-0795-546e-9d84-25fb863796c2": {
+              "title": "Dwg ref",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Inspection details entered below",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Details",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {
+            "6d456997-d128-5fe0-b6d2-8842b88035f0": {
+              "title": "Grades/Knots/Splits/Staking",
+              "type": "label",
+              "order": 11
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Structural deliveries received & checked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "0ee3712e-c919-5a05-8528-4b4a159c5568": {
+              "title": "Checked for - Flatness/Edges/Surface/Stacking",
+              "type": "label",
+              "order": 13
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Steel Decking deliveries received & checked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Deliveries",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {
+            "73618469-8014-5c2e-9050-b11c96b9740d": {
+              "title": "Design",
+              "type": "input",
+              "subtype": "text",
+              "order": 16
+            },
+            "d3e1d221-6e2f-5632-92d5-b99bbd9de14c": {
+              "title": "Actual",
+              "type": "input",
+              "subtype": "text",
+              "order": 17
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Pour height - details entered correctly below",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "ff81fd9a-e31e-5ad1-89d5-502780ce10c2": {
+              "title": "Design",
+              "type": "input",
+              "subtype": "text",
+              "order": 19
+            },
+            "383d3fce-3a8f-5398-868e-f35b3b894113": {
+              "title": "Actual",
+              "type": "input",
+              "subtype": "text",
+              "order": 20
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Dimensions - details entered correctly below",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "9cafdc48-8c90-5d37-bc19-0b3dbbc76e51": {
+              "title": "Actual",
+              "type": "input",
+              "subtype": "text",
+              "order": 23
+            },
+            "11c8d395-3be2-5f15-99f2-f395c3106d6a": {
+              "title": "Design",
+              "type": "input",
+              "subtype": "text",
+              "order": 22
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Penetrations - details entered correctly below",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Plumbness checked and correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Form oil applied",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Chamfers correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "data": {
+            "30d01201-37a7-54cc-8ecb-5b9381296eef": {
+              "title": "Type",
+              "type": "input",
+              "subtype": "text",
+              "order": 28
+            },
+            "8c70d4f9-5779-573f-b19b-9942adad42ec": {
+              "title": "Material",
+              "type": "input",
+              "subtype": "text",
+              "order": 29
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Cast in items - details entered correctly below",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Blow-out installed and correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Propping installed and adequate",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Formwork",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Cover - Confirmed and correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "ff9d452d-3134-5736-9eae-3825626100cb": {
+              "title": "Size",
+              "type": "input",
+              "subtype": "text",
+              "order": 35
+            },
+            "bb49595b-9528-5ef9-8465-d51fa12f3393": {
+              "title": "Spacing",
+              "type": "input",
+              "subtype": "text",
+              "order": 36
+            },
+            "f401e39e-d629-5859-a53b-f268cd82893f": {
+              "title": "Laps",
+              "type": "input",
+              "subtype": "text",
+              "order": 37
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Bar - details entered correctly below",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Starters installed and correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "4866b2d9-fcc3-5280-b684-617a94e07703": {
+              "title": "Outer",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No",
+                " N/A"
+              ],
+              "order": 41
+            },
+            "bea85b74-511d-52ae-a578-20fa95502303": {
+              "title": "Inner",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No",
+                " N/A"
+              ],
+              "order": 40
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Mesh to walls installed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Reinforcement",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {
+            "75a2e58c-e75d-5c3c-b880-38bfbb4e4ac8": {
+              "title": "Concrete strength (MPa)",
+              "type": "input",
+              "subtype": "text",
+              "order": 44
+            },
+            "cf6ff780-06fb-5d23-944b-0acc8e8ed454": {
+              "title": "Stripping of column / walls by",
+              "type": "input",
+              "subtype": "text",
+              "order": 47
+            },
+            "7b1de89d-cc95-532e-88f0-0097a671709d": {
+              "title": "Spacing of backpropping",
+              "type": "input",
+              "subtype": "text",
+              "order": 49
+            },
+            "071955bf-c6d2-56f3-ad88-08a38b425a6e": {
+              "title": "Approved time / concrete strength at attainment (Days)",
+              "type": "input",
+              "subtype": "text",
+              "order": 45
+            },
+            "d953d8b7-9833-5a6c-a19d-25ae53b38ae9": {
+              "title": "Backpropping",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 48
+            },
+            "729b20ac-6f84-5495-87ff-9e8f9e558bfa": {
+              "title": "Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 46
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Stripping details as per below",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "70701758-4d30-5509-b78d-8b1804a37e0c": {
+              "title": "Subcontractor",
+              "type": "input",
+              "subtype": "text",
+              "order": 52
+            },
+            "96b06519-57ca-5ac7-9a02-0a9ea7cd7e9e": {
+              "title": "Design mix details submitted",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 53
+            },
+            "044b292c-1043-5a5f-86fd-7b4f32f797e8": {
+              "title": "Reviewed and attached as applicable",
+              "type": "label",
+              "order": 51
+            },
+            "dfd16ded-ac37-54bb-b306-70509a638462": {
+              "title": "Records on file",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 54
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Concrete Sub-Contractor QA received",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Stripping",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {
+            "b460b489-cd02-54be-a97e-29a2546984cc": {
+              "title": "Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 61
+            },
+            "4c7efe31-463c-5ab8-8c29-e39150c81289": {
+              "title": "Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 59
+            },
+            "e788fd44-6b5f-5961-8191-7340a69a33b5": {
+              "title": "FORM 700 representative sign-off - Added below as applicable",
+              "type": "boolean",
+              "order": 62
+            },
+            "1ae2f815-887b-50a3-80e3-f123786ff79c": {
+              "title": "Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 63
+            },
+            "959da8e1-fbf5-51f1-9f16-16d643084efb": {
+              "title": "Builder's representative sign-off - Added below as applicable",
+              "type": "boolean",
+              "order": 60
+            },
+            "17699854-e7ef-575c-8702-c11c8e7e19af": {
+              "title": "Engineer's representative sign-off - Added below as applicable",
+              "type": "boolean",
+              "order": 58
+            },
+            "5ba40299-bb2e-517f-a2fe-4ec7ebb22c66": {
+              "title": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+              "type": "label",
+              "order": 57
+            }
+          },
+          "tree": [
+            {
+              "data": {},
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Sign-Off - click to Add signature(s)",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Final Sign-Off's",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Final Check's",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "name": "ITP-02 - Column ITP (V.260421)",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

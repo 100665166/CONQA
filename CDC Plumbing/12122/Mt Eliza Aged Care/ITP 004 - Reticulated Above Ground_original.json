@@ -1,0 +1,371 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "aaffb538-b15c-5e82-b5bc-56d49fd864f6": {
+              "title": "Service Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Cold Water",
+                "Hot Water",
+                "Recycled Water",
+                "RO",
+                "Gas",
+                "Other (Specify Below)"
+              ],
+              "order": 1
+            },
+            "b227565b-8e50-5112-8522-ef42b9e1370f": {
+              "title": "Other (Specify Here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "928a9390-34c1-5e79-8b71-7d1f80bab2ff": {
+              "title": "Drawing & Revision #",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Spec. Ref:",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "c25b8143-81e6-5c75-a2cd-5efe4030a586": {
+              "title": "Acceptance Criteria / Reference: Approved installation drawings",
+              "type": "label",
+              "order": 0
+            },
+            "bf135a7f-95a9-5290-bb62-17023dea639c": {
+              "title": "Inspection Type: Hold Point",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "HOLD POINT - Set out and alignment",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "20f1aeae-6a2d-57b1-ae1b-98a753373cbb": {
+              "title": "Inspection Type: Hold Point",
+              "type": "label",
+              "order": 1
+            },
+            "5e7d7749-aa49-58e3-9505-82f821b975d7": {
+              "title": "Acceptance Criteria / Reference: Approved installation drawings",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "HOLD POINT - Inverts and grades",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "e1ab1035-2b97-5d55-88c1-c8faa6c078ed": {
+              "title": "Refer Seismic drawings for restraints",
+              "type": "label",
+              "order": 4
+            },
+            "5dad59bd-544a-574c-bcd5-e599778d268d": {
+              "title": "Acceptance Criteria / Reference: Bracket spacing as per AS:3500",
+              "type": "label",
+              "order": 0
+            },
+            "00a27b63-e32a-57ab-8328-122771d665bc": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 3
+            },
+            "fff2a80b-cd94-508f-95b7-e4f7e48d1422": {
+              "title": "As per",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "5fb68cd8-b806-51b1-aadb-f4fcd162f27c": {
+              "title": "Bracket Types",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Brackets installed correctly",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "668cff67-723b-531e-83c0-bd968627bfc5": {
+              "title": "Acceptance Criteria / Reference: As per approved installation drawings",
+              "type": "label",
+              "order": 0
+            },
+            "ce18b558-fc56-5a9d-b2b0-03f53ca9a6b2": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Pipe material correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {
+            "f1da42cd-6fc8-5989-813e-f60a0fecd500": {
+              "title": "Acceptance Criteria / Reference: Pressure Test completed per AS3500",
+              "type": "label",
+              "order": 0
+            },
+            "ab35af46-9f0e-5ec4-bc3a-468f448ed410": {
+              "title": "Inspection Type: Hold Point, Test, Witness",
+              "type": "label",
+              "order": 5
+            },
+            "ddde09c2-8c66-58f8-bdba-2c1d3d1f01ea": {
+              "title": "REF TEST CRITERIA; \n Water:1 ½ times the working pressure or 1500kPa. \n Gas 1 ½ times operating pressure \n Refer commissioning plan for disinfection and flushing of mains",
+              "type": "label",
+              "order": 6
+            },
+            "f9cd865d-e4ab-57a5-b27d-4d8603802e2d": {
+              "title": "Test Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Water",
+                "Air",
+                "Nitrogen"
+              ],
+              "order": 1
+            },
+            "1b0736de-30a2-538a-b2fa-d1ac096348c5": {
+              "title": "Pressure (kPa)",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "0039eef4-7724-59bb-a5f5-ca6f77ac4f54": {
+              "title": "Duration",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "907b44af-2cb2-551d-9eff-12295d999c9e": {
+              "title": "Gauge Number",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "HOLD POINT - Inspection & testing prior to Concealing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "data": {
+            "d5161392-f00f-53f2-9cc8-804468ae0b0b": {
+              "title": "Acceptance Criteria / Reference: As per AS:1345",
+              "type": "label",
+              "order": 0
+            },
+            "5dc40fb9-7e9c-5db2-bb34-79264fed1179": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Pipework labelled",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "data": {
+            "95b06d8c-5da9-5b4b-a770-5e93b18f01a9": {
+              "title": "Acceptance Criteria / Reference: Secure and full coverage",
+              "type": "label",
+              "order": 0
+            },
+            "a2e8ac58-5896-5ef2-b964-049dc654960e": {
+              "title": "Refer fire penetration dwg/schedule for fire rating",
+              "type": "label",
+              "order": 2
+            },
+            "ad5f66d9-6a02-50d1-9fbf-9114c22ab639": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Thermal Lagging",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "data": {
+            "d0980bb5-80d1-5f6e-9a52-183b29970681": {
+              "title": "Recorded on shop drawings as required prior to concealment",
+              "type": "label",
+              "order": 0
+            },
+            "bc945e9e-49bb-5326-98f3-6c8b61b5ad66": {
+              "title": "Inspection Type: Shop Drawings",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "As Built Information Recorded",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Installation",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "76e9cd25-0836-5367-9658-487b29941fed": {
+              "title": "Name",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "9ce93aef-69e1-5383-89aa-d4264935e8b9": {
+              "title": "Organisation",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "ffda3ad2-6d3c-55ba-a5a1-60c2167ca26f": {
+              "title": "Inspections carried out by",
+              "type": "label",
+              "order": 0
+            },
+            "68f13d7c-ab48-5a8f-bef7-66b233354da0": {
+              "title": "Kane Representative Sign-Off added below",
+              "type": "boolean",
+              "order": 4
+            },
+            "bd43a699-30ca-55fa-ab29-538c6d8b9274": {
+              "title": "Signature(s) attached below",
+              "type": "label",
+              "order": 5
+            },
+            "9380097a-24fe-58c7-a49e-aa68fb29ff5f": {
+              "title": "CDC Representative Sign-Off added below",
+              "type": "boolean",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Sign-Off Completed - Pass once below completed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Sign-Off",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "ITP 004 - Reticulated Above Ground",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

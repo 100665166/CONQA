@@ -1,0 +1,105 @@
+{
+  "tree": [
+    {
+      "data": {
+        "7c03c08d-0e5b-5be9-bebe-0af12c760d75": {
+          "title": "It has been confirmed that all outlets/fittings in slab have been captured",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 0
+        },
+        "bfce3896-b9f6-559f-aaa4-d9186855b168": {
+          "title": "Conduit has been securely fixed to the box or volcano",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 2
+        },
+        "b7d7aa55-dea2-5911-818e-952f960237e7": {
+          "title": "Conduit runs have all been marked on as builts",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 5
+        },
+        "8ef2ba03-a5ad-51ad-9e34-95fac4e231cf": {
+          "title": "Conduit has been securely fixed",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 1
+        },
+        "7c1463d0-3221-58ff-b7c4-85f2c4285a8c": {
+          "title": "Conduit box has temporarily been secured and tied down in place for pour",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 3
+        },
+        "b6e354f3-57c4-5720-bc0b-aa03ede6e18f": {
+          "title": "Alternative route has been supplied in case main route is damaged",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 4
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Confirm that the selected conduit is of adequate size for purpose",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "Installation of in-deck/slab conduits",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Prior to delivery, visual inspection to coordinate delivery on site - please take a photo if delivery is unable to be completed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Review & determine method of unloading (eg. Crane, forklift, man power, specialist subcontractor. Arrange & upload all necessary documentation",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Coordinate time of delivery - take photo of delivery docket",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check delivery for damage & correct quantity",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "063802ef-c9fe-5bfe-8810-539c932ebc4e": {
+          "title": "Distributions boards require a lifting trolley",
+          "type": "label",
+          "order": 1
+        },
+        "d1b5e344-b103-533e-88f0-7c3e4285563a": {
+          "title": "If Ergo Group are positioning main switchboard maneuvering kit is to be delivered with main switchboard.",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Safely position delivery into place (eg. crane, forklift, rollers, manual, specialist subcontractor",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "name": "Switchboard Delivery ITP013",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

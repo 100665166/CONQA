@@ -1,0 +1,159 @@
+{
+  "tree": [
+    {
+      "data": {
+        "096559f0-df96-5e60-8366-fa9c3662fe97": {
+          "title": "Test Date",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "0a7e3c3d-e8d9-5a01-815f-2e37192c21f5": {
+          "title": "Switchboard No.",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "1a8cce59-465f-52a9-a867-f45c50e41b6c": {
+          "title": "Tag No.",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "cfc9fe85-422f-5cf6-abfa-11a322143b94": {
+          "title": "A-Grade Reg. Number",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "c487bbf2-5972-5a05-a1ae-b882ae02128a": {
+          "title": "Tested by",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "c04b1bcc-df09-5d5e-9df2-6f1647185acc": {
+          "title": "Signature attached below",
+          "type": "boolean",
+          "order": 5
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Details - Pass once entered",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "e17fb65b-1b09-5ab7-8194-88dc72594cb3": {
+          "title": "Correct Circuit Connections No Looped Circuits",
+          "type": "input",
+          "subtype": "text",
+          "order": 7
+        },
+        "a8c084ed-20be-5b12-92bf-ef465da63657": {
+          "title": "Main Earth Resistance Between Electrode No Greater Than .5 Ω",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "bda1634e-5ae7-52ea-bfe3-9b55a0a6d11d": {
+          "title": "RCD Test",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "f8a5ba51-0fb7-560f-aac6-751e18fb078a": {
+          "title": "Other (Specify here)",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "9bd81669-e336-539e-a573-559087364811": {
+          "title": "Insulation Test Voltage (V)",
+          "type": "input",
+          "subtype": "text",
+          "order": 8
+        },
+        "96077977-8061-5150-89dc-9d487ce15ea1": {
+          "title": "Protective Device Tested",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "mcbrcd-16amp",
+            "mcbrcd-6amp",
+            "cb-20amp",
+            "Other (Specify below)"
+          ],
+          "order": 0
+        },
+        "567ed7f6-0bce-5223-b3ca-c0ce174811ee": {
+          "title": "IR Earth-Neutral",
+          "type": "input",
+          "subtype": "text",
+          "order": 6
+        },
+        "97b85e64-1032-58e8-931b-9c816f79f191": {
+          "title": "Polarity",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "dbf176d5-f1ba-5e99-94d2-27825e89a9a2": {
+          "title": "IR Earth-Active",
+          "type": "input",
+          "subtype": "text",
+          "order": 5
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Testing completed - entered / tested below",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "ec88dceb-e1a1-5463-ab6e-65f65428038c": {
+          "title": "Kare Group - 2IC / Foreman to attach signature below",
+          "type": "label",
+          "order": 0
+        },
+        "f5c171c6-fba6-51f7-a700-7d9926bc8dd0": {
+          "title": "Builder to attach signature below",
+          "type": "label",
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Final Signoff - Work(s) completed to specification/drawings, Area left clean/tidy and signatures added below",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    }
+  ],
+  "meta": {
+    "name": "Single Circuit Testing Checklist",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

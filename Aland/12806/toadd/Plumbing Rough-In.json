@@ -1,0 +1,324 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Confirm area of work is accessible & acceptable to commence (If not comment below)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "a59246ef-473a-56b6-a5e6-78c71d6ac822": {
+          "title": "Drawing & revision number(s)",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Setout & alignment as per drawing (include revision below)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "bf7b6e5c-5815-56ec-b762-885fba7f8912": {
+          "title": "All floor wastes are capped",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 1
+        },
+        "09165d19-008a-500f-b2cc-1d61cbdab416": {
+          "title": "All floor wastes are free of any cracks or defects",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 2
+        },
+        "277a1cab-101a-5179-9f06-e1f2224a474b": {
+          "title": "All floor wastes are in correct position & height",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 3
+        },
+        "2acdbcf4-3023-5b4b-aa70-720d1a6cc75a": {
+          "title": "All floor wastes are clear of any debris",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Floor wastes checked - Any issues comment/photo below",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "1m offset to floor height has been achieved",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Mixers are in correct position (hole allowance to work with tiles)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "All wall hung items have been allowed for in setout",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "All rough-in pipework is colour coded to ensure no cross connections",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "data": {
+        "532e104c-9936-5942-8f25-4e543a6dbefe": {
+          "title": "Any pipe running through a wall must be at 90 degrees",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "All poly pipes located in framing to ensure no screw fixings will penetrate them",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "data": {
+        "3beca4d9-3735-5ae1-8c67-84d8bafae339": {
+          "title": "All rough ins to remain charged",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 1
+        },
+        "f94be965-03e3-5819-8e37-9930dec1eda7": {
+          "title": "Ensure noggins haven't warped studs",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 5
+        },
+        "2a02c53a-f4d8-533f-8ece-07ec946612bb": {
+          "title": "All points comply with disabled code",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 2
+        },
+        "ece25c47-a9aa-559d-a787-b9062b0200c3": {
+          "title": "All rough ins are tested & held overnight",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 0
+        },
+        "9dff77ce-87e2-5750-94e9-dc2344e3e56b": {
+          "title": "All points to be allowed for in kitchen design",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 4
+        },
+        "1e458df5-ed1c-52c0-8217-575bddb27f8f": {
+          "title": "All hot water to be tested",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 3
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "All Water & Gas risers are complete",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "All stacks are level/plumb",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 9
+      }
+    },
+    {
+      "data": {
+        "c8f12317-ee8d-58a6-b4b4-8544857e426c": {
+          "title": "Relevant photo's/register has been completed",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Ensure all services that go through fire rated walls to be treated with collars/fire rated sealant",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 10
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Pipework tested",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 11
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Ensure rough in has been done as per specs",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 12
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Ensure dummy fit‐out has been done",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 13
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Ensure all purchaser variations have been allowed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 14
+      }
+    },
+    {
+      "data": {
+        "0985709d-75fa-5f04-848a-a5b8bdc412b9": {
+          "title": "HOLDPOINT - Once all above items have been signed off work may proceed",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Final sign off - All plumbing work completed as per the above ITP",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 15
+      }
+    }
+  ],
+  "meta": {
+    "name": "Plumbing Rough-In",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

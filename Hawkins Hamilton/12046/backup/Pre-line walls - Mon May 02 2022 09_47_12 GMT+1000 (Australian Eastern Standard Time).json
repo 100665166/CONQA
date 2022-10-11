@@ -1,0 +1,133 @@
+{
+  "tree": [
+    {
+      "data": {
+        "97aaaf64-b929-55e0-ae13-bfc85d40c170": {
+          "title": "Check for straightness",
+          "type": "boolean",
+          "order": 0
+        },
+        "95a0d757-7176-5bea-83d8-d8a76ea2c651": {
+          "title": "Are all services nogs in position",
+          "type": "boolean",
+          "order": 1
+        },
+        "466f1afe-924b-5ea6-afcc-5d18fbd77ca3": {
+          "title": "Are nogs required for joinery",
+          "type": "boolean",
+          "order": 2
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Framing",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "c17e2293-437b-58b4-a0af-2c84eb367266": {
+          "title": "Check if services are required in this location",
+          "type": "boolean",
+          "order": 0
+        },
+        "ba887dee-f44d-5111-808e-1d134687be08": {
+          "title": "Check outlet positions",
+          "type": "boolean",
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Services",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "7cf73c76-4f15-5527-8d39-d3ea5150614e": {
+          "title": "Fire phones data",
+          "type": "boolean",
+          "order": 3
+        },
+        "4c4d618c-7b97-5995-bbed-a4f6c731bed8": {
+          "title": "Is it the correct material",
+          "type": "boolean",
+          "order": 1
+        },
+        "47cec779-46e0-5e11-a414-800456b9a93e": {
+          "title": "Mechanical",
+          "type": "boolean",
+          "order": 5
+        },
+        "016fde5a-5ca7-55c8-9ca3-18677027e44f": {
+          "title": "Is it complete and tightly fitted",
+          "type": "boolean",
+          "order": 0
+        },
+        "fde747c5-c349-5c46-8104-8da9b210afc3": {
+          "title": "Plumbing",
+          "type": "boolean",
+          "order": 2
+        },
+        "1f383273-dbc1-51a3-97b0-5ad02f0af9da": {
+          "title": "lighting and power",
+          "type": "boolean",
+          "order": 4
+        }
+      },
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Have all separate services checklists been completed",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Insulation",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Take photo record before lining",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "name": "Pre-line walls",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

@@ -1,0 +1,569 @@
+{
+  "data": {},
+  "tree": [
+    {
+      "data": {
+        "55a6c661-00fb-5555-b69c-0e4b1002be9f": {
+          "title": "Hours Worked",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "94da309a-451d-567b-a161-bbec77be69e6": {
+          "title": "Weather Conditions AM",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Fine w Light Wind",
+            "Fine w Strong Wind",
+            "Light Rain w Light Wind",
+            "Light Rain w Strong Wind",
+            "Heavy Rain w Light Wind",
+            "Heavy Rain w Strong Wind"
+          ],
+          "order": 3
+        },
+        "5f20e6d7-ab91-5c0b-ad28-593d5ea6bc14": {
+          "title": "Weather Conditions PM",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Fine w Light Wind",
+            "Fine w Strong Wind",
+            "Light Rain w Light Wind",
+            "Light Rain w Strong Wind",
+            "Heavy Rain w Light Wind",
+            "Heavy Rain w Strong Wind"
+          ],
+          "order": 4
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Hours Worked & Weather Conditions Recorded",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "7d761b3b-98a0-5d69-afb0-8a3d4c043a2d": {
+          "title": "If no reasons causing delays are identified select \"N/A\"",
+          "type": "label",
+          "order": 6
+        },
+        "d1304467-34db-577d-9cae-9469b297d446": {
+          "title": "If items are identified to be causing delays, identify below then select \"PASS\"",
+          "type": "label",
+          "order": 7
+        },
+        "31b99fe1-7550-55a3-b3d6-291c2abcdb00": {
+          "title": "Reason for delay",
+          "type": "input",
+          "subtype": "text",
+          "order": 8
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Any Delays - design changes, outstanding information or other reasons causing delays recorded",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "0a057471-e76e-5a84-8517-5f2f9d5fb5fa": {
+          "title": "General progress on site today",
+          "type": "input",
+          "subtype": "text",
+          "order": 10
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "General progress photos - minimum of 3 attached",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "Visitors to Site (Record name, company & purpose)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "Day Works Agreed (Any relevant Day Works issued are documented here)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "fdc81496-e0eb-5e7d-bede-f405d15747f4": {
+          "title": "Trade - Onsite",
+          "type": "label",
+          "order": 70
+        },
+        "49024c4e-046a-540b-ab82-68f079e94e67": {
+          "title": "Accurate Concrete - On Site",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "yes",
+            " no"
+          ],
+          "order": 62
+        },
+        "1791d12d-bb4f-5d90-8870-18e97f8a286c": {
+          "title": "Description of work (Graysons Engineering)",
+          "type": "input",
+          "subtype": "text",
+          "order": 21
+        },
+        "dfccf70d-7dd0-5050-b8e7-a47ac0f57500": {
+          "title": "Area working in (A1 Pumping)",
+          "type": "input",
+          "subtype": "text",
+          "order": 59
+        },
+        "23849bd3-4959-5c11-8efc-33f3ff333540": {
+          "title": "Hawkins Labour - Onsite",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "yes",
+            " no"
+          ],
+          "order": 14
+        },
+        "ed136820-ef9c-5328-8c84-0ffd572f66d5": {
+          "title": "Trade Name (Other 1)",
+          "type": "input",
+          "subtype": "text",
+          "order": 71
+        },
+        "d95bfb1b-4bce-502f-a406-3ac21cf2cbac": {
+          "title": "Man Power onsite (FB Hall)",
+          "type": "input",
+          "subtype": "text",
+          "order": 44
+        },
+        "0f98636f-d01d-529c-aa43-479fe5055381": {
+          "title": "Area (Lyndon Jones Electrical)",
+          "type": "input",
+          "subtype": "text",
+          "order": 51
+        },
+        "5492a102-d7f8-5823-9d78-4051a5d4b140": {
+          "title": "Man Power (Concrete People )",
+          "type": "input",
+          "subtype": "text",
+          "order": 56
+        },
+        "3b9ebf34-e216-508b-b0b6-1343922df065": {
+          "title": "Man Power onsite (Graysons Engineering)",
+          "type": "input",
+          "subtype": "text",
+          "order": 20
+        },
+        "9328c054-6cc9-557c-8458-bb2fc1f95596": {
+          "title": "GMR Holmac - On Site",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "yes",
+            " no"
+          ],
+          "order": 34
+        },
+        "7967bcd6-3543-5f43-98c7-bf924d655c22": {
+          "title": "Man Power (Saltire Reo)",
+          "type": "input",
+          "subtype": "text",
+          "order": 32
+        },
+        "25405faf-22ce-5c45-911a-950d9c77bbae": {
+          "title": "Description of work (Lyndon Jones)",
+          "type": "input",
+          "subtype": "text",
+          "order": 53
+        },
+        "40ff5248-8705-5e5f-9940-bfde69005d5f": {
+          "title": "A1 Pumping - On Site",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "yes",
+            " no"
+          ],
+          "order": 58
+        },
+        "cdcbfe70-7698-5bd4-9d34-a90b984c4a4a": {
+          "title": "Description of work (FB Hall)",
+          "type": "input",
+          "subtype": "text",
+          "order": 45
+        },
+        "542f36ca-4409-5763-99c8-94faf6952620": {
+          "title": "Area (Concrete People )",
+          "type": "input",
+          "subtype": "text",
+          "order": 55
+        },
+        "350a9bbb-d66d-5f9e-9eb1-b322cec03672": {
+          "title": "Area working in (FB Hall)",
+          "type": "input",
+          "subtype": "text",
+          "order": 43
+        },
+        "f3d86190-b3a4-5932-b8a3-0eb3cf64dbcc": {
+          "title": "Lyndon Jones Electrical - On Site",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "yes",
+            " no"
+          ],
+          "order": 50
+        },
+        "6aac8202-6004-5314-a3c2-71c4beaee91f": {
+          "title": "Area working in (Rigwell Riggers)",
+          "type": "input",
+          "subtype": "text",
+          "order": 23
+        },
+        "97568a6e-caf5-55da-8094-e7fba081c174": {
+          "title": "Description of work (Rigwell Riggers)",
+          "type": "input",
+          "subtype": "text",
+          "order": 25
+        },
+        "9a12b0ec-b461-56ad-9bbe-db8a9fb9e248": {
+          "title": "Rigwell Riggers - On Site",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "yes",
+            " no"
+          ],
+          "order": 22
+        },
+        "501b6cf8-0b82-54ec-af1d-886ea27e8a06": {
+          "title": "FB Hall - On Site",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "yes",
+            " no"
+          ],
+          "order": 42
+        },
+        "67eee8e2-935e-520e-906f-afad5487bbc3": {
+          "title": "Area working in (GMR Holmac)",
+          "type": "input",
+          "subtype": "text",
+          "order": 35
+        },
+        "cedfb5cf-f816-5910-9adf-6d71cdd040fb": {
+          "title": "Area working in (Saltire Reo)",
+          "type": "input",
+          "subtype": "text",
+          "order": 31
+        },
+        "a15a9376-8cc4-527d-aca6-d10b0efe68ff": {
+          "title": "Description of work (Concrete people)",
+          "type": "input",
+          "subtype": "text",
+          "order": 57
+        },
+        "7769d9ae-1685-572c-b011-270d3d2f244f": {
+          "title": "Description of work (Accurate Concrete)",
+          "type": "input",
+          "subtype": "text",
+          "order": 65
+        },
+        "251a3cc3-25d4-5791-a100-34b64f8295d8": {
+          "title": "Description of work (A1 Pumping)",
+          "type": "input",
+          "subtype": "text",
+          "order": 61
+        },
+        "8ba83027-64e8-5d03-a20a-e8e58bf4eb51": {
+          "title": "Description of work (Smith Cranes)",
+          "type": "input",
+          "subtype": "text",
+          "order": 29
+        },
+        "db942dd0-ebe3-56bf-b362-cdc4fb65d76b": {
+          "title": "Man Power (Markham Spraying)",
+          "type": "input",
+          "subtype": "text",
+          "order": 48
+        },
+        "4b81acd2-88ce-5276-b150-14ae0ce972e0": {
+          "title": "Man Power onsite (GMR Holmac)",
+          "type": "input",
+          "subtype": "text",
+          "order": 36
+        },
+        "fa2f1a49-276f-5da3-ab2d-63bbe8144b06": {
+          "title": "Description of work (Watson Davies)",
+          "type": "input",
+          "subtype": "text",
+          "order": 41
+        },
+        "3af2f8a2-22d4-5547-88c9-cce9bac4d2a0": {
+          "title": "Man Power onsite (Accurate Concrete)",
+          "type": "input",
+          "subtype": "text",
+          "order": 64
+        },
+        "17abe315-6405-5f9d-b8de-c687d68169e7": {
+          "title": "Area (Markham Spraying)",
+          "type": "input",
+          "subtype": "text",
+          "order": 67
+        },
+        "f77a47cc-a283-5aed-8772-1f4a6ca19bd5": {
+          "title": "Description of work (Markham Spraying)",
+          "type": "input",
+          "subtype": "text",
+          "order": 49
+        },
+        "5c53449a-3a80-5d27-bcd5-cab5b94f9526": {
+          "title": "Markham Spraying - On Site",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "yes",
+            " no"
+          ],
+          "order": 66
+        },
+        "f9edd064-b29c-5e27-a878-91cd64426bf2": {
+          "title": "Man Power onsite (A1 Pumping)",
+          "type": "input",
+          "subtype": "text",
+          "order": 60
+        },
+        "ae971f54-c3ac-59e3-b00c-07737d6a5283": {
+          "title": "Description of work (Saltire Reo)",
+          "type": "input",
+          "subtype": "text",
+          "order": 33
+        },
+        "a811f1bc-2d92-5561-ac28-33a2c9b3ce9f": {
+          "title": "Man Power onsite (Smith Cranes)",
+          "type": "input",
+          "subtype": "text",
+          "order": 28
+        },
+        "454281de-9ee3-5256-a013-ca0dcf8b8dde": {
+          "title": "Man Power onsite (Hawkins Labour)",
+          "type": "input",
+          "subtype": "text",
+          "order": 16
+        },
+        "4ba6231d-07d5-5dd4-8003-c609ab14d48b": {
+          "title": "Description of work (Markham Spraying)",
+          "type": "input",
+          "subtype": "text",
+          "order": 69
+        },
+        "627df9f4-84b3-5075-9d65-aa613887230c": {
+          "title": "Smith Cranes - On Site",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "yes",
+            " no"
+          ],
+          "order": 26
+        },
+        "5dddd9c1-caf7-555f-81f4-5384b4767c8a": {
+          "title": "Area working in (Hawkins Labour)",
+          "type": "input",
+          "subtype": "text",
+          "order": 15
+        },
+        "18c41204-ba92-5b3b-bd0c-ac5253aa1f60": {
+          "title": "Watson Davies - On Site",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "yes",
+            " no"
+          ],
+          "order": 38
+        },
+        "c2628357-5cc7-5640-bc16-609b5d7d359d": {
+          "title": "Area (Markham Spraying)",
+          "type": "input",
+          "subtype": "text",
+          "order": 47
+        },
+        "8880f034-2a9d-5d29-8090-f8c76c8a5ea4": {
+          "title": "Concrete People - On Site",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "yes",
+            " no"
+          ],
+          "order": 54
+        },
+        "a10b8045-3668-55fa-bd10-57019ea0e00a": {
+          "title": "Area working in (Smith Cranes)",
+          "type": "input",
+          "subtype": "text",
+          "order": 27
+        },
+        "c4482a71-baef-55df-a4e1-5e9b157f4322": {
+          "title": "Area working in (Graysons Engineering)",
+          "type": "input",
+          "subtype": "text",
+          "order": 19
+        },
+        "8b3901ef-a169-5ac5-8b5c-d94cdad4516d": {
+          "title": "Man Power (Other 1)",
+          "type": "input",
+          "subtype": "text",
+          "order": 73
+        },
+        "fd86630a-2e92-5665-844b-bd66b1e7581e": {
+          "title": "Markham Spraying - On Site",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "yes",
+            " no"
+          ],
+          "order": 46
+        },
+        "dcd402f9-f170-5d14-b8c9-5f9e68b5a262": {
+          "title": "Man Power (Markham Spraying)",
+          "type": "input",
+          "subtype": "text",
+          "order": 68
+        },
+        "bb7d56b4-9855-5d21-b279-7c8270329b64": {
+          "title": "Saltire Reo - On Site",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "yes",
+            " no"
+          ],
+          "order": 30
+        },
+        "c7e25302-f359-5c7c-b47d-05f455727b7e": {
+          "title": "Description of work (other 1)",
+          "type": "input",
+          "subtype": "text",
+          "order": 74
+        },
+        "1f86adf1-556c-5021-bab0-60c2951db466": {
+          "title": "Grayson Engineering - Onsite",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "yes",
+            " no"
+          ],
+          "order": 18
+        },
+        "ed9787ef-3fb7-5d70-a53c-46f8638b6d74": {
+          "title": "Man Power onsite (Rigwell Riggers)",
+          "type": "input",
+          "subtype": "text",
+          "order": 24
+        },
+        "fdc60e7c-274d-5df9-9916-729a31081dae": {
+          "title": "Man Power (Lyndon Jones Electrical)",
+          "type": "input",
+          "subtype": "text",
+          "order": 52
+        },
+        "fb55063a-1865-55ca-9d0a-c7bdd3c8298b": {
+          "title": "Area working in (Watson Davies)",
+          "type": "input",
+          "subtype": "text",
+          "order": 39
+        },
+        "18d0172b-1549-5dbe-a7a6-8453837ac71e": {
+          "title": "Description of work (Hawkins Labour)",
+          "type": "input",
+          "subtype": "text",
+          "order": 17
+        },
+        "10835f5f-0698-562f-9ab3-c3ea5590b97a": {
+          "title": "Area (Other 1)",
+          "type": "input",
+          "subtype": "text",
+          "order": 72
+        },
+        "217ef44d-7062-5c25-b485-28e1576a8d29": {
+          "title": "Description of work (GMR Holmac)",
+          "type": "input",
+          "subtype": "text",
+          "order": 37
+        },
+        "770ae087-ae5a-5589-9724-37ea2b08191a": {
+          "title": "Man Power onsite (Watson Davies)",
+          "type": "input",
+          "subtype": "text",
+          "order": 40
+        },
+        "03f85fe1-e860-5b00-a4d5-3d8a4650f94d": {
+          "title": "Area working in (Accurate Concrete)",
+          "type": "input",
+          "subtype": "text",
+          "order": 63
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Subcontractors on site (all recorded area, man power, name)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "name": "Daily Site Report -",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

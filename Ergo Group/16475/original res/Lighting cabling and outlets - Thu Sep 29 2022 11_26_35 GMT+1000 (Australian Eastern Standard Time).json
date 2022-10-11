@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "dependant": true,
+    "display": "progress",
+    "name": "Lighting cabling and outlets",
+    "permissions": {
+      "addPost": false,
+      "addStep": false
+    },
+    "stepType": "checklist-sectioned",
+    "type": "step"
+  },
+  "tree": [
+    {
+      "meta": {
+        "dependant": true,
+        "display": "flat",
+        "name": "Rough In",
+        "order": 0,
+        "permissions": {
+          "addPost": false,
+          "addStep": false
+        },
+        "stepType": "checkpoint-group",
+        "type": "step"
+      },
+      "tree": [
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Confirm that the cable support system has been completed as per documentation",
+            "order": 0,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Electrical cables have been appropriately sized and selected to ensure that they will support currently installed and future equipment",
+            "order": 1,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Mechanical protection has been provided to minimise the likelihood of physical damage to cabling",
+            "order": 2,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Cabling has been concealed where possible in ceiling spaces, wall cavities or risers",
+            "order": 3,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "All lights have been wired as per drawings",
+            "order": 4,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "All lights and switches have been marked on the site as built drawing",
+            "order": 5,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Height and location have been confirmed for each switch",
+            "order": 6,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Lighting control system has been confirmed (DALI/240v)",
+            "order": 7,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Ceiling supports have been installed where required (ceiling fans/pendants)",
+            "order": 8,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        }
+      ]
+    },
+    {
+      "meta": {
+        "dependant": true,
+        "display": "flat",
+        "name": "Fit Off & Commission",
+        "order": 1,
+        "permissions": {
+          "addPost": false,
+          "addStep": false
+        },
+        "stepType": "checkpoint-group",
+        "type": "step"
+      },
+      "tree": [
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Equipment/materials have been selected and installed as per drawings/specifications",
+            "order": 0,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Terminations have been checked and all terminations are correct and secure in all outlets",
+            "order": 1,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Switches have all been secured in place and levelled",
+            "order": 2,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "All lights are sitting flush and/or been levelled",
+            "order": 3,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "All cabling has been tested for insulations resistance and continuity",
+            "order": 4,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Each circuit is terminated at the DB and protected by the correct protective device",
+            "order": 5,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Each switch has been labelled",
+            "order": 6,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Functional test carried out on each switch and light",
+            "order": 7,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Each circuit has been marked on the site as built",
+            "order": 8,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        }
+      ]
+    }
+  ]
+}

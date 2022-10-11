@@ -1,0 +1,134 @@
+{
+  "tree": [
+    {
+      "data": {
+        "3769f0d1-8374-57a9-b8c9-bf78213f2110": {
+          "title": "Drawing rev",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "41c453af-8ed8-507b-9509-372884f282e4": {
+          "title": "System Reference.",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "1a13fc37-42b1-597c-878a-c8aba6c934b0": {
+          "title": "Area/Level/Zone.",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Installed as per drawing",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Equipment installed in correct location",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Is the VSD mounted correctly",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Is the VSD size correct",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Termination at equipment",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Is the cable shielded correctly",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Tested operation",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Unit labelled",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Installation left clean & tidy.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    }
+  ],
+  "meta": {
+    "name": "Variable Speed Drive",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "e280c9f4-31b3-524c-b29f-29c5c00f3017": {
+              "title": "Drawing & Revision # (or Attach photo below)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Latest IFC drawings checked & referenced",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "8f7c404a-ca4f-5b48-8a04-e74cee5dfe6e": {
+              "title": "Attach Photos/Comments below if any issues & Send report to Builder",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Area clear, tidy and accessible ",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "94d00fe8-8f69-5496-956d-edcfface6d28": {
+              "title": "PASS if received in good condition - If not FAIL & Attach Photos/Comments below",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Pipe + Fittings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "9e4f6f97-5046-51d1-84ae-afca4973d648": {
+              "title": "PASS if received in good condition - If not FAIL & Attach Photos/Comments below",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Hose Reels / Millcocks",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-Start",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "dee68682-dcb7-5d79-be19-29f643f40f34": {
+              "title": "Specification Ref: AS:2419, AS:2414",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Mains & branches installed to drawing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "fe7e34a7-75de-5f94-836b-8c02d480b4b3": {
+              "title": "Specification Ref: AS:2419, AS:2414",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Hangers Location",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Installation Rough-In",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "c90a300d-5628-5137-afbf-5fa2da781d62": {
+              "title": "Specification Ref: AS:2414",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Hose Reels (Minimum Clearances)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "9155b5df-5fbe-5307-b6dd-a3abc31fb8f4": {
+              "title": "Specification Ref: AS:2415",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Millcocks (Minimum Clearances)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "9ecb3e1d-c602-58f8-987d-57c11be145c8": {
+              "title": "Test No.",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "d2ee5851-171c-52bb-8570-6a2c3619cc1c": {
+              "title": "Specification Ref: QCF-ENT-009",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Pressure Test",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "be9763af-4cb7-52d2-92b6-cf53acb0704c": {
+              "title": "Specification Ref: AS:2419, AS:2414",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Pipe Identification Labelling",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "74070ad2-8b8b-59ec-a715-8b1dbd172c71": {
+              "title": "Specification Ref: AS:2419, AS:2414",
+              "type": "label",
+              "order": 0
+            },
+            "705791b2-45e0-5c93-9d72-c0228ed1b849": {
+              "title": "Completed By Others",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Statutory Signage",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Installation Fit-Off",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "f43b01f0-3a4a-5450-91be-a2ca822f0dbe": {
+              "title": "Specification Ref: AS:2419, AS:2414",
+              "type": "label",
+              "order": 0
+            },
+            "dd179d0f-167e-539b-a11c-1a116ab719b1": {
+              "title": "By Independent Certifier - Attached below as applicable",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Flow Tests",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "35e80791-545e-570a-aae7-448c328bb540": {
+              "title": "By Independent Certifier - Attached below as applicable",
+              "type": "label",
+              "order": 1
+            },
+            "eeb3d7de-60fa-5c55-ab1b-c01a655df333": {
+              "title": "Specification Ref: AS:2419, AS:2414",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Certification",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Commissioning",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "41ae4916-cec3-5cfa-9490-287a5c2550fa": {
+              "title": "Signature by Builders Site Coordinator - If applicable attach below",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 1
+            },
+            "7e391354-6b09-503c-b5a3-d0bb95d5ba3a": {
+              "title": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+              "type": "label",
+              "order": 0
+            },
+            "eeffe8f9-b63d-576f-b41c-7229469266e0": {
+              "title": "Entire Fire Signature Sign-Off added below",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Work(s) completed to specification/drawings & Area left clean/tidy",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Sign-Off",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "name": "ENT-006 - Hydrants & Hosereels  ",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

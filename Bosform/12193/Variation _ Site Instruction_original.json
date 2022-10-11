@@ -1,0 +1,156 @@
+{
+  "tree": [
+    {
+      "data": {
+        "804f1519-2ee3-560b-8efb-cc316d1e70ef": {
+          "title": "Date",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "7b59b4cb-8b14-5769-ad87-ccc16b85d788": {
+          "title": "Normal Hours",
+          "type": "input",
+          "subtype": "text",
+          "order": 6
+        },
+        "e0dfbbb3-de8c-5d38-92c4-7b08e183f58d": {
+          "title": "Work type:",
+          "type": "enum",
+          "subtype": "radio",
+          "values": [
+            "Site Instruction",
+            " Variation Work"
+          ],
+          "order": 1
+        },
+        "73480f29-c7e2-5bbe-a70a-70e8a6b6abda": {
+          "title": "Please take before photos",
+          "type": "label",
+          "order": 0
+        },
+        "375786ad-62d4-5d68-b4c8-4551e19edc03": {
+          "title": "Scope of work",
+          "type": "input",
+          "subtype": "text",
+          "order": 5
+        },
+        "a32cab4b-9b98-596c-b5a4-2d6b4d229050": {
+          "title": "Overtime Hours ",
+          "type": "input",
+          "subtype": "text",
+          "order": 7
+        },
+        "bbd33867-4f24-531c-b733-446d6505dfcd": {
+          "title": "Material to complete task",
+          "type": "input",
+          "subtype": "text",
+          "order": 8
+        },
+        "05760e3d-cd2d-51d5-885e-52c959d96795": {
+          "title": "Attention:",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "697a3b22-a4ca-5cb4-854f-cd157ba120e8": {
+          "title": "Area/Location",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        }
+      },
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "32f3d890-a3b8-420b-9451-015e458e4faf",
+        "display": "normal",
+        "name": "Variation / SI Details Entered",
+        "dependant": false,
+        "templateId": "7a66a564-9511-4bdd-bf4c-246d2ed69c4e",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "2b914634-c5b0-567a-9d33-3dec1e3b1b7e": {
+          "title": "Reference/SI Number",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "c0b1e951-63b9-4c5f-a003-517ac5f6944e",
+        "display": "normal",
+        "name": "Reference/SI Number Entered",
+        "dependant": false,
+        "templateId": "7a66a564-9511-4bdd-bf4c-246d2ed69c4e",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "862caaea-da01-4aec-98b5-c8b548f3b045",
+        "display": "normal",
+        "name": "Variation / SI Work Completed",
+        "dependant": false,
+        "templateId": "7a66a564-9511-4bdd-bf4c-246d2ed69c4e",
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "12f56a66-c1bd-5557-b3b8-fba73853839c": {
+          "title": "Labour Value",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "413e4fe1-d31b-584c-a2d7-e8fd8f08ecd4": {
+          "title": "Material Value",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "7b4e00ff-ef3e-51b6-95b3-6240f0756aaa": {
+          "title": "Total Variation Value",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        }
+      },
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "60bb90f0-568b-4789-932a-9964458d26cb",
+        "display": "normal",
+        "name": "Values added (Office use only)",
+        "dependant": false,
+        "templateId": "7a66a564-9511-4bdd-bf4c-246d2ed69c4e",
+        "type": "step",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "templateReference": "7a66a564-9511-4bdd-bf4c-246d2ed69c4e",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat",
+    "name": "Variation / Site Instruction",
+    "dependant": true,
+    "templateId": "7a66a564-9511-4bdd-bf4c-246d2ed69c4e",
+    "type": "step"
+  }
+}

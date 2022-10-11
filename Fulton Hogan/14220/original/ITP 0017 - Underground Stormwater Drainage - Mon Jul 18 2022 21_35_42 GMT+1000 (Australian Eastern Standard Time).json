@@ -1,0 +1,1794 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "2c404ea2-5608-5937-a6a3-1aac1e5f417f": {
+              "title": "From and To Chainage",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "4bf0f65d-b014-5c4a-8971-54d6640e6fbf": {
+              "title": "Traffic Direction",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EB - Eastbound",
+                " ME - Median",
+                " NB - Northbound",
+                " SB - Southbound",
+                " WB - Westbound"
+              ],
+              "order": 8
+            },
+            "1f569a41-2e68-5cd4-ad3f-cb79928852a4": {
+              "title": "Lot Created On",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "92421f5e-6aa0-5239-884c-2adda8043fd1": {
+              "title": "Construction Element",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "STOR - Stormwater"
+              ],
+              "order": 5
+            },
+            "3464d84a-7aff-5f4e-82ae-eaac496bcf4f": {
+              "title": "Lot Opened On",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "cab3245a-64ad-50c8-89d7-be5b7153b1cf": {
+              "title": "Work Commenced On",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "de910b15-194f-5e98-b68f-cdb8604b57a6": {
+              "title": "Design Package No",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1145-ACM-CVD-DPK-0002",
+                " 1145-ACM-CVD-DPK-0003",
+                " 1145-ACM-CVD-DPK-0004",
+                " 1145-ACM-CVP-DPK-0001",
+                " 1145-ACM-CVP-DPK-0002",
+                " 1145-ACM-CVR-DPK-0001",
+                " 1145-ACM-CVR-DPK-0002",
+                " 1145-ACM-CVR-DPK-0003",
+                " 1145-ACM-CVR-DPK-0004",
+                " 1145-ACM-ELE-DPK-0001",
+                " 1145-ACM-ELE-DPK-0002",
+                " 1145-ACM-LDE-DPK-0001",
+                " 1145-ACM-LDE-DPK-0002",
+                " 1145-ACM-SBA-DPK-0001",
+                " 1145-ACM-STR-DPK-0001",
+                " 1145-ACM-TSI-DPK-0001",
+                " 1145-ACM-TSI-DPK-0002",
+                " 1145-ACM-TSI-DPK-0003",
+                " 1145-ACM-TSI-DPK-0004",
+                " 1145-ACM-UTL-DPK-0001",
+                " 1145-ACM-UTL-DPK-0002"
+              ],
+              "order": 7
+            },
+            "e71a846f-face-5af6-84d2-cda417833bb0": {
+              "title": "Lot Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "CIL-Civil Lot",
+                " DRL- Drainage Lot",
+                " EAL- Earthworks Lot",
+                " ELL- Electrical Lot",
+                " UTL- Utility Lot",
+                " STL- Structural Lot"
+              ],
+              "order": 3
+            },
+            "40dad20a-0804-542a-9039-2e2d6d3bab65": {
+              "title": "Activity",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "STOR - DRAP Drainage ÊÊ"
+              ],
+              "order": 6
+            },
+            "01d9b2ef-8a70-51e0-ac5d-1fb163757bba": {
+              "title": "Engineer Responsible",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "4b8d20e4-48ab-5247-b3b6-4e7255b3900e": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.0 Lot Information",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Information",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "82b0e927-54b4-589c-9cd0-1f0f6ba7dede": {
+              "title": "Record of Conformity: Insert Teambinder Material Approval Number",
+              "type": "label",
+              "order": 5
+            },
+            "a7e30e7b-2286-5cbe-81ed-f60c92171fc9": {
+              "title": "IP",
+              "type": "label",
+              "order": 6
+            },
+            "f87cf3b4-b761-5986-8d10-47862c2dc8bd": {
+              "title": "Documentation as per 701.05 is available in Teambinder Material Approval form",
+              "type": "label",
+              "order": 2
+            },
+            "85791280-13f4-5ba2-822f-4473b37b32ec": {
+              "title": "Frequency: Prior to Commencing Work",
+              "type": "label",
+              "order": 0
+            },
+            "68718c65-dfc2-5511-89e0-35dce55581e8": {
+              "title": "Reference Documents: 701.04, 701.05",
+              "type": "label",
+              "order": 3
+            },
+            "a62fbda9-7f1f-55b2-8ef7-9374fa0fd5c8": {
+              "title": "Enter: Teambinder Material Approval Number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "3d9c69f8-142e-5936-b4a0-07491ab2a70a": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 4
+            },
+            "4512ed36-9c7d-5290-88c6-2f92a4bd3b8e": {
+              "title": "Acceptance Criteria: Drainage pipes and culverts supplied in accordance with 701 and AS/NZS 4058.",
+              "type": "label",
+              "order": 1
+            },
+            "ff2f4a20-5fb3-5cea-99bb-4861329aa554": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.1 - Drainage Pipes",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "462389f3-811b-53a6-85d2-6ddeb205e256": {
+              "title": "Frequency: Prior to Commencing Work",
+              "type": "label",
+              "order": 0
+            },
+            "abab31f6-717f-57a6-9706-c794cf572abc": {
+              "title": "Record of Conformity: Insert Teambinder Material Approval Number",
+              "type": "label",
+              "order": 6
+            },
+            "6c9998b0-9a95-5ebe-ab3b-c9145f170deb": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 8
+            },
+            "f104af16-8096-5196-9317-bff3f3fff19e": {
+              "title": "IP",
+              "type": "label",
+              "order": 7
+            },
+            "0067c682-b7be-5599-b3c3-9c41f4246a6f": {
+              "title": "Enter: Teambinder Material Approval Number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "98a738a3-d86e-5bc9-9770-d55b1afca0a0": {
+              "title": "Reference Documents: 705.07",
+              "type": "label",
+              "order": 4
+            },
+            "1b415db5-530e-5512-ab43-a628b5b461ef": {
+              "title": "Acceptance Criteria: Drainage Pits are supplied in accordance with 705.07.",
+              "type": "label",
+              "order": 1
+            },
+            "14f8f538-5925-5fb5-aa10-ff5474cd7bd5": {
+              "title": "Pits deeper than 1m to be fitted with step irons as shown on the drawings. Step irons to be compliant with AS4680.",
+              "type": "label",
+              "order": 2
+            },
+            "d2aea31b-8ca2-51e4-829a-003eee13ad40": {
+              "title": "Suppliers documentation has been submitted via Teambinder Material Approval form",
+              "type": "label",
+              "order": 3
+            },
+            "c0da1269-6bdb-5291-8ac8-701ce966d632": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.2 - Drainage Pits",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "88b41a58-20a3-55c9-bc77-c22fb37b9346": {
+              "title": "Record of Conformity: Insert Teambinder Material Approval Number",
+              "type": "label",
+              "order": 5
+            },
+            "ffa5ac43-2a00-500b-82ee-008f20144a15": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 7
+            },
+            "8a2d4cab-3d37-5113-84d7-b695b9e6b111": {
+              "title": "IP",
+              "type": "label",
+              "order": 6
+            },
+            "3e1f1429-3fab-5ce2-b46f-41017a01adeb": {
+              "title": "Reference Documents: Table 701.081, Table 701.082",
+              "type": "label",
+              "order": 3
+            },
+            "55a1074b-1fd3-504f-a1e3-5d3fdc7d8720": {
+              "title": "Enter: Teambinder Material Approval Number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "d16cf76f-de04-5bd7-9936-38a0160dc79d": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 4
+            },
+            "fd3a2a8a-13f8-5644-ac09-8e6a5c8bae08": {
+              "title": "Frequency: Prior to Commencing Work",
+              "type": "label",
+              "order": 0
+            },
+            "8de5b44d-1e4e-544d-b182-ac95843fb4ce": {
+              "title": "Material Approved via Teambinder Material Approval Form.",
+              "type": "label",
+              "order": 2
+            },
+            "98aec06c-de0a-5496-b035-98137d7ed65c": {
+              "title": "Acceptance Criteria: Bedding Materials comply with Table 701.081 and 701.082.",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.3 - Drainage Bedding Material",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "7fb39c2b-fb27-5645-bcc7-9ee672c28488": {
+              "title": "Frequency: Prior to Commencing Work",
+              "type": "label",
+              "order": 0
+            },
+            "2181fdec-c5cb-5951-b0ba-7968e95d7f76": {
+              "title": "Acceptance Criteria: Select and Ordinary Backfill Materials comply with tables 701.081 and 701.082",
+              "type": "label",
+              "order": 1
+            },
+            "0df48194-cb43-58d3-a25d-041d00c90598": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 4
+            },
+            "3aab66a0-edf3-5e61-9619-59226a0edd27": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 7
+            },
+            "8929d1a2-554a-54c9-9203-69f204055f11": {
+              "title": "Material Approved via Teambinder Material Approval form.",
+              "type": "label",
+              "order": 2
+            },
+            "f0fe2835-b981-5edc-882f-910e3ee44180": {
+              "title": "IP",
+              "type": "label",
+              "order": 6
+            },
+            "44bfbcfe-534f-5ca1-bee1-d21ebbad4b02": {
+              "title": "Record of Conformity: Insert Teambinder Material Approval Number",
+              "type": "label",
+              "order": 5
+            },
+            "dae5ee1e-133f-5371-b957-fbcad0ec75ca": {
+              "title": "Enter: Teambinder Material Approval Number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "de1853c2-370a-5ba7-aefe-c5bccf1fb23f": {
+              "title": "Reference Documents: Table 701.081, Table 701.082",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.4 - Drainage Backfill Material",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "05e72fc0-2f47-5228-8353-3c84df900ce3": {
+              "title": "Inspection / Test Method: Grading and Plasticity Index",
+              "type": "label",
+              "order": 3
+            },
+            "1ac5dbc3-b6a3-5ddc-8080-8f470e30935a": {
+              "title": "Acceptance Criteria: Bedding and backfill material tested at to ensure materials comply with the following:",
+              "type": "label",
+              "order": 1
+            },
+            "e22693d4-28db-5235-9347-1e4b1c20befd": {
+              "title": "Record of Conformity: Test Records",
+              "type": "label",
+              "order": 4
+            },
+            "8cc70802-9408-57fc-8176-e77939ea5d13": {
+              "title": "Frequency: 1 per 1,000 tonnes or part thereof",
+              "type": "label",
+              "order": 0
+            },
+            "7ee727da-4035-5823-be5c-0d5927dd91f4": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "890dad83-0abe-566c-ade5-bc7111ab49d2": {
+              "title": "Reference Documents: Table 701.091, Table 701.092, Cl. 701.29, Table 701.291",
+              "type": "label",
+              "order": 2
+            },
+            "6a6fd4e3-a690-52be-984f-7ceffe8231af": {
+              "title": "TP",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.5 - Bedding & Backfill Material Testing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {
+            "65295b3c-ed10-5cd9-800d-a1ed7b3af6e5": {
+              "title": "Frequency: Each Delivery",
+              "type": "label",
+              "order": 0
+            },
+            "5dbf7b85-ce2f-51d8-9dab-1a3ec13312ee": {
+              "title": "Acceptance Criteria: Material inspection to be raised on ConQA for all precast pits, pipes and culverts.",
+              "type": "label",
+              "order": 1
+            },
+            "1e19ec68-1761-50c0-86e2-a4932714dca1": {
+              "title": "Record of Conformity: Insert ConQA Material Inspection Reference",
+              "type": "label",
+              "order": 4
+            },
+            "602f0cc2-670e-5984-884a-d9f57912f477": {
+              "title": "Enter: Material Approval Number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "81fbc306-e8e7-5d8e-93cd-c01fa3b07345": {
+              "title": "IP",
+              "type": "label",
+              "order": 5
+            },
+            "35329648-207a-57c3-ba43-e60f16c703de": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "a08e2514-b84a-5c1a-ae66-39a8c72a83f4": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 3
+            },
+            "901c3d90-d807-5bb8-a0e4-1af90e8387f3": {
+              "title": "Reference Documents: ConQA Order Acceptance Form",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.6 - Material Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Stormwater Products and Materials",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "b1c51cc0-c3d4-5fb4-aa5e-ffaf62dfdbc0": {
+              "title": "Acceptance Criteria: All personnel on site have been briefed on the relevant work park to scope of works.",
+              "type": "label",
+              "order": 1
+            },
+            "4905bbe0-62a7-5106-a897-7a3fe04890f4": {
+              "title": "Responsibility: Engineer / Foreman",
+              "type": "label",
+              "order": 6
+            },
+            "c232aa95-44cf-5c95-a4bd-908ef1a49ffa": {
+              "title": "Frequency: Prior to Commencing Work",
+              "type": "label",
+              "order": 0
+            },
+            "77e1aedc-f9a3-5351-b254-a8224e34afeb": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 3
+            },
+            "90cbde4b-ab75-5df3-b91b-cf4f10e1f1e4": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "535ebb4e-4be5-5b4d-9fbd-a9c96532ac28": {
+              "title": "Record of Conformity: Work pack signed.",
+              "type": "label",
+              "order": 4
+            },
+            "32231378-f49d-5c3e-8425-1318d520586e": {
+              "title": "Reference Documents: WP",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "2.1 - Work pack briefing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "210fdb69-9d46-5539-8b1b-39728719a212": {
+              "title": "Acceptance Criteria: Issued For Construction (IFC) and latest available design revision in use.",
+              "type": "label",
+              "order": 1
+            },
+            "f2649dca-2e9b-5fe4-847d-4b662eab59a5": {
+              "title": "Reference Documents: IFC Project Drawings/ Drawing Register",
+              "type": "label",
+              "order": 2
+            },
+            "803b09a2-a749-5d72-bfab-468c8ff200ca": {
+              "title": "Inspection / Test Method: Document review",
+              "type": "label",
+              "order": 3
+            },
+            "8b8577b2-e0ab-507f-b114-e1c29b38d963": {
+              "title": "Record of Conformity: Latest revision IFC drawings",
+              "type": "label",
+              "order": 4
+            },
+            "3629cf91-bdca-55dc-b1a9-b343a7eb5cb0": {
+              "title": "Frequency: Prior to Commencing Work",
+              "type": "label",
+              "order": 0
+            },
+            "542e4e12-72c6-5da9-b5e1-6150743dec83": {
+              "title": "Responsibility: Engineer / Foreman",
+              "type": "label",
+              "order": 6
+            },
+            "6d502a1e-bb8d-59b2-8dee-f0aa7e767368": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "2.2 - Check that current revision drawings are being used",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "d0b3a1e3-6752-535a-bb0f-a8dfd206b407": {
+              "title": "Enter: Ground Penetration Permit #:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "d26fafab-c28a-5fe1-9523-472ac2a6f9c1": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "fc0ce6d3-f97c-59d0-afd7-092de454a00b": {
+              "title": "Frequency: Prior to Commencing Work",
+              "type": "label",
+              "order": 0
+            },
+            "f99117d1-1b07-5837-bb2d-a3e923277573": {
+              "title": "Reference Documents: Excavation Permit",
+              "type": "label",
+              "order": 2
+            },
+            "9aca709a-2f93-55a7-92f2-69484181a4fb": {
+              "title": "Inspection / Test Method: Document review & Site inspection",
+              "type": "label",
+              "order": 3
+            },
+            "7280e952-27d9-5e94-b306-c683e0040ba6": {
+              "title": "Acceptance Criteria: Current GPP signed and specific to the area where works will be executed. Including walk through of the work area with the site team and GPP Coordinator prior to works.",
+              "type": "label",
+              "order": 1
+            },
+            "716f55c3-fe02-5f18-957d-1a217f10f3f3": {
+              "title": "Record of Conformity: Excavation Permit #",
+              "type": "label",
+              "order": 4
+            },
+            "ac105536-5744-521f-82a2-2d44fe78fa1c": {
+              "title": "Responsibility: Engineer / GPP Coordinator",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "2.3 - Ground Penetration Permit (GPP) issued",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "99eff30f-09f4-5864-a24f-fef8251523d9": {
+              "title": "Frequency: Pre Process Approval",
+              "type": "label",
+              "order": 0
+            },
+            "f2cb825a-9ad2-577b-b6f9-7745cf2c8e84": {
+              "title": "Cl.619 Cl. 701.04 Cl. 701.05(a) AS4058 AS4680",
+              "type": "label",
+              "order": 3
+            },
+            "c5500476-391f-5740-823f-fa0cedd9e7bb": {
+              "title": "Acceptance Criteria: HDPE (Stormpro/Blackmax) pipes to be used only under non-paved areas inline with the latest design.",
+              "type": "label",
+              "order": 1
+            },
+            "da6a1039-aac7-55a4-9b38-38b6055e3378": {
+              "title": "Inspection / Test Method: Teambinder Material Approval",
+              "type": "label",
+              "order": 4
+            },
+            "e721397f-8417-5765-8e22-0e4632b8fbbb": {
+              "title": "Reference Documents: VicRoads Spec.",
+              "type": "label",
+              "order": 2
+            },
+            "8411602e-0e9f-51d0-a617-e72fa24dc13d": {
+              "title": "Record of Conformity: Manufacturer certificate or accreditation",
+              "type": "label",
+              "order": 5
+            },
+            "2e172e2c-6a7b-5d4d-afbd-2eed7efa84e1": {
+              "title": "IP",
+              "type": "label",
+              "order": 6
+            },
+            "310e7131-2c9c-5475-b4d4-6f508638760d": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "2.4 - Usage of HDPE Pipes",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "906423c6-500f-53c6-be26-7da7ecdc2d97": {
+              "title": "Acceptance Criteria: Subject to superintendent approval, underground stormwater drains may be backfilled to half the pipe diameter or box culvert height with 3% stabilised sand. Mixture to have a water content sufficient to ensure penetration beneath the pipe or box culvert invert without leaving free surface water.",
+              "type": "label",
+              "order": 1
+            },
+            "bc59b751-2146-5e86-bab9-5085b91e31ff": {
+              "title": "Record of Conformity: Superintendents Correspondence, ITP signed",
+              "type": "label",
+              "order": 4
+            },
+            "eb6909bd-6b85-50c5-acdc-f2291d4cb931": {
+              "title": "AP",
+              "type": "label",
+              "order": 5
+            },
+            "e2546674-f0de-534a-a708-e5073beb0319": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 3
+            },
+            "590a6844-78e2-5eee-93c6-c8973198131c": {
+              "title": "Responsibility: Engineer / Superintendent",
+              "type": "label",
+              "order": 6
+            },
+            "e4847ec7-a36f-50b4-befd-6bc723002024": {
+              "title": "Frequency: Each drainage line",
+              "type": "label",
+              "order": 0
+            },
+            "d4908b53-b7c7-562c-b2f6-06b7eade8438": {
+              "title": "Reference Documents: VicRoads Spec. Cl. 701.19(c)",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "2.5 - Backfilling with cement stabilised sand (If required)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Preliminary Works",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "e4286485-7532-56d3-a07f-2b151841b4e5": {
+              "title": "Reference Documents: VicRoads Spec. Cl. 701.10 IFC Drawing",
+              "type": "label",
+              "order": 2
+            },
+            "f0dab02a-fa97-5611-be78-aec961d2c4e3": {
+              "title": "Frequency: Prior to commencing drainage line",
+              "type": "label",
+              "order": 0
+            },
+            "7decbe86-1fbb-5dd5-a1fb-716895d93b39": {
+              "title": "Record of Conformity: Design and survey setout position confirmed with Superintendent.",
+              "type": "label",
+              "order": 4
+            },
+            "ad2d9834-f7af-5be3-ab6b-144f66224d04": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 3
+            },
+            "149d64bd-f16c-598c-977f-8e8f5cf03573": {
+              "title": "HP",
+              "type": "label",
+              "order": 5
+            },
+            "7a91efe1-ef30-5c7f-a886-be3fda9b6df8": {
+              "title": "Acceptance Criteria: Prior to commencement of excavation for the culverts and stormwater drainage, confirm the position with the Superintendent.",
+              "type": "label",
+              "order": 1
+            },
+            "0ee2d6a2-3dae-5b2e-b233-32cd18a07515": {
+              "title": "Responsibility: Engineer / Superintendent",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "HOLD POINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "3.1 - Confirm position of culverts",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "13c62e00-0883-52f6-aeea-beeb71f9cf33": {
+              "title": "Inspection / Test Method: Site Inspection , Measurements of trench",
+              "type": "label",
+              "order": 9
+            },
+            "42e36554-95dc-5128-a5aa-533cfd534c58": {
+              "title": "Acceptance Criteria: Ensure trench is excavated to prepare culvert foundation and specified depth of bedding.",
+              "type": "label",
+              "order": 1
+            },
+            "20127e67-db75-591a-bf71-54875f2ec4b4": {
+              "title": "Record of Conformity: ITP signed",
+              "type": "label",
+              "order": 10
+            },
+            "553b4687-919c-5a91-9a82-26a2eac6fd40": {
+              "title": "the width of trench at and below the level of the top of the pipe shall be such that the horizontal clearance from the outside of the pipe to the wall of the trench is greater than >300mm, less than <600mmm.",
+              "type": "label",
+              "order": 5
+            },
+            "ef904444-f63d-56df-a4d0-bb0f49650e2b": {
+              "title": "IP",
+              "type": "label",
+              "order": 11
+            },
+            "6719dba9-5593-5f45-8747-02da21791df3": {
+              "title": "Clearance from external faces of the pit to each face of the excavation to be not less than 400mm",
+              "type": "label",
+              "order": 7
+            },
+            "d18cd90d-24d6-5420-bea3-4ee0d5ec91e7": {
+              "title": "Pits:",
+              "type": "label",
+              "order": 6
+            },
+            "eab3ab34-a056-5161-9284-c9fa70f0bf07": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "faa95915-8e57-5bf8-b191-88e5286fc680": {
+              "title": "Reference Documents: VicRoads Spec. Cl. 701.15 Table 701.151 Cl. 705.05(b)",
+              "type": "label",
+              "order": 8
+            },
+            "d197bee4-829e-503c-b0ab-e166d16cfab8": {
+              "title": "Box culverts:",
+              "type": "label",
+              "order": 2
+            },
+            "09a67fe4-9ce0-5550-a7b6-ef2bf910482b": {
+              "title": "distance between culvert wall and trench wall is between 0.5 - 1.0 x the overall height of the culvert.",
+              "type": "label",
+              "order": 3
+            },
+            "790ab5c3-a299-5e15-9145-4d7a36fce49c": {
+              "title": "Frequency: Each trench",
+              "type": "label",
+              "order": 0
+            },
+            "70ee6a5b-073b-5b62-ab28-4bbea089bfe7": {
+              "title": "Pipe culverts:",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3.2 - Excavation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "1a4bed23-f6a0-5587-b1e8-e370b5a8b459": {
+              "title": "minimum 100mm for pipes of D< 1500mm",
+              "type": "label",
+              "order": 2
+            },
+            "cb3dd0fd-58bd-5963-a42d-e39a5c43bfbf": {
+              "title": "Reference Documents: VicRoads Spec. Cl. 701.16 Cl. 701.20(a)",
+              "type": "label",
+              "order": 8
+            },
+            "26f0cfb9-3a72-5ed3-8b66-09a0cf4be070": {
+              "title": "Frequency: Each trench",
+              "type": "label",
+              "order": 0
+            },
+            "9773b062-405b-5f9f-8bf8-242def7311d2": {
+              "title": "IP",
+              "type": "label",
+              "order": 11
+            },
+            "a5c0a6b4-c142-51e3-9bfc-c9df2ccd5a2c": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 9
+            },
+            "d04b67b6-d69f-5889-ab55-a1f87a007b8e": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "d0caa90e-3c16-5738-9554-ef133bcad4e3": {
+              "title": "Bedding and backfill materials shall be placed and compacted in layers not exceeding 150 mm loose thickness.",
+              "type": "label",
+              "order": 5
+            },
+            "d05103c9-b179-59bb-97e9-5a894cd4073d": {
+              "title": "Acceptance Criteria: Bedding material shall be provided and placed for the full width of the trench. The compacted thickness of bedding material following any shaping necessary shall be:",
+              "type": "label",
+              "order": 1
+            },
+            "839a9208-fa39-588d-b73a-89fba32c701f": {
+              "title": "Bedding material which has a swell equal to or greater than 2.5% shall be maintained at a mean moisture ratio of 92% between the completion of rolling and the placement of the overlying layer.",
+              "type": "label",
+              "order": 7
+            },
+            "e5c66140-e358-5ddc-9000-1d5f7ab805d1": {
+              "title": "Record of Conformity: Test Report",
+              "type": "label",
+              "order": 10
+            },
+            "60b27f1f-4465-5c4f-93da-880e2d68c8f5": {
+              "title": "minimum 200mm for pipes with D ≥ 1500 mm",
+              "type": "label",
+              "order": 3
+            },
+            "75043f6d-09d8-5630-96fe-6ae14cdf969d": {
+              "title": "D' is the nominal pipe diameter or culvert width.",
+              "type": "label",
+              "order": 4
+            },
+            "d399b511-b621-5b7c-8df9-174d24e152c8": {
+              "title": "Once culvert sections are in position, an additional layer of bedding material is placed to a height equal to 30% of the nominal pipe diameter or culvert height.",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3.3 - Bedding",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "33c6d6d5-dead-5c21-b56b-50982e2350f0": {
+              "title": "Where applicable, the top of the pipe as marked shall be within five degrees of the vertical axis of the culvert.",
+              "type": "label",
+              "order": 3
+            },
+            "9ff5b5ef-f2c4-5de5-a428-71d6421824ee": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "86c271e0-5dbd-565d-a9fd-2950e7aa209f": {
+              "title": "IP",
+              "type": "label",
+              "order": 8
+            },
+            "2bc25404-5cb8-53eb-a9d3-a8b165cd0e36": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 9
+            },
+            "ff770e4f-00f8-5b8a-819f-540348efa986": {
+              "title": "Record of Conformity: ITP signed",
+              "type": "label",
+              "order": 7
+            },
+            "389ec531-3eb3-5dd9-a98c-ac8d76b2836a": {
+              "title": "Acceptance Criteria: Rebate and socket ends of pipe sections are positioned facing upstream and are to be fully entered. (Laying from downstream)",
+              "type": "label",
+              "order": 1
+            },
+            "f088e249-5079-50db-8062-744906c6dbcb": {
+              "title": "Spacing of multiple rows of culverts to reflect Table 701.171.",
+              "type": "label",
+              "order": 4
+            },
+            "d1118700-abe6-5e23-ba03-30a0032e386f": {
+              "title": "Frequency: Each culvert",
+              "type": "label",
+              "order": 0
+            },
+            "0fd75248-50ac-5b18-b2af-ca332ab89633": {
+              "title": "The lower portion of the pipe shall be in contact with the bedding for the full length of each section. The compacted bedding shall be shaped to accommodate the joint collar and ensure that the pipe is supported along its full length.",
+              "type": "label",
+              "order": 2
+            },
+            "723858f7-6428-5023-86b1-b6ca98c4f4ed": {
+              "title": "Reference Documents: VicRoads Spec. Cl. 701.17(b)",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3.4 - Laying - Circular Pipe",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "276018de-dcf0-5a1f-8542-eef1ac60be1f": {
+              "title": "Acceptance Criteria: Rebate and socket ends of pipe sections are positioned facing upstream and are to be fully entered. (Laying from downstream)",
+              "type": "label",
+              "order": 1
+            },
+            "b52687aa-5420-51aa-9e85-173720592a95": {
+              "title": "Frequency: Each culvert",
+              "type": "label",
+              "order": 0
+            },
+            "fbe83036-fe94-5ef2-933e-a0627a9eac53": {
+              "title": "Contact areas between the top and bottom sections mortared.",
+              "type": "label",
+              "order": 3
+            },
+            "3a6693f6-8b51-539d-a815-fc1992ba0a29": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "b2c92754-a86a-52db-bb00-351ccee4fa28": {
+              "title": "IP",
+              "type": "label",
+              "order": 8
+            },
+            "36a392ec-1a00-57ca-b678-e75fc3733908": {
+              "title": "Consecutive sections of box culverts are firmly placed butted together. The top section matched to the bottom section and no lips over adjoining bottom sections.",
+              "type": "label",
+              "order": 2
+            },
+            "26c5e96e-fce1-51ea-bc10-193cd1bca180": {
+              "title": "Multi‑row box culverts laid with sections in each row in contact with the sections in the adjacent rows.",
+              "type": "label",
+              "order": 4
+            },
+            "884917bf-9793-59f7-9bce-294070a86c51": {
+              "title": "Reference Documents: VicRoads Spec. Cl. 701.17(c)",
+              "type": "label",
+              "order": 5
+            },
+            "81e51a2c-c31f-51b8-be2d-f9ff293905a8": {
+              "title": "Record of Conformity: ITP signed",
+              "type": "label",
+              "order": 7
+            },
+            "06fd1cd8-87ca-500c-a18e-f9b4b76c243d": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 9
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3.5 - Laying - Box Culverts",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {
+            "cd62a631-e6a9-5f20-ba7b-5a2ff86fafe0": {
+              "title": "Any exposed reinforcement shall be coated with an approved epoxy treatment to prevent corrosion.",
+              "type": "label",
+              "order": 3
+            },
+            "feff5c99-8ca0-56da-819c-f00cf7fc200b": {
+              "title": "Reference Documents: VicRoads Spec. Cl. 701.17(d)",
+              "type": "label",
+              "order": 4
+            },
+            "448a3b28-4383-5597-8102-2de10be0d50f": {
+              "title": "Record of Conformity: ITP signed",
+              "type": "label",
+              "order": 6
+            },
+            "4001801b-c79c-5c0a-adea-1fc2b529bbb4": {
+              "title": "Acceptance Criteria: Rebate and socket ends of pipe sections are positioned facing upstream and are to be fully entered. (Laying from downstream)",
+              "type": "label",
+              "order": 1
+            },
+            "b4312716-8e83-5070-8b65-1ea0f64537b1": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 5
+            },
+            "cb406e7d-739a-587f-b400-234d291c9fe0": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 8
+            },
+            "509df9d1-58d6-5df5-986a-48c91b529ce1": {
+              "title": "When cutting culvert section to length or to create a penetration, cuts to be done by machine to achieve a clean vertical face.",
+              "type": "label",
+              "order": 2
+            },
+            "81cf1380-450d-5d4e-ac4c-3dbadb6b28da": {
+              "title": "Frequency: Each culvert",
+              "type": "label",
+              "order": 0
+            },
+            "d8dd7994-cc6e-5acf-9535-2e402d3f99de": {
+              "title": "IP",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3.6 - Laying - Cutting of Culverts (If applicable)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "data": {
+            "91711c50-df87-5e0f-95bc-bf3bd184df36": {
+              "title": "Reference Documents: VicRoads Spec. Cl. 701.18",
+              "type": "label",
+              "order": 0
+            },
+            "e529f2df-192c-59bd-b331-1e885db9f311": {
+              "title": "IP",
+              "type": "label",
+              "order": 3
+            },
+            "5bca751c-6249-5918-a8e4-86d269f2501c": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 4
+            },
+            "6a666134-b1bb-52fb-8e07-7c2458ca52d7": {
+              "title": "Inspection / Test Method: Document review/ Site Inspection",
+              "type": "label",
+              "order": 1
+            },
+            "ebc53bb3-0ce6-5689-a646-228b8a4cceae": {
+              "title": "Record of Conformity: Manufacturer’s recommendations, ITP signed",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3.7 - Jointing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "data": {
+            "6ba90891-f29b-5973-9fff-0f344667c9ec": {
+              "title": "Responsibility: Engineer / Surveyor",
+              "type": "label",
+              "order": 11
+            },
+            "eca4b4be-ee15-5fde-8c79-19435c9ba3a8": {
+              "title": "SCP",
+              "type": "label",
+              "order": 10
+            },
+            "6775896d-d042-59c6-a39d-83543f810c58": {
+              "title": "Frequency: Each Lot",
+              "type": "label",
+              "order": 0
+            },
+            "1f843c75-f6bc-5736-b51c-4b7e44ac6ea9": {
+              "title": "Tolerances that apply:",
+              "type": "label",
+              "order": 3
+            },
+            "4b162c07-4386-57db-b0db-0286eb6e354c": {
+              "title": "Acceptance Criteria: The location of each run of underground drainage has been verified by a survey pickup prior to backfill and form the as constructed survey.",
+              "type": "label",
+              "order": 1
+            },
+            "07abe019-39cf-5eb6-9c0e-3a42a3ab1eb0": {
+              "title": "(b) plan location of pits other than offsets to kerb lines or barriers +/-100mm",
+              "type": "label",
+              "order": 5
+            },
+            "796929bb-3531-52fe-98e4-2969e05b4a89": {
+              "title": "(c) Invert leve of pipes at pits +/-50mm whilst maintaining required drainage grade.",
+              "type": "label",
+              "order": 6
+            },
+            "c1f13f10-2153-5baf-8027-3041045e33d6": {
+              "title": "(d) Departure from design grade of pipe runs +/-10mm in 10m provided minimum grade is not less than 1:250",
+              "type": "label",
+              "order": 7
+            },
+            "9948ead0-9a29-5b72-846e-4d20cd3af056": {
+              "title": "RRJs assembled and prepared in accordance with the manufacturer’s recommendations.",
+              "type": "label",
+              "order": 2
+            },
+            "b7020299-ac16-5a4a-9fc9-6236b973fa87": {
+              "title": "(a) offset of entry pits required to match lines of kerbs or barriers +/-20mm",
+              "type": "label",
+              "order": 4
+            },
+            "41df8ef1-a1f7-5941-baf8-5c58e1ad873c": {
+              "title": "Record of Conformity: Survey Report",
+              "type": "label",
+              "order": 9
+            },
+            "f7f197fa-5323-58b6-b9dd-ddac16dd0753": {
+              "title": "Inspection / Test Method: Survey",
+              "type": "label",
+              "order": 8
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3.8 - Survey",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "data": {
+            "e047439d-b5f2-5a72-bdee-1320023e8895": {
+              "title": "Where the trench is excavated from below design subgrade level the trench is filled with selected backfill material.",
+              "type": "label",
+              "order": 3
+            },
+            "2debdd88-13a2-5465-94be-0a9d14612af0": {
+              "title": "Culvert Under Area not to be Paved:",
+              "type": "label",
+              "order": 4
+            },
+            "516e64b3-575b-56f5-bfff-e0f1d99dfa69": {
+              "title": "IP",
+              "type": "label",
+              "order": 9
+            },
+            "38061926-aaa0-555c-9dcd-21a24afb1319": {
+              "title": "Reference Documents: VicRoads Spec. Cl. 701.19(a)",
+              "type": "label",
+              "order": 6
+            },
+            "c877e2b7-2ef2-5eb1-b1f3-4f043f400ad3": {
+              "title": "Record of Conformity: ITP signed",
+              "type": "label",
+              "order": 8
+            },
+            "377e9e92-b02e-55b6-b922-eaab6b568a30": {
+              "title": "Acceptance Criteria: Culvert Under Area to be Paved:",
+              "type": "label",
+              "order": 1
+            },
+            "5183de94-04fe-5478-9cf6-ded799d79dff": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 7
+            },
+            "5aef7a12-558d-5b56-adcb-0d2e3f92d091": {
+              "title": "Where the trench has been excavated from design subgrade level or above, the trench is backfilled to design subgrade level with selected backfill material, and above that level with appropriate pavement material.",
+              "type": "label",
+              "order": 2
+            },
+            "261beda1-1108-5f1b-bb61-2aaffeaba5cb": {
+              "title": "Frequency: Each culvert",
+              "type": "label",
+              "order": 0
+            },
+            "66abe330-1daa-5b1b-a6f4-864ea779e8c8": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 10
+            },
+            "fd08aedf-ae0c-5fb9-bbc6-413567f0ec98": {
+              "title": "The trench is backfilled with selected backfill material to a level 300mm above the top of the culvert and with ordinary backfill material above that level.",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3.9 - Backfilling",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "data": {
+            "6e9c41da-7b0a-5625-91b6-3ac7ed44d246": {
+              "title": "Reference Documents: VicRoads Spec. Cl. 701.25 Cl.610",
+              "type": "label",
+              "order": 5
+            },
+            "0c13518d-297c-5771-8cdf-39c2df2b3960": {
+              "title": "Record of Conformity: Latest IFC Drawing ITP signed",
+              "type": "label",
+              "order": 7
+            },
+            "78eefe5f-b74d-52fb-9b97-aa81b21fcafb": {
+              "title": "If backfilling to the required level, select backfill material is used.",
+              "type": "label",
+              "order": 4
+            },
+            "634880ef-14da-55dd-8c32-3b33066a5e70": {
+              "title": "Footings extended to the depths shown on the drawings or as necessary to achieve a satisfactory foundation.",
+              "type": "label",
+              "order": 3
+            },
+            "55a82740-f96d-586d-9a9a-8b7c8725ea01": {
+              "title": "Inspection / Test Method: Document Review/ Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "f5dbb284-8b7a-5d3e-9a40-e24a264cf837": {
+              "title": "IP",
+              "type": "label",
+              "order": 8
+            },
+            "d9048974-bb68-5377-a019-6bfbd06502e7": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 9
+            },
+            "6827aa18-99f2-5e3a-8352-d6663c213594": {
+              "title": "Frequency: Each headwall",
+              "type": "label",
+              "order": 0
+            },
+            "e382ae54-17cd-5b32-a743-beed281d941d": {
+              "title": "Acceptance Criteria: Inlet and outlet structures constructed in accordance with the drawings and specification. Concrete used for the construction of inlet and outlet structures shall comply with the requirements of Section 610.",
+              "type": "label",
+              "order": 1
+            },
+            "f3874b68-7e12-5fca-b47f-50d9e89dbc3f": {
+              "title": "Where the trench has been excavated from design subgrade level or above, the trench is backfilled to design subgrade level with selected backfill material, and above that level with appropriate pavement material.",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3.10 - Inlet/Outlet Structures",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Installation of Drainage",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "8359dd2f-9e53-5a8d-b024-7a79afb66b13": {
+              "title": "HP",
+              "type": "label",
+              "order": 1
+            },
+            "595b094d-3064-5121-8efa-938bbd48b493": {
+              "title": "Responsibility: Engineer / Superintendent",
+              "type": "label",
+              "order": 2
+            },
+            "eba2f81f-06b5-5d44-9bcf-ca73166b167c": {
+              "title": "Record of Conformity: Inspection Organisation, Inspection report, ITP signed",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "HOLD POINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "4.1 - Inspection of drainage lines",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "bff44825-9ae9-5ee0-ada4-b9ac051fb2cc": {
+              "title": "TP",
+              "type": "label",
+              "order": 6
+            },
+            "d263fcbc-29b0-5ae3-a901-2c1987648744": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 7
+            },
+            "887ecc36-2ce2-5e46-b0e8-372a2d1d5144": {
+              "title": "Acceptance Criteria: Bedding assessed for compaction and /or moisture in lots.",
+              "type": "label",
+              "order": 1
+            },
+            "a35c6033-4d66-5845-ad4c-2ef50ed6b8d4": {
+              "title": "Reference Documents: VicRoads Spec. Cl. 701.20 (a)",
+              "type": "label",
+              "order": 3
+            },
+            "739ea81c-1f9e-52f3-bbb0-825cf8fd08f5": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 4
+            },
+            "f48518df-f762-5878-8dd6-026cf735d47c": {
+              "title": "Record of Conformity: Compaction and moisture Test Records , ITP signed",
+              "type": "label",
+              "order": 5
+            },
+            "a26556ad-8fee-51d4-9764-4a48f5aecd12": {
+              "title": "Bedding compacted to refusal with handheld mechanical equipment with a mean moisture ratio of 92%.",
+              "type": "label",
+              "order": 2
+            },
+            "e67f3b80-9a02-506f-892a-90069667e311": {
+              "title": "Frequency: 3 test per lot. , (1 lot consists of one layer of bedding for a culvert length between pits or endwalls) , Min. 20% of all lots for each culvert shall be tested.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "4.2 - Bedding Compaction Requirements",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "015a412e-5498-5cc2-a877-2927c16fee56": {
+              "title": "Reference Documents: VicRoads Spec. 701.20 (b)",
+              "type": "label",
+              "order": 4
+            },
+            "33c1f381-11f4-5d37-b2d0-74e456f68937": {
+              "title": "TP",
+              "type": "label",
+              "order": 7
+            },
+            "6dc60bab-1e0d-5487-907c-6ccf9082d41a": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 5
+            },
+            "bd60b255-3123-5667-b370-9294143c3c89": {
+              "title": "Record of Conformity: Compaction and moisture Test Records ITP signed",
+              "type": "label",
+              "order": 6
+            },
+            "eedc51e1-0ed2-5885-a477-b3872fa7b453": {
+              "title": "Acceptance Criteria: Backfill assessed for compaction and or moisture in lots.",
+              "type": "label",
+              "order": 1
+            },
+            "2ed29f69-0b37-599c-a432-0c9260b39217": {
+              "title": "Frequency: 3 test per lot. , (1 lot consists of one layer of bedding for a culvert length between pits or endwalls) , Min. 20% of all lots for each culvert shall be tested.",
+              "type": "label",
+              "order": 0
+            },
+            "3d3ff8f7-410d-5320-8492-f56bc58d673a": {
+              "title": "Backfill material which has a swell equal to or greater > than 2.5% maintained at a mean moisture ratio of 92% between the completion of rolling and the placement of the overlying layer.",
+              "type": "label",
+              "order": 3
+            },
+            "2367b9d4-0e6c-5241-9723-dba08bce7f3e": {
+              "title": "Backfill material which will have a nominal size after compaction of 40mm or < less compacted to a mean value of density ratio of not less than 97%.",
+              "type": "label",
+              "order": 2
+            },
+            "6da0f3b3-c5a4-5968-a4c3-9c4e4cd113e2": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 8
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "4.3 - Backfill Compaction and Moisture requirements",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "fef3348e-59c4-541f-ae00-299ad55e3ce1": {
+              "title": "Acceptance Criteria: Each culvert flushed clean from end to end on completion and maintained in proper working order.",
+              "type": "label",
+              "order": 1
+            },
+            "8cfb2642-59ed-557e-9748-39ef035f0955": {
+              "title": "Reference Documents: VicRoads Spec. Cl. 701.28",
+              "type": "label",
+              "order": 2
+            },
+            "a9222ab2-156d-5167-9a87-194213da9978": {
+              "title": "Responsibility: Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "3866e8f0-ec82-503d-be24-289ef386af11": {
+              "title": "Frequency: Each culvert",
+              "type": "label",
+              "order": 0
+            },
+            "2d2063d7-7532-5d3b-b72f-246fc37e4496": {
+              "title": "Record of Conformity: ITP signed",
+              "type": "label",
+              "order": 4
+            },
+            "57c1757a-cfed-505f-97bb-6014fac66922": {
+              "title": "IP",
+              "type": "label",
+              "order": 5
+            },
+            "4a5b9e70-fbca-54fb-a3a4-f7173dd038ba": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "4.4 - Flushing System",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "1e2b75d9-8b65-5ab3-a9ee-8cb6eb7b2d5e": {
+              "title": "Position:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "7f45dcc9-0f67-5556-8aaf-57b69ff73e0e": {
+              "title": "Print Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "8496136f-536e-5881-8c26-225bf6e5516f": {
+              "title": "Work Completed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "d79f75db-f5ad-56e3-a2d0-12b7ad6b616d": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "46cc5188-0095-57d8-baaf-3b96bbaa3fca": {
+              "title": "The signature below verifies that this ITP has been completed in accordance with the Fulton Hogan's Quality system Procedures and verifies lot compliance with specifications.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Testing and Inspection",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "9d039d50-69f5-5cbc-9da3-28b2b74949dc": {
+              "title": "Is the relevant RFI attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 0
+            },
+            "15b9f6da-4dcf-549a-b209-75ec308efb4a": {
+              "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 2
+            },
+            "4638d450-8951-5805-8689-c0b70577f0dc": {
+              "title": "Is the relevant NCR attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 1
+            },
+            "d74bd914-515f-5de9-a9f6-0177e8df6f24": {
+              "title": "Lot Status",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OUTSTANDING",
+                " CLOSED"
+              ],
+              "order": 4
+            },
+            "d043b889-1311-5718-9d48-5607d8e69c0d": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "9efe0d7d-51fb-5c51-a7bf-35eb55feb097": {
+              "title": "Lot Closed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "752adab9-dc47-592f-9ab8-04daf9eb9f17": {
+              "title": "Lot verified By",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Babak Rudd-Project Quality Manager",
+                " Steve Felsinger- Area Manager"
+              ],
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Lot Verification.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Verification",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "ITP-017-AX-LOT-XXX - Desc",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}

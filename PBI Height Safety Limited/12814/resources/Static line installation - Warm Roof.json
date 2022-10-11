@@ -1,0 +1,59 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Line tensioner and indicator checked and acceptable. Attachment to end stanchion secured. Lock in pin cir-clip secured. Tension indicator disc can be rotated manually. Swaged cable termination secured, no evidence of slipping. There are 5 x Crimps per tensioner and end swage. All locknuts and fixings secured. No visible damage to unit/structure.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Anchorage cable installation checked and acceptable. No cuts or frays to cable. Cable correctly tensioned and not touching the roof deck. Securely attached to end stanchions. No visible damage.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "System traveller checked and acceptable. Slide latch operates freely. Gap between tongue & shuttle inner casing when closed and latched with karabiner, 5mm maximum. Karabiner fits securely when slide latch closed. Karabiner gate lock device operates securely. No visible damage to unit.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Static line installation completed and acceptable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "name": "Static line installation - Warm Roof",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

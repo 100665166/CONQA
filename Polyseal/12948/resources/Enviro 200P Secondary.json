@@ -1,0 +1,129 @@
+{
+  "tree": [
+    {
+      "data": {
+        "7df69594-e6ad-5c62-af6d-cc79a4118d19": {
+          "title": "Specification / Standard: AS3740 - 2010, Manufacturer’s Technical Data Sheet",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Relevant Australian Standards Checked",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "a66b9197-14a3-57a4-b09f-07b6360cab75": {
+          "title": "Attach Photo. [POL HOLD POINT] / [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Check Screed (moisture test if required).",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "5ff46dff-6103-50d4-bcf9-9788902a4380": {
+          "title": "Visual. [MPX HOLD POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Apply Primer. Enviro Shield or Enviro Prime WB.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "309c37a4-7000-5e63-8837-a0e210688492": {
+          "title": "Visual. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Apply first coat of Enviro 200P with a brush or roller.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "8a53f621-029c-52c8-a925-d3f02b04bcdb": {
+          "title": "Attach Photo of WFT reading. Enter WFT reading on comment section. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Apply second coat of Enviro 200P with a brush or roller. Achieve 0.8mm WFT and 1.0mm DFT.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "HOLD POINT - CLICK HERE TO REQUEST BUILDER SIGN OFF",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Final Inspection and Sign-off. Visually inspect and ensure adequately cured - DO NOT PASS UNTIL HOLDPOINT COMPLETE BELOW",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "name": "Enviro 200P Secondary",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

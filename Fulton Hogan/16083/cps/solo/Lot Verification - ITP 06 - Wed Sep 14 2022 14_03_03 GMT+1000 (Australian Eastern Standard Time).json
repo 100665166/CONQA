@@ -1,0 +1,155 @@
+{
+  "tree": [
+    {
+      "data": {
+        "45617a2f-9f85-59cc-ada4-55cdbf013148": {
+          "title": "Is the relevant RFI attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            " NO",
+            " N/A"
+          ],
+          "order": 1
+        },
+        "49e2e331-a7ce-56d6-abca-1710c135a6b4": {
+          "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            " NO",
+            " N/A"
+          ],
+          "order": 3
+        },
+        "1ba209bf-d0c3-5339-9b40-d60d34526c9b": {
+          "title": "Subcontractor/ Supplier records attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            " NO",
+            " N/A"
+          ],
+          "order": 6
+        },
+        "3bcd8a8f-62ba-5309-8235-974ef4c4377e": {
+          "title": "Lot Plan or “Highlighted” IFC drawings (mud maps) attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            " NO",
+            " N/A"
+          ],
+          "order": 4
+        },
+        "dc89d898-9287-5496-9263-8507fefa8dc3": {
+          "title": "As built records attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            " NO",
+            " N/A"
+          ],
+          "order": 8
+        },
+        "ac5e4ad3-c857-568a-bdb1-e06dbdb557b0": {
+          "title": "Conforming Test Results attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            " NO",
+            " N/A"
+          ],
+          "order": 7
+        },
+        "32abcaba-ed53-5b41-908d-2d18852dda14": {
+          "title": "Lot Status",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "OUTSTANDING",
+            " CLOSED"
+          ],
+          "order": 10
+        },
+        "4c2c1357-84d8-5142-bd1b-436401ddd484": {
+          "title": "Lot verified By",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Babak Rudd-Project Quality Manager",
+            " Nicolas Nicola Lodo (Area 2 Manager)",
+            " Nicolas Terpstra (Delivery Manager)"
+          ],
+          "order": 9
+        },
+        "58d8dc80-4bbd-5298-8f1a-2cb2c451b2d1": {
+          "title": "Lot Closed On",
+          "type": "input",
+          "subtype": "text",
+          "order": 11
+        },
+        "c0407ded-9e08-5d52-a7bc-16e1824155e2": {
+          "title": "Is the relevant NCR attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            " NO",
+            " N/A"
+          ],
+          "order": 2
+        },
+        "42f389ee-3b49-53f6-b505-467fb230dda8": {
+          "title": "Survey conformance records attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            " NO",
+            " N/A"
+          ],
+          "order": 5
+        },
+        "9f5149d9-b05e-5c6c-85d3-cd13d70adecb": {
+          "title": "Work Commenced On:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "de05cb69-a202-5428-9508-b6f62839ecd2": {
+          "title": "comments",
+          "type": "input",
+          "subtype": "text",
+          "order": 12
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Lot Verification.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Lot Verification",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

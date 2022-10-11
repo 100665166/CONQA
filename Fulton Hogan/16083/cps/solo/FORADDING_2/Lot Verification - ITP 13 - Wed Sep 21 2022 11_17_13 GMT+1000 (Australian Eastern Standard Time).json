@@ -1,0 +1,162 @@
+{
+  "tree": [
+    {
+      "data": {
+        "25413278-8816-5934-a1fc-d8953b09fe95": {
+          "title": "Survey conformance records attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            "NO",
+            "N/A"
+          ],
+          "order": 5
+        },
+        "9c4fceab-8492-5b59-a00f-527c686323df": {
+          "title": "comments",
+          "type": "input",
+          "subtype": "text",
+          "order": 13
+        },
+        "392b0457-31e1-5c3a-87c0-0afd5f20c0a4": {
+          "title": "Conforming Test Results attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            "NO",
+            "N/A"
+          ],
+          "order": 7
+        },
+        "4bf631dd-d240-5ad9-92d8-fac182409e1e": {
+          "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            "NO",
+            "N/A"
+          ],
+          "order": 3
+        },
+        "a2058ca1-2319-50fd-8515-1437b583b014": {
+          "title": "Subcontractor/ Supplier records attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            "NO",
+            "N/A"
+          ],
+          "order": 6
+        },
+        "fcc25a84-1084-59aa-abb1-f074b3a42da4": {
+          "title": "Is the relevant RFI attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            "NO",
+            "N/A"
+          ],
+          "order": 1
+        },
+        "3ff59e00-a4ff-5eeb-b944-2bd5df3247ed": {
+          "title": "Lot Status",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "OUTSTANDING",
+            " CLOSED"
+          ],
+          "order": 11
+        },
+        "ee99bd63-1078-5e73-9b3a-d416e38a68d1": {
+          "title": "Is the relevant NCR attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            "NO",
+            "N/A"
+          ],
+          "order": 2
+        },
+        "e56d8ac5-300a-57cd-865f-acb749261292": {
+          "title": "Other:",
+          "type": "input",
+          "subtype": "text",
+          "order": 10
+        },
+        "c77ea179-37e9-5854-80f2-d37b1722e8c9": {
+          "title": "As built records attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            "NO",
+            "N/A"
+          ],
+          "order": 8
+        },
+        "21128d62-8ed1-52cd-9a70-76de5a27f1eb": {
+          "title": "Lot Closed On",
+          "type": "input",
+          "subtype": "text",
+          "order": 12
+        },
+        "8827bfba-7ce6-5a0b-a5b6-cc7ff86e8c72": {
+          "title": "Work Completed On",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "17fca6bb-3df6-5e92-9097-55f34849b774": {
+          "title": "Lot verified By",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Babak Rudd-Project Quality Manager",
+            " Nicola Lodo (Area 2 Manager)",
+            " Nicolas Terpstra (Delivery Manager)",
+            " Other"
+          ],
+          "order": 9
+        },
+        "953d94b6-604b-5905-ae94-cf1ac88194f4": {
+          "title": "Lot Plan or “Highlighted” IFC drawings (mud maps) attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            "NO",
+            "N/A"
+          ],
+          "order": 4
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Lot Verification.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Lot Verification",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

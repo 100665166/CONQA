@@ -1,0 +1,531 @@
+{
+  "tree": [
+    {
+      "data": {
+        "eaa03637-209c-517e-b9de-550c88ec6b94": {
+          "title": "Year",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "45f94488-3373-53a1-b1eb-0142abc8938d": {
+          "title": "Date",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "eba78f3f-9ef6-5b30-a450-2c00dac6fecc": {
+          "title": "First Aider on site today enter name",
+          "type": "input",
+          "subtype": "text",
+          "order": 5
+        },
+        "ee94d289-8345-519c-a1dc-4d4e9c2faca2": {
+          "title": "HSR on site today enter name",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "e532b969-bcba-5ce5-8301-0b65eb6c4444": {
+          "title": "Injury on site today enter name",
+          "type": "input",
+          "subtype": "text",
+          "order": 6
+        },
+        "4d6cdbf3-5f92-5131-94b8-65bfeaf2bc31": {
+          "title": "Number of workers on site",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "e630b8e7-4a8f-5dcf-82e7-91ad7985f63a": {
+          "title": "Day",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Monday",
+            " Tuesday",
+            " Wednesday",
+            " Thursday",
+            " Friday",
+            " Saturday",
+            " Sunday"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Areas of work accessible for the day",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "c7240225-2d70-5809-a32b-6453b245339e": {
+          "title": "Task",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Columns",
+            " Framing",
+            " Deck",
+            " Walls",
+            " Cores",
+            " Stripping",
+            " Setdown",
+            " Upstand",
+            " Footings G/Slab",
+            " Other"
+          ],
+          "order": 1
+        },
+        "51c90ac2-0184-5eb6-8653-7fb8b79a440d": {
+          "title": "Comments",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "7991ea70-401b-5061-a71f-c4e092e5c344": {
+          "title": "Area",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Work area 1 details entered",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "c0a10e2b-1065-58e3-ac37-dc224e3aabe5": {
+          "title": "Task",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Columns",
+            " Framing",
+            " Deck",
+            " Walls",
+            " Cores",
+            " Stripping",
+            " Setdown",
+            " Upstand",
+            " Footings G/Slab",
+            " Other"
+          ],
+          "order": 1
+        },
+        "a0a35cb9-dafc-5b9c-8e6a-a797afd52e0b": {
+          "title": "Comments",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "55f7da31-f5b8-5879-bd63-887ce08299a1": {
+          "title": "Area",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Work area 2 details entered",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "7262c9bb-065b-5da4-ac48-7e414aeaa696": {
+          "title": "Area",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "f4b0eccf-0260-550c-a747-5d43d6f3dc77": {
+          "title": "Task",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Columns",
+            " Framing",
+            " Deck",
+            " Walls",
+            " Cores",
+            " Stripping",
+            " Setdown",
+            " Upstand",
+            " Footings G/Slab",
+            " Other"
+          ],
+          "order": 1
+        },
+        "a1b07bb7-a451-5fdd-b0c5-e1e92aec249f": {
+          "title": "Comments",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Work area 3 details entered",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "acb48e62-629c-564e-8a04-a26eb8e97834": {
+          "title": "Task",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Columns",
+            " Framing",
+            " Deck",
+            " Walls",
+            " Cores",
+            " Stripping",
+            " Setdown",
+            " Upstand",
+            " Footings G/Slab",
+            " Other"
+          ],
+          "order": 1
+        },
+        "1d50dcdc-449a-50ed-80c2-82fbe3c49a54": {
+          "title": "Area",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "f1f1f070-0f20-58fe-8541-5d81a3a083f6": {
+          "title": "Comments",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Work area 4 details entered",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "54b04783-3641-5ea7-87e4-f13ecc0bd730": {
+          "title": "Area",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "f9b7af2b-36e3-5cab-8c5e-1e0327da3699": {
+          "title": "Comments",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "15dc6110-e67d-529f-b3ec-5f00a536d4f1": {
+          "title": "Task",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Columns",
+            " Framing",
+            " Deck",
+            " Walls",
+            " Cores",
+            " Stripping",
+            " Setdown",
+            " Upstand",
+            " Footings G/Slab",
+            " Other"
+          ],
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Work area 5 details entered",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {
+        "33fe58e7-4edd-5f64-a349-7377f45ebf7f": {
+          "title": "Comments",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "97183d4b-71d5-5057-b40e-c054f5de3027": {
+          "title": "Area",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "fd167264-cd8c-5785-87bb-9a3df8af0bf0": {
+          "title": "Task",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Columns",
+            " Framing",
+            " Deck",
+            " Walls",
+            " Cores",
+            " Stripping",
+            " Setdown",
+            " Upstand",
+            " Footings G/Slab",
+            " Other"
+          ],
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Work area 6 details entered",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "data": {
+        "add35e4e-1173-5101-80d1-bf3ccc7ccb65": {
+          "title": "Task",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Columns",
+            " Framing",
+            " Deck",
+            " Walls",
+            " Cores",
+            " Stripping",
+            " Setdown",
+            " Upstand",
+            " Footings G/Slab",
+            " Other"
+          ],
+          "order": 1
+        },
+        "02157fbe-7875-5842-9c6d-ff31f9a10c34": {
+          "title": "Other",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "332196d3-a5ed-56f9-9632-af807b6d7844": {
+          "title": "Area",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Work area 7 details entered",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "data": {
+        "57f14934-5517-5492-9022-79b51c6f1f7a": {
+          "title": "Task",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Columns",
+            " Framing",
+            " Deck",
+            " Walls",
+            " Cores",
+            " Stripping",
+            " Setdown",
+            " Upstand",
+            " Footings G/Slab",
+            " Other"
+          ],
+          "order": 1
+        },
+        "d35f76d6-6ab9-5d1f-9356-1fb906b4044b": {
+          "title": "Comments",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "6f95f39c-4463-58c2-a0d3-602ace3fd8a5": {
+          "title": "Area",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Work area 8 details entered",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    },
+    {
+      "data": {
+        "829c0605-9185-5f26-a3a6-e4fd872c61aa": {
+          "title": "Min temp predicted",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "95707536-5712-5210-90fb-835bf4032b6e": {
+          "title": "Conditions:",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Fine",
+            " Overcast",
+            " Showers",
+            " Rain",
+            " Windy",
+            " Hot"
+          ],
+          "order": 0
+        },
+        "ff90ff60-0345-5965-ab4e-c504648f09fa": {
+          "title": "Max temp predicted",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Weather conditions entered",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 9
+      }
+    },
+    {
+      "data": {
+        "013c10b0-1a34-5e02-a28b-603087596aec": {
+          "title": "Conditions:",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Rain",
+            " Windy",
+            " Heat",
+            " Other trades",
+            ""
+          ],
+          "order": 1
+        },
+        "42348ab3-6ccd-525a-bb48-3ead652de64c": {
+          "title": "Total Hours of delay",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Delays from inclemency",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 10
+      }
+    },
+    {
+      "data": {
+        "ea9367a9-3ee6-5019-8a8b-45e1f6f47ea7": {
+          "title": "Total Hours of delay",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "cddb8fcb-a995-5f4c-a02f-7db7a70ef06b": {
+          "title": "Conditions:",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Builder",
+            " Union",
+            " Crane",
+            " Scaffold",
+            " Steel fixer",
+            " PT",
+            " Concreter",
+            " Earthworks",
+            " Safety",
+            " Other"
+          ],
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Delays from Builders or Others",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 11
+      }
+    }
+  ],
+  "meta": {
+    "name": "Site Diary",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

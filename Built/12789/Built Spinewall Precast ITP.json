@@ -1,0 +1,113 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Panel Delivery Inspection",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "3d59bac7-138b-50eb-8655-3f3fbe9570bd": {
+          "title": "Material Traceability Check",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Horizontal Joint (Dry Pack)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "6b2d125e-b12d-59ad-8aeb-da421a8837a7": {
+          "title": "Material Traceability Check",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Dowel Duct Grout",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Ties into landing",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Wet-stitch Reinforcement",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Wet-stitch Pour",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {
+        "7668c747-4987-51a2-999e-909e6b192e08": {
+          "title": "Panels ready for Props to be stripped",
+          "type": "boolean",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Stripping Props",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    }
+  ],
+  "meta": {
+    "name": "Built Spinewall Precast ITP",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

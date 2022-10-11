@@ -1,0 +1,379 @@
+{
+  "tree": [
+    {
+      "data": {
+        "4142824b-9249-5b88-8f6b-a472c9102815": {
+          "title": "Dilap",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Existing Cracks in ceiling",
+            " Existing Damage in cabinetry",
+            " Existing Damage in gyprock walls",
+            " Existing Stains/damage to carpets",
+            " Existing damage to benchtops",
+            " Existing damage to stove/oven",
+            " Other"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Dilap - Take photos or documents & comment where applicable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "e7940e66-7f38-5b79-ab67-d00daa745495": {
+          "title": "FD/Penetration No",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "FD / Fire Penetration - Take photos or documents & comment where applicable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "f0610e53-36cd-5705-a4f1-1b85d7007723": {
+          "title": "Ceiling Access Panel",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Pass - Accessible",
+            " FAIL - Not accessible",
+            " FAIL - Relocate Ceiling AP",
+            " FAIL - Install NEW Ceiling AP",
+            " Other"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Ceiling Access Panel - Take photos or documents & comment where applicable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "120ad0eb-e0c3-5a80-8f68-0b9e541f98fe": {
+          "title": "Duct Access Panel",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "PASS - Not Required",
+            " PASS - Existing Duct AP is COMPLIANT",
+            " FAIL - Relocate Existing Duct AP",
+            " FAIL - Install new Duct AP",
+            " Other"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Duct Access Panel - Take photos or documents & comment where applicable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "b9d421c1-db2a-58ef-8338-8e19f1ae390b": {
+          "title": "Damper Type",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Intumescent FD",
+            " Mechanical Curtain FD",
+            " Slab FD",
+            " Ventilation Damper",
+            " Other"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Damper Type - Take photos or documents & comment where applicable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "70baa273-6087-54c0-8e98-599a535da753": {
+          "title": "Wall type",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Masonry/Concrete",
+            " Hebel",
+            " Speed Panel",
+            " FR Plasterboard",
+            " Other"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Wall Type - Take photos or documents & comment where applicable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {
+        "4b986f4e-4d37-5dd4-99bf-a25af7941383": {
+          "title": "Shape",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Round",
+            " Rectangle",
+            " Other"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Shape - Take photos or documents & comment where applicable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "data": {
+        "4115cdfe-8b9f-548a-8401-3371d353c446": {
+          "title": "Tested System Ref #",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Yes - attach system number",
+            " Not known",
+            " Other"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Tested System -Take photos or documents & comment where applicable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "data": {
+        "d7cab701-75d4-5776-aa6f-c0153a2f7865": {
+          "title": "Angle System",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Square - 2 sides",
+            " Square - 3 sides",
+            " Square - 4 sides",
+            " V- shape",
+            " Other"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Angle System - Take photos or documents & comment where applicable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    },
+    {
+      "data": {
+        "2af83140-bded-5d1a-93a4-6e85199931a0": {
+          "title": "Angle Installation",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Obstructed- behind Gyprock",
+            " Pass - clear unobstructed view",
+            " Angles CORNERS within 5mm gap",
+            " Angle FLUSH to wall",
+            " Other"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Angle Installation - Take photos or documents & comment where applicable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 9
+      }
+    },
+    {
+      "data": {
+        "50d0949c-5c6a-5070-a891-f31433013f46": {
+          "title": "Mastic",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Manufacturer approved Mastic - YES",
+            " Mastic type UNKNOWN",
+            " Manufacturer approved Mastic - NO",
+            " Bead complete - No gaps/ shrinkage",
+            " Mastic Bead - FAIL",
+            " Depth of Mastic 25mm - PASS",
+            " Depth of Mastic 25mm - FAIL",
+            " Other"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Mastic - Take photos or documents & comment where applicable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 10
+      }
+    },
+    {
+      "data": {
+        "f2c9cc01-ea5b-53d1-aebd-33dd881b5dda": {
+          "title": "Breakaway joint",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "PASS - less than 150mm from walls",
+            " FAIL - More than 150mm from walls",
+            " PASS - Nylon bolts/Rivets",
+            " FAIL - BOLTS non compliant",
+            " Other"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Breakaway Joint - Take photos or documents & comment where applicable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 11
+      }
+    },
+    {
+      "data": {
+        "b2a07294-acfe-5490-a1ed-112b8bc5db4b": {
+          "title": "Actuators",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "PASS - Accessible",
+            " FAIL - Not accessible",
+            " PASS - ROTATE Actuator",
+            " Other"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Actuators - Take photos or documents & comment where applicable",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 12
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Bathroom - Airflow Reading L/sec",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 13
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Ensuite - Airflow Reading L/sec",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 14
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Laundry - Airflow Reading L/sec",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 15
+      }
+    }
+  ],
+  "meta": {
+    "name": "Defect ITP",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

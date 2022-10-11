@@ -1,0 +1,147 @@
+{
+  "tree": [
+    {
+      "data": {
+        "4bd64c70-d54c-5ed0-88b7-363a57aee812": {
+          "title": "Specification / Standard: Manufacturer’s Technical Data Sheet",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Relevant Australian Standards Checked",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check Substrate. (moisture test if oncrete not fully cured) and prepare surface using a scraper or grinder and vacuum or sweep residual debris. [POL HOLD POINT] / [MPX HOLD POINT]",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "5fcf9389-3b98-5e11-8e79-d57c2d744d43": {
+          "title": "Attach Photo. [POL HOLD POINT] / [MPX HOLD POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Check for cracks/defect in concrete.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "41333d6c-1641-5a95-a7a7-020b7a6f9a60": {
+          "title": "Visual. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Perform mechanical profiling / shot blasting to concrete",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "95effea3-a376-56fc-876d-890566a1fd28": {
+          "title": "Visual. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Spray Enviro CSH concrete surface hardener and moisture barrier, first application",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "60e45cbc-91aa-5c1b-8108-3f4193ed16ec": {
+          "title": "Visual. [MPX HOLD POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Spray Enviro CSH concrete surface hardener and moisture barrier, second application",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {
+        "6b04fbdc-1df7-53b9-8753-f04e00fd9e90": {
+          "title": "Attach Photo.",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "HOLD POINT - CLICK HERE TO REQUEST BUILDER SIGN OFF",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Final Inspection and Sign-off. Visually inspect and ensure adequately cured - DO NOT PASS UNTIL HOLDPOINT COMPLETE BELOW",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    }
+  ],
+  "meta": {
+    "name": "Enviro CSH",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

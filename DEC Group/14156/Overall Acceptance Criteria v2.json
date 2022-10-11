@@ -1,0 +1,180 @@
+{
+  "tree": [
+    {
+      "data": {
+        "a408b312-a6dd-5616-ab58-73ac3d688d8d": {
+          "title": "Selection of colour and location is to be in accordance with finishes schedule",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Set out",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "867ed467-6007-5801-a62d-0e0d06817ac0": {
+          "title": "All samples to be approved prior to commencement and must include all green star requirements.",
+          "type": "label",
+          "order": 0
+        },
+        "5399c9c0-fdb6-58ca-adad-810bdaedda2a": {
+          "title": "Use paints and finishes as per sow/finishes schedule. Samples to be approved by kapitol group",
+          "type": "label",
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Samples / materials & components",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "ae39f942-8e26-5c20-8124-f8e225db2c21": {
+          "title": "Painting: comply with the recommendations of those parts of asinzs 2311 2009 and asinzs 2312-1-2014 which are referenced in this section.",
+          "type": "label",
+          "order": 0
+        },
+        "edc4235b-f528-5ada-b60d-4b91bf59ef19": {
+          "title": "Metal paints 3750-19,as3730-15, as3730-21,3750-9 architectural specifications",
+          "type": "label",
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Standards",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "3c444b44-f147-56cd-839a-759760454465": {
+          "title": "As per finishes schedule/sow: allow for application of 1 coat primer and 2 coats (dark colours 4 coats) finishing product.",
+          "type": "label",
+          "order": 0
+        },
+        "fd5b269d-db3d-5700-a049-4cb749606677": {
+          "title": "Protect door furniture and other fixtures. Use drop sheets. Execute works in strict compliance with the manufacturers recommendations.",
+          "type": "label",
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Painting",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "03229e83-c8ef-5020-9f9e-f66b550a0ca2": {
+          "title": "Ensure that all works have been carried out in accordance with finishes schedule, approval of samples & manufacturers recommendations",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Final inspection",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "93b992b3-6269-511d-a7c6-fd211547efcd": {
+          "title": "Clean up and remove any excess materials etc and place into correct waste bins",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Environmental waste",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {
+        "6d7d76b2-0f2e-56bb-8a76-ac7e173b878e": {
+          "title": "Contractor to leave adequate leftover paint in marked containers for touch up or as agreed with kapitol group defect rectification & maintenance as per care requirements",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Extra paint",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Request Sign Off",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Kapitol Group Acknowledgment of Works",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    }
+  ],
+  "meta": {
+    "name": "Overall Acceptance Criteria",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

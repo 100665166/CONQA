@@ -1,0 +1,376 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "131084d1-ee0b-5822-acc3-e1db8e1ce5f1": {
+              "title": "Drawing Ref No.",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "3720834a-76ac-44f5-ba9a-72ff18897219",
+            "display": "normal",
+            "name": "Latest consented drawings",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "7c7e8080-132f-45d2-8176-90ca9f31dc7d",
+            "display": "normal",
+            "name": "Setout completed checked and accurate",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "21019758-f1e3-47bb-9737-780ce2c6576c",
+            "display": "normal",
+            "name": "Excavation Accurate - Location & Depth",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "9e94d16c-9679-4944-8ca9-187fb5a874f5",
+            "display": "normal",
+            "name": "Ground Conditions Checked & Acceptable",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "f7192027-0724-478f-950d-d0457ee28f02",
+            "display": "normal",
+            "name": "Bedding depth and material correct",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 4
+          }
+        },
+        {
+          "data": {
+            "0efa9363-e971-5bd6-a2af-486574ccfd65": {
+              "title": "Grade of Pre-Line %",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "1df52bd3-8bd4-59c9-8fa8-6a7ae23ca24e": {
+              "title": "Start Invert",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "b2319cf9-4c1f-5183-ae92-6ac2e3c41f63": {
+              "title": "Finish Invert",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "33c1c8e7-19be-5493-af56-bf00f759c0a6": {
+              "title": "Product Type",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "a68958d2-1ac0-44b2-81a8-4bc72db19633",
+            "display": "normal",
+            "name": "Correct pipe laid to specified level and grade (all joints sealed correctly as specified)",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 5
+          }
+        },
+        {
+          "data": {
+            "4ad8b917-8309-56ab-b0d8-1e1c5897223a": {
+              "title": "Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "c226cd51-b209-5d7f-8356-10773f92bc5a": {
+              "title": "Local Authority Inspection Passed",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "a79c1789-eac7-50e5-a1c1-80ab838f26e9": {
+              "title": "Name of inspector",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "0fa520e1-c2e1-4e4d-9a24-f84489182c8b",
+            "display": "normal",
+            "name": "Install Tests completed, reviewed & approved",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 6
+          }
+        },
+        {
+          "data": {
+            "68e34da3-ac95-5dd3-b294-c1030571d457": {
+              "title": "Soil Removed",
+              "type": "boolean",
+              "order": 2
+            },
+            "c7879853-f8ba-5e4e-8554-bc8eb0a1530d": {
+              "title": "Trench Compacted",
+              "type": "boolean",
+              "order": 3
+            },
+            "2f944b8c-e3d8-58dd-990d-483d31156b7a": {
+              "title": "Hard Filled",
+              "type": "boolean",
+              "order": 4
+            },
+            "1bf12eac-9bab-5656-a588-ac82a6bc7efa": {
+              "title": "Laid by",
+              "type": "enum",
+              "subtype": "button",
+              "order": 0
+            },
+            "680a86c4-6c26-533c-b820-1c91eb77d9de": {
+              "title": "Bedding Sound",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "27afd7c1-a318-430e-a666-5c6d1025a33f",
+            "display": "normal",
+            "name": "Pipe Laying Completed",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "5424f95e-bbec-4759-8d33-e06c01a0e2b6",
+            "display": "normal",
+            "name": "Connections to manholes complete and approved",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 8
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "4fe8f637-1238-457e-9495-31c1f1fb41f3",
+            "display": "normal",
+            "name": "Air Test Complete",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 9
+          }
+        },
+        {
+          "data": {
+            "3fcaecf5-798e-52be-ba1b-4e31b00090da": {
+              "title": "Foreman",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "31547423-4f79-5efb-b399-c7db7c71b9ac": {
+              "title": "Sign Off By",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "c94059e3-a5fe-591c-bdaf-ea3b1badd510": {
+              "title": "Acknowledgement of checklist by",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "5fb30fad-ad00-4104-b4b3-d2e64d0dfb9c",
+            "display": "normal",
+            "name": "Area of Work Inspection Completed & Sign Off",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 10
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "cb8b50cc-f453-4ddb-bcc0-c52896a9a169",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pipe Laying",
+        "dependant": true,
+        "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "10f92df5-3273-447f-813c-4bb4f1209f14",
+            "display": "normal",
+            "name": "Backfill methodology and material confirmed",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "e4ebb52a-c9e3-4e2f-8e57-a35e0b394fa3",
+            "display": "normal",
+            "name": "Any formwork/ debris removed from area",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "be966124-9cf2-43f1-a46c-081c4dec9fef",
+            "display": "normal",
+            "name": "Any waterproofing/ drainage / service requirements completed and inspected",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "95cd1072-278f-4a98-ac95-47a5ee6dc7fa",
+            "display": "normal",
+            "name": "Approval given to commence backfill - attach any other relevant inspections and observations closeout",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "e8c1f461-f8f6-44a9-b323-bd1c4c9b5ba8",
+            "display": "normal",
+            "name": "General photos and observations during backfill",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "2dada678-269e-491e-b9e5-0bf04f42ccdf",
+            "display": "normal",
+            "name": "Backfill completed correctly and heights checked/ correct",
+            "dependant": false,
+            "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+            "type": "step",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "cd8445d2-49ef-47eb-ba19-c191e606181a",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Backfill",
+        "dependant": true,
+        "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "templateReference": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "Sewer- Pipeline Installation Checklist",
+    "dependant": true,
+    "templateId": "577a66fe-bc6a-4b2d-89ba-eabece531e24",
+    "type": "step"
+  }
+}

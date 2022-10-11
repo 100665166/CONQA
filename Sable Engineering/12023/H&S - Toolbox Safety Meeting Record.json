@@ -1,0 +1,452 @@
+{
+  "meta": {
+    "display": "flat",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "name": "Toolbox Safety Meeting Record",
+    "type": "step",
+    "dependant": true
+  },
+  "data": {},
+  "tree": [
+    {
+      "meta": {
+        "dependant": true,
+        "type": "step",
+        "display": "normal",
+        "order": 0,
+        "name": "Details"
+      },
+      "data": {
+        "40e6f6a8-202d-44dd-acf8-8b70c1c290d5": {
+          "float": "left",
+          "title": "Meeting chairperson",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "9f8896e6-bbb6-4c81-8cc4-7000a9102a41": {
+          "float": "left",
+          "title": "Date",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "6689d776-83c3-4bc2-adc9-4c3862e70f52": {
+          "float": "left",
+          "title": "Time",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 1,
+        "name": "Attendees documented and signed on"
+      },
+      "data": {},
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 2,
+        "name": "Site Activities – Compulsory PPE required"
+      },
+      "data": {
+        "c85f41db-3bff-422f-acdb-4118e49381d5": {
+          "float": "left",
+          "title": "Hard Hat",
+          "type": "label",
+          "order": 7
+        },
+        "e3e03a8f-8c87-40ae-b888-98bbe3792959": {
+          "float": "left",
+          "title": "High Vis Vest",
+          "type": "label",
+          "order": 8
+        },
+        "2ae5b564-5c0f-4047-b19e-875bd58450fd": {
+          "float": "left",
+          "title": "Steel Cap Boots",
+          "type": "label",
+          "order": 9
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 3,
+        "name": "Site activities - job plans, work methods, incident investigations, etc. reviewed / discussed"
+      },
+      "data": {
+        "1e117465-513d-4f3e-9d7f-aacf3245b9fd": {
+          "float": "left",
+          "title": "Mark and set out steel.",
+          "type": "boolean",
+          "value": false,
+          "order": 11
+        },
+        "b96b5fde-c3cb-4d14-81d2-3aaaf748b75c": {
+          "float": "left",
+          "title": "Pre drill holes in concrete using concrete drill.",
+          "type": "boolean",
+          "value": false,
+          "order": 12
+        },
+        "be11e4b7-e3a9-4bf0-a983-24c1c46cdb4b": {
+          "float": "left",
+          "title": "Drill and bolt steel",
+          "type": "boolean",
+          "value": false,
+          "order": 13
+        },
+        "0f38526d-964f-43a2-bae4-0eeca17d7e23": {
+          "float": "left",
+          "title": "Using crane to lift and erect steel.",
+          "type": "boolean",
+          "value": false,
+          "order": 14
+        },
+        "0d8c8d3c-552f-4ce6-a6f5-7d9945942514": {
+          "float": "left",
+          "title": "Working off scaffolding.",
+          "type": "boolean",
+          "value": false,
+          "order": 15
+        },
+        "fe9b9a83-d16a-4b4e-a0da-060860455afb": {
+          "float": "left",
+          "title": "Working off ladder.",
+          "type": "boolean",
+          "value": false,
+          "order": 16
+        },
+        "22bc0025-b26f-4b7d-9cb5-50ce97ea854c": {
+          "float": "left",
+          "title": "Knuckle boom being used.",
+          "type": "boolean",
+          "value": false,
+          "order": 17
+        },
+        "86f12aab-5290-40c1-8ec5-ba1a3cf57ec3": {
+          "float": "left",
+          "title": "Fast bracing install",
+          "type": "boolean",
+          "value": false,
+          "order": 18
+        },
+        "f3def2a4-9ad2-4a04-a3f9-6150654f5773": {
+          "float": "left",
+          "title": "Cross bracing install",
+          "type": "boolean",
+          "value": false,
+          "order": 19
+        },
+        "7c48829c-f1a4-4c68-acd7-f441507ba436": {
+          "float": "left",
+          "title": "Welding",
+          "type": "boolean",
+          "value": false,
+          "order": 20
+        },
+        "874c35da-8b00-4187-8277-ab923be90449": {
+          "type": "boolean",
+          "order": 21,
+          "float": "left",
+          "title": "Scissor lift being used"
+        },
+        "6b823416-6837-4de1-9875-6437f5c99b86": {
+          "float": "left",
+          "title": "Other:",
+          "type": "boolean",
+          "value": false,
+          "order": 22
+        },
+        "2d9215ae-e73f-4e71-b162-1dcaeff4f65a": {
+          "float": "left",
+          "type": "input",
+          "subtype": "text",
+          "order": 23
+        },
+        "9476be17-8837-4ae1-91cf-fe1d21260951": {
+          "float": "left",
+          "type": "input",
+          "subtype": "text",
+          "order": 24
+        },
+        "7a5460a3-36a4-41b4-aaa3-0b29afe88842": {
+          "float": "left",
+          "type": "input",
+          "subtype": "text",
+          "order": 25
+        },
+        "3ceec3f6-8fc6-44ed-be75-a830afba1946": {
+          "float": "left",
+          "type": "input",
+          "subtype": "text",
+          "order": 26
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 4,
+        "name": "Employee issues raised"
+      },
+      "data": {
+        "a8695f2f-0e19-469d-925e-dbc8c41f73d2": {
+          "float": "left",
+          "title": "1",
+          "type": "input",
+          "subtype": "text",
+          "order": 28
+        },
+        "b95e0048-254e-4089-961f-392120724c6e": {
+          "float": "left",
+          "title": "Date to be resolved",
+          "type": "input",
+          "subtype": "text",
+          "order": 29
+        },
+        "19540728-1159-4606-a63a-1f6233944505": {
+          "float": "left",
+          "title": "2",
+          "type": "input",
+          "subtype": "text",
+          "order": 30
+        },
+        "2bdd13d7-0e85-4fdd-a801-a0a45f3e7cb9": {
+          "float": "left",
+          "title": "Date to be resolved",
+          "type": "input",
+          "subtype": "text",
+          "order": 31
+        },
+        "f7308d10-a824-4831-8c54-b74407f88c62": {
+          "float": "left",
+          "title": "3",
+          "type": "input",
+          "subtype": "text",
+          "order": 32
+        },
+        "7d5d1358-34ad-4367-b214-cfab42c6a7ff": {
+          "float": "left",
+          "title": "Date to be resolved",
+          "type": "input",
+          "subtype": "text",
+          "order": 33
+        },
+        "254c7801-6877-43ed-8df2-c401a7134e09": {
+          "float": "left",
+          "title": "4",
+          "type": "input",
+          "subtype": "text",
+          "order": 34
+        },
+        "9954efa4-8f1c-4474-a574-561966548cf1": {
+          "float": "left",
+          "title": "Date to be resolved",
+          "type": "input",
+          "subtype": "text",
+          "order": 35
+        },
+        "0a7b4081-64f6-4d51-9d82-82d494a4cf90": {
+          "float": "left",
+          "title": "5",
+          "type": "input",
+          "subtype": "text",
+          "order": 36
+        },
+        "148950e1-d587-45e3-9292-610da7600098": {
+          "float": "left",
+          "title": "Date to be resolved",
+          "type": "input",
+          "subtype": "text",
+          "order": 37
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 5,
+        "name": "Safe observations reviewed / discussed"
+      },
+      "data": {
+        "ae1131ae-0436-41b6-89c8-3ae4b5b01226": {
+          "float": "left",
+          "title": "Be mindful of slips trips and falls onsite.",
+          "type": "boolean",
+          "value": false,
+          "order": 39
+        },
+        "a8e40d86-df24-4ccc-8c45-e08bbe5e4164": {
+          "float": "left",
+          "title": "Use of ladders and mobile scaffolding and ensure it is stable and erected correctly before using them.",
+          "type": "boolean",
+          "value": false,
+          "order": 40
+        },
+        "d9671c37-d9a8-4a77-b70c-1b8ac6b6ea96": {
+          "float": "left",
+          "title": "Ensure all handles are in place and you have a firm grip on the concrete drill at all times in case it kicks back.",
+          "type": "boolean",
+          "value": false,
+          "order": 41
+        },
+        "883c50c9-b5c2-4944-964e-95c9b28be8f1": {
+          "float": "left",
+          "title": "Be mindful of pinching points when bolting up steel no walking under suspended loads alert any workers around the exclusion zone of lifts.",
+          "type": "boolean",
+          "value": false,
+          "order": 42
+        },
+        "9db98b5c-c302-44c2-84bf-2d1051a58f07": {
+          "float": "left",
+          "title": "8m Knuckle boom to be used competent drive and harnesses to be worn.",
+          "type": "boolean",
+          "value": false,
+          "order": 43
+        },
+        "24c24674-9783-402a-9ad6-816c058c3741": {
+          "float": "left",
+          "title": "Weather is to be assessed throughout the day.",
+          "type": "boolean",
+          "value": false,
+          "order": 44
+        },
+        "20e61561-b07f-4cbe-86b0-eefee3adbb8e": {
+          "type": "boolean",
+          "order": 45,
+          "float": "left",
+          "title": "Log book to be filled out if operating a knuckle boom or scissor lift"
+        },
+        "f3ade78e-2e49-4365-aeef-b2883dc0e2b9": {
+          "float": "left",
+          "title": "Other:",
+          "type": "boolean",
+          "value": false,
+          "order": 46
+        },
+        "9cc4795e-2fa7-4db8-b151-e56da1a6845e": {
+          "float": "left",
+          "type": "input",
+          "subtype": "text",
+          "order": 47
+        },
+        "6d8f948a-8055-416b-8863-d443e664990c": {
+          "float": "left",
+          "type": "input",
+          "subtype": "text",
+          "order": 48
+        },
+        "0f9287e2-bde6-468d-9e04-0d8e6fff19d6": {
+          "float": "left",
+          "type": "input",
+          "subtype": "text",
+          "order": 49
+        },
+        "a12c3ce8-dd3f-44b4-99ee-791c7914327e": {
+          "float": "left",
+          "type": "input",
+          "subtype": "text",
+          "order": 50
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 6,
+        "name": "Task Specific PPE reviewed / discussed"
+      },
+      "data": {
+        "d91d83a0-2b50-4b4c-b81d-23a2410ac7c1": {
+          "float": "left",
+          "title": "Harness",
+          "type": "boolean",
+          "value": false,
+          "order": 52
+        },
+        "ff312ae5-998a-43c3-acd9-177c026651b7": {
+          "float": "left",
+          "title": "Long Sleeve Top",
+          "type": "boolean",
+          "value": false,
+          "order": 53
+        },
+        "c5a38403-7483-42f1-84c8-f71dd9aa2aed": {
+          "float": "left",
+          "title": "Ear Protection",
+          "type": "boolean",
+          "value": false,
+          "order": 54
+        },
+        "845fa6fc-0136-4319-b6c3-2cb9e388489e": {
+          "float": "left",
+          "title": "Safety Glasses",
+          "type": "boolean",
+          "value": false,
+          "order": 55
+        },
+        "8298b54a-1208-4d85-8d0b-d2bcccd6c2db": {
+          "float": "left",
+          "title": "Gloves",
+          "type": "boolean",
+          "value": false,
+          "order": 56
+        },
+        "f38b546b-69be-4b7d-8238-4ca1b2abd86a": {
+          "float": "left",
+          "title": "Dust Masks",
+          "type": "boolean",
+          "value": false,
+          "order": 57
+        },
+        "bd1128c7-262a-4c76-b847-6e16bc13c9e0": {
+          "float": "left",
+          "title": "Welding Helmet",
+          "type": "boolean",
+          "value": false,
+          "order": 58
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "type": "step",
+        "order": 7,
+        "name": "This toolbox is inline with our current SSSP and TA’s are discussed"
+      },
+      "data": {},
+      "tree": []
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check delivery of distribution board - Check for damage (paint finish, dimensions & door against drawing) - Please take a photo",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Locate & fix into position",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Install sub mains cabling as appropriate (glands, tray & duct)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Install lugs & terminate",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Install sub circuit & terminate (if circuit not complete at the other end, it must not be terminated)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "9a9be443-9d2f-5d05-a92c-f315609d2d7e": {
+          "title": "Record results",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Clean & vacuum area - please take a photo",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Clearly identify services",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "data": {
+        "72d220d1-eaf2-53e9-ba30-64e2792b93ba": {
+          "title": "Drawing & revision number(s)",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "53d2e810-31ef-5cb3-ada9-ddad974b3e2f": {
+          "title": "Check phase rotation",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 0
+        },
+        "f3f0697e-dcd0-5235-aab7-26bd5dc9f1fb": {
+          "title": "Check switchboard as installed as per drawings",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Energise system",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check typed schedule for accuracy & install",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Ensure switchboard cupboard & area is left clean - Please take a photo",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 9
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 10
+      }
+    }
+  ],
+  "meta": {
+    "name": "Install Distribution Boards -Terminate Cables ITP006",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "5f6da107-eebf-5d7c-8a00-1084018fcfd7": {
+              "title": "Drawing & Revision # (or Attach photo below)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Latest IFC drawings checked & referenced",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "a96595b3-0547-541f-8cfd-edc8e19b7fa9": {
+              "title": "Attach Photos/Comments below if any issues & Send report to Builder",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Area clear, tidy and accessible ",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "8aeb7b8e-4756-508c-8945-7a888b95f2e3": {
+              "title": "PASS if received in good condition - If not FAIL & Attach Photos/Comments below",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Cable/Conduit/Tray",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "73690f27-422f-5d08-9a4a-8ecd6ab7de07": {
+              "title": "PASS if received in good condition - If not FAIL & Attach Photos/Comments below",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "MASDS Sampling Pipework",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "a7bac5c8-d75f-518a-9551-d8d133aec4d6": {
+              "title": "PASS if received in good condition - If not FAIL & Attach Photos/Comments below",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "MASDS Unit",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-Start",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "02ffb286-4e24-55a2-8508-5efdd1771e66": {
+              "title": "Specification Ref: AS:1670",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Correct cable used (eg Fire rated as required)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "5ebc4440-5524-5b19-8e67-2c4d513381cc": {
+              "title": "Specification Ref: AS:3000",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Cable Support",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "771df48c-5d4f-51cc-814b-21f4fbd3faf7": {
+              "title": "Specification Ref: AS:3000",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Segregation from other electrical services",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "9d70a139-f259-5b3a-bc03-76afd4af3d70": {
+              "title": "Specification Ref: AS:3000",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Sampling Pipework Installed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Installation Rough-In",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "c6fb9c88-2a25-54a1-84b0-c3a89074c852": {
+              "title": "Specification Ref: Drawings & AS:1670",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Sampling Points Installed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Installation Fit-Off",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "b82cf721-512f-5458-84ad-33b8ebea59fa": {
+              "title": "Specification Ref: Specification",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Obscuration Levels Set",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "401deb24-4260-5e53-8779-8da59a7c0919": {
+              "title": "Specification Ref: Specification",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Confirm Travel Times",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Commissioning",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "8bd70241-b4e9-54fc-9a02-e2c296b027fb": {
+              "title": "Signature by Builders Site Coordinator - If applicable attach below",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 1
+            },
+            "a05583bc-9b35-591b-8407-4de97c95fde9": {
+              "title": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+              "type": "label",
+              "order": 0
+            },
+            "279d36fe-18d6-5972-ae23-4114460671fe": {
+              "title": "Entire Fire Signature Sign-Off added below",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Work(s) completed to specification/drawings & Area left clean/tidy",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Sign-Off",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "name": "ENT-019 - MASDS",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

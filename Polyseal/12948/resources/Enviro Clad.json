@@ -1,0 +1,155 @@
+{
+  "tree": [
+    {
+      "data": {
+        "5d1ca434-8f82-5836-ba9d-ea6500635dd2": {
+          "title": "Specification / Standard: AS4654.2-2012, Manufacturer’s Technical Data Sheet",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Relevant Australian Standards Checked",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check Substrate - The surface must be clean, dry and free from all loose particles. [POL HOLD POINT] / [MPX WITNESS POINT]",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "6645aead-6d30-565b-9b23-d87d0a35a68c": {
+          "title": "Attach Photo. [POL HOLD POINT] / [MPX HOLD POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Prepare surface to accept primer using scraper (and/or light grind) and vacuum/sweep residual debris. Remove all concrete/mortar projections.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "45461fb5-62a4-5644-8cb3-4a9ebffb2d28": {
+          "title": "Attach Photo. [MPX HOLD POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Primer Application - Pending Substrate Condition, Apply Enviro Prime WB using a brush or roller",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "d4c8f1d0-a1b5-5f5c-97e8-39d27669c2ed": {
+          "title": "Attach Photo. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Caulking - Apply Enviro Flex FC / PRO to the junction between floor slab and walls",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Membrane Application (1st coat) - Mix and Apply Enviro Clad as a first coat to the thicknesses prescribed by the specifications. [MPX WITNESS POINT]",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Membrane Application (2nd coat) - Mix and Apply Enviro Clad as a second coat to the thicknesses prescribed by the specifications. [MPX WITNESS POINT]",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Curing - Allow to cure in accordance with Manufacturers Specifications",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "HOLD POINT - CLICK HERE TO REQUEST BUILDER SIGN OFF",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Final Inspection and Sign-off. Visually inspect and ensure adequately cured - DO NOT PASS UNTIL HOLDPOINT COMPLETE BELOW",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    }
+  ],
+  "meta": {
+    "name": "Enviro Clad",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

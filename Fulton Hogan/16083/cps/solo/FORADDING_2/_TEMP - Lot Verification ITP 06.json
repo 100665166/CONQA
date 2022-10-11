@@ -1,0 +1,147 @@
+{
+  "data": {
+      "435cfab2-b15e-574b-9eee-097eda3841b8": {
+        "title": "Lot Status",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "OUTSTANDING",
+          " CLOSED"
+        ],
+        "order": 11
+      },
+      "ef7799e4-f9de-5228-9a8e-0c1d9a7b3a6b": {
+        "title": "Other:",
+        "type": "input",
+        "subtype": "text",
+        "order": 10
+      },
+      "14e90d49-843b-5f27-b40f-26c98c63f0e1": {
+        "title": "Lot Closed On",
+        "type": "input",
+        "subtype": "text",
+        "order": 12
+      },
+      "ad142396-b882-5a57-91c3-015998c2c265": {
+        "title": "Lot Plan or “Highlighted” IFC drawings (mud maps) attached to the Lot?",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "YES",
+          " NO",
+          " N/A"
+        ],
+        "order": 4
+      },
+      "9f771367-a814-5164-b344-be355f98ff34": {
+        "title": "Survey conformance records attached to the Lot?",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "YES",
+          " NO",
+          " N/A"
+        ],
+        "order": 5
+      },
+      "abe757aa-97bf-5823-a852-ca70999307b7": {
+        "title": "As built records attached to the Lot?",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "YES",
+          " NO",
+          " N/A"
+        ],
+        "order": 8
+      },
+      "5cda90f0-44aa-53e7-aaea-72a06f0d9b48": {
+        "title": "Is the relevant RFI attached to the Lot?",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "YES",
+          " NO",
+          " N/A"
+        ],
+        "order": 1
+      },
+      "56301ee6-ae45-57ea-a49a-29116273a52d": {
+        "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "YES",
+          " NO",
+          " N/A"
+        ],
+        "order": 3
+      },
+      "cc88056a-7b7a-5e9d-8dfe-fbccd3b1f067": {
+        "title": "Is the relevant NCR attached to the Lot?",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "YES",
+          " NO",
+          " N/A"
+        ],
+        "order": 2
+      },
+      "b4068a20-2905-5874-9c42-682666e2eaac": {
+        "title": "Subcontractor/ Supplier records attached to the Lot?",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "YES",
+          " NO",
+          " N/A"
+        ],
+        "order": 6
+      },
+      "f138af3d-3672-50ca-9c7e-3c48d36e9514": {
+        "title": "Conforming Test Results attached to the Lot?",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "YES",
+          " NO",
+          " N/A"
+        ],
+        "order": 7
+      },
+      "943f1862-2c8d-50ce-ae99-b2a10abc7f69": {
+        "title": "Lot verified By",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "Babak Rudd-Project Quality Manager",
+          " Nicola Lodo (Area 2 Manager)",
+          " Nicolas Terpstra (Delivery Manager)",
+          " Other"
+        ],
+        "order": 9
+      },
+      "14310e50-74f6-5dea-98f9-fc596176ef67": {
+        "title": "comments",
+        "type": "input",
+        "subtype": "text",
+        "order": 13
+      },
+      "2971b66d-6cbd-5ac8-9ac8-facafcce8bac": {
+        "title": "Work Commenced On:",
+        "type": "input",
+        "subtype": "text",
+        "order": 0
+      }
+  },
+  "tree": [],
+  "meta": {
+    "dependant": false,
+    "stepType": "checkpoint-status",
+    "type": "step",
+    "display": "normal",
+    "order": 99,
+    "name": "Lot Verification."
+  }
+}

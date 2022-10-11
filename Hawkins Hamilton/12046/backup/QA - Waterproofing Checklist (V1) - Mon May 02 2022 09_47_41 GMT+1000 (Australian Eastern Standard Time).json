@@ -1,0 +1,111 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Location of QA check (take a photo of a marked up plan and add here)",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Preparation / Substrate acceptable (site concrete poured and ready)",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Correct product delivered and checked - approval given to install",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Formwork ready for tanking",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "General photos/comments during install",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Any inspections / observations documented, reviewed and closed out",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {
+        "2180eb24-c777-49c9-8e84-8e5a149c473a": {
+          "float": "left",
+          "title": "FINAL - Pass when work(s) are completed, area clean & tidy (any issues please comment below)",
+          "type": "label",
+          "order": 8
+        },
+        "aac92fcc-c0ab-4c49-9a52-d452f533070d": {
+          "float": "left",
+          "title": "Trades QA received & attached as applicable",
+          "type": "boolean",
+          "value": false,
+          "order": 9
+        }
+      },
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Request Signoff",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "display": "flat",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Waterproofing install completed, reviewed and approved to meet required specifications",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    }
+  ],
+  "meta": {
+    "name": "QA - Waterproofing Checklist (V1)",
+    "dependant": true,
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

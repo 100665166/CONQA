@@ -1,0 +1,118 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "95ade28c-d906-4662-b303-67a2f0bc1ff1",
+            "display": "normal",
+            "name": "Remove existing grout and silicone",
+            "dependant": false,
+            "templateId": "83423f04-98a9-491a-9213-ac592270539c",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "0786aaab-c1aa-4422-9520-d8de9c29affa",
+            "display": "normal",
+            "name": "Ensure tiles are propley installed",
+            "dependant": false,
+            "templateId": "83423f04-98a9-491a-9213-ac592270539c",
+            "type": "step",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "7de187d5-fa9f-4ea8-8278-341ac44ad79a",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Removal",
+        "dependant": true,
+        "templateId": "83423f04-98a9-491a-9213-ac592270539c",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "41399b05-b326-4662-bd2d-5315a46487b4",
+            "display": "normal",
+            "name": "Re-grout with Ultracolor Plus 112",
+            "dependant": false,
+            "templateId": "83423f04-98a9-491a-9213-ac592270539c",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "814be735-ccf2-478f-bd0a-1230ae5e5cf8",
+            "display": "normal",
+            "name": "Silicone corners with Mapesil AC 112",
+            "dependant": false,
+            "templateId": "83423f04-98a9-491a-9213-ac592270539c",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "abcafbd0-b2ed-4c77-a630-e22730c23fd3",
+            "display": "normal",
+            "name": "Apply sealer to grout",
+            "dependant": false,
+            "templateId": "83423f04-98a9-491a-9213-ac592270539c",
+            "type": "step",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "aa773eb0-50f6-49b9-ad87-56951815e01b",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Grouting",
+        "dependant": true,
+        "templateId": "83423f04-98a9-491a-9213-ac592270539c",
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "templateReference": "83423f04-98a9-491a-9213-ac592270539c",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "Grouting Checkist",
+    "dependant": true,
+    "templateId": "83423f04-98a9-491a-9213-ac592270539c",
+    "type": "step"
+  }
+}

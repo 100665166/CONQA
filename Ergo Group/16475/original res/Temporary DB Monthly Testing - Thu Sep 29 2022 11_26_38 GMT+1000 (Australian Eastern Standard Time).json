@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "dependant": true,
+    "display": "flat",
+    "name": "Temporary DB Monthly Testing",
+    "permissions": {
+      "addPost": false,
+      "addStep": false
+    },
+    "stepType": "checklist-flat",
+    "type": "step"
+  },
+  "tree": [
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Operating time of RCD’s (note trip times in comments)",
+        "order": 0,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "RCD Push button Operation",
+        "order": 1,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "General condition of DB (must include a photo)",
+        "order": 2,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Photo of completed tag on DB",
+        "order": 3,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    }
+  ]
+}

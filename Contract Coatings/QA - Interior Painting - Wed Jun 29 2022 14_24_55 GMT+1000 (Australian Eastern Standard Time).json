@@ -1,0 +1,177 @@
+{
+  "tree": [
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "99ed6a60-000e-4bf1-a83d-8dbb59923aa9",
+        "display": "normal",
+        "name": "Area accessible, substrates acceptable",
+        "dependant": false,
+        "templateId": "ccb50b26-22b8-436e-b31e-3c93257e1184",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "e4204b86-7ac5-406a-ab45-40753df2e06d",
+        "display": "normal",
+        "name": "Plaster work complete to lifting eyes, drossbachs & defects",
+        "dependant": false,
+        "templateId": "ccb50b26-22b8-436e-b31e-3c93257e1184",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "9a085231-5638-4fdd-8829-7ff3ff7302d5",
+        "display": "normal",
+        "name": "Stopping complete",
+        "dependant": false,
+        "templateId": "ccb50b26-22b8-436e-b31e-3c93257e1184",
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "015c518d-12a0-4598-9c8a-ec832c646f7e",
+        "display": "normal",
+        "name": "Washing complete",
+        "dependant": false,
+        "templateId": "ccb50b26-22b8-436e-b31e-3c93257e1184",
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "d98df7a9-fe71-58ae-b597-d172e1d9f0b2": {
+          "title": "Who has given approval to paint",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "f89db632-4ab7-41db-b44a-9b59fb87fd27",
+        "display": "normal",
+        "name": "Approval given to paint",
+        "dependant": false,
+        "templateId": "ccb50b26-22b8-436e-b31e-3c93257e1184",
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "ce4e919e-a6e9-4a60-ad04-fdf315383d31",
+        "display": "normal",
+        "name": "Paint specifications and colour checked & correct to specification",
+        "dependant": false,
+        "templateId": "ccb50b26-22b8-436e-b31e-3c93257e1184",
+        "type": "step",
+        "order": 5
+      }
+    },
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "f7362fcd-5953-4388-937c-9272adb35930",
+        "display": "normal",
+        "name": "First coat/ sealant coat completed",
+        "dependant": false,
+        "templateId": "ccb50b26-22b8-436e-b31e-3c93257e1184",
+        "type": "step",
+        "order": 6
+      }
+    },
+    {
+      "data": {
+        "5198f252-baf0-5755-b361-d6f603d59d1e": {
+          "title": "Any issues \"FAIL\" and document remedial work - \"Pass\" once completed",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "a03ec492-4115-4dbc-ac0d-66d8c2950244",
+        "display": "normal",
+        "name": "Light inspection completed and approved to continue",
+        "dependant": false,
+        "templateId": "ccb50b26-22b8-436e-b31e-3c93257e1184",
+        "type": "step",
+        "order": 7
+      }
+    },
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "7da3bc1d-9871-45a3-b0ee-7af07b6d6ea6",
+        "display": "normal",
+        "name": "General comments and photos of additional paint application",
+        "dependant": false,
+        "templateId": "ccb50b26-22b8-436e-b31e-3c93257e1184",
+        "type": "step",
+        "order": 8
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": null,
+          "meta": {
+            "stepType": "holdpoint",
+            "templateReference": "0b773e31-2639-47b1-a3c6-9131f25f54db",
+            "display": "flat",
+            "name": "Request Signoff",
+            "dependant": true,
+            "signoffs": true,
+            "templateId": "ccb50b26-22b8-436e-b31e-3c93257e1184",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "42a9865b-e885-4c67-9531-301fb9783640",
+        "display": "normal",
+        "name": "Final coat completed, no overpainting, finish acceptable as per specification",
+        "dependant": false,
+        "templateId": "ccb50b26-22b8-436e-b31e-3c93257e1184",
+        "type": "step",
+        "order": 9
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "templateReference": "ccb50b26-22b8-436e-b31e-3c93257e1184",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat",
+    "name": "QA - Interior Painting",
+    "dependant": true,
+    "templateId": "ccb50b26-22b8-436e-b31e-3c93257e1184",
+    "type": "step"
+  }
+}

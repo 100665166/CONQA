@@ -1,0 +1,83 @@
+{
+  "tree": [
+    {
+      "data": {
+        "2cc3d4e5-e192-57b9-843e-99accbff44ff": {
+          "title": "Ensure fittings & swivel heads bolted tight",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "ff1ea9d5-9c58-4a02-8c13-4d388a979f50",
+        "display": "normal",
+        "name": "Install hardware per PS1",
+        "dependant": false,
+        "templateId": "e1fe79cb-99dd-40ee-8ba4-1a752f2427b2",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "af078006-19a5-536b-8c01-ef68562ba257": {
+          "title": "Check edge-work & unit marking",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "bffaed8d-3c8c-46fb-8c12-568da7f00443",
+        "display": "normal",
+        "name": "Glass installed & aligned per PS1",
+        "dependant": false,
+        "templateId": "e1fe79cb-99dd-40ee-8ba4-1a752f2427b2",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "f25ac75f-c199-4cae-a58e-36b9c5dbd48c",
+        "display": "normal",
+        "name": "Silicone joints",
+        "dependant": false,
+        "templateId": "e1fe79cb-99dd-40ee-8ba4-1a752f2427b2",
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "44400ef3-1aeb-4563-ba7d-69a161f8c32b",
+        "display": "normal",
+        "name": "Trade clean",
+        "dependant": false,
+        "templateId": "e1fe79cb-99dd-40ee-8ba4-1a752f2427b2",
+        "type": "step",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "templateReference": "e1fe79cb-99dd-40ee-8ba4-1a752f2427b2",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat",
+    "name": "Spider Walls",
+    "dependant": true,
+    "templateId": "e1fe79cb-99dd-40ee-8ba4-1a752f2427b2",
+    "type": "step"
+  }
+}

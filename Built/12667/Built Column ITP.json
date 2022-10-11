@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "display": "flat",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "stepType": "checklist-flat",
+    "name": "Built Column ITP",
+    "type": "step",
+    "dependant": true
+  },
+  "data": {},
+  "tree": [
+    {
+      "meta": {
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0,
+        "name": "Reinforcement Placement"
+      },
+      "data": {
+        "f2ca3aa8-a6fb-5d9c-be09-c34574286a19": {
+          "title": "Subcontractor Responsible - Titans **Signature Required",
+          "type": "label",
+          "order": 2
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1,
+        "name": "Engineer's Comments Received"
+      },
+      "data": {
+        "446bb5e2-8d84-50c4-84de-181240f00982": {
+          "title": "Actions Required",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "No Defects",
+            "Defects Rectified"
+          ],
+          "order": 4
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2,
+        "name": "Electrical Installation Complete"
+      },
+      "data": {
+        "de7cc821-dd92-5f49-a92b-d40cdbc5db68": {
+          "title": "Subcontractor Responsible - ION **Signature Required",
+          "type": "label",
+          "order": 6
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3,
+        "name": "Hydraulic Installation Complete"
+      },
+      "data": {
+        "8cbdffc2-37ba-5f8f-98e4-5f1617d2379a": {
+          "title": "Subcontractor Responsible - Jordans **Signature Required",
+          "type": "label",
+          "order": 8
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4,
+        "name": "Formwork Sleeve Installed"
+      },
+      "data": {
+        "0db7a4af-9b73-5760-a082-9f4d09739a2e": {
+          "title": "Subcontractor Responsible - Form 700 **Signature Required",
+          "type": "label",
+          "order": 10
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5,
+        "name": "Column Reinforcement Verticality Check"
+      },
+      "data": {
+        "c79b6fcb-26ec-5913-9a0e-ec5913428583": {
+          "title": "Visual/ Column Prepour Survey",
+          "type": "label",
+          "order": 12
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6,
+        "name": "General Observations"
+      },
+      "data": {
+        "119860f7-7c49-55f3-b556-21947eacce33": {
+          "title": "Cleanout Pre-pour",
+          "type": "boolean",
+          "order": 14
+        },
+        "96b48794-72ca-5d3e-bd41-3135bbad80c4": {
+          "title": "Cover Achieved",
+          "type": "boolean",
+          "order": 15
+        }
+      },
+      "tree": []
+    }
+  ]
+}

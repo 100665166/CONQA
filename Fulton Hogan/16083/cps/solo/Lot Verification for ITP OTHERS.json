@@ -1,0 +1,94 @@
+{
+  "tree": [
+    {
+      "data": {
+        "94bfb569-127e-5755-ae53-a1cbbd50fe3c": {
+          "title": "Lot Status",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "OUTSTANDING",
+            " CLOSED"
+          ],
+          "order": 4
+        },
+        "87a2b98c-d5e9-5149-9062-23e6a122d8d8": {
+          "title": "comments",
+          "type": "input",
+          "subtype": "text",
+          "order": 6
+        },
+        "703bceba-90cd-5466-924a-9199aafa29b5": {
+          "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            " NO",
+            " N/A"
+          ],
+          "order": 2
+        },
+        "55b00f0e-ff57-5c66-854c-4f68305e45f9": {
+          "title": "Is the relevant RFI attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            " NO",
+            " N/A"
+          ],
+          "order": 0
+        },
+        "2a3157fc-2da4-5311-a401-4c7452027a95": {
+          "title": "Is the relevant NCR attached to the Lot?",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "YES",
+            " NO",
+            " N/A"
+          ],
+          "order": 1
+        },
+        "7e1cd45e-7cad-5bd0-9d5a-06e50830a532": {
+          "title": "Lot verified By",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Babak Rudd-Project Quality Manager",
+            " Nicolas Nicola Lodo (Area 2 Manager)",
+            " Nicolas Terpstra (Delivery Manager)"
+          ],
+          "order": 3
+        },
+        "0628b03e-6934-5f2a-a2aa-847f529da94f": {
+          "title": "Lot Closed On",
+          "type": "input",
+          "subtype": "text",
+          "order": 5
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Lot Verification.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Lot Verification",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

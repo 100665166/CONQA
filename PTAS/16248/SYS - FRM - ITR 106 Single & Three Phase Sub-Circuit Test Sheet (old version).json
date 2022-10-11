@@ -1,0 +1,257 @@
+{
+  "data": {},
+  "tree": [
+    {
+      "data": {
+        "91f2b6ee-3131-59be-ac1c-1f83662af53f": {
+          "title": "Phases to Earth",
+          "type": "input",
+          "subtype": "text",
+          "order": 19
+        },
+        "72bd9e44-92c0-5c04-8e1b-48f684cbdef6": {
+          "title": "A Phase to Neutral",
+          "type": "input",
+          "subtype": "text",
+          "order": 16
+        },
+        "b93bc147-d2ae-542b-8cf2-cf360ac687c3": {
+          "title": "Neutral to Earth",
+          "type": "input",
+          "subtype": "text",
+          "order": 20
+        },
+        "cff2ff8d-067a-5a36-a106-7d51c6860900": {
+          "title": "Distribution Board No.:",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "d8382fe6-0b51-5d76-be00-f7e250eca94f": {
+          "title": "C Phase to Neutral",
+          "type": "input",
+          "subtype": "text",
+          "order": 18
+        },
+        "7070972b-b5f6-517a-952a-435f41a13396": {
+          "title": "Circruit No.",
+          "type": "input",
+          "subtype": "text",
+          "order": 5
+        },
+        "0160a150-081e-59ed-bad7-5a802d1e64c2": {
+          "title": "Destination",
+          "type": "input",
+          "subtype": "text",
+          "order": 7
+        },
+        "115c8642-a907-501b-97c8-b2c4059f7572": {
+          "title": "CB Size (Amps) & Type (A,B,C,D)",
+          "type": "input",
+          "subtype": "text",
+          "order": 10
+        },
+        "48d6901a-bf76-5d05-8027-54395b88adcd": {
+          "title": "Visual Check",
+          "type": "boolean",
+          "order": 9
+        },
+        "29decf64-3826-567e-bb34-ce762dd8fe2a": {
+          "title": "CB No.",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "86f22ae8-1b63-5d27-af31-56d5cde3d217": {
+          "title": "Insulation Resistance (MΩ)",
+          "type": "label",
+          "order": 12
+        },
+        "68601738-7695-5f2e-89cb-998036e1969d": {
+          "title": "White to Blue",
+          "type": "input",
+          "subtype": "text",
+          "order": 14
+        },
+        "24545014-69c0-508f-aaa7-d5898b06696a": {
+          "title": "B Phase to Neutral",
+          "type": "input",
+          "subtype": "text",
+          "order": 17
+        },
+        "3f0fb67f-23cd-54c4-a20e-bcba18fcbb69": {
+          "title": "Cable Size",
+          "type": "input",
+          "subtype": "text",
+          "order": 6
+        },
+        "c67c2791-296b-597d-9844-79f490d480de": {
+          "title": "Red to White",
+          "type": "input",
+          "subtype": "text",
+          "order": 13
+        },
+        "bd4ccf15-2626-5c7a-9042-9874ca91cfb9": {
+          "title": "Blue to Red",
+          "type": "input",
+          "subtype": "text",
+          "order": 15
+        },
+        "d041fce2-424c-51dd-92bf-e06aab283021": {
+          "title": "Correct circuit connections",
+          "type": "boolean",
+          "order": 22
+        },
+        "0dcfd79d-4e32-57c7-b942-1f5055ba4983": {
+          "title": "Neutral No.",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "e04e42ce-de3c-5e10-9760-addebf4b2ced": {
+          "title": "No. Pts",
+          "type": "input",
+          "subtype": "text",
+          "order": 8
+        },
+        "cf6c5ae6-4b1d-566a-b96a-8632b7bc9e39": {
+          "title": "Earth Continuity (Ω)",
+          "type": "input",
+          "subtype": "text",
+          "order": 11
+        },
+        "8faf718f-1d7a-5253-bbcf-493f54c9f0f9": {
+          "title": "Polarity Pass",
+          "type": "boolean",
+          "order": 21
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "De-Energised Tests",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Ensure safe to energise",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Safe to Energise",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "1053e2a9-5683-5338-822e-dfddc04d60e1": {
+          "title": "Voltage (V)",
+          "type": "input",
+          "subtype": "text",
+          "order": 26
+        },
+        "baf6b7aa-7ba8-5c3f-9f70-75bac89393fa": {
+          "title": "RCD Timed Test (mS)",
+          "type": "label",
+          "order": 29
+        },
+        "bf21eb4e-696b-550a-8bb7-a9d657e31abb": {
+          "title": "Phase Sequence",
+          "type": "input",
+          "subtype": "text",
+          "order": 27
+        },
+        "4d0970a2-def9-50e6-84d9-95b4020ba80f": {
+          "title": "Fault Loop Impedance",
+          "type": "input",
+          "subtype": "text",
+          "order": 28
+        },
+        "ec13d481-346d-5935-9274-fa2ae4fccc4b": {
+          "title": "30mA / 10mA",
+          "type": "label",
+          "order": 30
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Energised Tests",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "78f30b3f-674c-5a37-932a-48c5a006dd65": {
+          "title": "Full Name:",
+          "type": "input",
+          "subtype": "text",
+          "order": 32
+        },
+        "e87472aa-dc6a-5e0f-a721-5cfb3bb61f06": {
+          "title": "Position / Title:",
+          "type": "input",
+          "subtype": "text",
+          "order": 33
+        }
+      },
+      "tree": [
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Add Signature / Request Sign Off",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Sign Off",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "name": "FRM - ITR 106 Single & Three Phase Sub-Circuit Test Sheet",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "display": "flat",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "stepType": "checklist-flat",
+    "name": "TMV Commissioning Log Sheet V.020522",
+    "type": "step",
+    "dependant": true
+  },
+  "data": {},
+  "tree": [
+    {
+      "meta": {
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0,
+        "name": "TMV Commissioning Log Sheet:"
+      },
+      "data": {
+        "76842f9a-77cd-5b8e-b99f-704b0d07c76e": {
+          "title": "Building Name: Victorian Heart Hospital",
+          "type": "label",
+          "order": 2
+        },
+        "a91a86ba-8c4d-56b7-a815-8de7d52ce571": {
+          "title": "Contact Person: David Geschke",
+          "type": "label",
+          "order": 3
+        },
+        "ebebebcf-f818-55e1-af18-fdadc675d9ac": {
+          "title": "Address: 631 Blackburn Road, CLAYTON",
+          "type": "label",
+          "order": 4
+        },
+        "12855610-adf9-5e4e-b4fd-1ec897a111cc": {
+          "title": "Lic: 50043",
+          "type": "label",
+          "order": 5
+        },
+        "f3313bb7-f12d-50e2-9c8b-84e20658d36b": {
+          "title": "Registration number:",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "106121",
+            "32503",
+            "other (specify below)"
+          ],
+          "order": 6
+        },
+        "96dfebb8-60dd-5787-8e8d-4fa4c7232425": {
+          "title": "Other (Specify):",
+          "type": "input",
+          "subtype": "text",
+          "order": 7
+        },
+        "648ff88e-c53a-5263-912a-23592a473bf1": {
+          "title": "Phone number: 03 9798 1619",
+          "type": "label",
+          "order": 8
+        },
+        "9103a029-5c6e-5b14-ad70-90d74b420377": {
+          "title": "Make of valve",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Aquablend ATM700",
+            "FM Matterson 9230",
+            "ESQX ATM621"
+          ],
+          "order": 9
+        },
+        "3c929be6-cb3b-522f-a92e-9fe293ecaa3c": {
+          "title": "Model number:",
+          "type": "input",
+          "subtype": "text",
+          "order": 10
+        },
+        "18e90e16-653d-5b1b-9e4d-06d77039ea71": {
+          "title": "Valve location",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Basement 1",
+            "Ground",
+            "Level 1",
+            "Level 2",
+            "Level 3",
+            "Level 4",
+            "Level 5",
+            "Level 6",
+            "Level 7"
+          ],
+          "order": 11
+        },
+        "8526ecdb-9a56-57df-a219-a8e20c29a2df": {
+          "title": "Room name:",
+          "type": "input",
+          "subtype": "text",
+          "order": 12
+        },
+        "27c085c9-e263-5073-bfae-104f36def93b": {
+          "title": "Valve purchased from: Bentons",
+          "type": "label",
+          "order": 13
+        },
+        "b1230933-0539-54da-8579-18bfe2faab06": {
+          "title": "Installation date:",
+          "type": "input",
+          "subtype": "text",
+          "order": 14
+        },
+        "5dad3c02-0d50-539c-80e6-bb6ac0e84176": {
+          "title": "Valve installed by:",
+          "type": "input",
+          "subtype": "text",
+          "order": 15
+        },
+        "46282e4b-a633-5f9a-9afa-a7eb01a636e7": {
+          "title": "Number of outlets served - Baths:",
+          "type": "input",
+          "subtype": "text",
+          "order": 16
+        },
+        "66696861-27e1-520d-8eee-72692b24669e": {
+          "title": "Number of outlets served - Basins:",
+          "type": "input",
+          "subtype": "text",
+          "order": 17
+        },
+        "ca3f906a-4837-578b-b0b9-fa83d0971c50": {
+          "title": "Number of outlets served - Showers:",
+          "type": "input",
+          "subtype": "text",
+          "order": 18
+        },
+        "d72c3feb-c9ac-5178-bbe0-afc776725140": {
+          "title": "Total number of mixing valves on site:",
+          "type": "input",
+          "subtype": "text",
+          "order": 19
+        },
+        "9cec8661-16ad-5683-b7fa-0d1b3590eb1c": {
+          "title": "Does the installation comply with the manufacturer's/supplier's published installation instructions?",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "No",
+            "Yes"
+          ],
+          "order": 20
+        },
+        "d0d71759-ed6a-509b-ab2a-f64566c85cae": {
+          "title": "Does the installation comply with the current requirements of the local water supply authority?",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "No",
+            "Yes"
+          ],
+          "order": 21
+        },
+        "113aac74-7051-5ead-96f9-ec7267c77bbe": {
+          "postfix": "°C",
+          "title": "Temperature of hot water supply?",
+          "type": "input",
+          "subtype": "text",
+          "order": 22
+        },
+        "d81604d6-c1fa-5bae-b0a4-3fc20d7665c1": {
+          "postfix": "°C",
+          "title": "Temperature of cold water supply?",
+          "type": "input",
+          "subtype": "text",
+          "order": 23
+        },
+        "b7355136-f6bc-5a49-94ad-9b8681c66c56": {
+          "postfix": "°C",
+          "title": "Temperature of warm water delivery at outlet fitting?",
+          "type": "input",
+          "subtype": "text",
+          "order": 24
+        },
+        "abaafd83-83ce-5e0a-89f0-b60eb96b4828": {
+          "postfix": "kPa",
+          "title": "Dynamic pressure of hot water:",
+          "type": "input",
+          "subtype": "text",
+          "order": 25
+        },
+        "6d8655f5-fa4b-5ec2-8d22-5dc489d13ed9": {
+          "postfix": "kPa",
+          "title": "Dynamic pressure of cold water:",
+          "type": "input",
+          "subtype": "text",
+          "order": 26
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1,
+        "name": "Check fail safe operation (hot water at least 20c above warm water)"
+      },
+      "data": {},
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2,
+        "name": "Commissioned by"
+      },
+      "data": {
+        "e9a28e91-8476-5409-9a48-877e989cc647": {
+          "title": "Commissioned by:",
+          "type": "input",
+          "subtype": "text",
+          "order": 29
+        },
+        "c04f1cc7-7df2-57c9-8f82-b36f3e0b0071": {
+          "title": "Company name:",
+          "type": "input",
+          "subtype": "text",
+          "order": 30
+        }
+      },
+      "tree": []
+    }
+  ]
+}

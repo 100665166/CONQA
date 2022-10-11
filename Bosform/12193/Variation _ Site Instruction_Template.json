@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "display": "flat",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "stepType": "checklist-flat",
+    "name": "Variation / Site Instruction",
+    "type": "step",
+    "dependant": true
+  },
+  "data": {},
+  "tree": [
+    {
+      "meta": {
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0,
+        "name": "Variation / SI Details Entered"
+      },
+      "data": {
+        "29b50078-0056-55a9-a5ec-978c0023968e": {
+          "title": "Please take before photos",
+          "type": "label",
+          "order": 2
+        },
+        "0a8e3a48-6892-5604-bfbc-e5e16dceb8b8": {
+          "title": "Work type:",
+          "type": "enum",
+          "subtype": "radio",
+          "values": [
+            "Site Instruction",
+            " Variation Work"
+          ],
+          "order": 3
+        },
+        "e833d771-fd16-56c8-973c-ed66d0037bd6": {
+          "title": "Attention:",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "03ac1bd4-560e-5889-88c6-fe0e34e19a6f": {
+          "title": "Area/Location",
+          "type": "input",
+          "subtype": "text",
+          "order": 5
+        },
+        "3abe7218-87f7-52f8-87c0-8dae51049295": {
+          "title": "Date",
+          "type": "input",
+          "subtype": "text",
+          "order": 6
+        },
+        "e35fd55f-af90-527f-8fe5-983e82ae1159": {
+          "title": "Scope of work",
+          "type": "input",
+          "subtype": "text",
+          "order": 7
+        },
+        "f9e02f69-c733-5aeb-aa34-8587a25de457": {
+          "title": "Normal Hours",
+          "type": "input",
+          "subtype": "text",
+          "order": 8
+        },
+        "2875f8fa-2c9b-5196-bdfb-6605f20e8ab3": {
+          "title": "Overtime Hours",
+          "type": "input",
+          "subtype": "text",
+          "order": 9
+        },
+        "d1dcbe3d-f818-5925-bec1-b660663f33bb": {
+          "title": "Material to complete task",
+          "type": "input",
+          "subtype": "text",
+          "order": 10
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1,
+        "name": "Reference/SI Number Entered"
+      },
+      "data": {
+        "1c3b0db6-f224-5be0-902c-594e13403671": {
+          "title": "Reference/SI Number",
+          "type": "input",
+          "subtype": "text",
+          "order": 12
+        }
+      },
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2,
+        "name": "Variation / SI Work Completed"
+      },
+      "data": {},
+      "tree": []
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3,
+        "name": "Values added (Office use only)"
+      },
+      "data": {
+        "5a6aad04-9f51-520d-9ab2-9d95e1853576": {
+          "title": "Labour Value",
+          "type": "input",
+          "subtype": "text",
+          "order": 15
+        },
+        "2890121e-148d-504c-b1fd-da60d2fdd29e": {
+          "title": "Material Value",
+          "type": "input",
+          "subtype": "text",
+          "order": 16
+        },
+        "3d186521-199a-583d-a5f1-5939a2509b51": {
+          "title": "Measured Items",
+          "type": "input",
+          "subtype": "text",
+          "order": 17
+        },
+        "c9f501d5-2dcc-5c2b-b31a-5146f5bb75d6": {
+          "title": "Total Variation Value",
+          "type": "input",
+          "subtype": "text",
+          "order": 18
+        }
+      },
+      "tree": []
+    }
+  ]
+}

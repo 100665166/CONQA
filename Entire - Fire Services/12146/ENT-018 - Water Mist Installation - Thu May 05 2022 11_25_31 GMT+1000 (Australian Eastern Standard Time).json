@@ -1,0 +1,286 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "3534aab2-5d2e-5fc5-8d26-b1939f15483f": {
+              "title": "Drawing & Revision # (or Attach photo below)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Latest IFC drawings checked & referenced",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "068cb9f3-ffe8-51a7-bc2f-3f1d94684c01": {
+              "title": "Attach Photos/Comments below if any issues & Send report to Builder",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Area clear, tidy and accessible ",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "e704d873-ae7a-5d0e-89e9-cf154cb1d9f9": {
+              "title": "PASS if received in good condition - If not FAIL & Attach Photos/Comments below",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Pipe + Fittings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "6d6f1d0a-3023-56ea-bd14-b19839af6177": {
+              "title": "PASS if received in good condition - If not FAIL & Attach Photos/Comments below",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Nozzles + Valves",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-Start",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "39c6e820-82cc-5133-b4cd-943d13c159cc": {
+              "title": "Specification Ref: Above Drawing & AS:4587",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Mains, ranges & riser pipes ",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "5b0a77eb-6039-57bc-b80e-dfe5089c3666": {
+              "title": "Specification Ref: AS:4587",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Bracket location and spacing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "04e9c6d5-bb9e-5e5c-8128-1a8dc01371ef": {
+              "title": "Specification Ref: AS:4587",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Manual and Automatic Isolation Valves",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "17e1cd79-59dd-54db-b32e-746548564bb1": {
+              "title": "Specification Ref: QCF-ENT-009",
+              "type": "label",
+              "order": 0
+            },
+            "4588e681-6a5f-5568-bb49-e9691db48dd6": {
+              "title": "Test No. ",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Pressure test carried out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Installation Rough-In",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "f398b655-975b-5be3-8be8-abeafe826626": {
+              "title": "Specification Ref: AS:4587",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Test alarm and pump interface",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Commissioning",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "aa694c4f-f19b-5805-ba81-a6bdb08e6a71": {
+              "title": "Entire Fire Signature Sign-Off added below",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 2
+            },
+            "01d45865-9746-5e77-8309-495c81bc3217": {
+              "title": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+              "type": "label",
+              "order": 0
+            },
+            "e49d6fce-e1c6-543d-8893-4cc353f6d35a": {
+              "title": "Signature by Builders Site Coordinator - If applicable attach below",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Work(s) completed to specification/drawings & Area left clean/tidy",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Sign-Off",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "name": "ENT-018 - Water Mist Installation",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

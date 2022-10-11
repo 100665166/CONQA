@@ -1,0 +1,162 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Pre-requsites - MASDS Sytems commissioned and interfaced",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Smoke most remote point at each MASDS system ",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Confirm all MASDS smoke transport times under 90 seconds",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "13dc96c6-8387-56a7-b667-705d1075f68d": {
+          "title": "Record Transport Time",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Unit 1 Above Ceiling",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "702079cf-fe4e-5d0a-814f-a26c21bc667e": {
+          "title": "Record Transport Time",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Unit 2 Below Ceiling",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "4f68b6f5-1857-5165-9c63-3b0cc75bc78d": {
+          "title": "Record Transport Time",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Unit 3 Hot Isles",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {
+        "94164944-f94b-5caa-8c00-253a9f361e44": {
+          "title": "Record Transport Time",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Unit 4 Corridor",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "data": {
+        "0620aea2-7bb6-5249-9640-ad182d51c810": {
+          "title": "Entire Fire Signature Sign-Off added below",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 2
+        },
+        "6fc9add6-8168-586f-acfc-e9878fa2b53a": {
+          "title": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+          "type": "label",
+          "order": 0
+        },
+        "c3605f08-436a-507b-b6ca-aaea493c8b13": {
+          "title": "Signature by Builders Site Co-ordinator (If applicable) - Attached below",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 1
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Work(s) completed to specification/drawings & Area left clean/tidy",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    }
+  ],
+  "meta": {
+    "name": "MASDS SAMPLING AIR FLOW RATE TEST",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "display": "flat",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "stepType": "checklist-flat",
+    "name": "Compression Termination Checklist",
+    "templateReference": "e5b2ff1e-9437-4905-95eb-060365fb20b2",
+    "templateId": "e5b2ff1e-9437-4905-95eb-060365fb20b2",
+    "type": "step",
+    "dependant": true
+  },
+  "data": {
+    "b3c2ba50-9647-4615-b973-e3c60b5ca4e5": {
+      "type": "enum",
+      "order": 1,
+      "float": "left",
+      "subtype": "button",
+      "unsettable": true,
+      "values": [
+        "Yes",
+        "NO",
+        "NA"
+      ],
+      "title": "TBM Segment Prepared by Link Alliance & Handed Over to Sansom"
+    },
+    "dc744597-c785-41a4-8a75-880eeada6c58": {
+      "type": "boolean",
+      "order": 2,
+      "float": "left",
+      "title": "Standback Photo"
+    }
+  },
+  "tree": [
+    {
+      "meta": {
+        "display": "normal",
+        "stepType": "checkpoint-status",
+        "order": 0,
+        "templateReference": "1b07c37f-b2b4-4ea7-8e5e-3d49643985a9",
+        "templateId": "e5b2ff1e-9437-4905-95eb-060365fb20b2",
+        "type": "step",
+        "dependant": false,
+        "name": "TBM Segment Cleaned for application of termination"
+      },
+      "data": {},
+      "tree": []
+    },
+    {
+      "meta": {
+        "display": "normal",
+        "stepType": "checkpoint-status",
+        "order": 1,
+        "templateReference": "9a66951f-14db-4d90-bbc4-9f8384ac7a73",
+        "templateId": "e5b2ff1e-9437-4905-95eb-060365fb20b2",
+        "type": "step",
+        "dependant": false,
+        "name": "Holes drilled for anchors & cleaned out"
+      },
+      "data": {},
+      "tree": []
+    },
+    {
+      "meta": {
+        "display": "normal",
+        "stepType": "checkpoint-status",
+        "order": 2,
+        "templateReference": "92bd06ab-4503-4ada-a88f-511a2f0b9744",
+        "templateId": "e5b2ff1e-9437-4905-95eb-060365fb20b2",
+        "type": "step",
+        "dependant": false,
+        "name": "Anchors Installed to TBM Segments"
+      },
+      "data": {},
+      "tree": []
+    },
+    {
+      "meta": {
+        "display": "normal",
+        "stepType": "checkpoint-status",
+        "order": 3,
+        "templateReference": "9b6f3228-6936-4be8-9a1d-0e2f4e44dd91",
+        "templateId": "e5b2ff1e-9437-4905-95eb-060365fb20b2",
+        "type": "step",
+        "dependant": false,
+        "name": "12mm EPDM Rubber Gasket Fitted to Termination Location"
+      },
+      "data": {},
+      "tree": []
+    },
+    {
+      "meta": {
+        "display": "normal",
+        "stepType": "checkpoint-status",
+        "order": 4,
+        "templateReference": "4946e632-b61d-4892-a16c-a229788f5edf",
+        "templateId": "e5b2ff1e-9437-4905-95eb-060365fb20b2",
+        "type": "step",
+        "dependant": false,
+        "name": "PVC Membrane Installed & Fitted to Termination Location"
+      },
+      "data": {},
+      "tree": []
+    },
+    {
+      "meta": {
+        "display": "normal",
+        "stepType": "checkpoint-status",
+        "order": 5,
+        "templateReference": "b99b82fd-4eff-413f-9616-762a06a1b614",
+        "templateId": "e5b2ff1e-9437-4905-95eb-060365fb20b2",
+        "type": "step",
+        "dependant": false,
+        "name": "6mm Neoprene Packer Installed Over PVC Membrane"
+      },
+      "data": {},
+      "tree": []
+    },
+    {
+      "meta": {
+        "type": "step",
+        "order": 6,
+        "dependant": false,
+        "name": "Steel Plate Fitted, Fixed Down & Installed over Termination"
+      },
+      "data": {},
+      "tree": []
+    },
+    {
+      "meta": {
+        "type": "step",
+        "order": 7,
+        "dependant": false,
+        "name": "Steel Plate Termination Compressed & Torqued to Requirements"
+      },
+      "data": {},
+      "tree": []
+    }
+  ]
+}

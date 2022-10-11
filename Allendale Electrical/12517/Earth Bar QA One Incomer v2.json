@@ -1,0 +1,194 @@
+{
+  "data": {
+    "e93520b4-3370-5f4b-9539-6d81ebca1e3a": {
+      "title": "Earth Bar Identifier",
+      "type": "input",
+      "subtype": "text",
+      "order": 1
+    }
+  },
+  "tree": [
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "Earth Bar Label Attached",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "Supply Earth Labelled",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "Visual Inspection",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "ecde1a06-b6b5-501f-bc07-a6a2b2c67549": {
+          "title": "Incoming Earth Cable Size",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "95mm",
+            " 120mm"
+          ],
+          "order": 7
+        },
+        "bcb01775-a9a2-517d-a0c3-7306004c5ac7": {
+          "title": "Incoming Earth Cable Type",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Insulated PVC"
+          ],
+          "order": 6
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Incoming Earth Cable Torqued",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "Correct Incoming Earth Size Per Single Line Diagram",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "Earth Bar Securely Attached With Insulated Spacers",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "All Outgoing Earths Have Destination Labelled At Earth Bar",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "All Outgoing Earths Are Torqued",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "data": {
+        "6dfc560a-a93c-5e79-b874-5d44e962eb0e": {
+          "title": "Date",
+          "type": "input",
+          "subtype": "text",
+          "order": 19
+        },
+        "f7ffe008-7ab4-53ff-8651-a813af9f7222": {
+          "title": "Date",
+          "type": "input",
+          "subtype": "text",
+          "order": 16
+        },
+        "4956571c-b38f-5f5d-9a6b-3ef90a7670e4": {
+          "title": "Date",
+          "type": "input",
+          "subtype": "text",
+          "order": 14
+        },
+        "139da99a-501b-55fd-ab15-d6a72de0a354": {
+          "title": "Comment",
+          "type": "input",
+          "subtype": "text",
+          "order": 15
+        },
+        "fd86fc90-0c1e-5c1d-a21c-73e7c85b07b9": {
+          "title": "Witnessed By",
+          "type": "input",
+          "subtype": "text",
+          "order": 18
+        },
+        "e48456c9-dc4a-5880-b0f9-2c9836500260": {
+          "title": "Tested By",
+          "type": "input",
+          "subtype": "text",
+          "order": 17
+        },
+        "aba956ff-3d4d-5639-8a4a-4c34990b67d3": {
+          "title": "Comment",
+          "type": "input",
+          "subtype": "text",
+          "order": 13
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Photo Reference",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    }
+  ],
+  "meta": {
+    "name": "Earth Bar QA One Incomer",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

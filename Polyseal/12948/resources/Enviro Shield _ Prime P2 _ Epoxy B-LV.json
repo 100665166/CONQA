@@ -1,0 +1,130 @@
+{
+  "tree": [
+    {
+      "data": {
+        "65aed49e-2457-5f03-a977-c50ecb0f0252": {
+          "title": "Specification / Standard: AS4654.1-2012; AS3740 - 2010, Manufacturer’s Technical Data Sheet",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Relevant Australian Standards Checked",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "f2420707-eb28-5e5d-9093-fcddbc4509dd": {
+          "title": "Attach Photo. [POL HOLD POINT] / [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Check Screed (moisture test if required, Enviro Shield is moisture tolerant.)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "d7b4eb8b-280e-5525-8dcf-f5e30726e443": {
+          "title": "Visual. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Apply first coat of Enviro Shield with a brush or roller.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "645bff8b-428b-5c4b-a045-269e87789ed0": {
+          "title": "Attach photo. [MPX HOLD POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Apply second coat of Enviro Shield with a brush or roller.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "1a63e39f-e8af-5eb9-81bb-212ff0c1ecac": {
+          "title": "Attach photo. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Protection board. Install Elmich Versidrain 8 Geo. Applicable to planters only",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "HOLD POINT - CLICK HERE TO REQUEST BUILDER SIGN OFF",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Final signoff and handover. Visually inspect and ensure adequately cured. Check for any pinholes and bubbles. Sign-off from builder and hand-over",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "name": "Enviro Shield / Prime P2 / Epoxy B-LV",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

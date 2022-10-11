@@ -1,0 +1,459 @@
+{
+  "tree": [
+    {
+      "data": {
+        "ea8a4d30-fcc2-5b81-b87e-02b10e7e6473": {
+          "title": "SWBD designation",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "01e31860-84ef-58e8-a6ac-a13436bc46ce": {
+          "title": "Drawing No.",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "d5bdcb19-c146-5798-b847-2d225feccd8c": {
+          "title": "Manufactured",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "f861a6ba-1f62-5472-b4fe-a297bd81a28a": {
+          "title": "Tested by",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Equipment installed in correct location",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "f2242b16-2270-5519-a315-5e9dae262d74": {
+          "title": "Multimeter",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "5315c6dd-d120-5dbf-b721-a5518718d42f": {
+          "title": "RCD Tester",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "15cd1ddd-27a4-58f9-b1e5-bde0edc43497": {
+          "title": "Insulation Tester",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Test Equipment",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Visually check panel is satisfactory, items such as correct coil voltages, all cables are terminated, transformers are terminated correctly, scratch washers on painted metal, earth straps on metal not fixed to main cubicle, protection against contact with live parts, condition of components (signs of damage), components secured properly, current carrying capacity of conductors and switchgear, check clearances – (phase to phase 20mm, phase to earth 20mm), check power wiring into three phase comb is correct.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check all isolators and switches operate mechanically and electrically as per intended",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "804b1494-4995-5789-8959-adc125f63f5b": {
+          "title": "Record Value",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Check continuity from earth link to all exposed metal is not more than 0.5Ω",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "ab80d03e-1ab6-5dcb-97c9-abe7836c1ecc": {
+          "title": "Turn main switch ON and all circuit protection devices OFF.  Select 500V scale on megger and test each phase to earth, each phase to neutral and phase to phase (A→B, A→C and B→C).  Each test should result in readings not less than 1MΩ",
+          "type": "label",
+          "order": 0
+        },
+        "888d7a52-64cd-5ae9-9ea9-c5f4e2d2aba9": {
+          "title": "C to E",
+          "type": "input",
+          "subtype": "text",
+          "order": 9
+        },
+        "2f68f4e9-08ab-57dc-9151-b62cf0c8993c": {
+          "title": "A to B",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "42fd78a6-47ef-5763-b051-9a8f0921318c": {
+          "title": "B to E",
+          "type": "input",
+          "subtype": "text",
+          "order": 8
+        },
+        "2f694128-e6f3-55bc-95c4-d4f1b1cb5c12": {
+          "title": "N to E",
+          "type": "input",
+          "subtype": "text",
+          "order": 10
+        },
+        "a7923846-1d9d-59be-8f37-7223297f87af": {
+          "title": "A to C",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "1f2b08ae-9f9b-5264-8c1b-4b58d600e91f": {
+          "title": "A to N",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "2d7dca92-9fc2-5062-b09c-6f73b9e207d1": {
+          "title": "C to N",
+          "type": "input",
+          "subtype": "text",
+          "order": 6
+        },
+        "1587aa84-6595-55f6-85d8-dda73be90b07": {
+          "title": "B to C",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "352501fd-8faf-56f3-854d-eff9bb869725": {
+          "title": "B to N",
+          "type": "input",
+          "subtype": "text",
+          "order": 5
+        },
+        "860e561d-807e-5dcb-affe-dbe0fad6de3d": {
+          "title": "A to E",
+          "type": "input",
+          "subtype": "text",
+          "order": 7
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Insulation Resistance MAIN SWITCH AND DISTRIBUTION CHASSIS",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {
+        "c881c7d3-6873-5795-9a8e-83779e9bb810": {
+          "title": "DC Test (1000 ms MAX)",
+          "type": "input",
+          "subtype": "text",
+          "order": 6
+        },
+        "f7f0faad-2c94-51cf-a16c-3fb9a0777493": {
+          "title": "No Trip Test x 1/2 (No Trip",
+          "type": "input",
+          "subtype": "text",
+          "order": 10
+        },
+        "fad78209-c5c9-51c2-b5e2-d0dd795e303f": {
+          "title": "No Trip Test x 1/2 (No Trip",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "cb99fef8-611f-5f95-8d9e-d3d3cf99b08c": {
+          "title": "Auto Ramp Test - MAX 300 ms",
+          "type": "input",
+          "subtype": "text",
+          "order": 8
+        },
+        "7f9f9e5b-88eb-599f-ae17-3ebaea7e8f88": {
+          "title": "Trip Test X 1 (1000 ms MAX)",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "84594af7-af6a-5f6c-b3f8-0c9e86aec5a3": {
+          "title": "Auto Ramp Test - 20% - 110% of rated trip current",
+          "type": "input",
+          "subtype": "text",
+          "order": 7
+        },
+        "cf6c76ae-2ee4-54ba-9998-146eed56d307": {
+          "title": "180",
+          "type": "label",
+          "order": 9
+        },
+        "cc9da817-6def-59f6-94b7-c0a2c7d6fd65": {
+          "title": "Auto Ramp Test - 20% - 110% of rated trip current",
+          "type": "input",
+          "subtype": "text",
+          "order": 14
+        },
+        "b1c9ec2a-be21-5e0e-8684-c56363af06e3": {
+          "title": "0",
+          "type": "label",
+          "order": 2
+        },
+        "4e61b008-fc4c-5edc-804f-74b05e2bd748": {
+          "title": "Trip Test X 1 (1000 ms MAX)",
+          "type": "input",
+          "subtype": "text",
+          "order": 11
+        },
+        "bd31fe8a-c498-521e-a368-36f6612a47ae": {
+          "title": "DC Test (1000 ms MAX)",
+          "type": "input",
+          "subtype": "text",
+          "order": 13
+        },
+        "191d4680-b9be-5063-9484-c9686eaaf17a": {
+          "title": "Fast Trip Test x 5 (200ms MAX)",
+          "type": "input",
+          "subtype": "text",
+          "order": 5
+        },
+        "fa7fe90a-2e38-5fd2-9378-6ac8826ab253": {
+          "title": "Auto Ramp Test - MAX 300 ms",
+          "type": "input",
+          "subtype": "text",
+          "order": 15
+        },
+        "74834c27-2a47-5bf6-b2a8-8e9c447edc23": {
+          "title": "Milliamps",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "dc0e4819-3a8b-5e2f-bb28-b401dbda9e15": {
+          "title": "Fast Trip Test x 5 (200ms MAX)",
+          "type": "input",
+          "subtype": "text",
+          "order": 12
+        },
+        "faf362c6-f029-5ba9-a484-da6be53101ae": {
+          "title": "RCD Amps",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Barricade area before live testing",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "data": {
+        "2fd0218a-992d-510e-893d-f16bac5d0efa": {
+          "title": "(3 phase – single phase, ensure single phase power wiring for overload is looped through each contact of overload).",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Ensure all power connections are tightened. Busbar connections and isolator connections to be witness marked where possible.  Check circuit breaker sizes are correct and circuit breaker schedule is correct and installed in switchboard. Check contactor sizes and overload ratings and power wiring are correct.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check circuit breaker sizes are correct as per drawings and circuit breaker schedule is correct and installed in switchboard.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check overload and time delays are set correctly as per detailed on drawings.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 9
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Ensure all wires and terminals are numbered.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 10
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Ensure   ALL labels are fitted and correct.  Read each individual label and check it is consistent with the text on the drawings. CHECK RED WARNING STICKER is attached to appropriate sections of the switchboard.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 11
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check that door seals and locks function correctly and keys are supplied in an accessible place.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 12
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Ensure that a copy of time switch, timer and other appropriate instructions are placed in Switchboard",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 13
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Ensure site controls and switch plates are secured within the switchboard if applicable.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 14
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Ensure wall mounting brackets are placed and securely within the switchboard if required.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 15
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Ensure entire switchboard is vacuumed and wiped clean and all temporary labelling has been removed.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 16
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check and record any damage to paint work both, internal or external.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 17
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Ensure  Switchboard photos have been taken that clearly identify the,",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 18
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Switchboard Designation / External of the switchboard / Internal of the switchboard / Switchboard Fascia/s.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 19
+      }
+    }
+  ],
+  "meta": {
+    "name": "Switchboard Installation",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "5fbbc83d-8616-407e-a15a-8d809ece0d86": {
+              "float": "left",
+              "title": "Key pre-excavation tasks",
+              "type": "label",
+              "order": 3
+            },
+            "e3375103-a53b-4c3e-b730-65820f6039fe": {
+              "float": "left",
+              "title": "Has saw cutting been completed?",
+              "type": "boolean",
+              "value": false,
+              "order": 6
+            },
+            "490a2041-07f9-4524-bce2-7875c9be58f0": {
+              "float": "left",
+              "title": "Relevant services identified and isolated / clearly marked?",
+              "type": "boolean",
+              "value": false,
+              "order": 5
+            },
+            "3a1dc698-0654-41be-bfe9-636183b77ffb": {
+              "float": "left",
+              "title": "Approval given to dig? (Ground disturbance permit in place)",
+              "type": "boolean",
+              "value": false,
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Location of QA check (take a photo of a marked up plan and add here)",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Excavation setout checked and correct to detail",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "name": "Request signoff",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "display": "flat",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Additional photos/ observations / reports attached",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "name": "Pre-excavation",
+        "dependant": true,
+        "type": "step",
+        "display": "flat",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "438ee8f3-5c97-4578-b0e7-47ac2b87531b": {
+              "float": "left",
+              "title": "Depth correct (allow for site concrete if required).",
+              "type": "boolean",
+              "value": false,
+              "order": 13
+            },
+            "8ffb121d-c24f-44fc-80c0-1f13aa57cbd8": {
+              "float": "left",
+              "title": "Width correct (allow for boxing if required)",
+              "type": "boolean",
+              "value": false,
+              "order": 14
+            },
+            "a81989bf-4034-4864-9a3e-989b0675ca44": {
+              "float": "left",
+              "title": "Location accurate",
+              "type": "boolean",
+              "value": false,
+              "order": 12
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Completed excavation checked and correct to detail",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Excess Material Cleaned up and removed as required",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "name": "Request Sign Off",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "display": "flat",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "General Photos / Comments / Observations during excavation",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "name": "Post-excavation",
+        "dependant": true,
+        "type": "step",
+        "display": "flat",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "QA - Excavation Checklist (V1)",
+    "dependant": true,
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

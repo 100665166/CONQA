@@ -1,0 +1,147 @@
+{
+  "tree": [
+    {
+      "data": {
+        "b5a2b3df-0b58-50df-9b47-3d9b35f9790a": {
+          "title": "Specification/Standard: Manufacturer’s Technical Data Sheet",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Relevant Australian Standards Checked",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check Substrate - The surface must be clean, dry and free from all loose particles. [POL HOLD POINT] / [MPX HOLD POINT]",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "45a9d7d0-f115-5cbf-a0c0-a3c3e20af613": {
+          "title": "Attach Photo. [MPX HOLD POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Prepare surface to accept primer using a scraper or grinder and vacuum or sweep residual debris. Remove all sharp edges including screws, nails and concrete/mortar projections.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "32eb981f-752b-50b7-aac9-189460305681": {
+          "title": "Visual. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Dampen the surface that the membrane will be applied to.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "0dff4487-2bf5-5be1-8d47-e4148f7af57e": {
+          "title": "Visual. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Mixing and Application. Mix Enviro Hydrostatic 1 thoroughly using a mechanical mixer. Apply first coat of Enviro Hydrostatic 1 by brush, roller or spray.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "72987bf7-0cc5-5462-9e11-6723a0eacaa1": {
+          "title": "Attach Photo of WFT and DFT. Enter WFT and DFT reading on comment section. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Apply second coat of Enviro Hydrostatic 1 by brush, roller or spray. Achieve 1.0mm WFT and 1.5mm DFT.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {
+        "62715884-2eb4-50ae-90ed-8ff62ab2ac0e": {
+          "title": "Attach Photo.",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "HOLD POINT - CLICK HERE TO REQUEST BUILDER SIGN OFF",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Final Inspection and Sign-off. Visually inspect and ensure adequately cured - DO NOT PASS UNTIL HOLDPOINT COMPLETE BELOW",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    }
+  ],
+  "meta": {
+    "name": "Enviro Hydrostatic 1",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

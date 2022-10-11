@@ -1,0 +1,219 @@
+{
+  "data": {
+    "76a79192-c7a4-5815-8b57-72478f18882f": {
+      "title": "Earth Bar Identifier",
+      "type": "input",
+      "subtype": "text",
+      "order": 1
+    }
+  },
+  "tree": [
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "Earth Bar Label Attached",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "Supply Earths Labelled",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "Visual Inspection",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "78d8c736-5d96-5362-bdae-eee7363dde85": {
+          "title": "Incoming Earth 1 Cable Type",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Insulated PVC"
+          ],
+          "order": 6
+        },
+        "898362fd-4d0a-508a-bf16-e6b6144a1c94": {
+          "title": "Incoming Earth 1 Cable Size",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "95mm",
+            " 120mm"
+          ],
+          "order": 7
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Incoming Earth 1 Cable Torqued",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "47b22def-6c77-5f41-ba28-69541403dea6": {
+          "title": "Incoming Earth 2 Cable Type",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Insulated PVC"
+          ],
+          "order": 9
+        },
+        "2337b3bb-f50b-5601-8edb-284c6f5a4d2e": {
+          "title": "Incoming Earth 2 Cable Size",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "95mm",
+            " 120mm"
+          ],
+          "order": 10
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Incoming Earth 2 Cable Torqued",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "Correct Incoming Earth Size Per Single Line Diagram",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "Earth Bar Securely Attached With Insulated Spacers",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "All Outgoing Earths Have Destination Labelled At Earth Bar",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "data": {
+        "74d11184-4fdb-53bd-abe1-98e9da1df937": {
+          "title": "Comment",
+          "type": "input",
+          "subtype": "text",
+          "order": 16
+        },
+        "ef1ba447-0266-52bb-9f3c-2dca87447bcc": {
+          "title": "Date",
+          "type": "input",
+          "subtype": "text",
+          "order": 17
+        },
+        "b8db0106-8a21-5ac8-82cb-a4ac695f0e31": {
+          "title": "Comment",
+          "type": "input",
+          "subtype": "text",
+          "order": 18
+        },
+        "704f809c-b1ef-5378-b7a2-9a4f8f9eef16": {
+          "title": "Date",
+          "type": "input",
+          "subtype": "text",
+          "order": 19
+        },
+        "5af679e5-f602-50a0-a2e5-2d557071fcfa": {
+          "title": "Witnessed By",
+          "type": "input",
+          "subtype": "text",
+          "order": 21
+        },
+        "155f289d-88ab-5206-bd7e-e5728e81e278": {
+          "title": "Photo Reference",
+          "type": "label",
+          "order": 15
+        },
+        "c4ed54a5-962d-5434-89a7-bddb9f8953f9": {
+          "title": "Tested By",
+          "type": "input",
+          "subtype": "text",
+          "order": 20
+        },
+        "f60306e0-51f2-5268-9b83-5efb3d11e567": {
+          "title": "Date",
+          "type": "input",
+          "subtype": "text",
+          "order": 22
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "All Outgoing Earths Are Torqued",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    }
+  ],
+  "meta": {
+    "name": "Earth Bar QA Two Incomers",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

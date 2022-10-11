@@ -1,0 +1,155 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "45fc4d94-5729-5d3f-89b9-2bd65f34b6ae": {
+              "title": "Finishing Point Established",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "06537ef7-1b82-5e51-b0cb-5264f0c88d90": {
+              "title": "Starting Point:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "f1c7f64e-dc83-5c76-81d6-a34676963c92": {
+              "title": "Level Obtained",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "8e2dfc5d-49cf-5837-8eed-a96a4d95d956": {
+              "title": "Drawing Red No:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "ea2cf6a9-d68f-50bc-a1cd-7b5899bbd03a": {
+              "title": "Grade of Pre-Line%",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "04852c42-b7f6-49cd-b74d-73b5a013b171",
+            "display": "normal",
+            "name": "Pre-Installation checks complete",
+            "dependant": false,
+            "templateId": "cf0261d0-b698-4905-907a-3bcde5e92be7",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "f3c39ac8-c24b-45d7-a738-0306eb010821",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-Installation",
+        "dependant": true,
+        "templateId": "cf0261d0-b698-4905-907a-3bcde5e92be7",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "0bbe47a6-a9d4-57b4-abf7-78a4ac049171": {
+              "title": "Water",
+              "type": "boolean",
+              "order": 1
+            },
+            "4b4ba097-de53-5758-bd75-f1f8c2c90954": {
+              "title": "Backfill Material",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "d0e0f038-8d35-59e7-a300-82b8e9e96188": {
+              "title": "Visual",
+              "type": "boolean",
+              "order": 2
+            },
+            "ca1a871e-f2b5-5888-ab5f-9efc3cc3bbc5": {
+              "title": "Air",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "9aec71d9-237c-44e3-a0c5-27ca2be91626",
+            "display": "normal",
+            "name": "Pipe Work Tested",
+            "dependant": false,
+            "templateId": "cf0261d0-b698-4905-907a-3bcde5e92be7",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "e860b5f3-3b38-5964-9655-6fd63d47c15c": {
+              "title": "Name of Inspector:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "e4ba8862-a855-4086-ba8e-a706091fb138",
+            "display": "normal",
+            "name": "Local Authority Inspection Passed",
+            "dependant": false,
+            "templateId": "cf0261d0-b698-4905-907a-3bcde5e92be7",
+            "type": "step",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "63fb3864-5cce-48c4-ace9-88fb1d27a214",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Installation",
+        "dependant": true,
+        "templateId": "cf0261d0-b698-4905-907a-3bcde5e92be7",
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "templateReference": "cf0261d0-b698-4905-907a-3bcde5e92be7",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "Below Ground Services Checklist",
+    "dependant": true,
+    "templateId": "cf0261d0-b698-4905-907a-3bcde5e92be7",
+    "type": "step"
+  }
+}

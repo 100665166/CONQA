@@ -1,0 +1,199 @@
+{
+  "data": {},
+  "tree": [
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "dc4b9f10-1244-4977-a145-42c40279a012",
+            "display": "normal",
+            "name": "Partitions set out plans current revisions checked and wall set out competed as per the current plans",
+            "dependant": false,
+            "templateId": "c3102496-9701-4fa5-9c70-53b34f373176",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "templateReference": "ea2330b2-1e45-4bc3-ae92-14f5f05441a7",
+        "display": "flat",
+        "name": "Set Out",
+        "dependant": true,
+        "templateId": "c3102496-9701-4fa5-9c70-53b34f373176",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {
+            "8d4ef346-d00f-5c88-98df-cd5822074acd": {
+              "title": "Fix tracks ≤600mm centres and 100mm from ends",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "27a1c153-c785-405f-a911-2d868d1bac2f",
+            "display": "normal",
+            "name": "Check sizes and spaces as per the partition types / KCL Design.",
+            "dependant": false,
+            "templateId": "c3102496-9701-4fa5-9c70-53b34f373176",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "f8cd1578-770c-4e78-9c25-a9b2670dfc29",
+            "display": "normal",
+            "name": "Fixing to post tensioned concrete: Maximum embedment for fixings = 45mm",
+            "dependant": false,
+            "templateId": "c3102496-9701-4fa5-9c70-53b34f373176",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "830285ea-0f88-5d6b-8a24-cb1e34a3f160": {
+              "title": "Full height partitions: Fix deflection head tracks to the floor slab soffit to allow a minimum deflection capacity of 20mm.",
+              "type": "label",
+              "order": 9
+            },
+            "5cc9a693-9f93-5f3c-9fba-27165f4de713": {
+              "title": "Part height partitions: Brace as per KCL Design",
+              "type": "label",
+              "order": 8
+            }
+          },
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "c324af5d-0899-4cff-b882-fe97c8c32d68",
+            "display": "normal",
+            "name": "Install boxed double studs / Maxi Jambs at jambs to all openings",
+            "dependant": false,
+            "templateId": "c3102496-9701-4fa5-9c70-53b34f373176",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "ab7d038b-db54-452d-9d18-f621d785be31",
+            "display": "normal",
+            "name": "Achieve overlap of at least 30 mm of the deflection head channel’s section vertical leg with the top plate of the wall framing",
+            "dependant": false,
+            "templateId": "c3102496-9701-4fa5-9c70-53b34f373176",
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "4bf243f0-3d1b-4da6-a06e-4d313b0c9654",
+            "display": "normal",
+            "name": "Rotate intermediate studs into tracks for friction fixing",
+            "dependant": false,
+            "templateId": "c3102496-9701-4fa5-9c70-53b34f373176",
+            "type": "step",
+            "order": 4
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "d7985756-0df1-494f-acf6-0a7f67d56b1d",
+            "display": "normal",
+            "name": "Staggered stud framing walls: Studs staggered at 300mm centres set in oversized top & bottom plates to allow each face to have stud fixing at 600mm centres minimum or as per KCL fixing requirement",
+            "dependant": false,
+            "templateId": "c3102496-9701-4fa5-9c70-53b34f373176",
+            "type": "step",
+            "order": 5
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "33ec8518-1e38-4f08-b616-208ff71c9c78",
+            "display": "normal",
+            "name": "Stud service holes: Splice additional stiffening to studs if site cut service holes exceed 1/3 the width of the member",
+            "dependant": false,
+            "templateId": "c3102496-9701-4fa5-9c70-53b34f373176",
+            "type": "step",
+            "order": 6
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "433bb38c-595d-4ccb-8e0f-ef981f47c38a",
+            "display": "normal",
+            "name": "Provide fire, smoke and acoustic sealing where indicated on the drawings/details",
+            "dependant": false,
+            "templateId": "c3102496-9701-4fa5-9c70-53b34f373176",
+            "type": "step",
+            "order": 7
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "templateReference": "4597c103-51eb-466f-b83f-346825591bd2",
+        "display": "flat",
+        "name": "Stud Framing / Wall Strapping – Inspection",
+        "dependant": true,
+        "templateId": "c3102496-9701-4fa5-9c70-53b34f373176",
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "templateReference": "c3102496-9701-4fa5-9c70-53b34f373176",
+    "display": "progress",
+    "name": "Partition Framing ITP",
+    "dependant": true,
+    "templateId": "c3102496-9701-4fa5-9c70-53b34f373176",
+    "type": "step"
+  }
+}

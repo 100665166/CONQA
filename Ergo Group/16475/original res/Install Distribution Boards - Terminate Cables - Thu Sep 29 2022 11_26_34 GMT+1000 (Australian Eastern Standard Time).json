@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "dependant": true,
+    "display": "flat",
+    "name": "Install Distribution Boards -Terminate Cables ITP006",
+    "permissions": {
+      "addPost": false,
+      "addStep": false
+    },
+    "stepType": "checklist-flat",
+    "type": "step"
+  },
+  "tree": [
+    {
+      "data": {
+        "62938eee-e776-5138-b9f4-6f659b9e4c7e": {
+          "order": 2,
+          "subtype": "text",
+          "title": "Drawing & revision number(s)",
+          "type": "input"
+        }
+      },
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Setout & alignment as per drawing (include revision below)",
+        "order": 0,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Check delivery of distribution board - Check for damage (paint finish, dimensions & door against drawing) - Please take a photo",
+        "order": 1,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Locate & fix into position",
+        "order": 2,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Install sub mains cabling as appropriate (glands, tray & duct)",
+        "order": 3,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Install lugs & terminate",
+        "order": 4,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Install sub circuit & terminate (if circuit not complete at the other end, it must not be terminated)",
+        "order": 5,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "data": {
+        "dda2648f-8494-54d4-905f-df3ab48ec56a": {
+          "order": 9,
+          "subtype": "text",
+          "title": "Record results",
+          "type": "input"
+        }
+      },
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Clean & vacuum area - please take a photo",
+        "order": 6,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Clearly identify services",
+        "order": 7,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Energise system",
+        "order": 8,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Check phase rotation",
+        "order": 9,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Check switchboard as installed as per drawings",
+        "order": 10,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Check typed schedule for accuracy & install",
+        "order": 11,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Ensure switchboard cupboard & area is left clean - Please take a photo",
+        "order": 12,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+        "order": 13,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "dd131319-94ea-4ff3-abd2-a5a7388aa7e2": {
+              "unsettable": false,
+              "float": "left",
+              "title": "Cranage Lead",
+              "type": "enum",
+              "subtype": "select",
+              "order": 5
+            },
+            "d5e05a01-4cd8-48a4-9a67-574f006d81d4": {
+              "float": "left",
+              "title": "Operator TC1 - if other, type here",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "72c6b06c-7e3d-4201-ac6b-09dea7992228": {
+              "unsettable": false,
+              "float": "left",
+              "title": "Operator TC1",
+              "type": "enum",
+              "subtype": "select",
+              "order": 7
+            },
+            "f8bd2fdf-ada0-4345-930d-ab2a9287109a": {
+              "float": "left",
+              "title": "Crane Co-ordinator - if other, type here",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "7dec9ac7-07a2-4c58-9bb8-f124f554348f": {
+              "float": "left",
+              "title": "Cranage Lead - if other, type here",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "d6365492-09ba-40dc-9580-6a7d055bf7c9": {
+              "unsettable": false,
+              "float": "left",
+              "title": "Crane Co-ordinator",
+              "type": "enum",
+              "subtype": "select",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Attendance Information (Pass once all inputted)",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Attendance",
+        "dependant": true,
+        "type": "step",
+        "display": "flat",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "204468e8-0fa4-4a3d-bff2-4983c66e3374": {
+              "float": "left",
+              "title": "Precast Balcony",
+              "type": "boolean",
+              "value": false,
+              "order": 19
+            },
+            "8e82a4da-20c3-4afa-8b7b-0e2eae06cb9f": {
+              "float": "left",
+              "title": "Precast wall",
+              "type": "boolean",
+              "value": false,
+              "order": 14
+            },
+            "0d9b2e89-2c1f-46bd-88b3-62769ff20ff2": {
+              "float": "left",
+              "title": "Mancage",
+              "type": "boolean",
+              "value": false,
+              "order": 21
+            },
+            "11afe658-4286-4e68-bd61-73dc0dbdcda6": {
+              "float": "left",
+              "title": "Shutters",
+              "type": "boolean",
+              "value": false,
+              "order": 11
+            },
+            "f9e6ed1f-f1d4-4d13-bc92-b1121d1b0da7": {
+              "float": "left",
+              "title": "If other, specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 25
+            },
+            "18a3ff55-1211-417d-818c-765c05124ca1": {
+              "float": "left",
+              "title": "SWL checked",
+              "type": "boolean",
+              "value": false,
+              "order": 22
+            },
+            "4838cf99-2dae-402d-9ec9-b4b36d6c42c2": {
+              "float": "left",
+              "title": "Waste bins",
+              "type": "boolean",
+              "value": false,
+              "order": 20
+            },
+            "810eee68-0f0d-45b6-a337-20fe50a9dffe": {
+              "float": "left",
+              "title": "Reinforcing Delivery",
+              "type": "boolean",
+              "value": false,
+              "order": 23
+            },
+            "ea814b85-a96f-48e2-99b9-c0b651873398": {
+              "float": "left",
+              "title": "Concrete Skip",
+              "type": "boolean",
+              "value": false,
+              "order": 15
+            },
+            "fe13647b-3210-473d-8dca-68978475c3df": {
+              "float": "left",
+              "title": "Moving Reinforcing",
+              "type": "boolean",
+              "value": false,
+              "order": 24
+            },
+            "64ae4245-8431-4d28-bfd0-661e6eea1b29": {
+              "float": "left",
+              "title": "Precast- Double T",
+              "type": "boolean",
+              "value": false,
+              "order": 13
+            },
+            "ac3336e8-11e5-4570-8ea5-07e825962e91": {
+              "float": "left",
+              "title": "Precast -unislab",
+              "type": "boolean",
+              "value": false,
+              "order": 12
+            },
+            "69fd3f4f-033d-4081-a7a2-ed31a409c807": {
+              "float": "left",
+              "title": "Structural steel delivery",
+              "type": "boolean",
+              "value": false,
+              "order": 18
+            },
+            "a0508525-cfea-4a80-9928-2351b738f2b2": {
+              "float": "left",
+              "title": "Scaffold moving",
+              "type": "boolean",
+              "value": false,
+              "order": 17
+            },
+            "70013d2e-9cae-436f-9edf-bbfbf1ba4edc": {
+              "float": "left",
+              "title": "Structural steel",
+              "type": "boolean",
+              "value": false,
+              "order": 16
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Daily Lifting Schedule TC1",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Photos/Additional Comments",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Radius chart or lift plan attached (Pass once attached)",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "name": "Critical Risks/Daily lifting schedule",
+        "dependant": true,
+        "type": "step",
+        "display": "flat",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Crane operators /Dogman ticketed",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Tower crane /Equipment have current certificate",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "d7f6c030-7d01-4e9f-ba72-18badb7d04ca": {
+              "float": "left",
+              "title": "Hazard Two:",
+              "type": "input",
+              "subtype": "text",
+              "order": 33
+            },
+            "81ef485a-02e5-47e8-80d5-afe0a1dd8ce2": {
+              "float": "left",
+              "title": "Hazard One:",
+              "type": "input",
+              "subtype": "text",
+              "order": 32
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "New Hazards/risk/control",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "name": "Health & Safety controls for lifting",
+        "dependant": true,
+        "type": "step",
+        "display": "flat",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "6b4c1cc7-436c-4250-a5ec-73aec1985222": {
+              "float": "left",
+              "title": "Rain forecast",
+              "type": "boolean",
+              "value": false,
+              "order": 36
+            },
+            "cbf09b1d-e64b-4e51-936d-82b356911fac": {
+              "float": "left",
+              "title": "Wind plus 35 km/h",
+              "type": "boolean",
+              "value": false,
+              "order": 37
+            },
+            "7a3711da-14d2-4c96-a4fd-c9d3e16404b1": {
+              "float": "left",
+              "title": "If other, specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 38
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Conditions (Pass once recorded)",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Weather Conditions",
+        "dependant": true,
+        "type": "step",
+        "display": "flat",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "9a240012-e703-4d65-855a-34e673dfc858": {
+              "float": "left",
+              "title": "Radio working ok",
+              "type": "boolean",
+              "value": false,
+              "order": 48
+            },
+            "2cb3c670-293d-4cae-a1e4-dfc79c530532": {
+              "float": "left",
+              "title": "Lifting gear ok",
+              "type": "boolean",
+              "value": false,
+              "order": 42
+            },
+            "c7d934ea-5d7c-42ee-a41c-1110ecc48395": {
+              "float": "left",
+              "title": "Anti-clash working ok",
+              "type": "boolean",
+              "value": false,
+              "order": 44
+            },
+            "3887d614-2986-4d78-8c81-a05b4f34bd42": {
+              "float": "left",
+              "title": "Hook camera Woking ok",
+              "type": "boolean",
+              "value": false,
+              "order": 45
+            },
+            "c4d56879-4e51-482f-9323-d49f24257102": {
+              "float": "left",
+              "title": "Operator quick check complete",
+              "type": "boolean",
+              "value": false,
+              "order": 47
+            },
+            "7c7fd1bd-70ea-44be-b794-55853e70bb19": {
+              "float": "left",
+              "title": "Crane operation ok",
+              "type": "boolean",
+              "value": false,
+              "order": 43
+            },
+            "681c64c1-03b5-4d00-a339-8a65b725cb61": {
+              "float": "left",
+              "title": "Taglines ok",
+              "type": "boolean",
+              "value": false,
+              "order": 41
+            },
+            "09946f66-bca2-4c0b-b123-00167095bfe4": {
+              "float": "left",
+              "title": "Rigging methodology discussed",
+              "type": "boolean",
+              "value": false,
+              "order": 46
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Lifting Gear/Hazard Check complete",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Photos/Additional Comments",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "name": "Lifting Gear/Hazard check For today",
+        "dependant": true,
+        "type": "step",
+        "display": "flat",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "abfc47fe-12fe-4634-b4fd-d942218abcb5": {
+              "float": "left",
+              "title": "Or any lift the crane operator feels should be classed as such",
+              "type": "boolean",
+              "value": false,
+              "order": 63
+            },
+            "6c2bc151-6157-48b6-a398-3fc0bcaf4861": {
+              "float": "left",
+              "title": "Irregular loads or loads with unusual weight distribution (centre of gravity)",
+              "type": "boolean",
+              "value": false,
+              "order": 52
+            },
+            "b325a67d-699a-4d7d-947f-6c6760426ea9": {
+              "float": "left",
+              "title": "Technically difficult rigging",
+              "type": "boolean",
+              "value": false,
+              "order": 56
+            },
+            "5763f5f2-7425-4428-a747-83e65342dfd8": {
+              "float": "left",
+              "title": "Lifting personnel",
+              "type": "boolean",
+              "value": false,
+              "order": 57
+            },
+            "bf83dc28-fee4-4812-a938-4a5c8917695a": {
+              "float": "left",
+              "title": "Lifting submerged loads",
+              "type": "boolean",
+              "value": false,
+              "order": 59
+            },
+            "04af45a0-8109-4b05-b1f9-65e6dcb390e5": {
+              "float": "left",
+              "title": "Using one or more cranes(winches)",
+              "type": "boolean",
+              "value": false,
+              "order": 53
+            },
+            "2488df22-e7f9-4e88-845a-fca0a969a63c": {
+              "float": "left",
+              "title": "A lift out of view of the crane operator",
+              "type": "boolean",
+              "value": false,
+              "order": 55
+            },
+            "43702fc3-b4d0-498f-8a82-c5940d0bed3f": {
+              "float": "left",
+              "title": "Lift weights if required",
+              "type": "boolean",
+              "value": false,
+              "order": 62
+            },
+            "872b4486-5150-4c58-b47b-3b5b080ac36d": {
+              "float": "left",
+              "title": "Lifting hazardous materials",
+              "type": "boolean",
+              "value": false,
+              "order": 58
+            },
+            "6c46ff0b-6f6b-4dd7-99e6-4790f5de7aec": {
+              "float": "left",
+              "title": "A lift with less than the recommended multicrane safety factors",
+              "type": "boolean",
+              "value": false,
+              "order": 54
+            },
+            "f2de590c-254b-4dcd-ab36-db68264b17ec": {
+              "float": "left",
+              "title": "Lift with no or partial outrigger",
+              "type": "boolean",
+              "value": false,
+              "order": 60
+            },
+            "e3e1e3a4-5d49-491d-a6cb-3de0553b2e45": {
+              "float": "left",
+              "title": "lifting on rubber",
+              "type": "boolean",
+              "value": false,
+              "order": 61
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Complex Lifts Today (Pass once relevant complex lifts are selected and any planning by engineer are done-to be attached)",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Complex Lifts Today",
+        "dependant": true,
+        "type": "step",
+        "display": "flat",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "name": "Crane Briefing Plan",
+    "dependant": true,
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

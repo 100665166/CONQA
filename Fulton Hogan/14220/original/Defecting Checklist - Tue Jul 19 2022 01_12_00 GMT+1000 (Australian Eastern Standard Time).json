@@ -1,0 +1,166 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "8701a653-7e68-5322-ba34-8a5f05976416": {
+              "title": "Identified on (date):",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "b6901938-66b6-53fa-aeaf-27ed24228be0": {
+              "title": "Description",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "ef28bbc8-add5-59ad-8e0f-420dac7424db": {
+              "title": "CAMS NO. (if applicable):",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "19517bc0-3d2a-50df-b1cc-61f59a027757": {
+              "title": "Photo Attached",
+              "type": "boolean",
+              "order": 8
+            },
+            "41d2bc45-4ace-52e7-a408-de753f71d800": {
+              "title": "Area:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "7ef5a324-a4da-5bf2-988b-bce11d762973": {
+              "title": "Location:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "f803d49d-f1e2-59c1-ac35-c6fbb3dc0972": {
+              "title": "Client Reference (if any):",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "ad0e584e-2967-515c-bb00-a32501bc38da": {
+              "title": "Identified by:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "2a79d577-24ae-5a78-8819-dc3b936e69e4": {
+              "title": "Process:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Defect Identification",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "20db7d32-e57f-533e-891f-7e15943d5b49": {
+              "title": "Completion Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Defect Rectification",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "4c47cb50-8bb9-5595-bdc0-1eb15f5e6501": {
+              "title": "Date Signed off",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "a8067a07-371a-564c-b8d1-c43fbd81b0c9": {
+              "title": "Fulton Hogan Representative",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "f2af2fa7-dd05-5062-b6d4-3083dff06751": {
+              "title": "Client Representative",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "ebedc7aa-7f4b-5a8f-83e7-a75c26ee5b8f": {
+              "title": "Date Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Request Approval",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Defect rectification accepted and closed (signed off by FH & Client)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Defect",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Defect ID No:",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

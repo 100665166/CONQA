@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "dependant": true,
+    "display": "flat",
+    "name": "Toolbox Safety Talks Meeting Minutes",
+    "permissions": {
+      "addPost": false,
+      "addStep": false
+    },
+    "stepType": "checklist-flat",
+    "type": "step"
+  },
+  "tree": [
+    {
+      "data": {
+        "22d0c969-9512-5e57-8214-1e6d63a88dd7": {
+          "order": 7,
+          "subtype": "text",
+          "title": "Comments & points raised",
+          "type": "input"
+        },
+        "2a89c104-f7e9-5149-b1b3-f0b716afab44": {
+          "order": 0,
+          "subtype": "text",
+          "title": "Location:",
+          "type": "input"
+        },
+        "358f1937-df0b-587e-8f48-8070e79972a9": {
+          "order": 2,
+          "subtype": "text",
+          "title": "Client:",
+          "type": "input"
+        },
+        "418dc8ac-d145-5638-871a-fc7587bb5e0e": {
+          "order": 1,
+          "subtype": "text",
+          "title": "Date: ",
+          "type": "input"
+        },
+        "8b0f244c-659e-5be6-8e40-18518758e711": {
+          "order": 3,
+          "subtype": "text",
+          "title": "Supervisor:",
+          "type": "input"
+        },
+        "9c7f2b34-9642-5c10-86f0-fc6cc8aa28cc": {
+          "order": 4,
+          "subtype": "text",
+          "title": "Subject:",
+          "type": "input"
+        },
+        "9fae3c6d-f41a-57a3-bc49-cd8c33425315": {
+          "order": 5,
+          "subtype": "text",
+          "title": "Duration:",
+          "type": "input"
+        },
+        "d87e0f1f-3abf-5db1-ab36-aaab268d4663": {
+          "order": 6,
+          "subtype": "text",
+          "title": "Persons present",
+          "type": "input"
+        }
+      },
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Toolbox Safety meeting completed",
+        "order": 0,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    },
+    {
+      "meta": {
+        "dependant": false,
+        "display": "normal",
+        "name": "Signed off by Ergo Group Supervisor",
+        "order": 1,
+        "stepType": "checkpoint-status",
+        "type": "step"
+      }
+    }
+  ]
+}

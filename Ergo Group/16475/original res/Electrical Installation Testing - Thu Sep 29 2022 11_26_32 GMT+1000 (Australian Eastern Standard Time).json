@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "dependant": true,
+    "display": "progress",
+    "name": "Electrical Installation Testing",
+    "permissions": {
+      "addPost": false,
+      "addStep": false
+    },
+    "stepType": "checklist-sectioned",
+    "type": "step"
+  },
+  "tree": [
+    {
+      "meta": {
+        "dependant": true,
+        "display": "flat",
+        "name": "Test Point/ Circuit Number",
+        "order": 0,
+        "permissions": {
+          "addPost": false,
+          "addStep": false
+        },
+        "stepType": "checkpoint-group",
+        "type": "step"
+      },
+      "tree": [
+        {
+          "data": {
+            "9d6c9fee-7fa3-5a60-b4ee-7a147a672a1e": {
+              "order": 0,
+              "subtype": "text",
+              "title": "Conductor Sizes (mm²) Actives/Earths",
+              "type": "input"
+            },
+            "b2104591-3d44-534b-a811-a8bf4e85fbb8": {
+              "order": 1,
+              "subtype": "text",
+              "title": "MCB (Rating & Type)",
+              "type": "input"
+            }
+          },
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Main earth tested",
+            "order": 0,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        }
+      ]
+    },
+    {
+      "meta": {
+        "dependant": true,
+        "display": "flat",
+        "name": "Continuity",
+        "order": 1,
+        "permissions": {
+          "addPost": false,
+          "addStep": false
+        },
+        "stepType": "checkpoint-group",
+        "type": "step"
+      },
+      "tree": [
+        {
+          "data": {
+            "52257cca-a18d-5dc8-b27d-df487aaa126b": {
+              "order": 0,
+              "subtype": "text",
+              "title": "Active Conductor (Rph)",
+              "type": "input"
+            },
+            "dc41095d-088a-5c2b-80fb-bef183acef45": {
+              "order": 1,
+              "subtype": "text",
+              "title": "Earth Conductor (Re)",
+              "type": "input"
+            }
+          },
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Continuity tested",
+            "order": 0,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        }
+      ]
+    },
+    {
+      "meta": {
+        "dependant": true,
+        "display": "flat",
+        "name": "IR ",
+        "order": 2,
+        "permissions": {
+          "addPost": false,
+          "addStep": false
+        },
+        "stepType": "checkpoint-group",
+        "type": "step"
+      },
+      "tree": [
+        {
+          "data": {
+            "ad330d9a-c85e-5de2-88c0-af879dfc4a8c": {
+              "order": 0,
+              "subtype": "text",
+              "title": "Insulation Resistance (MΩ)",
+              "type": "input"
+            }
+          },
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "IR tested",
+            "order": 0,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        }
+      ]
+    },
+    {
+      "meta": {
+        "dependant": true,
+        "display": "flat",
+        "name": "CCC",
+        "order": 3,
+        "permissions": {
+          "addPost": false,
+          "addStep": false
+        },
+        "stepType": "checkpoint-group",
+        "type": "step"
+      },
+      "tree": [
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Correct Circuit Connections",
+            "order": 0,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        }
+      ]
+    },
+    {
+      "meta": {
+        "dependant": true,
+        "display": "flat",
+        "name": "Polarity ",
+        "order": 4,
+        "permissions": {
+          "addPost": false,
+          "addStep": false
+        },
+        "stepType": "checkpoint-group",
+        "type": "step"
+      },
+      "tree": [
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Polarity tested",
+            "order": 0,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        }
+      ]
+    },
+    {
+      "meta": {
+        "dependant": true,
+        "display": "flat",
+        "name": "Fault Loop Impedance",
+        "order": 5,
+        "permissions": {
+          "addPost": false,
+          "addStep": false
+        },
+        "stepType": "checkpoint-group",
+        "type": "step"
+      },
+      "tree": [
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Measured Loop Value R ",
+            "order": 0,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        },
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "Maximum Permitted Loop Value",
+            "order": 1,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        }
+      ]
+    },
+    {
+      "meta": {
+        "dependant": true,
+        "display": "flat",
+        "name": "RCD ",
+        "order": 6,
+        "permissions": {
+          "addPost": false,
+          "addStep": false
+        },
+        "stepType": "checkpoint-group",
+        "type": "step"
+      },
+      "tree": [
+        {
+          "meta": {
+            "dependant": false,
+            "display": "normal",
+            "name": "RCD tested",
+            "order": 0,
+            "stepType": "checkpoint-status",
+            "type": "step"
+          }
+        }
+      ]
+    }
+  ]
+}

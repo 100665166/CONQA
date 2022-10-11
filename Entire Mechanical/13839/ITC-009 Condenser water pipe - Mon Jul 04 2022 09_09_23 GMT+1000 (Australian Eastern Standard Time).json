@@ -1,0 +1,178 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "3db0d7dd-30a7-5f89-80bc-cd8d156a7d5c": {
+              "title": "Test period to be a minimum of 4 hours",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "03f67abb-f7a9-58c9-8ea6-a1a63d1a5712": {
+              "title": "Test pressure to be 700kPa (Exceeds AS4041-2006 Appendix U)",
+              "type": "label",
+              "order": 1
+            },
+            "ddb65a5a-6cd9-5bfb-b0d8-d6249f272e54": {
+              "title": "AS4041-2006 Table 6.7.3 Requires Test Time of 15min for pipe ≤DN300 (For all other buildings)",
+              "type": "label",
+              "order": 2
+            },
+            "d5dfdf66-1313-5ab0-bc65-b73a40ed0ee3": {
+              "title": "AS4041-2006 Table 6.7.3 Requires Test Time of 25min for pipe >DN300 (For CU building)",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Test specifications met",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-Start",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "7da0c673-4b98-58ae-94a9-0f85f75f7cab": {
+              "title": "Applies on this floor or level",
+              "type": "boolean",
+              "values": [
+                "yes",
+                "no"
+              ],
+              "order": 0
+            },
+            "ff261092-9c10-5c68-858c-fd7165057d8c": {
+              "title": "Initial reading - kPA, time, ambient temperature",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "0fac92b1-0cb1-5189-a42e-b9b5b7c558ab": {
+              "title": "Pipe system",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "8d3bc212-ed58-548b-bd45-eb7abfdbcca8": {
+              "title": "from",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "19792d2b-37a8-5c24-8afa-64479360ac6a": {
+              "title": "15/25 min reading - kPA, time, ambient temperature",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "15600ecb-a290-5d6c-af5f-da220ad1c177": {
+              "title": "area/section under",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "9221dd7d-4294-5cf5-9282-029d42148888": {
+              "title": "System test pressure",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "4de1420d-d906-5dbf-b317-f86c9d43733d": {
+              "title": "System working pressure",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "136dca3d-b697-56c6-b8a5-a08294ae3da3": {
+              "title": "to",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Test Details",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Test details",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Sign off - attach signature below and pass once complete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Sign off",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    }
+  ],
+  "meta": {
+    "name": "ITC-009 Condenser water pipe",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

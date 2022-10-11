@@ -1,0 +1,623 @@
+{
+  "data": {},
+  "tree": [
+    {
+      "data": {
+        "bc85a25e-aec4-514b-9b8b-bf5917259106": {
+          "title": "Area to be poured:",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "472559e3-5daf-54d1-b181-8387fe6c9a26": {
+          "title": "Date of pour:",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        }
+      },
+      "tree": [
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Latest drawings available, checked and referenced",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pour Details",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Formwork - location, height, falls and dimensions checked and accurate",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Service penetrations formed correctly and locations checked/correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "All surfaces correctly prepared (e.g. joints to existing concrete, release agent to formwork etc)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Any control joints/ stop ends installed accurately and correctly braced",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Formwork and Embedded Items",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {},
+          "tree": [
+            {
+              "data": {},
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Raise Remedial / Request trades QA / Signoff",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Trades QA received, attached, reviewed and approved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Size and type correct to specification",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Reinforcing spacing and location correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Specified covers checked/correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Splice laps checked/correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "All couplers installed correctly (if reid bar couplers have been used, has epconC8 epoxy been used as specified)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Any starter bars are installed correctly (location, size and spacing )",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Any additional items installed/ completed (trimmer bars etc) and excess reinforcing removed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Welding certificates sited and attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Mill certificate reviewed, attached and approved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Reinforcing installed correctly to specification and ready for concrete to be placed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Reinforcing",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Any waterproofing elements have been correctly installed and checked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Any relevant service requirements completed (locations checked and accurate)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Engineer inspection completed - any observations / remedial work documented and closed out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "All relevant inspections completed and attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Main contractor inspection completed - Approval given to pour concrete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-Pour Completion (Approval to pour)",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "c47d156d-a044-5ecc-bde1-57ca1d17c664": {
+          "title": "Supplier Name:",
+          "type": "input",
+          "subtype": "text",
+          "order": 30
+        },
+        "2b78b39d-4c54-5160-b98c-515671b9af16": {
+          "title": "Concrete strength ordered:",
+          "type": "input",
+          "subtype": "text",
+          "order": 32
+        },
+        "d90e24f4-9c26-5c3a-a444-73714a87e93d": {
+          "title": "Concrete quantity ordered:",
+          "type": "input",
+          "subtype": "text",
+          "order": 33
+        },
+        "ca219d31-de7b-5c51-a8d3-7b16b5070ae6": {
+          "title": "Specified concrete strength:",
+          "type": "input",
+          "subtype": "text",
+          "order": 31
+        }
+      },
+      "tree": [
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Test blocks booked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "All concrete dockets photographed/ attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Concrete strength test reports attached and required concrete strength achieved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Concrete Supplier Specifics",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "General distribution photos, documents and observations attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "All concrete distributed correctly (area left clean and tidy)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Concrete Distribution",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    },
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Placement methodology confirmed and necessary plant and equipment on site",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "040a714e-8328-5afb-b080-72624f233ba4": {
+              "title": "Is the cover correct to specification",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 43
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Heights and falls checked/confirmed before placement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Heights and falls checked/ confirmed after placement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Any curing compound applied correctly",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Concrete placement completed - specified level of finish achieved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Area left clean and tidy",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Placement Method",
+        "dependant": true,
+        "type": "step",
+        "order": 6
+      }
+    },
+    {
+      "data": {},
+      "tree": [
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Any remedial work completed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {},
+          "tree": [],
+          "meta": {
+            "name": "Concrete Pour completed - All final checks and documentation completed and attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Post Pour Checks/Sign Off",
+        "dependant": true,
+        "type": "step",
+        "order": 7
+      }
+    }
+  ],
+  "meta": {
+    "name": "Concrete Pour Checklist (Self Perform)",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

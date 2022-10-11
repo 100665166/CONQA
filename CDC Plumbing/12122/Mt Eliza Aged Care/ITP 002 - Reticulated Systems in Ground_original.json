@@ -1,0 +1,394 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "80813f82-6468-57e6-8fe2-76f99bcc54bc": {
+              "title": "Drawing & Revision #",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "cbe2e805-6aae-560b-99b8-9266ac5cac20": {
+              "title": "Other (Specify Here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "8a204be3-6434-5933-b81f-4d40f0883b63": {
+              "title": "Service Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Cold Water",
+                "Recycled Water",
+                "Gas",
+                "Other (Specify Below)"
+              ],
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Spec. Ref:",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "e5d1f41a-2678-5339-8e19-435d48aad200": {
+              "title": "Acceptance Criteria / Reference: Approved installation drawings",
+              "type": "label",
+              "order": 0
+            },
+            "f00fe73d-70c5-5c80-b77f-e024635d2009": {
+              "title": "Inspection Type: Hold Point",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "HOLD POINT - Set out and alignment",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "fad8dd08-750a-5504-962a-9f5829fe624d": {
+              "title": "Acceptance Criteria / Reference: Approved installation drawings",
+              "type": "label",
+              "order": 0
+            },
+            "34736303-6277-5a74-a040-bd67599a8fb5": {
+              "title": "Inspection Type: Hold Point",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "HOLD POINT - Inverts and grades",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "e30efdaa-0560-5137-ba60-1a3d017bd8e8": {
+              "title": "Specification",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "6927bfb9-6050-5db1-a544-c7f48710c7ca": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 2
+            },
+            "2be12aa1-775d-5a6a-9f4e-2132a8e24a9b": {
+              "title": "Acceptance Criteria / Reference: As per specification",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Pipe bedding material",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "a8a86752-d3c1-5a24-a41e-1d81b02f9919": {
+              "title": "Acceptance Criteria / Reference: As per approved installation drawings\n PN 12 MDPE Welded Joints / Copper Tube Type B under Buildings",
+              "type": "label",
+              "order": 0
+            },
+            "9ffad4cf-50f8-5227-95f0-b003fbfbe6ac": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Pipe material correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {
+            "3cb21be1-7df8-5252-8eb2-e237e6667df5": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 1
+            },
+            "83931e20-b822-5a52-bbed-e37ef0102fae": {
+              "title": "Acceptance Criteria / Reference: Visual check on joints",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Electrofusion/Flange Joints",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "data": {
+            "e90b91ae-2ab6-550a-bc05-0fbe63d43e4d": {
+              "title": "Pressure (kPa)",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "4679d62f-8fd4-5a28-af37-8b915fcc2c95": {
+              "title": "REF TEST CRITERIA; \n Water:1 ½ times the working pressure or 1500kPa. \n Gas 1 ½ times operating pressure \n Provide photo of test gauge to confirm test",
+              "type": "label",
+              "order": 6
+            },
+            "d3d7d226-4308-5049-900c-95e29d357436": {
+              "title": "Test Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Water",
+                "Air",
+                "Nitrogen"
+              ],
+              "order": 1
+            },
+            "e1648b45-83cc-5569-8027-234b0df82ff3": {
+              "title": "Inspection Type: Hold Point, Test, Witness",
+              "type": "label",
+              "order": 5
+            },
+            "1c870526-34f9-59c3-bb4a-5d6ad1372aa3": {
+              "title": "Gauge Number",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "55da2444-a0d3-50f5-9d75-4b138d6809d4": {
+              "title": "Duration",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "aa29e97f-f6e2-5c75-98c4-546fdef851db": {
+              "title": "Acceptance Criteria / Reference: Pressure Test completed per AS3500",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "HOLD POINT - Inspection & testing prior to Concealing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "data": {
+            "31c0d32e-8c20-5741-a583-542cbbe4604d": {
+              "title": "Survey as installed works and update AS Built",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "As Built Records",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "data": {
+            "f9f6de93-0100-5afe-8e09-79e6ce0083b8": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 1
+            },
+            "7c2004bf-2082-5603-a491-c691fda24757": {
+              "title": "Acceptance Criteria / Reference: Existing material used for backfill or approved alternative (details in comments)",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Backfill trenches",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "data": {
+            "08bda85d-7665-50b1-bee0-6c40ca8a77dd": {
+              "title": "Acceptance Criteria / Reference: To AS:1289",
+              "type": "label",
+              "order": 0
+            },
+            "132ffd53-f4ab-5184-bd8a-b6ca7b9745b8": {
+              "title": "Inspection Type: Test",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Compaction and compaction testing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "data": {
+            "57f1a3fe-a7a9-5c9d-954d-19688a48f5ed": {
+              "title": "Acceptance Criteria / Reference: Photo records during installation works. Attach reference drawing",
+              "type": "label",
+              "order": 0
+            },
+            "54f9c617-83d2-5ffc-acca-fef28accb05f": {
+              "title": "Inspection Type: Normal Inspection",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Photo records",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Installation",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "04ce5292-c364-53dc-98e5-48cf4cc14044": {
+              "title": "Inspections carried out by",
+              "type": "label",
+              "order": 0
+            },
+            "6dd67693-737f-5994-b288-3ada94b7cdc0": {
+              "title": "Organisation",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "71dc1ba1-be93-5c86-99d9-4b8b1fa6971b": {
+              "title": "Kane Representative Sign-Off added below",
+              "type": "boolean",
+              "order": 4
+            },
+            "d3b124cc-0f04-581f-9b4b-10e56766beac": {
+              "title": "Signature(s) attached below",
+              "type": "label",
+              "order": 5
+            },
+            "af4cff24-914e-5912-a736-0f17799116a4": {
+              "title": "Name",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "cd2ec41e-a881-5b76-a8d8-33b599af639d": {
+              "title": "CDC Representative Sign-Off added below",
+              "type": "boolean",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Sign-Off Completed - Pass once below completed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Sign-Off",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "ITP 002 - Reticulated Systems in Ground",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

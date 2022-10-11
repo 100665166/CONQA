@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "order": 0,
+    "display": "normal",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "dependant": false,
+    "parent": "afc4dd85-974f-41db-a6cd-92a0cf306e49",
+    "inst": "2022-09-14T04:07:20.633Z",
+    "version": "2017-02-13",
+    "user": "53027000-2364-413c-ac17-fd63d88aae46",
+    "name": "Lot Verification.",
+    "stepType": "checkpoint-status"
+  },
+  "data": {
+    "0628b03e-6934-5f2a-a2aa-847f529da94f": {
+      "order": 5,
+      "subtype": "text",
+      "title": "Lot Closed On",
+      "type": "input"
+    },
+    "2a3157fc-2da4-5311-a401-4c7452027a95": {
+      "order": 1,
+      "subtype": "select",
+      "title": "Is the relevant NCR attached to the Lot?",
+      "type": "enum",
+      "values": [
+        "YES",
+        " NO",
+        " N/A"
+      ]
+    },
+    "55b00f0e-ff57-5c66-854c-4f68305e45f9": {
+      "order": 0,
+      "subtype": "select",
+      "title": "Is the relevant RFI attached to the Lot?",
+      "type": "enum",
+      "values": [
+        "YES",
+        " NO",
+        " N/A"
+      ]
+    },
+    "703bceba-90cd-5466-924a-9199aafa29b5": {
+      "order": 2,
+      "subtype": "select",
+      "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+      "type": "enum",
+      "values": [
+        "YES",
+        " NO",
+        " N/A"
+      ]
+    },
+    "7e1cd45e-7cad-5bd0-9d5a-06e50830a532": {
+      "order": 3,
+      "subtype": "select",
+      "title": "Lot verified By",
+      "type": "enum",
+      "values": [
+        "Babak Rudd-Project Quality Manager",
+        " Nicolas Nicola Lodo (Area 2 Manager)",
+        " Nicolas Terpstra (Delivery Manager)"
+      ]
+    },
+    "87a2b98c-d5e9-5149-9062-23e6a122d8d8": {
+      "order": 6,
+      "subtype": "text",
+      "title": "comments",
+      "type": "input"
+    },
+    "94bfb569-127e-5755-ae53-a1cbbd50fe3c": {
+      "order": 4,
+      "subtype": "select",
+      "title": "Lot Status",
+      "type": "enum",
+      "values": [
+        "OUTSTANDING",
+        " CLOSED"
+      ]
+    }
+  },
+  "tree": {},
+  "id": "4ea3953d-1ccd-4e69-9f09-b6d4ace8f48d"
+}

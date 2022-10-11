@@ -1,0 +1,84 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "During framing, placed all required nogs",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "e37950ae-e854-5229-81d6-08e4b60c2b4d": {
+          "title": "Air outlets, inlets, louvers.",
+          "type": "boolean",
+          "order": 5
+        },
+        "e94d6efc-3417-5288-a62b-b1d3545269a2": {
+          "title": "Fire rating to fire rated wall/ceiling penetrations",
+          "type": "boolean",
+          "order": 7
+        },
+        "a4862823-cc23-5818-b93e-0a569f67084b": {
+          "title": "Duct type and sizes correct, with proper supports/seismic",
+          "type": "boolean",
+          "order": 1
+        },
+        "40cc5ab1-9f31-50b6-b9ba-239dc13a7edf": {
+          "title": "dampers are at correct locations",
+          "type": "boolean",
+          "order": 6
+        },
+        "f1be6e35-11f0-5181-a561-26d4b0f74c0f": {
+          "title": "All cabling complete and with proper supports and at correct locations",
+          "type": "boolean",
+          "order": 3
+        },
+        "e52e8e8d-648e-552b-87be-19e3f6044211": {
+          "title": "Thermal ducts and pipes insulated and labelled",
+          "type": "boolean",
+          "order": 2
+        },
+        "1471d4ca-7851-5e00-9ab5-9c26dd19bf9a": {
+          "title": "Access to equipment, valves and fire dampers",
+          "type": "boolean",
+          "order": 4
+        },
+        "032268ab-d398-5c3d-b6d5-4ac738ab92ea": {
+          "title": "All pipe test complete",
+          "type": "boolean",
+          "order": 8
+        },
+        "cad487d7-c128-5d02-8906-c93f82696852": {
+          "title": "Pipe sizes correct, with proper supports/seismic",
+          "type": "boolean",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Prior to wall and ceilings linings",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "Mechanical Services pre-line",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "data": {},
+  "tree": [
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "Confirm area of work is accessible & acceptable to commence (If not comment below)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "89dac9cc-de21-5a39-b485-67502c5565e3": {
+          "title": "Drawing & revision number(s)",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Setout & alignment as per drawing (include revision below)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "06027255-7631-576a-8922-7f62aa66e1dc": {
+          "title": "All points comply with disabled code",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 5
+        },
+        "c3623a90-e08d-5144-9b27-c1e3a8d67724": {
+          "title": "All points & switches are in a functional area",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 6
+        },
+        "7983652a-928e-509c-a630-5d049590b2ba": {
+          "title": "Ensure powerpoint is above, not behind fridge & oven",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 8
+        },
+        "6bdeaf51-4c40-5c9e-be34-2312d42341a4": {
+          "title": "Ensure powerpoint is away from vanity & not clashing",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 9
+        },
+        "0a8e231d-7044-51dc-a06a-ee609995130d": {
+          "title": "All points allow for a good detail around",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 7
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Power points have been installed as per the electrical plans including shaving cabinet strip light",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "All comms are installed to allow for good detailing around",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "GPO's are correct for air conditioning & functional",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "NBN provision conduits (draw‐wire) 1mm installed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {
+        "6f469dc6-9106-589b-b9d0-cb6ca65b9c30": {
+          "title": "Relevant photo's/register has been completed",
+          "type": "label",
+          "order": 14
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Fire rating peno's completed in lobbies",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "data": {},
+      "tree": [],
+      "meta": {
+        "name": "FER is followed & installed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "data": {
+        "edd69995-4c19-5cef-969e-82b08ed8ecff": {
+          "title": "HOLDPOINT - Once all above items have been signed off work may proceed",
+          "type": "label",
+          "order": 17
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Final sign off - All electrical work completed as per the above ITP",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    }
+  ],
+  "meta": {
+    "name": "Electrical Rough In",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

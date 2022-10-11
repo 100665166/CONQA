@@ -1,0 +1,109 @@
+{
+  "tree": [
+    {
+      "data": {
+        "fbcc1f25-70bc-540d-ad49-8fe8c7287b63": {
+          "title": "Check alignment per plans & check for damage",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "ef308dcd-31df-433b-b9be-1831902bb7cc",
+        "display": "normal",
+        "name": "Channel installed",
+        "dependant": false,
+        "templateId": "f083fb0b-6704-4252-afcd-9417f9ef629d",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "68dd3294-0126-59fd-b983-20e59987d909": {
+          "title": "Check for marking",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "a0307595-04c2-41f2-95ed-61113e60154b",
+        "display": "normal",
+        "name": "Hardware installed",
+        "dependant": false,
+        "templateId": "f083fb0b-6704-4252-afcd-9417f9ef629d",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "ca20ef54-1340-4273-9478-4bca62a142a8",
+        "display": "normal",
+        "name": "Check gaps are even",
+        "dependant": false,
+        "templateId": "f083fb0b-6704-4252-afcd-9417f9ef629d",
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "6308ba30-75e8-4564-aa66-3d0be45f0117",
+        "display": "normal",
+        "name": "Glass installed",
+        "dependant": false,
+        "templateId": "f083fb0b-6704-4252-afcd-9417f9ef629d",
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "a1ff8970-2b25-4deb-b32d-ecd570eb4218",
+        "display": "normal",
+        "name": "Silicone joints",
+        "dependant": false,
+        "templateId": "f083fb0b-6704-4252-afcd-9417f9ef629d",
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "4f547536-39b2-47e1-bb08-3e17f97a5118",
+        "display": "normal",
+        "name": "Trade clean",
+        "dependant": false,
+        "templateId": "f083fb0b-6704-4252-afcd-9417f9ef629d",
+        "type": "step",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "templateReference": "f083fb0b-6704-4252-afcd-9417f9ef629d",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat",
+    "name": "Frameless Doors",
+    "dependant": true,
+    "templateId": "f083fb0b-6704-4252-afcd-9417f9ef629d",
+    "type": "step"
+  }
+}

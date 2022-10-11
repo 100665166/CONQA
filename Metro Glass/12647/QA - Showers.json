@@ -1,0 +1,103 @@
+{
+  "tree": [
+    {
+      "data": {
+        "45959ffb-c1c8-59da-9c61-4b4d8b647adf": {
+          "title": "Check alignment per plans & check for damage",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "6beade9b-4400-44b4-9909-4bece929102d",
+        "display": "normal",
+        "name": "Channel installed",
+        "dependant": false,
+        "templateId": "43ab5d0f-1054-4aad-b505-0f5552a97ea3",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "66d30591-4d81-54e2-9aa6-138e7ce833a9": {
+          "title": "Check for marking",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "7f85092a-b3a7-4a5d-806e-833e153293a4",
+        "display": "normal",
+        "name": "Hardware installed",
+        "dependant": false,
+        "templateId": "43ab5d0f-1054-4aad-b505-0f5552a97ea3",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "9b8e7677-4968-530c-9b92-6926c3259ea5": {
+          "title": "Check quality, safety stamps & gaps are even",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "6ccfd93c-8c01-43f8-999f-2ace185df305",
+        "display": "normal",
+        "name": "Glass installed",
+        "dependant": false,
+        "templateId": "43ab5d0f-1054-4aad-b505-0f5552a97ea3",
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "faf40a78-94d4-41e6-8680-ed3aaa8deb09",
+        "display": "normal",
+        "name": "Silicone joints",
+        "dependant": false,
+        "templateId": "43ab5d0f-1054-4aad-b505-0f5552a97ea3",
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": null,
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "055092f6-f484-4176-95a2-4532ce058e0a",
+        "display": "normal",
+        "name": "Trade clean",
+        "dependant": false,
+        "templateId": "43ab5d0f-1054-4aad-b505-0f5552a97ea3",
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "templateReference": "43ab5d0f-1054-4aad-b505-0f5552a97ea3",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat",
+    "name": "Showers",
+    "dependant": true,
+    "templateId": "43ab5d0f-1054-4aad-b505-0f5552a97ea3",
+    "type": "step"
+  }
+}

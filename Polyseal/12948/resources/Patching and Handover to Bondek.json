@@ -1,0 +1,194 @@
+{
+  "tree": [
+    {
+      "data": {
+        "c98fd99b-1be1-58fe-a80f-1bbc5fa4e42c": {
+          "title": "AS4654.2-2012; Manufacturer’s Technical Data Sheet",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Relevant Australian Standards Checked",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "96891038-dd64-5977-853a-4faaa18ebf7a": {
+          "title": "Attach Photo. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Lapping/ sealing blockwork or concrete wall starter bars. Apply Enviro 700X.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "2ecf4890-53db-5250-b371-3b21fa76bcc9": {
+          "title": "Visual check. Attach Photo of damages. [POL HOLD POINT] / [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Check membrane - Check for damages to membrane.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "da289833-174f-5c47-ac26-7589cc1505b7": {
+          "title": "Attach photo of patching. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Patching. Apply Enviro HP1200 using a spray gun. Achieve 1.5mm DFT. Or Apply Enviro 700X.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "bca65ee6-2178-57c0-bc0c-cc4e10b54555": {
+          "title": "Attach Photo of lap to blockwork. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Lapping blockwalls or concrete walls. Apply Enviro HP1200 using a spray gun. Achieve 1.5mm DFT.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "6f523141-571d-56fc-92e6-192ab5eb049e": {
+          "title": "Visual check. If pinholes found, run holiday test to check if membrane is compomised. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Check for pinholes and other defects to membrane following patching & lapping to blockwalls and/or concrete walls.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Lapping/ sealing blockwork or concrete wall starter bars",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "data": {
+        "06154dfe-08f6-5856-9dfd-1bf2af4e9a81": {
+          "title": "Attach Photo of lap to blockwork. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Lapping blockwalls or concrete walls",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "data": {
+        "f1e5de44-47c8-5f60-b2bb-07b3fdc9f52f": {
+          "title": "Attach photos of flood test. [MPX WITNESS POINT]",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Testing. Flood test if applicable.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "HOLD POINT - CLICK HERE TO REQUEST BUILDER SIGN OFF",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Final Inspection and Sign-off. Visually inspect and ensure adequately cured. Handover to Bondek. - DO NOT PASS UNTIL HOLDPOINT COMPLETE BELOW",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 9
+      }
+    }
+  ],
+  "meta": {
+    "name": "Patching and Handover to Bondek",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

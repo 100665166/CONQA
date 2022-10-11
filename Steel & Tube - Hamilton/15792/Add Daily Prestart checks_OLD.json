@@ -1,0 +1,578 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": null,
+          "meta": {
+            "name": "Have all workers on site reviewed, understood and signed onto the SSSP, and confirmed all their details are correct.",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": null,
+          "meta": {
+            "name": "All workers wearing required PPE",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "68c04772-0bca-455d-aeb0-6d02d506fe4e": {
+              "unsettable": false,
+              "float": "left",
+              "title": "Select most appropriate description",
+              "type": "enum",
+              "subtype": "select",
+              "order": 4
+            },
+            "b25cd943-dfb8-4af0-8d6d-d7dbc264fd6e": {
+              "float": "left",
+              "title": "Time lost due to weather if applicable",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "30f81c6c-0793-41a8-8b37-d8dcc9087c66": {
+              "unsettable": false,
+              "float": "left",
+              "title": "Wind Strength",
+              "type": "enum",
+              "subtype": "select",
+              "order": 5
+            }
+          },
+          "tree": null,
+          "meta": {
+            "name": "Weather conditions (Existing drop down boxes to remain)",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "92ceb0b6-81d5-447a-82d1-586f5dab8a9f": {
+              "float": "left",
+              "title": "If YES, are workers at risk of  falling objects, and how is this risk controlled?",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "c4521d21-7ba9-4c5d-b3f2-46e0acc44108": {
+              "unsettable": false,
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "float": "left",
+              "title": "Are there any people working above or below you",
+              "type": "enum",
+              "order": 8
+            },
+            "f06ac455-a3f9-4d65-b8f9-fbf97566d687": {
+              "float": "left",
+              "title": "How many staff at each workface",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            }
+          },
+          "tree": null,
+          "meta": {
+            "name": "Planned Tasks for the day and hazards discussed",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": null,
+          "meta": {
+            "name": "Are there any issues from the previous day not resolved.",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "name": "Prestart Checklist",
+        "dependant": true,
+        "type": "step",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "0cc6da97-1dec-47e8-ac54-e076c54a2510": {
+              "width": "100",
+              "float": "left",
+              "title": "Working on Scaffold platforms",
+              "type": "boolean",
+              "order": 8
+            },
+            "761b8202-75e7-475a-b6d2-fbf07c68a288": {
+              "width": "100",
+              "float": "left",
+              "title": "Cutting bars with a Grinder",
+              "type": "boolean",
+              "order": 9
+            },
+            "42f39406-57be-481c-8157-8cc4982592dd": {
+              "width": "100",
+              "float": "left",
+              "title": "Cuts on hands, legs or other body parts",
+              "type": "boolean",
+              "order": 23
+            },
+            "1e4d10b0-a727-4dd4-b932-3df091bfba1b": {
+              "width": "100",
+              "float": "left",
+              "title": "Sharp ends of bars",
+              "type": "boolean",
+              "order": 6
+            },
+            "5db78b1d-c363-4165-b82d-e40979497971": {
+              "width": "100",
+              "float": "left",
+              "title": "Trap doors for access on elevated sections",
+              "type": "boolean",
+              "order": 13
+            },
+            "28239c1a-c238-455b-b534-9cb950fc7486": {
+              "width": "100",
+              "float": "left",
+              "title": "Un protected bar ends",
+              "type": "boolean",
+              "order": 10
+            },
+            "62bc9757-0f2f-4022-bd9a-0d57749bf31a": {
+              "width": "100",
+              "float": "left",
+              "title": "Working on elevated areas",
+              "type": "boolean",
+              "order": 7
+            },
+            "7b0abd26-0f83-4c5a-88fa-2f18df3ff98e": {
+              "float": "left",
+              "title": "How will you eliminate, isolate or minimise the hazard in order to make it safe?",
+              "type": "input",
+              "subtype": "text",
+              "order": 30
+            },
+            "5e5ba559-bd7a-4c36-b576-73472a93ec27": {
+              "width": "100",
+              "float": "left",
+              "title": "Falling from height",
+              "type": "boolean",
+              "order": 22
+            },
+            "69f2935c-f480-4629-afd9-0e8e22eb5a09": {
+              "width": "100",
+              "float": "left",
+              "title": "Holes on Floors",
+              "type": "boolean",
+              "order": 12
+            },
+            "3b9089f1-1e55-4f30-be09-835315e348e6": {
+              "float": "left",
+              "title": "What could go wrong?",
+              "type": "label",
+              "order": 16
+            },
+            "98afe031-c46c-48ff-9a65-31be1718e74e": {
+              "width": "100",
+              "float": "left",
+              "title": "Falling through hole",
+              "type": "boolean",
+              "order": 24
+            },
+            "ce65a7ed-3c99-476d-bede-b1a9246352fd": {
+              "width": "100",
+              "float": "left",
+              "title": "Fingers cut or amputated",
+              "type": "boolean",
+              "order": 26
+            },
+            "d0a9bf19-f2ce-429c-a283-72cda88e8955": {
+              "width": "100",
+              "float": "left",
+              "title": "Injure Eyes",
+              "type": "boolean",
+              "order": 21
+            },
+            "c674bf4c-d9f8-4c8b-91e3-67f97c942595": {
+              "width": "100",
+              "float": "left",
+              "title": "Installed reinforcing on surface area to be walked on",
+              "type": "boolean",
+              "order": 15
+            },
+            "50852f28-1452-4eae-998d-c634d853a07a": {
+              "width": "100",
+              "float": "left",
+              "title": "Finger or foot can get pinched",
+              "type": "boolean",
+              "order": 28
+            },
+            "b7d7e162-89b8-460d-89f4-f7c82abb4812": {
+              "width": "100",
+              "float": "left",
+              "title": "Installing long bars that can fall into adjacent area",
+              "type": "boolean",
+              "order": 14
+            },
+            "77541b5c-a701-4bfb-95db-a73a2dfbe5a4": {
+              "width": "100",
+              "float": "left",
+              "title": "Stacked material",
+              "type": "boolean",
+              "order": 11
+            },
+            "a31ac59a-5be0-46c9-aaa6-a601d13436dc": {
+              "width": "100",
+              "float": "left",
+              "title": "Injure back",
+              "type": "boolean",
+              "order": 19
+            },
+            "53e2520e-f00a-4a6c-b96d-56c668977613": {
+              "width": "100",
+              "float": "left",
+              "title": "Bars falling from height",
+              "type": "boolean",
+              "order": 18
+            },
+            "1095c486-c483-421a-ba31-5a7f72f4ace3": {
+              "width": "100",
+              "float": "left",
+              "title": "Heavy items",
+              "type": "boolean",
+              "order": 5
+            },
+            "0d140c76-8220-43df-80d6-0b0885a00c16": {
+              "unsettable": false,
+              "subtype": "select",
+              "values": [
+                "Bend bar by hand",
+                "Bend bar with mechanical bender",
+                "Cut steel with Grinder",
+                "Cut steel with mechanical cutter",
+                "Install and tighten Couplers with Wrench",
+                "Install steel at height",
+                "Install steel in Trench",
+                "Install steel off scaffold",
+                "Install steel on Ground",
+                "Moving steel to workface",
+                "Stacking and storage",
+                "Unloading truck with material"
+              ],
+              "float": "left",
+              "title": "What is your first task for the day",
+              "type": "enum",
+              "order": 3
+            },
+            "4a1662e0-5f4b-4e76-b389-cac436485016": {
+              "width": "100",
+              "float": "left",
+              "title": "Sparks into eyes or burns on skin from sparks",
+              "type": "boolean",
+              "order": 27
+            },
+            "e977385b-096c-49fa-bcf3-31f79c6e8410": {
+              "width": "50",
+              "float": "left",
+              "title": "Injure Ankle",
+              "type": "boolean",
+              "order": 20
+            },
+            "eb3e854a-c79b-4b93-866b-93ecab0a7cea": {
+              "width": "100",
+              "float": "left",
+              "title": "Small items falling from height",
+              "type": "boolean",
+              "order": 17
+            },
+            "0e89fb44-fc47-4d27-a88a-8df3de70269f": {
+              "unsettable": false,
+              "subtype": "select",
+              "values": [
+                "Critical",
+                "High",
+                "Low",
+                "Moderate",
+                "Very low"
+              ],
+              "float": "left",
+              "title": "Risk Before?",
+              "type": "enum",
+              "order": 29
+            },
+            "e638e471-4d72-4d70-8b6a-3808c4ee474b": {
+              "width": "100",
+              "float": "left",
+              "title": "Stacked material could collapse and roll or fall on people",
+              "type": "boolean",
+              "order": 25
+            },
+            "23b4ff69-cd2c-4440-99bb-e0ce2162f1fa": {
+              "unsettable": false,
+              "subtype": "select",
+              "values": [
+                "Critical",
+                "High",
+                "Low",
+                "Moderate",
+                "Very Low"
+              ],
+              "float": "left",
+              "title": "Risk After?",
+              "type": "enum",
+              "order": 31
+            },
+            "40d1f3c8-5524-4916-a9b7-f5fe22a0a9e6": {
+              "float": "left",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "c00d369a-a47a-41bd-b197-88ffb4bcbfc1": {
+              "float": "left",
+              "title": "Hazards (Select)",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "tree": null,
+          "meta": {
+            "name": "Task Description",
+            "dependant": true,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": null,
+          "meta": {
+            "name": "Individual Task / Risk Assessment Complete",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "name": "Risk Assessment",
+        "dependant": true,
+        "type": "step",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": null,
+          "meta": {
+            "name": "Is the temperature check conducted by the assigned personnel?",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": null,
+          "meta": {
+            "name": "Is there any staff who has temperature of over 37.2 ° C or feeling unwell?",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": null,
+          "meta": {
+            "name": "Is there anyone who recently in contact with a possible COVID-19 patient?",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": null,
+          "meta": {
+            "name": "Do you have enough COVID-19 PPE?",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": null,
+          "meta": {
+            "name": "Is the travel to the site (vehicle policy) followed?",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": null,
+          "meta": {
+            "name": "Can today’s job be undertaken by the staff in the same bubble?",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": null,
+          "meta": {
+            "name": "Is everyone equipped with enough sanitizers and wipes?",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 6
+          }
+        }
+      ],
+      "meta": {
+        "name": "Covid 19 checks",
+        "dependant": true,
+        "type": "step",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": null,
+          "meta": {
+            "name": "All workers on site today were present for prestart & risk assessment (attach signatures below)",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Signoffs",
+        "dependant": true,
+        "type": "step",
+        "permissions": {
+          "addStep": true,
+          "addPost": false
+        },
+        "display": "flat",
+        "order": 99
+      }
+    }
+  ],
+  "meta": {
+    "name": "Prestart Checklist - Date:",
+    "dependant": true,
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "order": 99
+  }
+}

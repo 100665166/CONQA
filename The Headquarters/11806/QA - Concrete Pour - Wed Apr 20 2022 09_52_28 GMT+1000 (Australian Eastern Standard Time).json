@@ -1,0 +1,275 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Area Accessible & Approval to start",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Formwork - Correct Dimensions & Heights",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Formwork cleaned, oiled and braced sufficiently",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Any/All cast in items checked / correct (location and size)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Penetrations correctly formed/located, checked and accurate",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {
+            "5d2f0302-42fd-5128-9902-2e5093b57fac": {
+              "title": "Any starter bars are installed correctly (location, size and spacing )",
+              "type": "boolean",
+              "values": [
+                "Yes",
+                " N/A"
+              ],
+              "order": 4
+            },
+            "2747bf11-1161-5b16-b769-486374add88a": {
+              "title": "Any additional items installed/ completed (trimmer bars etc) and excess reinforcing removed",
+              "type": "boolean",
+              "values": [
+                "Yes",
+                " N/A"
+              ],
+              "order": 5
+            },
+            "eb1fefb9-5cc1-5d0a-b796-3e16f5c64604": {
+              "title": "Specified covers checked/correct",
+              "type": "boolean",
+              "values": [
+                "Yes",
+                " N/A"
+              ],
+              "order": 2
+            },
+            "f90c578f-ec6d-5669-af63-02a4971bb8fa": {
+              "title": "Reinforcing spacing and location correct",
+              "type": "boolean",
+              "values": [
+                "Yes",
+                " N/A"
+              ],
+              "order": 1
+            },
+            "451dfd4c-8f28-589a-9ead-f7ccdf2bd341": {
+              "title": "Size and type correct to specification",
+              "type": "enum",
+              "subtype": "button",
+              "order": 0
+            },
+            "b2295ef4-834c-59a8-b68e-d3275dfb4698": {
+              "title": "Splice laps checked/correct",
+              "type": "boolean",
+              "values": [
+                "Yes",
+                " N/A"
+              ],
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Reinforcing checked and correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Waterproofing (checked and correct)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Bottom of concrete pour is clean and free of debris/roughened",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Request Signoff",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Engineer informed of pour checks completed (see consultant folder and ensure observations are closed out)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Concrete - Pre Pour",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "c42b5d98-4a6f-5030-957a-ec105539610d": {
+              "title": "All concrete dockets photographed/attached here",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Concrete checked on arrival & correct (slump, MPa etc)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "General photos/comments/observations during placement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Concrete surface finish to specifications",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "2068b14a-04c8-5baa-9a96-75c4fb5fb09e": {
+              "title": "FINAL - Pass when work(s) are completed, area clean & tidy (any issues please comment below)",
+              "type": "label",
+              "order": 0
+            },
+            "21c40f74-8d44-5efa-9f96-821a51c1222c": {
+              "title": "Trades QA received & attached as applicable",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Concrete Pour completed correctly to specification & within tolerance in respective area(s) (photographic evidence provided below)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Concrete - Pour /Post Pour",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "Concrete Pour for Area:",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "03c3d6d1-ddc3-44e5-a0b3-b3e1a4f63c63": {
+              "float": "left",
+              "title": "Inspection Ref:",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "141fee67-118f-47ae-a379-8f30e903c462": {
+              "float": "left",
+              "title": "Specification Ref:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "04d564c5-f014-47bb-a462-ff98b7bff375": {
+              "float": "left",
+              "title": "Drawing Ref:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Concrete pour details",
+            "dependant": false,
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Area Accessible & Approval to start",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Formwork - Correct Dimensions & Heights",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Formwork cleaned, oiled and braced sufficiently",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Any/All cast in items checked / correct (location and size)",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Penetrations correctly formed/located, checked and accurate",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "data": {
+            "0abdbb67-3f7d-446b-9bc3-5735ef0401aa": {
+              "float": "left",
+              "title": "Splice laps checked/correct",
+              "type": "boolean",
+              "value": false,
+              "order": 15
+            },
+            "6e7bb432-a11a-47c0-a9ef-02059fb667fd": {
+              "unsettable": false,
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " N/A"
+              ],
+              "float": "left",
+              "title": "Size and type correct to specification",
+              "type": "enum",
+              "order": 12
+            },
+            "cd7f957b-fe4a-450f-bc85-8842625d752a": {
+              "float": "left",
+              "title": "Specified covers checked/correct",
+              "type": "boolean",
+              "value": false,
+              "order": 14
+            },
+            "2323e7ab-f672-48fb-b022-925a02984d91": {
+              "float": "left",
+              "title": "Any starter bars are installed correctly (location, size and spacing )",
+              "type": "boolean",
+              "value": false,
+              "order": 16
+            },
+            "d7cbc555-fe02-458d-873a-7f09a585c0df": {
+              "float": "left",
+              "title": "Any additional items installed/ completed (trimmer bars etc) and excess reinforcing removed",
+              "type": "boolean",
+              "value": false,
+              "order": 17
+            },
+            "c36c58a1-4d36-4524-bc3d-04e5e02e830a": {
+              "float": "left",
+              "title": "Reinforcing spacing and location correct",
+              "type": "boolean",
+              "value": false,
+              "order": 13
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Reinforcing checked and correct",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Waterproofing (checked and correct)",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Bottom of concrete pour is clean and free of debris/roughened",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "name": "Request Signoff",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "display": "flat",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Engineer informed of pour checks completed (see consultant folder and ensure observations are closed out)",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        }
+      ],
+      "meta": {
+        "name": "Concrete - Pre Pour",
+        "dependant": true,
+        "type": "step",
+        "display": "flat",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "17a5ee22-770c-4627-b961-7fc82ba8e9c6": {
+              "float": "left",
+              "title": "All concrete dockets photographed/attached here",
+              "type": "boolean",
+              "value": false,
+              "order": 24
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Concrete checked on arrival & correct (slump, MPa etc)",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "General photos/comments/observations during placement",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Concrete surface finish to specifications",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "ba5f0a55-0ee0-4314-8a3e-005687c62326": {
+              "float": "left",
+              "title": "FINAL - Pass when work(s) are completed, area clean & tidy (any issues please comment below)",
+              "type": "label",
+              "order": 28
+            },
+            "76f66eeb-621b-4e32-8ed1-f4a9b0f049ec": {
+              "float": "left",
+              "title": "Trades QA received & attached as applicable",
+              "type": "boolean",
+              "value": false,
+              "order": 29
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Concrete Pour completed correctly to specification & within tolerance in respective area(s) (photographic evidence provided below)",
+            "dependant": false,
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "name": "Concrete - Pour /Post Pour",
+        "dependant": true,
+        "type": "step",
+        "display": "flat",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "Concrete Pour -",
+    "dependant": true,
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

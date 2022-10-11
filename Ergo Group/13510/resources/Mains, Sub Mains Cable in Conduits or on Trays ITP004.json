@@ -1,0 +1,102 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Measure cable runs with appropriate accurate measuring instrument (eg tape measure, wheel)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check cable sizes resistance of protective earth conductor - shall be low enough to permit passage of current necessary to operate protective device",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "2712cfa0-d6d7-5bb9-9097-9b757a9b70b3": {
+          "title": "Record length of cable",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Confirm length of cable if sub contract item & order",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Install cable in appliance method (EG. Cable stands, electric winch, pulleys etc.) - ANY CABLE NOT TERMINATED IMMEDIATELY MUST HAVE THE ENDS TAPED COVERING THE BARE COPPER - please take a photo",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "7d0d2a8a-c6dd-542a-97e2-0389598273fb": {
+          "title": "Check requirements for cable identification & install",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Trefoil cables & tie cables to support system (ensure spacing)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "name": "Mains, Sub Mains Cable in Conduits or on Trays ITP004",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

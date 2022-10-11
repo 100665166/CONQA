@@ -1,0 +1,46 @@
+{
+  "tree": [
+    {
+      "data": {
+        "3390e4d4-e52a-59ff-af35-f6b5820a37a9": {
+          "title": "Type of rubbish bin and size",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "dbc5fdf8-9021-5431-9e5c-33c98a823e70": {
+          "title": "Any supporting documentation attached",
+          "type": "enum",
+          "subtype": "button",
+          "order": 2
+        },
+        "05c2ffd2-851a-525d-b81a-2c96d9766d7e": {
+          "title": "Date(s)",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Removal of Fill / Spoil recorded",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Removal of Rubbish Bins -",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

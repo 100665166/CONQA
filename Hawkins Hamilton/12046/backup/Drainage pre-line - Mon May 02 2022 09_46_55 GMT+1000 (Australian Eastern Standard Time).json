@@ -1,0 +1,100 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "All works fully completed to plans and specification. Include highlighted plan location",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "587a20fa-befd-53e2-bef7-6c6fd8334280": {
+          "title": "All materials available and comply with specs",
+          "type": "boolean",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Correct set outs",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "27335784-4a36-50e7-95e8-887a5aac8000": {
+          "title": "Pipe sizes correct, with proper supports/seismic",
+          "type": "boolean",
+          "order": 0
+        },
+        "eb8f0108-63b8-5715-860b-5a6a55b3a0c6": {
+          "title": "Insulated all required pipe work, labeled",
+          "type": "boolean",
+          "order": 3
+        },
+        "f30b691f-34b3-52b5-823f-fc6913da4e08": {
+          "title": "Correct no. of outlets, exterior taps, all vents installed, etc.",
+          "type": "boolean",
+          "order": 2
+        },
+        "fd1b7e9d-3fdf-513c-909f-32a718fbe525": {
+          "title": "All testing complete / council witnessing",
+          "type": "boolean",
+          "order": 4
+        },
+        "cb077cf0-1820-55f0-9b2b-d6eb79d4d02e": {
+          "title": "Floor wastes protected.",
+          "type": "boolean",
+          "order": 5
+        },
+        "b89c659f-bdb7-55b7-8dd0-e439696c8fe9": {
+          "title": "Correct backfill fill placed around in-ground pipe work",
+          "type": "boolean",
+          "order": 1
+        }
+      },
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "HCC sign off complete",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Pipe laying",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    }
+  ],
+  "meta": {
+    "name": "Drainage pre-line",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

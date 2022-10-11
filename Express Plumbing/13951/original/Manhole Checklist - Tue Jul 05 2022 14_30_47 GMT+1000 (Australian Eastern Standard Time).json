@@ -1,0 +1,82 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "db8a8b1f-9530-4038-8db3-82d7db71fcb8",
+        "display": "normal",
+        "name": "Check Existing RL's Of Manhole",
+        "dependant": false,
+        "templateId": "66384c00-55b3-4125-913c-2cf04d73cbfd",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "9410a10c-db1b-4793-806b-42cc0c3e8049",
+        "display": "normal",
+        "name": "Check Invert And Grade",
+        "dependant": false,
+        "templateId": "66384c00-55b3-4125-913c-2cf04d73cbfd",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "5feb693d-39dc-473e-9ee6-3f8e7a5ecafd",
+        "display": "normal",
+        "name": "Seal Pipe Into Manhole",
+        "dependant": false,
+        "templateId": "66384c00-55b3-4125-913c-2cf04d73cbfd",
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "9bd64721-1563-40ab-b339-6463dc1fdfbe",
+        "display": "normal",
+        "name": "Install Manhole Lid At Finished Height",
+        "dependant": false,
+        "templateId": "66384c00-55b3-4125-913c-2cf04d73cbfd",
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "5927935e-ab35-461c-b726-ebacdad0a67b",
+        "display": "normal",
+        "name": "Benching To Be Complete",
+        "dependant": false,
+        "templateId": "66384c00-55b3-4125-913c-2cf04d73cbfd",
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "templateReference": "66384c00-55b3-4125-913c-2cf04d73cbfd",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat",
+    "name": "Manhole Checklist",
+    "dependant": true,
+    "templateId": "66384c00-55b3-4125-913c-2cf04d73cbfd",
+    "type": "step"
+  }
+}

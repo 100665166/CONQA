@@ -1,0 +1,178 @@
+{
+  "tree": [
+    {
+      "data": {
+        "4beda911-7e52-5700-99eb-bc62fa03bc15": {
+          "title": "Any issues take a photo and send report",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Area clear, tidy and accessible ",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "d15f808d-534d-5e98-b94a-30fd66cc6100": {
+          "title": "Any issues take a photo and send report",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Substrate acceptable ",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Layout and Sub-Sill installed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Frame Window received in good condition ",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "2da9cf65-3bad-5cdd-a6fd-fa884a69d2bd": {
+          "title": "Fix frame into Jamb & Head brackets",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 1
+        },
+        "cac44059-e236-59e9-baea-65eec93a0446": {
+          "title": "Level plumb and correct height",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 2
+        },
+        "6ee9a6cb-862d-5bec-9d2d-6461dfa36fea": {
+          "title": "Erect frame into sub-sill",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 0
+        },
+        "a9ba16bc-c397-5ecd-a634-d788e99c9492": {
+          "title": "Exposed fixings are caulked",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 3
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "All  Curtain walls installed in correct location ",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Glazing Installed as per specifications",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "data": {
+        "d6a34112-bbb1-5310-9043-557dcc6f328f": {
+          "title": "Curtain wall Protection applied",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Master Glass Sign off  Works completed",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Curtain wall Installed correctly & area left clean/tidy -Take photos below",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    }
+  ],
+  "meta": {
+    "name": "Curtains Walls Installation Checklist",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

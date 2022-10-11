@@ -1,0 +1,61 @@
+{
+  "tree": [
+    {
+      "data": {
+        "08ae1dac-7e67-5225-a677-9fd872e40cec": {
+          "title": "PS3 - Completed and Attached",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "N/A",
+            "Yes"
+          ],
+          "order": 0
+        },
+        "bceb5606-e45f-5c21-a0c4-ed81d353e3df": {
+          "title": "Any Additional Compliance Documentation - Completed and Attached",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "N/A",
+            "Yes"
+          ],
+          "order": 1
+        }
+      },
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Request Sign Off",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "All Compliance Documentation - Completed & Attached",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Compliance Documentation",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

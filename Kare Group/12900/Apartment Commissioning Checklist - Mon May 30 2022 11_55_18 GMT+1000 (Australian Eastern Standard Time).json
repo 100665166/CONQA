@@ -1,0 +1,996 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "52ae82a8-96ae-5381-ac6a-50b3de5c27c3": {
+              "title": "Switchboard No.",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "17f8702e-5471-501d-9859-c7f32e1f1844": {
+              "title": "Tested by",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "487cb4d5-23f6-571d-9990-e3433ddd7489": {
+              "title": "A-Grade Reg. Number",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "7f175390-e80f-544d-894a-8d448315ebf6": {
+              "title": "Tag No.",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "a9af876c-78e2-502e-a992-ed1841f2af7e": {
+              "title": "Signature attached below",
+              "type": "boolean",
+              "order": 5
+            },
+            "595f504e-c86b-50fd-b5ae-2a4b99f18ef4": {
+              "title": "Test Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Details - Pass once entered",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Details",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "19309e85-d643-5abe-b571-be9ed8222442": {
+              "title": "IR Earth-Neutral",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "9ad55a54-22de-5181-a098-b368d812df72": {
+              "title": "Protective Device Tested",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "mcbrcd-16amp",
+                "mcbrcd-6amp",
+                "cb-20amp",
+                "Other (Specify below)"
+              ],
+              "order": 0
+            },
+            "75861341-e8a2-5b75-a4a0-79c3adb04cd7": {
+              "title": "IR Earth-Active",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "e4e348f3-5a2a-59f7-b2ce-f2945fd4a78f": {
+              "title": "Correct Circuit Connections No Looped Circuits",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 7
+            },
+            "588f8a72-f7ca-5304-b3e5-74bdbb4f3a66": {
+              "title": "Insulation Test Voltage (V)",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "aee48372-648a-5e4e-b67f-49f8c4623f0d": {
+              "title": "Main Earth Resistance Between Electrode No Greater Than .5 Ω",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "18efc031-3a73-5aa9-8eca-8b0ec5d6c630": {
+              "title": "Polarity",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "f97df17f-9fe9-5e8f-a6be-c61e758df7f7": {
+              "title": "Other (Specify here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "4d044aff-5356-54da-afd6-32421ae5208c": {
+              "title": "RCD Test",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Pass",
+                "Fail"
+              ],
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Power 1 Testing completed - Pass once below entered/tested",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "125532cc-96cf-5b4c-99c9-646400691f70": {
+              "title": "Polarity",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "cd97cc6c-e8c6-5906-bf51-0b43a2ffa007": {
+              "title": "IR Earth-Neutral",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "f151ce5a-aa67-53a8-a6a2-ee94c8454f2a": {
+              "title": "Protective Device Tested",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "mcbrcd-16amp",
+                "mcbrcd-6amp",
+                "cb-20amp",
+                "Other (Specify below)"
+              ],
+              "order": 0
+            },
+            "2c02b833-a164-5fc4-aaed-ed5150b668d7": {
+              "title": "RCD Test",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "f32471a9-65e0-5238-af5e-ea9bd4a90874": {
+              "title": "Other (Specify here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "cd1ac316-a2d8-53cc-8c17-1ec6cf4e53b5": {
+              "title": "Insulation Test Voltage (V)",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "e60d8381-88fe-5e5b-aaa2-a5b54f8f098d": {
+              "title": "IR Earth-Active",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "c9e19e19-99a8-5b3a-92b4-ff02fa963552": {
+              "title": "Correct Circuit Connections No Looped Circuits",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "f988e7c7-d83e-5128-b1c6-3763fe52e9bd": {
+              "title": "Main Earth Resistance Between Electrode No Greater Than .5 Ω",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Power 2 Testing completed - Pass once below entered/tested",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "b2d5893c-cd0d-5ce9-9ef7-e2c8ddad3776": {
+              "title": "IR Earth-Neutral",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "1940384e-b07c-5167-926d-38e865d0054f": {
+              "title": "Insulation Test Voltage (V)",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "d4314144-4d61-56bc-a4db-dc6807cd4a8e": {
+              "title": "Main Earth Resistance Between Electrode No Greater Than .5 Ω",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "e20eda7c-f8c0-5f17-afd0-e04c7a7a50fb": {
+              "title": "RCD Test",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "175696fc-4d01-5252-87e0-96f9feedbbb4": {
+              "title": "Correct Circuit Connections No Looped Circuits",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "ca20ec4b-d4db-502d-897d-b5675411b239": {
+              "title": "IR Earth-Active",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "b54ff755-4895-5714-95a7-636dc5551d61": {
+              "title": "Protective Device Tested",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "mcbrcd-16amp",
+                "mcbrcd-6amp",
+                "cb-20amp",
+                "Other (Specify below)"
+              ],
+              "order": 0
+            },
+            "c635e033-4c52-573f-bc99-43156f05571e": {
+              "title": "Other (Specify here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "445008c2-76dd-5680-8157-0ad08677f615": {
+              "title": "Polarity",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Light 1 Testing completed - Pass once below entered/tested",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "7b59ba31-0c09-5d1a-a33c-2f11ee638373": {
+              "title": "RCD Test",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "8e7ec858-b5b3-5cc5-89ff-b3a332cc27b0": {
+              "title": "Polarity",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "44cb5973-4386-54f5-a15e-70da571da754": {
+              "title": "Correct Circuit Connections No Looped Circuits",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "8caf2066-7d1c-5c52-a9ae-8ddac117ddb5": {
+              "title": "Other (Specify here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "91c39dda-5b00-5a8e-b30d-268374fc3aaf": {
+              "title": "IR Earth-Active",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "d64e868a-1c2c-55bd-a5ae-bfeeac30e092": {
+              "title": "IR Earth-Neutral",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "1edd8822-ced0-55c6-8667-0738a00e5034": {
+              "title": "Main Earth Resistance Between Electrode No Greater Than .5 Ω",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "6bcac0b5-3b7c-5e07-a827-042e3e057980": {
+              "title": "Protective Device Tested",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "mcbrcd-16amp",
+                "mcbrcd-6amp",
+                "cb-20amp",
+                "Other (Specify below)"
+              ],
+              "order": 0
+            },
+            "67843709-a77f-547b-be23-9f32975e3a63": {
+              "title": "Insulation Test Voltage (V)",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Light 2 Testing completed - Pass once below entered/tested",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "125d97b1-3d1a-5a80-a7be-69d2752478c8": {
+              "title": "Other (Specify here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "283fe7b4-8b67-5023-9a84-4eb8c68e57ef": {
+              "title": "Main Earth Resistance Between Electrode No Greater Than .5 Ω",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "c39c2232-ee18-54a7-9f53-8098d0f4683e": {
+              "title": "RCD Test",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "a1090903-b67b-518a-84a3-3a48aa38aa8c": {
+              "title": "IR Earth-Neutral",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "f74f6f04-b0dd-5e10-bb3e-74004f1c65d4": {
+              "title": "Protective Device Tested",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "mcbrcd-16amp",
+                "mcbrcd-6amp",
+                "cb-20amp",
+                "Other (Specify below)"
+              ],
+              "order": 0
+            },
+            "1f2e4d98-eb78-5581-91c2-fdb921a7d9f1": {
+              "title": "Polarity",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "4381de8a-529a-54b8-af38-dad70a9c6ab4": {
+              "title": "IR Earth-Active",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "904eecd2-f827-534d-9738-c9c96e5bab81": {
+              "title": "Correct Circuit Connections No Looped Circuits",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "b6b6b482-0b3b-5a3a-9791-51404ca4d272": {
+              "title": "Insulation Test Voltage (V)",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "AC Circuit 1 Testing completed - Pass once below entered/tested",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {
+            "35c78bcd-584f-5217-9bc7-0e01f9db6886": {
+              "title": "IR Earth-Active",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "cd4f6fe6-86b0-5fde-9167-1a6f2c685c6c": {
+              "title": "Polarity",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "e6eb29a2-9b7b-55a7-9c55-ed33a9c6dda9": {
+              "title": "Main Earth Resistance Between Electrode No Greater Than .5 Ω",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "45864b04-1623-581c-a7bb-2f2170f53191": {
+              "title": "IR Earth-Neutral",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "c32a70a7-493b-5f87-8541-f7373f0c0c70": {
+              "title": "Other (Specify here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "6df6e80f-c775-5d36-8a35-89199a06a179": {
+              "title": "RCD Test",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "1618c1e9-a41a-5474-a24f-86376d3d5c9c": {
+              "title": "Correct Circuit Connections No Looped Circuits",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "147edf35-260b-5c8d-b31d-f21988eae494": {
+              "title": "Protective Device Tested",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "mcbrcd-16amp",
+                "mcbrcd-6amp",
+                "cb-20amp",
+                "Other (Specify below)"
+              ],
+              "order": 0
+            },
+            "3cf11318-3c13-5ee6-9db2-b678300a2745": {
+              "title": "Insulation Test Voltage (V)",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "AC Circuit 2 Testing completed - Pass once below entered/tested",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "data": {
+            "7e4eb2d1-79da-5ff2-8f82-4b7fc1f7946e": {
+              "title": "Correct Circuit Connections No Looped Circuits",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "a93908aa-8860-5db4-a3e0-4a0b235fd988": {
+              "title": "Other (Specify here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "0eeaebaa-74a5-5ebc-8070-7f041e7c2452": {
+              "title": "RCD Test",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "5ad26e76-027b-5d3a-9113-c7f15f25e170": {
+              "title": "IR Earth-Neutral",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "8bbfa71d-8653-5d69-9eda-e80a6a71355a": {
+              "title": "Insulation Test Voltage (V)",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "fcaf9587-95ff-5350-a969-be22facafde6": {
+              "title": "Protective Device Tested",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "mcbrcd-16amp",
+                "mcbrcd-6amp",
+                "cb-20amp",
+                "Other (Specify below)"
+              ],
+              "order": 0
+            },
+            "2af91570-a0be-5ac4-abae-a26612130072": {
+              "title": "Polarity",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "42cc408e-2885-5d73-9d49-6128e173fc30": {
+              "title": "Main Earth Resistance Between Electrode No Greater Than .5 Ω",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "b15d9cbd-b206-5637-a6d0-9b0c133ea45c": {
+              "title": "IR Earth-Active",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "HWS Testing completed - Pass once below entered/tested",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "data": {
+            "d437a931-7b2a-5708-b225-d32d79d8d4d9": {
+              "title": "Protective Device Tested",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "mcbrcd-16amp",
+                "mcbrcd-6amp",
+                "cb-20amp",
+                "Other (Specify below)"
+              ],
+              "order": 0
+            },
+            "563fbb01-4b61-5256-881a-00b80e19b3e4": {
+              "title": "Other (Specify here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "2301e4cc-4ec8-526a-94e2-366354a6f797": {
+              "title": "IR Earth-Neutral",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "39cefaac-d43c-5f9e-8fe6-c16d0f1c47db": {
+              "title": "IR Earth-Active",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "2f7a9316-5a51-5cc3-b9cd-dca654795673": {
+              "title": "Correct Circuit Connections No Looped Circuits",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "99239b9c-8f4b-5b59-a4dc-505907b7cb4d": {
+              "title": "Insulation Test Voltage (V)",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "a0a37b26-fe25-5fbc-9421-b8abe548b757": {
+              "title": "Main Earth Resistance Between Electrode No Greater Than .5 Ω",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "7a02c199-a6f0-5f48-a333-5a4ac8ffe411": {
+              "title": "Polarity",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "dfa68073-9129-5d35-9706-489df81adb25": {
+              "title": "RCD Test",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Wall Oven Testing completed - Pass once below entered/tested",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "data": {
+            "a7f0d8b6-242a-5079-99f8-1138ed22394e": {
+              "title": "Other (Specify here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "8d128c4a-686c-5111-96e0-42a8eac504af": {
+              "title": "RCD Test",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "f27938a8-d6d7-5a98-9ff6-3fcd47a613b5": {
+              "title": "Insulation Test Voltage (V)",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "6d2e6d42-a480-5a43-9504-425ff6376deb": {
+              "title": "Protective Device Tested",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "mcbrcd-16amp",
+                "mcbrcd-6amp",
+                "cb-20amp",
+                "Other (Specify below)"
+              ],
+              "order": 0
+            },
+            "ad2f5c57-ed13-5a3f-9ff8-e1fd147111ef": {
+              "title": "IR Earth-Active",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "6a52e6ac-12d4-5b78-bfc5-02e99ed8f9fb": {
+              "title": "IR Earth-Neutral",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "6c755a3f-1c4b-50f5-b38f-d8d7acc79f0f": {
+              "title": "Polarity",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "b7e3368a-b7bc-5b1c-91d4-36d820cfa58f": {
+              "title": "Correct Circuit Connections No Looped Circuits",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "860eb35e-093c-5f89-8ec1-c0281825c0b5": {
+              "title": "Main Earth Resistance Between Electrode No Greater Than .5 Ω",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Hot Plate Testing completed - Pass once below entered/tested",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "data": {
+            "b406af8a-9578-56f6-a9d8-bc64de19cb28": {
+              "title": "IR Earth-Neutral",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "891d83d3-61a1-50fe-bddb-5bb27c02205c": {
+              "title": "Correct Circuit Connections No Looped Circuits",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "5ba77e98-92d5-576b-82a0-46d9e01b07d8": {
+              "title": "Insulation Test Voltage (V)",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "6886f02a-41fe-5383-91a9-73057550aaa0": {
+              "title": "IR Earth-Active",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "e0f877a8-3a4f-5aa4-be31-a9981f718ccc": {
+              "title": "Polarity",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "da751db8-a816-575d-97ef-e766e98dd0a7": {
+              "title": "RCD Test",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "cc1799a2-1069-5528-9d5c-865b7c95fa82": {
+              "title": "Main Earth Resistance Between Electrode No Greater Than .5 Ω",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "30053a7c-7cc2-56ad-8394-b8347146d39a": {
+              "title": "Protective Device Tested",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "mcbrcd-16amp",
+                "mcbrcd-6amp",
+                "cb-20amp",
+                "Other (Specify below)"
+              ],
+              "order": 0
+            },
+            "dd308c2c-2ffe-5488-9ce6-38f43949d523": {
+              "title": "Other (Specify here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Basement Completed Testing completed - Pass once below entered/tested",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "data": {
+            "950f72ab-7eaa-5ed5-95ad-4b935637f8f6": {
+              "title": "IR Earth-Active",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "58d22bf0-50dd-52c9-aa48-26cd1b6d2096": {
+              "title": "Correct Circuit Connections No Looped Circuits",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "ee25e8b7-f2fd-53f6-b72c-860aef80b46b": {
+              "title": "Insulation Test Voltage (V)",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "760d7be2-ea27-5f44-940b-3deebe1fb29a": {
+              "title": "Protective Device Tested",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "mcbrcd-16amp",
+                "mcbrcd-6amp",
+                "cb-20amp",
+                "Other (Specify below)"
+              ],
+              "order": 0
+            },
+            "81e2018b-33c0-5cb3-9db5-92fec8ab705b": {
+              "title": "Other (Specify here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "1358d053-2221-5820-a6bd-1199d8406eca": {
+              "title": "Main Earth Resistance Between Electrode No Greater Than .5 Ω",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "51c6209e-47c6-589a-9a2a-95a73db5741a": {
+              "title": "IR Earth-Neutral",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "fef1309e-2ca7-5352-bdef-51276d9ec8e0": {
+              "title": "Polarity",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "6cf959b1-b3ad-58f8-a246-5ee8e71f0238": {
+              "title": "RCD Test",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Joinery GPOs & LED Strip Testing completed - Pass once below entered/tested",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        },
+        {
+          "data": {
+            "38292c00-cb47-5632-b1b0-90de05a82cc4": {
+              "title": "RCD Test",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "cda9f72d-0c83-5593-8c17-19305cc3e62c": {
+              "title": "Correct Circuit Connections No Looped Circuits",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "fae3f9f5-a432-5e6f-ae14-d5f316a83158": {
+              "title": "Insulation Test Voltage (V)",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "55f3122f-86ff-573d-bd77-1e89aa252af4": {
+              "title": "IR Earth-Active",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "b05c9dcc-4553-592b-bfb2-eab6acad56a5": {
+              "title": "IR Earth-Neutral",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "f2c9c9b1-3a3f-5e84-a769-84c5b4c556da": {
+              "title": "Protective Device Tested",
+              "type": "enum",
+              "subtype": "select",
+              "order": 0
+            },
+            "2a38d181-d447-531c-8dd2-2e9c2b72cbb3": {
+              "title": "Other (Specify here)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "092d0195-bc51-56af-923f-5e804a61a02c": {
+              "title": "Polarity",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "0c4efb8b-f5b1-53cb-88ba-134a040c6f62": {
+              "title": "Main Earth Resistance Between Electrode No Greater Than .5 Ω",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "External Points Strip Testing completed - Pass once below entered/tested",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 11
+          }
+        },
+        {
+          "data": {
+            "470c3e80-d532-5bc4-941b-8d148fb8f79c": {
+              "title": "Builder to attach signature below",
+              "type": "label",
+              "order": 1
+            },
+            "4a30e88e-2765-5a64-9b62-b17256afc4a5": {
+              "title": "Kare Group - 2IC / Foreman to attach signature below",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Final Signoff - Work(s) completed to specification/drawings, Area left clean/tidy and signatures added below",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 12
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Testing",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "Apartment Commissioning Checklist",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

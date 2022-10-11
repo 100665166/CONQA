@@ -1,0 +1,67 @@
+{
+  "tree": [
+    {
+      "data": {
+        "cfc9cee6-1e06-57c9-b78a-768e600e6ecb": {
+          "title": "INSPECTION:",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "c886f4ec-b1af-590e-871f-8a765b732003": {
+          "title": "ACCEPTANCE CRITERIA:",
+          "type": "label",
+          "order": 1
+        },
+        "34f815cf-a4ff-5108-bd27-f980b903933d": {
+          "title": "• HP: Supply of rock rip rap",
+          "type": "label",
+          "order": 2
+        },
+        "966be2c9-693f-5f37-9212-7ff15a1a26f2": {
+          "title": "Submission of details regarding the properties and source of the rock rip rap",
+          "type": "label",
+          "order": 3
+        },
+        "324fe5c0-77de-50eb-96f7-c4e7914a4773": {
+          "title": "REQUIREMENTS / REFERENCE: R11 Cl 3.4",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "HOLD POINT",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "4 - Rip Rap",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Rip Rap CP",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

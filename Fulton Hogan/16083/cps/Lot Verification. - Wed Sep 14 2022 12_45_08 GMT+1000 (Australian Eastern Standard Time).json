@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "order": 0,
+    "display": "normal",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "dependant": false,
+    "parent": "2686c8e3-31fd-439e-bb3d-15bcfa7ba8d6",
+    "inst": "2022-09-14T02:44:57.102Z",
+    "version": "2017-02-13",
+    "user": "53027000-2364-413c-ac17-fd63d88aae46",
+    "name": "Lot Verification.",
+    "stepType": "checkpoint-status"
+  },
+  "data": {
+    "380c03cc-ebfc-54a7-9857-3f4d2a1a658e": {
+      "order": 4,
+      "subtype": "select",
+      "title": "As built records attached to the Lot?",
+      "type": "enum",
+      "values": [
+        "Yes",
+        "No",
+        "N/A"
+      ]
+    },
+    "316ddbca-0358-5e7a-aef3-80c8f6cdf4d2": {
+      "order": 0,
+      "subtype": "select",
+      "title": "Lot Plan or “Highlighted” IFC drawings (mud maps) attached to the Lot?",
+      "type": "enum",
+      "values": [
+        "Yes",
+        "No",
+        "N/A"
+      ]
+    },
+    "5388fd08-f807-55c4-82be-266973efcdde": {
+      "order": 1,
+      "subtype": "select",
+      "title": "Survey conformance records attached to the Lot?",
+      "type": "enum",
+      "values": [
+        "Yes",
+        "No",
+        "N/A"
+      ]
+    },
+    "b3d14b7a-3e07-53fa-9a5d-726bb73ed32b": {
+      "order": 5,
+      "subtype": "select",
+      "title": "Lot verified By",
+      "type": "enum",
+      "values": [
+        "Babak Rudd-Project Quality Manager",
+        " Nicolas Nicola Lodo (Area 2 Manager)",
+        " Nicolas Terpstra (Delivery Manager)"
+      ]
+    },
+    "da1dc984-8eb8-5c51-b528-452df47cdfc1": {
+      "order": 3,
+      "subtype": "select",
+      "title": "Conforming Test Results attached to the Lot?",
+      "type": "enum",
+      "values": [
+        "Yes",
+        "No",
+        "N/A"
+      ]
+    },
+    "322e6b99-8c94-5a99-8f79-535f087d6de6": {
+      "order": 2,
+      "subtype": "select",
+      "title": "Subcontractor/ Supplier records attached to the Lot?",
+      "type": "enum",
+      "values": [
+        "Yes",
+        "No",
+        "N/A"
+      ]
+    },
+    "fe668f90-2e55-54c0-9e99-51e474c674a0": {
+      "order": 8,
+      "subtype": "text",
+      "title": "comments",
+      "type": "input"
+    },
+    "f1596998-0833-5b3c-8f66-36f441b22279": {
+      "order": 7,
+      "subtype": "text",
+      "title": "Lot Closed On",
+      "type": "input"
+    },
+    "f6c3e5bf-796a-5396-8299-a2663e90a8cf": {
+      "order": 6,
+      "subtype": "select",
+      "title": "Lot Status",
+      "type": "enum",
+      "values": [
+        "OUTSTANDING",
+        " CLOSED"
+      ]
+    }
+  },
+  "tree": {},
+  "id": "f2ff4194-073b-4f68-9ff6-2a3920a68e4a"
+}

@@ -1,0 +1,819 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "20ee4313-d9e2-5683-a1fb-c149d2b6df8a": {
+              "title": "Design Package No",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1145-ACM-CVD-DPK-0002",
+                " 1145-ACM-CVD-DPK-0003",
+                " 1145-ACM-CVD-DPK-0004",
+                " 1145-ACM-CVP-DPK-0001",
+                " 1145-ACM-CVP-DPK-0002",
+                " 1145-ACM-CVR-DPK-0001",
+                " 1145-ACM-CVR-DPK-0002",
+                " 1145-ACM-CVR-DPK-0003",
+                " 1145-ACM-CVR-DPK-0004",
+                " 1145-ACM-ELE-DPK-0001",
+                " 1145-ACM-ELE-DPK-0002",
+                " 1145-ACM-LDE-DPK-0001",
+                " 1145-ACM-LDE-DPK-0002",
+                " 1145-ACM-SBA-DPK-0001",
+                " 1145-ACM-STR-DPK-0001",
+                " 1145-ACM-TSI-DPK-0001",
+                " 1145-ACM-TSI-DPK-0002",
+                " 1145-ACM-TSI-DPK-0003",
+                " 1145-ACM-TSI-DPK-0004",
+                " 1145-ACM-UTL-DPK-0001",
+                " 1145-ACM-UTL-DPK-0002"
+              ],
+              "order": 7
+            },
+            "3142e7d8-a4e1-5ac2-b55a-d71966f763fa": {
+              "title": "Construction Element",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "SIGN - Sign and Pavement Marking"
+              ],
+              "order": 5
+            },
+            "d6d94202-b66f-5c89-9684-b23b07c26151": {
+              "title": "Engineer Responsible",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "b4d70245-9a5f-5f19-8333-6496da699708": {
+              "title": "From and To Chainage",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "9dc197b9-f3c9-5dd0-8321-6eee48cd546e": {
+              "title": "Lot Opened On",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "70fb281a-e241-5ebd-891b-01d4c837d2bd": {
+              "title": "Lot Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "CIL-Civil Lot"
+              ],
+              "order": 3
+            },
+            "3b64f6c2-a268-5252-b829-d3ced0b01361": {
+              "title": "Activity",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "SIGN - Sign"
+              ],
+              "order": 6
+            },
+            "2a808a66-c5ad-5688-b51e-d5e10da96f61": {
+              "title": "Lot Created On",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "b24d58af-24c4-5fe4-8539-5cf811d4cbf0": {
+              "title": "Work Commenced On",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "7b8312d2-d48e-5145-9dbf-ef79dcc88959": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "7bbc05ce-8237-55ac-8902-afbae032f300": {
+              "title": "Traffic Direction",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EB - Eastbound",
+                " ME - Median",
+                " NB - Northbound",
+                " SB - Southbound",
+                " WB - Westbound"
+              ],
+              "order": 8
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.0 Lot Information",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Information",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "af03ff5e-7c99-5982-bdab-7b6867c242ae": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "093e6d81-308d-5b9a-993b-3de6a97abcca": {
+              "title": "Record of conformity - Site induction card",
+              "type": "label",
+              "order": 4
+            },
+            "38de19cd-77db-5689-bd10-601c1dfb1e9c": {
+              "title": "Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 6
+            },
+            "167e42ff-ec56-58b1-a000-774872a2a3b9": {
+              "title": "AP",
+              "type": "label",
+              "order": 5
+            },
+            "84dbfd9d-144b-5880-b593-316974739b0d": {
+              "title": "Frequency - Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "b301d314-368b-5858-844a-4d19e6fc013a": {
+              "title": "Inspection / Test Method - Document review",
+              "type": "label",
+              "order": 3
+            },
+            "5f087c94-fd07-5ece-87c2-f145136ee7bb": {
+              "title": "Acceptance Criteria - All personnel on site have been inducted to the CRG Site.",
+              "type": "label",
+              "order": 1
+            },
+            "b5619051-07fd-55f7-b27f-727e1dd6da41": {
+              "title": "Reference Documents - PMP Inductions Register",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.1 - Inductions",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "71e993d2-885e-5fa4-b9b5-48f8a48ea037": {
+              "title": "Reference Documents - Health and Safety Coordination Plan",
+              "type": "label",
+              "order": 2
+            },
+            "760fc4ee-13fe-5450-90d4-863c0b0d6939": {
+              "title": "Site Engineer, Site Foreman & Superintendent",
+              "type": "label",
+              "order": 6
+            },
+            "da29d443-8379-5ade-a20e-83961def280f": {
+              "title": "Frequency - Prior to Commencing Work",
+              "type": "label",
+              "order": 0
+            },
+            "3235aaa2-6a9b-542f-b499-f440b9ac10fd": {
+              "title": "Record of conformity - SWMS(s) signed",
+              "type": "label",
+              "order": 4
+            },
+            "9567d304-3ee1-5f0e-9292-0a6537dc26ab": {
+              "title": "HP*",
+              "type": "label",
+              "order": 5
+            },
+            "171a806c-4cc3-5c6f-ac33-2793d1da009d": {
+              "title": "Acceptance Criteria - As per Fulton Hogan Safety Strategy. All personnel on site to have signed onto relevant SWMS before commencing work.",
+              "type": "label",
+              "order": 1
+            },
+            "59b33804-7430-54b6-a179-5a9f0bc7e7db": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "d5a1c935-5731-56ac-b641-024356bd3d40": {
+              "title": "Inspection / Test Method - Document Review",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "1.2 - Safety measures are in place, SWMS undertaken",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "8fe6d9f3-af38-5422-8d31-f4d974bd2361": {
+              "title": "Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 6
+            },
+            "d9c73a5f-877e-5984-94bc-20923d3fe56d": {
+              "title": "Record of conformity - Latest revision IFC drawings",
+              "type": "label",
+              "order": 4
+            },
+            "fc867924-2583-5049-bef6-f4fb7858f7a1": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "bc235d83-230d-58d5-8720-76d7773d596c": {
+              "title": "Frequency - Prior to Commencing Work",
+              "type": "label",
+              "order": 0
+            },
+            "7711111f-194e-5aab-9026-16a25f25ac1b": {
+              "title": "Acceptance Criteria - Issued For Construction (IFC) and latest available revision used",
+              "type": "label",
+              "order": 1
+            },
+            "3088d5f9-afdc-5308-b971-c01e1283ecdd": {
+              "title": "Reference Documents - IFC Project Drawings/ Drawing Register",
+              "type": "label",
+              "order": 2
+            },
+            "e9c250d9-2337-55dd-a5f5-4699381e1b90": {
+              "title": "Inspection / Test Method - Document review",
+              "type": "label",
+              "order": 3
+            },
+            "b74f1530-4e19-5648-9289-36e860bcf4de": {
+              "title": "AP",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.3 - Check that current revision drawings are being used",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "4af01be8-6742-57f7-ac90-84ce21070567": {
+              "title": "Acceptance Criteria - All environmental measures to be implemented as per current EMP and local authorities. Sediment control measures to be installed and protected vegetation to be clearly identified",
+              "type": "label",
+              "order": 1
+            },
+            "276c266f-0c92-5d50-b3f2-3e0bca311050": {
+              "title": "Record of conformity - ITP signed",
+              "type": "label",
+              "order": 4
+            },
+            "d508ee91-ee4f-5362-a75f-80cf7d656ae8": {
+              "title": "IP",
+              "type": "label",
+              "order": 5
+            },
+            "34b0b34b-c15b-5adf-a686-687ce3db5181": {
+              "title": "Reference Documents - EMP, Site induction, Project Spec. Cl.1200.09 Project Spec CI.1200.15",
+              "type": "label",
+              "order": 2
+            },
+            "b499873d-20cc-550a-add6-72e6e163e246": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "d2b94f44-4901-5a18-8868-671aa93dfd78": {
+              "title": "Frequency - Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "163aa1e7-0b85-596c-80a0-8b219d94ef49": {
+              "title": "Inspection / Test Method - Document review & Site inspection",
+              "type": "label",
+              "order": 3
+            },
+            "639176f3-8080-51b3-81aa-7624055402f6": {
+              "title": "Site Engineer",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.4 - Confirm understanding of current EMP related to the work area and that all prescribed environmental controls are in place",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "9b69ab4a-0b5a-5384-aa7b-f9730f352e04": {
+              "title": "Reference Documents - Applicable TMP no.:",
+              "type": "label",
+              "order": 2
+            },
+            "518197ad-19ca-5a1a-bd7c-9132c05e45b8": {
+              "title": "Inspection / Test Method - Document review & Site inspection",
+              "type": "label",
+              "order": 3
+            },
+            "e4d1dc75-8956-5c01-a133-935ba3787a43": {
+              "title": "AP",
+              "type": "label",
+              "order": 5
+            },
+            "f1c28446-c3bc-5b9a-8535-febae6616e61": {
+              "title": "Acceptance Criteria - Approved TMP and MOA",
+              "type": "label",
+              "order": 1
+            },
+            "872b5fb9-7889-5c7c-87da-4285836140e4": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "38f27a19-73ad-5f71-a30a-d31eba9b1a9b": {
+              "title": "Frequency - Prior to Commencing Work",
+              "type": "label",
+              "order": 0
+            },
+            "9f81c9e3-9dc1-53c5-a61d-f7ea78639b3b": {
+              "title": "Site Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "0774bbd6-7265-5068-8369-93930dfb1437": {
+              "title": "Record of conformity - Approved TMP & MOA",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.5 - Traffic Management (When required)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Preliminary Works",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "1ecfff39-f66c-53ee-813c-eff0413c0af5": {
+              "title": "Record of conformity - Consent to proceed by Superintendent OR written exemption granted This ITP signed",
+              "type": "label",
+              "order": 4
+            },
+            "258085bf-2c9f-533e-a41e-cd6bd539d88f": {
+              "title": "Site Engineer / Superintendent",
+              "type": "label",
+              "order": 6
+            },
+            "8cde1805-bd34-5d9d-b42d-02399de9dd29": {
+              "title": "Reference Documents - IFC Drawings Project Spec. Cl. 3070.03 VicRoads Spec. Cl.714.06",
+              "type": "label",
+              "order": 2
+            },
+            "e783f621-fed9-51e9-8bcb-8f2aa2cf240c": {
+              "title": "Frequency - Prior to commencing install",
+              "type": "label",
+              "order": 0
+            },
+            "ce0cbcd3-892e-5c46-a028-84468129c11c": {
+              "title": "Acceptance Criteria - The required positions of all posts and signs shall be as directed by the Superintendent who shall confirm the positions before the erection of posts commences.",
+              "type": "label",
+              "order": 1
+            },
+            "b4e102c5-55ab-5fc8-962a-9c29dec5dc31": {
+              "title": "HP",
+              "type": "label",
+              "order": 5
+            },
+            "c4351f4c-52de-57a5-b02e-cf0765d88262": {
+              "title": "Inspection / Test Method - Document review & Site inspection",
+              "type": "label",
+              "order": 3
+            },
+            "8916ea0f-363e-5eb8-8248-b151d57afe8f": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "2.1 - Set out posts and foundations",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "3a926c0e-bdef-52af-9c40-770b6d5bcca5": {
+              "title": "Frequency - Prior to commencing install",
+              "type": "label",
+              "order": 0
+            },
+            "1022f7bd-36ca-5e38-85d6-30c28b9cfe94": {
+              "title": "IP",
+              "type": "label",
+              "order": 5
+            },
+            "709430ea-415c-51d8-8d21-b8db134af7a4": {
+              "title": "Acceptance Criteria - All road Signing must comply with the Technical References including the requirements of section 860 of the VicRoads Standard Specification Sections for Roadworks and Bridgeworks.",
+              "type": "label",
+              "order": 1
+            },
+            "aa49b7e2-e7cf-5559-994d-beadfcdd1edd": {
+              "title": "Site Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "5c03a3cf-1151-5cfc-b85f-3beb6c5bae67": {
+              "title": "Record of conformity - Material compliance This ITP signed",
+              "type": "label",
+              "order": 4
+            },
+            "ff071e2a-0790-5473-b548-7bd651ac98db": {
+              "title": "Reference Documents - Project Spec. 3070.05(a) VicRoads Specification 860",
+              "type": "label",
+              "order": 2
+            },
+            "bb427d9d-1b17-54ec-a2c1-87ef3e4f1e9e": {
+              "title": "Inspection / Test Method - Document review",
+              "type": "label",
+              "order": 3
+            },
+            "ae76efe1-1af3-5133-bba3-3504375a7ed2": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "2.2 - Material compliance",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "b2ea72d9-44d0-5915-b1a5-ce80154672f4": {
+              "title": "Frequency - Once per lot",
+              "type": "label",
+              "order": 0
+            },
+            "c11bd126-0bce-5544-a676-c6edb2cf81bc": {
+              "title": "Acceptance Criteria - The sign installation shall be as described in the sign schedule and as shown on the contract drawings.",
+              "type": "label",
+              "order": 1
+            },
+            "08403c39-a117-553c-8747-439ed55debd9": {
+              "title": "Site Engineer",
+              "type": "label",
+              "order": 6
+            },
+            "963aa8e9-0fbb-5bca-acd6-a34d8e5fe7e1": {
+              "title": "IP",
+              "type": "label",
+              "order": 5
+            },
+            "c6e3be45-b634-5ad9-918a-155f5d090c19": {
+              "title": "Inspection / Test Method - Document review & Site inspection",
+              "type": "label",
+              "order": 3
+            },
+            "c76dd647-2919-50dc-beb0-0066a93abec5": {
+              "title": "Reference Documents - Project Spec. Cl.3070 VicRoads Specification 714.04 & 07",
+              "type": "label",
+              "order": 2
+            },
+            "cb66b00d-ec4b-515b-9dec-a1cc9aaf17fc": {
+              "title": "Record of conformity - This ITP signed",
+              "type": "label",
+              "order": 4
+            },
+            "0531ae48-e646-5a33-b866-191f6e190571": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "2.3 - Installation method",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "9106bd09-7067-50f1-b629-0cc75f1f1f04": {
+              "title": "Reference Documents - Project Spec. Cl.3070 VicRoads Specification 714.05",
+              "type": "label",
+              "order": 2
+            },
+            "7fb7b10e-2514-5e06-bc3d-b573921584b6": {
+              "title": "IP",
+              "type": "label",
+              "order": 5
+            },
+            "4c7125d4-353f-50bb-be1b-c586042e0a23": {
+              "title": "Frequency - After completion of works",
+              "type": "label",
+              "order": 0
+            },
+            "fa81ec2b-e60e-55a7-92b0-01b1ca245056": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "9ec29654-4a21-5ea6-befb-4d68dec9ac7e": {
+              "title": "Record of conformity - Photos This ITP signed",
+              "type": "label",
+              "order": 4
+            },
+            "7f700edc-9b27-50b1-a36b-03406d896544": {
+              "title": "Acceptance Criteria - Verify signs were installed to tolerances stated in VicRoads Sec. 714.05",
+              "type": "label",
+              "order": 1
+            },
+            "a96ce4cb-6853-5588-8d06-2eb65e66a681": {
+              "title": "Inspection / Test Method - Document review",
+              "type": "label",
+              "order": 3
+            },
+            "b2e449ce-7d58-532b-bfb7-609a9ae3fe56": {
+              "title": "Site Engineer",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "2.4 - Installation tolerances",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "1e2b75d9-8b65-5ab3-a9ee-8cb6eb7b2d5e": {
+              "title": "Position:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "7f45dcc9-0f67-5556-8aaf-57b69ff73e0e": {
+              "title": "Print Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "8496136f-536e-5881-8c26-225bf6e5516f": {
+              "title": "Work Completed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "d79f75db-f5ad-56e3-a2d0-12b7ad6b616d": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "46cc5188-0095-57d8-baaf-3b96bbaa3fca": {
+              "title": "The signature below verifies that this ITP has been completed in accordance with the Fulton Hogan's Quality system Procedures and verifies lot compliance with specifications.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Roadside Signage Install",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "6f9dc5a8-a5dc-5a31-945b-77239f5f6815": {
+              "title": "Is the relevant RFI attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 0
+            },
+            "99ed7fac-43d7-5a74-a603-82d807c564db": {
+              "title": "Lot Status",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OUTSTANDING",
+                " CLOSED"
+              ],
+              "order": 4
+            },
+            "88046bb8-dc9a-5357-add8-6dda70f6d548": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "8a92ade2-666b-50f1-b967-e14addb8cf06": {
+              "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 2
+            },
+            "adc863ce-9f6b-5ccb-82dd-045c13f86651": {
+              "title": "Is the relevant NCR attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 1
+            },
+            "49acc9a4-f81b-5383-9f1c-907053354b18": {
+              "title": "Lot verified By",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Babak Rudd-Project Quality Manager",
+                " Steve Felsinger- Area Manager"
+              ],
+              "order": 3
+            },
+            "b07a0c87-d4c9-53bf-8638-3c4898c0afef": {
+              "title": "Lot Closed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Lot Verification.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Verification",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "ITP-076-AX-LOT-XXX - Desc",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}

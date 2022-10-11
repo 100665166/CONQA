@@ -1,0 +1,97 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Pre-Requisites - All systems within the Fire and Mechanical Matrix fully commissioned",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Test - Initiate alarms and confirm sequence of operation against Matrix",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Test - Verify signals have been received at MSSB ",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Test - Verify signals have been received at security panels.",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "data": {
+        "19287653-bbff-5fde-9046-46eb57982332": {
+          "title": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+          "type": "label",
+          "order": 0
+        },
+        "e72a5488-002e-5ea1-880d-015d174bf60c": {
+          "title": "Signature by Builders Site Co-ordinator (If applicable) - Attached below",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 1
+        },
+        "b94ccbf0-9a3e-5ee8-be42-ce7dde307c70": {
+          "title": "Entire Fire Signature Sign-Off added below",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 2
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Work(s) completed to specification/drawings & Area left clean/tidy",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "name": "Fire Cause and Effect Acceptance Test",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

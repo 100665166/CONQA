@@ -1,0 +1,175 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "b8cc6853-33a3-41f7-9e68-cb15e0edf5cf",
+            "display": "normal",
+            "name": "Trade clean",
+            "dependant": false,
+            "type": "step",
+            "templateId": "7d8c1ec4-9308-4877-978e-e7027eba9720",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "9bf4471c-8620-4c70-bf9d-44693a78cd88",
+            "display": "normal",
+            "name": "QA/defects",
+            "dependant": false,
+            "type": "step",
+            "templateId": "7d8c1ec4-9308-4877-978e-e7027eba9720",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "734f36ad-01aa-45d3-b0c5-ed3fa911a27a",
+            "display": "normal",
+            "name": "CCC Issued",
+            "dependant": false,
+            "type": "step",
+            "templateId": "7d8c1ec4-9308-4877-978e-e7027eba9720",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "64b95384-8c32-41c3-a3b8-790805177da2",
+            "display": "normal",
+            "name": "Work through list",
+            "dependant": false,
+            "type": "step",
+            "templateId": "7d8c1ec4-9308-4877-978e-e7027eba9720",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "940b7162-6d70-4dec-9fb5-5a81717bd925",
+            "display": "normal",
+            "name": "Building Complete",
+            "dependant": false,
+            "type": "step",
+            "templateId": "7d8c1ec4-9308-4877-978e-e7027eba9720",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "templateReference": "b5c0bb5b-d6fe-414d-bee3-8869d2867f0f",
+        "display": "flat",
+        "name": "Completion",
+        "dependant": true,
+        "type": "step",
+        "templateId": "7d8c1ec4-9308-4877-978e-e7027eba9720",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "d5e80c57-065f-4c64-a0fe-6aeb096267f1",
+            "display": "normal",
+            "name": "All exterior walls cleaned to our standard",
+            "dependant": false,
+            "type": "step",
+            "templateId": "7d8c1ec4-9308-4877-978e-e7027eba9720",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "7f84794f-b309-47e1-bab6-9f55579e0b99",
+            "display": "normal",
+            "name": "All exterior windows cleaned to our standard",
+            "dependant": false,
+            "type": "step",
+            "templateId": "7d8c1ec4-9308-4877-978e-e7027eba9720",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "templateReference": "0f88acc9-6e16-4aa2-b44c-91b61c2192ed",
+        "display": "flat",
+        "name": "Interior & Exterior Detailing",
+        "dependant": true,
+        "type": "step",
+        "templateId": "7d8c1ec4-9308-4877-978e-e7027eba9720",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "73ff7caf-b920-45e1-8721-662c7c307312",
+            "display": "normal",
+            "name": "Recorded inspections for claims",
+            "dependant": false,
+            "type": "step",
+            "templateId": "7d8c1ec4-9308-4877-978e-e7027eba9720",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "templateReference": "6d6db69f-290d-45cf-b681-fd563efdc522",
+        "display": "flat",
+        "name": "Handover",
+        "dependant": true,
+        "type": "step",
+        "templateId": "7d8c1ec4-9308-4877-978e-e7027eba9720",
+        "order": 2
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "templateReference": "7d8c1ec4-9308-4877-978e-e7027eba9720",
+    "display": "progress",
+    "name": "Code Compliance",
+    "dependant": true,
+    "type": "step",
+    "templateId": "7d8c1ec4-9308-4877-978e-e7027eba9720"
+  }
+}

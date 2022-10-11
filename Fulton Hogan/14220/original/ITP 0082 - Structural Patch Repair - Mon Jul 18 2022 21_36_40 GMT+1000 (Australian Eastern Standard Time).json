@@ -1,0 +1,1091 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "8af9129a-ce8f-5240-9230-cb5f75da764d": {
+              "title": "Document Title: ITP-082-AX-LOT-XXX - Description",
+              "type": "label",
+              "order": 0
+            },
+            "b11c7472-b1ff-5f9f-8ab1-53c84c948979": {
+              "title": "Revision Date: 09/05/2022",
+              "type": "label",
+              "order": 4
+            },
+            "6a3a39f3-2a30-5d6b-b64f-a956c5d0353e": {
+              "title": "1.1 VicRoads Section 689 (Dec 2017)",
+              "type": "label",
+              "order": 7
+            },
+            "09cde1e6-11c0-5eff-9c11-12ebf608b5ea": {
+              "title": "Document Number (in Teambinder): 1145-C200-FUL-QAC-ITP-0082",
+              "type": "label",
+              "order": 2
+            },
+            "2e1c3c11-e262-5e34-8919-5bf8aae626e0": {
+              "title": "ITP Description: Structural Patch Repair",
+              "type": "label",
+              "order": 1
+            },
+            "6b7ddd98-f13a-58e7-ae1c-e324df442277": {
+              "title": "Revision Number: 00",
+              "type": "label",
+              "order": 3
+            },
+            "33ea30bc-d6f7-5b99-8541-7dded1bf6325": {
+              "title": "ITP created by: Omar El-Khub",
+              "type": "label",
+              "order": 5
+            },
+            "aef1a3b6-c43c-58a9-b661-46856907c8d4": {
+              "title": "1.2 AS1012",
+              "type": "label",
+              "order": 8
+            },
+            "9e110aa8-0d35-5bbe-8596-179038275cd9": {
+              "title": "ITP approved for use by: Babak Rudd",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Referenced Documentation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Referenced Documentation",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "9b438b80-826a-5fec-ba73-ebc3c85e1138": {
+              "title": "Construction Element",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "SITE - Site General"
+              ],
+              "order": 5
+            },
+            "7a65a4e8-daad-5dac-91c7-c4036d3f7a70": {
+              "title": "Engineer Responsible",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "76174d98-f8ec-529d-8657-8e1e7e8a652e": {
+              "title": "Design Package No",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1145-ACM-CVD-DPK-0002",
+                " 1145-ACM-CVD-DPK-0003",
+                " 1145-ACM-CVD-DPK-0004",
+                " 1145-ACM-CVP-DPK-0001",
+                " 1145-ACM-CVP-DPK-0002",
+                " 1145-ACM-CVR-DPK-0001",
+                " 1145-ACM-CVR-DPK-0002",
+                " 1145-ACM-CVR-DPK-0003",
+                " 1145-ACM-CVR-DPK-0004",
+                " 1145-ACM-ELE-DPK-0001",
+                " 1145-ACM-ELE-DPK-0002",
+                " 1145-ACM-LDE-DPK-0001",
+                " 1145-ACM-LDE-DPK-0002",
+                " 1145-ACM-SBA-DPK-0001",
+                " 1145-ACM-STR-DPK-0001",
+                " 1145-ACM-TSI-DPK-0001",
+                " 1145-ACM-TSI-DPK-0002",
+                " 1145-ACM-TSI-DPK-0003",
+                " 1145-ACM-TSI-DPK-0004",
+                " 1145-ACM-UTL-DPK-0001",
+                " 1145-ACM-UTL-DPK-0002"
+              ],
+              "order": 7
+            },
+            "ed52db24-e197-503a-8f2a-17cfb5a8069a": {
+              "title": "Activity",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OTH - Other"
+              ],
+              "order": 6
+            },
+            "d19f099c-6f0c-51f9-a3f5-8602f20a675e": {
+              "title": "Lot Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "STL- Structural Lot"
+              ],
+              "order": 3
+            },
+            "2a002c90-4000-518a-8b88-64f20c37fda5": {
+              "title": "Work Commenced On",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "c3343839-fced-5063-95c8-8ba7eae4049e": {
+              "title": "Traffic Direction",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EB - Eastbound",
+                " ME - Median",
+                " NB - Northbound",
+                " SB - Southbound",
+                " WB - Westbound"
+              ],
+              "order": 8
+            },
+            "89f52979-cdf6-5759-b691-648611560e07": {
+              "title": "From and To Chainage",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "a0d70ccf-10b1-533e-868a-559f4298aae5": {
+              "title": "Lot Created On",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "9986b5ab-e938-59e6-8923-c76a4b3c7bc3": {
+              "title": "Lot Opened On",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "559631bd-5b91-5590-9be7-201b06ece3e1": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "1.0 Lot Information",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "1 - Lot Information",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "a19b5b2a-770e-5f0b-8d5b-16c3d571a00b": {
+              "title": "HP",
+              "type": "label",
+              "order": 5
+            },
+            "042b8445-11ae-5509-985a-5a899be8efbd": {
+              "title": "Responsibility: SE/PE and Superintendent",
+              "type": "label",
+              "order": 6
+            },
+            "86a77c91-ec9f-5320-a305-d9e140932476": {
+              "title": "Frequency: For each element, prior to Works commencing",
+              "type": "label",
+              "order": 0
+            },
+            "3f78ad6b-dbc2-56a6-8a7f-8bdadf23dedf": {
+              "title": "Inspection / Test Method: Visual Inspection",
+              "type": "label",
+              "order": 3
+            },
+            "0a413fc7-59ef-5848-bfbe-7a17f3ad2746": {
+              "title": "Acceptance Criteria: Contractor shall assess the affected concrete to determine influence of spalling, deterioration, and honeycombing on the load bearing capacity, serviceability and durability of the structure.",
+              "type": "label",
+              "order": 1
+            },
+            "89aeac7f-c58e-598a-a8be-3c32e052730d": {
+              "title": "Reference Documents: VicRoads Spec. Cl.689.02",
+              "type": "label",
+              "order": 2
+            },
+            "82001f11-0a58-577e-b82f-fd7362682815": {
+              "title": "Record of Conformity: Hold point released",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "HOLD POINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "2.1 - Assessment of Affected Concrete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "db51112d-9e99-5813-8fcf-296c34dbf138": {
+              "title": "Responsibility: SE/PE and Superintendent",
+              "type": "label",
+              "order": 6
+            },
+            "d0531241-0616-5ed1-b9f4-80b9eb771db2": {
+              "title": "Reference Documents: VicRoads Spec. Cl.689.08 Product TDS",
+              "type": "label",
+              "order": 2
+            },
+            "b68d296b-eeb2-5f68-9906-3bbfa151a2f9": {
+              "title": "Record of Conformity: Hold point released",
+              "type": "label",
+              "order": 4
+            },
+            "69e92941-3783-5c76-979f-a6484f730e1c": {
+              "title": "Inspection / Test Method: Visual Inspection",
+              "type": "label",
+              "order": 3
+            },
+            "f9dee129-0243-5946-afb1-ffc67a4863a0": {
+              "title": "HP",
+              "type": "label",
+              "order": 5
+            },
+            "b8bd142d-1ceb-56ff-aa0a-cc1d08137038": {
+              "title": "Frequency: For each element, prior to Works commencing",
+              "type": "label",
+              "order": 0
+            },
+            "a0e240b8-6dc6-592a-ad4b-7bfa3cd936d5": {
+              "title": "Acceptance Criteria: The contractor shall perform concrete repair work in conformity with the manufacturers specifications. Any deviations from manufacturers specification must be submitted for approval as an updated WMS and/or ITP.",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "HOLD POINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "2.2 - Deviations from Manufacturer's TDS and/or Specification",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "3f11c39e-fc7a-541c-afde-ea785dab7adb": {
+              "title": "HP",
+              "type": "label",
+              "order": 5
+            },
+            "c34c9399-1973-5daf-a35b-30262a2b9a6e": {
+              "title": "Record of Conformity: Hold point released",
+              "type": "label",
+              "order": 4
+            },
+            "2fa6d5c9-4c50-5159-94b0-9b1424704d67": {
+              "title": "Responsibility: SE/PE and Superintendent",
+              "type": "label",
+              "order": 6
+            },
+            "169aa282-acba-566e-82af-1b2f7f36669c": {
+              "title": "Acceptance Criteria: WMS and ITPs completed by FH should be reviewed and approved by the Superintendent",
+              "type": "label",
+              "order": 1
+            },
+            "e31836b1-b4fa-56d1-a4ad-4320dfce980a": {
+              "title": "Reference Documents: VicRoads Spec. Cl.689.13",
+              "type": "label",
+              "order": 2
+            },
+            "cc7c48d2-afa6-5a80-a666-244e576da320": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 3
+            },
+            "5a28459f-b0f8-5d3f-8f1c-5b5a922f6dca": {
+              "title": "Frequency: Prior to commencing repair",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "HOLD POINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "2.3 - Work Method Statement and Inspection and Test Plans",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "2 - Preliminaries - Procedures & Documentation",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "7e8ca24f-09d3-56b3-b9a5-9278dfb771cb": {
+              "title": "being hand applied in vertical and overhead sections up to 30 mm thick in one application with no slumping;",
+              "type": "label",
+              "order": 2
+            },
+            "f64f951e-0f17-5efe-a119-e518919a3fde": {
+              "title": "Product reference",
+              "type": "label",
+              "order": 11
+            },
+            "dd563b92-b99e-5da7-9039-6cee3a8b28a7": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 17
+            },
+            "e8f571c0-ffd1-57d1-af7d-f750a25a5a20": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 20
+            },
+            "2b178595-ec82-5a31-8311-52254f28083f": {
+              "title": "Frequency: For each product, prior to Works commencing",
+              "type": "label",
+              "order": 0
+            },
+            "c59a5482-6c91-548c-83c0-494234e73a54": {
+              "title": "Is the selected fairing coat material capable of:",
+              "type": "label",
+              "order": 6
+            },
+            "5a1f817e-16a0-537e-9798-3ae6d2ae240b": {
+              "title": "The following information shall be provided with each batch:",
+              "type": "label",
+              "order": 9
+            },
+            "360b691c-6b87-52d6-8d88-4839639d1691": {
+              "title": "Record of Conformity: Attach repair mortar product TDS, Attach fairing coat product TDS, Signed ITP",
+              "type": "label",
+              "order": 18
+            },
+            "0642f370-7b75-51fd-922b-8803c61cd910": {
+              "title": "achieving a minimum wet density of 1600kg/m³;",
+              "type": "label",
+              "order": 4
+            },
+            "2f6f3119-1230-55be-a0f3-242ae5cc5141": {
+              "title": "IP",
+              "type": "label",
+              "order": 19
+            },
+            "b1049b24-553f-502a-b421-a8b93ad68360": {
+              "title": "Manufacturer's name and address",
+              "type": "label",
+              "order": 10
+            },
+            "958513dc-539c-510b-8ac8-e36071f92475": {
+              "title": "TeamBinder Material Approval Number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 15
+            },
+            "f80cfe94-ff92-5f5e-8883-a2fd1acf8cf8": {
+              "title": "application to 0-3mm thick;",
+              "type": "label",
+              "order": 7
+            },
+            "07d3bef6-1763-5c9a-8ad6-ca0e0043b4a5": {
+              "title": "Acceptance Criteria: Is the selected repair mortar material capable of:",
+              "type": "label",
+              "order": 1
+            },
+            "de4b5b27-9cc9-5393-ab23-1bf32ac30ee1": {
+              "title": "achieving a drying shrinkage ≤600 microstrain;",
+              "type": "label",
+              "order": 3
+            },
+            "4592c881-2ea1-5f39-aa63-e947a543c261": {
+              "title": "achieving the strengths and bonds conforming to the requirements in Table 689.061.",
+              "type": "label",
+              "order": 5
+            },
+            "e2f37fb6-b6d4-515d-91de-0001c8e803d0": {
+              "title": "Reference Documents: VicRoads Spec. Cl.689.08 (a)",
+              "type": "label",
+              "order": 16
+            },
+            "8fd64ae3-f9ca-5d6a-8984-43877d5ad103": {
+              "title": "covering a large area without shrinkage cracking.",
+              "type": "label",
+              "order": 8
+            },
+            "f27b217b-687c-5be5-a09f-b9cbaa454008": {
+              "title": "Batch number of identification",
+              "type": "label",
+              "order": 12
+            },
+            "4d05cb12-0439-5865-a3e2-6cfdc8112efb": {
+              "title": "Quantity manufactured in the batch",
+              "type": "label",
+              "order": 13
+            },
+            "7c73e847-088a-5ad9-b274-486635508aae": {
+              "title": "Certificate of date of manufacture",
+              "type": "label",
+              "order": 14
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "3.1 - Material approval and Reference",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "3 - Preliminaries - Materials",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "4c2f60b2-211d-58a6-9269-05bb22e83815": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 11
+            },
+            "67c7aaa1-e5d7-582d-98c6-adf1a4603762": {
+              "title": "Exposure classification A and B1 = 20mm minimum",
+              "type": "label",
+              "order": 3
+            },
+            "e6dccc36-f728-592a-b11d-399be2f14c22": {
+              "title": "All concrete surfaces and mortar substrates shall be sound, clean and free from dust, oils, and grease and surface contaminants. All loose and unsound materials and surface laitance shall be removed",
+              "type": "label",
+              "order": 5
+            },
+            "50cd4441-d779-50f3-a751-d0e5baebe2f6": {
+              "title": "Exposure classification B2, C1 and C2 = 50mm minimum",
+              "type": "label",
+              "order": 4
+            },
+            "1132e424-cfba-5ed7-b970-58d5f0435f49": {
+              "title": "Acceptance Criteria: For all types of patch repair all defective and delaminated concrete and existing repair materials shall be broken back to a sound and dense concrete surface. Defective concrete shall be removed using light hand held percussive equipment or high pressure water jetting",
+              "type": "label",
+              "order": 1
+            },
+            "4002569e-b3c3-580e-9455-14dafffd092f": {
+              "title": "Resulting cover allowance:",
+              "type": "label",
+              "order": 2
+            },
+            "6952baa0-7381-57ef-b589-8254037e7994": {
+              "title": "Inspection / Test Method: Visual Inspection",
+              "type": "label",
+              "order": 8
+            },
+            "7c0816c9-8bf0-54a4-afe9-2b76a2c70900": {
+              "title": "Frequency: Each element",
+              "type": "label",
+              "order": 0
+            },
+            "d1128b53-ddcf-552a-8346-2ffb671159d9": {
+              "title": "Reference Documents: VicRoads Spec. Cl.689.08 (b) and (c)",
+              "type": "label",
+              "order": 7
+            },
+            "9398a3eb-f8d6-56bb-a24a-63467f629e32": {
+              "title": "HP",
+              "type": "label",
+              "order": 10
+            },
+            "a25f1621-af98-5085-ac2e-3844d370bcdd": {
+              "title": "Record of Conformity: Hold point released Signed ITP",
+              "type": "label",
+              "order": 9
+            },
+            "0a328fc1-909b-50a4-a783-2a7dd4aaedb5": {
+              "title": "The concrete substrate and any exposed steel reinforcement shall be cleaned by a final wash down or by blowing down with oil free compressed air to ensure removal of all residual contamination. The prepared concrete substrate shall be thoroughly pre-wetted with clean fresh water and shall be surface dry prior to application of repair material",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "HOLD POINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "4.1 - Surface Preparation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "2a0d6233-2b2b-5dc9-aa5d-6ab037e884e4": {
+              "title": "Inspection / Test Method: Visual/ Measure",
+              "type": "label",
+              "order": 8
+            },
+            "04e87e72-bdf4-5d39-bd7b-8bbdb0cbbab0": {
+              "title": "Record of Conformity: Hold point released",
+              "type": "label",
+              "order": 9
+            },
+            "aa412f34-3e37-5784-bb17-9fdb84dc8aad": {
+              "title": "(iii) Contractors quality procedures have been sighted by superintendent",
+              "type": "label",
+              "order": 4
+            },
+            "b0e07fcf-a053-59b1-a939-a2a152123413": {
+              "title": "(ii) evidence the area conforms with specifications",
+              "type": "label",
+              "order": 3
+            },
+            "92503f55-8cb9-5bff-8f22-b83aa1218aaf": {
+              "title": "All materials shall be applied in accordance with the manufacturer’s specifications or instructions for use in a continuous process.",
+              "type": "label",
+              "order": 6
+            },
+            "12e0d2d2-2095-53f3-8bb7-51628b343678": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 11
+            },
+            "8863c13c-0942-559e-ac93-3fb7942a374a": {
+              "title": "Frequency: Prior to each repair",
+              "type": "label",
+              "order": 0
+            },
+            "df6540f9-d9f7-5f6e-8260-0e4c49420ccc": {
+              "title": "HP",
+              "type": "label",
+              "order": 10
+            },
+            "eed68df5-b205-5fe9-86f6-0922c758ea29": {
+              "title": "Acceptance Criteria: Reinstatement of prepared areas shall not commence until:",
+              "type": "label",
+              "order": 1
+            },
+            "0afec831-45de-56fc-98a4-a22566f09805": {
+              "title": "(i) a joint measurement of the repair area by superintendent and Contractor",
+              "type": "label",
+              "order": 2
+            },
+            "270fe135-decd-52f5-aedf-8e601fe3a63e": {
+              "title": "Reference Documents: VicRoads Spec. Cl.689.08 (e)",
+              "type": "label",
+              "order": 7
+            },
+            "711d0b76-4d9b-5c24-930a-107174670600": {
+              "title": "The repair mortar shall be thoroughly mixed in whole bags with potable water prior to commencement of application.",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "HOLD POINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "4.2 - Pre Application of Repair Mortar",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "7ed1b5c4-ea16-5ab1-8638-1b409f6b3025": {
+              "title": "Frequency: Each Repair",
+              "type": "label",
+              "order": 0
+            },
+            "f60939c6-98cc-55f2-8f66-12c81a601c6d": {
+              "title": "IP",
+              "type": "label",
+              "order": 9
+            },
+            "7607a701-d9ab-5289-931e-6c00a4d1a704": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 10
+            },
+            "2a8b2f71-024d-5392-afa8-652d39350f5b": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 7
+            },
+            "6a2eb49a-94cd-5eb2-a1be-aaf1ebbd5111": {
+              "title": "Record of Conformity: Signed ITP",
+              "type": "label",
+              "order": 8
+            },
+            "b3446107-c25f-57a7-a78e-d3e2216f4365": {
+              "title": "Acceptance Criteria: Temperature at time of application:",
+              "type": "label",
+              "order": 1
+            },
+            "1bfed08c-2750-5612-a719-f3f4a03cf372": {
+              "title": "below 5°C or above 35°C",
+              "type": "label",
+              "order": 2
+            },
+            "260e4bc0-7aab-5caa-82ee-644617cd515f": {
+              "title": "Reference Documents: VicRoads Spec. Cl.689.08 (e)",
+              "type": "label",
+              "order": 6
+            },
+            "55b2f22d-d950-5afd-b10c-7abb33b9867b": {
+              "title": "Where formwork is used to facilitate the patch repair, it shall be pre-treated such that it prevents moisture absorption from the repair mortar and positioned such that it does not inhibit effective compaction of the repair material.",
+              "type": "label",
+              "order": 4
+            },
+            "1d2a0470-cbb0-55d6-8a78-ca8e71d5bc59": {
+              "title": "Concrete shall be rebuilt to the original surface profile using a cementitious repair material. Where the existing concrete cover to the steel reinforcement is less than the design requirements, the new repair shall be profiled as required to ensure that a minimum cover of polymer modified repair material to the steel reinforcement is achieved as specified in clause 689.08(b).",
+              "type": "label",
+              "order": 5
+            },
+            "3ea47c01-bbf5-5122-afab-76a91dd7bd08": {
+              "title": "Repair material shall be applied while the substrate bonding coat is still tacky",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "4.3 - Application of Repair Mortar",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "5c34fb22-e87b-5760-a9b0-0c2d3537a77b": {
+              "title": "Edges and Surfaces: ±3mm",
+              "type": "label",
+              "order": 2
+            },
+            "8e881105-2586-5dab-a90b-110b63b2b9fe": {
+              "title": "Inspection / Test Method: Visual/ Measure",
+              "type": "label",
+              "order": 6
+            },
+            "134576f4-3cad-5d50-a897-1711cb7deb11": {
+              "title": "Maximum allowance for irregularities: 3 mm with a 2 m straightedge",
+              "type": "label",
+              "order": 3
+            },
+            "75d73b6b-cade-51b9-a4d7-e86ebd2a3dcc": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 9
+            },
+            "cc17b669-261d-5397-8eec-3e2430525f65": {
+              "title": "Acceptance Criteria: Tolerances applicable are:",
+              "type": "label",
+              "order": 1
+            },
+            "2f4179a2-9dcf-5e7c-9843-3dcaac19ba01": {
+              "title": "Maximum allowance for unevenness: 1 mm with a 300 mm straightedge",
+              "type": "label",
+              "order": 4
+            },
+            "6d33625d-ee79-5e91-af78-8e57a1d3919e": {
+              "title": "Reference Documents: VicRoads Spec. Cl.689.11",
+              "type": "label",
+              "order": 5
+            },
+            "0b6acbb9-2205-54a3-8449-b64f454380f7": {
+              "title": "WP",
+              "type": "label",
+              "order": 8
+            },
+            "0d7f01ad-8bf6-507b-bb60-bef6d42c6e90": {
+              "title": "Record of Conformity: Signed ITP",
+              "type": "label",
+              "order": 7
+            },
+            "7cc566e8-9f8b-5153-a9ba-767e5cc7c99f": {
+              "title": "Frequency: Each Repair",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "4.4 - Measuring Tolerances",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "data": {
+            "980d4e03-fa72-515b-bf61-4f3c8339015c": {
+              "title": "Reference Documents: VicRoads Spec. Cl.689.12 (a) Table 689.061 AS1012.8.3 AS1012.9",
+              "type": "label",
+              "order": 5
+            },
+            "0067cc31-4125-5ceb-8278-d4f1faa88260": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 9
+            },
+            "867301a3-6421-52e4-9d5a-daa62abb370a": {
+              "title": "Inspection / Test Method: Test",
+              "type": "label",
+              "order": 6
+            },
+            "88922f14-7265-5a32-90d4-72b856285ba2": {
+              "title": "Frequency: Test Specimens",
+              "type": "label",
+              "order": 0
+            },
+            "813ff84a-0a2a-57a2-b4f9-8f45efe700b6": {
+              "title": "Acceptance Criteria: Three 75 mm test cubes shall be taken from the first batch of material mixed, then three 75 mm cubes for every 100 kg of material used thereafter to test for compressive strength. Test cubes shall be made of steel or polystyrene and shall be fully sealed.",
+              "type": "label",
+              "order": 1
+            },
+            "82040a99-b8f4-55b0-9fd8-cb13b758e44d": {
+              "title": "Cubes:",
+              "type": "label",
+              "order": 2
+            },
+            "49794d14-aabe-5dbb-97dc-5cf7b2e71814": {
+              "title": "2 specimens tested at 7 day strength",
+              "type": "label",
+              "order": 3
+            },
+            "b2c7cc40-707c-511c-a5df-d64a014a2393": {
+              "title": "1 specimen tested at 28 day strength",
+              "type": "label",
+              "order": 4
+            },
+            "90b45d64-3758-5c87-bded-81cc9e344701": {
+              "title": "Record of Conformity: Test Results Signed ITP",
+              "type": "label",
+              "order": 7
+            },
+            "c0916fdb-e963-51f4-bcf7-f1e25ebfe156": {
+              "title": "TP",
+              "type": "label",
+              "order": 8
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "4.5 - Cementitious Repair Mortar Test Cubes",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {
+            "1e2b75d9-8b65-5ab3-a9ee-8cb6eb7b2d5e": {
+              "title": "Position:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "7f45dcc9-0f67-5556-8aaf-57b69ff73e0e": {
+              "title": "Print Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "8496136f-536e-5881-8c26-225bf6e5516f": {
+              "title": "Work Completed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "d79f75db-f5ad-56e3-a2d0-12b7ad6b616d": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "46cc5188-0095-57d8-baaf-3b96bbaa3fca": {
+              "title": "The signature below verifies that this ITP has been completed in accordance with the Fulton Hogan's Quality system Procedures and verifies lot compliance with specifications.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Sign ITP",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "4 - Structural Concrete - Cementitious Patch Repair - Application",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "231b3c80-b348-5997-a908-7e68a1aeb42f": {
+              "title": "Lot verified By",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Babak Rudd-Project Quality Manager",
+                " Steve Felsinger- Area Manager"
+              ],
+              "order": 3
+            },
+            "a9c18e1b-0d6b-5da3-bb95-9ff1f6066e18": {
+              "title": "Lot Status",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OUTSTANDING",
+                " CLOSED"
+              ],
+              "order": 4
+            },
+            "271f2ec1-8d5e-56aa-a4c9-08bd64740a77": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "aba7383d-7ec5-5105-bc60-0d2fe94bf386": {
+              "title": "Lot Closed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "90ffd077-9048-5e44-94cd-b1533a35559f": {
+              "title": "Is the relevant RFI attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 0
+            },
+            "8ae3c800-f1df-51b9-9a6a-e6bfba609beb": {
+              "title": "Is the relevant NCR attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 1
+            },
+            "0b0d0c47-6725-51a5-bc3e-3ca1449c9f69": {
+              "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 2
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Lot Verification.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Verification",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "ITP-082-AX-LOT-XXX - Desc",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}

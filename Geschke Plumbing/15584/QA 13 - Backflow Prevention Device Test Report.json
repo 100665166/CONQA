@@ -1,0 +1,495 @@
+{
+  "tree": [
+    {
+      "data": {
+        "d206f6d9-d8ae-4284-9b9b-3745e22fd8cd": {
+          "float": "left",
+          "title": "Date of Test:",
+          "type": "input",
+          "subtype": "text",
+          "order": 11
+        },
+        "925f9e0e-f441-4156-8843-4062e169f58e": {
+          "float": "left",
+          "title": "Test Kit Calibration Date:",
+          "type": "input",
+          "subtype": "text",
+          "order": 10
+        },
+        "ef6fa439-fc69-4472-b1ea-4aeb218411e5": {
+          "float": "left",
+          "title": "Location of Device:",
+          "type": "input",
+          "subtype": "text",
+          "order": 6
+        },
+        "f410d39b-ad24-4bdd-ba7c-01553f0ef997": {
+          "float": "left",
+          "title": "Owner/Occupier:",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "4349cb90-8421-4436-a763-3a2add813133": {
+          "float": "left",
+          "title": "Test Kit Serial No.",
+          "type": "input",
+          "subtype": "text",
+          "order": 8
+        },
+        "6a4073ca-3457-4e32-a420-fdad9878523e": {
+          "float": "left",
+          "title": "Address:",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "99b3eafa-279b-471d-9a23-6cf6a3472fdf": {
+          "float": "left",
+          "title": "Authorized Tester Name:",
+          "type": "input",
+          "subtype": "text",
+          "order": 7
+        },
+        "6d5cb041-d49d-44b2-bbae-5cce5376dbe0": {
+          "unsettable": false,
+          "subtype": "radio",
+          "values": [
+            " Annual Test",
+            "Installation Test"
+          ],
+          "float": "left",
+          "title": "Type of Test:",
+          "type": "enum",
+          "order": 5
+        },
+        "b09805ac-531a-4936-ad58-c3ba96c30fb9": {
+          "float": "left",
+          "title": "Tester Licence No.:",
+          "type": "input",
+          "subtype": "text",
+          "order": 9
+        },
+        "d1de0fc3-3017-48bb-9e43-592dd9865336": {
+          "float": "left",
+          "title": "Licence: 50043",
+          "type": "label",
+          "order": 4
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Backflow Prevention Device Test Report Details:",
+        "dependant": true,
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "1a053029-2602-4290-a1f7-bc8e40f09a68": {
+          "float": "left",
+          "title": "Leaked",
+          "type": "boolean",
+          "value": false,
+          "order": 47
+        },
+        "39d096fa-3fa1-40e5-a496-5408d1cfa378": {
+          "float": "left",
+          "title": "Leaked",
+          "type": "boolean",
+          "value": false,
+          "order": 49
+        },
+        "702de382-efc6-484c-90fe-7a012fd08c9e": {
+          "unsettable": false,
+          "subtype": "button",
+          "values": [
+            " No",
+            "Yes"
+          ],
+          "float": "left",
+          "title": "Strainer Cleaned",
+          "type": "enum",
+          "order": 24
+        },
+        "f03ca57e-90d2-4a98-8074-e62620da4154": {
+          "subtype": "text",
+          "width": "25",
+          "postfix": "kpa (min 35kpa)",
+          "float": "left",
+          "title": "Close tight at:",
+          "type": "input",
+          "order": 46
+        },
+        "9f0f8229-7f40-4c70-bd22-e3f6b6810de1": {
+          "float": "left",
+          "title": "Other",
+          "type": "boolean",
+          "value": false,
+          "order": 43
+        },
+        "bd86a83a-c2a2-44dd-bc6a-56634aad4e56": {
+          "float": "left",
+          "title": "Relief Valve",
+          "type": "input",
+          "subtype": "text",
+          "order": 29
+        },
+        "24a70e8d-6bfe-4d77-a555-85088600d6c8": {
+          "float": "left",
+          "title": "Leaked",
+          "type": "boolean",
+          "value": false,
+          "order": 34
+        },
+        "34d01901-54fb-40af-8fc2-9450a2ae3465": {
+          "subtype": "text",
+          "width": "25",
+          "postfix": "kpa (min 35kpa)",
+          "float": "left",
+          "title": "Close tight at:",
+          "type": "input",
+          "order": 31
+        },
+        "c7707c0f-22f5-4385-a3e2-1e6263bab7fd": {
+          "float": "left",
+          "title": "Zone Protection",
+          "type": "boolean",
+          "value": false,
+          "order": 22
+        },
+        "72f150a8-e37e-4852-8a8c-6ba61ff01c89": {
+          "unsettable": false,
+          "subtype": "button",
+          "values": [
+            " No",
+            "Yes"
+          ],
+          "float": "left",
+          "title": "Permission to Isolate Water Supply",
+          "type": "enum",
+          "order": 13
+        },
+        "d70590ca-e754-4c6a-84e8-5c238d625365": {
+          "unsettable": false,
+          "subtype": "button",
+          "values": [
+            " No",
+            "Yes"
+          ],
+          "float": "left",
+          "title": "Is the device installed high enough to prevent ingress of any possible contaminated water?",
+          "type": "enum",
+          "order": 19
+        },
+        "09e45f43-b6ea-4cbc-9032-3eb1a54693d7": {
+          "float": "left",
+          "title": "Incorrect position",
+          "type": "boolean",
+          "value": false,
+          "order": 38
+        },
+        "d72c8c4a-adc7-448b-aead-d29c3e2f4ffb": {
+          "float": "left",
+          "title": "Incorrect installation",
+          "type": "boolean",
+          "value": false,
+          "order": 39
+        },
+        "52db5c72-b31b-4285-8d87-f6ca610723e0": {
+          "float": "left",
+          "title": "Individual Protection",
+          "type": "boolean",
+          "value": false,
+          "order": 21
+        },
+        "5919347b-701b-4574-99bb-7759cafbfc54": {
+          "unsettable": false,
+          "subtype": "radio",
+          "values": [
+            " Double Check Valve",
+            "RPZD (Reduced Pressure Zone Device)"
+          ],
+          "float": "left",
+          "title": "Device Type",
+          "type": "enum",
+          "order": 25
+        },
+        "a5f490d7-0d1c-40e3-a568-d79eacab1e75": {
+          "float": "left",
+          "title": "Parts used in repair:",
+          "type": "input",
+          "subtype": "text",
+          "order": 54
+        },
+        "1fb8e4d0-2f30-417e-b0be-e43b10418c02": {
+          "float": "left",
+          "title": "Test after maintenance",
+          "type": "label",
+          "order": 45
+        },
+        "773e3323-7c74-4186-8a83-08e159968cea": {
+          "float": "left",
+          "title": "Seal or Rubber Damage",
+          "type": "boolean",
+          "value": false,
+          "order": 42
+        },
+        "0d69dbc2-8915-4b3a-9c0c-8a028500d665": {
+          "subtype": "text",
+          "width": "25",
+          "postfix": "kpa (min 7kpa)",
+          "float": "left",
+          "title": "Close tight at:",
+          "type": "input",
+          "order": 33
+        },
+        "8911480b-a85c-4177-9781-a3bcec45d7e7": {
+          "float": "left",
+          "title": "Describe the maintenance:",
+          "type": "input",
+          "subtype": "text",
+          "order": 53
+        },
+        "73ea10e4-06c6-47e0-ab58-f5a69bb9fb27": {
+          "float": "left",
+          "title": "Containment Protection",
+          "type": "boolean",
+          "value": false,
+          "order": 20
+        },
+        "6bef8833-8521-4cd3-83e3-962ea4f7c231": {
+          "float": "left",
+          "title": "Foreign material in the device",
+          "type": "boolean",
+          "value": false,
+          "order": 40
+        },
+        "45d44b8d-e5a4-4335-a45e-259317de5c54": {
+          "float": "left",
+          "title": "Check Valve 2",
+          "type": "input",
+          "subtype": "text",
+          "order": 28
+        },
+        "33d91e54-39ca-41ea-ab19-9f8eebc38540": {
+          "subtype": "text",
+          "width": "25",
+          "postfix": "kpa (min 14kpa)",
+          "float": "left",
+          "title": "Opened at:",
+          "type": "input",
+          "order": 50
+        },
+        "55755879-a681-417c-9d19-8ed86125fe19": {
+          "float": "left",
+          "title": "Leaked",
+          "type": "boolean",
+          "value": false,
+          "order": 32
+        },
+        "d0d4a1bf-baf8-41d9-bd93-86b6b29d2be3": {
+          "float": "left",
+          "title": "Reason for the device failure",
+          "type": "label",
+          "order": 37
+        },
+        "f8859869-9edc-4f7f-b518-b6d4c7bac614": {
+          "subtype": "text",
+          "width": "25",
+          "postfix": "kpa (min 7kpa)",
+          "float": "left",
+          "title": "Close tight at:",
+          "type": "input",
+          "order": 48
+        },
+        "d438e234-a68b-4326-b1e7-0f2d76e23d0a": {
+          "float": "left",
+          "title": "Spring wear damage",
+          "type": "boolean",
+          "value": false,
+          "order": 41
+        },
+        "8f81d0c2-9cb6-4aec-af8b-60197d1e4cee": {
+          "float": "left",
+          "title": "Check Valve 1",
+          "type": "input",
+          "subtype": "text",
+          "order": 27
+        },
+        "ce21fff7-9326-4e34-af99-daec8296c3ea": {
+          "float": "left",
+          "title": "Model No.:",
+          "type": "input",
+          "subtype": "text",
+          "order": 17
+        },
+        "0525f8ec-1b02-444b-8cdf-cee8bd77a81b": {
+          "float": "left",
+          "title": "Serial No.:",
+          "type": "input",
+          "subtype": "text",
+          "order": 18
+        },
+        "f785e82d-e93b-4d1a-94f6-318eb74844ad": {
+          "unsettable": false,
+          "subtype": "button",
+          "values": [
+            " No",
+            "Yes"
+          ],
+          "float": "left",
+          "title": "Strainer Installed",
+          "type": "enum",
+          "order": 23
+        },
+        "ff097791-84ea-41e5-8831-c04c7cbf4f2c": {
+          "width": "50",
+          "float": "left",
+          "title": "Other:",
+          "type": "input",
+          "subtype": "text",
+          "order": 44
+        },
+        "f84a97ab-a2f5-4260-baa0-a76e8010a4db": {
+          "float": "left",
+          "title": "Leaked",
+          "type": "boolean",
+          "value": false,
+          "order": 51
+        },
+        "03eab4e9-3ebf-42f9-8196-5dfa18172e3f": {
+          "float": "left",
+          "title": "Testing Results",
+          "type": "label",
+          "order": 30
+        },
+        "65e31627-f74c-43ef-a6e3-6f69144e96ee": {
+          "float": "left",
+          "title": "Make:",
+          "type": "input",
+          "subtype": "text",
+          "order": 15
+        },
+        "23b765f7-956f-4425-98b6-9f7e6fb0a8dd": {
+          "float": "left",
+          "title": "Leaked",
+          "type": "boolean",
+          "value": false,
+          "order": 36
+        },
+        "d59645b6-d3e6-46f3-9afb-a512e096106c": {
+          "float": "left",
+          "title": "Device:",
+          "type": "label",
+          "order": 14
+        },
+        "97daca2d-70d9-40ea-8dcb-f07897026cf4": {
+          "postfix": "mm",
+          "float": "left",
+          "title": "Size:",
+          "type": "input",
+          "subtype": "text",
+          "order": 16
+        },
+        "2059a641-b5c0-4141-a661-54b3dc48405f": {
+          "unsettable": false,
+          "subtype": "button",
+          "values": [
+            " No",
+            "Yes"
+          ],
+          "float": "left",
+          "title": "Is the device installed correctly",
+          "type": "enum",
+          "order": 55
+        },
+        "7723f5ae-d2f0-417b-aa7f-ea7d2d37189e": {
+          "subtype": "text",
+          "width": "25",
+          "postfix": "kpa (min 14kpa)",
+          "float": "left",
+          "title": "Opened at:",
+          "type": "input",
+          "order": 35
+        },
+        "9efa7747-8117-4d23-96d8-36675568233e": {
+          "unsettable": false,
+          "subtype": "button",
+          "values": [
+            " No",
+            "Yes"
+          ],
+          "float": "left",
+          "title": "Water turned back on",
+          "type": "enum",
+          "order": 52
+        },
+        "816bdd13-012b-4d96-b968-06a29064fa4d": {
+          "float": "left",
+          "title": "Valve",
+          "type": "label",
+          "order": 26
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Device Details and Test Results",
+        "dependant": true,
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "1d68c866-481e-4854-8933-dd0a658b8a5b": {
+          "float": "left",
+          "title": "Tester Name:",
+          "type": "input",
+          "subtype": "text",
+          "order": 57
+        },
+        "40356a55-2557-47ec-89e9-5ac9499550cf": {
+          "float": "left",
+          "title": "Date:",
+          "type": "input",
+          "subtype": "text",
+          "order": 58
+        }
+      },
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Add Signature",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "display": "flat",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Test Result",
+        "dependant": false,
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    }
+  ],
+  "meta": {
+    "name": "Backflow Prevention Device Test Report",
+    "dependant": true,
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

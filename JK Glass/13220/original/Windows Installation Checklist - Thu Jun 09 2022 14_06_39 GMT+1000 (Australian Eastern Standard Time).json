@@ -1,0 +1,201 @@
+{
+  "tree": [
+    {
+      "data": {
+        "268c47bc-113a-5de1-8840-a1c24611c534": {
+          "title": "Any issues take a photo and send report",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Area clear, tidy and accessible ",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "data": {
+        "5dafd5ce-13b5-5625-9fc0-073569c044bf": {
+          "title": "Any issues take a photo and add location",
+          "type": "label",
+          "order": 0
+        },
+        "dbddb711-a2c5-52b6-8a4c-38eee626bd0a": {
+          "title": "Timber installed for reveal fix - sides and head",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 1
+        },
+        "f6343554-d85f-575a-9fb7-f7d098ca858c": {
+          "title": "Waterproofing in place where applicable (rebate)",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 2
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Substrate acceptable ",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "data": {
+        "51db02a4-b788-5b17-a2bc-0b137dcb2f09": {
+          "title": "Correct reveal installed",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 1
+        },
+        "07fb5436-3715-5175-8bcd-8037a47b18de": {
+          "title": "Flashing tape installed",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Window / Doors received in good condition ",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "data": {
+        "a00c55c5-209d-5180-a2a2-cac8b8ec32eb": {
+          "title": "Level plumb and correct height",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 1
+        },
+        "dd95146a-0e45-5a3f-b9e1-a0d0847336d9": {
+          "title": "Fixings are countersunk",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No",
+            " N/A"
+          ],
+          "order": 2
+        },
+        "428af9c2-ce59-59e2-87d4-3c027d88991f": {
+          "title": "If any window/ Door can't be installed take a photo and add location below",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "All Windows installed in correct location -Take photos below",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Glazing Installed as per specifications -Take photos below",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "data": {
+        "27cc5493-8a93-53c3-88c0-b8f949defb05": {
+          "title": "If any window/ Door is not working correctly: Take a photo and add location below",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "tree": [],
+      "meta": {
+        "name": "Window correctly functioning - opening/closing freely and latching correctly",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Master Glass Sign off  Works completed",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Protection applied to all Windows & Area left clean and tidy -Take photos below",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    }
+  ],
+  "meta": {
+    "name": "Windows Installation Checklist",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

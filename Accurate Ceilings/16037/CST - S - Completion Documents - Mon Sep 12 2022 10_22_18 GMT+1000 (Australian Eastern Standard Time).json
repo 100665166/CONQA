@@ -1,0 +1,58 @@
+{
+  "tree": [
+    {
+      "data": {
+        "6a3d1b62-1e65-5178-8758-ea435d4231f1": {
+          "title": "Any Additional Compliance Documentation - Completed and Attached",
+          "type": "enum",
+          "subtype": "button",
+          "order": 1
+        },
+        "1c29fe47-870a-5bc4-b22c-adfb8b1a7ef7": {
+          "title": "LBP Memorandum/ Record of works filled out, signed and attached",
+          "type": "enum",
+          "subtype": "button",
+          "order": 0
+        },
+        "886ba01a-b78a-5710-9c78-f9a134efa87e": {
+          "title": "Do not select \"Pass\" HERE until all requirements have been marked as \"Yes\" & attached or you have selected \"N/A\"",
+          "type": "label",
+          "order": 2
+        }
+      },
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Request Signoff",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "All relevant Compliance Documentation completed and attached above",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "CST - S - Completion Documents",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

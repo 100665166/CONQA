@@ -1,0 +1,325 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "1e39f615-d0df-5091-a959-00a7a01d8de9": {
+              "title": "Location survey",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "3bd0d248-ca4b-561a-9f11-8105a9cd7b3d": {
+              "title": "Dwg ref",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "8711470e-d9e9-5a5d-a2fe-fab780348791": {
+              "title": "Floor level",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "9bf8e720-a6a4-52eb-b3d2-6da16143d680": {
+              "title": "Date / time of standing",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "bec1da55-15e5-5052-8acb-eb2b5a6ed39f": {
+              "title": "Date / time of pour",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Inspection details entered below",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Details",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "109b122c-f9b9-5a7a-ba0a-a6350e4a743e": {
+              "title": "Actual",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "d98172d9-6cfc-5e87-8fef-63f6c20ba7a9": {
+              "title": "Design",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Landing Height",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "4b567f70-d2e1-584b-b0a7-4395407dacd2": {
+              "title": "Design",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "fd57d9bb-9eb4-528e-9364-8487fe4b3082": {
+              "title": "Dimensions Riser",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "9537dc12-fa0a-5564-a892-7b719eee7491": {
+              "title": "Design",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "67f98659-c4b7-5cd1-a658-2246012ddc8d": {
+              "title": "Actual",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "b32a2732-31a4-5047-8175-fa7fafac6de7": {
+              "title": "Actual",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Dimensions Tread",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Plumbness Checked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Form oil applied to landing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Chamfers correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "data": {
+            "eac32632-1649-52dd-a968-af42580f2630": {
+              "title": "Type",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "fcece2f9-d131-5a3a-8a27-823b3c8961f8": {
+              "title": "Material",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Cast in items - details entered correctly below",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Blow-out installed and correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "data": {
+            "9154be5f-4581-5291-9401-bb215d4ace9c": {
+              "title": "Including Flights",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Propping installed and adequate",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Formwork",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "23d6b23b-b269-5bd2-9915-82b5856cd79a": {
+              "title": "Engineer's representative sign-off - Added below as applicable",
+              "type": "boolean",
+              "order": 1
+            },
+            "1b16224a-d459-58ff-b15e-575f39ce6374": {
+              "title": "Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "b2658ad1-531d-59ca-981e-3906f992be69": {
+              "title": "Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "a742aa36-2556-5cc1-9f31-c5a7e453dc1c": {
+              "title": "Builder's representative sign-off - Added below as applicable",
+              "type": "boolean",
+              "order": 3
+            },
+            "d3540927-18e9-5c98-8c57-7051d0934ac3": {
+              "title": "Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "dfcc099e-ffda-5638-9e3b-c8efd4a72a4c": {
+              "title": "FINAL - Pass when happy to proceed with work(s) (Any issues please comment below)",
+              "type": "label",
+              "order": 0
+            },
+            "b8e90de9-aa32-5faf-a520-f1d7290e1667": {
+              "title": "FORM 700 representative sign-off - Added below as applicable",
+              "type": "boolean",
+              "order": 5
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Sign-Off - click to Add signature(s)",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Final Sign-Off's",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Sign-Off",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    }
+  ],
+  "meta": {
+    "name": "ITP-05 - Stair & Landing ITP (V.260421)",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
