@@ -1,0 +1,63 @@
+{
+  "data": {
+    "5inspectionofcompactedcutfloor1": {
+      "title": "REQUIREMENTS / REFERENCE: 1112",
+      "type": "label",
+      "order": 0
+    },
+    "5inspectionofcompactedcutfloor2": {
+      "title": "ACCEPTANCE CRITERIA: ",
+      "type": "label",
+      "order": 1
+    },
+    "5inspectionofcompactedcutfloor3": {
+      "title": "• HOLD POINT:  Recompact cutting floor and notify Principal of completion before placing subsequent layers. Inspection of compacted floor",
+      "type": "label",
+      "order": 2
+    },
+    "5inspectionofcompactedcutfloor4": {
+      "title": "INSPECTION:",
+      "type": "input",
+      "subtype": "text",
+      "order": 3
+    },
+    "5inspectionofcompactedcutfloor5": {
+      "title": "HOLD POINT NUMBER:",
+      "type": "input",
+      "subtype": "text",
+      "order": 4
+    },
+    "5inspectionofcompactedcutfloor6": {
+      "title": "COMMENTS / ATTACHMENTS:",
+      "type": "label",
+      "order": 5
+    },
+    "5inspectionofcompactedcutfloor7": {
+      "title": "• Compaction Test Results",
+      "type": "label",
+      "order": 6
+    }
+  },
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "holdpoint",
+        "display": "flat",
+        "name": "HOLD POINT",
+        "dependant": true,
+        "signoffs": true,
+        "type": "step",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "dependant": false,
+    "stepType": "checkpoint-status",
+    "type": "step",
+    "display": "normal",
+    "order": 4,
+    "name": "5 - Inspection of Compacted Cut Floor"
+  }
+}
