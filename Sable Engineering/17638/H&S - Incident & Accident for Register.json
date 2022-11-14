@@ -1,0 +1,133 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "cd313dfc-fc3d-52db-b915-7818a6965bb8": {
+          "title": "Date & time",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "352cfa46-2184-5415-b76d-ed9ae564dd00": {
+          "title": "Type of injury or disease",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "2bd1e98e-4e10-5e70-845b-4ab8433bad48": {
+          "title": "Name of Person",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "23bc33f5-efa7-5d31-9da5-deaf4adc6cd7": {
+          "title": "Cause of harm (if any)",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "8c63c9b8-535e-5e5c-95fc-3b5785ee10ae": {
+          "title": "Description of accident/near miss",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        }
+      },
+      "meta": {
+        "name": "Details",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "383ab1bb-37b1-5514-ae31-ced53b203cda": {
+          "title": "Corrective Action",
+          "type": "boolean",
+          "order": 1
+        },
+        "b4978c57-7e4f-5eec-b7f3-4c9a651d11bb": {
+          "title": "First Aid",
+          "type": "boolean",
+          "order": 0
+        },
+        "73be4da9-5ec5-5c9d-a75a-d3ef28a320b2": {
+          "title": "Review Risk Register",
+          "type": "boolean",
+          "order": 2
+        }
+      },
+      "meta": {
+        "name": "Immediate Action Taken",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "137cd217-71cb-53f6-a9fe-59f570740398": {
+          "title": "Yes",
+          "type": "boolean",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Does the incident require Work Safe notification",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "c53e0754-9532-5d37-b3bb-3c5250e7e717": {
+          "title": "Yes",
+          "type": "boolean",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Is the incident the subject of a Toolbox Talk",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Signature and Date",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "name": "H&S - Accident / Incident for Register",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

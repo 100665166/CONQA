@@ -1,0 +1,68 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Variation logged into Sables VO system:",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "5caaf993-a389-58ca-8718-8451d990abeb": {
+          "title": "Variation Area",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "fbff7a1a-52cb-598f-96d1-2d5a63706753": {
+          "title": "Reference/Drawing/Instruction Number",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "39f917e5-8bd8-5255-90e5-4535e92350af": {
+          "title": "Materials & labour breakdown",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        }
+      },
+      "meta": {
+        "name": "Variation Details Approved",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Variation Completed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    }
+  ],
+  "meta": {
+    "name": "Site - Variation Checklist",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

@@ -1,0 +1,593 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "5d52f7e7-7e4d-5c1e-ab76-a586fc1fdd70": {
+              "title": "Role",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Client",
+                " Contractor",
+                " Visitor",
+                "Employee"
+              ],
+              "order": 1
+            },
+            "05e9696d-4bd6-570a-ab99-27b58a904519": {
+              "title": "Name",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "3d722faf-084c-58b0-b329-b0206d039f9e": {
+              "title": "Contact telephone",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "e3aa696a-ead4-5e9e-b070-d62b99bfc647": {
+              "title": "Job title (if employee",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Information about the employee who had the incident",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "41061c8a-7001-51b0-9f71-8f4a6d2e5795": {
+              "title": "Include details of any object, machine or substance involved, or property lost or damaged.)",
+              "type": "label",
+              "order": 4
+            },
+            "22dea18d-72c8-5727-94e9-78fa10ef926e": {
+              "title": "What happened?",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "273e9fda-f2e1-5821-9a69-bb8cefc72d76": {
+              "title": "If YES - what was the significant hazard?",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "0f1fbb91-1655-56db-8708-7c3835b8194b": {
+              "title": "When did the incident happen?",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "22e34e4c-e73b-5563-84c7-07e0b05a69ab": {
+              "title": "Was a known significant hazard involved?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "No",
+                "Yes"
+              ],
+              "order": 5
+            },
+            "931c974f-b470-5c02-b2ed-0a905962daae": {
+              "title": "Where did the incident happen?",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "f5582203-4e52-5c5c-a2e1-e8411a3812b6": {
+              "title": "Type of incident",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Accident",
+                " Property Damage",
+                " Property Loss",
+                "Near Miss"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Information about the incident",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "fc79777f-3c82-52f8-a368-3bbb5b20afc4": {
+              "title": "Name and contact info",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "78176211-0d45-5864-8425-0fa3589dc0d6": {
+              "title": "Name and contact info",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "f861d1d1-ab60-54f8-8707-6ffc29047046": {
+              "title": "Name and contact info",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "95b88c19-a742-5ec6-8618-c67e6dbd5383": {
+              "title": "Name and contact info",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "44866ed5-6558-5e89-98a2-afe4c443e91f": {
+              "title": "Name and contact info",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Name(s) of any witnesses",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "cd945154-fc69-5d2a-89c3-56ce928cbbc3": {
+              "title": "Body part injured (plase indicate which side of the body e.g. right or left)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "d85bad4e-c8a4-5bb0-a896-8427735b7c00": {
+              "title": "Is this a notifiable injury?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "No",
+                "Yes"
+              ],
+              "order": 2
+            },
+            "d48a3b2a-5656-5e15-b6b3-a21453c4d212": {
+              "title": "Type of injury (e.g. break or sprain)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "149c2953-a4c6-59e2-a996-d14795dcab46": {
+              "title": "If YES - Work Safe NZ",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "What injury or injuries were sustained?",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "a0b42696-df63-5bd2-baaa-89d16ebf59a3": {
+              "title": "Hospital",
+              "type": "boolean",
+              "order": 4
+            },
+            "3827b846-eba1-53ae-bcf4-ec4396b4e8d1": {
+              "title": "Other",
+              "type": "boolean",
+              "order": 6
+            },
+            "b74a5d5a-fa47-50a0-8e36-f988b8ba2f35": {
+              "title": "Emergency services",
+              "type": "boolean",
+              "order": 5
+            },
+            "512505ed-ed11-588f-adf8-3546fabaef63": {
+              "title": "First Aid",
+              "type": "boolean",
+              "order": 0
+            },
+            "522da46f-b2b0-5fbc-b67a-376c0f62c2b0": {
+              "title": "Physiotherapy",
+              "type": "boolean",
+              "order": 1
+            },
+            "5f5ea39e-f9da-5b3b-806b-74157fb98251": {
+              "title": "Massage therapy",
+              "type": "boolean",
+              "order": 2
+            },
+            "deb5f2fb-9707-512c-999f-275aa2654466": {
+              "title": "Doctor (GP)",
+              "type": "boolean",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "What trearment was given?",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "d48da9ac-3f0e-5458-a95e-f2c3e530179d": {
+              "title": "Employee to Sign",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "The above report provides a true, accurate and complete account of the accident / incident / near miss",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Employee to Complete",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "7e9464da-e50e-59b2-b625-b1c102bd0628": {
+              "title": "What (in your opinion) were the causal factors of thhis incident?",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Details",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "f5fe0919-08fe-52d6-bf06-0ccb5e605c38": {
+              "title": "New Hazard Identified",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "No",
+                "Yes"
+              ],
+              "order": 0
+            },
+            "0ad60d8b-a469-5e98-8429-ca9361efb319": {
+              "title": "Significant",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "No",
+                "Yes"
+              ],
+              "order": 1
+            },
+            "91cba3f6-2325-5ead-a0f8-e6e5c6ef68f6": {
+              "title": "If YES identify the hazard management process to be done e.g. update hazard register and put in recommended actions below",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Hazard identification",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "7d20510d-04aa-54c4-bc87-61f937ee7a5c": {
+              "title": "What has been done?",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "0cd6c81a-2da8-5c27-af99-33675ebf0c2f": {
+              "title": "",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "No",
+                "Yes"
+              ],
+              "order": 0
+            },
+            "c52ef5eb-e410-51c3-a4ac-eecff41c9c43": {
+              "title": "Person responsible for this?",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "c9dc7bbc-fe23-5bf9-b80b-70d512e0922d": {
+              "title": "By when?",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "Recommended Actions - Has the Hazard Management Process been undertaken",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "30e506d2-92de-59ec-b570-5b05f730199a": {
+              "title": "",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "No",
+                "Yes"
+              ],
+              "order": 0
+            },
+            "feb1ae44-4615-5a0c-b8a3-170ed44829fe": {
+              "title": "Which part?",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "f3423206-4e2e-50a3-976e-3750db5db73e": {
+              "title": "Person responsible for this?",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "3fca7ead-d9bc-57c6-873b-ba0d7d08d4ea": {
+              "title": "By when?",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "Recommended Actions - Is a review of Safety Management System required?",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "f3841316-d6f4-5592-aec3-5dd67c04f506": {
+              "title": "Specific actions to prevent recurrence",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "75286936-7998-5e46-baf0-b0582e7402b7": {
+              "title": "By when?",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "1d4caf1f-7739-5117-87a3-39e9f4edfe84": {
+              "title": "Specific actions to prevent recurrence",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "06a96e54-80d3-54c9-926b-4f17975ee0db": {
+              "title": "By when?",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "8f941bc7-e6f9-590d-97c4-96ab903bae42": {
+              "title": "Person responsible for this?",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "5a54a818-c029-591c-a10b-7f06039e8d1c": {
+              "title": "Person responsible for this?",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "Other recommended actions",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "d3d767ae-d234-5e16-974f-57f06663f7c2": {
+              "title": "Person responsible for this?",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "cb5981f6-a461-5546-861c-f77b7d01c113": {
+              "title": "By when?",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "All relevant staff members have received information regarding the incident, changes of operation / procedures.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "If a notifiable incident has ocurred, have WSNZ (as relevant) reporting procedures been followed.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "7f97e122-61b8-5c06-961f-b474fd1ba6d8": {
+              "title": "E.g. Toolbox, Close out",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Have internal reporting systems been followed?",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Has the incident been recorded on the Accident Database",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "738516e5-0470-5544-adce-b3fdcda76ea7": {
+              "title": "E.g. Health and Safety review actions.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Overall comments",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "9712210f-2fec-5a1a-bf7d-d09e2e22f25c": {
+              "title": "Manager to sign",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Manager Sign Off",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Manager to Complete with Employee",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "H&S - Accident and Incident Full Report",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

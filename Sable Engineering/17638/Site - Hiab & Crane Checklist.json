@@ -1,0 +1,53 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "4c117cd4-196b-5399-b060-4763a848e2e6": {
+          "title": "Time of day",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Start Time Onsite Input",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "d6508a0d-ecfc-552b-9886-3f28fb1310ff": {
+          "title": "Time of day",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Finish Time Onsite Input",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "Hiab / Crane for Date:",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

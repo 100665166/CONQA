@@ -1,0 +1,123 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "36086bcb-2f81-58ba-a439-0a007e7bf6d4": {
+          "title": "Scope of work",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "4d89ebb4-7a10-506a-bf7e-1f6163c0da94": {
+          "title": "Expected start date",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "ffe1ed6a-1b0b-54be-8755-253b616a4752": {
+          "title": "How many guys are needed for install",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        }
+      },
+      "meta": {
+        "name": "Work details",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check heights concrete / RL",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check steel fits on pad or in location",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Check cast in bolts height location - can nuts easily thread",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Crane Access Requirements",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "EWP Access Requirements",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Scaffolding Access Requirements",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Hiab Access Requirements",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    }
+  ],
+  "meta": {
+    "name": "Site - Pre-Install Checklist",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Correct product used for touch ups",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Touch ups completed and visual inspection passed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Request Review and Sign Off",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Touch ups reviewed, checked and correct",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    }
+  ],
+  "meta": {
+    "name": "Touch Up Painting Checklist",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

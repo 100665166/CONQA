@@ -1,0 +1,372 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "f5c413b2-20aa-52b7-85c6-5b63247ce1af": {
+              "title": "Input drawing/revision number",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Latest drawings available, checked and referenced",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Raise Remedial / Request Review",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "7ba824b6-388a-5324-afb9-d08bf96bafdf": {
+              "title": "Checked for set out and alignment",
+              "type": "boolean",
+              "order": 0
+            },
+            "56f2c3c6-3f23-5ee7-8400-ab2ea1282eae": {
+              "title": "Hold down bolts / cast-in items checked and approved (location and size)",
+              "type": "boolean",
+              "order": 2
+            },
+            "1d4873ed-d55a-56ec-9940-a872c071b843": {
+              "title": "Checked for Level and RL",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Work area acceptable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "7737a639-fa8d-50aa-919f-4dba60fdebe8": {
+              "title": "Approved by",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Correct orientation and grids identified and approved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Raise Remedial / Request Review",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "0e254881-0239-5fe1-b034-dc505316c78d": {
+              "title": "Coating condition acceptable",
+              "type": "boolean",
+              "order": 1
+            },
+            "7de1475e-c856-5710-a39e-c4acbfeeac5b": {
+              "title": "Correct elements received",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Relevant steel delivered, checked and correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "31723cc5-2cfb-5389-9b50-b9142578fd39": {
+              "title": "Sufficient steel on site for erection to proceed",
+              "type": "boolean",
+              "order": 1
+            },
+            "a2305b34-2cde-5390-9ae8-7257f88783df": {
+              "title": "All steel tags match drawings marks numbers",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Pre-erection checks",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Steel hoisted as per agreed lifting procedure",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Soft slings used instead of chains, if required",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Crane operated within rating chart capacity",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre Start & Area Acceptance",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Steel erected level, plumb and correct pitch",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "All RLs of base plates after steel erection checked and correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Temporary props, turfers, bracing etc. installed/removed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "All fixings appropriately installed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Epoxy and mechanical anchors drilled to correct depths",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Epoxy and mechanical anchors tightened",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Taper wahers installed, if required",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "All bolts secure / correctly tensioned",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Bolts tightened to snug",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "TB/ TF bolts tightened correctly",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Bolts fully torqued correctly",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "All on-site welding completed correctly",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 11
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Damaged coatings repaired / touched-up",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 12
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "General comments, observations",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 13
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Steel Erection QA",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "Site Erection Checklist",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

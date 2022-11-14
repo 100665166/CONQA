@@ -1,0 +1,160 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Steel erected level, plumb and correct pitch as per erection drawings",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "All RLs of base plates checked after steel erection and correct",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Snug tight bolts checked",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "TF / TB connections torqued and marked",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Reidbars tensioned as per design specs or reid instructions",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Temporary bracing secured, if required",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "All welding completed to spec and weld procedure",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Site NDT conducted, if required and passed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Coating touch up completed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 8
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Steel surface left clean and sticker residue removed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 9
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Raise Remedial / Request Review",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Zone's structural steel erection completed, checked and reviewed - as per specification",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 10
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Area left clean and tidy",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 11
+      }
+    }
+  ],
+  "meta": {
+    "name": "Overview QA",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

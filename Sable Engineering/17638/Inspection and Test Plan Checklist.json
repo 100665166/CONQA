@@ -1,0 +1,599 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "f171cd0d-30ee-5992-a23d-8084f9613f8b": {
+              "title": "Location",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "2bca7c6e-902a-5506-a2a5-f32ba6b61a76": {
+              "title": "Job Name",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "6606d6d3-3961-5119-80d4-32a9516c7eaa": {
+              "title": "Scope of works",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "10c42e55-b033-5b59-a106-ef283dddd39a": {
+              "title": "Job Number",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Details",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Job Details",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "862267fa-00b6-5592-8a81-9ca0c764f01e": {
+              "title": "EWP licences up to date",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "N/A",
+                " No",
+                "Yes"
+              ],
+              "order": 1
+            },
+            "798739ab-3465-57db-8c33-f13639fad161": {
+              "title": "Other:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "2e591c0d-b533-5af2-837d-eed29693817e": {
+              "title": "First Aid Certs up to date",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "N/A",
+                " No",
+                "Yes"
+              ],
+              "order": 2
+            },
+            "529ba05d-914d-51d3-93b6-6a17f5f2a938": {
+              "title": "Site Safe Certs are up to date",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "N/A",
+                " No",
+                "Yes"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Contract/Specific requirements",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "317c7b02-b03b-5b6a-8c4f-7a1e03e5483c": {
+              "title": "Method Statement reviewed, signed off by project team and submitted to design engineer for final approval",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Work Method Statement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Has a Technical Review been done",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Preliminaries",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "50491f8e-c0e7-5b04-97e4-28b8dbe2df73": {
+              "title": "Visual inspection of raw material/plates and gussets to be used on the job",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Material in stock – in good condition",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Material certificates on file",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "ad0656ea-215d-5e84-a6c1-8d0a18d48389": {
+              "title": "All welding wire received on record with expiry date/dates of receipt. All welding machines serviced regularly with volt checks",
+              "type": "label",
+              "order": 0
+            },
+            "0fc9ff60-e20d-5617-a059-25d42a35d8ca": {
+              "title": "Consumable records/receipts attached",
+              "type": "boolean",
+              "order": 2
+            },
+            "a8cd972e-438b-50ff-af85-3328062d0ca9": {
+              "title": "Consumables kept in dry store room free from dust and moisture, any non-conformant machines recorded, and service dates recorded",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Consumables and welding equipment checked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Material Compliance",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "a732643d-410a-5be4-bace-a765da88854b": {
+              "title": "The correct welding procedures are signed off and understood by the welders prior to commencing",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Weld processes/procedures approved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "3d3b7a44-1f44-5a38-818c-649024bdfd54": {
+              "title": "All the welders designated to the job have current welding certificates and have been issued to the main contractor",
+              "type": "label",
+              "order": 0
+            },
+            "71cb0fb2-9e8f-557f-a5fb-94bec169a710": {
+              "title": "Welders certs valid and to the correct standard NZ 2980",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Welders qualified",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "44c95b09-ab21-5c91-af71-4ffb1e376b95": {
+              "title": "Quality assurance table stamped on every shop drawing for signing and checking off",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "QA table required on shop drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "76addec3-6302-5d9f-85c3-92f760bd7a30": {
+              "title": "Timeframe",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "e9be22b7-eb54-5311-9668-d709bff12b8b": {
+              "title": "Any relevant toolbox meeting / documents attached",
+              "type": "boolean",
+              "order": 3
+            },
+            "2566d98d-c78e-52f6-afc3-6360a83cf3e5": {
+              "title": "Required number of welders",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "994eddaf-2cc4-58aa-8bce-9a66a0bf1834": {
+              "title": "Have the correct number of welders been assigned to the job to ensure that quality and accuracy is the main focus, and no unnecessary pressures are put on the welders to finish the job quicker than what’s required",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Correct number of welders available to meet time frames",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "228867a0-eea1-5dc7-ab9c-d6436eab4414": {
+              "title": "Pre-Weld Heat Treatment requirements",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Pre-Weld Heat Treatments",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Ensure latest IFC drawings and revisions are used",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "26e15e96-7dd2-533f-abe5-10f2f72dc091": {
+              "title": "Description",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Architectural exposed structural steel required meets correct AESS category (ref. NZS 5131)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-Fabrication and Pre-Welding",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "1638703b-516d-5b49-991e-7b0b71010f27": {
+              "title": "10% Mag Particle only - third party to complete",
+              "type": "boolean",
+              "order": 0
+            },
+            "27b1c3c7-49e0-57e5-ab97-cce7f7a1032f": {
+              "title": "10% Ultrasound only - third party to complete",
+              "type": "boolean",
+              "order": 1
+            },
+            "e407e7fb-8c86-5287-b8d3-4c8c17fc168f": {
+              "title": "Other:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "7c34b01e-4a57-50fa-8002-e2178b4f7b98": {
+              "title": "100% Visual Inspection",
+              "type": "boolean",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Method of Weld Testing specified",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "fab2a8d3-7d2b-535a-b37f-9ee2606b448f": {
+              "title": "100% Visual Inspection form attached",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "N/A",
+                " No",
+                "Yes"
+              ],
+              "order": 2
+            },
+            "615b697e-82f3-572e-91a9-373cb0e6845b": {
+              "title": "10% Ultrasound - report attached",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "N/A",
+                " No",
+                "Yes"
+              ],
+              "order": 1
+            },
+            "744213d5-d19c-5d25-b49f-972cb32c11ba": {
+              "title": "10% Mag Particle - report attached",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "N/A",
+                " No",
+                "Yes"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Weld Testing complete, checked and documented",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Welding",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "2d453ac4-5365-53fe-b907-602dff0ea311": {
+              "title": "Ensure coating specialists have the correct coating thickness and type",
+              "type": "label",
+              "order": 0
+            },
+            "f8b82045-d3e3-53be-94e7-6f3a84dd50e9": {
+              "title": "Specifications sent through to supplier via email with confirmation given",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Coating to design specs",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "7bb16d10-6f03-5c59-b109-5bfc3a2a2560": {
+              "title": "QA sheet inline with specifications",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "QA sheet received",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Coating Checks",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Meets speciications",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "QA File complete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Client delivery",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Job Completion",
+        "dependant": true,
+        "type": "step",
+        "order": 6
+      }
+    }
+  ],
+  "meta": {
+    "name": "Inspection and Test Plan",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
