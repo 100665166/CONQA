@@ -1,0 +1,386 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "IFC Manufacturing Drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Manufacturing Documents",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "dea35b37-e642-5474-badf-f844d2506844": {
+              "title": "Mould clean with release oil applied correctly",
+              "type": "boolean",
+              "order": 0
+            },
+            "8459e73e-90c2-570b-af04-f7cdb5be7bae": {
+              "title": "Rebates, Architectural Grooves Installed Correctly",
+              "type": "boolean",
+              "order": 3
+            },
+            "ef03dadd-2fb6-527e-adc3-529cf7b8c364": {
+              "title": "Openings Checked and Correct",
+              "type": "boolean",
+              "order": 2
+            },
+            "379d36a9-540b-5ab1-bb90-fa593e2c0916": {
+              "title": "Formwork chamfers installed correctly where required",
+              "type": "boolean",
+              "order": 4
+            },
+            "02c6b2a6-0964-5fc6-bbdd-f509d4f8e102": {
+              "title": "Primary & diagonal dimensions checked",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Mould check",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "c4cd87f9-4dab-5fa7-8c4b-1166889efcf7": {
+              "title": "Laps and Splices correct",
+              "type": "boolean",
+              "order": 1
+            },
+            "00521c4a-6710-5653-836e-dd0bcc8e9d74": {
+              "title": "Correct Size and Type",
+              "type": "boolean",
+              "order": 0
+            },
+            "39057218-a125-5258-a6c8-e6db9377cbc1": {
+              "title": "Cover Checked",
+              "type": "boolean",
+              "order": 2
+            },
+            "6b28004f-1dbe-5f23-b352-e710cfa41deb": {
+              "title": "Spacing Checked",
+              "type": "boolean",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "Reinforcing check",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "77f7da6a-43d5-5bc6-9831-e7b3a86f2047": {
+              "title": "Ferrules/Inserts installed, checked and correct",
+              "type": "boolean",
+              "order": 0
+            },
+            "5b55c7d2-be48-5961-8524-c25e16a3aa0e": {
+              "title": "Lifting anchors installed, checked and correct",
+              "type": "boolean",
+              "order": 2
+            },
+            "b3107e66-a34c-5b3c-a253-d40d1047f5f6": {
+              "title": "Starter Bars inserted, checked and correct",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Cast in items check",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Check Minimum Cover",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "ID Tag installed in non-visible face",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "4dfc104a-b89a-5087-8fb1-736e1c0f97ec": {
+              "title": "Upload sufficient number of photos of element",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Pre-Pour checks completed and approval given to pour Element",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Upload photo of signed pre-pour check of shop drawing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-Pour Checks",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "58980cd1-8684-5bcd-9290-ccf57279ce95": {
+              "title": "All Concrete Dockets Attached",
+              "type": "boolean",
+              "order": 0
+            },
+            "4bc6770e-bc15-507f-8766-0554646539dd": {
+              "title": "Date element was cast",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Concrete Strength correct as per design",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Concrete Pour Checks",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "ccedde96-5684-570a-8927-44e117b5dd7b": {
+              "title": "Critical fitments / fixtures checked and approved",
+              "type": "boolean",
+              "order": 3
+            },
+            "7d111839-25be-5ef0-a379-586996afd4c0": {
+              "title": "Openings (formwork removed)",
+              "type": "boolean",
+              "order": 4
+            },
+            "ef766e78-5c2f-5148-a6bb-20253f8fe2f0": {
+              "title": "Does the finish meet class 2 as per AS3610",
+              "type": "boolean",
+              "order": 0
+            },
+            "a81ed09a-252b-5c7d-b544-389fce221a30": {
+              "title": "Lifting anchors checked and approved",
+              "type": "boolean",
+              "order": 2
+            },
+            "6c071d5f-4bfe-5e7a-9f41-529e5128104e": {
+              "title": "Chamfers clean, neat and on all required edges",
+              "type": "boolean",
+              "order": 1
+            },
+            "9408a3e8-7d68-5afc-8a16-f4b6cbdd4f9b": {
+              "title": "Nailplates / Recesses etc removed",
+              "type": "boolean",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "Visual Check",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Any Strongbacks Installed where required",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "4375993a-488f-5e2a-a811-e26a79f788ad": {
+              "title": "If 'FLAG', raise NCR and notify EP Project Manager to discuss with builder",
+              "type": "label",
+              "order": 0
+            },
+            "535b248a-73d4-5654-9e61-8bd088c679ce": {
+              "title": "If NCR raised, take photo of completed approved works",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Element free from defects that will impact structural integrity or durability?",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "All Post Pour Works complete - Element Checked, Approved and Ready for delivery",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Post-Pour / Pre Delivery Checks",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "c32160d9-f7dd-5c63-90d3-9ef1a08c0d90": {
+              "title": "Upload actual test result OR a test result of the same mix design from the same day",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Concrete Test Result attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Concrete Test Results",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "name": "Manufacturing Checklist",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
