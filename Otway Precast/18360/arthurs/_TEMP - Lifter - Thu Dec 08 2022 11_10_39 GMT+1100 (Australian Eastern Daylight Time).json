@@ -1,0 +1,43 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "85e804c9-97a1-5eeb-aab7-e7a0664817e8": {
+          "title": "Lifter Type",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Leviat Edj Pro Mini 8.5T",
+            " Leviat Edj Pro Max 15T",
+            " Foot Anchor 1.3T",
+            " Foot Anchor 2.5T",
+            " Foot Anchor 5T",
+            " Foot Anchor 10T",
+            " Foot Anchor 20T"
+          ],
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Lifter Type correct",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "TEMP - Lifter",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

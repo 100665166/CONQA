@@ -1,0 +1,46 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "8e33d4a9-7fa7-555b-b905-98b20d4a6c6e": {
+          "title": "Strand Size",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "9c4db64c-a16d-561f-9e39-832c8ed3ff1f": {
+          "title": "Strand Photo",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "9299c000-aa1f-57f9-881e-53a243723e1a": {
+          "title": "Coil Id",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "meta": {
+        "name": "Details",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "TEMP - Details",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}
