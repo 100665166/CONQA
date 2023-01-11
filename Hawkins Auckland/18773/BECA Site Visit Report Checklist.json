@@ -1,0 +1,98 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {},
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "SVR Attached",
+            "dependant": false,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "data": {},
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Site Visit Report",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {},
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "SVR Closed-Out",
+            "dependant": false,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "data": {},
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Close-Out",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "permissions": {
+          "addStep": true,
+          "addPost": false
+        },
+        "display": "normal",
+        "name": "Follow-Up Action(s)",
+        "dependant": true,
+        "type": "step",
+        "order": 2,
+        "tags": {}
+      }
+    }
+  ],
+  "data": {},
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "SVR:",
+    "dependant": true,
+    "type": "step",
+    "order": 99
+  }
+}
