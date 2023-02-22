@@ -1,0 +1,71 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "f2e6a0a2-536e-5aad-84fd-f3a632778cdb": {
+          "title": "Action",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "a4a4473c-330b-5f6e-9ae4-6a39c1b06e45": {
+          "title": "Action by",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "meta": {
+        "stepType": "checkpoint-no-status",
+        "templateReference": "b7d006b1-54f7-4aef-97c8-c7b7483bdd52",
+        "display": "normal",
+        "name": "Corrective Action",
+        "dependant": true,
+        "templateId": "bde7f763-c835-453c-bb74-f4c28cf8cc50",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "c81c8297-e581-517b-96d4-4c23c0caaada": {
+          "title": "Sign off",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "df0f5a99-8f6e-5a19-a2ee-e439d1bbb38b": {
+          "title": "Date",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "e8da40d7-05ef-4256-8a1b-754775ba2b07",
+        "display": "normal",
+        "name": "Action Complete",
+        "dependant": false,
+        "templateId": "bde7f763-c835-453c-bb74-f4c28cf8cc50",
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "templateReference": "bde7f763-c835-453c-bb74-f4c28cf8cc50",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat",
+    "name": "Corrective Action:",
+    "dependant": true,
+    "templateId": "bde7f763-c835-453c-bb74-f4c28cf8cc50",
+    "type": "step"
+  }
+}

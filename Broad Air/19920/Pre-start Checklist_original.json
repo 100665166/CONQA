@@ -1,0 +1,406 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "e188ea57-3097-5557-8604-0301d80e39e2": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "64db19a6-a4e3-5051-b753-cf1952200036": {
+              "title": "Subject of Talk:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "6a6d8e51-21d5-5559-8c15-099bb07e5b14": {
+              "title": "All corrective actions noted on this form are implemented and signed by the nominated person. It is the responsibility of the Works Supervisor to ensure that all corrective actions are completed and reviewed for effectiveness.",
+              "type": "label",
+              "order": 1
+            },
+            "705e7083-63c3-56dc-a085-40975a5fed1a": {
+              "title": "Presented by:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "7773c3db-8046-561e-bcc1-401a1d81ca05": {
+              "title": "Workplace:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "f041e184-9164-5e88-b8a4-22622d8f468a": {
+              "title": "Duration:",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "c2363392-b4a7-5e29-9be4-304f10868443": {
+              "title": "All Toolbox / Pre-start Talks undertaken on behalf of The Trustee for Broad Air Conditioning are recorded on this form and signed by participants.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Toolbox/Pre-Start Talks",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "6c78807e-7c00-5459-8e6a-f7d176d4173c": {
+              "title": "Add Signatures Below",
+              "type": "label",
+              "order": 1
+            },
+            "db3f5045-c4a1-5b4d-b5a8-e160383e2812": {
+              "title": "Print Names:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Persons Present",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "b7bc5712-7c55-5ffb-b768-41adabd8fe0d": {
+              "title": "Points Raised / Comments:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Points Raised / Comments",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Toolbox / Pre-Start Talks",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": {},
+      "meta": {
+        "permissions": {
+          "addStep": true,
+          "addPost": false
+        },
+        "display": "progress",
+        "name": "Corrective Actions",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "e85e4195-6545-56ff-8496-4299faa417fe": {
+              "title": "The Trustee for Broad Air Conditioning completes the following checklist prior to initial plant operation at the workplace.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Plant & Equipment Pre-Start",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "569c2b08-6a4b-5838-8d41-b7768c6f536d": {
+              "title": "A checklist should identify general hazards and associated risks relating to the use of the plant & equipment e.g. entanglement, crushing, striking, electrical or other. The checklist should then detail control measures to eliminate or minimise risk.",
+              "type": "label",
+              "order": 0
+            },
+            "1899f14d-5768-56dd-bede-005a09220bb0": {
+              "title": "Check",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Risk assessment",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "3a3bbec1-7fd3-5052-8620-e72ff171bf2f": {
+              "title": "Check",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 1
+            },
+            "434268a8-e7c6-5953-98ce-83aebdb424d3": {
+              "title": "A current log book recording daily safety Pre-start checks. These are subject to random inspection.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Log Book",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "b8489c99-9e53-56bf-905c-8b195f025232": {
+              "title": "Check",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 1
+            },
+            "efb1dda1-b54b-5ac8-8f0c-ecba57a309a7": {
+              "title": "Proof of ongoing maintenance, i.e. maintenance records. The records should note the most recent inspection and who conducted that inspection. It may also describe any repair work carried out on the plant. Most importantly, there should be no outstanding items noted for repairs.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Maintenance Reports",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "e05ead53-7963-5f94-897f-fd42e6dda682": {
+              "title": "An operator's manual relevant to the item of plant and which is to be kept with the plant.",
+              "type": "label",
+              "order": 0
+            },
+            "9fd9e855-6a78-5ec6-8775-aed2532b7048": {
+              "title": "Check",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Operator's Manual",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "2e1d578a-36d2-5dcb-ad96-77904b9ee771": {
+              "title": "Copy of operator's certification or licence to operate the plant. Where no statutory certification is required, evidence of competence by the operator in the use of the plant.",
+              "type": "label",
+              "order": 0
+            },
+            "8685f117-add4-5661-b080-6de162c2af8c": {
+              "title": "Check",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Operator Certification",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "2a228b4b-db17-56c6-a9fd-43000edbe2b3": {
+              "title": "Signature",
+              "type": "label",
+              "order": 2
+            },
+            "c8e9617d-6157-5b83-aa65-cc2d45b6f9bd": {
+              "title": "Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "c606d0d9-2f32-5043-a2a9-9627fbe335b4": {
+              "title": "Name",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Plant Provider",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "d7ae3f3d-0d71-5d47-840c-3d81feacdbf0": {
+              "title": "Serial No.",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "2a475c22-84a5-54d0-9a08-2836ff9f7d28": {
+              "title": "Plant Type/Make",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "cb104209-4c1e-57cf-907d-8b2f4ccb8e63": {
+              "title": "Company",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Plant Inspected",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "e4cfed8d-53fc-5777-8174-f1325da1611b": {
+              "title": "Signature",
+              "type": "label",
+              "order": 2
+            },
+            "06bcf5ba-bbe1-5c1c-a354-0b4e7a23432e": {
+              "title": "Name",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "1a6c2670-ea85-5f6c-803f-a95f159684db": {
+              "title": "Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Inspection Verified By",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Plant & Equipment Pre-Start Checklist",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    }
+  ],
+  "meta": {
+    "name": "Pre-start Checklist",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
