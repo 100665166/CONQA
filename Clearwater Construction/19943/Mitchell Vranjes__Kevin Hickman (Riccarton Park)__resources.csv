@@ -1,0 +1,171 @@
+﻿"Rich Type","Id","Warnings","type","name","values","prefix","postfix","Usage Count","User Addable","Template Name","Template Id"
+"checklist-flat",,"","checklist","Remedial:","",,,149,"Yes","I - C - MV Remedial Item Checklist","1be3be93-f3f1-4bd3-ba3d-1c0c53465e1f"
+"checkpoint-status",,"","checkpoint","Remedial Status (MV to ""Pass"" once satisfied)"
+"text","c724e993-fff6-5253-ad02-b76eff526d98","","textbox","Location of Remedial",,,
+"text","8deb9ae8-99f5-5800-9687-6d4b6839edcc","","textbox","Remedial Description",,,
+"text","233bb5c5-6089-50b7-9d8d-3444150bb470","","textbox","Action Required",,,
+"holdpoint",,"","signoff","Request MV Signoff on Remedial"
+
+"checklist-flat",,"","checklist","Compliance Documents","",,,0,"Yes","I - C - MV Compliance Documents","73352d89-ae68-4e06-981c-d1d0555adf54"
+"checkpoint-status",,"","checkpoint","Compliance Documents"
+"boolean","6a3ccff8-1dfc-5aa9-ab74-f25d027a4af4","","tickbox","LBP Memorandum",,,
+"boolean","6484e59b-182f-5b5f-8e83-4adea293e101","","tickbox","Mill Certificates",,,
+"boolean","9e113645-aa7d-5357-b69a-6d2c9367a36c","","tickbox","Concrete Dockets",,,
+"boolean","5c3298b1-b39e-57ea-bb71-0518d8d2fcef","","tickbox","Concrete Strength Test Results",,,
+"checkpoint-status",,"","checkpoint","Mitchell Vranjes PS4 Attached"
+
+"checklist-sectioned",,"","checklist","MV Site Visit Report -","",,,51,"Yes","I - C - MV Consultant Site Visit Report","85cfd035-b13a-459f-9d67-090508471813"
+"checkpoint-group",,"","section","Site Inspection Details"
+"checkpoint-status",,"","checkpoint","All Site Details Inputted Below"
+"text","60ef59fe-14df-58e0-a35a-eedd7ac6b741","","textbox","Building Consent No.",,,
+"text","50a23467-0aab-5691-8cf1-e947a90b32f2","","textbox","Date site visit occurred",,,
+"text","4ebd846e-3694-56d8-ab51-90859989005b","","textbox","Tom on site (include start and end times)",,,
+"text","36cdb572-f69d-54dd-8ed2-041f8fa7e899","","textbox","Report prepared by - Engineer's name",,,
+"text","7f78d0be-deb2-5b77-a589-ceaa899a7758","","textbox","Additional personnel accompanying engineer",,,
+"button","9fa7dc57-30cf-5416-bf84-33741bf5728f","","button","Has contractors pre-inspection QA been reviewed?","Yes, No",,
+"label","f33deb96-11e5-5266-84e9-796765665a54","","note","Select ""Yes"" if pre-inspection QC/QA has been viewed & detail below / attach examples",,,
+"label","94612d96-c97b-5e54-8148-77b502780929","","note","Select ""No"" detail why no QC/QA has been viewed/referenced below",,,
+"checkpoint-group",,"","section","Inspection Specifics"
+"checkpoint-status",,"","checkpoint","Consented drawings have been followed"
+"checkpoint-status",,"","checkpoint","General comments, photos and observations during inspection"
+"checkpoint-group",,"","section","Site Report Summary/Closeout"
+"checkpoint-status",,"","checkpoint","Works accepted and may proceed (select Pass) or reinspection required to defective elements (select Fail - Works Cannot Proceed)"
+"text","34c54d48-41a9-57e5-b270-a021645af2c9","","textbox","Remedial(s) - Recorded and Closed Out",,,
+"holdpoint",,"","signoff","RAISE REMEDIAL / REQUEST SIGNOFF"
+
+"checklist-sectioned",,"","checklist","","",,,207,"No",,"042ac25afc119df12c93801f1089aa78155431199ca06d23fb4714ff832bc259"
+"checkpoint-group",,"","section","Site Inspection Details"
+"checkpoint-status",,"","checkpoint","All Site Details Inputted Below"
+"label","bd8258f8-6aea-4ad8-88dd-5e3db03e51b6","","note","Ryman Healthcare Ltd",,,
+"label","e2779b3a-9c23-47c5-8f99-6958c0f198fd","","note","Mitchell Vranjes job #18/041",,,
+"label","c39b7de1-5a3f-4004-8212-4d2a5b9f48da","","note","Riccarton Park",,,
+"text","a1c229f7-2130-414b-b823-0e21409aa41f","","textbox","Building Consent NO.",,,
+"text","91cee4d4-4ce3-4420-8618-ba8fd37b9ee4","","textbox","Date site visit occurred",,,
+"text","32864b04-0d91-4afa-9d0e-7c369725ce01","","textbox","Time on site (Include start & end time)",,,
+"text","9fda1c7a-4dde-4def-9051-01a3e7a3bac0","","textbox","Report prepared by - Engineer's name",,,
+"text","efc13b5e-1e7f-4dff-b001-8721353b49b5","","textbox","Additional personel accompanying engineer",,,
+"button","c5ac461b-95ad-46a6-9661-685fde67df26","","button","Has contractors pre-inspection QA been reviewed?","yes, no",,
+"label","38ff54d4-47ff-40e3-a676-57ff9f4e388a","","note","Select ""Yes"" if pre-inspection QC/QA has been viewed & detail below / attach examples",,,
+"label","57ac5ff4-6e5b-42a8-9dd0-9df888446ea1","","note","Select ""No"" detail why no QC/QA has been viewed/referenced below",,,
+"checkpoint-group",,"","section","Inspection Specifics"
+"checkpoint-status",,"","checkpoint","Consented drawings have been followed"
+"text","a849bd90-ed28-4890-bcc3-2e60dc0da580","","textbox","Drawing & Revision Number(s)",,,
+"checkpoint-status",,"","checkpoint","General comments, photos and observations during inspection"
+"label","959f9ef5-c74d-4315-a63e-de9d2523972a","","note","Capture relevant photos specific to this site visit report",,,
+"checkpoint-group",,"","section","Site Report Summary/Closeout"
+"checkpoint-status",,"","checkpoint","Works accepted and may proceed (select Pass) or reinspection required to defective elements (select Fail - Works Cannot Proceed)"
+"select","5c54c72d-6509-4cad-9cc0-d034d6b6e24f","","dropdown","Select appropriate outcome","PASS - Construction can continue and no ""Remedial"" work is required, PASS - Construction can continue once listed items in the ""Remedial"" folder have been corrected, FAIL - CONSTRUCTION IS TO STOP (Fail above checkpoint) and datail below the reason for the failure ",,
+"label","cee39575-65dd-4dfc-a640-53f9608c6d84","","note","Photographic evidence to close out remedial items is required prior to pouring concrete or completing works.  Proceeding without the engineer’s approval is at the Contractor’s risk",,,
+"label","8ff04d25-0d2e-431b-9e44-44be7cc969f2","","note","Compliance with the structural drawings and specifications are the sole responsibility of the Contractor. The Engineer excepts no liability for construction practices not carried out in accordance with the Engineers (or Architectural co-ordination) drawings and specifications. This inspection is a general construction review with the intent to check the construction works are generally in accordance with the Engineers drawings and specifications and does not remove the Contractors responsibility to meet all requirements of the Engineer's documentation. Unless otherwise noted above, the Engineer has not checked the Setout dimensions of any items - this is the responsibility of the Contractor.",,,
+"holdpoint",,"","signoff","Raise Remedial / Request Signoff"
+"checkpoint-no-status",,"","checkpoint","Remedial(s) - Recorded and Closed Out"
+
+"checklist-sectioned",,"","checklist","","",,,1,"No",,"5c77a46ed3fff3487e522ad1ecc5b581f22294a685edac5fd7b97b100c795e57"
+"checkpoint-group",,"","section","Site Inspection Details"
+"checkpoint-status",,"","checkpoint","All Site Details Inputted Below"
+"text","60ef59fe-14df-58e0-a35a-eedd7ac6b741","","textbox","Building Consent No.",,,
+"text","50a23467-0aab-5691-8cf1-e947a90b32f2","","textbox","Date site visit occurred",,,
+"text","4ebd846e-3694-56d8-ab51-90859989005b","","textbox","Tom on site (include start and end times)",,,
+"text","36cdb572-f69d-54dd-8ed2-041f8fa7e899","","textbox","Report prepared by - Engineer's name",,,
+"text","7f78d0be-deb2-5b77-a589-ceaa899a7758","","textbox","Additional personnel accompanying engineer",,,
+"button","9fa7dc57-30cf-5416-bf84-33741bf5728f","","button","Has contractors pre-inspection QA been reviewed?","Yes, No",,
+"label","f33deb96-11e5-5266-84e9-796765665a54","","note","Select ""Yes"" if pre-inspection QC/QA has been viewed & detail below / attach examples",,,
+"label","94612d96-c97b-5e54-8148-77b502780929","","note","Select ""No"" detail why no QC/QA has been viewed/referenced below",,,
+"checkpoint-group",,"","section","Inspection Specifics"
+"checkpoint-status",,"","checkpoint","Consented drawings have been followed"
+"checkpoint-status",,"","checkpoint","General comments, photos and observations during inspection"
+"checkpoint-group",,"","section","Site Report Summary/Closeout"
+"holdpoint",,"Signoffs not allowed on checkpoint-group.","signoff","Signoffs"
+"checkpoint-status",,"","checkpoint","Works accepted and may proceed (select Pass) or reinspection required to defective elements (select Fail - Works Cannot Proceed)"
+"text","34c54d48-41a9-57e5-b270-a021645af2c9","","textbox","Remedial(s) - Recorded and Closed Out",,,
+"holdpoint",,"","signoff","RAISE REMEDIAL / REQUEST SIGNOFF"
+
+"checklist-sectioned",,"","checklist","","",,,7,"No",,"3e08b54f0e78135917fb8bf3912e953a2a41c09197d010f334603f021f010b03"
+"checkpoint-group",,"","section","Site Inspection Details"
+"checkpoint-status",,"","checkpoint","All Site Details Inputted Below"
+"label","bd8258f8-6aea-4ad8-88dd-5e3db03e51b6","","note","Ryman Healthcare Ltd",,,
+"label","e2779b3a-9c23-47c5-8f99-6958c0f198fd","","note","Mitchell Vranjes job #18/041",,,
+"label","c39b7de1-5a3f-4004-8212-4d2a5b9f48da","","note","Riccarton Park",,,
+"text","a1c229f7-2130-414b-b823-0e21409aa41f","","textbox","Building Consent NO.",,,
+"text","91cee4d4-4ce3-4420-8618-ba8fd37b9ee4","","textbox","Date site visit occurred",,,
+"text","32864b04-0d91-4afa-9d0e-7c369725ce01","","textbox","Time on site (Include start & end time)",,,
+"text","9fda1c7a-4dde-4def-9051-01a3e7a3bac0","","textbox","Report prepared by - Engineer's name",,,
+"text","efc13b5e-1e7f-4dff-b001-8721353b49b5","","textbox","Additional personel accompanying engineer",,,
+"button","c5ac461b-95ad-46a6-9661-685fde67df26","","button","Has contractors pre-inspection QA been reviewed?","yes, no",,
+"label","38ff54d4-47ff-40e3-a676-57ff9f4e388a","","note","Select ""Yes"" if pre-inspection QC/QA has been viewed & detail below / attach examples",,,
+"label","57ac5ff4-6e5b-42a8-9dd0-9df888446ea1","","note","Select ""No"" detail why no QC/QA has been viewed/referenced below",,,
+"checkpoint-group",,"","section","Inspection Specifics"
+"checkpoint-status",,"","checkpoint","Consented drawings have been followed"
+"text","a849bd90-ed28-4890-bcc3-2e60dc0da580","","textbox","Drawing & Revision Number(s)",,,
+"checkpoint-status",,"","checkpoint","General comments, photos and observations during inspection"
+"label","959f9ef5-c74d-4315-a63e-de9d2523972a","","note","Capture relevant photos specific to this site visit report",,,
+"checkpoint-group",,"","section","Site Report Summary/Closeout"
+"checkpoint-status",,"","checkpoint","Works accepted and may proceed (select Pass) or reinspection required to defective elements (select Fail - Works Cannot Proceed)"
+"select","5c54c72d-6509-4cad-9cc0-d034d6b6e24f","","dropdown","Select appropriate outcome","PASS - Construction can continue and no ""Remedial"" work is required, PASS - Construction can continue once listed items in the ""Remedial"" folder have been corrected, FAIL - CONSTRUCTION IS TO STOP (Fail above checkpoint) and datail below the reason for the failure ",,
+"label","cee39575-65dd-4dfc-a640-53f9608c6d84","","note","Photographic evidence to close out remedial items is required prior to pouring concrete or completing works.  Proceeding without the engineer’s approval is at the Contractor’s risk",,,
+"label","8ff04d25-0d2e-431b-9e44-44be7cc969f2","","note","Compliance with the structural drawings and specifications are the sole responsibility of the Contractor. The Engineer excepts no liability for construction practices not carried out in accordance with the Engineers (or Architectural co-ordination) drawings and specifications. This inspection is a general construction review with the intent to check the construction works are generally in accordance with the Engineers drawings and specifications and does not remove the Contractors responsibility to meet all requirements of the Engineer's documentation. Unless otherwise noted above, the Engineer has not checked the Setout dimensions of any items - this is the responsibility of the Contractor.",,,
+"holdpoint",,"","signoff","Raise Remedial / Request Signoff"
+"folder-normal",,"Not allowed as a child of checklist-sectioned.","folder-normal","Remedial(s) - Recorded and Closed Out"
+
+"checklist-sectioned",,"","checklist","","",,,1,"No",,"a8e36e47e7d59aad515e2840ebb28ecdf75346842a3d53c9b926832aea515897"
+"checkpoint-group",,"","section","Site Inspection Details"
+"checkpoint-status",,"","checkpoint","All Site Details Inputted Below"
+"label","bd8258f8-6aea-4ad8-88dd-5e3db03e51b6","","note","Ryman Healthcare Ltd",,,
+"label","e2779b3a-9c23-47c5-8f99-6958c0f198fd","","note","Mitchell Vranjes job #18/041",,,
+"label","c39b7de1-5a3f-4004-8212-4d2a5b9f48da","","note","Riccarton Park",,,
+"text","a1c229f7-2130-414b-b823-0e21409aa41f","","textbox","Building Consent NO.",,,
+"text","91cee4d4-4ce3-4420-8618-ba8fd37b9ee4","","textbox","Date site visit occurred",,,
+"text","32864b04-0d91-4afa-9d0e-7c369725ce01","","textbox","Time on site (Include start & end time)",,,
+"text","9fda1c7a-4dde-4def-9051-01a3e7a3bac0","","textbox","Report prepared by - Engineer's name",,,
+"text","efc13b5e-1e7f-4dff-b001-8721353b49b5","","textbox","Additional personel accompanying engineer",,,
+"button","c5ac461b-95ad-46a6-9661-685fde67df26","","button","Has contractors pre-inspection QA been reviewed?","yes, no",,
+"label","38ff54d4-47ff-40e3-a676-57ff9f4e388a","","note","Select ""Yes"" if pre-inspection QC/QA has been viewed & detail below / attach examples",,,
+"label","57ac5ff4-6e5b-42a8-9dd0-9df888446ea1","","note","Select ""No"" detail why no QC/QA has been viewed/referenced below",,,
+"checkpoint-group",,"","section","Inspection Specifics"
+"checkpoint-status",,"","checkpoint","Consented drawings have been followed"
+"text","a849bd90-ed28-4890-bcc3-2e60dc0da580","","textbox","Drawing & Revision Number(s)",,,
+"checkpoint-status",,"","checkpoint","General comments, photos and observations during inspection"
+"label","959f9ef5-c74d-4315-a63e-de9d2523972a","","note","Capture relevant photos specific to this site visit report",,,
+"checkpoint-group",,"","section","Site Report Summary/Closeout"
+"checkpoint-status",,"","checkpoint","Works accepted and may proceed (select Pass) or reinspection required to defective elements (select Fail - Works Cannot Proceed)"
+"select","5c54c72d-6509-4cad-9cc0-d034d6b6e24f","","dropdown","Select appropriate outcome","PASS - Construction can continue and no ""Remedial"" work is required, PASS - Construction can continue once listed items in the ""Remedial"" folder have been corrected, FAIL - CONSTRUCTION IS TO STOP (Fail above checkpoint) and datail below the reason for the failure ",,
+"label","cee39575-65dd-4dfc-a640-53f9608c6d84","","note","Photographic evidence to close out remedial items is required prior to pouring concrete or completing works.  Proceeding without the engineer’s approval is at the Contractor’s risk",,,
+"label","8ff04d25-0d2e-431b-9e44-44be7cc969f2","","note","Compliance with the structural drawings and specifications are the sole responsibility of the Contractor. The Engineer excepts no liability for construction practices not carried out in accordance with the Engineers (or Architectural co-ordination) drawings and specifications. This inspection is a general construction review with the intent to check the construction works are generally in accordance with the Engineers drawings and specifications and does not remove the Contractors responsibility to meet all requirements of the Engineer's documentation. Unless otherwise noted above, the Engineer has not checked the Setout dimensions of any items - this is the responsibility of the Contractor.",,,
+"holdpoint",,"","signoff","Raise Remedial / Request Signoff"
+"folder-normal",,"Not allowed as a child of checklist-sectioned.","folder-normal","Remedial(s) - Recorded and Closed Out"
+
+"checklist-sectioned",,"","checklist","","",,,1,"No",,"807eb26b4d11dc1e3eb18ad65bb55a63f8f75c2aa9113c5d46d230bce1108398"
+"checkpoint-group",,"","section","Site Inspection Details"
+"checkpoint-status",,"","checkpoint","All Site Details Inputted Below"
+"label","bd8258f8-6aea-4ad8-88dd-5e3db03e51b6","","note","Ryman Healthcare Ltd",,,
+"label","e2779b3a-9c23-47c5-8f99-6958c0f198fd","","note","Mitchell Vranjes job #18/041",,,
+"label","c39b7de1-5a3f-4004-8212-4d2a5b9f48da","","note","Riccarton Park",,,
+"text","a1c229f7-2130-414b-b823-0e21409aa41f","","textbox","Building Consent NO.",,,
+"text","91cee4d4-4ce3-4420-8618-ba8fd37b9ee4","","textbox","Date site visit occurred",,,
+"text","32864b04-0d91-4afa-9d0e-7c369725ce01","","textbox","Time on site (Include start & end time)",,,
+"text","9fda1c7a-4dde-4def-9051-01a3e7a3bac0","","textbox","Report prepared by - Engineer's name",,,
+"text","efc13b5e-1e7f-4dff-b001-8721353b49b5","","textbox","Additional personel accompanying engineer",,,
+"button","c5ac461b-95ad-46a6-9661-685fde67df26","","button","Has contractors pre-inspection QA been reviewed?","yes, no",,
+"label","38ff54d4-47ff-40e3-a676-57ff9f4e388a","","note","Select ""Yes"" if pre-inspection QC/QA has been viewed & detail below / attach examples",,,
+"label","57ac5ff4-6e5b-42a8-9dd0-9df888446ea1","","note","Select ""No"" detail why no QC/QA has been viewed/referenced below",,,
+"checkpoint-group",,"","section","Inspection Specifics"
+"checkpoint-status",,"","checkpoint","Consented drawings have been followed"
+"text","a849bd90-ed28-4890-bcc3-2e60dc0da580","","textbox","Drawing & Revision Number(s)",,,
+"checkpoint-status",,"","checkpoint","General comments, photos and observations during inspection"
+"label","959f9ef5-c74d-4315-a63e-de9d2523972a","","note","Capture relevant photos specific to this site visit report",,,
+"checkpoint-group",,"","section","Site Report Summary/Closeout"
+"checkpoint-status",,"","checkpoint","Works accepted and may proceed (select Pass) or reinspection required to defective elements (select Fail - Works Cannot Proceed)"
+"select","5c54c72d-6509-4cad-9cc0-d034d6b6e24f","","dropdown","Select appropriate outcome","PASS - Construction can continue and no ""Remedial"" work is required, PASS - Construction can continue once listed items in the ""Remedial"" folder have been corrected, FAIL - CONSTRUCTION IS TO STOP (Fail above checkpoint) and datail below the reason for the failure ",,
+"label","cee39575-65dd-4dfc-a640-53f9608c6d84","","note","Photographic evidence to close out remedial items is required prior to pouring concrete or completing works.  Proceeding without the engineer’s approval is at the Contractor’s risk",,,
+"label","8ff04d25-0d2e-431b-9e44-44be7cc969f2","","note","Compliance with the structural drawings and specifications are the sole responsibility of the Contractor. The Engineer excepts no liability for construction practices not carried out in accordance with the Engineers (or Architectural co-ordination) drawings and specifications. This inspection is a general construction review with the intent to check the construction works are generally in accordance with the Engineers drawings and specifications and does not remove the Contractors responsibility to meet all requirements of the Engineer's documentation. Unless otherwise noted above, the Engineer has not checked the Setout dimensions of any items - this is the responsibility of the Contractor.",,,
+"holdpoint",,"","signoff","Raise Remedial / Request Signoff"
+"folder-normal",,"Not allowed as a child of checklist-sectioned.","folder-normal","Remedial(s) - Recorded and Closed Out"
+
+"checklist-flat",,"","checklist","","",,,3,"No",,"474a6d9c20c35e9b0e9cb559828eb68b0a7ba8a299eba3450b3524a8a9444893"
+"checkpoint-status",,"","checkpoint","Compliance documents"
+"boolean","7ec0decd-e68b-4cdb-a46a-e2d06815ff7e","","tickbox","LBP Memorandum",,,
+"boolean","a98ce08a-76c7-4735-a165-126b6f3904c6","","tickbox","Mill Certificates",,,
+"boolean","13a87846-b5fb-4d0b-b2ac-40cca322f550","","tickbox","Concrete Dockets",,,
+"boolean","84c586bb-f1c0-4029-be74-7c3542e83f96","","tickbox","Concrete Strength Test Results",,,
+"checkpoint-status",,"","checkpoint","Mitchell Vranjes PS4 Attached"
+
