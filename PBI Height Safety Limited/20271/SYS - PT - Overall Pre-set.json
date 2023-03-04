@@ -1,0 +1,135 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "ae8032f3-b71a-5c05-9be3-35f75f681548": {
+          "title": "PBI Installer and Contact Info",
+          "type": "input",
+          "subtype": "text",
+          "order": 6
+        },
+        "5ff884ed-c59b-5e36-9b5f-34d19074db4c": {
+          "title": "Site Manager and Contact Info",
+          "type": "input",
+          "subtype": "text",
+          "order": 5
+        },
+        "c0560214-57ff-57e5-8e5d-48f63e9b2f7a": {
+          "title": "Job Number and Name",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "9447a2d5-f114-52c9-8a70-868bb5119862": {
+          "title": "QS and Contact Info",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "2726b989-21a3-5593-8dd3-763c9ac4f5d8": {
+          "title": "Project Manager and Contact Info",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "4ee10446-19a4-5fc1-841e-a3b51a3df736": {
+          "title": "PBI PM",
+          "type": "input",
+          "subtype": "text",
+          "order": 7
+        },
+        "1232c5d6-997c-58cf-ade2-4e6d04e87430": {
+          "title": "Main Contractor",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "b188ff0e-b381-5769-a848-a9abfb95f7e2": {
+          "title": "Site Address",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "meta": {
+        "name": "Overall Pre-set",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "System information:",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "SSP Attached",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Task Analysis Attached",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Relevant Drawings Attached",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Pre-Set Photos",
+        "dependant": true,
+        "stepType": "folder-normal",
+        "type": "step",
+        "permissions": {
+          "addStep": true,
+          "addPost": false
+        },
+        "display": "flat",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "name": "Overall Pre-set",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}
