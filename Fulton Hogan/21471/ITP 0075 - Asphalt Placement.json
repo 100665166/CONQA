@@ -1,0 +1,1427 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "0eae25c0-5c9d-5301-860f-c7afdb3cbc43": {
+              "title": "Lot Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "CIL-Civil Lot",
+                " DRL- Drainage Lot",
+                " EAL- Earthworks Lot",
+                " ELL- Electrical Lot",
+                " UTL- Utility Lot",
+                " STL- Structural Lot"
+              ],
+              "order": 3
+            },
+            "f5f189e3-ce03-5c0a-81c4-dd58550d4029": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "5add4aee-e12f-507d-beea-b6768e129f12": {
+              "title": "Activity",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "PAVI - Asphalt Placement"
+              ],
+              "order": 6
+            },
+            "1d70a2fa-872a-5404-b434-b3731b89aa26": {
+              "title": "Design Package No",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1145-ACM-CVD-DPK-0002",
+                " 1145-ACM-CVD-DPK-0003",
+                " 1145-ACM-CVD-DPK-0004",
+                " 1145-ACM-CVP-DPK-0001",
+                " 1145-ACM-CVP-DPK-0002",
+                " 1145-ACM-CVR-DPK-0001",
+                " 1145-ACM-CVR-DPK-0002",
+                " 1145-ACM-CVR-DPK-0003",
+                " 1145-ACM-CVR-DPK-0004",
+                " 1145-ACM-ELE-DPK-0001",
+                " 1145-ACM-ELE-DPK-0002",
+                " 1145-ACM-LDE-DPK-0001",
+                " 1145-ACM-LDE-DPK-0002",
+                " 1145-ACM-SBA-DPK-0001",
+                " 1145-ACM-STR-DPK-0001",
+                " 1145-ACM-TSI-DPK-0001",
+                " 1145-ACM-TSI-DPK-0002",
+                " 1145-ACM-TSI-DPK-0003",
+                " 1145-ACM-TSI-DPK-0004",
+                " 1145-ACM-UTL-DPK-0001",
+                " 1145-ACM-UTL-DPK-0002"
+              ],
+              "order": 7
+            },
+            "b9a3d81d-81bc-5bbd-ac31-7583e1aced08": {
+              "title": "Traffic Direction",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EB - Eastbound",
+                " ME - Median",
+                " NB - Northbound",
+                " SB - Southbound",
+                " WB - Westbound"
+              ],
+              "order": 8
+            },
+            "13daca31-3160-5100-87f1-851c69bfd3db": {
+              "title": "Lot Opened On",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "5568eb93-9e50-5343-a89d-aa8d226645fe": {
+              "title": "From and To Chainage",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "24c1f5fa-3e57-5c15-8e99-6062858d4176": {
+              "title": "Construction Element",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "PAVI - Paving"
+              ],
+              "order": 5
+            },
+            "7259c212-4d32-53f7-8b08-fc26aa673693": {
+              "title": "Lot Created On",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "dcf21f33-880e-5979-adf9-8c4dafb84f95": {
+              "title": "Engineer Responsible",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "40d6ece3-6d12-5132-9f2e-ca455aab5046": {
+              "title": "Work Commenced On",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "1.0 Lot Information",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Information",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "HOLD POINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "1b7bc405-ec7f-5a15-bdf4-c8e465bc2bd6": {
+              "title": "Frequency: Prior to commencing paving",
+              "type": "label",
+              "order": 0
+            },
+            "316cc0c1-bd97-5e01-a4eb-eeb5b1dce1cb": {
+              "title": "Record of Conformity: VR approval Completed ITP",
+              "type": "label",
+              "order": 8
+            },
+            "b0aed64d-18eb-5168-82ac-3b9f95efa441": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "d673e282-1c3c-50fe-af56-0cfddd3a150a": {
+              "title": "HP",
+              "type": "label",
+              "order": 10
+            },
+            "f5703050-e7ff-56ef-9e8c-60f52658c998": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "836e698f-4948-5b83-bd66-b026aa4a63e5": {
+              "title": "Acceptance Criteria: Ensure this mix design has been registered and is approved by Superintendent prior to laying mix.",
+              "type": "label",
+              "order": 2
+            },
+            "97eec926-02ce-5d3d-9bf5-0d66a24d2f7e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "4f2d2ac6-a6ac-5e87-9329-c35df229f7ea": {
+              "title": "Inspection / Test Method: Correspondence of receipt of mix design",
+              "type": "label",
+              "order": 6
+            },
+            "a53eb7df-03ae-5117-bbad-c5b2bb99c4e6": {
+              "title": "Reference Documents: VicRoads Spec. Cl.407.06",
+              "type": "label",
+              "order": 4
+            },
+            "bfc2a3b0-d3f2-56ac-90de-be62cb2b6a77": {
+              "title": "Responsibility: Site Engineer/ Asphalt Supervisor / Superintendent",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "d91ff0d5-2a67-50ef-9ada-a19b82f4fea6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "99809eb4-8047-5bdb-a5d3-682ab1547ea5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "874039e7-8b76-554c-8d7c-e0fbd4d52f83": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            }
+          },
+          "meta": {
+            "name": "1.1 Submission of Mix Design",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "13844e14-4ce7-5634-94bb-dc77f0d25781": {
+              "title": "Reference Documents: Relevant ITP for underlying lot",
+              "type": "label",
+              "order": 4
+            },
+            "2b930925-852c-5dfc-9595-e88b9d86b92f": {
+              "title": "Frequency: Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "dacee665-29bf-51ab-9ca3-db3acffab0cb": {
+              "title": "Record of Conformity: Inspection and Test Plan",
+              "type": "label",
+              "order": 8
+            },
+            "b7ec6abf-2511-564f-a935-f6fa08151c36": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "ffe9ca3f-c17a-5524-b9d1-541a9fc2f76a": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "0e5c313f-6649-55cf-a531-be948b4c2194": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "65bf06c5-f123-5f14-b55e-e38fc26af2a3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "5d5fc687-6b76-5b4b-88fd-d2c78bdc6a16": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "30365570-37b1-5730-866d-d066b79a1ab6": {
+              "title": "Acceptance Criteria: All quality information received for lot (includes levels, area and volume) and NCRs (BIRs) approved.",
+              "type": "label",
+              "order": 2
+            },
+            "da0ef21c-0bed-5d37-8dae-8bea3e9c5e56": {
+              "title": "Inspection / Test Method: Document review",
+              "type": "label",
+              "order": 6
+            },
+            "6d339af9-40b9-52a5-8289-901b3a5a2a26": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "meta": {
+            "name": "1.2 Ensure underlying lot conforms",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "1b7f582d-e784-566c-a2ca-37eeb83223e1": {
+              "title": "(i) Homogeneous surface and pavement material",
+              "type": "label",
+              "order": 3
+            },
+            "0ee074ba-bad8-5232-80d0-49fe21fc0ed0": {
+              "title": "and immediately notify the Contractors Representative of all matters discovered that a competent contractor who specialises in the type of works performed under Subcontract should have discussed by such inspection which in the Subcontractor's opinion render such work unsuitable for the proper execution of the work under the Subcontract.",
+              "type": "label",
+              "order": 8
+            },
+            "aaff4602-97a2-56f7-bd9a-746d3aa43a3e": {
+              "title": "Frequency: Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "a17501da-f65b-5eeb-a2b5-4d0dbf98e4a4": {
+              "title": "Responsibility: Site Engineer/ Asphalt Supervisor",
+              "type": "input",
+              "subtype": "text",
+              "order": 18
+            },
+            "27a39220-ba25-5d35-97d1-e3b8506ed2ef": {
+              "title": "WP",
+              "type": "label",
+              "order": 16
+            },
+            "9d287059-893a-52ed-9f22-3c9650ed9e30": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "1d91882c-ab47-564c-94e7-c112069c7bcd": {
+              "title": "(iii) Free from tearing and scabbing",
+              "type": "label",
+              "order": 5
+            },
+            "911fe582-5557-5d32-99e0-1ce19b5f2a56": {
+              "title": "(v) Free from loose and foreign materials",
+              "type": "label",
+              "order": 7
+            },
+            "422b1ff5-7d8e-5793-b4f6-60dc66a042b9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "aa3a9148-20f0-5bee-8955-e2800b0f4b70": {
+              "title": "(iv) Free from laminations",
+              "type": "label",
+              "order": 6
+            },
+            "f5c37ad9-801c-58fc-b3fe-d0c05479b83a": {
+              "title": "Reference Documents: CTW-175S Special Condition 11 (Refer Downer ITP - 1145-C200-FUL-QAC-CHK-0001)",
+              "type": "label",
+              "order": 10
+            },
+            "198275b5-0a7d-5349-94ef-5eaab5827d60": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "0582fb5a-47b6-5b77-8d22-705add6281e9": {
+              "title": "Record of Conformity: Inspection and Test Plan ITP Signed",
+              "type": "label",
+              "order": 14
+            },
+            "62e1cc2c-3fde-5c6d-9a06-a16d0be7801f": {
+              "title": "Acceptance Criteria: If the execution of any part of the work under the Subcontract is dependent upon the quality and completeness of an existing surface or work performed by Separate Contractors, the subcontractors shall visually inspect the existing surface or Separate Contractor's work for matters including the following:",
+              "type": "label",
+              "order": 2
+            },
+            "4be24681-2833-53fa-8f51-6d4544f5a544": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "2ff35f40-48ea-5b7e-863a-cde69b8d847b": {
+              "title": "(ii) Uniform in texture",
+              "type": "label",
+              "order": 4
+            },
+            "55723bb9-b91f-5555-8670-31a4befcfcc7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "aad5410a-5196-5156-8a86-f90b6ae55696": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "e5bb216f-37d1-50e0-8dd7-165d72d8e45e": {
+              "title": "Inspection / Test Method: Visual Inspection",
+              "type": "label",
+              "order": 12
+            }
+          },
+          "meta": {
+            "name": "1.3 Visual Inspection of underlying lot",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "327557dd-8c13-566d-85ed-b12f346ba8b5": {
+              "title": "Acceptance Criteria: The majority of the surface area to be paved has a temperature greater than or equal to the following:",
+              "type": "label",
+              "order": 2
+            },
+            "f07c976b-4735-56fa-a13a-32fe7387dc08": {
+              "title": "Responsibility: Site Engineer/ Asphalt Supervisor",
+              "type": "input",
+              "subtype": "text",
+              "order": 15
+            },
+            "c3e3b7cc-fa97-5435-829a-ef712d894639": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "0198cb12-b985-5f83-828b-174b46f22324": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "09898ea6-3f4d-5cdd-bf1e-ea1f5f8e755d": {
+              "title": "Record of Conformity: Thermometer / gauage",
+              "type": "label",
+              "order": 11
+            },
+            "80719627-ae38-5228-97ba-845468143f4a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "3e7ac92a-f3d8-5ff6-be97-262615157772": {
+              "title": "IP",
+              "type": "label",
+              "order": 13
+            },
+            "793fcf66-6eb4-57eb-8a9d-181ef6f997dd": {
+              "title": "10°C for PMBs & Class 600",
+              "type": "label",
+              "order": 4
+            },
+            "dd23532b-08fa-52e9-8a39-29625298785a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "d9cd0ea2-220b-5ed5-b4f6-f84c88ed5827": {
+              "title": "Inspection / Test Method: Verify",
+              "type": "label",
+              "order": 9
+            },
+            "207f3065-fda3-5fde-9fb0-056963b337c7": {
+              "title": "Base & Intermediate Courses: 5°C for conventional binders or",
+              "type": "label",
+              "order": 3
+            },
+            "340c1295-e6fe-5481-a057-b6c518829d38": {
+              "title": "Reference Documents: 407.13",
+              "type": "label",
+              "order": 7
+            },
+            "7b704b05-f21d-53ce-8eaa-0585d97529bf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "72d00199-f019-50fc-a402-d1483e5bd32d": {
+              "title": "Frequency: Prior to commencing paving",
+              "type": "label",
+              "order": 0
+            },
+            "33ca463b-ad02-53a2-a788-0e4756a4a8e4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "191f024f-21ce-5034-91e2-5153f4ffe215": {
+              "title": "Wearing Courses: 10°C for conventional binders or 15°C for PMBs",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "1.4 Ambient Conditions for Placing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "bce5c6a8-5552-5f1b-96ec-88dfeeff2052": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "c18f4bed-870a-590c-806b-2525c28ef117": {
+              "title": "Inspection / Test Method: Measure and mark out runs by tape measure or survey",
+              "type": "label",
+              "order": 9
+            },
+            "6240f938-0fb9-5fe7-8431-597cbb2489fa": {
+              "title": "(ii) Longitudinal Joints Offset from layer to layer by at least 150mm and be within 300mm of the lane line or centre of lane. V",
+              "type": "label",
+              "order": 4
+            },
+            "7536df86-b75d-57ff-9965-c07191da1e90": {
+              "title": "Acceptance Criteria: Runs to be marked to ensure placement of joints satisfy the following unless otherwise approved by the Client (MRPV):",
+              "type": "label",
+              "order": 2
+            },
+            "1960d1ba-6a83-5d08-8ecd-6e08ba2437f9": {
+              "title": "WP",
+              "type": "label",
+              "order": 13
+            },
+            "95e3e8aa-9b51-5253-8c7d-91a61bdcb44c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "701478fd-b0fe-5d30-a754-da34e5f3a399": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "d47264ea-9b37-51af-a02e-92a4c97c8c3b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "142500fa-7590-5949-9f1d-a30b9dbdbb80": {
+              "title": "(iii) Wearing course shall be on lane lines.",
+              "type": "label",
+              "order": 5
+            },
+            "bb9bb864-fc5f-5aa4-a8e8-2f57c4f3d12d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "c72d38d0-8f75-5ea2-b303-0bdcaf24f239": {
+              "title": "Frequency: Prior to commencing paving",
+              "type": "label",
+              "order": 0
+            },
+            "28a2ddfa-5aae-5aca-9e0f-13fa6f7e76f9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "e56f0cb5-baaa-536e-9be4-4ed3d2a71b95": {
+              "title": "Record of Conformity: Paving Plan",
+              "type": "label",
+              "order": 11
+            },
+            "bfb0d414-34a9-53d7-bd33-fe27c5261d87": {
+              "title": "(i) Transverse Joints Offset from layer to layer by at least 2m",
+              "type": "label",
+              "order": 3
+            },
+            "62d9be92-52e7-58cb-9f24-35af6379a9e1": {
+              "title": "Reference Documents: 407.17 (b) & (c) Pavement Drawings",
+              "type": "label",
+              "order": 7
+            },
+            "a431e0cf-b196-5d9e-9260-47401e2c0684": {
+              "title": "Responsibility: Project Engineer/ Asphalt Supervisor Superintendent",
+              "type": "input",
+              "subtype": "text",
+              "order": 15
+            }
+          },
+          "meta": {
+            "name": "1.5 Planning of Joints",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "4737c6ae-f0b2-5f57-a65a-bdeec6b7cb15": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "80c0e9a1-f058-569f-aec1-6d0f83c7e3c1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "7ef66568-4127-5db1-83bc-e301d573c7ef": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "aad81b11-88c6-5baf-9ebd-a607d7711b13": {
+              "title": "Responsibility: Project Engineer/ Asphalt Supervisor",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "3c85accd-0863-5691-b0b0-6d59bfdd54f5": {
+              "title": "Acceptance Criteria: Where new pavement abuts an existing pavement, the existing pavement shall be removed in steps to achieve an offset from layer to layer of not less than 150mm. Depth of step to be cut to the full depth of each indiviual layer.",
+              "type": "label",
+              "order": 2
+            },
+            "d738f46a-d830-5250-be41-c45f48b7dacb": {
+              "title": "Inspection / Test Method: Visual Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "3f442c34-d5cf-5886-acbd-8ccd41c12806": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "7cd74247-85e5-58d9-9123-40477c9509e5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "da532611-bce6-549f-9d2e-d19d709e30ff": {
+              "title": "WP",
+              "type": "label",
+              "order": 10
+            },
+            "b13f4a92-70ca-53a6-93c0-09d8bd6266d9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "323d9aa1-7fee-58fc-a81f-d5280ba94ff2": {
+              "title": "Reference Documents: 407.16 (c) Project Specs. Section 3040.06 (d)(vii)",
+              "type": "label",
+              "order": 4
+            },
+            "156574e4-50fb-5618-ae15-1aba8efabdf8": {
+              "title": "Record of Conformity: ITP Signed",
+              "type": "label",
+              "order": 8
+            },
+            "fde1c66a-e814-5776-9bc9-a10cf3f80ed1": {
+              "title": "Frequency: Prior to commencing paving",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "1.6 Longitudinal Joints with existing Pavement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "1 - Preliminary Works",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "HOLD POINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "42aa520e-3a02-5ed6-b972-08bfa6d453c2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "4ba9e079-5aee-5956-a50f-8b3d18450565": {
+              "title": "Responsibility: Site Engineer/ Asphalt Supervisor / Superintendent",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "d4a51404-3538-597e-acce-07036ecc7d46": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "e8a3dc2e-479e-52ac-b711-9e273887511e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "ad31d05a-4442-5b66-978c-8e2f3afee684": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "94970856-4b1f-5666-b15f-b386c8004072": {
+              "title": "Inspection / Test Method: Visual Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "bd380ff1-1d6e-5bcd-97c6-5f26bfa6f44c": {
+              "title": "Frequency: Prior to commencing Paving",
+              "type": "label",
+              "order": 0
+            },
+            "6adacc4b-3bee-5be8-a224-26527e5f3c7a": {
+              "title": "Acceptance Criteria: Approval to place asphalt on the sub-base or granular base for a new pavement or for an ordinary of an existing bituminous surfaced pavement.",
+              "type": "label",
+              "order": 2
+            },
+            "cba5a7eb-0939-5b3f-ad6d-fd925caa2823": {
+              "title": "HP",
+              "type": "label",
+              "order": 10
+            },
+            "cfce967e-e8fa-5d7a-8ab2-f2e0417ba0cc": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "efa9e288-b9b2-5608-8505-5c1e9ebafb10": {
+              "title": "Record of Conformity: Inspection and Test Plan",
+              "type": "label",
+              "order": 8
+            },
+            "dbbb7971-7dff-516b-ac97-6b637cb5eb93": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "95f57fc8-5cc6-5375-a501-c2f579f3f167": {
+              "title": "Reference Documents: 404.13 405.07 407.18 (Refer Downer ITP - 1145-C200-FUL-QAC-CHK-0001)",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "2.1 Commencement of placement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "dcb1e94f-9cbf-5db1-81c2-10375f00d5ff": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "f1696e4a-f2bf-5aad-a0c7-cf4354af43e6": {
+              "title": "Inspection / Test Method: Document review",
+              "type": "label",
+              "order": 6
+            },
+            "b2f987ec-b954-5a49-9305-7bd27cfbb74c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "9ee47e44-6d54-5b87-b5b8-c872676e95c6": {
+              "title": "Acceptance Criteria: Prior to commencing cold weather placement of asphalt, the Contractor shall submit a job specific cold weather placement management plan to the Superintendent for review.",
+              "type": "label",
+              "order": 2
+            },
+            "c5071c69-364a-5736-9418-81c8c69b6905": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "caad0d50-393c-56b7-b26e-b24ddb1dfab1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "aec6fbc2-7ad9-5b74-b6e6-603640ea2278": {
+              "title": "Responsibility: Project Engineer/ Asphalt Project Manager or Engineer",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "85016376-bcf5-5250-8392-05e6b845224f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "9a8177ae-ec16-5699-8962-8ff0ded5a8cf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "bc491a11-e967-57f4-8ef1-594bdfa780f2": {
+              "title": "Reference Documents: 407.17C",
+              "type": "label",
+              "order": 4
+            },
+            "39d18939-83c1-536d-a2ab-695490b6b895": {
+              "title": "Frequency: Prior to commencing Paving (Seasonal)",
+              "type": "label",
+              "order": 0
+            },
+            "299d9b61-435b-5523-9182-22dbcf306f57": {
+              "title": "Record of Conformity: Inspection and Test Plan",
+              "type": "label",
+              "order": 8
+            },
+            "a83e3fdb-79fc-5cfe-b6a6-47f3d5430cd4": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            }
+          },
+          "meta": {
+            "name": "2.2 Cold Weather Placement Management Plan",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "7c51c8e4-1dec-59ca-b671-f1b3b42b1e24": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "ebd75b7e-9672-58a2-9fe1-6ca4ff5d5e39": {
+              "title": "Frequency: Each lot",
+              "type": "label",
+              "order": 0
+            },
+            "05e5be36-fc65-52d2-b2b7-2469c79f9dad": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "b3efbf6d-f4ea-5ba7-bcc3-ef63151172e8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "53731290-e82c-50eb-a634-20038c768f66": {
+              "title": "Responsibility: Site Engineer/ Asphalt Supervisor",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "4a0e450b-e147-5e44-abca-f137d61b5c37": {
+              "title": "Acceptance Criteria: Check correct mix design as per pavement design has been delivered prior to laying mix.",
+              "type": "label",
+              "order": 2
+            },
+            "d5d677c2-e78d-558c-9440-88814c90d72d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "13d709a0-565a-5176-8984-019c0afe69f5": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "a8c02e2e-3530-5c20-a7cc-b401870c2e80": {
+              "title": "Reference Documents: VicRoads Spec. Cl.407.06",
+              "type": "label",
+              "order": 4
+            },
+            "28b8009e-5968-5d0a-871b-a21d69113d06": {
+              "title": "Inspection / Test Method: Visual Inspection & Delivery Docket",
+              "type": "label",
+              "order": 6
+            },
+            "505332fc-3b32-58a5-90e4-4369a1e063a5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "c3f4bf24-3535-5d64-a849-0a2e4068df68": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "3e9b52b5-8c18-53c1-889f-d04c6a5960b3": {
+              "title": "Record of Conformity: Delivery docket Completed ITP",
+              "type": "label",
+              "order": 8
+            }
+          },
+          "meta": {
+            "name": "2.3 Mix Design Confirmation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "de41dc82-2391-5c48-83e5-1cf22812cd85": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "b343c188-6ea1-50bb-8712-fde2b95de838": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "fc7ab151-3e0f-56aa-9b7d-bdde9813693c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "3a647b1c-bd25-564a-9166-cae997f5ecc3": {
+              "title": "Responsibility: Site Engineer/ Asphalt Supervisor",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "dd029045-2004-569f-8622-cc41eaffb3fe": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "81513d53-62a8-59cf-b639-ba054a6859bc": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "b6b2be9c-7b08-5fa2-906a-006f81f16ae5": {
+              "title": "Reference Documents: 404.14 (Refer Downer ITP - 1145-C200-FUL-QAC-CHK-0001)",
+              "type": "label",
+              "order": 4
+            },
+            "e5c30ee0-4071-588b-8df2-1df50d194b9c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "022a43aa-7ee7-5907-8636-b646c04bfa36": {
+              "title": "Acceptance Criteria: Traffic not to be placed on asphalt placed until Fulton Hogan agree the surface temperature is less than the required mix temp. (SMA 40°C) to receive traffic.",
+              "type": "label",
+              "order": 2
+            },
+            "cb27388c-b02c-51f4-8215-e3a30cf2cc28": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "a962adaa-ba25-5b53-bd83-2fe3274a22de": {
+              "title": "Record of Conformity: Inspection and Test Plan ITP Signed Thermometer / gauage",
+              "type": "label",
+              "order": 8
+            },
+            "1592859b-4913-50cf-8d23-4cac464844e1": {
+              "title": "Frequency: During Construction",
+              "type": "label",
+              "order": 0
+            },
+            "895aa249-bc28-5570-a541-fcd14e926a11": {
+              "title": "Inspection / Test Method: Verify",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "2.4 Running traffic on Placed Asphalt",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "2 - Asphalt Placement",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "89a51625-574b-5826-9b31-4130260c28fa": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "57fc325d-c265-5eb8-9936-27d70128738c": {
+              "title": "Responsibility: Site Engineer/ Asphalt Supervisor Superintendent",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "2c56a9ed-d782-50e8-a1a9-d7822aefd300": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "f972a175-fc8b-596f-ae35-f9f3155515ac": {
+              "title": "Acceptance Criteria: 407.21 - DGA as per 407.22 405.08 - RGG - not less than 3 passes with steel wheeled roller. 3 passes to be made within time to compaction cessation substrate (pavement) temperature is between 7° and 10°C.",
+              "type": "label",
+              "order": 2
+            },
+            "79173c39-3725-5c41-b308-9794738d1f0e": {
+              "title": "Record of Conformity: Visual Inspection/ Compaction test results Visual Inspection/ Visual Inspection/ Field Report/",
+              "type": "label",
+              "order": 8
+            },
+            "df4cc8f9-348f-5d13-90f8-e34a04f4d741": {
+              "title": "Frequency: Per Lot",
+              "type": "label",
+              "order": 0
+            },
+            "6ec6aac2-915e-5a69-bea9-3954b4dce4f7": {
+              "title": "WP",
+              "type": "label",
+              "order": 10
+            },
+            "09aadf28-876d-51e7-995a-ff3aaf7fe795": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "937f2b59-76fd-541d-ac5f-d1e35dd3306f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "478db5f8-d179-5de2-963f-7f025b05a8ce": {
+              "title": "Inspection / Test Method: Material Sampling & testing",
+              "type": "label",
+              "order": 6
+            },
+            "fa4f4dc8-45e9-5e66-b0bc-b0553640c2b2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "77c7cca5-3feb-53ed-ad87-422d60df1486": {
+              "title": "Reference Documents: 407.21 405.08 404.14 417.12 (Refer Downer ITP - 1145-C200-FUL-QAC-CHK-0001)",
+              "type": "label",
+              "order": 4
+            },
+            "0d202948-b305-5de7-8ec1-b0af9fc16581": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            }
+          },
+          "meta": {
+            "name": "3.1 Placing Material",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "411286ac-90a6-5cd7-92fa-af6b14465c3a": {
+              "title": "         Range (mm)    Max S. (mm)",
+              "type": "label",
+              "order": 6
+            },
+            "ff5b42f4-5e66-5115-af5d-0b33b8bfda0a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "d5a4e06a-d14a-53ea-882a-bedfdb97c2d4": {
+              "title": "Scale of Surface Level Measurement -",
+              "type": "label",
+              "order": 4
+            },
+            "dc1aa46d-c6cd-517b-a3c0-5d8220d96cc8": {
+              "title": "",
+              "type": "label",
+              "order": 9
+            },
+            "74babae4-d9c8-5861-82bc-b3bcb904ad67": {
+              "title": "Responsibility: Site Engineer/ Surveyor / Survey Manager",
+              "type": "input",
+              "subtype": "text",
+              "order": 23
+            },
+            "37f481ee-5ff8-50cc-b7ae-d9fd803ab7dc": {
+              "title": "Record of Conformity: Survey Conformance Report",
+              "type": "label",
+              "order": 19
+            },
+            "7058371c-29f9-5b07-80fb-036e5e7f4195": {
+              "title": "         Granular or CT Subbase",
+              "type": "label",
+              "order": 5
+            },
+            "4e3cfbe2-bb41-53f0-b8f6-00b1478cf679": {
+              "title": "Reference Documents: VicRoads Sec 407.293 Surface Level Tolerances for Sub-base and Pavement Courses",
+              "type": "label",
+              "order": 15
+            },
+            "1e12e947-6d46-5946-b43b-0ca576333e71": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 18
+            },
+            "0e3da3a8-5c50-5fd1-95ed-33f81b8e7371": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 20
+            },
+            "586dc592-5053-54cb-978c-2d37c47b23f7": {
+              "title": "         Asphalt Layers",
+              "type": "label",
+              "order": 10
+            },
+            "20de65b5-eddd-52e9-8d4f-33afcad7a05c": {
+              "title": "Inspection / Test Method: Document Review/ Site Inspection",
+              "type": "label",
+              "order": 17
+            },
+            "59c0c244-068d-54e0-a9f2-e30624c6ebfa": {
+              "title": "",
+              "type": "label",
+              "order": 3
+            },
+            "f050e46d-cfcb-5f21-8213-94fe3bc3b568": {
+              "title": "Scale A -   +4 to -8          8",
+              "type": "label",
+              "order": 7
+            },
+            "69f7e68b-a842-57a9-967d-ca91b538f63e": {
+              "title": "Scale B -  +/- 8            10",
+              "type": "label",
+              "order": 13
+            },
+            "0bb3535e-25a2-512f-8e0a-c6fbbc10df0c": {
+              "title": "         Range (mm)    Max S. (mm)",
+              "type": "label",
+              "order": 11
+            },
+            "bd874cca-827e-5546-965a-89a9258d7af4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 22
+            },
+            "bb903d04-11d3-5654-91de-f1a4b98796fd": {
+              "title": "Acceptance Criteria: 407.293 Surface Level Tolerances for Sub-base and Pavement Courses",
+              "type": "label",
+              "order": 2
+            },
+            "394dc754-a73b-5374-90da-07a061f5a13a": {
+              "title": "Scale B -   +6 to -12         13",
+              "type": "label",
+              "order": 8
+            },
+            "c48fee44-4eed-50a7-861b-aeae1eb69905": {
+              "title": "Scale A -  +/- 5             8",
+              "type": "label",
+              "order": 12
+            },
+            "61e20774-8f64-5f8b-aab8-003e849b95b3": {
+              "title": "SCP",
+              "type": "label",
+              "order": 21
+            },
+            "1c8cddea-19e6-5311-97da-68ee40b8083c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "d46e491e-0ec0-5f51-a062-d61df1a79fbd": {
+              "title": "Frequency: Per 4,000m2 at completion of work",
+              "type": "label",
+              "order": 0
+            },
+            "87e1f692-e06e-59d5-b27d-7d3b0512fc81": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            }
+          },
+          "meta": {
+            "name": "3.2 Survey Level Conformance",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "c9c49635-fdf3-55e4-8bc7-edb64cf450a8": {
+              "title": "Print Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "96b51711-8d1e-5fde-9a3d-4390851cb490": {
+              "title": "Work Completed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "d9aa14ce-c91c-550b-b4c4-da6f98a628d3": {
+              "title": "The signature below verifies that this ITP has been completed in accordance with the Fulton Hogan's Quality system Procedures and verifies lot compliance with specifications.",
+              "type": "label",
+              "order": 0
+            },
+            "4c29872d-52bd-53c1-b611-8114cec4c5c1": {
+              "title": "Position:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "fe782c80-70be-5a48-bca5-bc20cbe8023b": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "3 - Testing",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "be667405-a55c-5e13-8a72-a6e9cc7be73b": {
+              "title": "Lot verified By",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Babak Rudd-Project Quality Manager",
+                " Nicola Lodo (Area 2 Manager)",
+                " Nicolas Terpstra (Delivery Manager)",
+                "Other:"
+              ],
+              "order": 3
+            },
+            "ca3765fc-75a6-5bd9-bdf0-49a84e8fbd38": {
+              "title": "Is the relevant RFI attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 0
+            },
+            "60903ee6-0e56-53c6-ac3a-fe97236d953b": {
+              "title": "Other:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "e2e9b5f6-8c91-5b85-bf3a-bf47b6a19391": {
+              "title": "Lot Status",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OUTSTANDING",
+                " CLOSED"
+              ],
+              "order": 5
+            },
+            "7ffc4b5b-99cf-5ad0-b25a-eea777abf3c9": {
+              "title": "Lot Closed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "5659eec9-427d-50fb-b125-26b7bb4270c8": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "4c3594a6-ded3-5ba6-8ede-343429275632": {
+              "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 2
+            },
+            "3e657a69-17bd-5205-83c5-918836f3278e": {
+              "title": "Is the relevant NCR attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Lot Verification.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Verification",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "ITP-075-AX-LOT-XXX - Desc",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}
