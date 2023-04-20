@@ -1,0 +1,87 @@
+{
+    "tree": [],
+    "data": {
+      "66789288-c32a-5ace-b6a5-e5841892a68f": {
+        "title": "Other:",
+        "type": "input",
+        "subtype": "text",
+        "order": 4
+      },
+      "55a8a561-e6f0-5bfb-9ae0-09395729187f": {
+        "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "YES",
+          " NO",
+          " N/A"
+        ],
+        "order": 2
+      },
+      "98509ac4-f3b1-569d-b8b8-f0512650041e": {
+        "title": "Lot Status",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "OUTSTANDING",
+          " CLOSED"
+        ],
+        "order": 5
+      },
+      "0beaadbd-80c3-57b6-9b0d-e67a46c85b0e": {
+        "title": "Is the relevant RFI attached to the Lot?",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "YES",
+          " NO",
+          " N/A"
+        ],
+        "order": 0
+      },
+      "a1675822-7435-5bad-88cc-3411e17a8029": {
+        "title": "Lot Closed On",
+        "type": "input",
+        "subtype": "text",
+        "order": 6
+      },
+      "345d2cd5-2f35-5ffd-8a75-c9a21eeef663": {
+        "title": "Is the relevant NCR attached to the Lot?",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "YES",
+          " NO",
+          " N/A"
+        ],
+        "order": 1
+      },
+      "15a60c33-2156-5c10-ace1-d1bd5361d9fa": {
+        "title": "Lot verified By",
+        "type": "enum",
+        "subtype": "select",
+        "values": [
+          "Babak Rudd-Project Quality Manager",
+          " Abid Hameed (Area 1 Manager)",
+          " Nicola Lodo (Area 2 Manager)",
+          " Nicolas Terpstra (Delivery Manager)",
+          "Other:"
+        ],
+        "order": 3
+      },
+      "55772375-7012-5491-91cf-0d26da182012": {
+        "title": "comments",
+        "type": "input",
+        "subtype": "text",
+        "order": 7
+      }
+    },
+    "meta": {
+      "name": "Lot Verification.",
+      "dependant": false,
+      "stepType": "checkpoint-status",
+      "type": "step",
+      "display": "normal",
+      "order": 4
+    }
+}

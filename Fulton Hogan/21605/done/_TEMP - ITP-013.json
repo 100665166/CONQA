@@ -1,0 +1,148 @@
+{
+  "tree": [],
+  "data": {
+    "bb875baa-7271-55ed-b274-4abd5c3ce21c": {
+      "title": "Is the relevant RFI attached to the Lot?",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "YES",
+        "NO",
+        "N/A"
+      ],
+      "order": 1
+    },
+    "f255c87c-0bb2-5266-b8c5-6b0feb3b7e71": {
+      "title": "Is the relevant NCR attached to the Lot?",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "YES",
+        "NO",
+        "N/A"
+      ],
+      "order": 2
+    },
+    "3eed58a8-434d-5f15-8a1b-ed5d44b10d33": {
+      "title": "Lot Plan or “Highlighted” IFC drawings (mud maps) attached to the Lot?",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "YES",
+        "NO",
+        "N/A"
+      ],
+      "order": 4
+    },
+    "64f2754a-25eb-5854-a00a-27509406dfed": {
+      "title": "Lot Closed On",
+      "type": "input",
+      "subtype": "text",
+      "order": 12
+    },
+    "e80ff64d-a05e-54e8-9c7b-3f601283b024": {
+      "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "YES",
+        "NO",
+        "N/A"
+      ],
+      "order": 3
+    },
+    "9c309652-cb7c-5f71-b186-82ab627be118": {
+      "title": "Lot Status",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "OUTSTANDING",
+        " CLOSED"
+      ],
+      "order": 11
+    },
+    "e91c86f2-2a45-54f3-b919-536f120ca4d0": {
+      "title": "As built records attached to the Lot?",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "YES",
+        "NO",
+        "N/A"
+      ],
+      "order": 8
+    },
+    "60b804ea-b83b-58b7-9de6-ad0df359bf4a": {
+      "title": "Lot verified By",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "Babak Rudd-Project Quality Manager",
+        " Abid Hameed (Area 1 Manager)",
+        " Nicola Lodo (Area 2 Manager)",
+        " Nicolas Terpstra (Delivery Manager)",
+        "Other:"
+      ],
+      "order": 9
+    },
+    "0b27c59a-c6a5-55a2-8b01-ad880228fb06": {
+      "title": "Work Completed On",
+      "type": "input",
+      "subtype": "text",
+      "order": 0
+    },
+    "964667e8-a326-54fc-b758-49957c1e125a": {
+      "title": "Conforming Test Results attached to the Lot?",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "YES",
+        "NO",
+        "N/A"
+      ],
+      "order": 7
+    },
+    "add82322-1ade-5b05-84cd-a46c37bfec4d": {
+      "title": "Other:",
+      "type": "input",
+      "subtype": "text",
+      "order": 10
+    },
+    "dfbcfa49-29d0-54b0-b8ff-73326b13a0a2": {
+      "title": "Subcontractor/ Supplier records attached to the Lot?",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "YES",
+        "NO",
+        "N/A"
+      ],
+      "order": 6
+    },
+    "451f18c9-65ba-577a-bd2a-e2238bff15ef": {
+      "title": "Survey conformance records attached to the Lot?",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "YES",
+        "NO",
+        "N/A"
+      ],
+      "order": 5
+    },
+    "c5c80b05-4932-507b-a5e9-8fac2bd7c4cb": {
+      "title": "comments",
+      "type": "input",
+      "subtype": "text",
+      "order": 13
+    }
+  },
+  "meta": {
+    "name": "Lot Verification.",
+    "dependant": false,
+    "stepType": "checkpoint-status",
+    "type": "step",
+    "display": "normal",
+    "order": 0
+  }
+}

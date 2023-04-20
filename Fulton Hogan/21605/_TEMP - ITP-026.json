@@ -1,0 +1,87 @@
+{
+  "tree": [],
+  "data": {
+    "9f96db78-c9e0-5bb4-ab07-335eb95106b8": {
+      "title": "Lot Status",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "OUTSTANDING",
+        " CLOSED"
+      ],
+      "order": 5
+    },
+    "3bb467b8-8bfd-5a8d-ad6d-149e83b0a998": {
+      "title": "Lot verified By",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "Babak Rudd-Project Quality Manager",
+        " Abid Hameed (Area 1 Manager)",
+        " Nicola Lodo (Area 2 Manager)",
+        " Nicolas Terpstra (Delivery Manager)",
+        "Other:"
+      ],
+      "order": 3
+    },
+    "56d119c2-2726-5782-8c9a-b93a427baf79": {
+      "title": "comments",
+      "type": "input",
+      "subtype": "text",
+      "order": 7
+    },
+    "a9666584-c2cf-5757-b03f-329c02d9035c": {
+      "title": "Is the relevant RFI attached to the Lot?",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "YES",
+        " NO",
+        " N/A"
+      ],
+      "order": 0
+    },
+    "1499f20d-c01b-5a2d-887b-093eabd2bc11": {
+      "title": "Other:",
+      "type": "input",
+      "subtype": "text",
+      "order": 4
+    },
+    "987a8550-dd1e-59f4-89e1-ed62fa2773e5": {
+      "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "YES",
+        " NO",
+        " N/A"
+      ],
+      "order": 2
+    },
+    "f71ae1ca-3d89-5899-8608-fb9003f3df19": {
+      "title": "Is the relevant NCR attached to the Lot?",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "YES",
+        " NO",
+        " N/A"
+      ],
+      "order": 1
+    },
+    "4a02c97e-096c-513d-81ae-dbfceaf2002c": {
+      "title": "Lot Closed On",
+      "type": "input",
+      "subtype": "text",
+      "order": 6
+    }
+  },
+  "meta": {
+    "name": "Lot Verification.",
+    "dependant": false,
+    "stepType": "checkpoint-status",
+    "type": "step",
+    "display": "normal",
+    "order": 4
+  }
+}

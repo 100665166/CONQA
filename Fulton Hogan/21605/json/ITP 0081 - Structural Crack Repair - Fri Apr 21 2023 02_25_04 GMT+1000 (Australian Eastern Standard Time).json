@@ -1,0 +1,2247 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "378a2e13-82e6-5257-a380-bba85ffa91bd": {
+              "title": "ITP Description: Structural Crack Repair",
+              "type": "label",
+              "order": 1
+            },
+            "68c7b7bf-42c0-50b2-a039-00f0c05b9295": {
+              "title": "Document Number (in Teambinder): 1145-C200-FUL-QAC-ITP-0081",
+              "type": "label",
+              "order": 2
+            },
+            "2696f4b4-8556-548d-9cb4-6fc84cb7c824": {
+              "title": "1.3 VicRoads Section 687 August 2018",
+              "type": "label",
+              "order": 7
+            },
+            "53b7f91b-e029-5fbf-be39-bfd9fde6477c": {
+              "title": "Revision Number: 00",
+              "type": "label",
+              "order": 3
+            },
+            "d0350451-e00d-5d8a-8b79-a817f77b7352": {
+              "title": "Document Title: ITP-081-AX-LOT-XXX - Desc",
+              "type": "label",
+              "order": 0
+            },
+            "92554cef-c8c0-55c6-8fde-a915294c51be": {
+              "title": "Revision Date: 04/05/2022",
+              "type": "label",
+              "order": 4
+            },
+            "6767c3bb-a183-52ef-b58f-79138ddd4663": {
+              "title": "1.1 VicRoads Section 610 Feb 2020",
+              "type": "label",
+              "order": 5
+            },
+            "78166a0d-3cd7-5596-a7ec-15fd53dc42f9": {
+              "title": "1.2 VicRoads Section 686 November 2018",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "Referenced Documentation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Referenced Documentation",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "a747e6a7-ce3c-5759-8820-f48b08a5ee61": {
+              "title": "Lot Created On",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "6054e681-ac63-56f0-bba3-16c5253f138f": {
+              "title": "Traffic Direction",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EB - Eastbound",
+                " ME - Median",
+                " NB - Northbound",
+                " SB - Southbound",
+                " WB - Westbound"
+              ],
+              "order": 8
+            },
+            "2ad79de0-dce0-5497-a669-d2865cb08477": {
+              "title": "Lot Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "STL- Structural Lot"
+              ],
+              "order": 3
+            },
+            "4df475a5-273e-533d-9218-358149f4dcf8": {
+              "title": "Engineer Responsible",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "62fc49f9-38f3-51fa-973c-44c05707d2a4": {
+              "title": "Design Package No",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1145-ACM-CVD-DPK-0002",
+                " 1145-ACM-CVD-DPK-0003",
+                " 1145-ACM-CVD-DPK-0004",
+                " 1145-ACM-CVP-DPK-0001",
+                " 1145-ACM-CVP-DPK-0002",
+                " 1145-ACM-CVR-DPK-0001",
+                " 1145-ACM-CVR-DPK-0002",
+                " 1145-ACM-CVR-DPK-0003",
+                " 1145-ACM-CVR-DPK-0004",
+                " 1145-ACM-ELE-DPK-0001",
+                " 1145-ACM-ELE-DPK-0002",
+                " 1145-ACM-LDE-DPK-0001",
+                " 1145-ACM-LDE-DPK-0002",
+                " 1145-ACM-SBA-DPK-0001",
+                " 1145-ACM-STR-DPK-0001",
+                " 1145-ACM-TSI-DPK-0001",
+                " 1145-ACM-TSI-DPK-0002",
+                " 1145-ACM-TSI-DPK-0003",
+                " 1145-ACM-TSI-DPK-0004",
+                " 1145-ACM-UTL-DPK-0001",
+                " 1145-ACM-UTL-DPK-0002"
+              ],
+              "order": 7
+            },
+            "a59b2679-eac7-53b7-ba7c-6f7fe664068b": {
+              "title": "Work Commenced On",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "74052956-701d-567e-9a63-0ad4766d54c1": {
+              "title": "Construction Element",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "SITE - Site General"
+              ],
+              "order": 5
+            },
+            "71401a90-8c1a-5f91-915f-d4d18031e752": {
+              "title": "From and To Chainage",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "eb133d81-633a-589e-a1af-3b9bf9e83468": {
+              "title": "Lot Opened On",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "cb9423df-f3ac-522e-8ab0-dad7c1f05860": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "c3c2ddb3-aafd-5e01-bec3-23bb8ae0f4c2": {
+              "title": "Activity",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OTH - Other"
+              ],
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "1.0 Lot Information",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "1 - Lot Information",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "HOLD POINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "31fbc0d6-20e5-5735-861f-83a7eef1fd62": {
+              "title": "Frequency: For each element, prior to Works commencing",
+              "type": "label",
+              "order": 0
+            },
+            "23b91cce-8ae7-5338-b8b3-f69141701c7e": {
+              "title": "Cracks to be determined either as active or inactive.",
+              "type": "label",
+              "order": 3
+            },
+            "5f0d4e23-5648-55c6-a7a4-10cba4e621db": {
+              "title": "Inactive Cracks:",
+              "type": "label",
+              "order": 4
+            },
+            "fa95137b-d076-5dfa-b7b1-1e39d1d72d25": {
+              "title": "Active Cracks:",
+              "type": "label",
+              "order": 7
+            },
+            "37a84f81-92f8-5dcf-a84a-fba806091c09": {
+              "title": ">0.2mm - shall be repaired via Routing and Sealing.",
+              "type": "label",
+              "order": 8
+            },
+            "f93058be-4e2b-53f4-85ec-06db6617de95": {
+              "title": "Acceptance Criteria: Repair of cracks shall not be undertaken unless the cracked concrete structure has been assessed and the influence of cracks on load bearing capacity, serviceability and durability has been evaluated by the Contractor, and reviewed by the Superintendent.",
+              "type": "label",
+              "order": 2
+            },
+            "85ebe7c0-e9cd-54b6-ab63-24c002f92191": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 18
+            },
+            "2436c177-741d-514c-a563-f56ae09a747b": {
+              "title": "Teambinder Correspondence Approval number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "05fddbf5-ef74-5c5f-af10-73b4e89234ba": {
+              "title": "Responsibility: SE/PE and Superintendent",
+              "type": "label",
+              "order": 19
+            },
+            "c50251b3-f7ec-5588-ad06-7a8af550d5cc": {
+              "title": "Record of Conformity: Holdpoint released",
+              "type": "label",
+              "order": 15
+            },
+            "37e028a0-539c-541f-98d4-44b95fdfdbe2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "122ffb07-5f1f-5e21-93f5-f0ba99512ac3": {
+              "title": "Inspection / Test Method: Visual Inspection",
+              "type": "label",
+              "order": 13
+            },
+            "0a2152f1-7c92-5807-9088-bb4b71764132": {
+              "title": ">0.2mm - shall be repaired via Resin Injection, Routing and Sealing or Gravity Feed method.",
+              "type": "label",
+              "order": 6
+            },
+            "7936b1cc-5f62-56f9-93a7-3d921b120e30": {
+              "title": "HP",
+              "type": "label",
+              "order": 17
+            },
+            "af7b1692-ccc4-506c-a465-e179b4f43a53": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "17fe5a97-93c0-5709-9492-170bcbab9c28": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "58680cae-3a0b-5277-97da-dc120beb9d36": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "18c7e0d2-54ea-56a5-b56c-181b648b523a": {
+              "title": "Reference Documents: VicRoads Spec. Cl.687.01 Cl.610.24 (b)",
+              "type": "label",
+              "order": 11
+            },
+            "1a1e35b4-b666-549c-acc5-77274838d075": {
+              "title": "<0.2mm - May be coated by protective coating system provided they are not associated with earth or water retaining concrete components.",
+              "type": "label",
+              "order": 5
+            },
+            "d1d1681c-f560-54ca-ac27-c5e35482d6f3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            }
+          },
+          "meta": {
+            "name": "2.1 - Assessment of Crack",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "HOLD POINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "bd63ec34-e532-5b3e-b023-f7c6af9106a4": {
+              "title": "Reference Documents: VicRoads Spec. Cl.687.01 CI.687.09 (a) Cl.610.24 (b)",
+              "type": "label",
+              "order": 5
+            },
+            "ae80bbf3-99e6-59f4-9f42-cbf9b345018e": {
+              "title": "HP",
+              "type": "label",
+              "order": 11
+            },
+            "e1b69d81-b2a1-5801-9af8-5424c3d2552c": {
+              "title": "Responsibility: SE/PE and Superintendent",
+              "type": "label",
+              "order": 13
+            },
+            "85c523cf-123f-5c99-9ad9-bc55e15c8f62": {
+              "title": "Record of Conformity: Holdpoint released",
+              "type": "label",
+              "order": 9
+            },
+            "cfd704d0-af74-583d-b46d-f5beb024afdb": {
+              "title": "Teambinder Material Approval number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "2480c1b8-c850-5012-ade2-c4fe99e1015b": {
+              "title": "Inspection / Test Method: Visual Inspection",
+              "type": "label",
+              "order": 7
+            },
+            "727e2259-e36f-57bd-bc88-a673e4a90abf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "5f4e6503-2831-5494-9760-dafa6a516b35": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "4759e0f6-27e5-55f1-95ff-0dcb0fd00080": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "7b128d95-bc85-5664-b181-009b3f643a98": {
+              "title": "Frequency: For each repair methodology, 14 days prior to Works commencing",
+              "type": "label",
+              "order": 0
+            },
+            "41c3d515-bef3-5a75-bddf-59aefa01e9e7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "5cf69cbe-a077-5b01-ac39-3777ba82d0e4": {
+              "title": "Acceptance Criteria: Crack repair procedure should be submitted prior to repairs being undertaken and must be approved by the Superintendent. Repair of cracks shall not be undertaken unless the cracked concrete structure has been assessed and the influence of cracks on load bearing capacity, serviceability and durability has been evaluated by FH and reviewed by the Superintendent.",
+              "type": "label",
+              "order": 2
+            },
+            "1dda63fa-d434-5acb-95ce-a40d29655fe4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "bf44ad9e-558a-5a3f-9e71-5bed2cd0dc65": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            }
+          },
+          "meta": {
+            "name": "2.2 - Work Procedure",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "2 - Preliminaries - Procedures & Documentation",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "1a6c4541-9432-5174-b325-31dcef8717e9": {
+              "title": "Teambinder Material Approval number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "9fef23f9-c248-5ae2-80f1-1070d0614052": {
+              "title": "Note: For the resin injection or gravity fed applications only.",
+              "type": "label",
+              "order": 8
+            },
+            "c2b907b3-53c5-5d67-ae7b-85018d2c9e91": {
+              "title": "ii. compressive strength @ 7 days ≥60MPa;",
+              "type": "label",
+              "order": 4
+            },
+            "4259e6cd-6ae5-548b-bba2-0f6f0d6c1414": {
+              "title": "Frequency: For each product, prior to Works commencing",
+              "type": "label",
+              "order": 0
+            },
+            "fa0dbf60-3b92-5494-bb61-76e258103e8c": {
+              "title": "i. viscosity @ 20°C - 23°C 650cps max.",
+              "type": "label",
+              "order": 3
+            },
+            "0d2fc045-7c54-5215-8cb5-ff4f27b7245c": {
+              "title": "v. adhesive strength at crack edges @ 7 days ≥2.5MPa (or concrete failure)",
+              "type": "label",
+              "order": 7
+            },
+            "953d2df3-a915-5d85-826a-a93ccdca9118": {
+              "title": "iii. tensile strength @ 7 days ≥25MPa;",
+              "type": "label",
+              "order": 5
+            },
+            "e9461224-4f9c-584b-b76d-349bc4ec7f61": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "b47a9d26-16c0-59ef-b0c5-69f5db6405fb": {
+              "title": "iv. flexural strength @ 7 days ≥50MPa;",
+              "type": "label",
+              "order": 6
+            },
+            "9a984b6a-5c9e-55fe-a54f-b846e48b8fb2": {
+              "title": "IP",
+              "type": "label",
+              "order": 17
+            },
+            "c48f9084-4082-58f3-9d52-b09e23f4c9ac": {
+              "title": "Acceptance Criteria: Product to be selected based on the following criteria:",
+              "type": "label",
+              "order": 2
+            },
+            "1a8a1f50-00ef-520f-bf9f-98d95c41bdf7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "ad36e3d4-0320-5be2-9b92-ea6b867fd64c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "89896374-b2ee-5239-a8fd-f20cf55df939": {
+              "title": "Record of Conformity: Material Report",
+              "type": "label",
+              "order": 15
+            },
+            "49577d74-eed7-5a8a-806e-d8b98a254621": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "2badafe3-9a9c-5ad6-82f9-288c1021b101": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 18
+            },
+            "a3ddaeaf-bda8-52de-a4d3-658c8b4d17a9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "05cf5fd9-004e-524e-b5ee-eab6a73381dd": {
+              "title": "Reference Documents: VicRoads Spec. Cl.687.05 (a) Product TDS",
+              "type": "label",
+              "order": 11
+            },
+            "f7cb1461-3041-5168-9af6-c666820ef5d0": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 19
+            },
+            "77d2bcf3-83a6-5d79-91e1-c22d6db77a67": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 13
+            }
+          },
+          "meta": {
+            "name": "3.1 - Resin Injection/Gravity Feed (Inactive): Epoxy or Polyurethane Resin Selection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "772d740a-9b6a-5f12-aae3-0558e881c0ab": {
+              "title": "Record of Conformity: Material Report",
+              "type": "label",
+              "order": 11
+            },
+            "7dd394b5-294d-575a-9769-1329cbda6cbe": {
+              "title": "Reference Documents: VicRoads Spec. Cl.687.05 (c) , Product TDS",
+              "type": "label",
+              "order": 7
+            },
+            "0faccee6-d95f-5830-81c3-2118d85f60fe": {
+              "title": "Teambinder Material Approval number",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "870ca50e-71ad-5ffe-b274-71ad526aea79": {
+              "title": "Acceptance Criteria: Product to be selected based on the following criteria:",
+              "type": "label",
+              "order": 2
+            },
+            "1f0b9dac-8500-5ca0-b7db-e968a68a91ac": {
+              "title": "Frequency: For each product, prior to Works commencing",
+              "type": "label",
+              "order": 0
+            },
+            "f43c9bae-b578-5f3e-bdf5-24f31795e80f": {
+              "title": "IP",
+              "type": "label",
+              "order": 13
+            },
+            "bcbe3c90-c739-5804-ab4a-33d19841788c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "000d5883-b8e3-5580-a2f4-6f6efd500866": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 15
+            },
+            "436e8393-cf4a-55b6-aaf5-c251d1c91f7b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "d8bbd27b-cfb6-5a2b-b3b7-59cdb3808617": {
+              "title": "ii. Whether or not the repair/sealant is subject to traffic (trafficable or non-trafficable)",
+              "type": "label",
+              "order": 4
+            },
+            "e7aa7cf3-aea5-5874-8894-58f30eb62640": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "1585677c-e358-557e-b615-02f30c77bb74": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "c66a64d4-1355-56a9-8077-52856a3bc567": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "8d8cd405-ff39-56ac-a530-d31458405cdb": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 9
+            },
+            "4662d805-cbf4-5c33-adec-a525faac9587": {
+              "title": "i. provide for a minimum expectant movement of ±25%;",
+              "type": "label",
+              "order": 3
+            },
+            "15765d30-ccea-5cb6-a096-c7efcf879e00": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            }
+          },
+          "meta": {
+            "name": "3.2 - Routing and Sealing (Active): Flexible Sealant Selection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "fde16194-608c-5b99-b559-a37310827445": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 17
+            },
+            "ab878c55-f581-5059-bca3-3eaa273b68f8": {
+              "title": "ii. tensile strength @ 7 days ≥25MPa;",
+              "type": "label",
+              "order": 4
+            },
+            "bb406f03-c282-5e10-b753-147cff099132": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "f56399f1-5bcd-5553-9270-aecc5907389c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "e24fa0f8-8946-58c3-bb98-a136436647fc": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "75b60e14-e2cb-5386-af42-01a7ad4f2134": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "ed717c91-cf30-563e-bd7b-29c85a5b88ef": {
+              "title": "Frequency: For each product, prior to Works commencing",
+              "type": "label",
+              "order": 0
+            },
+            "8b2a2f0a-78b8-58dd-8c11-401321487059": {
+              "title": "Teambinder Material Approval number",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "48df0755-3485-5762-b4c0-8971661a4a39": {
+              "title": "i. compressive strength @ 7 days ≥60MPa;",
+              "type": "label",
+              "order": 3
+            },
+            "de16ee26-3e45-55f1-b949-7232eeaca30a": {
+              "title": "Note: For the routing and sealing, injection nipple/entry port placement and surface sealing applications only.",
+              "type": "label",
+              "order": 6
+            },
+            "901865d3-99d2-507f-9252-f8ecbb42f44d": {
+              "title": "Record of Conformity: Material Report",
+              "type": "label",
+              "order": 13
+            },
+            "660686cd-7fc8-56ae-b2e3-6b90f304417f": {
+              "title": "Reference Documents: VicRoads Spec. Cl.687.05 (b) , Product TDS",
+              "type": "label",
+              "order": 9
+            },
+            "1ef6a9a6-ee73-51c2-b300-3a228f64f7ae": {
+              "title": "Acceptance Criteria: Product to be selected based on the following criteria:",
+              "type": "label",
+              "order": 2
+            },
+            "64b3b79f-e6cd-5016-8b82-e1343e76aca0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "5553d37a-9246-5a10-9552-08bd818a296a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "06fae678-1e8f-5858-b702-9af6663d8254": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 11
+            },
+            "87772d8f-22c5-5f0c-964c-47aac03b2ac6": {
+              "title": "iii. flexural strength @ 7 days ≥30MPa;",
+              "type": "label",
+              "order": 5
+            },
+            "e9099de3-d4ee-5f80-949b-e1927bc797e8": {
+              "title": "IP",
+              "type": "label",
+              "order": 15
+            }
+          },
+          "meta": {
+            "name": "3.3 - Routing and Sealing (Inactive): Epoxy Mortar or Paste Selection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "060f472e-24ab-5489-bd43-7a6af510d91f": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 12
+            },
+            "8c42ae43-a0ed-5333-a5f5-16aab6832538": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "b3f8223a-150e-5b2d-80a1-5a8f02368355": {
+              "title": "IP",
+              "type": "label",
+              "order": 16
+            },
+            "c4231623-39f3-5226-9b45-170d2adec820": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 18
+            },
+            "e237f960-85ca-5a04-b772-6fae7b8ebd9b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "159422b8-3645-578d-a204-b985d4bfc6cc": {
+              "title": "Acceptance Criteria: Product to be selected based on the following criteria:",
+              "type": "label",
+              "order": 2
+            },
+            "92a75bc6-d0f7-5b51-b391-b560ee4f0fc6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "6041154a-873f-54a2-b363-04a18ae34625": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "32c3c1ee-5799-5cf5-ba81-b6af88ce0082": {
+              "title": "iv. be compatible with a film-forming top coat;",
+              "type": "label",
+              "order": 6
+            },
+            "8e473b2d-5f30-54c4-beba-056a71d3928b": {
+              "title": "Note: For the protective coating of inactive cracks ≤0.2mm in pre-stressed elements and exposure classifications B2, C & U only - 0.2mm cracks are acceptable in other precast elements and exposure classifications.",
+              "type": "label",
+              "order": 7
+            },
+            "ffecc039-5bec-5ae7-b21d-71f093fdf76f": {
+              "title": "Teambinder Material Approval number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "3d8cfb06-7300-5a5b-9783-df293baeab06": {
+              "title": "Reference Documents: VicRoads Spec. Cl.687.12 Cl.687.05 (c) Cl.687.05 (h) , Product TDS",
+              "type": "label",
+              "order": 10
+            },
+            "8dcca035-e4d7-51b1-873d-8d4d5477b6ac": {
+              "title": "ii. penetration depth: 5mm min.",
+              "type": "label",
+              "order": 4
+            },
+            "6b00452e-7b34-5956-9320-096353ecda9c": {
+              "title": "iii. contain a fugitive dye to enable coated areas;",
+              "type": "label",
+              "order": 5
+            },
+            "97ba8fca-3689-5100-9e1b-9b55c5de602b": {
+              "title": "Record of Conformity: Material Report",
+              "type": "label",
+              "order": 14
+            },
+            "94b44775-bb33-59bb-9745-7902691dd7a7": {
+              "title": "i. active ingredient: ≥95% (penetrant) ≥80% (solid silane) ≥80% (silane crème)",
+              "type": "label",
+              "order": 3
+            },
+            "d4b8e3cc-437a-55cb-8ce2-4a67780c9eba": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "969fbc6f-7086-53dc-ae50-ed6dfe097bc6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "7b774ec9-91ba-5016-9c9a-284a2d7d4b6f": {
+              "title": "Frequency: For each product, prior to Works commencing",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "3.4 - Protective Coating: Silane Selection - Inactive Cracks <0.2mm Width",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "3 - Preliminaries - Materials",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "5de7a891-3adf-55e2-8306-a04478c33e5c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "31413474-eab2-5ce2-8d58-305a4e2fedd0": {
+              "title": "Reference Documents: VicRoads Spec. Cl.687.04",
+              "type": "label",
+              "order": 4
+            },
+            "89532020-9e33-5b79-af64-48145ddb8175": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "f4a7401d-e0ed-5ec6-a88b-a9dda355070a": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "e71a309e-fac6-5d6e-a009-4d917182c08d": {
+              "title": "Record of Conformity: Document evidence of adequate experience",
+              "type": "label",
+              "order": 8
+            },
+            "3dd8f745-f430-5374-957d-2b654fab4faf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "d646abcc-f08d-5c69-bf2c-c8ab0a33f069": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "2d94f058-7d17-55b0-a1cb-1a5c7113929d": {
+              "title": "Frequency: Once, for each personnel, prior to starting Works",
+              "type": "label",
+              "order": 0
+            },
+            "61ddcf2d-e940-58e8-a7fe-f4ddbc0dca6b": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 6
+            },
+            "9d584172-b5fc-523c-a620-15bd7f8bae00": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "3857e381-f299-5c88-b24f-f78d1b0716ef": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 12
+            },
+            "4a111943-9e93-53f5-bf20-54aa977448fe": {
+              "title": "Acceptance Criteria: Personnel undertaking the concrete repair works shall have a minimum of 5 years experience in application. Documented evidence to be available.",
+              "type": "label",
+              "order": 2
+            },
+            "1e672104-4533-567d-841e-c01e268de779": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            }
+          },
+          "meta": {
+            "name": "4.1 - Contractor Competency",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "f62503c0-5505-5e4c-bef7-00145ffca7d3": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 14
+            },
+            "e336af7a-3ea9-50ee-8358-c33564aca521": {
+              "title": "Note: This ITP does not cover special purpose, multi-component injection pumps.",
+              "type": "label",
+              "order": 4
+            },
+            "77777b9b-2d3f-574c-bd80-ca2cf293929c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "43cb3494-7f89-51bc-9c6d-188466b76cb5": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 8
+            },
+            "e303c082-019c-5c91-b122-7ac70bc9453e": {
+              "title": "Record of Conformity: Signed ITP",
+              "type": "label",
+              "order": 10
+            },
+            "27e8271f-62c1-5b72-ae44-cef5ce700f2f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "320ed45f-7834-5afc-9c81-1e6e7a788534": {
+              "title": "Reference Documents: VicRoads Spec. Cl.687.06 (a) CI.687.09 (c) (iii)",
+              "type": "label",
+              "order": 6
+            },
+            "14dd5df0-0b73-5376-b744-350c350f4341": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "ac71b232-e138-5632-bb75-92ff5fbb988e": {
+              "title": "IP",
+              "type": "label",
+              "order": 12
+            },
+            "d2284902-5137-560f-9d84-47520f3c037d": {
+              "title": "Acceptance Criteria: Injection equipment to be simple, easy to handle guns with pressure regulation or limitations in the operating range and be simple to clean and maintain.",
+              "type": "label",
+              "order": 2
+            },
+            "8f4672da-9fab-50f1-b687-d79d77dffd7a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "839a0acf-4c1d-56c9-adea-0e81c9088a43": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "03269220-e248-5eb8-abe6-c624c6a64409": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "077603b8-9105-5e95-a63a-1e9ecfbc0e7c": {
+              "title": "Nipples/entry ports to have shut off valves or at least the ability to be capped to prevent leaks or air travelling back into the crack. Resin adhesive injection shall be performed continuously until cracks are completely filled. If port to port travel of resin adhesive is not indicated, the work shall cease immediately and the Superintendent notified.",
+              "type": "label",
+              "order": 3
+            },
+            "04f6ca95-2c34-531e-af6f-48af073e8aa2": {
+              "title": "Frequency: Once, prior to starting the Works",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "4.2 - Injection Equipment",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "97a6bd4c-74fe-5ede-8005-44babc3ce868": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "4a01de9a-97ce-5ed6-a915-827bf983191e": {
+              "title": "Reference Documents: VicRoads Spec. Cl.687.05 CI.687.09 (c) (i)",
+              "type": "label",
+              "order": 6
+            },
+            "96f14414-40ca-5d05-94ea-fe76cc12ee2a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "c68fe9eb-a17e-5787-a891-54f683ec7f6b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "d473b096-c078-5097-9e5b-5fca56d741a8": {
+              "title": "IP",
+              "type": "label",
+              "order": 12
+            },
+            "ad5e3816-9d3c-5ddb-80f2-8934cf4ccb49": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "9984b987-66b8-53f0-bc9c-2f4d545db26e": {
+              "title": "Acceptance Criteria: Repairs are not to be undertaken when the ambient temperature is below 5°C or 5°C on a falling thermometer, or above 35°C.",
+              "type": "label",
+              "order": 2
+            },
+            "be482b11-e66b-5f38-b03b-06ab8a1b169c": {
+              "title": "Record of Conformity: Signed ITP",
+              "type": "label",
+              "order": 10
+            },
+            "d72a1eac-d1e2-5cb9-94f0-6e56d836f141": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "d85494ea-07ad-5374-9423-c0c0965d6195": {
+              "title": "Where re-injection is required, this shall be carried out within the temperature-dependent period of the crack filling material given in the directions for use by the manufacturer. At high ambient temperatures, the use of cooling to influence the workability time of materials in containers is permissible.",
+              "type": "label",
+              "order": 4
+            },
+            "89dc25f2-f9f3-582e-adee-7540e0844cba": {
+              "title": "Inspection / Test Method: Visual/ Measure",
+              "type": "label",
+              "order": 8
+            },
+            "bc9b5aae-8d76-5c7a-85c8-0b3be362a821": {
+              "title": "Frequency: Prior to each repair",
+              "type": "label",
+              "order": 0
+            },
+            "5fd40c57-a4a9-5893-8057-30cf024059fd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "f752c1f0-11f3-51ca-aa77-a51b2db5d0dd": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 14
+            },
+            "aacbc3b4-b9a0-5642-a86b-8aaf839430c0": {
+              "title": "Cooling the materials is allowed should the need arise if temperatures inadvertently rise during the repairs.",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "4.3 - Weather Conditions",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "4 - Pre-construction activities",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "7f0fbf0c-2ae4-5c85-9852-a13761f6264e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "980180b5-0ac1-51eb-b3ac-5613436fd00f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "e2a0b2f8-c632-5781-b99a-873e35294c0f": {
+              "title": "IP",
+              "type": "label",
+              "order": 11
+            },
+            "597fb638-0dfe-5238-af04-9365411d580e": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 7
+            },
+            "c0097b8f-e09c-5acb-aff5-4a7c4f9b2a28": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "dd3c5931-d633-59e3-a257-5bcce122d427": {
+              "title": "Record of Conformity: Signed ITP",
+              "type": "label",
+              "order": 9
+            },
+            "81dce741-d342-591c-a160-34e78afdad97": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 13
+            },
+            "f2320494-55f8-55e7-bbd8-f6f8e765bfd6": {
+              "title": "Where cracks and surrounding areas have been moistened during the cleaning process, sufficient time or accelerated drying-out needs to occur unless the crack repair materials are water tolerant",
+              "type": "label",
+              "order": 3
+            },
+            "cfa18793-5f22-509a-a690-7ba4338d9fd6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "883e2239-6070-5e65-a0cb-69b7eb30dac6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "ab4178bb-080b-5f51-9456-7222d8df454c": {
+              "title": "Frequency: Each crack",
+              "type": "label",
+              "order": 0
+            },
+            "0cd3e2ca-c6ce-5386-9071-f1aa4a5bb4fa": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "ad67c6f8-1fbe-5048-a3e8-a59e6bcddf3a": {
+              "title": "Acceptance Criteria: Cracks and surfaces located within 50mm each side of the crack to be cleaned of all loose particles, dirt, dust, curing compounds, grease or efflorescence by appropriate means (i.e. oil-free compressed air, industrial vacuum cleaners or flushing with high pressure water). Impurities, which inhibit wetting and adhesion or penetration by the crack filling material, shall be removed.",
+              "type": "label",
+              "order": 2
+            },
+            "300644d0-5004-5df8-9224-274e2ed6d021": {
+              "title": "Reference Documents: VicRoads Spec. Cl.687.08",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "5.1 - Surface Preparation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "4a5c8ac2-e285-5d5a-8d03-31303e1284a3": {
+              "title": "Frequency: Each active crack",
+              "type": "label",
+              "order": 0
+            },
+            "f858a76e-cc44-5622-8514-6500914a1a33": {
+              "title": "Acceptance Criteria: Approved procedure to be followed, steps to witness:",
+              "type": "label",
+              "order": 2
+            },
+            "5ce58b51-88c4-5ce6-8a00-6f33159d9ed2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "4a397f77-dc64-56c6-9697-3d380ba677c3": {
+              "title": "IP",
+              "type": "label",
+              "order": 18
+            },
+            "ad5ef80f-0c41-59d9-97e8-967851c274db": {
+              "title": "Reference Documents: VicRoads Spec. Cl.687.09 CI.687.14 (a) CI.687.15 Product TDS",
+              "type": "label",
+              "order": 12
+            },
+            "97acbfec-c5dc-5ae3-bfef-e28028ce5066": {
+              "title": "vi. Initiate the injection, applying pressure until resin can be witnessed entering the next nipple/entry port;",
+              "type": "label",
+              "order": 8
+            },
+            "ff9b8ac7-818e-5bf4-a0ee-25eebb90b1ec": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "e3db8922-7c64-549e-883c-04918f2dbadd": {
+              "title": "vii. Stop pressure and close the valve of the engaged nipple/entry port and connect to the nipple/entry port where the resin appeared, working either upwards (for vertical cracks) or along the crack (for horizontal cracks) until all nipples/entry ports have been filled;",
+              "type": "label",
+              "order": 9
+            },
+            "be62bf80-2fd1-5682-af85-8d5382d4b5ff": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "49afc31b-e6ae-5525-8fbc-a13c3ecea1c0": {
+              "title": "v. Once the epoxy mortar or paste has fully set, connect the injection gun to the lowest nipple/entry port (for vertical cracks) or at one end of the crack (for horizontal cracks);",
+              "type": "label",
+              "order": 7
+            },
+            "3f81ca93-3782-5498-a14b-395cf852bc77": {
+              "title": "i. All materials in date and mixed as per the Product TDS;",
+              "type": "label",
+              "order": 3
+            },
+            "36008d09-b86b-58cc-960f-be1094678a31": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "a812d621-6ebe-5ed0-87cb-d76ea2b38eb4": {
+              "title": "iii. Nipple/entry port placement central over the cracks at 200mm spacings maximum (where cracks are through the full section, nipple/entry port placement shall stagger);",
+              "type": "label",
+              "order": 5
+            },
+            "a2b93e2f-afbf-5527-8773-ae169b6eaabc": {
+              "title": "Record of Conformity: Signed ITP",
+              "type": "label",
+              "order": 16
+            },
+            "c24584cf-ba0e-534b-b1b9-4775ec8dfb8e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "43953c9c-4fea-5d91-aad7-486774c75907": {
+              "title": "ii. Each nipple/entry port coated in epoxy mortar or paste to create a water-tight seal to the entire perimeter;",
+              "type": "label",
+              "order": 4
+            },
+            "9ad05614-5399-510d-9d8f-e63ac3220f62": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 19
+            },
+            "ca8645e1-82e0-5774-9761-6b50d57618a7": {
+              "title": "iix. Repair to be protected from damage or adverse weather while curing;",
+              "type": "label",
+              "order": 10
+            },
+            "11992c72-2c2f-56d3-b5d7-749c5e61869a": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 20
+            },
+            "9380c2bd-5b30-5e66-9ac6-70923630f4a8": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 14
+            },
+            "a006e429-816c-5d7e-9ffa-fd788c5ecb91": {
+              "title": "iv. Epoxy mortar or paste applied to the surface of the crack in between nipples/entry ports and the full height of the crack if within tolerance to eliminate resin leakage);",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "5.2 - Resin Injection: Inactive Crack Repairs",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "47754e77-6a66-58bf-afc7-faa1abbb823c": {
+              "title": "iv. Bond-breaking tape to be placed at the base of the chase/reservoir to limit sealant interface to 2 no. faces;",
+              "type": "label",
+              "order": 6
+            },
+            "9dd66077-ee1a-5d38-a558-f763ad1e0436": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 14
+            },
+            "cc21fed7-c324-5bc3-a47f-efb656e784d5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 19
+            },
+            "bd70e94d-0b3a-58d5-a960-9daa55c3f2f6": {
+              "title": "WP",
+              "type": "label",
+              "order": 18
+            },
+            "502104f0-fbc8-556a-bd3d-9fe1e07fbedb": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "e9774f7e-326d-54a2-a01c-c919a5ad8c58": {
+              "title": "v. Where required, masking tape to sides of the adjacent surface to create a neat finish;",
+              "type": "label",
+              "order": 7
+            },
+            "81cffffc-d000-5cc0-a378-bfa411c0695a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "3a2e0463-6e3b-56af-8c5d-00dddde80f2a": {
+              "title": "iii Surface dust to be removed;",
+              "type": "label",
+              "order": 5
+            },
+            "7a3160de-1afd-5d50-886c-4030d4a9dea8": {
+              "title": "vii. Product shaped with a suitable tool to recommended profile;",
+              "type": "label",
+              "order": 9
+            },
+            "b3bf1127-3591-52aa-9868-61d9f063023e": {
+              "title": "Record of Conformity: Signed ITP",
+              "type": "label",
+              "order": 16
+            },
+            "1ab39d44-9197-57b6-a464-c197b4398b59": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "522e07c3-d582-5bb5-b336-f03ce47c972c": {
+              "title": "Frequency: Each active crack",
+              "type": "label",
+              "order": 0
+            },
+            "a88ee68e-7f4f-5590-9b55-881edeeaaec3": {
+              "title": "Reference Documents: VicRoads Spec. Cl.687.10 (b) (ii) CI.687.15 Product TDS",
+              "type": "label",
+              "order": 12
+            },
+            "c0ca500f-2790-5198-a440-474e5306dee1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "80e86a88-2611-5762-bd38-4f141b00735d": {
+              "title": "iix. Repair to be protected from damage or adverse weather while curing;",
+              "type": "label",
+              "order": 10
+            },
+            "98ffafe9-d27c-5cf9-915b-7c9c16e3f3cc": {
+              "title": "Acceptance Criteria: Approved procedure to be followed, steps to witness:",
+              "type": "label",
+              "order": 2
+            },
+            "31beff94-20c0-5ec8-bffc-8c275e246b80": {
+              "title": "vi. Sealant gunned or tooled into the saw cut to completely fill the void;",
+              "type": "label",
+              "order": 8
+            },
+            "796bcbe3-6361-54b1-aa81-295ab4b23cc7": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 20
+            },
+            "d4cb4ee5-5491-5add-816f-0dcfc5e7b5b7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "a30457ad-8983-52a5-bf6e-64d74843ef26": {
+              "title": "ii. Saw cuts to be at a width to depth ratio of 2:1 and rectangular in section;",
+              "type": "label",
+              "order": 4
+            },
+            "bc8be5af-1e79-58e4-a561-76b920e90262": {
+              "title": "i. All materials in date and mixed as per the Product TDS;",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "5.2 - Routing & Sealing: Active Crack Repairs",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5f65c104-140b-5b44-948a-54f47d11ae8c": {
+              "title": "Reference Documents: VicRoads Spec. Cl.687.10 (b) (i) CI.687.15 Product TDS",
+              "type": "label",
+              "order": 10
+            },
+            "393e0e1c-87a9-5443-adce-8d17e3ee4349": {
+              "title": "iii. Surface dust to be removed;",
+              "type": "label",
+              "order": 5
+            },
+            "d94c90bc-1c6a-515e-91b1-602b3de68738": {
+              "title": "Record of Conformity: Signed ITP",
+              "type": "label",
+              "order": 14
+            },
+            "4696cff1-aae4-5fa1-a54f-9b3ab46a313a": {
+              "title": "vi. Repair to be protected from damage or adverse weather while curing;",
+              "type": "label",
+              "order": 8
+            },
+            "97930195-c8e9-5c8f-a4f9-bcb50d6bc1b7": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 18
+            },
+            "30348e51-1e43-5156-8346-497691949afd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "7809b5b3-35a1-5fe3-939d-a7d58371d8a2": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 12
+            },
+            "aa0df729-bdbe-54bd-8c15-9ff57f61459c": {
+              "title": "Frequency: Each active crack",
+              "type": "label",
+              "order": 0
+            },
+            "05b3cd35-bab0-50b9-88dc-1e62fb9c4531": {
+              "title": "i. All materials in date and mixed as per the Product TDS;",
+              "type": "label",
+              "order": 3
+            },
+            "ce3066bd-4ea6-5100-b9ad-fbabd35ae0b9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "00c4ecd8-5f1c-5769-8622-c7a2548e6daa": {
+              "title": "Acceptance Criteria: Approved procedure to be followed, steps to witness:",
+              "type": "label",
+              "order": 2
+            },
+            "501cadef-02cc-5a3d-bb86-b722a0d37988": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "9b2933db-7668-58f8-bebe-34e321e4fdc4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "594637b7-1a37-5628-933f-cadeb04d1e69": {
+              "title": "ii. Saw cuts to be at a minimum width and depth of 10mm and V-shaped in section;",
+              "type": "label",
+              "order": 4
+            },
+            "beb72d50-3aa2-5a2d-9389-f71f484bc116": {
+              "title": "iv. Epoxy mortar / paste placed into the saw cut to completely fill the void;",
+              "type": "label",
+              "order": 6
+            },
+            "c4bf6ac4-47b0-53f3-b341-fbbb4b312ac2": {
+              "title": "v. Product finished flush with the surrounding surface;",
+              "type": "label",
+              "order": 7
+            },
+            "ede936e8-b823-5bb0-aa53-67080972be39": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "5d554c43-a552-5b9a-b808-db46a0f894d8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "bce6159f-478f-5f67-867c-b9c0c6bc0414": {
+              "title": "IP",
+              "type": "label",
+              "order": 16
+            }
+          },
+          "meta": {
+            "name": "5.3 - Routing and Sealing: Inactive Crack Repairs",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "b16fef82-4d90-5308-8994-632886dcbe9a": {
+              "title": "Record of Conformity: Signed ITP",
+              "type": "label",
+              "order": 14
+            },
+            "6b811510-57d4-5606-925a-3f12a69bad48": {
+              "title": "iv. Excess material and reservoir can be removed as the epoxy resin gels;",
+              "type": "label",
+              "order": 6
+            },
+            "d736769d-ce83-573c-9510-64cb17a74fe1": {
+              "title": "iii. Epoxy resin to be poured onto the crack and either sufficient amount contained in the reservoir (if used) or worked back and forth by suitable means (such as a broom) until no more material can be absorbed;",
+              "type": "label",
+              "order": 5
+            },
+            "748b3e61-14b9-59e1-a197-aebd38574d94": {
+              "title": "Reference Documents: VicRoads Spec. Cl.687.11 (b) CI.687.15 Product TDS",
+              "type": "label",
+              "order": 10
+            },
+            "196d0b70-98a1-593f-9d43-d8726db2ed12": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "b99f1ec6-98f6-5d93-b1ab-2bb2d2adc195": {
+              "title": "i. All materials in date and mixed as per the Product TDS;",
+              "type": "label",
+              "order": 3
+            },
+            "c4006f10-0ff5-551e-90a8-9cdd2e8de996": {
+              "title": "ii. Where required, a water-tight reservoir, to be created with silicone or polyurethane sealant;",
+              "type": "label",
+              "order": 4
+            },
+            "11238b31-7b18-5ef1-a77d-b313eb65aa99": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "13b85f51-c720-5a30-87f2-ff05bee6cae4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "35fbb7d1-24d6-56b1-b480-dd569dcd6c23": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "01625f8e-2a5f-513c-aa57-bdecb1d46b96": {
+              "title": "Frequency: Each active crack",
+              "type": "label",
+              "order": 0
+            },
+            "790a2181-e9f5-52be-9f52-3068d440746c": {
+              "title": "v. Repair to be protected from damage or adverse weather while curing;",
+              "type": "label",
+              "order": 7
+            },
+            "210470de-be3b-5c4f-896b-05cae03f0018": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "2ccdcb27-74c6-52e4-864c-78fa75b2515c": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 12
+            },
+            "681d9cb0-5493-55e0-801f-d3fba482f2f0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "46cf8c2b-b707-51c9-b263-9477c4215eaa": {
+              "title": "IP",
+              "type": "label",
+              "order": 16
+            },
+            "e3add9b5-ec44-599d-b0ed-7f99a9d2427d": {
+              "title": "Acceptance Criteria: Approved procedure to be followed, steps to witness:",
+              "type": "label",
+              "order": 2
+            },
+            "dafc7e44-7bdc-5c93-944a-4dfe748b5b73": {
+              "title": "vi. Repair to be protected from damage or adverse weather while curing;",
+              "type": "label",
+              "order": 8
+            },
+            "1ec70b98-6b4e-5e82-a830-f2f7cdd00241": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 18
+            }
+          },
+          "meta": {
+            "name": "5.4 - Gravity Feed: Inactive Crack Repairs",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "7f725786-96e1-5adf-bc91-040ea734ef12": {
+              "title": "i. All materials in date and mixed as per the Product TDS;",
+              "type": "label",
+              "order": 3
+            },
+            "64b4b55b-1c93-5881-985d-e7bf1513ca14": {
+              "title": "iii. Application rates to be as per the TDS for each type of product ensuring wet appearance;",
+              "type": "label",
+              "order": 5
+            },
+            "665d5d82-5b25-527d-a035-6fc01466b6b2": {
+              "title": "Reference Documents: VicRoads Spec. CI.687.15 Product TDS",
+              "type": "label",
+              "order": 9
+            },
+            "f651fe4f-91e5-5091-af3a-4bbe166a3f02": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "790df409-5c1e-57a6-893c-da7ecfc4c34e": {
+              "title": "IP",
+              "type": "label",
+              "order": 15
+            },
+            "f0042c09-ac64-5845-8539-e96dfcf06ef0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "519bf71a-7bea-5047-9b71-eb802ac9fc0c": {
+              "title": "v. Repair to be protected from damage or adverse weather while curing",
+              "type": "label",
+              "order": 7
+            },
+            "d3239843-1a5e-5c47-8f71-840560c6c288": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 11
+            },
+            "18e2787c-7477-588f-99a0-6d8dbbbee496": {
+              "title": "Record of Conformity: Signed ITP",
+              "type": "label",
+              "order": 13
+            },
+            "ceea2b00-15e0-53ce-9ad8-3279cd814f74": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "e3374cf5-4545-5db7-b45c-d09e9b204a9f": {
+              "title": "Acceptance Criteria: Approved procedure to be followed, steps to witness:",
+              "type": "label",
+              "order": 2
+            },
+            "9788d57d-59fb-5464-9693-235a5c9338b1": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 17
+            },
+            "95134f1b-f633-5046-9e6d-a3da985e92b9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "31095e65-81b3-5f2f-ac1c-e35d25315f00": {
+              "title": "iv. Re-coating if required;",
+              "type": "label",
+              "order": 6
+            },
+            "d854822e-5d1d-5870-bb72-65fcd2c64a15": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "9e13cfde-ce7c-5394-94b4-075ee15e3dca": {
+              "title": "ii. Silane to be applied with an airless sprayer (for penetrant) or brush (for Solid Silane or Silane Crème) , working from low to high areas and approximately 150mm beyond the extent of the crack;",
+              "type": "label",
+              "order": 4
+            },
+            "1cab4ae4-4805-5566-aa8d-edcbf3d3f712": {
+              "title": "Frequency: Each active crack",
+              "type": "label",
+              "order": 0
+            },
+            "662b2668-5808-51bd-ad4d-3e39048340df": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            }
+          },
+          "meta": {
+            "name": "5.6 - Penetrant Coating Method: Inactive Cracks <0.2mm Width Repairs",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "5 - Construction Activities",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "272d4641-8adf-5165-ada7-9718d1f032ba": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "13cbdde8-5b36-5b13-9872-1cf099b6df92": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "addd4ed2-0ecd-5d64-991f-85d589dd021a": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 13
+            },
+            "189e9e9c-c452-561b-915b-d38ee7c8c06c": {
+              "title": "Reference Documents: VicRoads Spec. CI.687.15 Product TDS",
+              "type": "label",
+              "order": 5
+            },
+            "84aa744c-8495-52fe-9b66-fcdab8031bc9": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 7
+            },
+            "6c6021c2-b91e-59e3-9de8-095f7edc6c71": {
+              "title": "IP",
+              "type": "label",
+              "order": 11
+            },
+            "810b3efe-f6fb-5980-b402-4a7cd017de0a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "df66dae4-79c9-516e-964a-5adeeaab8dec": {
+              "title": "Acceptance Criteria: After the repair materials have cured in accordance with the manufacturer's recommendations, any surface seal, nipples/entry ports and repair materials can be removed by suitable means.",
+              "type": "label",
+              "order": 2
+            },
+            "5f5834c5-968e-54c0-be42-90748e8c1e65": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "b8a1b361-638a-5725-abd1-890c37f39075": {
+              "title": "Frequency: Each crack",
+              "type": "label",
+              "order": 0
+            },
+            "27660ebe-d854-5c6e-aa4c-737c25b02760": {
+              "title": "Record of Conformity: Signed ITP",
+              "type": "label",
+              "order": 9
+            },
+            "e4f10dc8-6497-52ee-b858-bf9545226163": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "62e6b7ea-8842-563b-b72b-c8cc9658a968": {
+              "title": "The surface shall be ground smooth, leaving no traces (indentations or protrusions) of a repair and if the repair location remains exposed, a fairing coat can be applied where not being coated with a pigmented coating system.",
+              "type": "label",
+              "order": 3
+            },
+            "e04b0414-f772-5cdb-ad0e-bb21ac56203b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            }
+          },
+          "meta": {
+            "name": "6.1 - Curing & Finishing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "23c73a56-2131-5b50-a73f-64441dc45a47": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "62c6cc90-cd29-55f6-b2b5-dc523a4eab20": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "0a3feee4-c616-5d8c-accb-569b5a9297a0": {
+              "title": "Cores to be located in conjunction with a covermeter to avoid reinforcement and approved by the Nominated Authority.",
+              "type": "label",
+              "order": 3
+            },
+            "f4a7c232-18ae-5361-8b9c-53cb940a54d9": {
+              "title": "Attach: Photographs of Core Samples",
+              "type": "label",
+              "order": 6
+            },
+            "522c5a57-c71d-59ed-b20c-3639a9a52e8b": {
+              "title": "2 no. cores for the first 25m of crack and an additional 1 no. core sample for each 50m of crack or part thereof.",
+              "type": "label",
+              "order": 4
+            },
+            "7f5f7a64-522d-55d8-8722-4c42e1bd59fe": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "b6b96691-2d7a-534a-afea-6719f6103632": {
+              "title": "WP",
+              "type": "label",
+              "order": 15
+            },
+            "7420b103-f385-554d-8e64-f82aedc0f686": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "d5b5627c-5a90-5fda-9de6-41cccf8b2a56": {
+              "title": "Frequency: Each crack",
+              "type": "label",
+              "order": 0
+            },
+            "c13bab74-f9af-5d18-b92c-c9d0b98c804c": {
+              "title": "Inspection / Test Method: Visual",
+              "type": "label",
+              "order": 11
+            },
+            "d5f5b193-e19c-5b72-9d3f-e3debcd60227": {
+              "title": "Reference Documents: VicRoads Spec. CI.687.16",
+              "type": "label",
+              "order": 9
+            },
+            "1177e4ca-371e-5a20-b394-95df6344300a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "bc52591f-8320-5c7b-858d-c6e1ab51c9ba": {
+              "title": "Record of Conformity: Signed ITP",
+              "type": "label",
+              "order": 13
+            },
+            "e016bfe1-4535-58ae-9d7e-837cb825204f": {
+              "title": "Complete: Structural Concrete Cementitious Repair ITP",
+              "type": "label",
+              "order": 7
+            },
+            "0c4eedac-e5ba-5358-8454-adc9f11e3ef5": {
+              "title": "Responsibility: SE/PE and Superintendent",
+              "type": "label",
+              "order": 17
+            },
+            "9a7e3f2f-2785-5f53-a6ed-a2042337d2fa": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "e83233b2-1fb9-5142-84c1-0bb8909f6929": {
+              "title": "Core holes to be filled as per the cementitious repair ITP.",
+              "type": "label",
+              "order": 5
+            },
+            "e0a3a04c-32af-51ef-890b-48d364e3a971": {
+              "title": "Acceptance Criteria: After 7 days minimum, 75mmØ core samples shall be taken to verify cracks are fully sealed.",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "6.2 - Repair Verification",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5ec8ba80-92e4-5ea5-9b0e-ff1c733999f9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "e2743d6f-22a5-5c0e-b52c-b713713ca747": {
+              "title": "Reference Documents: FH Quality Management Plan",
+              "type": "label",
+              "order": 4
+            },
+            "75c74614-49a5-5b4f-9379-6d04d496355d": {
+              "title": "Responsibility: SE/PE",
+              "type": "label",
+              "order": 12
+            },
+            "80c3e47e-5dd4-5d56-be7c-16a3f88ca92c": {
+              "title": "Record of Conformity: Signed ITP",
+              "type": "label",
+              "order": 8
+            },
+            "e7feed32-47f5-5908-8749-1d890e65838d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "dcd528f3-a07f-55bb-954e-0e37aa6333eb": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "d6afd402-c62d-5b85-b305-db163ed35ff2": {
+              "title": "Acceptance Criteria: Ensure that any NCRs pertaining to the lot / element / Work area that this ITP covers, have been closed in CAMs.",
+              "type": "label",
+              "order": 2
+            },
+            "e38feaf7-8b8b-5f45-9bec-098f1b1fb716": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "a9d11939-34a6-5c16-881b-c9fd07455df4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "dd3edbec-dec5-53ad-a7c4-c62ff96b4663": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "70ddf1b8-6654-5f2c-8d4a-5eaea8dacd61": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "90d5d9ca-2c53-5621-8ae4-2037f1db5365": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 6
+            },
+            "432d53ca-9e64-5817-bafa-55fb9256c1f4": {
+              "title": "Frequency: Once, prior to closure of this lot / element / Work area",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "6.3 - Non-conformance Report (NCR) Closure",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "491a9a47-5f7f-57d9-9b6b-b50b7156bd9a": {
+              "title": "The signature below verifies that this ITP has been completed in accordance with the Fulton Hogan's Quality system Procedures and verifies lot compliance with specifications.",
+              "type": "label",
+              "order": 0
+            },
+            "fbe4d0b5-75af-5e9d-825c-61ce1fd6a0d6": {
+              "title": "Work Completed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "d5f7cdc9-f466-5e54-8b00-07bd5ef9a77f": {
+              "title": "Print Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "beedb7d8-63d3-5627-8f0d-6869d95feccb": {
+              "title": "Position:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "dbb8bab7-b700-5cd5-a411-268e28298c42": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "6 - Post-Construction Activities",
+        "dependant": true,
+        "type": "step",
+        "order": 6
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "e382dc0b-5816-5a76-8efa-69f34b39d489": {
+              "title": "Is the relevant NCR attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 1
+            },
+            "23c55cfd-e65d-52f2-a722-014f8dfea322": {
+              "title": "Other:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "e7fee18e-88cb-58ad-83f4-d80f547ab559": {
+              "title": "Is the relevant RFI attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 0
+            },
+            "abbb48a0-23b1-5a9a-8b74-ed3e9916121e": {
+              "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 2
+            },
+            "1a494213-678a-5099-990a-0b607abd3191": {
+              "title": "Lot verified By",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Babak Rudd-Project Quality Manager",
+                " Abid Hameed (Area 1 Manager)",
+                " Nicola Lodo (Area 2 Manager)",
+                " Nicolas Terpstra (Delivery Manager)",
+                "Other:"
+              ],
+              "order": 3
+            },
+            "2342973a-70df-56b1-b236-d2acce2a83b0": {
+              "title": "Lot Closed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "0421b078-8133-5708-917b-f52064ff0560": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "d5e0df85-67d3-53f1-89ef-dea6374e12c8": {
+              "title": "Lot Status",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OUTSTANDING",
+                " CLOSED"
+              ],
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "Lot Verification.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Verification",
+        "dependant": true,
+        "type": "step",
+        "order": 7
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "ITP-081-AX-LOT-XXX - Desc",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}

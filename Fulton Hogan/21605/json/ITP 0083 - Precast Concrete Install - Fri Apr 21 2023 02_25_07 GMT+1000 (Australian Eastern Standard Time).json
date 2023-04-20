@@ -1,0 +1,1921 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "3b03c7a5-268f-57be-8f43-0f689adfade7": {
+              "title": "Lot Opened On",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "ef041f3a-0b75-545f-86e2-ffb609a3bfe2": {
+              "title": "Activity",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "RETW - Retaining Wall",
+                "OFSB - Off-structure Barrier",
+                "ONSB - On-structure Barrier"
+              ],
+              "order": 6
+            },
+            "6837f60d-c0b9-5b92-8fa5-efb0103e4ab0": {
+              "title": "Design Package No",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1145-ACM-CVD-DPK-0002",
+                " 1145-ACM-CVD-DPK-0003",
+                " 1145-ACM-CVD-DPK-0004",
+                " 1145-ACM-CVP-DPK-0001",
+                " 1145-ACM-CVP-DPK-0002",
+                " 1145-ACM-CVR-DPK-0001",
+                " 1145-ACM-CVR-DPK-0002",
+                " 1145-ACM-CVR-DPK-0003",
+                " 1145-ACM-CVR-DPK-0004",
+                " 1145-ACM-ELE-DPK-0001",
+                " 1145-ACM-ELE-DPK-0002",
+                " 1145-ACM-LDE-DPK-0001",
+                " 1145-ACM-LDE-DPK-0002",
+                " 1145-ACM-SBA-DPK-0001",
+                " 1145-ACM-STR-DPK-0001",
+                " 1145-ACM-TSI-DPK-0001",
+                " 1145-ACM-TSI-DPK-0002",
+                " 1145-ACM-TSI-DPK-0003",
+                " 1145-ACM-TSI-DPK-0004",
+                " 1145-ACM-UTL-DPK-0001",
+                " 1145-ACM-UTL-DPK-0002"
+              ],
+              "order": 7
+            },
+            "8daef74e-b743-5ce8-bf48-3162164afa31": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "c1b10765-15d5-5761-83b2-5454ab617d24": {
+              "title": "Engineer Responsible",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "c93bef9c-ae04-5ab8-b9c1-c8a40c9e0d7c": {
+              "title": "Traffic Direction",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EB - Eastbound",
+                " ME - Median",
+                " NB - Northbound",
+                " SB - Southbound",
+                " WB - Westbound"
+              ],
+              "order": 8
+            },
+            "816bb12a-10b4-5d5b-981f-f2e9648c135d": {
+              "title": "From and To Chainage",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "5294d271-079c-503b-b648-d9e9f3d970ea": {
+              "title": "Construction Element",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EMBA - Embankment",
+                "SUPE - Superstructure",
+                "SUPE - Superstructure"
+              ],
+              "order": 5
+            },
+            "79568f46-98ef-52c0-ab2b-d544c95a028e": {
+              "title": "Work Commenced On",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "83854d9c-30b9-5b2a-8e45-30dd3c6cda13": {
+              "title": "Lot Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "STL - Structural"
+              ],
+              "order": 3
+            },
+            "1d64b2c3-746e-5c3e-bc2e-ce914d070810": {
+              "title": "Lot Created On",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "1.0 Lot Information",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Information",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "52a08e27-461d-5278-b64f-519ace4027ab": {
+              "title": "ITP Description: Precast Concrete Install",
+              "type": "label",
+              "order": 1
+            },
+            "e451f99e-0188-5a60-9843-4b5810bbf224": {
+              "title": "ITP created by: Omar El-Khub",
+              "type": "label",
+              "order": 5
+            },
+            "e024f0f2-192d-5099-ae59-a148ca8f0be8": {
+              "title": "Revision Number: 00",
+              "type": "label",
+              "order": 3
+            },
+            "2b7f92ad-d668-5dee-9600-116d27718141": {
+              "title": "Revision Date: 03/06/2022",
+              "type": "label",
+              "order": 4
+            },
+            "4b8bb21a-a5d4-5489-8b2f-3b94f51e4325": {
+              "title": "1.4 VicRoads Section 671 Oct 2013",
+              "type": "label",
+              "order": 10
+            },
+            "bbe674f6-e076-5f5c-8fd7-7241092fbd88": {
+              "title": "1.1 VicRoads Section 610 Feb 2020",
+              "type": "label",
+              "order": 7
+            },
+            "21c499df-45fc-5203-914b-6518124070b3": {
+              "title": "1.5 AS5131",
+              "type": "label",
+              "order": 11
+            },
+            "55dda094-fcef-5969-81c5-089d14a04272": {
+              "title": "Document Title: ITP-083-AX-LOT-XXX - Description",
+              "type": "label",
+              "order": 0
+            },
+            "6dc2de25-19c9-5d23-b862-0bff9b31aaf7": {
+              "title": "Document Number (in Teambinder): 1145-C200-FUL-QAC-ITP-0083",
+              "type": "label",
+              "order": 2
+            },
+            "b5c80c5d-d8fa-5bf0-94d8-007e40d63c0c": {
+              "title": "ITP approved for use by: Babak Rudd",
+              "type": "label",
+              "order": 6
+            },
+            "5a75eb5f-e0db-5203-8717-7847e109c955": {
+              "title": "1.2 VicRoads Section 620 May 2009",
+              "type": "label",
+              "order": 8
+            },
+            "fdd62128-e20f-5bc3-82ee-664301b786fc": {
+              "title": "1.3 VicRoads Section 630 Oct 2013",
+              "type": "label",
+              "order": 9
+            }
+          },
+          "meta": {
+            "name": "Referenced Documentation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "1 - Referenced Documentation",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "444d4725-c009-5b5b-b005-680325a039dd": {
+              "title": "Cl.610.47",
+              "type": "label",
+              "order": 13
+            },
+            "e982d5ac-365a-5007-b6ab-7421ceb119e7": {
+              "title": "Data Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 24
+            },
+            "37cdabdd-9d9a-5159-87bc-636c6f347aca": {
+              "title": "IP",
+              "type": "label",
+              "order": 20
+            },
+            "fa79bd58-29a0-5bff-8301-8f38b39aa015": {
+              "title": "Signed ITP",
+              "type": "label",
+              "order": 18
+            },
+            "b5eac316-a59b-5538-8ff5-dd6c809b794f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "d7d5fb0f-4247-5c95-9e98-10d71db443f8": {
+              "title": "Frequency - Each element",
+              "type": "label",
+              "order": 0
+            },
+            "27bc8f22-50ee-585e-bce5-f7bce7c5b6d3": {
+              "title": "Acceptance Criteria - Precast supplier is required to provide the following Quality Assurance documentation for each element, typically this consists of:",
+              "type": "label",
+              "order": 2
+            },
+            "c86bb90b-6674-5f47-a860-c4d7234347bc": {
+              "title": "ii. Compressive strength test results",
+              "type": "label",
+              "order": 4
+            },
+            "f26c470e-4af7-52df-abb3-821b73d5fad8": {
+              "title": "Inspection / Test Method - Document Review",
+              "type": "label",
+              "order": 15
+            },
+            "1f0217f5-8d1f-5754-9042-44df39a4ff58": {
+              "title": "Responsibility - SE/PE",
+              "type": "label",
+              "order": 22
+            },
+            "06b827ac-f069-5e13-9e34-f97f532df218": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 21
+            },
+            "2d5c2a82-b367-519f-a4a7-27dc6069d0d4": {
+              "title": "vi. Covermeter check record",
+              "type": "label",
+              "order": 8
+            },
+            "3aa1189f-d515-57b1-a2a6-b868e7935047": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 19
+            },
+            "a6156925-413b-5f82-9461-f50967d53f60": {
+              "title": "vii. Record of dimensional measurements to demonstrate compliance with dimensional tolerances of precast shown in Cl.610.47",
+              "type": "label",
+              "order": 9
+            },
+            "754d303b-d596-591c-8630-c1e834d5cb7f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 23
+            },
+            "177937b7-38bb-5d77-adcf-738907580981": {
+              "title": "iii. Precast Lifting Design",
+              "type": "label",
+              "order": 5
+            },
+            "bfde8633-f5f6-5a92-ab9f-dad95b5b408e": {
+              "title": "iv. Pre-pour check sheet / ITP",
+              "type": "label",
+              "order": 6
+            },
+            "79016eb3-7600-56c4-b02c-397357827624": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "4b0cedca-bd02-578f-a514-531948f559ae": {
+              "title": "Collate: Precast Quality Assurance Documentation so it can be uploaded into Teambinder (don't attach it here)",
+              "type": "label",
+              "order": 10
+            },
+            "a0caa089-f6af-508e-a94f-23295c9aaa38": {
+              "title": "i. Certificate of Compliance / Birth Certificate",
+              "type": "label",
+              "order": 3
+            },
+            "e2a862ff-98be-5e61-b16a-ac302801938b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "a250c60f-a850-5c2a-b140-723a396090a4": {
+              "title": "v. Post-pour check sheet / ITP",
+              "type": "label",
+              "order": 7
+            },
+            "2827428a-3ff0-51c1-982b-703f5b92b361": {
+              "title": "Reference Documents - VicRoads Spec.",
+              "type": "label",
+              "order": 12
+            },
+            "0bd6055b-69bc-5f2d-a8ec-257b4f406ed4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "32d3aa49-321f-5a91-9d87-dcec028866a7": {
+              "title": "Record of conformity - Material Report",
+              "type": "label",
+              "order": 17
+            }
+          },
+          "meta": {
+            "name": "2.1 - Precast Elements",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5e7745ab-d165-5c3e-b320-174c3d33c14b": {
+              "title": "Reference Documents - FH Quality Management Plan",
+              "type": "label",
+              "order": 5
+            },
+            "96b0ea76-8da1-5dce-aaf5-ad3a597d94b1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "b1439bf0-1b08-5543-a9b0-83af81eff17b": {
+              "title": "IP",
+              "type": "label",
+              "order": 11
+            },
+            "9a57e2d2-d503-51a2-b83c-c2d8290544fe": {
+              "title": "Acceptance Criteria - Details of the joint sealant used to seal around the precast element to be submitted for review to the Nominated Authority.",
+              "type": "label",
+              "order": 2
+            },
+            "3d8fb2f7-0eaf-50ca-809c-75cf59393271": {
+              "title": "Inspection / Test Method - Document Review",
+              "type": "label",
+              "order": 7
+            },
+            "7b88c251-5aa2-51c8-a074-d61d780fc2a3": {
+              "title": "Frequency - Once, for each product",
+              "type": "label",
+              "order": 0
+            },
+            "12373875-b922-5390-a3ec-98ccc71e8b5d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "8e45f693-2f1f-5c21-bd25-3243cbc03b4d": {
+              "title": "Record of conformity - Signed ITP",
+              "type": "label",
+              "order": 9
+            },
+            "1c98ab92-b42c-5543-b601-50a96b2cfad8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "d60f0f07-aba0-544f-b6ca-b35a0443f024": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "771c6c8e-4189-5cb5-afb5-8614beda3ad2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "5c959b56-9e19-5d9b-987f-156f5e2c07bf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "e5bdb79d-3a43-5349-9dd7-ef6aae050266": {
+              "title": "Teambinder Material Approval number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "e24720dc-ee74-5d8d-a8ae-8ec09d97e02b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "fa716069-0db7-541b-a2c5-253dfadf9cea": {
+              "title": "Data Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 15
+            },
+            "7cef14b8-de8b-57e8-b78c-e470442bcf08": {
+              "title": "Responsibility - SE/PE and Superintendent",
+              "type": "label",
+              "order": 13
+            }
+          },
+          "meta": {
+            "name": "2.2 - Joint Sealant",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "2 - Preliminaries - Materials",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "ec0eb7a4-25f2-598a-bd26-2633adb60d6d": {
+              "title": "Frequency - Each element",
+              "type": "label",
+              "order": 0
+            },
+            "a1e58570-7ce3-5660-9f7c-d97544ce51ff": {
+              "title": "Record of conformity - Signed ITP",
+              "type": "label",
+              "order": 11
+            },
+            "60aa70ee-52b4-5530-9389-c48c2be77366": {
+              "title": "If the precast elements are being connected with a stitch pour, mark any clashes from protruding reinforcement with the planned locations from the precast.",
+              "type": "label",
+              "order": 3
+            },
+            "9e663a26-28dd-5dfa-adc6-62196a5a080b": {
+              "title": "Reference Documents - VicRoads Spec.",
+              "type": "label",
+              "order": 6
+            },
+            "82257c5d-079a-5049-a460-c28eb463e8cf": {
+              "title": "Note: Any clashes should be levered out of the way using a crow-bar or similar - avoid hitting with a hammer on bars with a tight radius.",
+              "type": "label",
+              "order": 4
+            },
+            "6b60b94d-2be4-5ad2-b69f-43b3cf21bc7e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "3b0083cb-4b7f-5c09-b594-674cc4a809be": {
+              "title": "Data Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 18
+            },
+            "a5c6be89-4318-5df3-b5f0-3616842dc5fb": {
+              "title": "Surveyor",
+              "type": "label",
+              "order": 16
+            },
+            "a65c0cd1-11ea-57cd-adf3-af55219dfccd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "2f7fce6a-6cf3-5b96-b686-fd9a49d568dd": {
+              "title": "Acceptance Criteria - Survey activities undertaken to ensure and validate that all Works meet level and location requirements within the tolerances as per Cl.610.47 as applicable to the element.",
+              "type": "label",
+              "order": 2
+            },
+            "596013c5-30b9-58c0-861d-9e8154f4bee4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "d16121f7-62aa-5872-88c1-62f8ad9ed4bd": {
+              "title": "Cl.610.47",
+              "type": "label",
+              "order": 7
+            },
+            "b244d0cc-4aa2-51de-8527-e25eaaff4e37": {
+              "title": "Inspection / Test Method - Visual/ Measure",
+              "type": "label",
+              "order": 9
+            },
+            "923433da-d88c-5e64-b037-9b2cfe4567f2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "df4a02ac-a612-524b-9499-6e445cc40b93": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "6b3d2fc4-2267-59da-98ec-331d7c1862c0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "3da0a5c5-728e-5ade-9c04-31e14a66a750": {
+              "title": "SCP",
+              "type": "label",
+              "order": 13
+            },
+            "cf167637-8303-590f-98ca-b4916529d34f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "2fb901a5-7133-532f-8cf0-8f320ccb31c1": {
+              "title": "Responsibility - SE/PE",
+              "type": "label",
+              "order": 15
+            }
+          },
+          "meta": {
+            "name": "3.1 - Survey Set-out of Precast Elements",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "a8be7bb7-a6b0-5cf7-881a-eed6f1e493dd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "fc98e219-2e7c-51f7-a5a8-14388596155a": {
+              "title": "Backing rod should be compressed enough to prevent movement during the concrete or grout pouring activities.",
+              "type": "label",
+              "order": 3
+            },
+            "08c00c8f-50bc-55f4-be3f-20aad48b5557": {
+              "title": "Reference Documents - IFC Drawings",
+              "type": "label",
+              "order": 5
+            },
+            "c774cc23-e4b7-5bb2-bb2e-8f5a94fd89d1": {
+              "title": "Acceptance Criteria - Adhere any sealing strips, backing rod or bitumen impregnated fibre-board into the positions shown on the IFC Drawings or where grout or concrete ingress will affect the end use (such as around conduits).",
+              "type": "label",
+              "order": 2
+            },
+            "24fcede6-4469-5ecd-b788-f890a98d2352": {
+              "title": "Surveyor",
+              "type": "label",
+              "order": 14
+            },
+            "f74209fc-cf2f-55fb-a13b-c6b987351b6a": {
+              "title": "Data Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 16
+            },
+            "5c1da474-c815-5d25-a313-c0c40079e76a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "c5eed545-2b19-544e-bc5b-21cb4e248467": {
+              "title": "Inspection / Test Method - Visual/ Measure",
+              "type": "label",
+              "order": 7
+            },
+            "199feaa4-545d-5708-ae0b-9871aa23bbc5": {
+              "title": "IP",
+              "type": "label",
+              "order": 11
+            },
+            "b2af78f2-88e0-559d-ad56-784c206736a8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "49ec6f2a-2157-59d9-ab3e-6b04409e96d6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "3200cae3-e584-529d-b707-fbd5ba7d8804": {
+              "title": "Record of conformity - Signed ITP",
+              "type": "label",
+              "order": 9
+            },
+            "9ee807cf-3afd-56c0-8de8-47f7af94f4cc": {
+              "title": "Responsibility - SE/PE",
+              "type": "label",
+              "order": 13
+            },
+            "24a7bea2-8252-5bcf-b61b-aa8fae8534ff": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "39b8e5d1-bb25-5bde-b458-b36da3ef1bf5": {
+              "title": "Frequency - Where applicable, each installation location",
+              "type": "label",
+              "order": 0
+            },
+            "c3755117-b159-5708-9c1c-a01bc3c01078": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "f1a5a696-2423-58e0-b356-83d9f52b470a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            }
+          },
+          "meta": {
+            "name": "3.2 - Sealing Strips, Backing Rod & Bitumen Board",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "26aeff6b-7cc7-5dda-827d-f927d1187006": {
+              "title": "620.07",
+              "type": "label",
+              "order": 9
+            },
+            "41b1471f-8f5d-5405-bf4f-ea088177f4ff": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "ca25cb51-662c-5d71-adb0-84c45b2fa87e": {
+              "title": "Acceptance Criteria - General inspection of precast elements for defects including cracks, damage, exposed reinforcement and where applicable, damage to coatings.",
+              "type": "label",
+              "order": 2
+            },
+            "2c31e08e-f66d-5b1f-ae47-611a323e4e13": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "927c8b5d-20a5-59a1-9734-8a01d9bd5a45": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "c83e0392-9a92-52d1-ad0c-f5f63c94882e": {
+              "title": "Inspection / Test Method - Visual Inspection",
+              "type": "label",
+              "order": 12
+            },
+            "7f2c9854-b396-58ba-b27c-f4bb584107b9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 18
+            },
+            "2de58b79-dfb7-5640-8b6f-0f682fff60e3": {
+              "title": "Record of conformity - Signed ITP",
+              "type": "label",
+              "order": 14
+            },
+            "894b3f72-09d0-52d8-8542-72c443efc77b": {
+              "title": "Frequency - Each element",
+              "type": "label",
+              "order": 0
+            },
+            "39f323ab-9380-598e-ae1d-d6dad6ac19ef": {
+              "title": "Responsibility - SE/PE",
+              "type": "label",
+              "order": 19
+            },
+            "2aef64ce-8c8c-5d03-acb4-66235969d671": {
+              "title": "Confirm that the cast in lifters (anchors or loops) are the correct size and orientation as per the Precast Lifting Design (they should be clearly labelled on the end to be connected to).",
+              "type": "label",
+              "order": 3
+            },
+            "3f2c6e2e-f1b9-5680-965a-cb5653df871a": {
+              "title": "Cl.620.06",
+              "type": "label",
+              "order": 8
+            },
+            "906ec2e8-2446-5772-bb40-bc57d7d14edd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "e37d46b6-8cca-5a8e-83c7-a40c75210892": {
+              "title": "Material Inspection Checklist",
+              "type": "label",
+              "order": 15
+            },
+            "d9c7bd86-76e4-5816-9aaa-069862596ecb": {
+              "title": "Complete: Materials Inspection Checklist in ConQA",
+              "type": "label",
+              "order": 5
+            },
+            "38fc0080-8eec-5eb2-87f2-a0c1cbd77d9c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "250c838e-704f-5599-8406-5756f2d9613f": {
+              "title": "Elements shall have unique identification and orientation marked (if applicable).",
+              "type": "label",
+              "order": 4
+            },
+            "d621c8d2-8381-5a1a-b85a-6459d3ee8900": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 20
+            },
+            "2ca8dc55-ab02-5816-b64e-6a3bc5e56e62": {
+              "title": "FH Quality Management Plan",
+              "type": "label",
+              "order": 10
+            },
+            "fc087edd-2772-5842-9bb3-e7609c9cc052": {
+              "title": "IP",
+              "type": "label",
+              "order": 17
+            },
+            "6eaea873-6f5e-5552-a4df-5e0f3c8c90f0": {
+              "title": "Reference Documents - VicRoads Spec",
+              "type": "label",
+              "order": 7
+            },
+            "0ab750fd-8e18-52eb-8cc9-62467984036e": {
+              "title": "Data Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 21
+            }
+          },
+          "meta": {
+            "name": "3.3 - Materials Inspection Checklist",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "3 - Preinstallation Activities",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "0a36cdf1-d302-5cc0-ad0a-d1cf9e4e3ba9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "cc6bab31-d90d-5933-a609-cc0f5e16fff2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "54272968-ab31-5264-91b5-3c421414bff7": {
+              "title": "Data Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 16
+            },
+            "4c6bba73-10b3-5645-9c14-2270bbcc0a89": {
+              "title": "Frequency - Each element",
+              "type": "label",
+              "order": 0
+            },
+            "abff1d3c-8505-56c9-b62f-cf1393f2367e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "fb4e22de-f68f-5bfa-addd-270f5d10e587": {
+              "title": "Acceptance Criteria - Unless otherwise specified, precast elements shall be lifted using the lifting points provided and supported with the top surface uppermost at all times.",
+              "type": "label",
+              "order": 2
+            },
+            "1a955380-d36f-5a42-aee4-f95a3f1fb882": {
+              "title": "IP",
+              "type": "label",
+              "order": 12
+            },
+            "c0ece1dc-36f6-5f58-887c-f4c10d4326d3": {
+              "title": "Responsibility - SE/PE",
+              "type": "label",
+              "order": 14
+            },
+            "98f7f159-93d2-5a5b-86e4-7cd251dd693c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "761eb029-9b6b-55c5-bf19-55bff0c2f8a4": {
+              "title": "Reference Documents - VicRoads Spec.",
+              "type": "label",
+              "order": 4
+            },
+            "35403cb0-4254-5934-800a-4aad0ee9d1c9": {
+              "title": "Crane Lift Study",
+              "type": "label",
+              "order": 6
+            },
+            "d3bc3e64-2c9e-5694-8a8f-b856b00e82c0": {
+              "title": "Inspection / Test Method - Visual",
+              "type": "label",
+              "order": 8
+            },
+            "de777b92-0ffd-575c-ad98-4b00a6301794": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "d28b0ba8-fa3b-56b3-b1d3-4a188217f2d3": {
+              "title": "Record of conformity - Signed ITP",
+              "type": "label",
+              "order": 10
+            },
+            "ce346a88-d975-5793-b7cb-89486cf7465b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "8186e099-9d9c-5b1b-9b4c-ebb305b3077b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "856f77a5-b927-560d-9c33-25201761a905": {
+              "title": "Cl.620.07",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "4.1 - Precast Handling",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "53c55854-4122-5a84-bf9f-dc8f8171b4d0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 18
+            },
+            "4e970e96-8233-5558-bdbd-9f040b3635c7": {
+              "title": "IFC Drawings",
+              "type": "label",
+              "order": 8
+            },
+            "9aa8e997-3f1f-5996-aa51-5999b18209e2": {
+              "title": "Data Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 19
+            },
+            "5b4330f8-6c2a-541e-aa29-426f4ccf1e63": {
+              "title": "The nominal gap between elements is as per the IFC Drawings.",
+              "type": "label",
+              "order": 4
+            },
+            "90f7b6ea-ed13-536f-ba84-f95abbccf4a7": {
+              "title": "IP",
+              "type": "label",
+              "order": 14
+            },
+            "3afa88b0-683f-561c-bd6a-1a6eb6aee477": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "38ae6843-0c33-507b-ab9a-539d8c9e985f": {
+              "title": "Cl.610.27",
+              "type": "label",
+              "order": 7
+            },
+            "6caeea5a-bf64-5441-a497-2847f1f10058": {
+              "title": "Inspection / Test Method - Visual",
+              "type": "label",
+              "order": 10
+            },
+            "59395b19-233b-5c74-a32a-95b8d85d3ac2": {
+              "title": "Reference Documents - VicRoads Spec.",
+              "type": "label",
+              "order": 6
+            },
+            "af50f8c1-5a68-525a-b18a-0980f8a148ee": {
+              "title": "Frequency - Each element",
+              "type": "label",
+              "order": 0
+            },
+            "8f5100d6-f0c5-54f4-90f1-54ec7bac7765": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "96ac8c8d-0cf4-5d06-af97-90faef2dba4d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "0ffd2d5b-b178-5a3e-8c6c-aa88991b1d5b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "608c4f95-428d-54f6-aecc-2a9fa1c8a529": {
+              "title": "Record of conformity - Signed ITP",
+              "type": "label",
+              "order": 12
+            },
+            "0904239e-ddad-5bb6-b039-c71a2628b971": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "dc9ee135-7b7c-55a0-9b82-a172a9ab0953": {
+              "title": "Make any adjustments necessary by lifting the unit and adding/removing shims or adjusting the levelling bolts so that alignment between units, overall height and position remains in tolerance.",
+              "type": "label",
+              "order": 3
+            },
+            "8fb98454-4ef9-55f5-9533-149db9224ad1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "4e4d033b-791a-5d03-a5ed-2e4300e8aa22": {
+              "title": "Acceptance Criteria - Precast elements shall be placed onto the bearing shims and not released from the crane until sufficiently braced or restrained by bolted connection, in accordance with the approved temporary works design and/or IFC drawings.",
+              "type": "label",
+              "order": 2
+            },
+            "a3315998-d812-5ac4-86d0-ca75ac5efb94": {
+              "title": "Surveyor",
+              "type": "label",
+              "order": 17
+            },
+            "7b658ff8-6025-519e-a626-fa9c226a50c9": {
+              "title": "Responsibility - SE/PE",
+              "type": "label",
+              "order": 16
+            }
+          },
+          "meta": {
+            "name": "4.2 - Precast Placement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "b4b4f8ae-df16-52e2-b0cb-85ffc9429757": {
+              "title": "Responsibility - SE/PE",
+              "type": "label",
+              "order": 14
+            },
+            "6e939a6a-36f6-56a8-a770-f1312e646877": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "5520ed4d-5fd6-5b08-8abd-a5ada39ff692": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "b403a672-0928-5f46-a33a-1b449406392c": {
+              "title": "Cl.671.03",
+              "type": "label",
+              "order": 5
+            },
+            "c222b9e0-e0ab-5640-902a-eaf1a43ebbf9": {
+              "title": "IP",
+              "type": "label",
+              "order": 12
+            },
+            "3c78113b-4ab7-5dcb-b585-3f1c892087c7": {
+              "title": "Record of conformity - Signed ITP",
+              "type": "label",
+              "order": 10
+            },
+            "f7ba4910-0e80-529f-b1bc-f8c8d17346af": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "8c215eaa-79d5-5dd1-a390-ef8cf3447edd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "abaa466b-231e-5d90-b3d3-9f05f29d4d44": {
+              "title": "Acceptance Criteria - Place a continuous length of 3mm galvanised wire or high-strength nylon draw string so that it can be terminated at any junction boxes.",
+              "type": "label",
+              "order": 2
+            },
+            "d5a2d498-717f-5246-aaff-5bac92eecaf2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "ad372034-cdb3-5cce-8b1f-b631617a86be": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "eb738bf9-1628-52b7-9d71-07eb0418812e": {
+              "title": "Data Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 16
+            },
+            "53889f12-50e8-57bc-97a2-51a695cfa7d1": {
+              "title": "Reference Documents - VicRoads Spec.",
+              "type": "label",
+              "order": 4
+            },
+            "e050458d-db78-5e9a-a288-74b94a15b650": {
+              "title": "Inspection / Test Method - Visual",
+              "type": "label",
+              "order": 8
+            },
+            "c90fde95-c1df-5945-a8f9-fea698cfeb42": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "7430a0c5-ad9f-55b2-89ac-3e69f095a532": {
+              "title": "Frequency - Where applicable, each element",
+              "type": "label",
+              "order": 0
+            },
+            "b9d4da93-369b-57f8-93f1-ad72bd6b6c6f": {
+              "title": "IFC Drawings",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "4.3 - Draw-string in Service Ducts",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "e27c8623-b3d2-5f3a-ac6c-e8de474abf6d": {
+              "title": "Acceptance Criteria - All manufactured precast elements shall be traced from the completion of manufacture to their final location by a unique identification number.",
+              "type": "label",
+              "order": 2
+            },
+            "a9c61e3a-0bcb-5a16-bc1d-5e2082530822": {
+              "title": "Inspection / Test Method - Visual",
+              "type": "label",
+              "order": 8
+            },
+            "79048376-b6e0-5226-96e9-35bf2d2c26c3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "2477f850-8137-5222-9508-21b3c18e5e65": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "56e42b42-f49f-59d8-935b-bb41a43a8663": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "720a2a1f-790f-5575-8d6b-f026ccd6a5d5": {
+              "title": "Responsibility - SE/PE",
+              "type": "label",
+              "order": 14
+            },
+            "44826238-9d21-5c4d-a88d-e9be7aa439bc": {
+              "title": "Data Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 16
+            },
+            "5f0eee63-8c09-559d-b53f-b57ab79443a0": {
+              "title": "Frequency - Each element",
+              "type": "label",
+              "order": 0
+            },
+            "3c6cc57e-2b88-52bc-a2c1-7878796c89ed": {
+              "title": "Reference Documents - VicRoads Spec.",
+              "type": "label",
+              "order": 5
+            },
+            "3a5d0d85-f3cb-573f-bed0-52bb42bdc9ff": {
+              "title": "Cl.620.09",
+              "type": "label",
+              "order": 6
+            },
+            "9e676d5b-9753-52b3-b7b8-ee7a425df73c": {
+              "title": "IP",
+              "type": "label",
+              "order": 12
+            },
+            "97972ae7-1817-52b5-b49f-3b140e7d9c05": {
+              "title": "Record: The final location of each precast element, showing individual ID and date installed onto the Red-line Drawings or Survey Report",
+              "type": "label",
+              "order": 3
+            },
+            "68e64dea-9024-5b55-81a3-f3c62a0b62aa": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "a8261571-cde3-5720-8aa7-a1b2843c93cf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "3f23dc8b-d25e-5ced-a46c-f19d134a0499": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "e27364eb-3bd4-5c43-ac50-1eaa30b691db": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "44b04ec2-bce1-57d0-8ffc-476c9638282c": {
+              "title": "Record of conformity - Signed ITP",
+              "type": "label",
+              "order": 10
+            }
+          },
+          "meta": {
+            "name": "4.4 - Precast Traceability",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "4 - Installation activities",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "edc470cb-155c-52bf-bb75-a69991407de3": {
+              "title": "Inspection / Test Method - Visual",
+              "type": "label",
+              "order": 6
+            },
+            "ae55d600-8eed-5d19-87af-97a80462b30a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "458d6eda-bfe6-57d4-8ac1-dda319a79488": {
+              "title": "Frequency - Where applicable",
+              "type": "label",
+              "order": 0
+            },
+            "89fb53ff-66cf-54ea-802d-dc9002a0f0e1": {
+              "title": "Record of conformity - Grout Pedestals & Bearings ITP",
+              "type": "label",
+              "order": 8
+            },
+            "f0468e6c-9416-52e5-8201-8db2cbef744f": {
+              "title": "Responsibility - SE/PE",
+              "type": "label",
+              "order": 12
+            },
+            "73b705f2-945f-56e2-988d-5dd0ef8fe323": {
+              "title": "Reference Documents - IFC Drawings",
+              "type": "label",
+              "order": 4
+            },
+            "ad82653b-5c7b-5ed9-aacf-03cfc6f59a30": {
+              "title": "Data Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 15
+            },
+            "78e48ef9-9834-588c-8ee0-ab956a0d8249": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "a2203aee-8be7-59a5-bada-0261298dd649": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "6f27a63c-84ae-5f0b-be5c-9912470441f2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "3bbb95ae-4fe6-5b74-9b21-c2a37697bfd7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "9b36dcf7-5d35-5dd6-967e-137a5d3ad0ba": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "7371c1fa-0197-5c4d-addd-1463a254e02a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "bf49f74d-92cb-53d2-9247-830ab0621045": {
+              "title": "Acceptance Criteria - The gap between each precast element or at interfaces with other structures should be sealed with an the approved sealant on top of a backing rod.",
+              "type": "label",
+              "order": 2
+            },
+            "f276e039-e1a8-502f-8f80-e8c368e6bed3": {
+              "title": "Surveyor",
+              "type": "label",
+              "order": 13
+            },
+            "aa2df3be-1c17-557c-ac51-8d7bef2fc0fb": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "5.1 - Joint Sealant Application",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "175d9776-ebbb-53d7-954b-52039b4764a0": {
+              "title": "Frequency - Where applicable",
+              "type": "label",
+              "order": 0
+            },
+            "cfab6dea-532a-59d3-8bcc-1d912a63cd1f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "117e023a-2ae7-5d4e-9069-28769ccb2ed2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "3a84c1ca-004e-5a6e-a6fc-988b9a014148": {
+              "title": "Surveyor",
+              "type": "label",
+              "order": 14
+            },
+            "ba744b7c-8b36-58ad-9cfb-7b1407ba1d9d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "c7350c7d-0c0f-545f-adef-76ff7363795a": {
+              "title": "IP",
+              "type": "label",
+              "order": 11
+            },
+            "42660d96-65f5-5bf5-988a-fdecc14eef4d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "c2263a51-43c1-54d2-96f3-51afaf7f090f": {
+              "title": "Complete: Grout Pedestals & Bearings ITP",
+              "type": "label",
+              "order": 3
+            },
+            "bf8c73c8-deb5-525a-aeed-42e10c2736e5": {
+              "title": "Reference Documents - IFC Drawings",
+              "type": "label",
+              "order": 5
+            },
+            "650338a0-6e5b-522d-a404-25ab61d545e2": {
+              "title": "Record of conformity - Grout Pedestals & Bearings ITP",
+              "type": "label",
+              "order": 9
+            },
+            "b067277a-7946-5e7b-82e1-64d8d8cd2f71": {
+              "title": "Inspection / Test Method - Visual",
+              "type": "label",
+              "order": 7
+            },
+            "9b8cd3ca-c2f8-50fd-b19c-4dfcc860cad8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "903030bd-2ed4-513c-9534-73863a178f44": {
+              "title": "Responsibility - SE/PE",
+              "type": "label",
+              "order": 13
+            },
+            "f88d3020-5b57-5dce-aad4-91f8f9b448f5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "61e690f9-369f-5ed7-be69-a6fdce826e58": {
+              "title": "Data Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 16
+            },
+            "62e6687a-0859-59d1-aece-8b53ba8be131": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "8130dcf6-eb8f-5fa9-ab53-edaed80144e3": {
+              "title": "Acceptance Criteria - Grout shall be poured at connections between elements and/or in the gap between the bottom of the precast element and top of the bridge deck/foundation following full sealant application.",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "5.2 - Flowable Grout Pour",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "a67e16ca-9ad9-587d-b3d7-1027e7e9dbb8": {
+              "title": "Acceptance Criteria - Where applicable.",
+              "type": "label",
+              "order": 2
+            },
+            "f5d89cc5-844d-5eca-ade5-265c0a3dc3ca": {
+              "title": "Record of conformity - Structural Steel Barrier Rail (Supply & Installation) ITP",
+              "type": "label",
+              "order": 9
+            },
+            "82985c24-537b-505b-a398-e47ce292e783": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "a031165b-6bcf-5b5e-bcc8-1e2222747b8d": {
+              "title": "Inspection / Test Method - Document Review",
+              "type": "label",
+              "order": 7
+            },
+            "480189d0-1f4f-5dac-8328-b7e7ac310b62": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "fa8de290-d1cf-5d53-9d13-f582705885b0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "d965d180-1605-5d4d-8a0b-533fc24c261a": {
+              "title": "Data Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 16
+            },
+            "29f41fbd-274f-5fd8-b029-5e9f85782ef4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "cfd756f8-5862-5d50-94f5-bd7f28de3121": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "53841263-002d-57dc-a78c-ca3e02d8b1c5": {
+              "title": "IP",
+              "type": "label",
+              "order": 11
+            },
+            "e9231cea-8f1b-5d50-a184-eff897a799de": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "bb109321-d34a-5234-8e3f-30b058599ae1": {
+              "title": "Reference Documents - IFC Drawings",
+              "type": "label",
+              "order": 5
+            },
+            "e3924801-65c2-525f-9291-8e279e262b43": {
+              "title": "Responsibility - SE/PE",
+              "type": "label",
+              "order": 13
+            },
+            "fc4c739a-e3e4-5711-9db2-138605b268f3": {
+              "title": "Complete: Steel Barrier Fencing (Supply & Installation) ITP.",
+              "type": "label",
+              "order": 3
+            },
+            "5563616f-b32e-5ba3-a200-3315c2bddffb": {
+              "title": "Frequency - Where applicable",
+              "type": "label",
+              "order": 0
+            },
+            "1bcbd3fd-b67a-572e-af58-44a1bb62a002": {
+              "title": "Surveyor",
+              "type": "label",
+              "order": 14
+            },
+            "adb69e0d-31c0-51d3-944f-eec431d762a6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            }
+          },
+          "meta": {
+            "name": "5.3 - Barrier fencing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "bcca2746-33d2-5649-b261-a8beccd60a03": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "6d8a67a2-3cf0-599e-aca2-d40308759a2b": {
+              "title": "Responsibility - SE/PE",
+              "type": "label",
+              "order": 15
+            },
+            "2275339e-07b7-5e44-858e-689f53024d00": {
+              "title": "Attach: Survey As-builts / Survey Report",
+              "type": "label",
+              "order": 3
+            },
+            "a8b3085d-d990-5b2c-a923-e5d5ac23fff2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "817ff4a7-9dd2-582a-8859-6c9de9bee672": {
+              "title": "Acceptance Criteria - Provide record of dimensional measurements to demonstrate concrete members comply with tolerances in Cl.610.47",
+              "type": "label",
+              "order": 2
+            },
+            "cc608786-7ed3-5989-af79-52be9f049e76": {
+              "title": "Cl.610.47",
+              "type": "label",
+              "order": 6
+            },
+            "cd68885b-2472-5164-9785-29ff5b58113d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "497a7fb4-8521-5aff-bc10-46428285fee7": {
+              "title": "Frequency - Each element",
+              "type": "label",
+              "order": 0
+            },
+            "4b29c789-7c3a-567e-b084-56b48c040e17": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "a8aa3dd3-8c31-593a-a387-798eabf3d4b8": {
+              "title": "Inspection / Test Method - Document Review",
+              "type": "label",
+              "order": 9
+            },
+            "ced52d15-de9f-5989-93c2-f2edad9e0084": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "4de31b99-a071-5e8b-8fc9-57ec62828c45": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "fb6f8301-f055-5d12-b13e-0e754de6be1b": {
+              "title": "IP",
+              "type": "label",
+              "order": 13
+            },
+            "535c50ca-c888-58a1-841b-b61809d4585f": {
+              "title": "Data Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 18
+            },
+            "ee50563b-1962-5616-a81e-ff25a3fc88b8": {
+              "title": "Surveyor",
+              "type": "label",
+              "order": 16
+            },
+            "6f9ef60b-3290-517e-844d-a5875cbe22fc": {
+              "title": "Reference Documents - VicRoads Spec.",
+              "type": "label",
+              "order": 5
+            },
+            "a9ac3baf-04ee-5874-b3d9-3b710b78b685": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "65e4d4f6-6804-5dad-8ad1-10f5c078de8c": {
+              "title": "IFC Drawings",
+              "type": "label",
+              "order": 7
+            },
+            "6e3b27d6-0e93-56d9-a403-4c3581d2d725": {
+              "title": "Record of conformity - Signed ITP",
+              "type": "label",
+              "order": 11
+            }
+          },
+          "meta": {
+            "name": "5.4 - As-built Survey",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "ae073dba-3186-5e52-a140-a38fcddfca54": {
+              "title": "Acceptance Criteria - Ensure that any NCRs pertaining to the lot / element / Work area that this ITP covers, have been closed in CAMs.",
+              "type": "label",
+              "order": 2
+            },
+            "dac40f6c-99a8-537b-b6ba-17f7c1f74ec5": {
+              "title": "Data Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 14
+            },
+            "b16d672b-ecd1-5384-a210-706f357a55e5": {
+              "title": "Responsibility - SE/PE",
+              "type": "label",
+              "order": 12
+            },
+            "8dd09611-3be4-5535-83c0-d0194281c2fe": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "99536755-dd7e-572f-a352-1b673f0a6a34": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "ee31b202-b601-5904-b451-b667a2d983c4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "a08ca9b2-4cf1-5374-844a-59666795c765": {
+              "title": "Record of conformity - Signed ITP",
+              "type": "label",
+              "order": 8
+            },
+            "13473713-7332-53e0-b69d-143ba5b8bff2": {
+              "title": "Inspection / Test Method - Document Review",
+              "type": "label",
+              "order": 6
+            },
+            "ed77e5c2-519d-5b73-8c3e-0b9a8baf0656": {
+              "title": "Reference Documents - FH Quality Management Plan",
+              "type": "label",
+              "order": 4
+            },
+            "8abf7bfe-d939-5237-9ebb-5a3cfb76502c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "a976a1af-1f31-58c9-81ed-ec4b497cc5f8": {
+              "title": "Frequency - Once, prior to closure of this lot / element / Work area",
+              "type": "label",
+              "order": 0
+            },
+            "3eeaaa11-750b-582c-b25f-34422eae6654": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "c55ef204-e466-57ed-ba23-a801115aaffa": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "c3d0b0f6-86b0-5a4e-a316-6d2eb3100c29": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "fe35efb0-af08-593f-bcfb-e7aa6c791fe0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "meta": {
+            "name": "5.5 - Non-conformance Report (NCR) Closure",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "7b3790cc-4f5c-505f-a44e-78a02a807e74": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "1f8657d2-54e7-5923-8c0b-99ef273af93c": {
+              "title": "The signature below verifies that this ITP has been completed in accordance with the Fulton Hogan's Quality system Procedures and verifies lot compliance with specifications.",
+              "type": "label",
+              "order": 0
+            },
+            "941946e5-41d4-56da-91ed-f78130dced46": {
+              "title": "Print Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "dc149d26-1f8e-5789-aba1-e7770985b24f": {
+              "title": "Position:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "211ff6cc-cf81-5273-9ecc-15970dcb79f8": {
+              "title": "Work Completed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "5 - Post-installation activities",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "7e86f849-51c3-5d1f-8067-3a60f759a264": {
+              "title": "Lot verified By",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Babak Rudd-Project Quality Manager",
+                " Abid Hameed (Area 1 Manager)",
+                " Nicola Lodo (Area 2 Manager)",
+                " Nicolas Terpstra (Delivery Manager)",
+                "Other:"
+              ],
+              "order": 3
+            },
+            "ea6ba6f0-6088-58af-911b-e2521376a02c": {
+              "title": "Is the relevant RFI attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 0
+            },
+            "4d8f824f-9a68-55f0-a65f-755a899bff7d": {
+              "title": "Lot Status",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OUTSTANDING",
+                " CLOSED"
+              ],
+              "order": 5
+            },
+            "da2a95d9-0410-555c-9d36-803f4866e864": {
+              "title": "Is the relevant NCR attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 1
+            },
+            "be4ab3ed-673d-53e9-99c4-dad81eadbd22": {
+              "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 2
+            },
+            "25dfa9ff-f90d-5687-bfc2-fba10d08e790": {
+              "title": "Other:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "c8cd9bf4-b5d2-5905-b98e-4886ff14908c": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "a47583af-7ffe-5672-aa8e-4d1c54142a71": {
+              "title": "Lot Closed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "Lot Verification.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Verification",
+        "dependant": true,
+        "type": "step",
+        "order": 6
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "ITP-083-AX-LOT-XXX - Desc",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}

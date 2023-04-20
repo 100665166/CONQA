@@ -1,0 +1,2316 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "03425f27-9445-528b-965e-e54911b8b7af": {
+              "title": "Lot Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "CIL - Civil Lot",
+                " DRL - Drainage Lot",
+                " EAL - Earthworks Lot",
+                " ELL - Electrical Lot",
+                " UTL - Utility Lot",
+                " STL - Structural Lot"
+              ],
+              "order": 3
+            },
+            "9cfb83c5-ba71-55ca-a8d5-98f2baea5364": {
+              "title": "From and To Chainage",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "b1aea6be-a74d-5930-a836-c1d4a463cf10": {
+              "title": "Engineer Responsible",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "3f192f48-4251-52c0-8555-ae995f1e08ae": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "02f7b303-f782-54be-a615-4ea203ecc564": {
+              "title": "Work Commenced On",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "258cb1d2-38c6-56a0-a838-5876e4c46500": {
+              "title": "Traffic Direction",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EB - Eastbound",
+                " ME - Median",
+                " NB - Northbound",
+                " SB - Southbound",
+                " WB - Westbound"
+              ],
+              "order": 8
+            },
+            "4ff550ec-f455-5e7d-b153-d3c979d41fc8": {
+              "title": "Lot Opened On",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "d046aacd-d1d1-5bb0-802e-0cbfc110f3bc": {
+              "title": "Activity",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "BORP - Bored Pile"
+              ],
+              "order": 6
+            },
+            "13bdcea9-1b87-5a1b-ba81-f5b650c42acc": {
+              "title": "Construction Element",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "FOUN - Foundation"
+              ],
+              "order": 5
+            },
+            "a5b354df-f686-5c02-a604-05a0da46672c": {
+              "title": "Lot Created On",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "5ee9700f-3626-589d-ab62-4bfa992c7511": {
+              "title": "Design Package No",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1145-ACM-CVD-DPK-0002",
+                " 1145-ACM-CVD-DPK-0003",
+                " 1145-ACM-CVD-DPK-0004",
+                " 1145-ACM-CVP-DPK-0001",
+                " 1145-ACM-CVP-DPK-0002",
+                " 1145-ACM-CVR-DPK-0001",
+                " 1145-ACM-CVR-DPK-0002",
+                " 1145-ACM-CVR-DPK-0003",
+                " 1145-ACM-CVR-DPK-0004",
+                " 1145-ACM-ELE-DPK-0001",
+                " 1145-ACM-ELE-DPK-0002",
+                " 1145-ACM-LDE-DPK-0001",
+                " 1145-ACM-LDE-DPK-0002",
+                " 1145-ACM-SBA-DPK-0001",
+                " 1145-ACM-STR-DPK-0001",
+                " 1145-ACM-TSI-DPK-0001",
+                " 1145-ACM-TSI-DPK-0002",
+                " 1145-ACM-TSI-DPK-0003",
+                " 1145-ACM-TSI-DPK-0004",
+                " 1145-ACM-UTL-DPK-0001",
+                " 1145-ACM-UTL-DPK-0002"
+              ],
+              "order": 7
+            }
+          },
+          "meta": {
+            "name": "1.0 Lot Information",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Information",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "62d7f1cb-5bf9-5014-af7e-0a5e875abdff": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "5b429f8d-0d28-557d-930f-95058b86034e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "414209a4-f605-502d-bd1c-6c4bac53571c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "76ea84bf-45f9-5e41-a779-c8807a602b1a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "a551a02c-b877-5abe-a824-93db4443aeae": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "3ab1832f-1117-5351-b935-4d40e77f41e6": {
+              "title": "Inspection / Test Method: Document review",
+              "type": "label",
+              "order": 6
+            },
+            "4a27a1b6-5eb5-5990-bf40-d9bc8a5a19dd": {
+              "title": "Reference Documents: Site Induction Register",
+              "type": "label",
+              "order": 4
+            },
+            "e2a1e973-7835-5ce0-8a7b-b01203a40ce1": {
+              "title": "Acceptance Criteria: All personnel on site have been inducted to the CRG site",
+              "type": "label",
+              "order": 2
+            },
+            "53aa2ee3-d589-523f-845b-ae297b9ff2cc": {
+              "title": "Record of conformity: Site induction signed.",
+              "type": "label",
+              "order": 8
+            },
+            "8dba8910-62c9-5f51-a397-c611954e0180": {
+              "title": "Frequency: Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "1a93825f-2c4d-5cae-9498-373442f688e6": {
+              "title": "Responsibility: Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 12
+            },
+            "32e0b63f-0533-5e7b-ba18-94d6387af0f6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "bd0ccd8b-9868-57f1-9e80-4684e8640278": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "meta": {
+            "name": "1.1 - Induction",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5223ff8a-abc1-5b49-8b4c-43c5b2d23524": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "a624f604-9d29-5ca5-a902-73ca1cfea44e": {
+              "title": "Responsibility: Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 12
+            },
+            "cbafb312-edb6-5b15-81f0-b5f1e72d35b2": {
+              "title": "Reference Documents: WP",
+              "type": "label",
+              "order": 4
+            },
+            "e30ee9ab-07a1-5289-a964-cd1ef7712382": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 6
+            },
+            "98b0c2ac-d345-507e-8a42-ada18637023b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "117a8b52-634f-5c80-976d-aca4b6de33b9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "f2d08858-b8c7-5218-95b7-67b7a83020ae": {
+              "title": "Frequency: Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "74819dbe-7bc8-5bda-854a-e0e14e7b657c": {
+              "title": "Acceptance Criteria: All personnel on site have been briefed on the relevant work park relating to scope of works.",
+              "type": "label",
+              "order": 2
+            },
+            "2eef3344-3cd6-5ab5-8d04-852cb381cf31": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "9e5f8989-7bbe-5139-9b00-79d25aca505a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "8a9bce34-060f-50c5-8d42-4ed7dbd685d7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "7abea2a0-3066-553a-8015-dd18dd1d3e6f": {
+              "title": "Record of conformity: Work pack signed.",
+              "type": "label",
+              "order": 8
+            },
+            "eb6f9750-6f90-5e14-91b0-4e6844d7c188": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            }
+          },
+          "meta": {
+            "name": "1.2 - Work pack briefing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "6dd58fef-7c4b-5091-ae49-542c742d8590": {
+              "title": "Reference Documents: Health and Safety Co-Ordination Plan",
+              "type": "label",
+              "order": 4
+            },
+            "fb8c789e-bc8d-5bda-b8a5-938c70b4e330": {
+              "title": "Record of conformity: SWMS(s) signed",
+              "type": "label",
+              "order": 8
+            },
+            "316df2fb-2296-519c-a608-f4308e52b2b6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "1fce66ec-a312-5e92-87c2-40da2b7a1016": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 6
+            },
+            "ae8749c9-109f-51bb-9abd-4c8c9e07e0a6": {
+              "title": "Acceptance Criteria: As per Fulton Hogan Safety Strategy. All personnel on site to have signed onto relevant SWMS before commencing work.",
+              "type": "label",
+              "order": 2
+            },
+            "b649a8a0-cfab-51ca-9172-fc66f797fdff": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "d7fd67d4-39d8-5dc4-94a7-dfc7f4315b04": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "205ad061-bd61-5d8c-860b-51cd11f80a3c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "35bb0964-92a1-54c4-bb9e-c3d272d97e18": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "ef41bdd3-52a6-5404-b2b7-bf1ca66f7b6c": {
+              "title": "Frequency: Prior to commencing",
+              "type": "label",
+              "order": 0
+            },
+            "ca6849b7-8d11-5858-ba78-ee0726d8f10d": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "ed47f718-a2e3-5043-baca-8e7b9f65a76c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "867f351c-6fce-5c82-bf67-cc5c18e95b8f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            }
+          },
+          "meta": {
+            "name": "1.3 - Safety measures are in place, Safe Work Method Statement (SWMS) undertaken",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "d36d7b9d-ba91-55f0-b529-1bc2f29062ef": {
+              "title": "Frequency: Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "b8328aae-cd0f-5c2f-b98b-8f1fe576a3e6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "b204d113-73b3-5565-b8b4-dd77e9c59a59": {
+              "title": "Acceptance Criteria: Issued For Construction (IFC) and latest available revision used",
+              "type": "label",
+              "order": 2
+            },
+            "12701cdd-57a9-5925-a427-90a670161792": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "54f76306-da2b-5fab-ab21-2c45fa5819e8": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "db343f3c-3745-5d84-b1ad-1b1623726b1f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "c29a8aa0-e6b9-5db4-ad0a-6ec38e75154d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "405130b4-e469-510b-bbb5-099bd3a42adb": {
+              "title": "Inspection / Test Method: Document review",
+              "type": "label",
+              "order": 6
+            },
+            "561fb743-b389-550c-857c-68d66d899099": {
+              "title": "Reference Documents: Project Drawings / Drawing Register",
+              "type": "label",
+              "order": 4
+            },
+            "3ab963f0-4ace-5ce0-a130-b9f880a23ce6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "797cb20f-82f7-5fdc-8cdb-7cbcacbcf62d": {
+              "title": "Record of conformity: This ITP Signed",
+              "type": "label",
+              "order": 8
+            },
+            "ce377833-3e46-570f-9bba-e4da0841bb3e": {
+              "title": "Responsibility: Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 12
+            },
+            "e80e56af-b25a-5174-8138-31020b2cebc6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "meta": {
+            "name": "1.4 - Check that current revision drawings are being used",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "901a9d19-f749-5311-8c4f-030ca1dff15c": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "cbec5988-a7a7-59b2-8ba1-a423946c3a6e": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "7113754a-2aa9-5100-a557-bf55ad2a206c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "3a660465-6821-5805-bb63-5b4ebc267ca4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "55427ed9-d2b3-5caf-a5e7-778975090a25": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "01caf34d-e52c-55e0-9cc0-f339663b4ef1": {
+              "title": "Frequency: Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "976ef6d0-425a-5f75-ac0b-3eb574d26108": {
+              "title": "Acceptance Criteria: All personnel on site have been inducted and briefed on the requirements of the CEMP. All environmental measures including sediment and erosion control to be implemented as per current CEMP.",
+              "type": "label",
+              "order": 2
+            },
+            "ffca7ad0-f719-528d-b7df-fdc9a629e4e3": {
+              "title": "Inspection / Test Method: Document review & Site inspection",
+              "type": "label",
+              "order": 6
+            },
+            "38f77921-09df-5697-b36b-5dff28f9d6d9": {
+              "title": "Record of conformity: This ITP Signed",
+              "type": "label",
+              "order": 8
+            },
+            "60b346fe-5816-558a-a618-c661717b5bcc": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "93d01b84-2311-57d7-9c1d-d17cd2abf834": {
+              "title": "Reference Documents: CEMP",
+              "type": "label",
+              "order": 4
+            },
+            "6af484fa-5c6e-538e-8678-6d700555b23b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "6f622159-0a21-5bd1-9596-cd12f36377f1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            }
+          },
+          "meta": {
+            "name": "1.5 - Confirm understanding of current Environment Management Plan (CEMP) related to the work area and that all prescribed environmental controls are in place",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "1703ced0-f84a-55a2-b7e1-49d6e5913b90": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "208471a4-e49a-5a84-bbb7-57fee5cd94aa": {
+              "title": "Acceptance Criteria: Current Excavation Permit signed and specific for the area where works will be executed.",
+              "type": "label",
+              "order": 2
+            },
+            "1517625d-7a60-58ce-97b1-0eb21556915d": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "f0296e7b-db2f-5842-8b1d-9fa7aa545c98": {
+              "title": "Reference Documents: Excavation Permit",
+              "type": "label",
+              "order": 4
+            },
+            "78cdc3bb-8349-5c6a-b35a-0407aedd41c0": {
+              "title": "Record of conformity: Excavation Permit #",
+              "type": "label",
+              "order": 8
+            },
+            "cbeee6a0-b60c-5694-83d3-401382ac492a": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "46592b2c-fe2c-5fb5-976e-4c7185f541b9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "573a58db-5e8b-5a0f-b1a4-4b281d46c4cb": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "9c2bd7c0-86df-59fe-8e6d-7dab62a63584": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "f7384427-5005-55e2-9805-f8a9686da936": {
+              "title": "Inspection / Test Method: Document review & Site inspection",
+              "type": "label",
+              "order": 6
+            },
+            "7df79850-3346-5f87-be2e-29404952db03": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "2b5d2e19-d4bb-5cdc-b48b-1f7e7d67a952": {
+              "title": "Frequency: Prior to Commencing Work",
+              "type": "label",
+              "order": 0
+            },
+            "3043e77f-b630-5fc4-be8a-ebc1b6a683f3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            }
+          },
+          "meta": {
+            "name": "1.6 - Excavation Permit issued",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "dad1fda5-1f96-5452-a02a-cd77b82c908b": {
+              "title": "Inspection / Test Method: Document review & Site inspection",
+              "type": "label",
+              "order": 6
+            },
+            "33802581-6763-54ff-bec8-f3276dcca48e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "d907995f-c9a0-5529-9878-df22f057af26": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "56882666-9483-5469-b6d4-286a50eaf0e3": {
+              "title": "Record of conformity: Superintendents Correspondence",
+              "type": "label",
+              "order": 8
+            },
+            "0f7ef228-a666-5ebe-bd02-935dbf1302ba": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "3bf9a316-8fed-5914-8276-a7d5367a2b80": {
+              "title": "Frequency: Prior to Commencing Work",
+              "type": "label",
+              "order": 0
+            },
+            "122d2edb-ca17-5a25-a2d9-99971c5b41ea": {
+              "title": "AP",
+              "type": "label",
+              "order": 10
+            },
+            "9d936a26-8fe6-53c8-ae64-e232963d2fb1": {
+              "title": "Reference Documents: WTMP",
+              "type": "label",
+              "order": 4
+            },
+            "70456925-cf87-5ac6-9a25-973065e32003": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "3b63fd88-50fe-54e0-b379-417004ae8d74": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "6d2111b5-59c7-596d-855a-4040fe9f5f5d": {
+              "title": "Acceptance Criteria: Approved WTMP and MOA",
+              "type": "label",
+              "order": 2
+            },
+            "8847e9c0-b38a-57ea-b6b2-32b26bfeebe5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "7bc7daab-1d33-5e23-b0b7-8cd8b547d659": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            }
+          },
+          "meta": {
+            "name": "1.7 - Traffic Management (When required)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "5e555aa2-710c-5fd0-aa89-12f160075588": {
+              "title": "Record of conformity: Approved Mix Design",
+              "type": "label",
+              "order": 9
+            },
+            "a86c7fc3-c1d9-5801-88dc-1c117c4c4f17": {
+              "title": "Reference Documents: VicRoads Spec. Cl.610.07(b)",
+              "type": "label",
+              "order": 5
+            },
+            "c9deaa05-8ffb-56ad-b76a-d07cfd8a1cd7": {
+              "title": "Inspection / Test Method: Document review",
+              "type": "label",
+              "order": 7
+            },
+            "ac805f91-b0c4-57ec-b5cc-98496b5ed987": {
+              "title": "HP",
+              "type": "label",
+              "order": 12
+            },
+            "8072d513-da6e-58cb-8421-c3848ab50597": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "d8839c29-6fdf-5062-83e4-c1743ba95cb4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "d0eb8f50-0e69-5960-bdfb-a80418b6aecb": {
+              "title": "Concrete mix designs shall remain valid for 12 months from the date of registration, unless constituent materials and material proportions cease to comply with the specified requirements.",
+              "type": "label",
+              "order": 3
+            },
+            "8673b277-62ab-59e2-8102-898ab2f9a725": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "159748de-fce5-582a-b271-284200fc85c2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "a1413e7b-bf6b-5d1a-bc48-ef8ca8fb42f7": {
+              "title": "Frequency: No less than 4 weeks prior to commencement of activity",
+              "type": "label",
+              "order": 0
+            },
+            "8e414c3d-4c51-512d-b468-c6e54b33a6d7": {
+              "title": "Responsibility: Project Engineer & Superintendent",
+              "type": "label",
+              "order": 14
+            },
+            "2ab2da3e-7720-5298-9892-d89856d8401c": {
+              "title": "Acceptance Criteria: The concrete mix design details shall be submitted for review by the Superintendent not less than 4 weeks prior to the placement of concrete. Concrete shall not be placed until the mix design has been reviewed by the Superintendent, and allocated a registration number on the Register of VicRoads approved concrete mixes.",
+              "type": "label",
+              "order": 2
+            },
+            "016376a5-314a-5690-aef8-334db989f326": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "bf310730-df96-535e-aa90-0835b351663e": {
+              "title": "Allocated registration number on the Register of VicRoads approved concrete mixes.",
+              "type": "label",
+              "order": 10
+            },
+            "7ecc2a2c-48a0-5bfa-aa0b-3e813aaa8ac2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            }
+          },
+          "meta": {
+            "name": "1.8 - Mix design",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "e5c84ea6-b731-5b4a-afab-ed573c5678c2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "636ed130-83ac-5ac2-997b-f2e87df41c39": {
+              "title": "Cl.611.03(a)",
+              "type": "label",
+              "order": 6
+            },
+            "7dd3a204-ab40-5903-aeaf-542b3ccd4364": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "9e6ea6ce-8323-5172-a337-6493c08ccc71": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "8eb78c36-a211-5dbc-bb71-5ae09e7ff458": {
+              "title": "Cl.611.04",
+              "type": "label",
+              "order": 7
+            },
+            "c6d6ca77-217b-5826-92b5-defe9d91643b": {
+              "title": "Record of conformity: Submitted Product Details",
+              "type": "label",
+              "order": 12
+            },
+            "ce36809a-81a8-533e-9951-5ac406b04a4c": {
+              "title": "HP*",
+              "type": "label",
+              "order": 14
+            },
+            "0719bd41-bde0-5e83-9a72-f5c394681e1c": {
+              "title": "Responsibility: Project Engineer",
+              "type": "label",
+              "order": 16
+            },
+            "3f2951dd-e7eb-59e8-979e-6f927c3177fc": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "22546b13-16cf-5a37-8282-ad8a4286040e": {
+              "title": "Reference Documents: VicRoads Spec.",
+              "type": "label",
+              "order": 5
+            },
+            "a10ae7c5-ebfb-5988-885c-ac35e68e9e39": {
+              "title": "Cl611.05(a)",
+              "type": "label",
+              "order": 8
+            },
+            "199b3e46-b1c0-5fef-9221-1800ba23dbf2": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 10
+            },
+            "6c702a6e-576f-51a8-9524-a89bff881017": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "4dcd5564-cf77-538d-8345-7a8b95632ae7": {
+              "title": "Manufacturer of steel reinforcement materials must be in possession of a current certificate of approval, issued by the Australian Certification Authority for Reinforcing Steel (ACRS). Evidence of compliance with this clause shall be submitted to the superintendent within 14 days of award of the contract.",
+              "type": "label",
+              "order": 3
+            },
+            "81d48fa5-2b88-504c-af48-47f1bcc8a8c8": {
+              "title": "Frequency: Prior to commencing works and no more than 14 days after contract award",
+              "type": "label",
+              "order": 0
+            },
+            "0eb10f13-ce99-5177-853a-631463e55d23": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "5db8d2a5-4891-51d5-9c6d-27b0832d9255": {
+              "title": "Acceptance Criteria: Steel reinforcement shall comply with the requirements of Section 611. Unless otherwise shown on drawings, bars shall be grade 500N. Allowances should be made when preparing the steel reinforcement schedule to achieve the specified tolerances on member dimensions, concrete cover and location of steel reinforcement",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "1.9 - Steel Reinforcement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "931e550f-3f4f-51d1-80f7-dd74eda3c293": {
+              "title": "Cl.610.18(c)",
+              "type": "label",
+              "order": 10
+            },
+            "13176dba-a335-5c3f-82fd-ce8f1782cad3": {
+              "title": "Record of conformity: Approval of Quality Procedure for piles construction",
+              "type": "label",
+              "order": 14
+            },
+            "01c12575-3b4c-5d48-b3d3-dbbaab80e03c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "bc60410e-f7fb-5c56-9622-247dc20365cd": {
+              "title": "Reinforcement and/or concrete shall not be placed until the proposed method of removing mud, loose rock or similar materials, and the method of placement of concrete under water has been reviewed by the Superintendent.",
+              "type": "label",
+              "order": 3
+            },
+            "48e3a454-2ce9-5afd-a3ba-79871db6b2b6": {
+              "title": "Cl.606.06(a)",
+              "type": "label",
+              "order": 9
+            },
+            "5e37ea61-9ed8-531a-a013-2fc12e98892a": {
+              "title": "Inspection / Test Method: Document review",
+              "type": "label",
+              "order": 12
+            },
+            "94e3c9d1-9bb6-5640-bd7f-276d07c950d2": {
+              "title": "Acceptance Criteria: A quality procedure for the construction of the piles shall be submitted to the Superintendent not less than 4 weeks prior to the commencement of the piling works. Piling works shall not take place until the quality procedure has been reviewed and approved by the Superintendent.",
+              "type": "label",
+              "order": 2
+            },
+            "5e632c58-9a62-5f62-bdc7-91fa6944a544": {
+              "title": "HP",
+              "type": "label",
+              "order": 17
+            },
+            "e31af265-4947-51c9-a273-2623da74b0b8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "530f21c4-849d-511e-b842-61ec8f997946": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "5182472d-9a8b-537e-829c-e4767b33bfdd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "56a088ba-dcd6-52b3-97e7-8c720be8b9da": {
+              "title": "Cl.606.03(a)",
+              "type": "label",
+              "order": 8
+            },
+            "336c9625-6af9-57ae-b131-8fa41354e883": {
+              "title": "Responsibility: Project Engineer & Superintendent",
+              "type": "label",
+              "order": 19
+            },
+            "364a2518-7541-54c9-8a04-914db4e85229": {
+              "title": "Procedure for placing concrete reviewed",
+              "type": "label",
+              "order": 15
+            },
+            "447e22f5-f8e8-5640-b0d6-e58c3aa221cd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "ff105e5f-34b4-5854-a001-2aeef45f2da8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 18
+            },
+            "bdbdc9ae-66c9-519d-a57a-75a8fc14458c": {
+              "title": "Reference Documents: VicRoads Spec.",
+              "type": "label",
+              "order": 7
+            },
+            "6d9db5ca-7fef-5602-97f8-a7439b498bda": {
+              "title": "Frequency: No less than 4 weeks prior to commencement of activity",
+              "type": "label",
+              "order": 0
+            },
+            "3182816d-30fd-58e1-ad38-620362f2818f": {
+              "title": "The Contractor shall submit the procedure for placing concrete in bored piles, under water and in dry bores, for review by the Superintendent at least four weeks prior to concreting.",
+              "type": "label",
+              "order": 4
+            },
+            "8cf23bd3-8ef7-5778-b687-80eadbd29d4b": {
+              "title": "Concrete shall not be placed in bored piles, under water or in a dry bore until the proposed method of placement of concrete has been approved by the Superintendent.",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "1.10 - Quality Procedure for pile construction",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "1 - Preliminary Works / Design and Submissions",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "627d1d3e-3991-5cc9-9119-5304f53a262d": {
+              "title": "Acceptance Criteria: Survey to ensure and validate that all works meet level and location requirements. Review of existing survey control marks and any additional control marks required for the works. The establishment and integrity of the survey network shall be verified before commencing any survey and set out activity.",
+              "type": "label",
+              "order": 2
+            },
+            "fcdc52ac-2c82-596a-bf5d-d7559da637a5": {
+              "title": "SCP",
+              "type": "label",
+              "order": 11
+            },
+            "6de3b593-0798-5e1f-aefb-b00c1be2af67": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "d3386b27-caf0-5cd1-84ac-302723166f72": {
+              "title": "Responsibility: Site Engineer & Surveyor",
+              "type": "label",
+              "order": 13
+            },
+            "76cd9a8e-ef49-5795-9083-331b75619b9c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "01f75e2c-0409-54dd-98e1-9af63b3f61f5": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 7
+            },
+            "5b8bb50a-748a-5e42-8140-48c65a2a65e7": {
+              "title": "Frequency: Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "67064158-65ac-5edd-a1e7-a3f80c48eb45": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "0aabc933-562f-5453-94e4-46ba76acbdaf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "5d7d5f9e-a169-54ff-8f0e-a210fc0d0724": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "b3e10628-57a8-5d8a-b1fc-1a45a7bb67ea": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "613a877f-4d32-5f2e-83dc-7909177283a4": {
+              "title": "Latest IFC Drawings",
+              "type": "label",
+              "order": 5
+            },
+            "5255b55b-806e-5b36-a842-9f6b9e3e7dfe": {
+              "title": "Reference Documents: Project Spec. Cl.1190.06",
+              "type": "label",
+              "order": 4
+            },
+            "77b5d714-f25c-55a8-9361-2ae0821f505f": {
+              "title": "Record of conformity: This ITP Signed, Survey Records",
+              "type": "label",
+              "order": 9
+            }
+          },
+          "meta": {
+            "name": "2.1 - Survey set-out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "017eb087-9a64-59cf-b7ec-f7ae766b112a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "34038865-29f2-5a93-b3ae-a9654dc7a716": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "20c234ec-6179-5be8-9f04-b81c08c72e24": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "585e53bf-d6cf-51a0-966f-0bc2753603f2": {
+              "title": "Acceptance Criteria: No pile shall be commenced within 2.5m clear distance of a newly cast pile until the concrete in the pile has attained a strength of 15MPa",
+              "type": "label",
+              "order": 2
+            },
+            "2a285b6b-718d-5312-b363-81db70220d8e": {
+              "title": "Record of conformity: This ITP Signed, Bored Pile Checklist",
+              "type": "label",
+              "order": 8
+            },
+            "dcd18344-0d0b-5943-b5ef-bd74f5fc8a92": {
+              "title": "Reference Documents: VicRoads Spec. Cl.606.04",
+              "type": "label",
+              "order": 4
+            },
+            "005c61e3-bda5-5cfa-8005-8052c0431da4": {
+              "title": "Inspection / Test Method: Visual Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "69801571-0ac7-54c5-ab0c-6f946a50f7e9": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "900b4356-4866-5505-b4c8-5b1d8745a77f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "ec1717eb-a672-5363-9d41-668841d8319b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "66a1ec4d-a983-5d48-b729-6dcd6ed4129f": {
+              "title": "Frequency: Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "ccc907e7-9824-52e2-a39c-fb135c9af568": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "4571b465-c33a-5495-ad4f-378e9620b571": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            }
+          },
+          "meta": {
+            "name": "2.2 - Protection of Adjacent Piles",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "ca4be665-6658-5ecb-9863-0ca79553cdbc": {
+              "title": "Frequency: Each pile",
+              "type": "label",
+              "order": 0
+            },
+            "cf237a7d-1633-56ad-9783-89b8f718df7f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "0358aed2-0f08-5d1e-82b3-3ff251f1ae17": {
+              "title": "Acceptance Criteria: Check the toe levels conform to the drawing.",
+              "type": "label",
+              "order": 2
+            },
+            "01a22a3a-2f73-55c4-89b9-25c66b71f50c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "5043de45-7235-5262-8a53-b419fa840a60": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "f67a8532-b78c-54f9-a60a-be842e2d96ce": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "6856c123-813d-5f46-b9bb-7e1e32f9957f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "a95ba96d-624e-5841-ac9f-df81fd682359": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "c30482b0-913e-54ce-8770-cfac3ced06db": {
+              "title": "Reference Documents: Latest IFC Drawings",
+              "type": "label",
+              "order": 4
+            },
+            "4e37aa3a-9d8d-5321-b259-2ae2d0b34ae9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "66c36dc8-bb4e-5155-a5fd-adcd7abcb093": {
+              "title": "Record of conformity: Bored Pile Checklist CRG-FH-CL-0006",
+              "type": "label",
+              "order": 8
+            },
+            "ac9402a2-efbf-5ca2-bd63-e6551f754cbe": {
+              "title": "Inspection / Test Method: Document review",
+              "type": "label",
+              "order": 6
+            },
+            "5ab1d3c8-9a1a-5ac3-9411-2957270dafd4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "2.3 - Excavation levels",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "5548f3e2-744c-5ae2-99f6-f32c416376be": {
+              "title": "Frequency: Each Pile, a minimum of 48 hrs notice given to the Superintendent for arrangement of the inspection of the pile excavation",
+              "type": "label",
+              "order": 0
+            },
+            "00c02328-53d4-5b5b-8d15-d8280c96c644": {
+              "title": "HP",
+              "type": "label",
+              "order": 10
+            },
+            "809d48af-96db-5898-8ecc-77cfae35598a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "14a80049-2464-55c4-bfba-f69f629b228c": {
+              "title": "Record of conformity: Pile walls and base inspected by Superintendent, This ITP signed off",
+              "type": "label",
+              "order": 8
+            },
+            "db4346a6-402b-5ae0-82a2-49b9eea91c30": {
+              "title": "Reference Documents: VicRoads Spec. Cl.606.05",
+              "type": "label",
+              "order": 4
+            },
+            "9ab091ef-7d9b-52a2-b6d7-34945f6be15a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "f3e0119a-0933-54b9-9740-e383426e99e2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "bbebba33-eccc-5f3f-85df-745fe908ba3f": {
+              "title": "Acceptance Criteria: The temporary casing (where used) shall not be removed, nor shall reinforcement and/or concrete be placed until the pile walls and base have been inspected by the Superintendent and that the inspection has confirmed that the geotechnical strength of the materials in the pile wall base have satisfied the design assumptions.",
+              "type": "label",
+              "order": 2
+            },
+            "96421c99-9951-5535-94b9-49760268b696": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "a1269ea8-e3f9-51fb-9a7a-ac9903e5a39b": {
+              "title": "Responsibility: Site Engineer & Superintendent",
+              "type": "label",
+              "order": 12
+            },
+            "af9c064c-2a4b-5c26-86b3-905a8234425f": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "89636ad8-6296-512f-a164-840515c95686": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "cf8e8204-411b-5186-8492-7a92650252d6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            }
+          },
+          "meta": {
+            "name": "2.4 - Inspection of Pile Excavation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "24ce41d0-8ca8-5aa9-804b-f3533fcb0fc7": {
+              "title": "Record of conformity: Bored Pile Checklist CRU-FH-CL-0006",
+              "type": "label",
+              "order": 15
+            },
+            "ab5c9de4-63ac-5f63-ac23-0b7c8c0ebc02": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "0500f8a1-0ec4-5c41-8482-7322f32af2bf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "53ed90c8-d77f-5e6b-ac98-0ba949d568e1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "c4176597-fbac-5831-9616-8ac253c38ebf": {
+              "title": "Reference Documents: VicRoads Spec.",
+              "type": "label",
+              "order": 6
+            },
+            "cdb42a99-5233-547d-8ea2-c02739424c80": {
+              "title": "Cl.611.10",
+              "type": "label",
+              "order": 10
+            },
+            "5794c57c-c730-55a2-9252-b4b64c4d6e13": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "bc5978d7-768b-5b72-8527-57c59145803a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 18
+            },
+            "6bf067c9-43de-52fc-919d-ecb643a758a9": {
+              "title": "IP",
+              "type": "label",
+              "order": 17
+            },
+            "1996e09e-dc20-52b9-89e5-2e5eea4c27a1": {
+              "title": "Reinforcement as per drawings and specification.",
+              "type": "label",
+              "order": 4
+            },
+            "cb2a9e7c-fee3-5ab3-812f-8ac2f6db6a25": {
+              "title": "Acceptance Criteria: Steel Reinforcement shall be securely held during placing and compacting of concrete. Steel reinforcements shall be made of concrete blocks of a strength similar to the structure, strong enough to withstand the imposed loads without movement of the steel reinforcement. No other materials to be used as supports.",
+              "type": "label",
+              "order": 2
+            },
+            "a8d498e9-9f86-5653-b3bb-acd3f50e3bd8": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 13
+            },
+            "4b74ad16-1109-5956-abd4-e6921e0d64fa": {
+              "title": "Cl.611.04",
+              "type": "label",
+              "order": 9
+            },
+            "f3217bb0-a130-5ffc-b605-820bddbdf0db": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 19
+            },
+            "3244f0d0-fcf3-5439-acbe-43be757d9307": {
+              "title": "Cl.611.03(a)",
+              "type": "label",
+              "order": 8
+            },
+            "c78f25d8-c1dd-59b8-b665-199b340cd543": {
+              "title": "Project Specification",
+              "type": "label",
+              "order": 11
+            },
+            "c4ffe207-6d45-5bb0-bc12-dffb5d3d27cf": {
+              "title": "Frequency: Each pile",
+              "type": "label",
+              "order": 0
+            },
+            "c0958319-ff56-5280-8116-e1bc0b5b8106": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "0ddafe96-bcfd-507d-932f-78b611ef7648": {
+              "title": "Cl.606.06(a)",
+              "type": "label",
+              "order": 7
+            },
+            "2fb834e4-8b37-5ea1-9b04-58f6eb73b1e3": {
+              "title": "Spacers and supports for bored pile steel reinforcement shall be placed at intervals of no more than 2 m along the full length of the steel reinforcement cage to ensure that the specified concrete cover to the steel reinforcement is maintained.",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "2.5 - Check reinforcement cages",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "61942090-5402-5acf-a3c8-fed3f295113a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "5b2de478-2159-54ca-90a1-27b79b51c6cd": {
+              "title": "Frequency: Each pile",
+              "type": "label",
+              "order": 0
+            },
+            "2113ee09-0a44-5a0a-89bb-ba0f495b1993": {
+              "title": "Reference Documents: Work Pack",
+              "type": "label",
+              "order": 4
+            },
+            "cef256be-abb7-58de-923f-0cde68ed593d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "e4ab732c-7532-5dc8-b9ac-40d9fe2563eb": {
+              "title": "Acceptance Criteria: Bored Pile Checklist completed and signed.",
+              "type": "label",
+              "order": 2
+            },
+            "757e39fd-e946-575e-a84e-8cebf4620588": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "190115c8-8f8d-575b-b2b4-0d32044dc15d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "38e8ed49-1751-54d7-81cc-292cdc2711f7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "e674446c-42cb-52b4-b256-0d9db6eeee4e": {
+              "title": "Record of conformity: Bored Pile Checklist CRG-FH-CL-0006",
+              "type": "label",
+              "order": 8
+            },
+            "d8762660-88c8-5fd6-94b7-ee0bc8ba021e": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "fedd53d9-4378-581d-b15a-05e782b3836d": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "2b8a1563-676d-552c-8f87-3427db7ec56c": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "b6cca4e1-52fa-59c9-835c-b046d6a1deb8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            }
+          },
+          "meta": {
+            "name": "2.6 - Pre – pour checklist",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "2 - Boring",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "9b0da062-8bde-5d41-b14b-1e430bca74b8": {
+              "title": "Cl.610.16(b)",
+              "type": "label",
+              "order": 11
+            },
+            "4095df0c-5758-5669-a685-42f265dfb298": {
+              "title": "– Number of samples taken shall be as per Table 610.161",
+              "type": "label",
+              "order": 7
+            },
+            "c5cd2e70-9d87-5b5c-8489-e5519dd4ab87": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 21
+            },
+            "a11a6897-d582-5cea-b212-b4f7eb1b6311": {
+              "title": "Cl.610.13(b)",
+              "type": "label",
+              "order": 10
+            },
+            "305553c7-a32b-56b0-868a-7e27d3904698": {
+              "title": "Inspection / Test Method: Site Inspection, Site Sampling",
+              "type": "label",
+              "order": 16
+            },
+            "e72da386-da32-529d-85ec-13d827175beb": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 19
+            },
+            "c64fdd12-a973-5163-8dae-42eb1d72c83b": {
+              "title": "Cl.610.16(n)",
+              "type": "label",
+              "order": 12
+            },
+            "2ed9ab49-be13-50bb-bb36-c229f2998363": {
+              "title": "Table 610.161",
+              "type": "label",
+              "order": 14
+            },
+            "b25e45f6-2b02-5ad7-b616-4a5e47d5f250": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "4cf20bf2-693a-537e-8651-23eddffcd502": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "9c38673b-e588-5436-b4e7-5ba2cfd9087a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "28a5bff2-be4c-597a-a7ef-0c6b10a45625": {
+              "title": "Reference Documents: VicRoads Spec.",
+              "type": "label",
+              "order": 9
+            },
+            "e8b118c7-0197-5a68-8ecb-0dabcbaabb23": {
+              "title": "Table 610.131",
+              "type": "label",
+              "order": 13
+            },
+            "bb83c579-823e-5202-b4f3-b7fe6c787b4b": {
+              "title": "– Three cylinders taken from the same sample used to test. 1 cylinder crushed at 7 days. 2 cylinders crushed at 28 days",
+              "type": "label",
+              "order": 6
+            },
+            "98f7fa6a-3942-535a-b0b5-d6da4d1a2024": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "ded98c3c-511d-5083-a85b-e74465a4be3c": {
+              "title": "T500 time: Achieve a spread of 500 mm within 1 to 5 seconds",
+              "type": "label",
+              "order": 3
+            },
+            "63ce97f8-817c-5e98-8f54-1b743de12463": {
+              "title": "IP",
+              "type": "label",
+              "order": 20
+            },
+            "b36b6365-ea46-5607-9724-67d5aff5c830": {
+              "title": "Observations as per Table 610.131 of VicRoads Spec.",
+              "type": "label",
+              "order": 5
+            },
+            "a870dcf5-5f69-5a5f-b6ce-b544b710e494": {
+              "title": "Acceptance Criteria: Slump flow: 550-800mm spread",
+              "type": "label",
+              "order": 2
+            },
+            "1fc4f4a0-3ecb-5b24-8da6-ef4810044beb": {
+              "title": "Frequency: As per table 610.161",
+              "type": "label",
+              "order": 0
+            },
+            "0bdbfa78-d307-5bb5-8baf-7e5a614c2b80": {
+              "title": "Passing ability ≤ 10 mm.",
+              "type": "label",
+              "order": 4
+            },
+            "c5ddccac-c9ac-5d08-8762-aa10dce3af30": {
+              "title": "Record of conformity: Concrete Pour Record CRG-FH-CL-0003 and Bored Pile Checklist CRG-FH-CL-0006 completed",
+              "type": "label",
+              "order": 18
+            },
+            "1e97f4bd-891d-5378-80b9-9aedc5cca79f": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 22
+            }
+          },
+          "meta": {
+            "name": "3.1 - Carry out sampling of concrete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "394eda3f-a866-51c2-afa7-aad2d1375a21": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "aa0c1d94-59f3-50f4-9421-521b696f43a9": {
+              "title": "Record of conformity: Concrete Pour Record, Bored Pile Checklist, Concrete dockets",
+              "type": "label",
+              "order": 16
+            },
+            "f01638ec-a448-5e3d-a552-b59acf3b5416": {
+              "title": "Frequency: Each Concrete pour",
+              "type": "label",
+              "order": 0
+            },
+            "ca244396-2afa-59ac-956a-5713baf9a34c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "fd53911c-fe55-5a07-8f05-30a1a3c95912": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "b78a06b7-e4c5-5804-bb85-4997063309a9": {
+              "title": "All concrete to be placed within 60 minutes from batch or as specified in the approved VR mix.",
+              "type": "label",
+              "order": 4
+            },
+            "4417c992-d828-51c0-86ae-e3b2cb050902": {
+              "title": "Reference Documents: VicRoads Spec.",
+              "type": "label",
+              "order": 8
+            },
+            "7d83b810-ef93-5ec3-b1bc-1965aa222ea3": {
+              "title": "Cl.610.16(b)",
+              "type": "label",
+              "order": 9
+            },
+            "97948380-4c5b-5e5a-b853-95db97294926": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "f6cb19f6-85f5-5742-8a5a-19fae24229f4": {
+              "title": "Cl.610.16(c)",
+              "type": "label",
+              "order": 10
+            },
+            "3ee134b8-2bcc-5736-a986-39bba7044a0d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 19
+            },
+            "8585dba2-55a1-5a20-afc3-b9851a8acd6f": {
+              "title": "Discharge time between truckloads for the same cast to be <45 mins.",
+              "type": "label",
+              "order": 3
+            },
+            "61520b11-1532-5e08-a879-e389493ea6c6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "02bc57bc-6c12-505e-92d6-f32978063982": {
+              "title": "Cl.610.13(f)",
+              "type": "label",
+              "order": 11
+            },
+            "63859496-24e9-548d-bb5e-1a4290994ddf": {
+              "title": "Each batch (truckload) of concrete delivered to site shall be visually inspected to ensure consistency of concrete supply, and the estimated slump shall be recorded on the identification certificate for the batch.",
+              "type": "label",
+              "order": 5
+            },
+            "0fcbdf16-6246-59c6-b609-6cebc21f5970": {
+              "title": "IP",
+              "type": "label",
+              "order": 18
+            },
+            "e4b03a05-2dae-573e-bfce-ccf06426676f": {
+              "title": "Acceptance Criteria: Piles shall be concreted within 24 hours of completion of the pile excavation.",
+              "type": "label",
+              "order": 2
+            },
+            "2273254c-63e4-546e-8346-a56f49ddc46c": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 14
+            },
+            "6567d074-eec6-5372-9140-43de86e45a8a": {
+              "title": "Piles places in the dry shall be constructed to a minimum of 300mm above pile cut-off level to allow breaking back of contaminated concrete at the top of the pile.",
+              "type": "label",
+              "order": 6
+            },
+            "d13b134b-f101-5835-adfd-decc12c1f15d": {
+              "title": "CL.606.06(a)",
+              "type": "label",
+              "order": 12
+            },
+            "da8f821a-544b-51fb-8f71-ba4033fa8d5c": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 20
+            }
+          },
+          "meta": {
+            "name": "3.2 - Place Concrete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "3 - Placing and Finishing Concrete",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "fc49c334-d8d1-5c0f-91f1-611dc89597d0": {
+              "title": "(C) Dynamic Load Testing - 1 in 10 Piles with a pile depth within 2m.",
+              "type": "label",
+              "order": 5
+            },
+            "95bd97a7-fc23-535a-a99f-64f53b23ba5f": {
+              "title": "Responsibility: Site Engineer / Superintendent",
+              "type": "label",
+              "order": 17
+            },
+            "3d12958e-bccd-5536-a373-ad8848d22fd2": {
+              "title": "Acceptance Criteria: Unless dispensation is granted, a representative sample of piles shall be tested by a consultant prequalified to VicRoads as per the requirements of Section 606.07 including:",
+              "type": "label",
+              "order": 2
+            },
+            "ec855685-8634-57c6-8225-1d74227a1b4b": {
+              "title": "VicRoads Spec. Cl.606.07",
+              "type": "label",
+              "order": 9
+            },
+            "e9f42a10-6b90-56dd-84f5-86cd16328bae": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "620e71a0-fef5-593e-944c-a24fc0a4a588": {
+              "title": "Record of conformity: Test reports provided to Superintendent, This ITP signed off",
+              "type": "label",
+              "order": 13
+            },
+            "6f6653e9-8f6d-5bfb-9ce5-433c7536a2b0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "968f66d2-a65e-5072-aaf6-85ecf03b4f4a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "f6382106-e9f1-51e1-b2b4-71f9ada24b13": {
+              "title": "Reference Documents: Project Spec. Cl.3050.07",
+              "type": "label",
+              "order": 8
+            },
+            "f1f71a47-30a2-5330-b4eb-4e36fd446cf7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "dc982088-e938-55ae-8480-b0aaef50b4b3": {
+              "title": "(A) Integrity Testing - First 6 piles constructed, then 1 in 3 remaining.",
+              "type": "label",
+              "order": 3
+            },
+            "d6632995-b1b1-54bc-bcb2-69db2a4b0412": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "0ecf15d0-2843-5db5-90d0-ee7680ee5fda": {
+              "title": "Results including raw data are to be provided to the superintendent per the timeframes requested but no less than 48 hours after collection of results.",
+              "type": "label",
+              "order": 6
+            },
+            "e293649c-3d4d-50a1-a829-e814e499bdd7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "2fca1261-d8cf-57e3-9eb9-5febe510320b": {
+              "title": "(B) Static Load Testing",
+              "type": "label",
+              "order": 4
+            },
+            "87d97c1a-fe27-5d4b-98c7-e63b1f23aecc": {
+              "title": "Frequency: Representative Sample determined in consultation with the Superintendent.",
+              "type": "label",
+              "order": 0
+            },
+            "922dd25a-aadc-5ba4-9da0-e098a0466a47": {
+              "title": "Inspection / Test Method: Test report",
+              "type": "label",
+              "order": 11
+            },
+            "c5a3af95-314f-56da-b3b0-284974e62e21": {
+              "title": "HP",
+              "type": "label",
+              "order": 15
+            }
+          },
+          "meta": {
+            "name": "4.1 - Pile Testing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "dabcd58e-c709-5049-bd6f-0d2f214d5cfc": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "87a67c93-fe45-560c-b5ae-6d263dbc35c8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "6c0e4db4-3157-5143-8aa4-7d00a31b58c8": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 15
+            },
+            "63fae510-da4d-5793-8312-150e9d82011e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "50ef63c5-8788-5eb6-aac1-f698f11fa252": {
+              "title": "Record of conformity: Compressive Strength (MPa) Test report, This ITP signed off",
+              "type": "label",
+              "order": 11
+            },
+            "eed7ecea-8c05-51bf-8e52-ab1c5aac8eb8": {
+              "title": "Reference Documents: VicRoads Spec. Cl.610.05",
+              "type": "label",
+              "order": 6
+            },
+            "b7e36aeb-fda7-5356-bb51-cd8389fa3beb": {
+              "title": "Strength average of tested cylinders",
+              "type": "label",
+              "order": 4
+            },
+            "a463ef21-51b6-5438-a800-f9258556b615": {
+              "title": "Minimum 28 strength (40MPa) achieved",
+              "type": "label",
+              "order": 3
+            },
+            "19e52d9c-cb1f-56d3-ae7f-c63e8646dbe3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "71801a84-0540-5a46-a830-5cc23e129ded": {
+              "title": "Frequency: Each sample",
+              "type": "label",
+              "order": 0
+            },
+            "ff2e94ae-28c5-5a86-bdc0-f9cf9c1b27f5": {
+              "title": "Table 610.051",
+              "type": "label",
+              "order": 7
+            },
+            "9fc0068c-dc82-5ab7-b4a1-951e693da107": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "89f3cdea-b070-5d4f-8b98-a8f6b97f5f41": {
+              "title": "Inspection / Test Method: Test report",
+              "type": "label",
+              "order": 9
+            },
+            "c905cc4a-2e9d-582e-9ca7-00cc193a1189": {
+              "title": "TP",
+              "type": "label",
+              "order": 13
+            },
+            "96aca54d-c053-5f9d-8e18-a812675450f0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "35c47197-b617-5b97-aa78-1edb1798ab95": {
+              "title": "Acceptance Criteria: Minimum 7 day strength (26MPa) achieved as per table 610.051",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "4.2 - Concrete Test Results",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5f6be557-fbb9-5bde-b509-7ee13f453171": {
+              "title": "Inspection / Test Method: Site Inspection/ Document review",
+              "type": "label",
+              "order": 11
+            },
+            "6bce44df-fcc2-5bbd-a242-7d82b56d0b0b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "a4fabb5a-094b-58bb-9a52-d18d341750b8": {
+              "title": "Reference Documents: VicRoads Spec. Cl.606.08",
+              "type": "label",
+              "order": 9
+            },
+            "2c270bc6-36f4-54cb-96d7-1752e0970c46": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "8ee1478d-99a9-5611-9419-7fc5813c14d0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "7ec6fc1b-9578-597b-9be6-de5c824afa26": {
+              "title": "Record of conformity: Survey report",
+              "type": "label",
+              "order": 13
+            },
+            "300bddb3-9609-5036-848a-d141a0fb647f": {
+              "title": "Pile head position & verticality",
+              "type": "label",
+              "order": 7
+            },
+            "787e6adb-dc12-5250-a9cf-29bef693ef2b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "53c226ac-d05f-5839-b21d-56982d1fce4e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "db39c3e4-9c64-5190-86ff-f539460370fd": {
+              "title": "SCP",
+              "type": "label",
+              "order": 15
+            },
+            "1f326e49-9e6e-567e-a4d6-5860ed5a23b0": {
+              "title": "Acceptance Criteria: Check Tolerances & Survey Pile positions:",
+              "type": "label",
+              "order": 2
+            },
+            "7851e2a5-13de-5b4e-8040-6ff583603574": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "cbeec330-40cb-5f2e-9b84-a18378ec9a15": {
+              "title": "Responsibility: Site Engineer & Surveyor",
+              "type": "label",
+              "order": 17
+            },
+            "092921c2-1733-5d7b-b305-6d0082a4e77b": {
+              "title": "(a) pile head shall finish within 75 mm of the specified plan position;",
+              "type": "label",
+              "order": 3
+            },
+            "96f70e55-f787-5f5c-843a-4eaf47db16b5": {
+              "title": "(b) variation from the vertical or the specified batter/rake shall not be more than 1 in 100;",
+              "type": "label",
+              "order": 4
+            },
+            "0ead5d74-2149-5048-83b0-35e48457b7f3": {
+              "title": "Frequency: Each pile",
+              "type": "label",
+              "order": 0
+            },
+            "a2d9667b-1829-5460-ae35-c1b3206c4407": {
+              "title": "Mark all details correctly on as-builts",
+              "type": "label",
+              "order": 6
+            },
+            "04a2b0dd-b6db-58a4-a58a-f982ab83f278": {
+              "title": "(c) where piling excavation has developed a curve or out of verticality, the offset from the theoretical straight pile line shall not exceed 150 mm over a length of 15 metres or proportionally for greater or shorter lengths.",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "4.3 - Tolerance Check & As Built survey",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "79a2a03a-92d0-5504-ab22-f6b73ee1a2a6": {
+              "title": "Work Completed On:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "7cff13f2-1392-5f33-827d-d24c499a929d": {
+              "title": "The signature below verifies that this ITP has been completed in accordance with the FH’s Quality system Procedures and verifies lot compliance with specifications.",
+              "type": "label",
+              "order": 0
+            },
+            "6ca9ac21-15e8-529b-8d26-4ba93b7c074e": {
+              "title": "Position:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "c76d1383-089e-5d47-b9da-ffeac75c805d": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "d83f51c2-193b-5ef3-ac9e-9846fc0faef5": {
+              "title": "Print Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "4 - Testing Requirements",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "2958eba5-a89f-55e6-a84a-d458f9a84460": {
+              "title": "Other:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "7bf58e0a-eb56-5bc1-a635-e3e5ca186ec2": {
+              "title": "Is the relevant RFI attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 0
+            },
+            "6cd4ff9b-6fda-5721-8736-afeaedca7ee9": {
+              "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 2
+            },
+            "a066e26a-61a4-5a20-9c35-6a56eedea156": {
+              "title": "Lot verified By",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Babak Rudd-Project Quality Manager",
+                " Abid Hameed (Area 1 Manager)",
+                " Nicola Lodo (Area 2 Manager)",
+                " Nicolas Terpstra (Delivery Manager)",
+                "Other:"
+              ],
+              "order": 3
+            },
+            "874a8e4c-e6e0-5665-810b-67b7a4836b62": {
+              "title": "Lot Status",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OUTSTANDING",
+                " CLOSED"
+              ],
+              "order": 5
+            },
+            "f0bff6cb-8b05-55a0-9c44-7e5c4d270494": {
+              "title": "Is the relevant NCR attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 1
+            },
+            "19dfa408-6d99-59b8-92a0-451a750f7cc4": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "499d5d43-4a5e-54b2-af32-4694ba77bf26": {
+              "title": "Lot Closed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "Lot Verification.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Verification",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "ITP-016-AX-LOT-XXX - Desc",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}

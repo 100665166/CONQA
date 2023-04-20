@@ -1,0 +1,2647 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "f8aa43d7-3e24-56b3-85e7-f19582af6e69": {
+              "title": "From and To chainage",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "ec27ad48-3207-50a9-9d7b-864a238d81e9": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "9fec400a-b873-5763-82fe-880a3531b46e": {
+              "title": "Engineer Responsible",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "2053662c-8d8c-536c-b0df-b0b6d0680d83": {
+              "title": "Work Commenced On",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "62c61fa6-2e19-5e5b-b1ba-39e1191c95e9": {
+              "title": "Activity",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "TYPB - Type B"
+              ],
+              "order": 6
+            },
+            "1c854966-79ff-5d40-af0f-6b95e648c19c": {
+              "title": "Construction Element",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EART - Earthwork"
+              ],
+              "order": 5
+            },
+            "8fcb7f8c-f70f-5977-8965-b732384b7554": {
+              "title": "Lot Opened On",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "33f8dc07-2a89-553d-b982-9b2746319591": {
+              "title": "Traffic Direction",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EB - Eastbound",
+                " ME - Median",
+                " NB - Northbound",
+                " SB - Southbound",
+                " WB - Westbound"
+              ],
+              "order": 8
+            },
+            "e453f750-52c9-541d-90e0-fbc0ca027333": {
+              "title": "Lot Created On",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "16ba53d9-264b-52da-b08a-1b33f7c26fe7": {
+              "title": "Lot Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EAL - Earthworks Lot"
+              ],
+              "order": 3
+            },
+            "88fdb662-9ffb-5e96-87fd-bb8573b5a1aa": {
+              "title": "Design Package No",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1145-ACM-CVD-DPK-0002",
+                " 1145-ACM-CVD-DPK-0003",
+                " 1145-ACM-CVD-DPK-0004",
+                " 1145-ACM-CVP-DPK-0001",
+                " 1145-ACM-CVP-DPK-0002",
+                " 1145-ACM-CVR-DPK-0001",
+                " 1145-ACM-CVR-DPK-0002",
+                " 1145-ACM-CVR-DPK-0003",
+                " 1145-ACM-CVR-DPK-0004",
+                " 1145-ACM-ELE-DPK-0001",
+                " 1145-ACM-ELE-DPK-0002",
+                " 1145-ACM-LDE-DPK-0001",
+                " 1145-ACM-LDE-DPK-0002",
+                " 1145-ACM-SBA-DPK-0001",
+                " 1145-ACM-STR-DPK-0001",
+                " 1145-ACM-TSI-DPK-0001",
+                " 1145-ACM-TSI-DPK-0002",
+                " 1145-ACM-TSI-DPK-0003",
+                " 1145-ACM-TSI-DPK-0004",
+                " 1145-ACM-UTL-DPK-0001",
+                " 1145-ACM-UTL-DPK-0002"
+              ],
+              "order": 7
+            }
+          },
+          "meta": {
+            "name": "1.0 Lot Information",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Information",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "8362ca1e-129f-5176-acc0-c66f4be95112": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 12
+            },
+            "862e1707-7c39-5164-813f-84594e50b67f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "b22facb3-02e1-5114-b9a4-06e0db02813e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "0c4d4bec-44e9-54ac-90c9-47ec37f83d68": {
+              "title": "AP",
+              "type": "label",
+              "order": 10
+            },
+            "f257e07c-0120-546e-bc3c-6eb6ff188b38": {
+              "title": "Reference Documents - Project Drawings / Drawing Register",
+              "type": "label",
+              "order": 4
+            },
+            "4bd37a95-8ed3-5bc1-90f1-b2954fe7ec75": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "5928ac1e-5b46-5b27-9dc0-3f0cb028c264": {
+              "title": "Inspection / Test Method - Document review",
+              "type": "label",
+              "order": 6
+            },
+            "b8e49666-7a6a-5110-a660-4593541ed7de": {
+              "title": "Acceptance Criteria - Issued For Construction (IFC) and latest available revision used",
+              "type": "label",
+              "order": 2
+            },
+            "f27a359c-3f40-5692-9349-19ce1c161a04": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 14
+            },
+            "2a7dac99-11c3-5913-bcfb-c5638b6b3fe9": {
+              "title": "Frequency - Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "897174a0-81be-5565-883f-f3e4bcc84b3d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "de9173cb-b7e3-5ea0-80f0-6ca1b9c8d470": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "6fbf0be5-94a1-53cd-b86c-8343147dbe6c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "14c7a812-a1f3-56d8-8b56-93fedbf902a4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "3abf2739-488c-5a69-b224-1160a4585c94": {
+              "title": "Record of conformity - Latest Revision Drawings",
+              "type": "label",
+              "order": 8
+            }
+          },
+          "meta": {
+            "name": "1.1 - Check that current revision drawings are being used",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "73ea9d2e-ab4c-56ac-8d3f-2ec924f98843": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "8868ea01-e2ac-554f-90b5-dc15f2ca676f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "329fa4b6-1a56-5447-91d9-6eea07b87020": {
+              "title": "Reference Documents - Excavation Permit",
+              "type": "label",
+              "order": 4
+            },
+            "0da4c8d1-05db-53f6-9cae-2c23d622b50c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "d6ed96eb-65d4-5922-9e3b-2a6bd540b37f": {
+              "title": "Frequency - Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "f8ee5b4e-b168-5a06-96bf-e57101ceaa2c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "c3414d42-efd8-5f1c-a4af-4cca1cb2c5df": {
+              "title": "Record of conformity - Excavation Permit #",
+              "type": "label",
+              "order": 8
+            },
+            "04189836-78bf-5d68-a7d3-452d6613ec3a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "ebedc0cb-df44-5acf-9d7b-3fcad2dbba3d": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "6c2206c9-4da9-52a7-986c-8ba04e9342b0": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 14
+            },
+            "8234a3f3-625a-536a-a98e-f75e4bb0f117": {
+              "title": "Inspection / Test Method - Document review",
+              "type": "label",
+              "order": 6
+            },
+            "3f6cdc68-376f-5ddf-bf96-64deb4cdf71a": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "e690dce8-2676-5b79-a53c-eeded3378717": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "0118ba26-36dd-53a7-b68d-221777bc3b4f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "ffcbbc16-eedb-5a01-8e0d-ab9b8c6306fc": {
+              "title": "Acceptance Criteria - Current Excavation Permit signed and specific for the area where works will be executed.",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "1.2 - Excavation Permit issued",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "7b3123cd-9b89-5bb9-96cd-abb99b939578": {
+              "title": "Material Category agreed with Superintendent",
+              "type": "label",
+              "order": 16
+            },
+            "bde063d9-b62d-544f-b907-f88f9ea32178": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer & Superintendent",
+              "type": "label",
+              "order": 20
+            },
+            "76830be7-bb95-5d7f-9990-c35b5c051ffe": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "15ace45f-76f3-504b-bd72-7f3ba67e6fef": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 21
+            },
+            "15ee83db-7ba8-5f10-9490-8d86729c392e": {
+              "title": "Attach: Test Certificates",
+              "type": "label",
+              "order": 6
+            },
+            "e51641cd-a482-5e3b-b54f-7aa32f015400": {
+              "title": "Reference Documents - VicRoads Specification",
+              "type": "label",
+              "order": 8
+            },
+            "bec4e692-5ac5-5c96-a100-ad6ce98b2427": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 19
+            },
+            "0e1fecca-43b6-5c99-9800-e53991adf3ed": {
+              "title": "Inspection / Test Method - Site Inspection",
+              "type": "label",
+              "order": 12
+            },
+            "6a57e02a-3602-5026-a26b-fa45e352cd6a": {
+              "title": "CBR ≥ 1.5%",
+              "type": "label",
+              "order": 4
+            },
+            "e5d3e667-c189-5bb4-a880-059a9650175c": {
+              "title": "Frequency - Prior to Placing fill",
+              "type": "label",
+              "order": 0
+            },
+            "e525f4f3-0076-5c6f-a430-ecc0bcf63410": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "e18b0acf-ca4c-54b9-8d62-883c52a27e3e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "c1a3919b-812b-5eab-8d9a-909bea9a7cf7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "74727b1f-25e1-54a9-be59-a46e8984c906": {
+              "title": "HP*",
+              "type": "label",
+              "order": 18
+            },
+            "4607dbdb-4e89-5192-b648-cf86c2acd48c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "def8f469-df6a-5c25-bef0-34faaac0321a": {
+              "title": "Record of conformity - TestResults",
+              "type": "label",
+              "order": 14
+            },
+            "42119ba8-fc95-521b-983f-7412c3d632d9": {
+              "title": "Swell < 2.5%.",
+              "type": "label",
+              "order": 5
+            },
+            "e1a33677-ef2d-5fc3-9faf-96f93910c87f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "7fc45b19-9705-5562-9f62-823bd8a0022d": {
+              "title": "Acceptance Criteria - Prior to commencing excavation in any area and during excavation work, the Superintendent and the Contractor shall inspect each type of material encountered and subject to verification by appropriate laboratory testing, agree on the category of the material in accordance with clause 204.04.",
+              "type": "label",
+              "order": 2
+            },
+            "b1fdbebb-0f47-5461-b650-1c39289a51cb": {
+              "title": "Cl. 204.06",
+              "type": "label",
+              "order": 10
+            },
+            "97b17e30-b360-53f2-a63f-2b4d77b3e002": {
+              "title": "Type B Material shall meet the following requirements:",
+              "type": "label",
+              "order": 3
+            },
+            "c35d9009-4b9f-5014-8936-bf5301a8836f": {
+              "title": "Cl. 204.04",
+              "type": "label",
+              "order": 9
+            },
+            "325506b4-ed88-5790-b5c6-767767cdae25": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 22
+            }
+          },
+          "meta": {
+            "name": "1.3 - Re-Use of insitu material",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "82278697-a0a1-54d6-aff6-53f0ca9ad345": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "ed83328b-5164-55f4-b7ed-cae184b450e1": {
+              "title": "If parameters are not met, remove 400mm of material mm below Cut Floor Level and replace with conforming Type B material.",
+              "type": "label",
+              "order": 6
+            },
+            "cf6e0eb4-af07-52b4-9749-556c09164bc0": {
+              "title": "Attach: Test Certificates, Sample Delivery Dockets",
+              "type": "label",
+              "order": 8
+            },
+            "1beff723-35a4-5c45-b73c-398327d58f26": {
+              "title": "Cl. 204.04(c)",
+              "type": "label",
+              "order": 12
+            },
+            "bce7573c-5a38-5aaa-8a88-45e08b1771dd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 19
+            },
+            "587b409c-44a6-5976-8c96-0e4f724fa724": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "38a47d71-0ed2-5eb0-befb-7bfff5346222": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "4e6476ec-9737-5992-80ca-432b379bf596": {
+              "title": "Swell < 2.5%.",
+              "type": "label",
+              "order": 5
+            },
+            "99523322-a331-55fd-9c85-0c2b8bbd0b35": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 24
+            },
+            "5b8bcd02-5ab1-56c5-a2fc-47431d1ed339": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 21
+            },
+            "fd5f4ef6-dd38-5a4b-9840-62d2056b82d5": {
+              "title": "Frequency - Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "cc8a100a-1e52-564f-be74-8a2f631a444c": {
+              "title": "CBR ≥ 1.5%",
+              "type": "label",
+              "order": 4
+            },
+            "af1b0cb1-7cdb-58c9-96ce-b8f7a0e0957e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 23
+            },
+            "c5892e3c-2e6e-565c-8fc1-5ec0aec44c3f": {
+              "title": "Teambinder Approval number",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "04024002-0d49-5300-ae1f-b78b90675d28": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer",
+              "type": "label",
+              "order": 22
+            },
+            "6b277a75-0be4-5722-ad52-8e36988c53c7": {
+              "title": "HP*",
+              "type": "label",
+              "order": 20
+            },
+            "1bf50ee7-765b-57a3-8a4c-c477f30f83c4": {
+              "title": "If removal and replacement of material below the Cut Floor Level is not required, surface shall be loosened to a depth of 150mm and re-compacted to meet the specified requirements.",
+              "type": "label",
+              "order": 7
+            },
+            "fd10bf28-95bf-509e-8af0-a2b964c9872b": {
+              "title": "Inspection / Test Method - Site Inspection/ Document Review",
+              "type": "label",
+              "order": 16
+            },
+            "8bdf1c02-2a64-5d7e-8831-0b75045b9e1c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "cf448ebb-1fd0-5590-aeba-6cf9223b7c81": {
+              "title": "Type B Material shall meet the following requirements:",
+              "type": "label",
+              "order": 3
+            },
+            "d85b7ad7-559b-5690-8a2a-cdc142abd1f9": {
+              "title": "Record of conformity - Geotechnical Report",
+              "type": "label",
+              "order": 18
+            },
+            "0b0740a7-aa6d-51fa-a810-b3b368cecad2": {
+              "title": "Acceptance Criteria - Prior to the import of Type B material, FH to provide the Superintendent, at least 1 week prior to the commencement of cartage, copies of test results to confirm that the proposed Type B material complies with section 204 of the VicRoads Spec.",
+              "type": "label",
+              "order": 2
+            },
+            "89d36efb-5933-5ba7-b018-15ddb7af3c90": {
+              "title": "Reference Documents - VicRoads Specification",
+              "type": "label",
+              "order": 11
+            },
+            "f3eb8777-4101-5abd-aae5-81c6b197c81c": {
+              "title": "Cl. 204.06(e)",
+              "type": "label",
+              "order": 13
+            },
+            "a89e7bcb-8c5d-594f-89dd-afc54b17628b": {
+              "title": "Project Specification PS3020.05",
+              "type": "label",
+              "order": 14
+            }
+          },
+          "meta": {
+            "name": "1.4 - Type B Material Approval",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "1 - Preliminaries",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "ae6f3ccd-715d-5b73-a5ea-68f8ffb0fb9c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "a69abf8d-f054-54f1-85da-00183f65a2e7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "6544b959-7143-5e82-92f0-68f452aacd0c": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 16
+            },
+            "75c0179a-439b-5193-9bfd-a759326f5af2": {
+              "title": "Inspection / Test Method - Site Inspection",
+              "type": "label",
+              "order": 8
+            },
+            "38e651fa-b15b-544d-994c-deccbb2cddbf": {
+              "title": "SCP",
+              "type": "label",
+              "order": 12
+            },
+            "a9b9dc5d-990a-5d8e-b775-5d45644b3a8d": {
+              "title": "Acceptance Criteria - Survey activities undertaken to ensure and validate that all works meet level and location requirements. The establishment and integrity of the survey network shall be verified before commencing any survey and setout activity. IFC and latest available revision used.",
+              "type": "label",
+              "order": 2
+            },
+            "c32a591f-2e7b-5bb5-821c-17d6a7dc2b2a": {
+              "title": "Reference Documents - Project General Specification Cl.1190.06",
+              "type": "label",
+              "order": 5
+            },
+            "88627813-26c3-5b02-901c-7fbc25e418a8": {
+              "title": "Frequency - Prior to Placing fill",
+              "type": "label",
+              "order": 0
+            },
+            "2a0bbc6e-c1c9-5396-bc4d-1115ea9c6bfd": {
+              "title": "Latest IFC Drawings",
+              "type": "label",
+              "order": 6
+            },
+            "01a310b5-d7ba-5059-b48d-84b564cea98c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "37753604-35bd-54fa-b7ce-607eb48242b2": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer & Surveyor",
+              "type": "label",
+              "order": 14
+            },
+            "0f101946-db1d-5774-b767-200986b00a10": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "8b6b5fbd-6529-50d1-89cb-03fddc718f0f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "fa28d45e-9dc5-55fb-ba76-85389b363488": {
+              "title": "Record of conformity - Survey records & pegs on the ground",
+              "type": "label",
+              "order": 10
+            },
+            "13316dbe-ab0b-5e73-a4d3-e1c60c83db62": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "d37ae9e6-1366-5e2f-8c18-2d2ae8a3ed08": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "7a64425b-3765-563c-b414-0abedc357789": {
+              "title": "The boxing width shall not be less than specified or shown on the drawings and the edges of boxing shall not deviate by more than 50 mm from the designed offset from the centreline or design line.",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "2.1 - Survey set-out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Authority Holdpoint",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "38da8bff-3f48-50d6-9126-fb653e3f67f0": {
+              "title": "Frequency - Prior to Commencing (if required)",
+              "type": "label",
+              "order": 0
+            },
+            "7afff83e-04e8-5f6e-a9e0-236b3920a366": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "22e81f4d-cbdf-5fe4-8ae4-58234724c61f": {
+              "title": "HP",
+              "type": "label",
+              "order": 13
+            },
+            "950576d2-b8ad-555e-a599-2fe11f50a2db": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "bfb596ef-e1d8-5368-9edf-5a1cdcb51821": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "0ea9b279-c9c1-5f83-bbbb-30c0c5c0aede": {
+              "title": "Cl. 204.06(h)",
+              "type": "label",
+              "order": 6
+            },
+            "9376ea34-6888-58bb-b358-73dda3d9b6e1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "fd8d6bff-9505-57b0-a9e1-f01c0092fdaa": {
+              "title": "Signed ITP",
+              "type": "label",
+              "order": 11
+            },
+            "b372e4dc-83ef-5892-9689-21adb87d16eb": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "06a76d39-da12-596e-a267-d96df35a6d9f": {
+              "title": "Inspection / Test Method - Site Inspection/ Document Review",
+              "type": "label",
+              "order": 8
+            },
+            "ddacee80-c572-534f-aa19-f81760676a8a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "33cfb61f-65e9-5254-a859-6dbb17da12ec": {
+              "title": "Acceptance Criteria - Where groundwater or seepage is encountered the Contractor shall notify the Superintendent and submit the proposed action to be taken to the Superintendent for review.",
+              "type": "label",
+              "order": 2
+            },
+            "702346d7-4387-5993-97ac-61e5c1e0ae80": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "4b4f6e16-72f5-5ed9-aaf5-fc63b9eb74e8": {
+              "title": "The Contractor shall submit any necessary approvals from relevant authorities for the treatment and disposal of this groundwater.",
+              "type": "label",
+              "order": 3
+            },
+            "7c5e746b-2a55-506f-83ea-9dab2abc9d4a": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 17
+            },
+            "937de607-63b2-5d7f-ac11-aa9d7c184d92": {
+              "title": "Record of conformity - Area reviewed by Superintendent",
+              "type": "label",
+              "order": 10
+            },
+            "37132e0c-afea-5246-a7c6-c95e261225e5": {
+              "title": "Reference Documents - VicRoads Specification",
+              "type": "label",
+              "order": 5
+            },
+            "a97278d0-1eac-50ef-8e1b-6d60f219814d": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer & Superintendent",
+              "type": "label",
+              "order": 15
+            }
+          },
+          "meta": {
+            "name": "2.2 - Ground water",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Authority Holdpoint",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "7c1262c2-e3c5-5214-bded-fac07727b089": {
+              "title": "Frequency - Prior to construction of the regulating layer",
+              "type": "label",
+              "order": 0
+            },
+            "28375f69-e2d0-535e-9403-a708a9307b32": {
+              "title": "HP",
+              "type": "label",
+              "order": 12
+            },
+            "5f81d5a1-d8f0-512b-a86d-9258245a46f7": {
+              "title": "Reference Documents - VicRoads Spec. Cl. 204.06(f)",
+              "type": "label",
+              "order": 5
+            },
+            "5b317323-c9b9-5197-ac83-b90ed47c04ea": {
+              "title": "Inspection / Test Method - Site Inspection/ Document Review",
+              "type": "label",
+              "order": 7
+            },
+            "01615138-0d2c-5f70-b9a2-c6177c4c26d1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "4cf9c2c3-0b3a-53d9-abd9-ae2004907b8f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "67fa2a4c-1b3e-5b31-94c1-950c2294f897": {
+              "title": "Acceptance Criteria - Prior to construction of the regulating layer, the areas of rock subgrade shall be presented to the Superintendent for acceptance.",
+              "type": "label",
+              "order": 2
+            },
+            "bde2e831-e0d6-542b-9067-a4be1a5fa857": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "ef922dc6-971c-5bfd-a79a-3493bca26ae3": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer & Superintendent",
+              "type": "label",
+              "order": 14
+            },
+            "61d2ab17-7a99-54ab-b741-a56c24429148": {
+              "title": "Any necessary amendments to the subsurface drainage design including transverse subsurface drainage at the interfaces shall be presented to Superintendent for review.",
+              "type": "label",
+              "order": 3
+            },
+            "b755be95-070a-556d-80a1-615c9fd29c0e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "4c360e3e-b7ee-54d2-a0fb-175c2fe633ce": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "f6fccf48-c3e3-558e-a123-2618efb05d31": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "b0b8ea61-6138-5ddd-abb9-f98094e88a65": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 16
+            },
+            "52c7b665-6cea-596f-a8f2-4704356aa7ac": {
+              "title": "Signed ITP",
+              "type": "label",
+              "order": 10
+            },
+            "25213244-ae5b-56ab-856f-f879cb330255": {
+              "title": "Record of conformity - Superintendent acceptance",
+              "type": "label",
+              "order": 9
+            },
+            "971e940c-5f9e-5e7a-a3d5-f5154f64ee7c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            }
+          },
+          "meta": {
+            "name": "2.3 - Acceptance of Rock Subgrade (when applicable)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Authority Holdpoint",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "6be7b91d-94a8-5064-9501-2625da884486": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 20
+            },
+            "4ad3a590-c55c-508f-b0ab-04ed731b1fb5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "c2723295-ef22-57f1-8cf4-b32613738b1c": {
+              "title": "HP",
+              "type": "label",
+              "order": 17
+            },
+            "1f9c5b41-256f-59af-a6d6-8b2335714eac": {
+              "title": "Cl. 204.10(b)",
+              "type": "label",
+              "order": 9
+            },
+            "a558e109-e188-50d1-879a-11c11babea6a": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 21
+            },
+            "e68981ee-d93e-54c4-8944-544bb906ef14": {
+              "title": "Frequency - Prior to Placing fill",
+              "type": "label",
+              "order": 0
+            },
+            "62ec8e3c-3f87-5f5a-8d85-b738ce0a293c": {
+              "title": "Where unsuitable material is encountered the Contractor shall propose in situ treatment and depth of excavation to the Superintendent for review.",
+              "type": "label",
+              "order": 5
+            },
+            "da342ef0-16d3-55fd-ab4d-527bb9177015": {
+              "title": "Cl. 204.07(d)",
+              "type": "label",
+              "order": 10
+            },
+            "275b3c4e-f61a-5216-a01c-28655d0ac06a": {
+              "title": "Acceptance Criteria - Areas upon which fills are to be constructed, all layers of fill, and material within 150 mm of the cut floor level in cuts, shall be test rolled in accordance with Section 173. Superintendent to be present during all test rolling.",
+              "type": "label",
+              "order": 2
+            },
+            "cb67bace-0881-5ca6-b125-5ace63697b6d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "5bb63e0b-2219-5ae1-9dd5-2589af908fa0": {
+              "title": "Fulton Hogan to provide not less than 24hrs notice to the Superintendent of the location and commencement time for test rolling. Superintendent to be present during all test rolling.",
+              "type": "label",
+              "order": 3
+            },
+            "1a6cce3f-41e8-5211-8ebd-ea210ba68b02": {
+              "title": "Reference Documents - VicRoads Spec. Cl. 204.12 Cl.173.03",
+              "type": "label",
+              "order": 8
+            },
+            "3ca9ac9d-8a4b-57d1-baca-3c66515bb28a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "8874bd6b-a788-5aa4-b2c9-b32d1652f6f8": {
+              "title": "Record of conformity - Area visually reviewed by Superintendent",
+              "type": "label",
+              "order": 14
+            },
+            "bb51c3b9-4cfa-5318-ac9d-85bd54459283": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 18
+            },
+            "3fd5d389-4bbb-5b99-871b-99ba1923bf51": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "76ed6985-f449-5a4e-8a4c-964e0d835c93": {
+              "title": "Signed ITP",
+              "type": "label",
+              "order": 15
+            },
+            "2a45c784-e4a4-57b4-9cd8-ba38d348aae6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "86f487bc-ebab-5960-aae5-a153606e5978": {
+              "title": "No fill is to be placed on the prepared areas until the the area has been reviewed by the Superintendent.",
+              "type": "label",
+              "order": 4
+            },
+            "c74235c2-e9e3-5962-a1ab-f1799eb251cf": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer & Superintendent",
+              "type": "label",
+              "order": 19
+            },
+            "aa78b5a0-64cb-5828-a628-faf4a0440d20": {
+              "title": "Where <10% of the lot area is deemed unsuitable, material shall be rectified as agreed by the Contractor and Superintendent",
+              "type": "label",
+              "order": 6
+            },
+            "ff1d8f6b-528f-5ec2-9260-f6c427672826": {
+              "title": "Inspection / Test Method - Site Inspection",
+              "type": "label",
+              "order": 12
+            }
+          },
+          "meta": {
+            "name": "2.4 - Proof Roll - Cut Floor",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "a4835015-f19e-5def-9502-e18864e648da": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "a9b86a42-6e89-5b84-9a20-96252124d827": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 21
+            },
+            "4a345160-ee82-596e-acf3-647b8f787f13": {
+              "title": "97% minimum when more than 400mm below top of Type B Fill",
+              "type": "label",
+              "order": 6
+            },
+            "acbae8da-5a32-5f82-8d73-07c3ef1fc179": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer",
+              "type": "label",
+              "order": 20
+            },
+            "1e312f86-4ccd-5f3c-a27a-e138ddf26a33": {
+              "title": "Frequency - Each Lot",
+              "type": "label",
+              "order": 0
+            },
+            "d66ad220-7328-52d9-850d-5f683f5a57d2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "6ffc7e93-a89e-580b-acde-ab2e665d389f": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 22
+            },
+            "23bef8ff-fd15-58e2-af4a-3da729ae2dc8": {
+              "title": "Inspection / Test Method - Document Review",
+              "type": "label",
+              "order": 13
+            },
+            "846f1542-ca70-581d-a0d9-a5d2c4476faa": {
+              "title": "Characteristic Density Ratio =",
+              "type": "label",
+              "order": 5
+            },
+            "0fd04123-ad3f-58b5-b80e-d37ce1b2776e": {
+              "title": "IP",
+              "type": "label",
+              "order": 18
+            },
+            "0ff3ec95-1d74-5adb-b8fb-739b8f1554a3": {
+              "title": "Attach: NATA Compaction Test Report",
+              "type": "label",
+              "order": 8
+            },
+            "e00c771e-6d6e-5df2-aa5a-24b3ff25fd6e": {
+              "title": "Reference Documents - Table 204.131",
+              "type": "label",
+              "order": 10
+            },
+            "a6c79b88-2822-55c9-8f86-273dddcd72f4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "65856168-02cf-563c-b6be-a3491e25ffdd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "72003db8-307e-58e1-aa8f-834db9238fdf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "aadabe29-2320-5715-963f-1f4f6cdf20a5": {
+              "title": "99% minimum when within 400mm of top of Type B Fill",
+              "type": "label",
+              "order": 7
+            },
+            "c35e17d7-ccd5-564c-9d84-18b5472fed6b": {
+              "title": "Lot = One day's production or 4,000m2, whichever is the lesser",
+              "type": "label",
+              "order": 4
+            },
+            "c267c8cc-8a62-5f4f-824d-1e2afc01223a": {
+              "title": "Record of conformity - Sign ITP",
+              "type": "label",
+              "order": 15
+            },
+            "36172586-4d70-532b-b3ea-3b991b5edaf1": {
+              "title": "Acceptance Criteria - Frequency = 6 tests per lot",
+              "type": "label",
+              "order": 2
+            },
+            "48fd69a3-427b-50b7-94d8-5fdd78c35468": {
+              "title": "Min Frequency (subject to approval) = every second lot",
+              "type": "label",
+              "order": 3
+            },
+            "deee0fa8-1e92-518f-8a41-159d00b3d727": {
+              "title": "NATA Compaction Test Report",
+              "type": "label",
+              "order": 16
+            },
+            "58517cb9-b6ac-5c44-b95c-50562a78db29": {
+              "title": "Section 204.13, 204.14",
+              "type": "label",
+              "order": 11
+            },
+            "08cbf427-0b74-5d5a-90ec-6073530778bf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 19
+            }
+          },
+          "meta": {
+            "name": "2.5 - Compaction Testing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "34a02469-70da-5d51-80bb-fb47cfcb7ff8": {
+              "title": "Cl. 204.03(f)",
+              "type": "label",
+              "order": 5
+            },
+            "a5d6fd6e-c93a-50d4-b3cc-06a96d0552e8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "aef98a44-da12-5631-8aa7-de9e8e7be2b4": {
+              "title": "Cl. 204.03(g)",
+              "type": "label",
+              "order": 6
+            },
+            "1c2c6be5-28ba-5479-b159-1ad5860bcbb2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "8c5d97b3-fe4f-52c6-9c0a-2182492b0003": {
+              "title": "Inspection / Test Method - Document Review",
+              "type": "label",
+              "order": 9
+            },
+            "62152af5-65e9-5bed-883f-37937aacd163": {
+              "title": "Reference Documents - VicRoads Specification",
+              "type": "label",
+              "order": 4
+            },
+            "768e3e45-e242-53ec-b44a-e3ea01141df7": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer & Surveyor",
+              "type": "label",
+              "order": 15
+            },
+            "dfe7e9ea-3814-535e-86c6-641ebbafcd0a": {
+              "title": "Acceptance Criteria - Ensure the Cut Floor Level is recorded by survey",
+              "type": "label",
+              "order": 2
+            },
+            "5d9ca488-f33d-59cc-b33f-574d628a5a1c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "57781d35-dc3a-5bd9-b458-7e2108a930d5": {
+              "title": "Frequency - Prior to Placing fill",
+              "type": "label",
+              "order": 0
+            },
+            "55e0a152-483c-52ef-b282-333e033cb150": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "f0507034-0995-5424-8e78-5fb3e47ff921": {
+              "title": "SCP",
+              "type": "label",
+              "order": 13
+            },
+            "b685e4c4-3740-5a2e-b6e3-ccb7812dd905": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "399bafbd-a521-59c9-9ee2-3816e728ef3f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "068d7828-610d-50bb-886f-6a7d6c65feb6": {
+              "title": "Table 204.031",
+              "type": "label",
+              "order": 7
+            },
+            "60a942f0-73e4-537f-8281-86ebbefd83f2": {
+              "title": "Record of conformity - Survey As-Built",
+              "type": "label",
+              "order": 11
+            },
+            "21b5a9b4-14ad-5a48-94d3-588ef13f1254": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "aa4867e6-b871-5eef-adcd-5daace456ddf": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 17
+            }
+          },
+          "meta": {
+            "name": "2.6 - Survey Pickup",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "2 - Cut Activities - 400mm below",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "d8d431e9-422c-5774-835f-e6ba941b3df1": {
+              "title": "Acceptance Criteria - Fill material shall be spread and compacted in layers not exceeding 200mm compacted thickness.",
+              "type": "label",
+              "order": 2
+            },
+            "231bb571-ef3b-5a99-a01f-be7b5ba06ef0": {
+              "title": "Inspection / Test Method - Site Inspection",
+              "type": "label",
+              "order": 8
+            },
+            "2d6e1376-548e-56b8-96b4-c4086a28923b": {
+              "title": "Reference Documents - VicRoads Spec. Cl. 204.10(d)",
+              "type": "label",
+              "order": 6
+            },
+            "efb8d246-0c89-598b-afef-c87561856420": {
+              "title": "Frequency - Each Lot",
+              "type": "label",
+              "order": 0
+            },
+            "8da5ae82-1309-5dcd-ab89-f8e1f918b25d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "6309571a-7593-56da-b071-a94976780015": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "b22ebef2-3bd0-5c43-bef7-5e970d909bed": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "3c43b9df-7e1d-5cfb-aa6f-6001acf6b6db": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "d508691b-9c30-5313-a3b1-791be35a18b8": {
+              "title": "Each layer shall be keyed in to the layer above by means of a textured surface",
+              "type": "label",
+              "order": 3
+            },
+            "d764fcdc-2f54-58f4-b9bf-900588e4b487": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "1f335da6-1517-5e6d-ba2e-87f5640fd381": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "39bb7291-c1c4-5916-840b-432a4906808b": {
+              "title": "Record of conformity - Signed ITP",
+              "type": "label",
+              "order": 10
+            },
+            "f5078b1e-98bb-53a4-bbcf-fb8f3896d4dd": {
+              "title": "IP",
+              "type": "label",
+              "order": 12
+            },
+            "209c2a00-5c23-544d-acad-83c1d1b9219e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "8f7f527a-a9fb-5a35-b617-724538920779": {
+              "title": "Any rocky material present must be uniform throughout the layer.",
+              "type": "label",
+              "order": 4
+            },
+            "9983fbdc-d5e7-55f0-83a5-bc915cb524eb": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer",
+              "type": "label",
+              "order": 14
+            },
+            "7fa4f492-2274-5031-8c9e-96ecc46da631": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 16
+            }
+          },
+          "meta": {
+            "name": "3.1 - Placement of Fill",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "7f907a28-3ccf-5784-824c-9c62dbae06df": {
+              "title": "Record of conformity - Signed ITP",
+              "type": "label",
+              "order": 8
+            },
+            "90f857cd-f835-58db-a59f-c25f5f98aa37": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "c892db08-b703-5d50-bc48-728d4370188c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "b277cad8-4c67-5733-896b-1d77c958ef20": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "067ca3fb-f7b6-5fdf-8a6f-5e482e6df38a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "eee90f86-bc67-5d64-b808-ee4202c1e32f": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 14
+            },
+            "74460da4-d056-5982-bdb1-ad55dd248def": {
+              "title": "Frequency - Prior to construction of subgrade layer",
+              "type": "label",
+              "order": 0
+            },
+            "0d6b9d20-c9e0-52f5-84c5-9d10851f7de6": {
+              "title": "Acceptance Criteria - The top of the Type B material, Cut Floor Level and subgrade surfaces shall be prepared to level and shape within the tolerances specified in Clause 204.03(g) to produce a smooth, hard, tightly bound surface, free from depressions capable of holding water)",
+              "type": "label",
+              "order": 2
+            },
+            "d1c3dc33-668b-5ad5-ba10-2f9ff61650b9": {
+              "title": "Reference Documents - VicRoads Spec. Cl. 204.15 Cl. 204.03",
+              "type": "label",
+              "order": 4
+            },
+            "7b32eb27-74d9-5f16-926d-19f519aeb2b5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "d4e22f63-d6cf-5d9b-90f4-47cc4229725e": {
+              "title": "Inspection / Test Method - Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "9c3e097c-0e90-57b4-9326-29ad1e19e0d2": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "2d7b7841-cf90-501a-b901-8044fcae9017": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "3f8fe434-b21f-5fde-a63a-dc96c333ad76": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "17d19fe6-592a-5fa6-86b9-218852115582": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer",
+              "type": "label",
+              "order": 12
+            }
+          },
+          "meta": {
+            "name": "3.2 - Preparation of final surface - Subgrade",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "4a80a219-ac32-5c11-b5b5-59a9045a6b72": {
+              "title": "Record of conformity - Survey Record",
+              "type": "label",
+              "order": 12
+            },
+            "f7b86b59-e277-5c1c-8b1f-639fd79d81a0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "30ff08db-9967-5a4c-98e6-d5f3638d956a": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 18
+            },
+            "6139d363-52d4-5c92-8534-b3fec505e368": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "6665a796-c5d8-57e2-8575-9b53dc02fcb1": {
+              "title": "Inspection / Test Method - Survey Report",
+              "type": "label",
+              "order": 10
+            },
+            "20600d4c-b1fa-5540-aa94-50e257f3e0f3": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer & Surveyor",
+              "type": "label",
+              "order": 16
+            },
+            "94a4cf6a-cad1-5f9b-b2c6-f78a2a5f7bec": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "6f8cc381-c4b2-5d10-9e25-36e7c9c825c2": {
+              "title": "Table 204.031",
+              "type": "label",
+              "order": 8
+            },
+            "70f6e6c5-2981-5de0-8caf-c64d9c7faefe": {
+              "title": "The level at any point of the subgrade shall not lie more than 20mm below a 3m straightedge in any direction accepting crowns.",
+              "type": "label",
+              "order": 3
+            },
+            "38207bba-fc7c-55c3-9d51-504d8b7115e8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "e1e9ebd9-b3a3-586c-be6e-b702040fa8f1": {
+              "title": "Cl. 204.03(f)",
+              "type": "label",
+              "order": 6
+            },
+            "f4c38c7d-e4c4-5a29-9fe5-d1b40e957bf3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "ef23bfb1-0841-520c-ad6b-8eafa6fbea1e": {
+              "title": "Acceptance Criteria - Ensure that the level at any point on the surface of the Cut Floor Level immediately below capping does not differ by the mean values of more than 5 mm above or 15 mm below the specified level.",
+              "type": "label",
+              "order": 2
+            },
+            "ac2fd8d4-b6dc-592b-bb3e-f068d3a8f78f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "39b4f3e1-7bf5-5343-8428-4092c1d2bf17": {
+              "title": "Reference Documents - VicRoads Specification",
+              "type": "label",
+              "order": 5
+            },
+            "6cb09398-d411-5d61-844a-ed0575b7e7d8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "40935cc2-8dae-580b-98e0-61455175837d": {
+              "title": "SCP",
+              "type": "label",
+              "order": 14
+            },
+            "9f8b575f-1c06-5921-a1bb-6a33359251ae": {
+              "title": "Cl. 204.03(g)",
+              "type": "label",
+              "order": 7
+            },
+            "7d6b9af8-ba1d-54c2-a33c-d49e99b053c7": {
+              "title": "Frequency - Each Lot (one day's production) prior to Commencing",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "3.3 - Trimming and level conformity",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Authority Holdpoint",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "e9b6521f-8d65-52be-bc92-f80323aced46": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "2e60b12c-d25d-5820-86f2-73a212ff8f86": {
+              "title": "Where <10% of the lot area is deemed unsuitable, material shall be rectified as agreed by the Contractor and Superintendent",
+              "type": "label",
+              "order": 7
+            },
+            "2af6174b-bab9-5b56-9d51-c30840eb089f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "fbd50768-c831-5e9a-beb7-ae1372433ce1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 20
+            },
+            "73f444e8-3011-5f7f-9d99-e359ed87e72a": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 23
+            },
+            "4a59f090-c61b-53a9-a7c5-fd5fdf359939": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "3d65aea9-57cd-5605-98e0-45b18a11d371": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer & Superintendent",
+              "type": "label",
+              "order": 21
+            },
+            "c371ee6c-6796-5a31-bcec-9c2ac02414af": {
+              "title": "Where unsuitable material is encountered the Contractor shall propose in situ treatment and depth of excavation to the Superintendent for review.",
+              "type": "label",
+              "order": 6
+            },
+            "ce36cbb8-f145-5629-8b86-eb446e090e55": {
+              "title": "Inspection / Test Method - Site Inspection",
+              "type": "label",
+              "order": 13
+            },
+            "a1f57992-e889-57a7-aa35-3e71922798dc": {
+              "title": "Fulton Hogan to provide not less than 24hrs notice to the Superintendent of the location and commencement time for test rolling. Superintendent to be present during all test rolling.",
+              "type": "label",
+              "order": 4
+            },
+            "610a8841-d3e2-5c4e-b994-7a7e37fbad1f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 22
+            },
+            "42b5af6c-e350-5961-847b-f94541244210": {
+              "title": "No fill is to be placed on the prepared areas until the the area has been reviewed by the Superintendent.",
+              "type": "label",
+              "order": 5
+            },
+            "2dd8c3f4-b7d5-578e-8b4a-31c637e54dd0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "7ad9d445-4f9b-5322-b7c0-75002922b9ac": {
+              "title": "Signed ITP",
+              "type": "label",
+              "order": 17
+            },
+            "8c820450-f07f-5a39-bbd3-f5c080b30441": {
+              "title": "Acceptance Criteria - Areas upon which fills are to be constructed, all layers of fill, and material within 150 mm of the cut floor level in cuts, shall be test rolled in accordance with Section 173. Superintendent to be present during all test rolling.",
+              "type": "label",
+              "order": 2
+            },
+            "1955ad0e-1570-5d70-8430-101fa14450c4": {
+              "title": "Cl. 204.07(d)",
+              "type": "label",
+              "order": 11
+            },
+            "916299c7-0dda-5197-9d2f-e1bda265f8c8": {
+              "title": "Record of conformity - Area visually reviewed by Superintendent",
+              "type": "label",
+              "order": 15
+            },
+            "ff88706e-1122-527e-8b59-19997b70a2cb": {
+              "title": "Frequency - Prior to Placing fill",
+              "type": "label",
+              "order": 0
+            },
+            "4970fc35-c47a-52e3-910f-00d09129f0d3": {
+              "title": "Superintendent to be present during all test rolling.",
+              "type": "label",
+              "order": 3
+            },
+            "2edc39ed-33da-5ddf-a1ee-deeacf2e3100": {
+              "title": "Cl. 204.10(b)",
+              "type": "label",
+              "order": 10
+            },
+            "e242be7f-7b83-560a-b6c6-c284903f6670": {
+              "title": "HP",
+              "type": "label",
+              "order": 19
+            },
+            "c1d79313-94aa-5e12-b4a9-7e44409674d0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "239369ce-d231-5730-bcc3-dbdfe8f3aec0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 18
+            },
+            "c99a1fc6-aedf-5f45-99d6-d66dc7e94094": {
+              "title": "Reference Documents - VicRoads Spec. Cl. 204.12 Cl.173.03",
+              "type": "label",
+              "order": 9
+            },
+            "0fdec0e3-ba6f-5b58-b41a-4c30b38b125f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 24
+            }
+          },
+          "meta": {
+            "name": "3.4 - Proof Roll - Top of fill layer",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "740c243e-6578-5c7d-afc6-4089df18b47e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "e886a9a1-2202-54bc-a507-0be69206b186": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "2eae3465-ede9-5a6f-aa1f-94a5ec7eac84": {
+              "title": "Swell ≤ 2.5%",
+              "type": "label",
+              "order": 4
+            },
+            "6b8bfa05-05a8-5574-bc38-6615c864e86f": {
+              "title": "Frequency - Each Lot",
+              "type": "label",
+              "order": 0
+            },
+            "0ad55220-f98c-5cc8-862e-d4147d523b88": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "a12b38e4-4d7b-5187-a8fc-bce9befe77c1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "a69d4292-12cd-5bbe-97cd-865ed5ea48b0": {
+              "title": "Inspection / Test Method - Site Inspection",
+              "type": "label",
+              "order": 14
+            },
+            "3d81c287-bc59-5451-b1c0-d97deec3395e": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer",
+              "type": "label",
+              "order": 20
+            },
+            "75c4c1d7-b968-5591-b1c8-caef5d5b32f1": {
+              "title": "Moisture Ratio ≥ 70%",
+              "type": "label",
+              "order": 6
+            },
+            "5a0cfed4-b2ff-5644-9869-85f44312b628": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "6a031453-b496-5aa0-8731-7cf608c6dff7": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 22
+            },
+            "15a1cd55-b98f-56ec-959a-82d801e05e0c": {
+              "title": "Acceptance Criteria - Post compaction testing shall meet the following requirements:",
+              "type": "label",
+              "order": 2
+            },
+            "2d2008cd-f8d1-5618-a110-656f7963baec": {
+              "title": "Attach: NATA Compaction Test Report",
+              "type": "label",
+              "order": 10
+            },
+            "9905b0c5-342f-5ab7-a718-5f91e3839643": {
+              "title": "Reference Documents - VicRoads Spec. Table 204.142",
+              "type": "label",
+              "order": 12
+            },
+            "8ac7fde6-b199-5059-a74a-fa7e03af7f0e": {
+              "title": "CBR & Swell: 1 test per 8 lots",
+              "type": "label",
+              "order": 9
+            },
+            "b85d728a-e029-5e96-83dd-ae022cc9e37e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 21
+            },
+            "bfa0d262-43f1-52cb-b2e7-183ef680c1ec": {
+              "title": "CBR ≥ 1.5%",
+              "type": "label",
+              "order": 3
+            },
+            "af025cfa-a04c-5cf7-b651-ad9ffb7eec4d": {
+              "title": "Compaction & Moisture: 1 test per 2 lots",
+              "type": "label",
+              "order": 8
+            },
+            "87372764-6dbc-5076-841e-bd1c117048e7": {
+              "title": "TP",
+              "type": "label",
+              "order": 18
+            },
+            "6efffbee-d43e-5173-95b5-45929b65da34": {
+              "title": "Subject to approval min frequency testing as follows:",
+              "type": "label",
+              "order": 7
+            },
+            "943f6a21-f639-5c9e-bef5-4d3ebc549025": {
+              "title": "Record of conformity - Signed ITP",
+              "type": "label",
+              "order": 16
+            },
+            "abda18a7-3bbb-5f41-a4a3-cd805a040259": {
+              "title": "Characteristic Density Ratio ≥ 99%",
+              "type": "label",
+              "order": 5
+            },
+            "09a1a746-8295-53bc-9ad9-61ff46366132": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 19
+            }
+          },
+          "meta": {
+            "name": "3.5 - Post-compaction Testing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "c67832c5-508e-5932-93d6-99bfcbcbc431": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "d53f61b5-9396-56d9-ae79-8195654cc236": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "f1063d99-795d-5e8a-b8d9-72d18afeb113": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "f7c7c12c-8af4-512d-bc79-5ec2a6f3d6ab": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer & Surveyor",
+              "type": "label",
+              "order": 15
+            },
+            "bd034008-4f0b-5144-b62c-060a65c15a9e": {
+              "title": "Cl. 204.03(f)",
+              "type": "label",
+              "order": 5
+            },
+            "9ca83234-7177-54b1-9d03-16f19cd4c73d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "6e258aaa-8d8a-5b64-8ee4-f43df49bbf5b": {
+              "title": "SCP",
+              "type": "label",
+              "order": 13
+            },
+            "d8214322-dbfb-5e53-9fe7-2b6be5549eab": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 17
+            },
+            "51b1cf97-eb59-5fd9-af53-0c3f085edeae": {
+              "title": "Frequency - Prior to Placing fill",
+              "type": "label",
+              "order": 0
+            },
+            "95eff88c-7692-5e02-86a1-55ebd6cf552b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "30f786cf-5475-5186-8de5-0dd025465947": {
+              "title": "Inspection / Test Method - Document Review",
+              "type": "label",
+              "order": 9
+            },
+            "c036034e-fbb2-5df1-8f65-67c668fc47a8": {
+              "title": "Table 204.031",
+              "type": "label",
+              "order": 7
+            },
+            "8b860861-b7e9-5c65-9588-e6be975832b8": {
+              "title": "Record of conformity - Survey As-Built",
+              "type": "label",
+              "order": 11
+            },
+            "95f6653a-5bfa-51fb-aafa-6765daa13963": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "b725d469-e12c-5242-bf2a-0bb7a549af5f": {
+              "title": "Reference Documents - VicRoads Specification",
+              "type": "label",
+              "order": 4
+            },
+            "ec60ed1d-0552-56b5-ba12-a198d8271564": {
+              "title": "Cl. 204.03(g)",
+              "type": "label",
+              "order": 6
+            },
+            "f7e2d4c6-227e-5e75-bf79-1a99c4a02830": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "a69f9f2e-3764-533b-ae2f-1b0c4d93a856": {
+              "title": "Acceptance Criteria - Ensure the Top of subgrade is recorded by survey",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "3.6 - Survey Pickup - Top of subgrade",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "3 - Fill Activities",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "f0aef825-91b0-5dcf-8656-f88183241de9": {
+              "title": "Range x (mean) = +5, -15mm",
+              "type": "label",
+              "order": 5
+            },
+            "d25d89f2-2374-5ead-94e7-b36d66cb634b": {
+              "title": "Reference Documents - Section 204.03 (h), 204.16",
+              "type": "label",
+              "order": 9
+            },
+            "ea677d0a-c03a-5aaa-9132-b309daa71d05": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "c9669307-2b90-5d04-b38a-a31f0197fe41": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "fce2c54c-4cd0-53d2-8ab9-1e3c66983a28": {
+              "title": "Record of conformity - Attach As-Built Report",
+              "type": "label",
+              "order": 13
+            },
+            "2777d766-9a3d-54c5-ba93-e1e6896eed5f": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer & Surveyor",
+              "type": "label",
+              "order": 17
+            },
+            "3f5fee5f-c7d1-563f-bb79-78db732afee7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "fc2209b7-403d-509b-ac1d-dfa0956318bd": {
+              "title": "SCP",
+              "type": "label",
+              "order": 15
+            },
+            "ed344753-b6b4-57e4-a4b0-c4aa998c6295": {
+              "title": "Frequency - Each lot",
+              "type": "label",
+              "order": 0
+            },
+            "7ec9e54d-b850-5eeb-a805-9ba921afb044": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "3dd8dadc-00b9-5862-b43a-0754c823d0b2": {
+              "title": "Attach: Survey As-builts / Survey Report",
+              "type": "label",
+              "order": 7
+            },
+            "4b4d4087-e33f-5e07-a731-6230f7f112d0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "d5e0c74b-1b52-56ad-9106-f26de8c6ec0f": {
+              "title": "Inspection / Test Method - Review Document",
+              "type": "label",
+              "order": 11
+            },
+            "3ee0d0fc-5c3a-5544-8253-1627b6e03d81": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 18
+            },
+            "bf9fde9e-d6b8-5b2b-a7d2-45a262236f97": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 19
+            },
+            "818fe01e-2d3e-5343-8444-a5d4ad6235fd": {
+              "title": "Min. No. of Measurements Per Lot: 80",
+              "type": "label",
+              "order": 4
+            },
+            "5abb1ee4-cc81-5b88-a354-4b35a7db9d13": {
+              "title": "Acceptance Criteria - The level at any point on the subgrade shall not lie more than 20 mm below a 3 m straightedge laid in any direction, except across a crown and water shall not pond at any point.",
+              "type": "label",
+              "order": 2
+            },
+            "9ac5552b-4aa8-503e-a760-400ade853e1d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "b31eda27-66ae-540d-8b80-c9847d0d6a67": {
+              "title": "Scale A:",
+              "type": "label",
+              "order": 3
+            },
+            "4c9598ac-1957-5481-ba86-2213c19dcf67": {
+              "title": "Max S (Standard Deviation) = 12 mm",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "4.1 - Survey As-Built",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "db00f4be-a337-5a05-9ba1-3ffa3e0ad7c2": {
+              "title": "CAMS Case Number(s)",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "7dab6564-2b76-5d1f-953d-7e02d2db5169": {
+              "title": "IP",
+              "type": "label",
+              "order": 12
+            },
+            "a1b863aa-7be0-5ef0-ba71-0c7ccdc0d950": {
+              "title": "Attach: Closed NCR Report",
+              "type": "label",
+              "order": 4
+            },
+            "3631db46-3f7d-59ae-a5a4-7bf1ea4b1172": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "1e4c9c35-8d35-52eb-b2ba-e354594635e1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "e47355a8-16c0-50a7-ae83-f033a1f03191": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "989b945a-c3b4-574f-be46-816f7148cae9": {
+              "title": "Acceptance Criteria - Ensure All related Non-conformances are recorded and closed out.",
+              "type": "label",
+              "order": 2
+            },
+            "ca20f5a8-a0ec-5de6-a9d1-1d2fc3ce5e4d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "bc82ed53-7fc6-5f88-b2a6-036ee327ed7f": {
+              "title": "Inspection / Test Method - Review Document",
+              "type": "label",
+              "order": 8
+            },
+            "603d68b7-4a27-5968-b52a-8e9002f9774d": {
+              "title": "Reference Documents - Quality Management Plan",
+              "type": "label",
+              "order": 6
+            },
+            "29111ec5-2a22-5273-ad34-524496918742": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "7adf19e7-8b33-5724-838a-ccb108117ea4": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer",
+              "type": "label",
+              "order": 14
+            },
+            "49e3d4e8-12e1-5152-935b-85686df06b0c": {
+              "title": "Frequency - Each Lot",
+              "type": "label",
+              "order": 0
+            },
+            "9476e9e7-b0d1-5c08-b485-93cae9615204": {
+              "title": "Record of conformity - This ITP",
+              "type": "label",
+              "order": 10
+            },
+            "fd9d3c53-a7fe-54fc-81d9-c01822d172ca": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "809610bc-d41f-5197-8a23-2c15c3dbe193": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 16
+            },
+            "3ec34ca4-db2b-5751-9c5a-35a10d25ca89": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "4.2 - Non-conformance Closure",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "a77c5251-8065-537e-9701-a46f5882eceb": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "8ec80d38-b961-569a-8d51-b03ba7256b2b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "f49153e7-0f43-5934-87b0-3d6e36a3254e": {
+              "title": "RFI References",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "5a99b058-61aa-5c79-9582-df46675e2417": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 15
+            },
+            "7db23726-6f55-5a18-91c8-0697f219df56": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "43b4e9ea-e13b-5de1-8098-830bd0fa6098": {
+              "title": "Inspection / Test Method - Review Document",
+              "type": "label",
+              "order": 7
+            },
+            "19e587c5-d137-5e09-810a-75b952579140": {
+              "title": "Frequency - Each Lot",
+              "type": "label",
+              "order": 0
+            },
+            "43bdfa4b-e6e8-53c0-9bf7-41fcd7164007": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "fd1e2600-4a50-5020-ba77-5840c7ce3c78": {
+              "title": "Record of conformity - This ITP",
+              "type": "label",
+              "order": 9
+            },
+            "6dd44f39-3ea4-5e68-80eb-cfefa0cc2cf7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "30617ca9-e870-54f1-a0a3-be3ea59d43f1": {
+              "title": "Reference Documents - Quality Management Plan",
+              "type": "label",
+              "order": 5
+            },
+            "a2424f82-ff62-5002-a106-56ca9d4d892b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "ed17b03e-5957-5967-9151-34c35bf2d9a6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "b35418e8-7da3-59bd-ba01-ce14a5c1d16d": {
+              "title": "IP",
+              "type": "label",
+              "order": 11
+            },
+            "108f2041-31d5-54bd-9d09-ac5b98bd70f9": {
+              "title": "Acceptance Criteria - Ensure any changes from design are captured in red-line markup drawings",
+              "type": "label",
+              "order": 2
+            },
+            "417ebe61-9a0d-5c22-a8ed-513c15fe9596": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Site Engineer",
+              "type": "label",
+              "order": 13
+            }
+          },
+          "meta": {
+            "name": "4.3 - Red Line Markups",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "290f18cd-5921-52c9-8e12-0c41e770bcce": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 14
+            },
+            "aa48160a-2787-5e3b-81ab-656deec684ff": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "b51a7841-4265-53ed-aa10-473ca1b70341": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "7b089075-0e0f-5eac-a023-ddfd7106801d": {
+              "title": "Record of conformity - This ITP",
+              "type": "label",
+              "order": 8
+            },
+            "3de2fc30-d2dc-510d-a7e7-dd9ec0ad6f6f": {
+              "title": "Acceptance Criteria - It is hereby certified that the Works represented by the item of work listed have been tested in accordance with the Project Quality Plan and conform in all respects with the requirements of the Contract.",
+              "type": "label",
+              "order": 2
+            },
+            "57b41536-4514-5200-bd54-31c9de259e1f": {
+              "title": "Reference Documents - Quality Management Plan",
+              "type": "label",
+              "order": 4
+            },
+            "f2dac443-7456-535f-82db-d91f08eb861e": {
+              "title": "Frequency - Each Lot",
+              "type": "label",
+              "order": 0
+            },
+            "db23f13a-723a-5b3a-9ef7-9b20e93dd992": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "d6eae40b-477f-548b-ab10-33ee8693e76e": {
+              "title": "Inspection / Test Method - Review Document",
+              "type": "label",
+              "order": 6
+            },
+            "158795a4-aa0c-51e8-a513-bae2812c5a0e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "f3424190-44e1-5053-884d-95059ccd56fe": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "ae0d5fb7-ee18-5304-b01c-8170e312eb63": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "ec46f9f7-dcf9-505c-bcf8-c0abdb8290f9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "8aa58ca7-2643-57d6-99c4-4914dd895e6f": {
+              "title": "Project Engineer/Site Engineer/Superintendent/Surveyor/Foreman - Quality Manager",
+              "type": "label",
+              "order": 12
+            },
+            "33dcbb85-1e5b-58f5-89b4-2ba852866a51": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            }
+          },
+          "meta": {
+            "name": "4.4 - Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "9c2ce9cf-9e72-5e8f-b319-1b81c9d9dc02": {
+              "title": "The signature below verifies that this ITP has been completed in accordance with the Fulton Hogan's Quality system Procedures and verifies lot compliance with specifications.",
+              "type": "label",
+              "order": 0
+            },
+            "04894520-7030-5bd8-a12f-5aaf0e095c9e": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "4803024d-c829-5bb6-9685-b18d175ec342": {
+              "title": "Print Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "fbf580cc-20f3-5f38-b4ff-858e991731b4": {
+              "title": "Work Completed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "63001347-c1f8-5774-bb9e-cb3afe50d72f": {
+              "title": "Position:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "4 - LOT Closeout",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "781699c4-7928-5edd-8a73-2bbfebd07b8c": {
+              "title": "As built records attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 8
+            },
+            "31969735-b7dc-5d08-9dd1-99059b300f60": {
+              "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 3
+            },
+            "ca0eaa9f-cb5c-55ee-9a86-cab03e269143": {
+              "title": "Lot verified By",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Babak Rudd-Project Quality Manager",
+                " Abid Hameed (Area 1 Manager)",
+                " Nicola Lodo (Area 2 Manager)",
+                " Nicolas Terpstra (Delivery Manager)",
+                "Other:"
+              ],
+              "order": 9
+            },
+            "8eca9c49-aa01-5882-88d2-1559802d2191": {
+              "title": "Is the relevant NCR attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 2
+            },
+            "6b17f830-109d-5c64-a4a0-ff95f57abdb8": {
+              "title": "Survey conformance records attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 5
+            },
+            "c1acc63d-704b-5f1e-b7dd-6089e1a00963": {
+              "title": "Other:",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "e810326f-d6e5-5ae8-b88a-b050413534f1": {
+              "title": "Subcontractor/ Supplier records attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 6
+            },
+            "1e6f67fd-34b2-5b4b-a648-0b17caefde0d": {
+              "title": "Lot Plan or “Highlighted” IFC drawings (mud maps) attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 4
+            },
+            "3dfa6c72-3a13-55cf-a576-3b0bb786217d": {
+              "title": "Work Commenced On:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "9936f326-5770-59b2-8b0b-475e135f68b0": {
+              "title": "Lot Status",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OUTSTANDING",
+                " CLOSED"
+              ],
+              "order": 11
+            },
+            "0cf92633-987c-5baf-8c72-b988eded1934": {
+              "title": "Conforming Test Results attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 7
+            },
+            "ef54ec4b-c0e8-5dcb-8620-c3f40179007b": {
+              "title": "Is the relevant RFI attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 1
+            },
+            "15560901-93d9-5c55-8b25-e5009047e49a": {
+              "title": "Lot Closed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "cdfe1e1a-8e40-594b-9286-ce97c05bc5e3": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 13
+            }
+          },
+          "meta": {
+            "name": "Lot Verification.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Verification",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "ITP-006-AX-LOT-XXX - Desc",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}

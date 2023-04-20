@@ -1,0 +1,1353 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "c8b0f28a-b251-5ee1-b2a1-a79771f4a26c": {
+              "title": "Traffic Direction",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EB - Eastbound",
+                " ME - Median",
+                " NB - Northbound",
+                " SB - Southbound",
+                " WB - Westbound"
+              ],
+              "order": 8
+            },
+            "8beff9ce-b953-5d87-a635-69524d67fb0d": {
+              "title": "Activity",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "UTIL - Street Lighting"
+              ],
+              "order": 6
+            },
+            "58354e7d-7b23-57c0-b5c5-1fc5059021e0": {
+              "title": "Lot Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "CIL-Civil Lot",
+                " DRL- Drainage Lot",
+                " EAL- Earthworks Lot",
+                " ELL- Electrical Lot",
+                " UTL- Utility Lot",
+                " STL- Structural Lot"
+              ],
+              "order": 3
+            },
+            "15acfafd-ae3e-5cbc-8f64-4d99ce288ea5": {
+              "title": "Engineer Responsible",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "79ba366b-ed52-5b5a-aa9e-c3fdc7a7f5f3": {
+              "title": "Design Package No",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1145-ACM-CVD-DPK-0002",
+                " 1145-ACM-CVD-DPK-0003",
+                " 1145-ACM-CVD-DPK-0004",
+                " 1145-ACM-CVP-DPK-0001",
+                " 1145-ACM-CVP-DPK-0002",
+                " 1145-ACM-CVR-DPK-0001",
+                " 1145-ACM-CVR-DPK-0002",
+                " 1145-ACM-CVR-DPK-0003",
+                " 1145-ACM-CVR-DPK-0004",
+                " 1145-ACM-ELE-DPK-0001",
+                " 1145-ACM-ELE-DPK-0002",
+                " 1145-ACM-LDE-DPK-0001",
+                " 1145-ACM-LDE-DPK-0002",
+                " 1145-ACM-SBA-DPK-0001",
+                " 1145-ACM-STR-DPK-0001",
+                " 1145-ACM-TSI-DPK-0001",
+                " 1145-ACM-TSI-DPK-0002",
+                " 1145-ACM-TSI-DPK-0003",
+                " 1145-ACM-TSI-DPK-0004",
+                " 1145-ACM-UTL-DPK-0001",
+                " 1145-ACM-UTL-DPK-0002"
+              ],
+              "order": 7
+            },
+            "dc0bfab8-b480-53de-ba7c-db5f39fb82be": {
+              "title": "Lot Created On",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "7715c3a4-0044-5a99-99f3-7edc67f99599": {
+              "title": "Construction Element",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "UTIL-Utility"
+              ],
+              "order": 5
+            },
+            "fba3bc80-da85-505f-9fb7-3a4bcf0aee79": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "b608b136-fcdf-5360-b1d5-a1e3ed3b3432": {
+              "title": "Work Commenced On",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "3a639071-272f-5972-83f2-581a41e99d87": {
+              "title": "Lot Opened On",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "cb13579c-5b7a-503b-99a1-28c82485e93d": {
+              "title": "From and To Chainage",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "1.0 Lot Information",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Information",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "b2aa3bee-757f-5a39-a108-9b4a00fc2cfe": {
+              "title": "Frequency: Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "45646b64-37ac-567f-8e2c-516e08d1d9a9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "b6f229da-615d-5083-a046-95a47808f81d": {
+              "title": "Responsibility: Project Engineer /PM2",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "5576b17e-704d-5368-8228-d32682fe0429": {
+              "title": "Acceptance Criteria: Notification from Jemena",
+              "type": "label",
+              "order": 2
+            },
+            "8e0e2528-caf6-5631-8c90-dc338e9802a6": {
+              "title": "Reference Documents: Record of notification",
+              "type": "label",
+              "order": 4
+            },
+            "daa3aa19-274e-5f7e-9759-cee7bf0c6573": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "aba9c413-9685-529e-bf2a-cf1bbe5974bf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "a328bde2-599f-5938-b747-5be53c32d97e": {
+              "title": "Record of Conformity: Saved correspondence",
+              "type": "label",
+              "order": 8
+            },
+            "a1da2cc0-7d5c-54b2-81a4-bbd6fd3d2754": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "30fffebd-16e1-51b5-b962-d8267cf8db85": {
+              "title": "Inspection / Test Method: Document review",
+              "type": "label",
+              "order": 6
+            },
+            "1b6bab62-6915-5016-9e23-649b5d8b0582": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "fffe43fe-ac3e-52ad-8150-e3b1880e272b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "2e18ccc5-91c2-56fe-a262-acca86cdda21": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "meta": {
+            "name": "1.1 Authority to commence contestable construction (ACCC) issued by Jemena",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "6f808f9a-9837-5272-bfb9-e14c039956d0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "ba7dda6f-69b1-5d2b-ae53-519ffa231d2b": {
+              "title": "Record of Conformity: Site induction signed.",
+              "type": "label",
+              "order": 8
+            },
+            "d63418a9-c90f-5367-a7a5-81f90c5f4dda": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "8afbf9d8-385a-5ce4-9b17-a0ec702b9751": {
+              "title": "Acceptance Criteria: All personnel on site have been inducted to the CRG site",
+              "type": "label",
+              "order": 2
+            },
+            "542a5e53-d9d5-5af9-92cd-8d141461c1f5": {
+              "title": "Reference Documents: PMP Inductions Register",
+              "type": "label",
+              "order": 4
+            },
+            "f2edf5f6-4161-5774-aebb-edade9a97fb0": {
+              "title": "Frequency: Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "f40e0650-504a-5ea9-873d-967fe7035c96": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "83a884bf-5f65-5e5d-bc3e-d7a250bfe570": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "13e2da94-57aa-5a44-bc31-e9e937f0cfed": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "5d5cf723-d43f-520b-8cd1-b73bf4265701": {
+              "title": "Inspection / Test Method: Document review",
+              "type": "label",
+              "order": 6
+            },
+            "d2dd7c4d-322c-5988-b5eb-7474e8cdc5b1": {
+              "title": "Responsibility: Site Engineer / Site Foreman",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "3c75be6a-b303-5ec8-9eb7-07d19601d5e9": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "971efdac-6790-5df2-b4b8-fb8b00b2f4ce": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            }
+          },
+          "meta": {
+            "name": "1.2 Induction",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "c657ed8c-3e76-5669-a317-b51099e90ff5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "e7a709d1-7b1c-58e8-bd97-5013bd576fe8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "42f5b6c8-b31a-5c08-9c40-4409550df0df": {
+              "title": "Record of Conformity: Latest Revision Drawings",
+              "type": "label",
+              "order": 8
+            },
+            "57c8cf59-edf2-5a30-b108-ca45e92547ab": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "6683349e-b3bc-58bd-a952-1370b9b618d4": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "e003659f-32a1-5a47-8f22-598367766851": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "8d0e1c8e-5abd-50f9-aaf7-bdca4cacf6a7": {
+              "title": "Frequency: Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "79865807-cb05-50e7-8289-a85c9f940cfe": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "51613a67-f777-54a1-9376-2703afa31efe": {
+              "title": "Reference Documents: Project Drawings / Drawing Register",
+              "type": "label",
+              "order": 4
+            },
+            "eebc98aa-0750-59ca-8ceb-05e7d3166c9d": {
+              "title": "Inspection / Test Method: Document review",
+              "type": "label",
+              "order": 6
+            },
+            "9512b003-3bab-58f8-98a9-0f1047d02063": {
+              "title": "Responsibility: Site Engineer / Site Foreman",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "39d21b9d-35ca-5961-96ea-d5f8cc867bec": {
+              "title": "Acceptance Criteria: Issued For Construction (IFC) and latest available revision used",
+              "type": "label",
+              "order": 2
+            },
+            "3f771cdf-0a72-5739-b816-9832248f4fae": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "meta": {
+            "name": "1.3 Check that current revision drawings are being used",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5d4d555c-cbef-5f63-a56d-1729dfa7c6e3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "c03dc63b-f6b5-55b8-b293-80cf715ecece": {
+              "title": "Reference Documents: EMP, Site induction,",
+              "type": "label",
+              "order": 4
+            },
+            "4d44c8ba-acb4-5df3-9df3-8dde56541c73": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "794d484e-6c5d-5126-9c32-0732a39a6c0f": {
+              "title": "Record of Conformity: Signed ITP",
+              "type": "label",
+              "order": 8
+            },
+            "ebc90de0-dda2-5efc-aad6-4407fb1f7aaa": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "97d15f82-280c-5e6c-a44f-ed0bdad77fb0": {
+              "title": "Responsibility: Site Engineer",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "04389e33-7799-5b14-8020-97ed1bf7fcd2": {
+              "title": "Inspection / Test Method: Document review & Site inspection",
+              "type": "label",
+              "order": 6
+            },
+            "0dde77da-db6c-5765-ba6c-481109bb5c02": {
+              "title": "Frequency: Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "0fdd3c29-0991-5d37-a29d-31e635e5e530": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "b1b34fac-1978-55ed-b92b-65bb00a8e9b2": {
+              "title": "Acceptance Criteria: All environmental measures to be implemented as per current EMP and local authorities. Sediment control measures to be installed and protected vegetation to be clearly identified",
+              "type": "label",
+              "order": 2
+            },
+            "bb9a5cfc-8040-577c-b5bb-960fcc2fb537": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "fddad270-1d03-5eb1-94df-311a5dd7a96e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "f17eea6a-6a45-562f-90b3-d50cb153df2d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "1.4 Confirm understanding of current Environment Management Plan (EMP) related to the work area and that all prescribed environmental controls are in place",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "1fd390b0-c7b9-5369-a91f-d523c55ff559": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "7ea7e35e-290d-5ea3-ae25-707241cd0c1a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "c371cbac-24fa-56f5-b5ed-34ab8b60898c": {
+              "title": "Frequency: Prior to commencing",
+              "type": "label",
+              "order": 0
+            },
+            "0ab72076-8f6f-5774-a2f8-e73136b4d99f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "15a0c0c8-f6a0-5c2f-aa11-59e7bd1efa26": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 6
+            },
+            "be40ebf4-a56f-5650-b672-3c0a30edeab1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "044e097b-e4f3-53e6-abce-9d84e12aa62d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "d2ae00a5-33f0-5e03-aab6-552e7327d7a9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "60e73220-f34f-56a0-9e6f-c1dd1caa8316": {
+              "title": "Responsibility: Site Engineer & /Site Foreman Superintendent",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "9faaa1bf-3ae6-5e3e-be28-5027ab1f1951": {
+              "title": "Record of Conformity: SWMS(s) signed",
+              "type": "label",
+              "order": 8
+            },
+            "9be30772-d3d7-5ed8-b2e9-4a50a338dab5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "ed81a084-1809-50ec-8965-fc099b463fb4": {
+              "title": "Acceptance Criteria: As per Fulton Hogan Safety Strategy. All personnel on site to have signed onto relevant SWMS before commencing work.",
+              "type": "label",
+              "order": 2
+            },
+            "1c54fe88-c3c9-5f0f-9b06-e05b00321149": {
+              "title": "Reference Documents: Health and Safety Co-Ordination Plan",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "1.5 Safety measures are in place, Safe Work Method Statement (SWMS) undertaken",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "087e62dd-9d2e-5570-8b2d-21188c82c67c": {
+              "title": "Record of Conformity: Excavation Permit #",
+              "type": "label",
+              "order": 8
+            },
+            "5a2fdf19-8e56-5521-958f-c6aa7fb3f927": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "39a773d4-632d-5ad4-82aa-107ccf0246e4": {
+              "title": "Responsibility: Site Engineer",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "c3459787-0285-59c3-ad1b-4418c4fd8f03": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "ff8f14bf-ae7c-53aa-8a72-e682b89ba7cb": {
+              "title": "Acceptance Criteria: Current Ground Penetration Permit signed and specific for the area where works will be executed.",
+              "type": "label",
+              "order": 2
+            },
+            "29d92607-1f10-50b5-9bcb-1a1f013be838": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "89541fbb-b4d6-52b0-82fd-c4f5bc34df3a": {
+              "title": "Reference Documents: Excavation Permit",
+              "type": "label",
+              "order": 4
+            },
+            "6792fad3-942c-5126-96b9-33401fd17c95": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "00000e43-39e3-59ac-b853-9e772f85ecc7": {
+              "title": "Frequency: Prior to Commencing Work",
+              "type": "label",
+              "order": 0
+            },
+            "f9891e7b-6264-5143-9b73-13a53d945661": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "e4ec4283-2eea-5b20-9e85-f2a846c05f21": {
+              "title": "Inspection / Test Method: Document review & Site inspection",
+              "type": "label",
+              "order": 6
+            },
+            "ad3d071a-bd44-5899-8fa8-b79febd85cb7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "8bed18fa-c68d-5955-9bae-fa24826d0c1f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "1.6 Ground Penetration Permit issued",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "1 - Preliminary Works",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "395900bb-baa0-57f6-a853-6da2ef81b95d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "148f4207-5581-5bfe-89d2-636391998f91": {
+              "title": "Responsibility: Sub-Contractor",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "797c737d-430a-5951-bc89-8cb09141c842": {
+              "title": "Acceptance Criteria: Passed staged Construction Audit",
+              "type": "label",
+              "order": 2
+            },
+            "e86fd19f-aaa6-5bf6-99f7-7ce6e74f09cf": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "72a85166-5943-5eaf-b325-c1ca79efb5c9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "63553ebf-b16b-5c78-be13-927283b9bd77": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "bcce9b0f-be8a-51d5-b9d6-4e64d5089e39": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "fa50b165-fb63-5c76-9ec9-3f07b6ca3da5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "45ec245c-d635-56d9-aa58-93023d3c2947": {
+              "title": "Record of Conformity: Audit Report",
+              "type": "label",
+              "order": 8
+            },
+            "455258f9-c775-5a2f-b023-e2ef24c9ecb1": {
+              "title": "Frequency: Following Preliminary Works",
+              "type": "label",
+              "order": 0
+            },
+            "e77151e7-ab05-559c-b88d-92b7c3e39f4e": {
+              "title": "Reference Documents: Sub-Contract ITP/Checklist",
+              "type": "label",
+              "order": 4
+            },
+            "356b7ae7-880e-5a63-ac1a-62268dd79f09": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "782edab9-a65b-5cc8-89c3-ad72d71e7d4d": {
+              "title": "Inspection / Test Method: Inspection by Independent Auditor",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "2.1 Staged Construction Audit - Civil Works",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "75645ac4-1d09-59bc-9b12-f8f1256cce65": {
+              "title": "Inspection / Test Method: Inspection by Independent Auditor",
+              "type": "label",
+              "order": 6
+            },
+            "3ea08c41-4277-56e6-b4f5-9665a61faa07": {
+              "title": "Record of Conformity: Audit Report",
+              "type": "label",
+              "order": 8
+            },
+            "9573483d-c53d-5b80-9d53-782b7c69c2e3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "d979cad7-c74e-5e1a-8104-edee84aca61b": {
+              "title": "Responsibility: Sub-Contractor",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "5167a8a9-665b-5017-aecc-87f956b608ce": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "dfb51bf5-d800-53d6-995f-2b6f88b434fe": {
+              "title": "Acceptance Criteria: Passed staged Construction Audit",
+              "type": "label",
+              "order": 2
+            },
+            "2011edb1-8bc0-5b99-9224-7e71c6282408": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "42d26dcf-c454-5c7d-b23a-7250881ec799": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "6d3e9a8a-7d41-5acd-8d04-a7402043353e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "9b249e41-7037-5be2-a78b-e9ab8c7bc0f3": {
+              "title": "Reference Documents: Sub-Contract ITP/Checklist",
+              "type": "label",
+              "order": 4
+            },
+            "96be8bcc-0063-5dcb-9297-5382ab6d2b25": {
+              "title": "Frequency: Following Civil Works",
+              "type": "label",
+              "order": 0
+            },
+            "addb932c-1f50-5e7a-9d67-db14b9a3da0d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "3690bf91-aace-5623-8208-089238ff14de": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            }
+          },
+          "meta": {
+            "name": "2.2 Staged Construction Audit – Cable Works",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "344b5c4d-b309-5e8f-b750-1356ac0e6b85": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "c1f0110c-84a2-51d6-995e-42c6f719cacd": {
+              "title": "Acceptance Criteria: Passed staged Construction Audit",
+              "type": "label",
+              "order": 2
+            },
+            "38fef0ef-dede-5bd2-980d-edc7a8c93acd": {
+              "title": "Frequency: Following Cable Works",
+              "type": "label",
+              "order": 0
+            },
+            "4cbafbd0-112c-5b1e-b410-fee9ae82d2d3": {
+              "title": "Responsibility: Sub-Contractor",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "853cb330-e874-58de-b8df-b9129a135dae": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "59ccdaaa-e3c7-5f7b-ae9d-f0cc4f912e6c": {
+              "title": "Reference Documents: Sub-Contract ITP/Checklist",
+              "type": "label",
+              "order": 4
+            },
+            "f71b78ea-9dbd-59de-bac4-a8d6feefba0a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "840a1523-63b1-575d-b22f-1e5821af1450": {
+              "title": "Record of Conformity: Audit Report",
+              "type": "label",
+              "order": 8
+            },
+            "de8e4c44-08f2-5398-b06a-745b886a1687": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "2960b1d3-7b6c-5ef2-bdb9-ba8eb63207d6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "968fb838-51be-5046-b822-79061a3bfc3c": {
+              "title": "Inspection / Test Method: Inspection by Independent Auditor",
+              "type": "label",
+              "order": 6
+            },
+            "bb1c106f-c068-574d-a47c-720753addd03": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "bb5d8be3-7b9c-58a4-83f1-40e2003723b8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "meta": {
+            "name": "2.3 Staged Construction Audit – Handover",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "adefc321-6385-58ea-b1c3-26e0d19dd8bc": {
+              "title": "Reference Documents: IFC Drawing",
+              "type": "label",
+              "order": 4
+            },
+            "27970f7c-acde-5e22-8796-a7dff106a165": {
+              "title": "Acceptance Criteria: Passed staged Construction Audit",
+              "type": "label",
+              "order": 2
+            },
+            "e6e82e0e-0f52-58df-b885-17d1a87d1659": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "9151660a-1263-5e0d-a088-31c8d4fc9d1b": {
+              "title": "Record of Conformity: Acceptance by Jemena",
+              "type": "label",
+              "order": 8
+            },
+            "8452f01f-63e0-59c3-8996-7c7a3a2c243e": {
+              "title": "Responsibility: Fulton Hogan / Powerplant",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "6d4810c7-a791-5289-8a0f-bd33ef7b164f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "77cd4dfa-44a1-5ee6-a862-e8e571500f39": {
+              "title": "Inspection / Test Method: As Built Drawing",
+              "type": "label",
+              "order": 6
+            },
+            "d96aa334-61a6-589e-8128-e5d0f26e95fd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "5eb35bcd-6ab4-59cf-89d7-71b7060a488a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "da5df6e4-6995-58f9-84dd-ec15ba262b6e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "cfc139b4-a4dd-5c59-9f6d-c24384d4ab3d": {
+              "title": "Frequency: Following Cable Works",
+              "type": "label",
+              "order": 0
+            },
+            "9cd74b02-2624-582b-8a02-e8611e01c7b7": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "e4e65b4e-2e93-5307-9fd2-94fe4f8f4272": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            }
+          },
+          "meta": {
+            "name": "2.3 As-Built submission to Jemena",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "2 - Installing of Lighting",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "255c2fff-25e0-557c-b093-8a3b7f650b5b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "f1be2f6d-3dc7-5e81-af09-583ce23de08e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "a37d8247-c334-5524-bbac-cbccecf444c5": {
+              "title": "Record of Conformity: Audit Report",
+              "type": "label",
+              "order": 8
+            },
+            "8276570b-77ba-57a8-bfd0-bf68b3e7ab70": {
+              "title": "Acceptance Criteria: Passed Pre Commissioning Audit",
+              "type": "label",
+              "order": 2
+            },
+            "21dc1afe-182a-55f8-96b0-567fbba05530": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "dafaf1a6-1ebd-5942-a326-e24b74d5f8f0": {
+              "title": "Responsibility: PM2 (Powerplant)",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "ae804e6f-101e-50a8-8392-add60a5c0220": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "d3f86a53-521e-5c1e-86d0-239cb4cf026b": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "18df7a1a-d2cb-5d00-8db4-4ce24e1ba4a0": {
+              "title": "Frequency: Following as Built",
+              "type": "label",
+              "order": 0
+            },
+            "4fda8da6-ecb7-59d1-900d-99f334b19bb5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "4c6710b2-bbdf-5ef6-8bec-73dbb3e1ffbd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "1e68517e-0efe-597e-897d-ad31cf199bb1": {
+              "title": "Inspection / Test Method: Inspection by Independent Auditor",
+              "type": "label",
+              "order": 6
+            },
+            "1615d89e-0e94-5d4d-8204-1e41f6523bec": {
+              "title": "Reference Documents: N/A",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "3.1 Pre Commissioning Audit",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "02ce1c84-1a6c-5143-b1eb-ecc97b041ebe": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "4cd659e8-a2fe-5864-8d5e-a6bab79ccc36": {
+              "title": "Frequency: Following Pre Commissioning Audit",
+              "type": "label",
+              "order": 0
+            },
+            "cc3be79e-f578-529b-8804-c4d218ade98f": {
+              "title": "Reference Documents: N/A",
+              "type": "label",
+              "order": 4
+            },
+            "f01c448b-b5ba-51bb-b4ee-774d95c373af": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "f9c002c8-2842-5ffb-bb52-1791c569a24f": {
+              "title": "Acceptance Criteria: Energization",
+              "type": "label",
+              "order": 2
+            },
+            "242e5702-229b-5966-a292-e2d8e8c00c31": {
+              "title": "Inspection / Test Method: Inspection by Independent Auditor",
+              "type": "label",
+              "order": 6
+            },
+            "69682a8d-49aa-53db-8f4c-90c40d216a83": {
+              "title": "Responsibility: Sub-Contractor",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "268988e7-9e75-57dd-a9a2-6d2ef4d6e051": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "5a724d31-4961-56b4-8bf4-d75b7116a1cf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "77adee57-bb75-524c-acb8-eed6ab1c83e5": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "ca7063c3-b99d-5592-a758-988da42744cf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "ebf10329-a035-5fcb-88b7-c0f01de949b6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "32903d16-0f68-5e31-b3fe-dbab274bef33": {
+              "title": "Record of Conformity: Switch on",
+              "type": "label",
+              "order": 8
+            }
+          },
+          "meta": {
+            "name": "3.2 Commissioning",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "3 - Commissioning",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "c7c02cc1-0ea1-5969-a52b-31fff7bfb1d0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "5a4f46f7-199d-5728-bcaa-4b5a77b55a17": {
+              "title": "Frequency: Upon Completion of all Works",
+              "type": "label",
+              "order": 0
+            },
+            "b9867554-14b8-5c59-b64c-856ae2aba42a": {
+              "title": "HP*",
+              "type": "label",
+              "order": 2
+            },
+            "a5867fb6-4580-5d53-8a46-bfbc6f126923": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "3a7a410d-fb9b-5b78-bf6b-9a2de2274c4a": {
+              "title": "Responsibility: PM2 (Powerplant)",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "4.1 Final Audit",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "bedcb97b-48cb-55d5-b02c-be94fe9db483": {
+              "title": "Print Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "581c1234-8822-5c2c-9b92-77acab46a1b0": {
+              "title": "Position:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "9de415d2-09cb-5208-bb9c-f8099c4c73b1": {
+              "title": "Work Completed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "ed3a4637-01a7-5b31-a482-299ae6d2acc3": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "391e0d16-28e2-5d5e-8beb-05c29057e6a4": {
+              "title": "The signature below verifies that this ITP has been completed in accordance with the Fulton Hogan's Quality system Procedures and verifies lot compliance with specifications.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "4 - Completion of Works",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "74f188cf-8139-5918-b062-6dbfb66c1122": {
+              "title": "Lot Closed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "44858463-692f-5078-a177-6c9bdb114ab0": {
+              "title": "Other:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "3768caee-da0c-5497-9750-81688ca1d78d": {
+              "title": "Is the relevant NCR attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 1
+            },
+            "ad82452d-e189-5d17-b3bf-987fd701829c": {
+              "title": "Lot verified By",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Babak Rudd-Project Quality Manager",
+                " Abid Hameed (Area 1 Manager)",
+                " Nicola Lodo (Area 2 Manager)",
+                " Nicolas Terpstra (Delivery Manager)",
+                "Other:"
+              ],
+              "order": 3
+            },
+            "df1d1a27-eb8f-57c7-b1e1-4b2bffb498db": {
+              "title": "Lot Status",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OUTSTANDING",
+                " CLOSED"
+              ],
+              "order": 5
+            },
+            "37b7fa31-b2f8-57a1-ad46-70061e5ef178": {
+              "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 2
+            },
+            "983b7d84-3e72-5fda-8f49-77e32153797a": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "e5f1172f-e476-5b93-bcb6-0dd8ae258998": {
+              "title": "Is the relevant RFI attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Lot Verification.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Verification",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "ITP-060-UT-LOT-XXX - Desc",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}

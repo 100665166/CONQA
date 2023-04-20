@@ -1,0 +1,2092 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "63a51cc8-e908-5787-a1d4-527542bfc1c4": {
+              "title": "Work Commenced On",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "df21f506-9b6a-5bcd-854e-db315d148ba0": {
+              "title": "Traffic Direction",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EB - Eastbound",
+                " ME - Median",
+                " NB - Northbound",
+                " SB - Southbound",
+                " WB - Westbound"
+              ],
+              "order": 8
+            },
+            "94a85f93-e25a-5a90-8e1b-5e5dc06973a1": {
+              "title": "From and To Chainage",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "6efbdcfe-260c-5142-b04a-c0ce9d2761a0": {
+              "title": "Construction Element",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "STOR Ð Stormwater"
+              ],
+              "order": 5
+            },
+            "bbb3a5ac-c1c3-52fd-89b0-89bbc3c866ff": {
+              "title": "Lot Opened On",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "d4bb6e69-a07d-5ee9-92b5-8411c12c22ab": {
+              "title": "Design Package No",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1145-ACM-CVD-DPK-0002",
+                " 1145-ACM-CVD-DPK-0003",
+                " 1145-ACM-CVD-DPK-0004",
+                " 1145-ACM-CVP-DPK-0001",
+                " 1145-ACM-CVP-DPK-0002",
+                " 1145-ACM-CVR-DPK-0001",
+                " 1145-ACM-CVR-DPK-0002",
+                " 1145-ACM-CVR-DPK-0003",
+                " 1145-ACM-CVR-DPK-0004",
+                " 1145-ACM-ELE-DPK-0001",
+                " 1145-ACM-ELE-DPK-0002",
+                " 1145-ACM-LDE-DPK-0001",
+                " 1145-ACM-LDE-DPK-0002",
+                " 1145-ACM-SBA-DPK-0001",
+                " 1145-ACM-STR-DPK-0001",
+                " 1145-ACM-TSI-DPK-0001",
+                " 1145-ACM-TSI-DPK-0002",
+                " 1145-ACM-TSI-DPK-0003",
+                " 1145-ACM-TSI-DPK-0004",
+                " 1145-ACM-UTL-DPK-0001",
+                " 1145-ACM-UTL-DPK-0002"
+              ],
+              "order": 7
+            },
+            "8d6a3fb5-6077-5220-bcf1-9010c782ee68": {
+              "title": "Lot Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "CIL-Civil Lot",
+                " DRL- Drainage Lot",
+                " EAL- Earthworks Lot",
+                " ELL- Electrical Lot",
+                " UTL- Utility Lot",
+                " STL- Structural Lot"
+              ],
+              "order": 3
+            },
+            "db5aa33e-34a9-5f4e-acdf-0baa93a538b2": {
+              "title": "Activity",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "KERC - Kerb & Channel"
+              ],
+              "order": 6
+            },
+            "2122ebf3-f033-5106-aa36-8032955e8453": {
+              "title": "Engineer Responsible",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "a0d15c84-0b02-58b3-bdc7-bcc60ccf508d": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "f9086920-3640-52b5-b534-1360935b2cfe": {
+              "title": "Lot Created On",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "1.0 Lot Information",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Information",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "03c3c4f4-d4e1-5c29-8ef0-925f9efad60e": {
+              "title": "Frequency: Prior to Commencing",
+              "type": "label",
+              "order": 0
+            },
+            "db884241-f9cd-5017-b4e1-57a6290b1c8f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "40903d2a-0149-58a8-860c-ec2322d86e24": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "f69a62fd-e529-5e60-b94e-798d05f53833": {
+              "title": "Acceptance Criteria: Issued For Construction (IFC) and latest available revision used",
+              "type": "label",
+              "order": 2
+            },
+            "eed3bd26-7d4f-5b64-add1-26e58fc92285": {
+              "title": "Record of conformity: Latest Revision Drawings",
+              "type": "label",
+              "order": 8
+            },
+            "761f938a-8ec3-59d8-a660-4c85502a69c6": {
+              "title": "Responsibility: Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 12
+            },
+            "19cb669f-345a-58e1-9799-357b4ce36337": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "7ea51c3e-5e71-569d-b747-6eeb6bfe57f2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "88be3834-aedf-514c-9eeb-5a25dd29ff5a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "4d0399d7-b590-5d75-9a42-f0c5a7409a64": {
+              "title": "Inspection / Test Method: Document review",
+              "type": "label",
+              "order": 6
+            },
+            "b2207207-aefd-5798-a795-05eec10772f1": {
+              "title": "AP",
+              "type": "label",
+              "order": 10
+            },
+            "6e3a1ed5-23ed-58a1-a382-4a546eab3adb": {
+              "title": "Reference Documents: Project Drawings / Drawing Register",
+              "type": "label",
+              "order": 4
+            },
+            "c825b2e8-7bf3-5b06-803f-9576c6d65beb": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "1.1 - Check that current revision drawings are being used",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "HOLD POINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "8402a322-29a7-5d82-9059-6f0bed4a86fd": {
+              "title": "Frequency: Prior to commencing",
+              "type": "label",
+              "order": 0
+            },
+            "69c131fe-c6ec-5ee7-8319-9c753330c2a4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "acf23adb-7712-56d2-98f0-cc703b32c967": {
+              "title": "Record of conformity: ITP signed/Mix Design Certificate",
+              "type": "label",
+              "order": 8
+            },
+            "7e44499a-3c4a-56fe-a268-9bf72c727267": {
+              "title": "Reference Documents: SD2001, AS1379, Section 703.05, 703.06, 703.07",
+              "type": "label",
+              "order": 4
+            },
+            "c59a2826-bfb7-560a-af34-1f48319daa5c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "8f7794e5-a1ae-5a58-9649-6f8bd8b89787": {
+              "title": "Responsibility: Site Engineer & Superintendent",
+              "type": "label",
+              "order": 12
+            },
+            "766ce301-2ae8-5b9e-b5f3-f01d18dd0da5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "9803f13f-62cd-5bd8-a141-c63f9c7a1106": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "452adfdc-b499-5ca0-9f1b-931b33891670": {
+              "title": "HP",
+              "type": "label",
+              "order": 10
+            },
+            "79178f8f-f039-5950-a9d7-a2a3dbb0c284": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "85a00654-8492-53b6-8aa2-fab50f8e7258": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 6
+            },
+            "8a58f279-0fcc-5f11-9bc6-4f7aaa57f1ea": {
+              "title": "Acceptance Criteria: Approved VR mix design to be used. Concrete being placed via extrusion machines have minimum cement content of 320 kg kg/m3. Where K&C is placed and compacted with internal vibration between previously placed formwork, concrete shall be: N32 portland cementâ€“based concrete",
+              "type": "label",
+              "order": 2
+            },
+            "2a140213-ef47-5ef2-b4f5-10397a7b9ff6": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "1.2 - Mix design",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "11e822cb-cee6-5aad-b6e0-250915899735": {
+              "title": "Inspection / Test Method: Verify",
+              "type": "label",
+              "order": 6
+            },
+            "f6843afd-7ac7-5ae3-90f1-6be39f506516": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "68e3f42a-051a-5667-bfe3-60dc937e9496": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "088441f9-8ad3-5d3d-9974-ff87e431d47d": {
+              "title": "Record of conformity: Material Conformance Certificate",
+              "type": "label",
+              "order": 8
+            },
+            "f04e0088-6ebb-5045-a239-4ed644bba863": {
+              "title": "Reference Documents: Section 703.21 IFC Drawings",
+              "type": "label",
+              "order": 4
+            },
+            "32b12911-b423-5d72-a7c4-6d0fe8e3cf58": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "6a6980c8-384c-5592-9e51-a749e7993389": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "9f8e369c-e07c-5d80-ab74-3498a1bc67e3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "18333a42-7222-598a-8861-6167358890d5": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "d3b80ada-03f5-58e3-ae09-1c4f26a95a83": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "4775c70d-8bfc-5b55-a131-bf7bc25ead3b": {
+              "title": "Frequency: Prior to commencing",
+              "type": "label",
+              "order": 0
+            },
+            "a63e8390-71a7-5d2f-a0f4-d2df9efddf61": {
+              "title": "Acceptance Criteria: Bedding shall be size 20 mm Class 3 or Class 4 crushed rock or Class 3 or Class 4 crushed concrete, manufactured and supplied in accordance with Sections 812 or 820 respectively.",
+              "type": "label",
+              "order": 2
+            },
+            "1a34448e-0115-50f1-bf51-9609474f3082": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            }
+          },
+          "meta": {
+            "name": "1.3 - Bedding Material",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5926d2da-f316-5c37-a0d3-a3acb0f95283": {
+              "title": "Inspection / Test Method: Verify",
+              "type": "label",
+              "order": 6
+            },
+            "103ec1e8-3927-5324-a724-37376e0db1c1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "2ac15609-1b6b-5d20-ba36-b8a446bbf1d8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "79c9f203-98ad-5818-875c-f06c33514318": {
+              "title": "Frequency: Prior to commencing",
+              "type": "label",
+              "order": 0
+            },
+            "8db88d2b-0d33-530f-abf9-71a1098b74c5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "31b71ab9-77fb-523d-8b20-fa2857ffd1ff": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "30e36550-82a0-529b-b6c6-a0a5d3a4564c": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "319fe73e-f956-581e-9089-a45437a14fed": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "5e5809ec-b868-59c5-8763-713cd3f5fd08": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "8921b2dd-67d7-5cad-83bb-e53fe8ceee05": {
+              "title": "Acceptance Criteria: Curing compound shall comply with AS3799",
+              "type": "label",
+              "order": 2
+            },
+            "5c2553fc-a64c-589f-819b-fe4c4d1952ab": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "dc1e60a5-7270-5892-810a-78a5f1bcc90e": {
+              "title": "Record of conformity: Material Conformance Certificate",
+              "type": "label",
+              "order": 8
+            },
+            "45a54779-2b26-5daf-9d60-2d785595aea1": {
+              "title": "Reference Documents: Section 703.10",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "1.4 - Curing Compound",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "f294ba5e-69a9-570b-9d35-48bfc4bdf7ca": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "66681e01-1050-553f-a602-00031c8a0acd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "7e6fce1b-b231-52a1-a298-d2d19c22a81b": {
+              "title": "Reference Documents: Section 703.18",
+              "type": "label",
+              "order": 4
+            },
+            "7072b56d-3834-5eb5-a15d-d386a65563c4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "e2b8e451-71a6-5bd6-b2b0-34ce674dda61": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "a2cdc689-fc98-5ff1-921e-5117eacf6a92": {
+              "title": "Acceptance Criteria: If obstructing waterways ,culverts or channels, temporary diversion of discharge of drainage and storm water to be in place. Need to obtain prior written approval from the relevant waterway authority prior to diversion.",
+              "type": "label",
+              "order": 2
+            },
+            "cd1f74bd-9b64-59ee-88b1-a57c306673f3": {
+              "title": "Record of conformity: ITP signed",
+              "type": "label",
+              "order": 8
+            },
+            "0600bce6-790d-5594-97ed-3c85933f3d55": {
+              "title": "Frequency: Prior to commencing",
+              "type": "label",
+              "order": 0
+            },
+            "8664d83f-9264-53f4-9292-6f5a939ad91f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "4fafd8b5-6411-5a25-adba-c3da85ad844b": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "b945e4bd-1334-51e6-87ec-0470565dd98d": {
+              "title": "Responsibility: Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 12
+            },
+            "b187ca6e-cb8f-5b4f-857a-342d47a7ec48": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "44ddafe7-524d-534f-a1d1-6be37eef9f30": {
+              "title": "Inspection / Test Method: Visual inspection",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "1.5 - Temporary drainage provisions",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "1 - Preliminary Works",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "HOLD POINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "de1c781c-4db2-519c-a89e-68055b0e4b48": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "c4ec2608-2551-5e80-b2e4-31216ce5066e": {
+              "title": "Reference Documents: Section 703.17",
+              "type": "label",
+              "order": 4
+            },
+            "bf4cd62a-9ba8-58fa-af3b-132f7c6fb71f": {
+              "title": "Acceptance Criteria: Set out work in accordance with drawing. The superintendent will review and confirm set out. The work shall be constructed in accordance with the confirmed set out to the line and level and cross-sectional profiles as shown on the drawings.",
+              "type": "label",
+              "order": 2
+            },
+            "73dcc3d2-81c9-500d-8225-c94bddf52680": {
+              "title": "Record of conformity: ITP signed",
+              "type": "label",
+              "order": 8
+            },
+            "c0476831-9053-5b91-aeda-a9712ff75418": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "821a3170-a6a8-5a6b-b4d5-53649493e1a2": {
+              "title": "Frequency: Prior to start",
+              "type": "label",
+              "order": 0
+            },
+            "1d40f2ab-bde0-5794-aadc-cdc4071ebdef": {
+              "title": "HP",
+              "type": "label",
+              "order": 10
+            },
+            "3fe78624-fbb1-5149-9f54-44b372f67f38": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "eddf8786-7871-5139-b6eb-af5421903b33": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "88c654ed-086d-5f09-9fa8-2da9b270584f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "1fd94a6a-c059-5d56-b5c7-326ee60e3d81": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "392fc2b1-2ec8-5b48-81f7-0224905f1dc1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "6da70bdc-1387-5479-8591-c2119738191e": {
+              "title": "Responsibility: Site Engineer & Superintendent",
+              "type": "label",
+              "order": 12
+            }
+          },
+          "meta": {
+            "name": "2.1 - Setting out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "b53745d7-f489-5877-bf9a-9d41bd48e4ce": {
+              "title": "Record of conformity: ITP signed",
+              "type": "label",
+              "order": 8
+            },
+            "3b8ea6a7-2ac4-54ed-b351-b79c8034eda5": {
+              "title": "Reference Documents: Section 703.21",
+              "type": "label",
+              "order": 4
+            },
+            "32f51d7d-ca9c-5dfc-ab22-9bc111f23cea": {
+              "title": "Frequency: Each lot",
+              "type": "label",
+              "order": 0
+            },
+            "604f5faf-f2b3-561b-b596-c782f52886a2": {
+              "title": "WP",
+              "type": "label",
+              "order": 10
+            },
+            "cb8d0801-a90d-5543-a811-111551b54ea7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "3b73eff6-b946-5c87-beaa-7e2d4586835d": {
+              "title": "Responsibility: Site Engineer & Superintendent",
+              "type": "label",
+              "order": 12
+            },
+            "7364b37f-4305-5e6b-8e77-0a4e889db7d9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "72e9b41a-e907-51fa-81f3-fcd19c2a01fa": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "07fd3614-1b05-56f8-8c2a-2112afa5a306": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "5726c0b6-cbc4-5871-bf0f-7ec863332886": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "a5fb4d9b-d48c-547f-8725-9e67875ee79e": {
+              "title": "Acceptance Criteria: Bedding to be compacted to a thickness of not less than 100mm. Bedding shall be trimmed to appropriate levels, moistened as necessary, and be firmly compacted .",
+              "type": "label",
+              "order": 2
+            },
+            "bc5de1ec-3e35-52df-91f7-debca994ec17": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "5c7b111a-0ea8-50d3-9749-57835207e7d2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "meta": {
+            "name": "2.2 - Bedding",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "023a91df-5388-5358-a8f8-3c4b5ab07e0f": {
+              "title": "Acceptance Criteria: Joints in formwork shall be constructed such that loss of mortar is prevented. Prior to placing concrete in an earth excavation, formwork shall be erected so that fresh concrete is not placed directly against the sides of the excavation.",
+              "type": "label",
+              "order": 2
+            },
+            "e0daa7a6-5c67-5f28-8dc5-690f661a286f": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "2f2305a1-95ae-5f66-a784-a0564478817d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "12150cc8-a621-544e-81f7-16e873e35373": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "9c6c2094-1aa1-5fdf-a4fe-41eddc8e91e3": {
+              "title": "Reference Documents: Section 703.12 AS3610",
+              "type": "label",
+              "order": 4
+            },
+            "4ef25b73-0276-5af7-8426-db37246661e8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "59948fd6-8e5c-5d24-a6d9-ca80e819fc7b": {
+              "title": "WP",
+              "type": "label",
+              "order": 10
+            },
+            "7aef8986-6d4d-5d98-8d12-34746b67e4ed": {
+              "title": "Responsibility: Site Engineer & Superintendent",
+              "type": "label",
+              "order": 12
+            },
+            "333e53cd-8b39-50a6-af3f-179ca2d965d0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "d0bd00e6-2bac-5002-9fc2-b556feaa0902": {
+              "title": "Frequency: Each lot",
+              "type": "label",
+              "order": 0
+            },
+            "ebeb75b4-57a6-5979-a2e7-cce59c3c8ffe": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "63974bb4-6606-5576-b2ff-f63f47ebf2e8": {
+              "title": "Record of conformity: ITP signed",
+              "type": "label",
+              "order": 8
+            },
+            "ff931d15-8aac-5e02-9a2a-90b468cea219": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "meta": {
+            "name": "2.3 - Formwork",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5067fef1-782a-5309-8022-7cc5daeeb03e": {
+              "title": "Frequency: Each lot",
+              "type": "label",
+              "order": 0
+            },
+            "78883e20-f4c0-54ba-80d5-5da21bd3f3a7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "0eb5447d-22e3-585b-97bd-dca5a429f345": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "435d3ba5-7151-5dae-a358-2a011ddf60bf": {
+              "title": "Record of conformity: ITP signed Ambient temperature-----Â°C",
+              "type": "label",
+              "order": 8
+            },
+            "a703bfd7-24b9-5126-b65f-fbfe29018e8d": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "5d08a497-feaa-5ef7-a4fe-d542f48a5322": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "279fc57d-fffd-5197-be32-a3eb4cbad130": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "9f93d2b3-080a-55d5-9a22-7f7b8dff3022": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "9babebc4-1980-5084-9a97-f2951320673d": {
+              "title": "Responsibility: Site Engineer/Site superintendent",
+              "type": "label",
+              "order": 12
+            },
+            "2b021afd-c980-5967-89f4-89104442fb72": {
+              "title": "Acceptance Criteria: Bedding shall be moist but shall have no free water on the surface. Concrete shall not be placed when the air temperature measured at the point of placement is > 35Â°C or < 5Â°C",
+              "type": "label",
+              "order": 2
+            },
+            "52c437f5-97e5-5dc4-a492-fde10689e93d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "7248d0b7-2ffd-5b25-a1d2-ffc793603ce8": {
+              "title": "Reference Documents: Section 703.09 Section 703.21 Section 610.17a), b) & c)",
+              "type": "label",
+              "order": 4
+            },
+            "9b9ff796-9a78-5684-9f1d-81acd29c20e0": {
+              "title": "HP*/WP",
+              "type": "label",
+              "order": 10
+            }
+          },
+          "meta": {
+            "name": "2.4 - Pre Pour Check",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "8d485fc2-d95b-51de-b350-b89a149b25d2": {
+              "title": "Acceptance Criteria: Temperature of concrete to be measured immediately prior to placing and shall not be less than 10Â°C or greater than 32Â°C. Concrete is to be satisfactorily compacted so that finished surface are free from surface pitting larger than 5mm diameter, honey combing or faulty patches. Fresh concrete shall not be placed against concrete which has taken its initial set, except at properly formed construction joints. Machine Extrusion: Concrete is to be fed to extrusion machine at a uniform rate.",
+              "type": "label",
+              "order": 2
+            },
+            "f8e1de68-99f4-5042-adb2-c893d04bd783": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "a6012995-dbc4-5192-8409-5bd99a0fbbef": {
+              "title": "Responsibility: Site engineer",
+              "type": "label",
+              "order": 12
+            },
+            "9c9a82cc-ff45-5df3-8490-5625afece3e7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "a8b1d499-c51a-56ff-b86c-6d00e4903fc0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "94c038bd-7161-5a16-a247-c44cdb347cfe": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "2d8daf94-5ebf-56a5-a4ec-62add5307301": {
+              "title": "Reference Documents: Section 703.08 Section 703.23",
+              "type": "label",
+              "order": 4
+            },
+            "6ddb3cb3-30e2-5097-ba31-24464ca72efd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "d1dbd245-143e-5019-a21c-7653228da3c2": {
+              "title": "Record of conformity: ITP signed Concrete Temperature ---Â°C",
+              "type": "label",
+              "order": 8
+            },
+            "954a5e5b-1ee7-5766-b883-224937dbc3b6": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "9fc81721-0984-5ba5-93d7-08c3272b6ff9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "a1a2bc3f-d385-51de-8dee-0486316f380b": {
+              "title": "Frequency: Each lot",
+              "type": "label",
+              "order": 0
+            },
+            "b5aca965-4853-58d9-bbc5-55389eb118e3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "2.5 - Concrete placement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "ce4dad3a-bc76-595d-bb44-c09c091d3fbf": {
+              "title": "Reference Documents: Section 703.24",
+              "type": "label",
+              "order": 4
+            },
+            "f4e2120a-b121-55c3-a714-304e6fdd9c7d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "8153e2ec-b361-5630-9ce3-3e463d856e40": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "fcec476c-df77-5dfc-a245-578f1fdb0c4d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "68616c8d-ab15-5a6a-a7ae-210eb4130ce5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "8857833d-a148-58e1-a686-7adfa9feed98": {
+              "title": "Record of conformity: ITP Signed",
+              "type": "label",
+              "order": 8
+            },
+            "c782e203-b91c-5a3a-9d3a-7c277beb0dbc": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "a72cd6b1-c9bc-5b52-9481-4624e8805eee": {
+              "title": "Responsibility: Site engineer",
+              "type": "label",
+              "order": 12
+            },
+            "e20b6887-2c05-5c64-9683-00964bed69d8": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "72b6843e-3974-5ec8-b738-b5f9054edca1": {
+              "title": "Acceptance Criteria: Where it is necessary to join to an existing section of profile different from that being constructed, the change of profile shall be made at a constant rate between 10 and 20 mm per metre.",
+              "type": "label",
+              "order": 2
+            },
+            "06f8c096-dda6-5c2b-a225-ede3194325af": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "ff482e61-8ae7-5902-93ac-014454eb25b2": {
+              "title": "Frequency: Each lot",
+              "type": "label",
+              "order": 0
+            },
+            "bfed5462-e8b1-5c9e-9133-8a8d83f6ab48": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            }
+          },
+          "meta": {
+            "name": "2.6 - Transitions",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "a980acd9-0edd-5080-9a2b-eb41fc045fa4": {
+              "title": "Responsibility: Site Engineer/ Site Foreman",
+              "type": "label",
+              "order": 12
+            },
+            "8f424198-14a0-51de-9a6d-53a46a147545": {
+              "title": "Frequency: Each lot",
+              "type": "label",
+              "order": 0
+            },
+            "18744e27-6b5e-5bb5-bea4-b8b34257c7e4": {
+              "title": "Reference Documents: Section 703.25",
+              "type": "label",
+              "order": 4
+            },
+            "56762e4a-3fdd-5c0a-a356-9d8cbf5a87cd": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "25669f6d-64c6-5a46-adf1-66f817528aea": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "ffa44311-3d6b-5e77-8a98-db51f9a16f98": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "d460f7af-b488-50f6-927e-f9bc9ed27786": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "14547fda-c5ab-5663-b891-081927b67379": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "e91afee6-07c7-5539-9655-afb1330ad92a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "bc9f39b0-272c-561a-9a9c-691d0c8ed6c1": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "5887467a-d670-56d1-a74d-018883a12ac5": {
+              "title": "Record of conformity: ITP signed",
+              "type": "label",
+              "order": 8
+            },
+            "61d5fdbc-5759-5585-af76-db2da4e7a0ff": {
+              "title": "Acceptance Criteria: All edgings shall be rendered to a thickness not exceeding 3mm and trowel finished. Renderings shall be applied within 30 minutes of extrusion. Concrete to have a neat appearance and uniform colour. Class 3 finish required for external surfaces. Class 4 finish required for permanently hidden surfaces.",
+              "type": "label",
+              "order": 2
+            },
+            "8dd59177-931e-57cc-9d25-2ae4bf8ebd6c": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "2.7 - Surface Finish",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "d683cbc3-d023-5375-a499-1153068123a3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "8f441eee-bd09-53be-b301-2f11d8c17160": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "f605859d-75f5-599a-9952-6a6253f49b5c": {
+              "title": "Acceptance Criteria: Formwork shall not be stripped before the minimum time of: External faces 2 days Permanently hidden faces 1 day",
+              "type": "label",
+              "order": 2
+            },
+            "e6751a8c-70fb-5673-9773-cf3690e050cd": {
+              "title": "Responsibility: Site Engineer/ Site Foreman",
+              "type": "label",
+              "order": 12
+            },
+            "cf918bfe-f4a4-534b-859a-87ae5ed53cbd": {
+              "title": "Reference Documents: Section 703.12 AS3610",
+              "type": "label",
+              "order": 4
+            },
+            "2078b6e4-1685-5488-b93b-ad2dc69bf3e0": {
+              "title": "Frequency: Each lot",
+              "type": "label",
+              "order": 0
+            },
+            "f0aa4512-ce1a-5f92-bb19-eade37a81cdc": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "37841320-38f2-5a79-8a77-3dc7e94d518b": {
+              "title": "Record of conformity: ITP signed",
+              "type": "label",
+              "order": 8
+            },
+            "d8a30341-c698-54bd-847b-026fd95dbf1c": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "99fe3bd9-01ee-59ff-899d-76799d2f7dbc": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "89c9f4e5-a610-5487-8511-90b6d5ec3043": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "72b457ff-ef8c-5abe-8aab-89be9d2f2960": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "c32f3e19-4b3b-5005-9857-a1a7b5d28ad7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "meta": {
+            "name": "2.8 - Formwork Stripping",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "248db10d-3974-5fe6-b372-660084bb95ed": {
+              "title": "Acceptance Criteria: Match existing surfaces to within 5 mm from dimensions shown on drawings. Section dimensions to be with in 5mm and 15mm for width , for dimension less than 25mm tolerance to be Â±3mm. Kerb and channel shall be constructed to the level of the adjoining pavement with a tolerance 0 to +10mm. Except on curves or sharped areas, the deviation of the finished work from a 3m straight edge shall not exceed 5 mm at any point.",
+              "type": "label",
+              "order": 2
+            },
+            "a10a2008-94a7-531c-a6fd-464ed7f9a65c": {
+              "title": "Record of conformity: ITP signed",
+              "type": "label",
+              "order": 8
+            },
+            "28f99d48-0055-58c1-998a-454f5a280a9c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "0b3bbb22-977c-593f-a18f-5e600f23e13b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "04072674-8aae-5c09-9869-79890bb4c3d8": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "13813b6f-1541-59b7-a0c6-8ee38dd7141b": {
+              "title": "Frequency: Each lot",
+              "type": "label",
+              "order": 0
+            },
+            "658ee229-d782-5103-aeab-7558268f267a": {
+              "title": "Reference Documents: Section 703.15",
+              "type": "label",
+              "order": 4
+            },
+            "9acbe953-ce2d-5ac9-ab32-03001feb8d2c": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "ac929c6d-c540-53ba-8f2b-0e3f39570075": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "8b257957-6699-5584-8865-6a2065c0ddcf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "dcb7ba29-afd3-5efd-aca1-913f188ba55d": {
+              "title": "Responsibility: SITE Engineer/surveyor",
+              "type": "label",
+              "order": 12
+            },
+            "2b81a988-b268-513b-ad4e-119ecc92aaa7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "d7d49331-3a1e-5dcf-9e5f-bb2d28fa60f5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "2.9 - Tolerance",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5c7606bf-7e02-54be-859e-0b854a9ef374": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "8d15ab53-2c80-5d78-889a-17369fce3169": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "d98a0d1a-dc08-599e-a1ea-91fb797916ef": {
+              "title": "Record of conformity: ITP signed",
+              "type": "label",
+              "order": 8
+            },
+            "b67dfed5-e62d-5fe6-9853-d615961c3d95": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "90d0b0f4-09c7-529b-b762-77dcb27ccd03": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "bf8a54f7-6534-5a6c-816a-932717daf06e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "c4659408-b95c-5b84-b1df-e490701656ba": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "5a25d0b9-1358-5689-823f-32ac358228f8": {
+              "title": "Frequency: Each lot",
+              "type": "label",
+              "order": 0
+            },
+            "7a02e9f6-8851-5d18-8eb7-d90b0473a2f7": {
+              "title": "Reference Documents: Section 703.10",
+              "type": "label",
+              "order": 4
+            },
+            "0b7d563a-5a14-5d8c-a8dd-9557a02ca00b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "d1d9a21a-a88f-5119-89cb-5325c2824cf0": {
+              "title": "Acceptance Criteria: The curing of exposed concrete surfaces shall commence immediately after finishing operations are progressively completed. Concrete edgings shall be cured for a period of not less than three days after placing the concrete",
+              "type": "label",
+              "order": 2
+            },
+            "b40a1945-c941-57df-bdbc-31560e2b1cbe": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "3f86e047-32b1-5df0-94c9-3289ac508ee3": {
+              "title": "Responsibility: Site Engineer/Site Foreman",
+              "type": "label",
+              "order": 12
+            }
+          },
+          "meta": {
+            "name": "2.10 - Curing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "3b8a3bd1-0bac-5957-9115-bbd79c0053cc": {
+              "title": "Responsibility: Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 12
+            },
+            "4362bff5-e9c9-5bfc-995a-2b199a4648fe": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "202662c0-9c95-5f57-ae44-47b19f4e7cfe": {
+              "title": "Frequency: Each joint",
+              "type": "label",
+              "order": 0
+            },
+            "f9e5485e-0c52-508b-b864-697ea658c84e": {
+              "title": "Acceptance Criteria: Transverse joints constructed at intervals not exceeding 2.5m. Groove cut 20mm deep and > 5mm wide on exposed surfaces, following with a vertical cut made through the base of the groove (depth >50mm from surface of section). Bonding between the concrete paving or shared use path and the edging shall be prevented by painting the back of the edging with bitumen, or by using a strip of bituminous felt material between the edging and the concrete paving or shared use path.",
+              "type": "label",
+              "order": 2
+            },
+            "a42a28f7-4d0c-57be-9222-c5af927ca51a": {
+              "title": "Record of conformity: ITP signed",
+              "type": "label",
+              "order": 8
+            },
+            "6e0370b9-d219-50cc-9748-f4db3faaa6a4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "3a74b83d-91ef-5f33-a3be-29427ce1b717": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "8df31700-162c-5a04-aea3-c8cc124878ea": {
+              "title": "Reference Documents: Section 703.26",
+              "type": "label",
+              "order": 4
+            },
+            "3384d50f-d31b-511e-998d-204bf4f6c3ff": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "d17ffa11-1074-5ddb-be36-551cbf45bad6": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "20ca555e-0bb5-5f98-9c5e-8b89ff12323e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "b2a1618d-30ff-5170-90c5-ec0a437e39b7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "fea26e42-67e1-546b-a916-4f573adfd5c3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            }
+          },
+          "meta": {
+            "name": "2.11 - Joints",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "14ea599c-d9d4-53a5-abdb-0636bf3df0db": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "1e8117f7-f68e-55ef-9365-e3992f2a00d1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "10a1c14f-971a-5f16-90a0-d9432589eb2a": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "785f16d2-d984-583c-bf53-39e4e16c23b4": {
+              "title": "Reference Documents: Vic Road spec 703.29",
+              "type": "label",
+              "order": 4
+            },
+            "e56412da-84f8-5ee0-a11d-29f5f4b35fc1": {
+              "title": "Record of conformity: ITP signed",
+              "type": "label",
+              "order": 8
+            },
+            "8a2ff20f-0aa5-5192-9004-8348bb7c2c52": {
+              "title": "Frequency: Each lot",
+              "type": "label",
+              "order": 0
+            },
+            "2c5b5e63-5088-5fd4-8d77-814886e6ed4c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "360fa6b8-dae4-5120-a1b3-006fce76a59b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "55546ae1-37b3-5bb3-84d6-6ef46ca4b4ca": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "132799eb-6ad3-59cb-baa1-d48274d61cdf": {
+              "title": "Acceptance Criteria: No earlier than 3 days after casting, top soil material free from perishable matter, lumps or balls of clay, shall be placed and firmly compacted behind the edging in layers not > 150m thick and to a width not < 300mm behind the edging to the top of the edging.",
+              "type": "label",
+              "order": 2
+            },
+            "533d4b70-0df3-5cb0-89e9-eb813be61126": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "f19fd8b7-2e1e-5429-a687-b8e8ea59c6cc": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "c645e88b-8c02-5921-bff2-91330ce3ef39": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "2.12 - Backfilling",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 11
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "ffd4acfe-95dd-5696-8fd6-8f77599dd5b0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "3f436246-8fad-5500-9dee-f5745e22167f": {
+              "title": "Acceptance Criteria: All concrete shall be protected from damage from early loading.",
+              "type": "label",
+              "order": 2
+            },
+            "8fb9e6cc-f643-547f-ab82-51d366608b2e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "03f6fb18-6e52-5522-aedd-fd24f4fb9508": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "891e626a-01b3-5e9f-97b7-d29ecd37f8f8": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "130136cc-5bc5-514f-aa2d-31a88299106a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "e399fc9c-c843-5326-88a1-9b4bb415a482": {
+              "title": "Frequency: Each lot",
+              "type": "label",
+              "order": 0
+            },
+            "ec257f57-d9fb-5657-a27b-98f9b3d6c8d3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "088758e1-710b-5806-964b-1e685d068c43": {
+              "title": "Reference Documents: Section 703.27",
+              "type": "label",
+              "order": 4
+            },
+            "10afe4d0-f085-5cf3-8141-844983b1a22c": {
+              "title": "Record of conformity: ITP signed",
+              "type": "label",
+              "order": 8
+            },
+            "d50c4d25-a980-56d0-b8c5-7d723e63dc25": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "b080d957-f95e-5e64-92ac-7e3930d550ee": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "c5bcc2bb-1026-575c-886c-f04fbd09b750": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            }
+          },
+          "meta": {
+            "name": "2.13 - Protection of Concrete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 12
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "9876ea18-6cb9-5d9e-9dab-393818fb6ffd": {
+              "title": "Inspection / Test Method: Site Inspection",
+              "type": "label",
+              "order": 6
+            },
+            "f14212c1-7fb3-5385-9dd0-26f31d8dff70": {
+              "title": "Reference Documents: Section 703.30",
+              "type": "label",
+              "order": 4
+            },
+            "ae1c51c4-9b7a-5388-8909-48fba5d29a89": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "2ff4c6f3-cfff-551a-b09f-05bf927bca25": {
+              "title": "Acceptance Criteria: The concrete shall have no surface cracks at any stage after construction of width greater than 0.2 mm. Cracked sections of concrete shall be either removed and replaced, or repaired in accordance with Section 687",
+              "type": "label",
+              "order": 2
+            },
+            "4b53271c-f0cb-5625-a8a3-1d038296bc7b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "7f851159-b474-5577-af3f-14dca6c40822": {
+              "title": "Frequency: Each lot",
+              "type": "label",
+              "order": 0
+            },
+            "c36f5e43-0e88-5d87-a0e7-3ff7fc8a6e71": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "bca573c2-2518-5455-a27b-9c8926ddad17": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "3344a68a-458f-5c85-945f-52956e4178a5": {
+              "title": "Responsibility: Site Engineer",
+              "type": "label",
+              "order": 12
+            },
+            "31da604a-ce09-535f-8534-3d40d4fdb5ef": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "01fb8f8c-49cd-577e-8a4b-ea258f362816": {
+              "title": "Record of conformity: ITP signed",
+              "type": "label",
+              "order": 8
+            },
+            "9b80d215-db8e-5bd9-8aef-3746c4d00fff": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "2a23315a-c366-533c-9d70-1531ca4a7f04": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "2.14 - Cracking of Concrete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 13
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "2 - Construction / Installation Activities",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "3b2e2d6a-3635-55b1-af48-1ad93f853bc9": {
+              "title": "Responsibility: Project Engineer/ Surveyor",
+              "type": "label",
+              "order": 12
+            },
+            "97792f7e-7a32-577e-adfa-3c7db7ee0e75": {
+              "title": "Frequency: Completion of each lot",
+              "type": "label",
+              "order": 0
+            },
+            "b6569e9a-f246-5303-930e-2a735ddaea5d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "b18ac26a-f660-5f32-8a5e-fc98fbc5d9a0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "849a651b-e7a6-592e-bfe3-03a452369768": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "2b211048-a3be-55c5-95ad-f6ef9059edfa": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "9fe5ee4a-28cf-51e0-afcc-cc2d6eaacad1": {
+              "title": "WP",
+              "type": "label",
+              "order": 10
+            },
+            "78df2864-61e9-5fd8-b0b8-30337f204484": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "ea51b1f4-c033-5a2c-8651-836cac99b93f": {
+              "title": "Reference Documents: Section 703.15",
+              "type": "label",
+              "order": 4
+            },
+            "f58b823a-17c4-527d-ae3f-4ed8e34ec6f0": {
+              "title": "Acceptance Criteria: Survey to as built the works and to confirm the works are within the specified tolerances.",
+              "type": "label",
+              "order": 2
+            },
+            "adff243a-fc34-553b-a0cb-e75c04814546": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 6
+            },
+            "440cf657-f36e-539b-9d12-00434017869d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "6a8c0df2-5278-5f9f-94a0-0b3ef7a5c904": {
+              "title": "Record of conformity: As-built survey records",
+              "type": "label",
+              "order": 8
+            }
+          },
+          "meta": {
+            "name": "3.1 - Survey Conformance",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "361fbbf4-9f17-5d88-8001-2593a3a8d615": {
+              "title": "Acceptance Criteria: Ensure that any NCRs pertaining to the lot / element / Work area that this ITP covers, have been closed.",
+              "type": "label",
+              "order": 2
+            },
+            "9ad8b6db-27a8-5ec7-ace0-ba4e964b28e3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "c63576df-b27f-5dc6-a372-4ace55e5e4de": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "91c3f567-1214-534a-95af-46295c64d59e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "5976a098-a6f7-59d2-84ba-d5e54c5e7c43": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "70c6fc18-a3a1-530c-8d5e-1bab1b0ee363": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 6
+            },
+            "84a3f3cc-ba7f-5915-9edf-1bd7f4525a68": {
+              "title": "Reference Documents: Quality Management Plan",
+              "type": "label",
+              "order": 4
+            },
+            "bcac742b-4d21-5a1f-866c-57d4bd11fea4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "d4a853ac-90f1-51d7-93bd-085479561f33": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "6bcd2531-cdef-5d98-a727-b4c9ba5d829d": {
+              "title": "Responsibility: SE/PE/SPE",
+              "type": "label",
+              "order": 12
+            },
+            "4de77ef8-377d-5bc7-872c-c09dd5fbefe3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "f1afa088-a895-5301-9fa6-33e500cb096d": {
+              "title": "Frequency: Once, prior to closure of this lot / element / Work area",
+              "type": "label",
+              "order": 0
+            },
+            "2abf77ad-d10a-5a7f-9be4-d0ff72bfafd2": {
+              "title": "Record of conformity: This ITP",
+              "type": "label",
+              "order": 8
+            }
+          },
+          "meta": {
+            "name": "3.2 - Non-conformance Report (NCR) Closure",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "3a0fadc1-2926-57e8-800f-df8b70019d11": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "c5b2ce25-049a-5bb4-ae5e-e2d1505e18b5": {
+              "title": "HP*",
+              "type": "label",
+              "order": 10
+            },
+            "7eea6f4e-64ef-5056-b0ca-96fd3e5d9271": {
+              "title": "Record of conformity: This ITP",
+              "type": "label",
+              "order": 8
+            },
+            "be9cac88-185c-5f78-9202-de2a035fafaf": {
+              "title": "Reference Documents: Quality Management Plan",
+              "type": "label",
+              "order": 4
+            },
+            "d1290bd8-c946-5e3b-80dd-41316ce8a042": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "71eced55-49c9-574e-8b6c-c9a303b70d75": {
+              "title": "Acceptance Criteria: All RFI's and deviations from drawing to be marked in accordance with CRU red line markup procedure",
+              "type": "label",
+              "order": 2
+            },
+            "7d4793e9-c6d4-5610-aec4-2382ad103791": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "bdb4cd32-8361-5bb4-a02d-26fc75bd3f41": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "a3a4aa35-6b7b-5a9c-a4b7-39cb9064e51e": {
+              "title": "Inspection / Test Method: Document Review",
+              "type": "label",
+              "order": 6
+            },
+            "97c93aae-15b7-569d-9964-e8864e5be09e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "c36c437e-7cb9-56fa-a93f-771bf8a8541f": {
+              "title": "Frequency: Once, prior to closure of this lot",
+              "type": "label",
+              "order": 0
+            },
+            "4cf50dce-aeb2-5dba-abe5-56fd1d968f40": {
+              "title": "Responsibility: SE/PE/SPE",
+              "type": "label",
+              "order": 12
+            },
+            "e8712c2b-34fa-58f2-98ea-3dd65f8ae1e2": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "meta": {
+            "name": "3.3 - Red lines",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "d1b01e5e-40da-5ed1-a948-0e36153e7e65": {
+              "title": "Position:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "3e86a484-0225-5683-98ab-a3a4d4785ed8": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "fffb949a-eb00-539c-aa62-d668523e1889": {
+              "title": "Work Completed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "8e23e8a1-2750-50e7-868c-67764c82b6d5": {
+              "title": "Print Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "87c8807d-6c80-52a8-8e62-b1a56b6ab2d5": {
+              "title": "The signature below verifies that this ITP has been completed in accordance with the Fulton Hogan's Quality system Procedures and verifies lot compliance with specifications.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "3 - Post-construction / Post-installation Activities",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "23c53ceb-ee14-535d-b4c1-c903ea1b11ec": {
+              "title": "Lot Status",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OUTSTANDING",
+                " CLOSED"
+              ],
+              "order": 5
+            },
+            "3e6f595f-6239-5004-9123-a3f01bca828c": {
+              "title": "Lot Closed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "3eee74dc-cc5e-56d2-aae4-0b41576b0385": {
+              "title": "Lot verified By",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Babak Rudd-Project Quality Manager",
+                " Abid Hameed (Area 1 Manager)",
+                " Nicola Lodo (Area 2 Manager)",
+                " Nicolas Terpstra (Delivery Manager)",
+                "Other:"
+              ],
+              "order": 3
+            },
+            "0c57586a-39c9-56c1-bf93-cb45e8bbfc80": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "6291c940-e358-5944-b9df-8a0d1da54057": {
+              "title": "Other:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "882ca9b3-d88c-5f08-997b-cd5b0c80d2dd": {
+              "title": "Is the relevant NCR attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 1
+            },
+            "d357e510-4263-5f67-aa17-e212c6f0465f": {
+              "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 2
+            },
+            "e55495b6-83d8-5c07-a3c0-19206d5a9a17": {
+              "title": "Is the relevant RFI attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                " NO",
+                " N/A"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Lot Verification.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Verification",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "ITP-012-AX-LOT-XXX - Desc",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}

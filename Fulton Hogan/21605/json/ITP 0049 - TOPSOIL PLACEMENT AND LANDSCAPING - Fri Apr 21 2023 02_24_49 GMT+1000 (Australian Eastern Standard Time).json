@@ -1,0 +1,1993 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "2d1ae77c-00bb-5d10-809c-cafaa6cd04cd": {
+              "title": "Work Commenced On",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "fe60d125-6bfa-5105-8637-30736df08a9d": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "10ae6534-b4b0-55dc-8955-1a13e7cbecdf": {
+              "title": "Engineer Responsible",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "b0d5dfc2-58e6-5659-ab53-2850fc591534": {
+              "title": "Design Package No",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1145-ACM-CVD-DPK-0002",
+                " 1145-ACM-CVD-DPK-0003",
+                " 1145-ACM-CVD-DPK-0004",
+                " 1145-ACM-CVP-DPK-0001",
+                " 1145-ACM-CVP-DPK-0002",
+                " 1145-ACM-CVR-DPK-0001",
+                " 1145-ACM-CVR-DPK-0002",
+                " 1145-ACM-CVR-DPK-0003",
+                " 1145-ACM-CVR-DPK-0004",
+                " 1145-ACM-ELE-DPK-0001",
+                " 1145-ACM-ELE-DPK-0002",
+                " 1145-ACM-LDE-DPK-0001",
+                " 1145-ACM-LDE-DPK-0002",
+                " 1145-ACM-SBA-DPK-0001",
+                " 1145-ACM-STR-DPK-0001",
+                " 1145-ACM-TSI-DPK-0001",
+                " 1145-ACM-TSI-DPK-0002",
+                " 1145-ACM-TSI-DPK-0003",
+                " 1145-ACM-TSI-DPK-0004",
+                " 1145-ACM-UTL-DPK-0001",
+                " 1145-ACM-UTL-DPK-0002"
+              ],
+              "order": 7
+            },
+            "0add3e7b-46c3-5573-94c6-1e643401abd2": {
+              "title": "Lot Type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "CIL - Civil"
+              ],
+              "order": 3
+            },
+            "990f32a5-b546-5dc2-bbe0-1c460e0abf1e": {
+              "title": "Lot Opened On",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "7896ed92-bedf-53ed-8fce-feecad68819a": {
+              "title": "From and To Chainage",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "b7756007-168a-571a-ada2-d8a3b828d103": {
+              "title": "Activity",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "CULT - Cultivation",
+                " HARD - Hardscaping",
+                " HYDR - Hydroseeding",
+                " MAIN - Maintenance",
+                " PLAN - Planting",
+                " RIPP - Ripping",
+                " TOPS - Topsoil",
+                " WEED - Weed/Grass Management",
+                " WSRD - WSRD"
+              ],
+              "order": 6
+            },
+            "76a66045-bd28-5c22-a156-398f2866b2a8": {
+              "title": "Traffic Direction",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EB - Eastbound",
+                " ME - Median",
+                " NB - Northbound",
+                " SB - Southbound",
+                " WB - Westbound"
+              ],
+              "order": 8
+            },
+            "99531f1b-9045-5d35-ad17-8bbde81f73ed": {
+              "title": "Construction Element",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "LAND - Landscaping"
+              ],
+              "order": 5
+            },
+            "71f4e832-399d-509b-89ed-ecfbb315e574": {
+              "title": "Lot Created On",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "1.0 Lot Information",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Information",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "a7d9f653-bc00-592f-ba4e-d3f8553f8e1e": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 14
+            },
+            "65c47f61-1759-5f68-8028-8fbca2f7ef15": {
+              "title": "Acceptance Criteria - Refer to latest drawings and latest available revision used",
+              "type": "label",
+              "order": 2
+            },
+            "72325eb9-abcd-55bc-b863-9f95234c8082": {
+              "title": "Reference Documents - IFC Project Drawings / Drawing Register",
+              "type": "label",
+              "order": 4
+            },
+            "4b7806dc-22fb-59e3-a660-6b6b853ba58a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "a8433bff-9fd6-5a1a-a340-ca9c922a8952": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "98a44c38-045c-56d9-b1d9-7211db3224a1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "53c0919e-faf3-5901-8e6d-fd25ba28e2b7": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "6b145ed4-9019-5978-9d42-96e31f85ceac": {
+              "title": "Frequency - Prior to Commencing Work",
+              "type": "label",
+              "order": 0
+            },
+            "e08e1cd0-04e5-5646-b049-6a36dab3700e": {
+              "title": "IP",
+              "type": "label",
+              "order": 10
+            },
+            "6d2dfb88-1718-54f8-9b0e-0a8301a19dc9": {
+              "title": "Responsibility - Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 12
+            },
+            "89166a8e-4b4e-560f-8b05-11785c79259e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "fbe8d406-6a57-5b51-9e6d-6f3f15aca255": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "956855d3-9e0d-568c-90d1-ceb2a2d5bdec": {
+              "title": "Record of conformity - Latest Revision Drawings",
+              "type": "label",
+              "order": 8
+            },
+            "26edd15b-4b1c-57f7-8533-ae2af80ad6d5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "89b0a92c-39b3-56d9-98de-e920c5004ad1": {
+              "title": "Inspection / Test Method - Document Review",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "1.1 - Check that current revision drawings are being used",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "9632bdd7-4ad1-54e8-92d1-e5f22d0beb0f": {
+              "title": "Responsibility - Site Engineer / VicRoads Superintendent",
+              "type": "label",
+              "order": 25
+            },
+            "d164b02c-61b2-5636-8bab-4bbefd8b18a2": {
+              "title": "• Evidence of origin of indigenous provenance plant material",
+              "type": "label",
+              "order": 10
+            },
+            "b023bb91-b044-5e25-89a4-e884dd1c825c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 18
+            },
+            "52414ff9-1e2b-59a6-a863-5f21e8e84b75": {
+              "title": "Records:",
+              "type": "label",
+              "order": 9
+            },
+            "aa08b65d-e370-5c68-89c0-dd772bcf9ee7": {
+              "title": "Frequency - Prior to commencing works",
+              "type": "label",
+              "order": 0
+            },
+            "28173e3b-a8e2-5ee5-8c51-8aa7bc6cc474": {
+              "title": "Acceptance Criteria - Samples, records and certificates shall be provided to the Superintendent at least 10 working days prior to bulk delivery.",
+              "type": "label",
+              "order": 2
+            },
+            "0feda0b9-2a9c-5fe8-86c0-2bca05f1bba9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 22
+            },
+            "1937dac9-f3cb-51ce-a2d6-b8b40be61218": {
+              "title": "Inspections:",
+              "type": "label",
+              "order": 4
+            },
+            "b72a3c28-deed-52d0-bbd9-3a357e15628b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 26
+            },
+            "5da67de3-5caa-50b5-8318-396ba281a669": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 27
+            },
+            "822a0fd0-833b-55e3-9019-cd3499eb0395": {
+              "title": "• Plant stock for all plant species",
+              "type": "label",
+              "order": 5
+            },
+            "22a8b357-e318-5efd-8e92-1f1f93bf37e7": {
+              "title": "• Copies of fertiliser labels",
+              "type": "label",
+              "order": 14
+            },
+            "cbea8032-8a78-5eaf-ad7d-a78316f2e17c": {
+              "title": "Inspection / Test Method - Document Review",
+              "type": "label",
+              "order": 19
+            },
+            "04689d80-c9fc-5236-9aeb-5fcc425b8f97": {
+              "title": "AP",
+              "type": "label",
+              "order": 23
+            },
+            "43b3788a-b0af-5168-9609-08f884ad7a5d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 20
+            },
+            "1ebcc416-2ddb-5141-8c99-d659da0622ac": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 24
+            },
+            "8a606d24-7e20-51b9-99dd-98bd259cbddd": {
+              "title": "Enter Teambinder Approval #:",
+              "type": "input",
+              "subtype": "text",
+              "order": 15
+            },
+            "459a6985-066b-56c8-830e-5cf4f8d37aed": {
+              "title": "• Details of suppliers",
+              "type": "label",
+              "order": 12
+            },
+            "e40e17a5-5793-561d-a28b-9e86d5cc5a8a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "d3639994-1bfd-59d9-9d68-fafa90bd79d0": {
+              "title": "Record of conformity - Records & Certificates uploaded to teambinder",
+              "type": "label",
+              "order": 21
+            },
+            "63274200-6ef1-5524-ad00-ffa10e52219b": {
+              "title": "Following information shall be provided to the superintendent:",
+              "type": "label",
+              "order": 3
+            },
+            "c62c81c8-0ec9-5b5f-9ab4-67d717a46d3f": {
+              "title": "• Mulch",
+              "type": "label",
+              "order": 7
+            },
+            "e13fded2-2340-5668-9c9d-646225b2bdaa": {
+              "title": "• Soil tests on imported topsoil",
+              "type": "label",
+              "order": 13
+            },
+            "e7423df6-36af-564f-a985-f4985b7a1c81": {
+              "title": "• Imported topsoil",
+              "type": "label",
+              "order": 8
+            },
+            "4f7ff59e-df01-5c91-a212-303a6cc8d760": {
+              "title": "Samples:",
+              "type": "label",
+              "order": 6
+            },
+            "3ac76571-3ca8-5c5d-acdb-3bbd2914d223": {
+              "title": "• Analysis certificates for grass seed",
+              "type": "label",
+              "order": 11
+            },
+            "af3b834c-08b2-543a-a4ad-b0deb6be58ff": {
+              "title": "Reference Documents - VicRoads Standard Section 720.03",
+              "type": "label",
+              "order": 17
+            },
+            "fa6c6089-eed4-5ca1-b1ac-f40ebde11767": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            }
+          },
+          "meta": {
+            "name": "1.2 - Submissions and records",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "c298dbc6-44b9-5c5c-b729-5f8cd123eeaa": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "5fc68c3d-18c8-5e17-917d-661e5bb033fb": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "28de5e49-f848-5fc4-86ee-0eee9f752d6b": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 17
+            },
+            "b5c6a740-bd78-52bd-852b-fd177d63569e": {
+              "title": "All wood mulch shall be supplied, delivered, handled and applied in accordance with AS 4454, and shall comply with Table 720.044",
+              "type": "label",
+              "order": 3
+            },
+            "b080d980-3358-5086-95ed-7a18fdc6c9e4": {
+              "title": "VicRoads Standard Table 720.044",
+              "type": "label",
+              "order": 6
+            },
+            "2a21274d-69bb-56cc-80a3-9318ab8e7b03": {
+              "title": "Reference Documents - VicRoads Standard Section 720.04",
+              "type": "label",
+              "order": 5
+            },
+            "19c83178-5478-513e-a234-915798f08936": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "90e73abd-781c-5057-80af-28aac319085f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "0b60b3c7-c877-5b52-9b99-051568579548": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "09ee2889-189a-5f7e-be5a-f7488f7fd758": {
+              "title": "IP",
+              "type": "label",
+              "order": 13
+            },
+            "73adf851-f2e4-5436-abc0-9fc9bd25fdb7": {
+              "title": "Responsibility - Site Engineer",
+              "type": "label",
+              "order": 15
+            },
+            "a616fd65-5b3a-58f5-9b88-49d3cd0a4226": {
+              "title": "Record of conformity - This ITP signed off",
+              "type": "label",
+              "order": 11
+            },
+            "419c12fd-969c-5e8a-b11d-688b70ae526a": {
+              "title": "Frequency - Prior to commencing works",
+              "type": "label",
+              "order": 0
+            },
+            "2e6c347f-fa8b-5bd0-8429-80a61163d1e1": {
+              "title": "Acceptance Criteria - Site mulch available from the chipping of on-site indigenous or non-weed vegetation shall be used where possible.",
+              "type": "label",
+              "order": 2
+            },
+            "f8f1a862-4f32-5f26-aa1e-96f62f40e5e9": {
+              "title": "Inspection / Test Method - Verify",
+              "type": "label",
+              "order": 9
+            },
+            "c8da597a-31e1-5f7a-a964-018c24044ea3": {
+              "title": "AS4454",
+              "type": "label",
+              "order": 7
+            },
+            "d25f1196-08c0-5b12-a085-44609c59a10e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "e7c9a324-4772-544c-9c13-56d3ddee6153": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            }
+          },
+          "meta": {
+            "name": "1.3 - Supply of mulch",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "a38f97ba-777a-5d29-8aa8-17479bc348ba": {
+              "title": "Where imported topsoil is used, the topsoil must conform to the properties specified in Table 720.042",
+              "type": "label",
+              "order": 3
+            },
+            "050b8680-31c5-5c74-b063-158db3536e29": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "efd86f98-8603-5d38-ac62-0445bee5d9d6": {
+              "title": "Frequency - Prior to commencing works",
+              "type": "label",
+              "order": 0
+            },
+            "d05da224-35f5-513c-991b-c7cded0f0672": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "31aeef9d-5cf9-55d7-ac3e-284b701ba7d7": {
+              "title": "Record of conformity - This ITP signed off",
+              "type": "label",
+              "order": 10
+            },
+            "26f11bc8-9221-5f08-a399-eacd12a76fa6": {
+              "title": "IP",
+              "type": "label",
+              "order": 12
+            },
+            "4c01420e-5dec-5d09-8839-b44e6b7e38c0": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "fbf35eb4-8d85-5b92-a630-aecf79a95645": {
+              "title": "Inspection / Test Method - Verify",
+              "type": "label",
+              "order": 8
+            },
+            "a1892069-5eca-5612-832b-85f359cd5e31": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "b41f8637-8fdc-54f9-a399-5b3577c64a35": {
+              "title": "Responsibility - Site Engineer",
+              "type": "label",
+              "order": 14
+            },
+            "d3eeba41-3aa0-5b11-9d80-7c800b7360af": {
+              "title": "VicRoads Standard Table 720.042",
+              "type": "label",
+              "order": 6
+            },
+            "7f75751c-7b81-52a1-aa82-5a497722e24d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "6af886db-9fa7-540d-88fb-0bce4df019a1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "aee2436b-7404-52bc-a1cb-c4edbbafdf14": {
+              "title": "Acceptance Criteria - Site topsoil shall be used wherever possible, in preference to imported topsoil.",
+              "type": "label",
+              "order": 2
+            },
+            "0a037ae8-a1da-5091-901e-4b77b0294a6d": {
+              "title": "Reference Documents - VicRoads Standard Section 720.04",
+              "type": "label",
+              "order": 5
+            },
+            "cdd70ac9-4430-5fab-9d91-a0f4b422c297": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "d5e16e12-6cee-5f9d-9281-ef61865cb808": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 16
+            }
+          },
+          "meta": {
+            "name": "1.4 - Supply of topsoil",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "1 - Preliminary Works",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "35242c58-c61f-5cbe-be9a-f366463247ad": {
+              "title": "Reference Documents - VicRoads Standard Section 720.06",
+              "type": "label",
+              "order": 6
+            },
+            "87d102a4-c57e-54f5-8c1e-0dc6e0ba1c00": {
+              "title": "IP",
+              "type": "label",
+              "order": 12
+            },
+            "8846a9c7-2588-5e80-a604-9424693b351d": {
+              "title": "Record of conformity - This ITP signed off",
+              "type": "label",
+              "order": 10
+            },
+            "f92dc157-d0da-57fa-ae3f-469159d7eb12": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "9550fa5d-4f81-5412-9aae-c0abc1e3504e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "6263c6a8-3c0f-594a-a4e2-f833a53934e8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "68b1326c-b26f-5847-9d96-92297c723f31": {
+              "title": "Responsibility - Site Engineer",
+              "type": "label",
+              "order": 14
+            },
+            "6963543c-5f5b-50b6-9620-7162d97ea5a9": {
+              "title": "Acceptance Criteria - Planting areas are to be set out to the location and shape specified in the landscape drawings.",
+              "type": "label",
+              "order": 2
+            },
+            "03ab80de-2727-537a-92d4-37f4a8e449ca": {
+              "title": "Plant density requirements and planting offsets established in the plant schedule are to be adhered to.",
+              "type": "label",
+              "order": 3
+            },
+            "69739001-12c4-55f5-901f-248fd6272675": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "dd048e3c-5394-517b-9dc4-b3938574765e": {
+              "title": "Plants shall be placed as shown on the drawings.",
+              "type": "label",
+              "order": 4
+            },
+            "94b54c7a-9011-5b47-9362-926a167ae764": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "f511cd94-e6fa-540f-8cf0-2796c91c85be": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "1e3a026b-05e3-56d1-8c55-7a71ee5db9df": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 16
+            },
+            "f91574c9-c3a1-5946-b314-97b13e99d37a": {
+              "title": "Inspection / Test Method - Verify",
+              "type": "label",
+              "order": 8
+            },
+            "568ea008-340e-58db-86fe-c79d06e50d33": {
+              "title": "Frequency - Each applicable lot",
+              "type": "label",
+              "order": 0
+            },
+            "33f0eaf4-9b7a-56f1-8940-e074a87a8d17": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "2.1 - Setting out planting areas",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "8707a4f4-1a1a-5457-96db-1058e5fba7d5": {
+              "title": "Record of conformity - This ITP signed off",
+              "type": "label",
+              "order": 9
+            },
+            "9ab2a3a1-31c6-5128-b060-424bae51347e": {
+              "title": "Acceptance Criteria - Soil preparation shall be in accordance with Table 720.071",
+              "type": "label",
+              "order": 2
+            },
+            "2c47bdbf-867c-591f-9d31-00dbd126928d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "4bd84563-a154-51bb-9fc1-f41f8578589f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "238ea748-789e-5937-ac16-79241824986b": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 15
+            },
+            "af1e5193-f1a8-5521-913d-7d8b1bd0de62": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "adbfce9a-80c3-5e0a-aa7d-bbb8aa8fc9f4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "89fb0237-cabf-591b-9c69-e23f9a9e020a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 3
+            },
+            "7ffc1907-ed16-5071-b60d-c81d4cb4d0e7": {
+              "title": "Responsibility - Site Engineer",
+              "type": "label",
+              "order": 13
+            },
+            "6d7f1f49-b4ae-5d5f-a6e6-c75a5d8dad58": {
+              "title": "VicRoads Standard Table 720.071",
+              "type": "label",
+              "order": 5
+            },
+            "9c547fda-6758-58d7-9814-94606012b111": {
+              "title": "Inspection / Test Method - Verify",
+              "type": "label",
+              "order": 7
+            },
+            "30a54162-5b5f-595d-8871-dc233feb4e4d": {
+              "title": "Frequency - Each applicable lot",
+              "type": "label",
+              "order": 0
+            },
+            "d384d9fe-12ff-5632-ae64-5ff0cfec53da": {
+              "title": "Reference Documents - VicRoads Standard Section 720.07",
+              "type": "label",
+              "order": 4
+            },
+            "3b4b308a-f201-5629-9c32-f7d6ddc8b32e": {
+              "title": "IP",
+              "type": "label",
+              "order": 11
+            },
+            "d2c4f932-2507-5449-90c0-c60f7c0eabf1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "38eb58fc-2ea5-5e28-a5aa-2fd469a23659": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            }
+          },
+          "meta": {
+            "name": "2.2 - Site Preparation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "334ac4cc-b5ee-5d2b-984e-31d6cc546a90": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "e958a858-0a3f-59e8-97ca-df4158fc1eaa": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "440c400c-d70f-5183-a382-926c42a3f908": {
+              "title": "Record of conformity - This ITP signed off",
+              "type": "label",
+              "order": 9
+            },
+            "5e4b47ac-adec-56d5-bdc0-52b2c1958ffa": {
+              "title": "HP",
+              "type": "label",
+              "order": 11
+            },
+            "260ac9ed-507f-5608-8a8b-465f4db23f96": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "cccfcdb3-0d1b-57a6-9575-cdb385d471cf": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "03a8e753-7e3f-5c6d-a3ae-ff015854f5e9": {
+              "title": "Frequency - Each applicable lot",
+              "type": "label",
+              "order": 0
+            },
+            "0f55123d-8256-5e90-bfbb-9af145e86cb3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "065224e7-1cde-54a4-9e77-705bed36c060": {
+              "title": "Reference Documents - VicRoads Standard Section 720.07(b)",
+              "type": "label",
+              "order": 5
+            },
+            "f884d9d5-99af-5f5a-b42a-396d99b5f546": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "597c3324-dc34-52b8-b2d4-3d004172ff3c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "3475835d-c4a0-58b3-944d-6f3086b27957": {
+              "title": "Responsibility - Site Engineer / VicRoads Superintendent",
+              "type": "label",
+              "order": 13
+            },
+            "4481ee75-fa43-5372-903f-1366b17d60fd": {
+              "title": "Inspection / Test Method - Verify",
+              "type": "label",
+              "order": 7
+            },
+            "384cc5da-4f22-5d49-9561-fda40bc5e878": {
+              "title": "Acceptance Criteria - All ripping works shall conform to the requirements of Cl 720.07 (b).",
+              "type": "label",
+              "order": 2
+            },
+            "9c27d07e-73e3-5300-938d-479429d2a881": {
+              "title": "Ripped areas of planting, individual tree planting and grassing are to be made available for inspection prior to mulching, planting or grassing, and shall not proceed until the Superintendent acknowledges requirements for ripping have been met.",
+              "type": "label",
+              "order": 3
+            },
+            "0bd5c28c-f289-5c33-98a5-c91b790bfbe5": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 15
+            }
+          },
+          "meta": {
+            "name": "2.3 - Ripping of subsoil",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "8fce9bcd-b11e-5ce6-9815-48373108da54": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 21
+            },
+            "044c751a-f9ba-566b-9fa0-bf352316179a": {
+              "title": "IP",
+              "type": "label",
+              "order": 17
+            },
+            "f3710540-80cf-5e84-99b5-57e67f861633": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 20
+            },
+            "a2a51c7f-f611-59e6-ad70-e07d57829b1d": {
+              "title": "VicRoads Standard Section 720.07",
+              "type": "label",
+              "order": 11
+            },
+            "13d82815-88ef-516e-8c1c-11802db400d4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "4535d08e-53d4-5cc3-9bed-820e08ad2e52": {
+              "title": "VicRoads Standard Section 204.17",
+              "type": "label",
+              "order": 10
+            },
+            "137f850d-fd9d-52ea-bfb6-1619c22a4c9a": {
+              "title": "Record of conformity - Signed ITP",
+              "type": "label",
+              "order": 15
+            },
+            "d66f9bc0-d4f2-5208-9b87-bb040dd26519": {
+              "title": "Following subsoil preparation, topsoil shall be spread on planting areas and grassed areas. Topsoil shall not be compacted.",
+              "type": "label",
+              "order": 7
+            },
+            "9c9c91b9-b6fd-5e83-b2b5-e4874b26f60b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 18
+            },
+            "82441c42-b977-5bdc-824a-17ec61e5209c": {
+              "title": "Frequency - At completion of works",
+              "type": "label",
+              "order": 0
+            },
+            "ba99bcd5-41e5-5331-b357-48dbca395e3a": {
+              "title": "Acceptance Criteria - All disturbed and/or not paved areas shall be topsoiled according to Section 204 of VicRoads Standard for Roadworks and Bridge works, to the following minimum depths:",
+              "type": "label",
+              "order": 2
+            },
+            "ba22120e-d29d-563e-8e8a-f7a5bda16e2e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "7fc80a78-426d-5c91-9f14-37f4d769f571": {
+              "title": "• Verge, 50mm outer edge / 20mm when within 100mm of the edge of seal or asphalt surface treatment",
+              "type": "label",
+              "order": 5
+            },
+            "e6e68106-e75a-5399-9dc2-afe3930696c0": {
+              "title": "Reference Documents - Project Spec. Cl.3020.07(k)",
+              "type": "label",
+              "order": 9
+            },
+            "5d6cff71-372b-5e4d-add9-c8eb46747f5f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "4fe27ab0-f43a-5f0c-9f06-f75877d93a77": {
+              "title": "• All other areas - 75mm",
+              "type": "label",
+              "order": 6
+            },
+            "b392e5eb-850b-5151-9bd5-d94431fe74c9": {
+              "title": "Inspection / Test Method - Site Inspection",
+              "type": "label",
+              "order": 13
+            },
+            "7bd27989-9eab-5a6a-bc86-4c63fcc56204": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "5ed06d1c-e25b-5dd6-b8ba-c851271744ec": {
+              "title": "Responsibility - Site Engineer",
+              "type": "label",
+              "order": 19
+            },
+            "c31426c9-2f33-5031-8b26-c20e12c49e8a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "9dcdfff2-87fc-50f7-9e30-e02e114677ef": {
+              "title": "• Batter slopes > 2:1 = 50mm",
+              "type": "label",
+              "order": 3
+            },
+            "bc600e57-ea2d-5895-8105-906c0c3cd612": {
+              "title": "• Tree and shrub plantation bed areas = 100mm",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "2.4 - Topsoil Placement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "c91a5537-dbe6-5484-9222-64826ad09672": {
+              "title": "Prior to mulching, planting or grassing, area to be presented to Superintendent for approval.",
+              "type": "label",
+              "order": 3
+            },
+            "a2c6cb68-e5fa-5e85-9355-33b9b30b6666": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 5
+            },
+            "54d4289e-7bac-5610-9e93-cb7646548d08": {
+              "title": "Reference Documents - VicRoads Standard Section 720.07",
+              "type": "label",
+              "order": 6
+            },
+            "72d87840-6c7a-5eac-95f7-599bf02ed66a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "347980aa-f3b5-5a7d-98b9-96648ef29e93": {
+              "title": "HP",
+              "type": "label",
+              "order": 12
+            },
+            "471ff738-dd9e-5626-8d42-42a594e538be": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "a99ffc75-d706-5711-8701-918c88262eb4": {
+              "title": "Frequency - Each applicable lot",
+              "type": "label",
+              "order": 0
+            },
+            "d84eacb7-243a-59d9-8a76-1325d53a1d25": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            },
+            "08cc6052-c567-5314-bc4b-a03f87322eea": {
+              "title": "Record of conformity - This ITP signed off",
+              "type": "label",
+              "order": 10
+            },
+            "f0ec52dc-9fa9-52a0-aa8e-ea48a4426759": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 16
+            },
+            "3964bd2d-8d8f-5ceb-9e42-7022d0bfd6a2": {
+              "title": "Inspection / Test Method - Verify",
+              "type": "label",
+              "order": 8
+            },
+            "45ea228c-d487-5f4a-b622-55092fc6add8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "2f150780-bf04-597d-b277-292da41febb4": {
+              "title": "Acceptance Criteria - Cultivation shall be undertaken to break soil down to a tilth with 80% of the volume composed of clods less than 50 mm in diameter",
+              "type": "label",
+              "order": 2
+            },
+            "732fa617-7a46-5fff-95d1-970ee3391741": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "b0e139e8-833c-54bd-850f-7cd850a60a4a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "03dd073c-f89b-54c8-8201-e9972b0cf4f7": {
+              "title": "In areas where topsoiling or cultivation is not practicable, the Contractor shall submit alternative methods to achieve an equivalent result to the Superintendent for review.",
+              "type": "label",
+              "order": 4
+            },
+            "f542b246-c388-58d3-b5ed-78d294aef61e": {
+              "title": "Responsibility - Site Engineer / VicRoads Superintendent",
+              "type": "label",
+              "order": 14
+            }
+          },
+          "meta": {
+            "name": "2.5 - Cultivation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "d54a5388-7ec2-5b0e-aa21-9b91dfacb75d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "9eba3ddf-ff91-5bdb-98ee-7b5e586774ba": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "ef2a27a1-067c-59f8-bc00-63c23dd4db2f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "ff143f88-10e8-55f6-883c-d109c593518b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "939b61b6-cba2-5229-bdd8-46f91fa35383": {
+              "title": "Responsibility - Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 13
+            },
+            "07900e9c-aae5-5260-8f37-5fbee58bc64e": {
+              "title": "Vibrating plates shall not be used. Ensure the dry bulk density does not exceed the limits in Table 720.072",
+              "type": "label",
+              "order": 3
+            },
+            "235c5a34-918f-5fc2-8616-439d5b3fdbdb": {
+              "title": "IP",
+              "type": "label",
+              "order": 11
+            },
+            "9b7168ae-3121-5263-9eda-6a3711f3a5ae": {
+              "title": "Reference Documents - VicRoads Standard Section 720.07",
+              "type": "label",
+              "order": 5
+            },
+            "74901c0b-fdf6-51c7-9784-9618a42306f5": {
+              "title": "Record of conformity - This ITP signed off",
+              "type": "label",
+              "order": 9
+            },
+            "d9727fc9-19c4-55a2-b6e4-4616169adc21": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "bb4ce2a4-100a-5b5d-91ad-f6df753dba90": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "f34e42bb-3ae0-5410-8dd4-5fa56b96e341": {
+              "title": "Inspection / Test Method - Verify",
+              "type": "label",
+              "order": 7
+            },
+            "72dfb785-d53d-57f4-9c5d-49e3160f1753": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 15
+            },
+            "d50cf9dd-0876-5126-a26c-97727a248ec7": {
+              "title": "Acceptance Criteria - After cultivation and trimming, the Contractor may lightly compress topsoil for stability on slopes.",
+              "type": "label",
+              "order": 2
+            },
+            "0faf4d71-f4c9-58f8-8bce-80a8644b8db8": {
+              "title": "Frequency - Each applicable lot",
+              "type": "label",
+              "order": 0
+            },
+            "6408c77e-79a9-5445-a5d0-15c0541881b9": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            }
+          },
+          "meta": {
+            "name": "2.6 - Bulk density of soils for planting and grassing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "f299ce9e-a57c-57c3-a903-dea9ff6b8224": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 9
+            },
+            "a8211ab5-3ed1-5233-b1f4-ece641863a91": {
+              "title": "IP",
+              "type": "label",
+              "order": 14
+            },
+            "1ccbe017-3183-506e-b055-35179c156ab6": {
+              "title": "Inspection / Test Method - Verify",
+              "type": "label",
+              "order": 10
+            },
+            "ec694295-7a34-5a21-a9e3-c091744e85c3": {
+              "title": "Responsibility - Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 16
+            },
+            "7ed852a1-ca77-50f2-a639-fb19dca331e5": {
+              "title": "Frequency - Each applicable lot",
+              "type": "label",
+              "order": 0
+            },
+            "a1a04428-2288-5baa-82d8-6c279cf5dbb4": {
+              "title": "(iii) level with adjacent pavements, kerbs, pits and other structures.",
+              "type": "label",
+              "order": 5
+            },
+            "08bd9cdc-5b05-5b4d-bf7a-2e795715420d": {
+              "title": "Record of conformity - This ITP signed off",
+              "type": "label",
+              "order": 12
+            },
+            "47551a6d-7c8e-506c-b4ca-9a44dcb97d0a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 7
+            },
+            "4f585f52-be4d-596b-badf-6f3483d36445": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 17
+            },
+            "3c9f9ac8-3b0f-5d78-9645-e3be694a8d09": {
+              "title": "Acceptance Criteria - The finished level of grassed areas shall be:",
+              "type": "label",
+              "order": 2
+            },
+            "54bc2151-1df3-5693-b1d8-02ad71e1b327": {
+              "title": "Reference Documents - VicRoads Spec. Section 720.07",
+              "type": "label",
+              "order": 8
+            },
+            "a056cd7a-644a-5149-a99b-0af28f72af68": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 13
+            },
+            "342980dd-cb34-5538-b179-82bea5c051fd": {
+              "title": "(ii) level with the bottom of fence plinths;",
+              "type": "label",
+              "order": 4
+            },
+            "7751abf8-7db4-539c-8440-7a7a87baa738": {
+              "title": "(i) not higher than 125 mm below weep-holes or damp-proof courses in adjacent walls;",
+              "type": "label",
+              "order": 3
+            },
+            "d90e1488-b879-57d8-8c51-7f0b07a5f6f4": {
+              "title": "The finished level of garden bed mulch and/or topsoil shall be tapered so that the finished mulch and/or topsoil levels meet flush with the adjacent surfaces.",
+              "type": "label",
+              "order": 6
+            },
+            "632de927-a4fa-5529-8670-90d6b63cfbc5": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "5892463d-fc0f-59e7-abed-070bc6668454": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 15
+            },
+            "4b565732-7ff0-5187-a3f2-817178e1144d": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 18
+            },
+            "2b96f422-0809-59b6-a363-0b563a53ed61": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 11
+            }
+          },
+          "meta": {
+            "name": "2.7 - Topsoil finished surface levels",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "9c89efe9-de4b-5a67-8ea7-dba987f9ecba": {
+              "title": "Inspection / Test Method - Verify",
+              "type": "label",
+              "order": 7
+            },
+            "09a895fb-233f-565d-9f94-c092aa78f6de": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "8bc6b842-6369-599f-93c3-f1739d7097a4": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "b8fd09cf-2fbe-5bdb-b550-4608fedb304e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "2084f5b8-b3a8-5fda-bdf3-2e0e70fd5c8d": {
+              "title": "Record of conformity - This ITP signed off",
+              "type": "label",
+              "order": 9
+            },
+            "99e3b704-138d-579f-b68e-0fe7d28bfca5": {
+              "title": "IP",
+              "type": "label",
+              "order": 11
+            },
+            "162a5e54-8395-523c-a2ad-b78a3a665a1f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "fe71a042-e132-5c50-92dd-96507c2d1a1e": {
+              "title": "Planting holes shall be backfilled with friable topsoil free of debris, rocks and clods greater than 50 mm in diameter.",
+              "type": "label",
+              "order": 3
+            },
+            "5d2e5e91-008c-5c71-9000-c143babe194c": {
+              "title": "Reference Documents - VicRoads Standard Section 720.09",
+              "type": "label",
+              "order": 5
+            },
+            "66c12b4c-35ff-5791-9b79-4cdc554a873b": {
+              "title": "Frequency - Each applicable lot",
+              "type": "label",
+              "order": 0
+            },
+            "c2860a4f-0a83-5282-b14f-f325cdad045c": {
+              "title": "Acceptance Criteria - Holes in heavy soils or on batters shall be prepared so as to ensure adequate drainage.",
+              "type": "label",
+              "order": 2
+            },
+            "05d42d05-e992-575f-a1b4-9bfec7f216e9": {
+              "title": "Responsibility - Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 13
+            },
+            "4f67a6b3-d146-5155-962d-14c1e9e3fadc": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "122a1655-9614-575d-9198-8a1cf383dad9": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 15
+            },
+            "0f60da17-c467-5a1e-b9a7-9fd7d417fb2c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "aa9136b3-4f75-506f-b7c3-457db7ae8a26": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            }
+          },
+          "meta": {
+            "name": "2.8 - Planting",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "9ed3aa38-e43a-5a14-a717-e0a0832f9b47": {
+              "title": "IP",
+              "type": "label",
+              "order": 13
+            },
+            "32f632b2-887c-5999-a227-377a266f20d6": {
+              "title": "The Contractor shall install 2 metre diameter mulch rings around all Individual Tree Plantings.",
+              "type": "label",
+              "order": 4
+            },
+            "f0072455-480c-5183-89d9-60ef08f27b2c": {
+              "title": "Frequency - Each applicable lot",
+              "type": "label",
+              "order": 0
+            },
+            "7b15254d-edeb-5d77-ae31-fdceed69a8fa": {
+              "title": "Mulch depths in all situations shall be a minimum 75 mm and maximum 125 mm.",
+              "type": "label",
+              "order": 5
+            },
+            "f43ca6b4-511e-538a-884c-a93f14d0f53c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "64e1c859-2d92-58cc-819d-216332ac79e1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "e4e00021-6305-544c-ab2c-99c1197f18fb": {
+              "title": "Responsibility - Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 15
+            },
+            "89d4a5b8-95fe-5e05-bb22-09cb8f81fce7": {
+              "title": "Inspection / Test Method - Verify",
+              "type": "label",
+              "order": 9
+            },
+            "e1f9fd18-9423-5657-a2a4-f3b6bbd221e1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "fb348c10-e768-50a7-ba29-0523ec4a0213": {
+              "title": "Mulch shall extend at least 1 metre beyond plant centres at the outer edges of all Planting Areas. If space does not permit this in median, separator or splitter-island planting, mulching shall extend to the back of kerb.",
+              "type": "label",
+              "order": 3
+            },
+            "9a868ac7-a566-52be-9262-2080b31f6f49": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 16
+            },
+            "0b9e4552-889d-5b0b-a4a8-412cb3c39812": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "89be3c98-5207-5cce-80dc-bd3f6139b001": {
+              "title": "Reference Documents - VicRoads Standard Section 720.08",
+              "type": "label",
+              "order": 7
+            },
+            "2a7497fd-e3c6-5fbf-a3ef-e031a435d7a8": {
+              "title": "Acceptance Criteria - Install wood mulch to all Planting Areas unless otherwise specified.",
+              "type": "label",
+              "order": 2
+            },
+            "33cac7ff-d0db-5b94-a08d-650f0160d370": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 17
+            },
+            "3c96604b-db6f-5660-ac46-f39587dc7dc3": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "ac82eaeb-d507-5a9c-9104-350a219bc3f1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "cea7360a-5985-53a0-9b1b-ef137df317f8": {
+              "title": "Record of conformity - This ITP signed off",
+              "type": "label",
+              "order": 11
+            }
+          },
+          "meta": {
+            "name": "2.9 - Mulching",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "c5cd3834-7351-537c-a198-b6e3a7d785a0": {
+              "title": "Frequency - Once installation of assets completed",
+              "type": "label",
+              "order": 0
+            },
+            "07861679-66fa-5a51-8726-7b4b2ca53e35": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "c6327ac5-3c2e-5e31-992a-c71fcd714593": {
+              "title": "Acceptance Criteria - All disturbed areas shall be topsoiled and grassed, all areas to be cultivated to a minimum 50mm depth, and moistened prior to the application of grass seed and fertiliser.",
+              "type": "label",
+              "order": 2
+            },
+            "02f7b1fe-2827-5824-b3fb-80d398ab375e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "ac0e07a4-a4aa-545f-91cc-66036a387c2c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "e1048e00-6391-5cf9-86b1-97b5f76a8d1e": {
+              "title": "HP",
+              "type": "label",
+              "order": 11
+            },
+            "5fc2136c-2696-5bd7-beed-37b77528c67e": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "896ec323-1f42-57d2-94b8-b30f7ae5603a": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "bae244db-a999-5eb3-bb1b-c92c27067138": {
+              "title": "Inspection / Test Method - Visual Inspection",
+              "type": "label",
+              "order": 7
+            },
+            "19504d75-c1cd-546f-971a-68560c00c3ad": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "fba2b825-cb30-5de1-8e40-08ecce6d0df1": {
+              "title": "Record of conformity - Site Photos",
+              "type": "label",
+              "order": 9
+            },
+            "0982f3ed-79af-54df-82aa-f14866676c67": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 15
+            },
+            "96f38644-f486-561a-b8a4-db1fa1341a8f": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "3ca51e26-b232-53c8-8486-b6953a1335a8": {
+              "title": "Reference Documents - VicRoads Spec. Cl.708.20",
+              "type": "label",
+              "order": 5
+            },
+            "d6555afd-5731-5a26-a234-905c88a1466e": {
+              "title": "Responsibility - Site Engineer / Superintendent",
+              "type": "label",
+              "order": 13
+            },
+            "48d6c7f4-5d0c-5535-b5d1-396ef1295732": {
+              "title": "A joint inspection of all grassed areas shall be carried out between the contractor and superintendent three months after sowing has taken place.",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "2.10 - Grassing of disturbed areas",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "2e873e9c-cf1f-52e3-97fc-d9cbd47b5577": {
+              "title": "Inspection / Test Method - Verify",
+              "type": "label",
+              "order": 7
+            },
+            "cc26363a-112a-5beb-8cd7-6932eb36c5bd": {
+              "title": "Frequency - Each applicable lot",
+              "type": "label",
+              "order": 0
+            },
+            "8b26afec-74ae-59d9-9b15-167d0c02459c": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 8
+            },
+            "04529e3f-f211-5db0-adc2-d74855f7c0d1": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 10
+            },
+            "65b51927-c6eb-5549-98e0-4867e0d0813d": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 6
+            },
+            "5f7e0ed9-f164-54ae-87ab-ec342a016ea8": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 14
+            },
+            "aaac0db4-ce3f-5953-a671-0b2b5f40428b": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 15
+            },
+            "a2c0c58a-5f80-5465-93ac-26837a4f9f18": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 12
+            },
+            "c7cba13c-bdd4-580e-936e-360f4d7a2edd": {
+              "title": "Acceptance Criteria - Grass seed shall be sown at minimum 100 kg/Ha (if drilled) or 200 kg/Ha (if broadcast), distributed evenly to achieve an even and dense grass cover.",
+              "type": "label",
+              "order": 2
+            },
+            "f8d0720c-7d38-5512-b0d8-f2a606970fa0": {
+              "title": "Responsibility - Site Engineer / Site Foreman",
+              "type": "label",
+              "order": 13
+            },
+            "3dea45cf-6b67-5628-9bb6-aabcc30b6902": {
+              "title": "IP",
+              "type": "label",
+              "order": 11
+            },
+            "6a041d29-7b60-59a0-85ab-89c4d429b9db": {
+              "title": "Germination rate shall be minimum 80% cover within 8 weeks and 95% cover within 3 months of sowing.",
+              "type": "label",
+              "order": 3
+            },
+            "ac64c8ec-cb05-5d78-a4fb-84b2b75424c4": {
+              "title": "Record of conformity - This ITP signed off",
+              "type": "label",
+              "order": 9
+            },
+            "aa746b4b-0f24-57ca-998c-97f6e90bac47": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 1
+            },
+            "14e05c34-caa1-5ad5-9397-672c4c55d58b": {
+              "title": "- - - - - - - - -",
+              "type": "label",
+              "order": 4
+            },
+            "e94c51ef-1fdb-56d7-a1dd-056f084ca128": {
+              "title": "Reference Documents - VicRoads Standard Section 720.10",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "2.11 - Grassing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "2 - Construction Works",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "6857a5ed-61f8-5be3-a8fc-baa1a1e1fe00": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "6b59b68a-dfe0-5387-959d-5f167c55e5b0": {
+              "title": "Position:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "ac613a67-1280-5bf6-abec-38072b19e6cf": {
+              "title": "The signature below verifies that this ITP has been completed in accordance with the FH’s Quality system Procedures and verifies lot compliance with specifications.",
+              "type": "label",
+              "order": 0
+            },
+            "788d2991-b6cd-52b2-8f9e-915ec3bcb792": {
+              "title": "Work Completed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "4e14966f-9b53-5256-a401-52cc0a1afd50": {
+              "title": "Print Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "3 - Completion",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "e82e7cb7-dba3-5a80-a40f-2c2d4fe430a8": {
+              "title": "Conforming Test Results attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                "NO",
+                "N/A"
+              ],
+              "order": 6
+            },
+            "787f2d38-92b1-5b98-87b9-e76923fcfd1b": {
+              "title": "comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 12
+            },
+            "0f6f65ba-1051-5a23-b7b0-ce1d8ca3b18a": {
+              "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                "NO",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "cc3a6e57-276f-55fc-8f82-3f2e77365194": {
+              "title": "Subcontractor/ Supplier records attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                "NO",
+                "N/A"
+              ],
+              "order": 5
+            },
+            "d2b3a399-3bef-5390-82e7-eb8d02d679db": {
+              "title": "Other:",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "8a9d7108-3a3c-5e91-a2f7-6af0cfa42c6c": {
+              "title": "Lot Status",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "OUTSTANDING",
+                " CLOSED"
+              ],
+              "order": 10
+            },
+            "9f1e5b7c-e3c6-55aa-bdfe-37393c7af907": {
+              "title": "Survey conformance records attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                "NO",
+                "N/A"
+              ],
+              "order": 4
+            },
+            "6d2eb2d9-0b61-543f-80f3-f5bd1c256eda": {
+              "title": "Is the relevant RFI attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                "NO",
+                "N/A"
+              ],
+              "order": 0
+            },
+            "165ae27c-048a-5684-a3ae-5974d6b10c8e": {
+              "title": "Lot Closed On",
+              "type": "input",
+              "subtype": "text",
+              "order": 11
+            },
+            "075f8648-bf45-58d4-aa70-bef99becfb5b": {
+              "title": "As built records attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                "NO",
+                "N/A"
+              ],
+              "order": 7
+            },
+            "1edb58ed-6d4c-568d-8a8e-b3e482e0b326": {
+              "title": "Lot verified By",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Babak Rudd-Project Quality Manager",
+                " Abid Hameed (Area 1 Manager)",
+                " Nicola Lodo (Area 2 Manager)",
+                " Nicolas Terpstra (Delivery Manager)",
+                "Other:"
+              ],
+              "order": 8
+            },
+            "edbfa82b-4751-5a7c-84a9-65d08477fe5e": {
+              "title": "Is the relevant NCR attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                "NO",
+                "N/A"
+              ],
+              "order": 1
+            },
+            "2df7ff19-b5f2-57c5-9206-1844f145c095": {
+              "title": "Lot Plan or “Highlighted” IFC drawings (mud maps) attached to the Lot?",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "YES",
+                "NO",
+                "N/A"
+              ],
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "Lot Verification.",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Verification",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "ITP-049-AX-LOT-XXX - Desc",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}
