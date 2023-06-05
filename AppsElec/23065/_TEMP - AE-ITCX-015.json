@@ -1,0 +1,140 @@
+{
+  "tree": [],
+  "data": {
+    "2e68a6c3-236d-5fac-bb09-0e66b62cf5d2": {
+      "title": "RCD/RCBO mA",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "10mA",
+        " 20mA",
+        " 30mA",
+        " 100mA",
+        " Other (Specify below)"
+      ],
+      "order": 4
+    },
+    "9ebe615a-b296-587d-9cb5-bc494d340cfc": {
+      "title": "Rating in (A)",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "6A",
+        " 10A",
+        " 16A",
+        " 20A",
+        " 25A",
+        " 32A",
+        " 40A",
+        " 50A",
+        " 63A",
+        " 80A",
+        " 100A",
+        " 125A",
+        " 160A",
+        " 200A",
+        " 250A",
+        " 320A",
+        " 400A",
+        " 630A",
+        " Other (Specify below)"
+      ],
+      "order": 6
+    },
+    "d2f5490a-36d1-540e-97f1-0724fe12f01f": {
+      "title": "Other (Specify here)",
+      "type": "input",
+      "subtype": "text",
+      "order": 7
+    },
+    "38c14db6-3ce7-567f-b399-588c1630caef": {
+      "title": "Type",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "A",
+        " B",
+        " C",
+        " D",
+        " Other (Specify below)"
+      ],
+      "order": 2
+    },
+    "e986c0f9-b701-53c9-954e-00c9d9f4248f": {
+      "title": "Phase Qty",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "1 Phase",
+        " 3 Phase"
+      ],
+      "order": 9
+    },
+    "358ea9ac-7d63-5883-8ed0-df5a03a935d2": {
+      "title": "Other (Specify here)",
+      "type": "input",
+      "subtype": "text",
+      "order": 3
+    },
+    "c07efc57-f403-536c-aa12-216ffa331bd0": {
+      "title": "Other (Specify here)",
+      "type": "input",
+      "subtype": "text",
+      "order": 1
+    },
+    "262953c0-6f6f-5702-8cb1-d89873bbb764": {
+      "title": "Cable size (mm2)",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "1.5mm",
+        " 2.5mm",
+        " 4mm",
+        " 6mm",
+        " 10mm",
+        " 16mm",
+        " 25mm",
+        " 35mm",
+        " 50mm",
+        " 70mm",
+        " 95mm",
+        " 120mm",
+        " 150mm",
+        " 185mm",
+        " 240mm",
+        " 300mm",
+        " 400mm",
+        " 630mm"
+      ],
+      "order": 8
+    },
+    "120c33c9-b207-5211-b25e-fa53ce753fa0": {
+      "title": "Type",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "RCD",
+        " RCBO",
+        " MCB",
+        " MCCB",
+        " Fuse",
+        " Other (Specify below)"
+      ],
+      "order": 0
+    },
+    "bcacc83a-024c-571f-97e8-5652c4cdf004": {
+      "title": "Other (Specify here)",
+      "type": "input",
+      "subtype": "text",
+      "order": 5
+    }
+  },
+  "meta": {
+    "name": "Details - Pass once entered",
+    "dependant": false,
+    "stepType": "checkpoint-status",
+    "type": "step",
+    "display": "normal",
+    "order": 1
+  }
+}
