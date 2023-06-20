@@ -1,0 +1,64 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "5bbdf537-62f4-5308-a93b-f6da9d2b7c33": {
+          "title": "Mail reference (if submitted on Aconex):",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "ba54b5fc-b4c9-5390-b114-78106c38a042": {
+          "title": "Closeout document type: (e.g. CoC for Security Systems or Commissioning results or PS3 for Security, O&M manual, Quality Assurance document etc.)",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Details",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Signature",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Additional information (if applicable)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "Technical Submission item",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

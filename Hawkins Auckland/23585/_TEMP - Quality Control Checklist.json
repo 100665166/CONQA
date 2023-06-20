@@ -1,0 +1,210 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "65a35fe8-284e-5f73-a19d-8869c37b659b": {
+              "title": "Date (--/--/----):",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "8ef78f34-e061-5a91-a749-4cbfacf0b0c4": {
+              "title": "Activity: (e.g. Slab pour)",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "0434e965-6673-586f-8b51-6779449c782b": {
+              "title": "Separable Proportion:",
+              "type": "enum",
+              "subtype": "select",
+              "order": 0,
+              "values": [
+                "SP2A - EBH South",
+                " SP2A - EBH South L1 Retail area/ L2 Lounge Extension & Fire Egress Stairs",
+                " SP2B - EBH South Balance of the Ground Floor",
+                " SP2C - EBH South Balance of Works",
+                " SP3 - Power Centre 69 (PC69)",
+                " SP4 - Stage 1 Infill - Pre-Stitch",
+                " SP5 - Stage 2 Infill - Stitch",
+                " SP6 - Check-in Back of House",
+                " Check point Charlie (CPC)",
+                " Honey Pot and Livestock (HPL)",
+                " Operations Control Centre (OCC)"
+              ]
+            },
+            "19e6f116-a168-5141-a85d-8b788db8f7a3": {
+              "title": "QA Trade name: (e.g. Structural Steel, Concrete etc.)",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "092d3197-1a06-5318-9fe5-5d2ecff042f1": {
+              "title": "Subcontractor name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "bc3995b9-d263-5caa-b6aa-1edb0fd715bf": {
+              "title": "Location/ Gridline/ Component references:",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Details",
+            "dependant": false,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "data": {},
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Details",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "fdb77823-393e-5526-a8a0-a83bc1e1d22f": {
+              "title": "Comment for subcontractor: (e.g. Concrete slump and spread tests carried out in accordance with NZS 3112: Part 1. Cubes/ cylinders also taken and sent off for testing after 28 days of curing etc.)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "3f565916-4d8b-5a70-ac06-e2c2e5a3d88b": {
+              "title": "Subcontractor okay to proceed with inspected work:",
+              "type": "boolean",
+              "order": 0,
+              "values": [
+                "Yes",
+                "No"
+              ]
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Signature from Hawkins and subcontractor to confirm all items have been inspected and is as per specification, with no damage, or repairs remediated (add by clicking paper clip symbol, select signature)",
+            "dependant": false,
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {},
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Signature from Hawkins and subcontractor to confirm that works have been completed to satisfaction (add by clicking paper clip symbol, select signature)",
+            "dependant": false,
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {},
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Noting in this document relieves the subcontractor of their contractual responsibilities",
+            "dependant": false,
+            "type": "step",
+            "order": 2
+          }
+        }
+      ],
+      "data": {},
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Checklist Completion",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "permissions": {
+          "addStep": true,
+          "addPost": false
+        },
+        "display": "normal",
+        "name": "Work Items to be Inspected",
+        "dependant": true,
+        "type": "step",
+        "order": 2,
+        "tags": {}
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "permissions": {
+          "addStep": true,
+          "addPost": false
+        },
+        "display": "normal",
+        "name": "Hold Points",
+        "dependant": true,
+        "type": "step",
+        "order": 3,
+        "tags": {}
+      }
+    }
+  ],
+  "data": {},
+  "meta": {
+    "name": "Quality Control Checklist",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
