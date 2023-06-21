@@ -1,0 +1,59 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Request Review",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "data": {
+        "ddf14301-8239-5b3b-951b-d5fa379a59cd": {
+          "title": "Specific Location:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "91c806c7-c985-559e-94d6-00a2b29bd0fd": {
+          "title": "Detail:",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "f17daeb2-6b36-59f2-add1-159d86b7a239": {
+          "title": "Action Required:",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        }
+      },
+      "meta": {
+        "name": "Follow-Up Action completed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Description/Number:",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}
