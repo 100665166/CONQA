@@ -1,6 +1,38 @@
 {
   "tree": [
     {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Comments",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "order": 1,
+            "tags": {}
+          }
+        }
+      ],
+      "meta": {
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Close-Out",
+        "dependant": true,
+        "type": "step",
+        "order": 0,
+        "tags": {}
+      }
+    },
+    {
       "tree": [],
       "meta": {
         "permissions": {
@@ -11,7 +43,7 @@
         "name": "Structural",
         "dependant": true,
         "type": "step",
-        "order": 0,
+        "order": 0.1,
         "tags": {}
       }
     },
@@ -954,6 +986,7 @@
       "addStep": false,
       "addPost": false
     },
-    "display": "progress"
+    "display": "progress",
+    "tags": {}
   }
 }

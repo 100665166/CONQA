@@ -1,0 +1,92 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "SVR Attached",
+            "dependant": false,
+            "type": "step",
+            "order": 1,
+            "tags": {}
+          }
+        }
+      ],
+      "meta": {
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Site Visit Report",
+        "dependant": true,
+        "type": "step",
+        "order": 1,
+        "tags": {}
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "permissions": {
+          "addStep": true,
+          "addPost": false
+        },
+        "display": "normal",
+        "name": "Follow-Up Action(s)",
+        "dependant": true,
+        "type": "step",
+        "order": 2,
+        "tags": {}
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "flat",
+            "name": "SVR Closed-Out",
+            "dependant": false,
+            "type": "step",
+            "order": 1,
+            "tags": {}
+          }
+        }
+      ],
+      "meta": {
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Close-Out",
+        "dependant": true,
+        "type": "step",
+        "order": 3,
+        "tags": {}
+      }
+    }
+  ],
+  "meta": {
+    "name": "SVR:",
+    "dependant": true,
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "tags": {}
+  }
+}

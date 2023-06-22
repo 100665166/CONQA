@@ -1,0 +1,116 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "2026ed39-034d-5f29-87e2-7204b5415d4e": {
+          "title": "Pipe size",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "20",
+            " 25",
+            " 32",
+            " 40",
+            " 50",
+            " 56",
+            " 63",
+            " 65",
+            " 75",
+            " 80",
+            " 90",
+            " 100",
+            " 110",
+            " 125",
+            " 150",
+            " 160",
+            " 200",
+            " 225",
+            " 250",
+            " 300",
+            " 315",
+            " 375",
+            " 450"
+          ],
+          "order": 2
+        },
+        "179a2978-6a9c-531f-a0e2-785e624c58e5": {
+          "title": "Drawing Ref Number",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "HP-PE-B2-00",
+            " HP-PE-B2-01",
+            " HP-PE-B1-00",
+            " HP-PE-B1-01",
+            " HP-PE-GF-00",
+            " HP-PE-GF-01",
+            " HP-PE-01-00",
+            " HP-PE-01-01",
+            " HP-PE-02-00",
+            " HP-PE-02-01",
+            " HP-PE-03-00",
+            " HP-PE-03-01",
+            " HP-PE-04-00",
+            " HP-PE-04-01",
+            " HP-PE-05-00",
+            " HP-PE-05-01",
+            " HP-PE-06-00",
+            " HP-PE-06-01",
+            " HP-PE-07-00",
+            " HP-PE-07-01",
+            " HP-PE-08-00",
+            " HP-PE-08-01",
+            " HP-PE-09-00",
+            " HP-PE-09-01",
+            " HP-PE-10-00",
+            " HP-PE-10-01",
+            " HP-PE-11-00",
+            " HP-PE-11-01",
+            " HP-PE-12-00",
+            " HP-PE-12-01"
+          ],
+          "order": 0
+        },
+        "4f957a50-82d4-5865-8ade-96c07b9e5c9d": {
+          "title": "Fire Matrix Ref Number",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "97a6349f-05d3-5a2b-9962-a9f0158443a0": {
+          "title": "Material",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "PVC",
+            " HDPE",
+            " CU",
+            " PEX",
+            " GAL"
+          ],
+          "order": 1
+        }
+      },
+      "meta": {
+        "name": "Please take detail photos of penetration & labelling",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Passive Fire / Collars Penetration",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}
