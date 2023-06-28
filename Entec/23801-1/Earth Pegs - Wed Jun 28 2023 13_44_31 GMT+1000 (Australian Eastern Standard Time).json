@@ -1,0 +1,151 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "ca089ef0-0ba8-57fc-a2ec-3268a6aeaefe": {
+          "title": "Select mold type:",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "GT 50mm SQ to 16mm S/S vertical rod",
+            " XBQ - 50mm SQ to 50mm SQ crossover",
+            " TA 50mm SQ Horizontal Tee",
+            " XA 185mm N/C run to 185mm N/C4 120mm",
+            " T.A. 185mm N/C run to 50mm Horizontal Tee",
+            " X.A. 185mm N/C run to 185mm N/C Tap",
+            " X.A 185mm N/C # 50mm run to 185mm N/C # 50mm Tap",
+            " T.A 185mm N/C Run to 120mm N/C Horizontal Tee",
+            " T.A. 185mm N/C Horizontal Tee",
+            " T.A 50mm conduit run to 50mm flex in B-133.2L.F Sleeve tap",
+            " T.A 70mm run to 50mm horizontal tee",
+            " T.A 70mm conduit run to 50mm flex in B1332LF",
+            " T.A Tinned bare 185mm run to 185mm flex in B.140A",
+            " GT 120mm N/C to 16mm vertical S/S Rod",
+            " SS 185mm N/C horizontal end splice",
+            " XA 185mm N/C run to 70mm TAP Cross",
+            " GT 70mm Run to 16mm SS rod",
+            " NC 70mm R x T on top of 16mm SS verticle rod",
+            " GT 70mm run to 16mm SS rod",
+            " NC 70mm R x T on top of 16mm SS vertical Rod"
+          ],
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Mold type identified",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "2baf3733-adb9-5df9-ae78-361a69ce7000": {
+          "title": "Please attach photo",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Cadweld Visual test",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "77d7e856-71bb-513c-b7b5-ed18f7cf5ee1": {
+          "title": "Pass if <50 micro ohms",
+          "type": "label",
+          "order": 1
+        },
+        "9f498b7a-9f8b-5e6e-a00f-75744326ce43": {
+          "title": "Result:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "98d6333d-2e42-5126-ac59-c0d22c9e17f7": {
+          "title": "Please attach photo",
+          "type": "label",
+          "order": 2
+        }
+      },
+      "meta": {
+        "name": "Cadweld Ductor test",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "27546946-fd15-5ebc-b9e1-a3c2ade9e860": {
+          "title": "Result:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "70453c49-9beb-568d-ae5c-0bae81cc53c9": {
+          "title": "Pass if < 0.5 ohm",
+          "type": "label",
+          "order": 1
+        }
+      },
+      "meta": {
+        "name": "Continuity test [Peg to Earth Bar]",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "8c1f08ed-994f-5329-b116-f2837397d159": {
+          "title": "Result:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "f2c9b208-609c-534e-ba61-aaf993a319c4": {
+          "title": "Pass if < 10 ohms",
+          "type": "label",
+          "order": 1
+        }
+      },
+      "meta": {
+        "name": "3 Wire Earth test",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "name": "Earth Pegs",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}
