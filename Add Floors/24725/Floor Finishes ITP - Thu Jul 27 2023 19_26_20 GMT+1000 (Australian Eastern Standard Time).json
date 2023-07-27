@@ -1,0 +1,388 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Confirm area of work is accessible & acceptable to commence (If not comment below)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Subfloor mechanically diamond ground",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Floor preparation product installed in accordance with manufacturer's instructions",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Floor transitions installed as per instructions from builder",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Waterproof tested for falls, and water test completed by waterproofers",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "86245bd2-51ee-53d5-b783-f838c89aa7b7": {
+              "title": "Product:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "MAPEI PLANIPREP SC",
+                " 3-4 Mapei Floor Leveller"
+              ],
+              "order": 0
+            },
+            "e74890ad-ff27-59a6-8883-87ed1f69903b": {
+              "postfix": "mm",
+              "title": "Average thickness:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Mediseal installed to carpet areas as per plans - min 24 hours curing time observed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "0b6b9b6f-7480-50e9-8c65-0eeb4dcca109": {
+              "title": "Adhesive:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "V4 Evolution Vinyl Adhesive",
+                " Monstertack PS Carpet Adhesive",
+                " G19 WET AREA ADHESIVE",
+                " Capitol PS Adhesive"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Correct adhesive used",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Subfloor, Floor Preparation, Adhesive",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "816e9de8-57c3-5c07-a814-163ceb401b2e": {
+              "title": "Drawing & revision number(s)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Confirm area of work is accessible & acceptable to commence (If not comment below)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "877a165b-e9db-5ae3-844a-fa9eee43060b": {
+              "title": "Material:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "RF01 - ARMSTRONG ACCOLADE FOOTHOLD CAMDEN GREY",
+                " RF02 - ARMSTRONG ACCOLADE PLUS MINTARO SLATE",
+                " RF02A - ARMSTRONG ACCOLADE FOOTHOLD MINTARO SLATE",
+                " RF03 - ARMSTRONG SAFEGUARD R12 STORM GREY",
+                " RF04 - INSPIRED GRANIT"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Vinyl installed as per plan",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "b857c296-e895-503f-91d6-a6498fd5ea27": {
+              "title": "Material:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "CPT01 - Inspired Carpet Tiles - Mist"
+              ],
+              "order": 0
+            },
+            "93229d1e-328c-58a0-9f28-8d24bccd4db3": {
+              "title": "Other colour:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Carpet installed as per plan",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Joints sealed with heat welded seams and mitres as per AS 1884-2012",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "64555191-4f70-5898-a01c-916c186535c8": {
+              "title": "Custom height:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Vinyl skirt and coving used as per finishes markup - 150mm height",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Installer Sign Off: Carpet / Vinyl installed as per manufacturer's instructions",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Add-Floors Sign Off",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Foreman installation sign off",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Carpet / Vinyl",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "9e1ffd71-d650-5dac-88f0-2ebdf2b5581a": {
+              "title": "Material:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "WV - ARMSTRONG WALLFLEX ALABASTER"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Wall Finish installed as per plan",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Wall Finish",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "6b6fcef8-9aad-54f9-9970-bd6e0e5b9fb9": {
+              "title": "General comments / observations",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Installation complete, checked and reviewed - as per specification",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Floor protected with bubbleweave floor protection or polyweave",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Installer Sign Off: Protection installed as per manufacturer's instructions",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Protection and Handover",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "name": "Floor Finishes ITP",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
