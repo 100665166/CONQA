@@ -1,0 +1,69 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "9b38ffd8-9758-595c-a2a7-8711ecde51e2": {
+          "title": "Time",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "7e623150-ceff-59b5-8dc3-d85292d62df2": {
+          "title": "Duration",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "6bd4ff14-674d-5c59-aebb-342b86b24228": {
+          "title": "Subject of Discussion",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "04749d14-59e9-5bb8-ba83-a51fbe42dd9d": {
+          "title": "Notes & Items raised",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        }
+      },
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "24973db5-abdf-455d-aff3-911e9b9227f4",
+        "display": "normal",
+        "name": "Attach any photos or relevant documentation",
+        "dependant": false,
+        "templateId": "9c6073c4-809d-4b8f-8611-ced9d16e0e1e",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "57d79017-e568-47a5-a091-17eb80e6a7ae",
+        "display": "normal",
+        "name": "People present, please sign on screen",
+        "dependant": false,
+        "templateId": "9c6073c4-809d-4b8f-8611-ced9d16e0e1e",
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "templateReference": "9c6073c4-809d-4b8f-8611-ced9d16e0e1e",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat",
+    "name": "Toolbox Talk",
+    "dependant": true,
+    "templateId": "9c6073c4-809d-4b8f-8611-ced9d16e0e1e",
+    "type": "step"
+  }
+}

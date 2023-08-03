@@ -1,0 +1,328 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "6ac94fb6-2b02-5354-abdc-93932d5906ee": {
+              "title": "Residential address and telephone number (if known):",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "a669153e-66ac-50a2-8359-61c94d523efc": {
+              "title": "Date of Birth:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "c695726b-6337-5087-88c7-e0fb338763ac": {
+              "title": "Business address of Person/Organisation in charge of the equipment:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "eb0072e5-9a54-53c0-a7d6-bd648eb073e6": {
+              "title": "Full name of Employee:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "aa6993a4-07e3-50fd-80fd-d35f50ef34e8": {
+              "title": "Sex:",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Female",
+                " Male"
+              ],
+              "order": 4
+            },
+            "00e31074-2039-5360-b60f-fe52f0e53657": {
+              "title": "Name of Employer of injured Person(s) (If any):",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "e94d128a-ac80-5a58-8a79-b2d7241b894a": {
+              "title": "Occupation of Employee:",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "f6f11460-abcf-4f93-a18a-7819b1fc2384",
+            "display": "normal",
+            "name": "Injured Worker",
+            "dependant": false,
+            "templateId": "089ba6be-8b55-44b5-a0b1-0ebb7c677f16",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "95f431dc-6c04-47a5-ada1-ff59c7aa6a2f",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Injured Workers Details",
+        "dependant": true,
+        "templateId": "089ba6be-8b55-44b5-a0b1-0ebb7c677f16",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "765c42b2-fdca-56a0-b7df-5551194fd6ea": {
+              "title": "Date of Birth:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "278ed11a-e5c0-58d8-bb81-b12a959f5bca": {
+              "title": "Place/Location where incident occurred:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "336b796d-2775-521f-9e78-f17380203837": {
+              "title": "Brief description of incident:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "8d4814dc-a9d9-5517-a480-7b9c195a94ed": {
+              "title": "Treatment given/action taken at the time of the incident: (Attach Statements below)",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "a892df1f-979f-5bdf-b056-525b54efa311": {
+              "title": "Add diagram or picture of incident below",
+              "type": "label",
+              "order": 7
+            },
+            "181c8c95-1506-553c-8955-780fcbd4b8e7": {
+              "title": "Work/activity being performed at time of incident and equipment being used:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "07786379-e1ba-59b8-afdc-a95b61f137fa": {
+              "title": "Name of Witnesses or Name of Person(s) who first attended the scene: (Attach Statements below)",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "5423e500-ba21-580e-a22c-72a833fcf7c1": {
+              "title": "Action taken/intended, if any, to prevent recurrence of the incident:",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "462beb60-19a5-4ec7-b957-cfdc2a60b46f",
+            "display": "normal",
+            "name": "Incident",
+            "dependant": false,
+            "templateId": "089ba6be-8b55-44b5-a0b1-0ebb7c677f16",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "42fdad4e-95e2-4551-b44c-7c65b1b50a31",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Incident Details",
+        "dependant": true,
+        "templateId": "089ba6be-8b55-44b5-a0b1-0ebb7c677f16",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "6ad991a2-2b59-5cd5-8822-04203d53cf4f": {
+              "title": "Attach WorkCover Certificate of Capacity (Attach below)",
+              "type": "label",
+              "order": 3
+            },
+            "a47ff3c7-03ac-5ac2-b423-e53828ed83bb": {
+              "title": "WorkSafe Incident notification number is:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "184e6a1f-d12c-56ce-a901-ca094a85f372": {
+              "title": "If \"Yes\" selected",
+              "type": "label",
+              "order": 1
+            },
+            "30776262-997d-5040-ac11-8d3def1ffc3c": {
+              "title": "Name the clinic/medical centre attended:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "792ed534-2dab-5005-8bba-6b742f596488": {
+              "title": "If \"Yes\" selected",
+              "type": "label",
+              "order": 6
+            },
+            "137eb5da-2402-5412-af23-98a7a71c5855": {
+              "title": "Was the incident reported to WorkSafe Victoria?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "No",
+                " Yes"
+              ],
+              "order": 5
+            },
+            "925bbbcf-69f7-5672-a117-d05ebdfab877": {
+              "title": "Did the injury necessitate loss of time?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "No",
+                " Yes"
+              ],
+              "order": 0
+            },
+            "234d0e1d-8cf6-57dd-9176-62ca31c71e04": {
+              "title": "Was an ambulance required?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "No",
+                " Yes"
+              ],
+              "order": 4
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "85c23cc1-118e-44ed-b10e-8c60e6e39b90",
+            "display": "normal",
+            "name": "Details",
+            "dependant": false,
+            "templateId": "089ba6be-8b55-44b5-a0b1-0ebb7c677f16",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "119905d9-e4dd-4740-bd5f-62e5adb3830f",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Treatment Details",
+        "dependant": true,
+        "templateId": "089ba6be-8b55-44b5-a0b1-0ebb7c677f16",
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "24e45b1f-4ccd-5390-9bb8-ec748594f5bf": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "c42616aa-2dd3-5325-b1cc-58cf3690800b": {
+              "title": "Position/Title:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "e13b5396-f12e-53a6-8672-935025160bea": {
+              "title": "Type of Injury (Filled out by OHS Manager):",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "LTI",
+                " MTI",
+                " FAI"
+              ],
+              "order": 3
+            },
+            "790ce84b-23ba-5727-ba27-22dca24a522e": {
+              "title": "Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "38d6c489-aa57-46cb-b661-c71e8d0af3c5",
+            "display": "normal",
+            "name": "Details of Person submitting this form",
+            "dependant": false,
+            "templateId": "089ba6be-8b55-44b5-a0b1-0ebb7c677f16",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "92674a90-c124-4046-8b31-c03ef33f0d97",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Form Details",
+        "dependant": true,
+        "templateId": "089ba6be-8b55-44b5-a0b1-0ebb7c677f16",
+        "type": "step",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "templateReference": "089ba6be-8b55-44b5-a0b1-0ebb7c677f16",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "Incident Report - Checklist",
+    "dependant": true,
+    "templateId": "089ba6be-8b55-44b5-a0b1-0ebb7c677f16",
+    "type": "step"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "995ef74b-6a82-5c58-859d-3c268fe49b1d": {
+          "title": "Site Managers Details",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "f63045e1-d622-5e61-a59e-e35bc568f626": {
+          "title": "Site Address",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "19cf1232-508e-5473-bc53-fcc69b2a70e2": {
+          "title": "Project Managers Details",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "a20bc640-59e8-5679-bd58-a27b97d31f82": {
+          "title": "Builders Details",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "meta": {
+        "name": "Site Info",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "latest drawings (attached or referenced)",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Scope of Works Attached",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Additional Pre-Start Docs (attached or referenced)",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "name": "Job Details",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

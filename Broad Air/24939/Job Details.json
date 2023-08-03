@@ -1,0 +1,95 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "2e307e01-7d9c-5b5f-b0bf-8dbe818b5557": {
+          "title": "Builders Details",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "abb3b7f6-6af4-51ac-897f-1b2a05ae41c0": {
+          "title": "Site Address",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "4a404e52-6a18-5133-89a4-cee4b7e2858d": {
+          "title": "Project Managers Details",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "e3ad6643-faa5-50a2-bff1-d73c6cd7a81e": {
+          "title": "Site Managers Details",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        }
+      },
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "07fd746d-4f67-45a7-9ced-f753a712b3e8",
+        "display": "normal",
+        "name": "Site Info",
+        "dependant": false,
+        "templateId": "d940186f-4a6d-40f6-ab41-29cb766e7440",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "61f4e93b-9cde-458e-a4c9-0446b5d7f993",
+        "display": "normal",
+        "name": "latest drawings (attached or referenced)",
+        "dependant": false,
+        "templateId": "d940186f-4a6d-40f6-ab41-29cb766e7440",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "cfabc1f9-e4cc-4b67-b4b8-eb9c7a856ef0",
+        "display": "normal",
+        "name": "Scope of Works Attached",
+        "dependant": false,
+        "templateId": "d940186f-4a6d-40f6-ab41-29cb766e7440",
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "59a44ec3-a4ee-4c2f-8604-d7e12ac69d2a",
+        "display": "normal",
+        "name": "Additional Pre-Start Docs (attached or referenced)",
+        "dependant": false,
+        "templateId": "d940186f-4a6d-40f6-ab41-29cb766e7440",
+        "type": "step",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "templateReference": "d940186f-4a6d-40f6-ab41-29cb766e7440",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat",
+    "name": "Job Details",
+    "dependant": true,
+    "templateId": "d940186f-4a6d-40f6-ab41-29cb766e7440",
+    "type": "step"
+  }
+}
