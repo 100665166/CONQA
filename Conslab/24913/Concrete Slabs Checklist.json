@@ -1,0 +1,1542 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Pour Details",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          },
+          "data": {
+            "f3ade002-9f31-5965-b289-69327abf6824": {
+              "title": "Concrete volume: (M³)",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "cf2c66d0-047e-5da7-a2d2-8f91b0ac7280": {
+              "title": "Pour size: (M²)",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "751810c8-2988-545c-a544-c742e686b05c": {
+              "title": "Slab thickness: (mm)",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "f7770950-c1e2-54b7-917f-e1c81bdfdfa0": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "bd22039b-5bfc-5cfb-ae75-239ce9956bda": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "ef88da04-15fb-53d8-8bf7-56732104b62e": {
+              "title": "Pour Description:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Yard Slab",
+                " External Slab",
+                "Internal Slab",
+                " Suspended Slab",
+                " Warehouse Slab",
+                " Breezeway",
+                " Footpath",
+                " Freezer Wear Slab",
+                "Other"
+              ],
+              "order": 3
+            },
+            "f028cdcc-ae0a-5858-a41a-5a9f4d2d112b": {
+              "title": "Water on site available?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 8
+            },
+            "0725587d-db1e-59c3-a859-429c830ca4b3": {
+              "title": "Power on site available?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 9
+            },
+            "57e6936f-5388-5dc1-9afe-392b89f95cf6": {
+              "title": "Pour plan date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "6eb50f71-4411-51ce-9a48-d54016fb2664": {
+              "title": "Slab Type:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Combi Slab",
+                " Mesh Slab",
+                " Fibre Slab",
+                " Conventional Slab",
+                " PT Slab",
+                " Other"
+              ],
+              "order": 0
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Latest drawings used: Attached markup drawings showing the area/section to be poured",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Beam test passed? Attached test results",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Blinding checked and ok",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Datum sited and correct (Attached markup drawings showing datum location)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Formwork checked for line & level",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Movement joint in place and correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Isolations complete and checked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Building water & weather proof",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Polythene slip layer in place and correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Reinforcing in place and correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Reinforcements cover checked and ok: Attached Photo",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 11
+          },
+          "data": {
+            "5942fc78-907c-573c-9f24-c254ec157378": {
+              "title": "Reinforcing type:",
+              "type": "label",
+              "order": 0
+            },
+            "6db01488-f0dc-543e-84f7-59f458fa7311": {
+              "title": "Single layer mesh",
+              "type": "boolean",
+              "order": 1
+            },
+            "9b87974a-4cb4-5aa1-ae94-80274313ffd5": {
+              "title": "Steel fibre:",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 6
+            },
+            "3b33430c-c5d2-583e-871c-928c3ec239f7": {
+              "title": "Double layer mesh",
+              "type": "boolean",
+              "order": 2
+            },
+            "ea9bb59b-32d9-5d4b-931c-bb8895c398c8": {
+              "title": "Conventional re-bar",
+              "type": "boolean",
+              "order": 4
+            },
+            "0e78bb3e-3578-5cc9-b6fa-a4e765d1660c": {
+              "title": "Fibre dosage:",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "9896f6ff-870b-572d-893a-e625b258547b": {
+              "title": "Other",
+              "type": "boolean",
+              "order": 9
+            },
+            "2385c143-3a5f-5e21-aba4-2a01fe01d898": {
+              "title": "Insert Size of Reo/Mesh type",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "ed532c88-2ccb-5f59-8d28-51e5f1b43426": {
+              "title": "Fibre type:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "093f2033-da44-50d7-ade3-91b3e0edefe2": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "78d383b8-356f-5ab6-bb87-62550ad1d2e7": {
+              "title": "Trimmer bars",
+              "type": "boolean",
+              "order": 3
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Supplier of Reo/Mesh:",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 12
+          },
+          "data": {
+            "7cbf8a88-543f-5a03-b1a0-ce30eb9347fd": {
+              "title": "Supplier of Reo/Mesh:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Complete Reo",
+                " Summit Steel & Wire",
+                " Other"
+              ],
+              "order": 0
+            },
+            "89daf2e7-b98e-5b1d-a953-c13e93357b59": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Reo Installation:",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 13
+          },
+          "data": {
+            "2dba7787-9d28-5cab-8fb5-6bbf214e9180": {
+              "title": "Installed by:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Conslab",
+                " Complete Reo",
+                " Summit Steel & Wire",
+                " Other"
+              ],
+              "order": 0
+            },
+            "2e40aba3-13df-5605-a8e2-1c973a475b9c": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Supplementary pour information",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 14
+          },
+          "data": {
+            "c9e4f422-e068-536c-bbca-7552863b4caa": {
+              "title": "Lighting provided by:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Conslab",
+                " Contractor",
+                " Not Required",
+                " Other"
+              ],
+              "order": 2
+            },
+            "7c9f2187-4e70-5101-82ff-90ad51aeeb06": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "41bcb647-b205-560f-b3c9-4a65bffb4d1b": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "477481d6-c871-50dd-9ddf-1715f2eee3d1": {
+              "title": "Type of finish",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Heavy broom",
+                " Less than burnished",
+                " Light broom",
+                " Medium broom",
+                " Pan texture",
+                " Burnished",
+                " Other"
+              ],
+              "order": 5
+            },
+            "7f99ddf2-106f-5760-930a-1ff21f42325e": {
+              "title": "Light towers required (1-5)",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1",
+                " 2",
+                " 3",
+                " 4",
+                " 5",
+                " Not Required"
+              ],
+              "order": 4
+            },
+            "15de609f-ea74-5585-a72e-0054fef0fcc2": {
+              "title": "Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "c945bbc4-876f-5b6f-86b2-c681dd946f3f": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "b758bb5d-0486-5823-8d79-30066aeed64f": {
+              "title": "Specify Finish:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "9934795a-2dd1-59f9-bbf7-4001db19052a": {
+              "title": "Slurry control:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Squeegee",
+                " Vacuum",
+                " Wet Vac",
+                " Not Required",
+                " Other"
+              ],
+              "order": 10
+            },
+            "aa0da6cd-5880-5838-bb6f-a68a40cf0f92": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 11
+            },
+            "ef6f9ab8-1e9a-52d1-95ef-cb645860d439": {
+              "title": "Saw cut pattern:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Conslab discretion",
+                " Main contractors instruction",
+                " As per drawings",
+                " Other"
+              ],
+              "order": 12
+            },
+            "ea59fcdf-f466-5081-81e7-30790d35a8e2": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 13
+            },
+            "eff35308-cf84-52e7-9028-46e7844c8415": {
+              "title": "Conslab Site Contact",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Project Manager",
+                " Site Manager",
+                " Site Engineer",
+                " Supervisor",
+                " Foreman",
+                " Team Leader",
+                " Other"
+              ],
+              "order": 0
+            },
+            "a18a643f-c2c1-50cd-bca6-0aaea04c25d1": {
+              "title": "Saw cut method:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Soft cut",
+                " Wet saw",
+                " Not Required",
+                " Other"
+              ],
+              "order": 8
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Concrete supply & placing information",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 15
+          },
+          "data": {
+            "033aaed7-768f-5465-95b7-77b973ab8d38": {
+              "title": "Concrete strength grade: (MPa)",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "355f6eda-023e-5dea-9d50-4504da4edbf5": {
+              "title": "Slump",
+              "type": "boolean",
+              "order": 5
+            },
+            "ea360fcc-0afa-5a06-b65b-555409007ded": {
+              "title": "Fibre wash out",
+              "type": "boolean",
+              "order": 9
+            },
+            "1988a9ac-9b77-5b60-9922-e922fe92e6f8": {
+              "title": "Site testing requirements:",
+              "type": "label",
+              "order": 10
+            },
+            "3429332d-eeb3-5577-af2a-46bc5eb2615a": {
+              "title": "If other please specify company name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "c53ecc03-d613-5ad1-b9ab-f34ca4f56aa7": {
+              "title": "Cylinders",
+              "type": "boolean",
+              "order": 8
+            },
+            "4c0e8072-ea8e-5667-9bdf-aab033bc8b9b": {
+              "title": "Number of pumps required:",
+              "type": "input",
+              "subtype": "text",
+              "order": 21
+            },
+            "f4d8b3f1-596c-5031-a784-ff675a071850": {
+              "title": "Air",
+              "type": "boolean",
+              "order": 6
+            },
+            "f1167123-2cbc-5004-b251-9c156734d127": {
+              "title": "Supplier:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Allied",
+                " Bridgeman",
+                " Counties Ready Mix Ltd.",
+                " Firth",
+                " Stevenson",
+                " Other"
+              ],
+              "order": 0
+            },
+            "17c45a03-9f58-58e0-a656-c85a95204356": {
+              "title": "External testing required:",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 16
+            },
+            "f09ea2c9-32da-543a-a359-0de56c73f488": {
+              "title": "Slump",
+              "type": "boolean",
+              "order": 11
+            },
+            "2d86ca3e-9629-569d-9fe4-a5b286eec564": {
+              "title": "Truck Wash allowed on site:",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 22
+            },
+            "33fb85e6-b6d5-52d5-9ecd-003ffb420b4a": {
+              "title": "Testing at plant requirements:",
+              "type": "label",
+              "order": 4
+            },
+            "3eb963f3-a111-59ff-ba31-8b3ea46cc5e1": {
+              "title": "Method of placing:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Boom Pump",
+                " Crane & Skip",
+                " Direct Discharge",
+                " Line Pump",
+                " Other"
+              ],
+              "order": 18
+            },
+            "074f8e1f-d8af-5bcc-8aab-720cc8afca49": {
+              "title": "Not Required",
+              "type": "boolean",
+              "order": 15
+            },
+            "80c23487-7a5a-5a74-bfda-790db7367a97": {
+              "title": "If yes please specify the details and by who:",
+              "type": "input",
+              "subtype": "text",
+              "order": 17
+            },
+            "21aed07a-6978-531a-bbb7-b8286740e8aa": {
+              "title": "Bleed",
+              "type": "boolean",
+              "order": 7
+            },
+            "62133be7-10eb-5b57-9554-b535d7084dfc": {
+              "title": "Air",
+              "type": "boolean",
+              "order": 12
+            },
+            "b3f363b3-bce7-53ca-8b6f-7dccb92f6e52": {
+              "title": "Concrete mix code:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "5332197e-90bf-567f-b416-62c5e6e7d3ba": {
+              "title": "Cylinders",
+              "type": "boolean",
+              "order": 14
+            },
+            "2d7aa640-6c4c-50a1-9531-b60a67f81bfc": {
+              "title": "Concrete Temperature",
+              "type": "boolean",
+              "order": 13
+            },
+            "0bca4a33-a567-538d-a0b0-5a8ae67b77b8": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 19
+            },
+            "f58864ac-a0c3-5039-97e0-5cee26296768": {
+              "title": "Name of Pump Supplier:",
+              "type": "input",
+              "subtype": "text",
+              "order": 20
+            }
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Add signature",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Final Pre pour check & sign off",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 16
+          },
+          "data": {
+            "bd64aedb-2b0b-573a-893b-e38f2c558d92": {
+              "title": "Inspection carried out by:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Request sign-off",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Notify Conslab Construction Manager & Compliance Manager",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 17
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-pour",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Placer details",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          },
+          "data": {
+            "87e05661-2b3d-506e-9b66-4eeef69eed09": {
+              "title": "Number of Placers:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Conslab Placer Manager/Supervisor/Foreman",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          },
+          "data": {
+            "990c5455-ec19-505c-ae39-148acbf91d9c": {
+              "title": "Reason:",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "bfcc7fd6-b669-512c-870a-20445a9cfeb4": {
+              "title": "Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "3c0ff91d-208c-509c-9a69-7e2a80443204": {
+              "title": "Concrete volume at time:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "db2d72e2-5a5c-5b19-b16c-e40398a052ab": {
+              "title": "Any other issues:",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "2d2578c8-1ed4-58d0-b0b3-a07a231e0248": {
+              "title": "If Yes, please provide details:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "5545d8bc-0219-57ae-a016-1ddfad1a0488": {
+              "title": "Record time:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "6bdfa5b6-1afb-5d5c-95ea-a4a26a397c3f": {
+              "title": "Gaps or interruptions in supply",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 1
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Weather forecast: (Attached Record)",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Concrete adjustments",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          },
+          "data": {
+            "f532c389-5501-53bb-afea-ea97309fbb1d": {
+              "title": "If Yes, provide retarder dosage:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "9e2ac460-9888-543e-a8d4-ce693c74c523": {
+              "title": "If Yes, record when anti vap used: Attach photos",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "8837c36b-fff0-5768-87ca-6ed9cdbd82f1": {
+              "title": "Anti vap used:",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 4
+            },
+            "3ba46fc2-1cf6-5eb7-b74b-315685ba6437": {
+              "title": "Accelerator added:",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 2
+            },
+            "da22e311-474d-5753-8b92-86c524dc1413": {
+              "title": "Retarder added:",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 0
+            },
+            "54bc2a12-5679-5cfe-b3c7-bc6b24b4dec0": {
+              "title": "If Yes, provide accelerator dosage:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Pour start time",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          },
+          "data": {
+            "561caf56-d353-51c6-b60b-0c7a88327d53": {
+              "title": "Time of the first truck on site:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "72752eca-f1f2-5027-a778-31c1c38195d6": {
+              "title": "First docket attached",
+              "type": "label",
+              "order": 1
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Pour finish time",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          },
+          "data": {
+            "40b34c80-6e4c-5570-9e28-12e4191648fa": {
+              "title": "Last docket attached",
+              "type": "label",
+              "order": 1
+            },
+            "33af86c1-2e7b-5135-abe0-29de5cbd4271": {
+              "title": "Time of the last truck on site:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Finishing Process",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          },
+          "data": {
+            "080f621f-f248-562a-881d-8367fff3a59f": {
+              "title": "Time initial finishing starts:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Bleed water visually evaporated: (Attached Photo)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          },
+          "data": {
+            "9f24d222-d2ff-5d5f-8c0b-e2a9b62469e2": {
+              "title": "Time:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Secondary bleed water checked: (Attached Photo)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          },
+          "data": {
+            "8c7982e1-ef90-5533-b30b-5d63dcf7c36f": {
+              "title": "Time:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Boot indent <6mm checked: (Attached Photo)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          },
+          "data": {
+            "6a8cb6ce-a668-5077-9e09-e9be6b8c1360": {
+              "title": "Time:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Ride-on panning starts: (Attached Photo)",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          },
+          "data": {
+            "f8f5d535-50cd-560e-bc70-b8c01efa24bf": {
+              "title": "Time:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Combi-blade: Ride-on panning starts: (Attached Photo)",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 11
+          },
+          "data": {
+            "834df4cf-8bbf-56d9-b973-9f7eb5f2235b": {
+              "title": "Time:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Final finishing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 12
+          },
+          "data": {
+            "5e1e9319-1915-5f6e-8036-8e4d117ed445": {
+              "title": "Time when the final finishing is completed: (Attached Photos)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Curing application",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 13
+          },
+          "data": {
+            "5d2537c1-b4f3-5c2b-9d1b-50690b4e90ff": {
+              "title": "Time when curing applied:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "1867c735-281b-5d24-9897-416325618266": {
+              "title": "Total amount consumed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "d7761c1d-f195-5b8c-95e3-259aa9e75fe7": {
+              "title": "Area (M²):",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Product name used for curing: (Attached Photo)",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 14
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Additional Information",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 15
+          },
+          "data": {
+            "71cffb12-95f7-58da-9685-edf5f9bce707": {
+              "title": "Date slab can be fully loaded:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "5bc073ed-5cd4-59f1-9835-acf3446a46e4": {
+              "title": "Contact details:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "3955614d-62c5-5fce-b547-5c3e682d361b": {
+              "title": "Date slab can be lightly trafficked:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "0538f97b-c88b-5661-b194-5a058b4732e4": {
+              "title": "Responsible for slab protection:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Conslab",
+                " Contractor",
+                " Other"
+              ],
+              "order": 2
+            }
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Notify Conslab Construction Manager & Compliance Manager",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Notify Conslab Construction Manager & Compliance Manager",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 16
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pour process",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Inspection details",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          },
+          "data": {
+            "4822f74e-396f-5375-9c71-7b65f8ee490b": {
+              "title": "Date of inspection:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Level/Flatness survey done:",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          },
+          "data": {
+            "30610aec-74d3-5480-8af2-78b505c8170d": {
+              "title": "Level/Flatness Specification",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "EN15620 (FM1)",
+                " EN15620 (FM2)",
+                " EN15620 (FM3)",
+                " TR34 (FM1)",
+                " TR34 (FM2)",
+                " TR34 (FM3)",
+                "BS8204 SR2",
+                " Other"
+              ],
+              "order": 0
+            },
+            "a6d6d4d6-a951-5aa9-b340-0fb8a2ce04e6": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Curing method application",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          },
+          "data": {
+            "ddfd3d68-3354-57e9-9e49-d571a12632f8": {
+              "title": "Curing method",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Curing blankets",
+                " Spray on membrane; Wet under poly",
+                " Other"
+              ],
+              "order": 0
+            },
+            "2af3a652-a34d-5209-92d1-060362f7243e": {
+              "title": "If other please specify product name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "356d5c78-733e-5f67-9721-101851ff479c": {
+              "title": "Surface treatment type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Conslab diamond",
+                " Pentrasil",
+                " Rockbond",
+                " Other"
+              ],
+              "order": 4
+            },
+            "25024a84-3355-5859-be2a-7acf6ae6f82c": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "f22e3644-5dc4-58ca-8118-57a7b6ed70e1": {
+              "title": "Date curing blankets or polythene removed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "68626f43-1c52-56eb-821a-923e3617d8e3": {
+              "title": "Surface treatment applied",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Yes",
+                " No",
+                " N/A"
+              ],
+              "order": 3
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Finish/Aesthetics (Attached Photos)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          },
+          "data": {
+            "db8ce479-09e5-59a5-8f05-495036bd8542": {
+              "title": "General surface finish",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Fair",
+                " Good",
+                " Poor",
+                "Excellent"
+              ],
+              "order": 0
+            }
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Edge finishing (Attached Photos)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Isolation and formwork removed and tidy",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Saw cutting to correct depth, straight & free of chipping",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Add signature",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Final post-pour check & sign off",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          },
+          "data": {
+            "32e30ea6-edca-5674-9bef-2aafb2308d71": {
+              "title": "Inspection carried out by:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Add signature",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Notify Conslab Project/Site Manager, Const. Manager, Compliance Manager",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Post-pour",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Concrete Strength Test Results: Attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Level/Flatness Survey: Attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Concrete Consistency & Slump Records: Attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Air & Bleed Tests: Attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Steel Fibre Count: Attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Reo/Mesh/Mill Test Certificates: Attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Concrete Dockets",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pour Test Records",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "name": "Concrete Slabs Checklist",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "47332b2e-5fbc-59b3-b97a-6ccae98129fd": {
+          "title": "Defect Status:",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Closed",
+            "Open"
+          ],
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Defect Status",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "edee1ebd-f6ae-5104-a4aa-6ed2581e90a5": {
+          "title": "Defect Number:",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "9050e6dd-4771-5318-977d-5b5b7360e7ed": {
+          "title": "Defect Location:",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "f7e8674b-c17c-5f92-845a-98567d373573": {
+          "title": "Type of project:",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Slab on Grade",
+            "Vertical"
+          ],
+          "order": 0
+        },
+        "14c505cb-77b6-571f-baf6-96cc71e1488e": {
+          "title": "Description of Defect:",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        }
+      },
+      "meta": {
+        "name": "Defect Details",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "7ce80df3-5c61-5fdc-970d-9cb11ce63b7e": {
+          "title": "Date of inspection:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Date of inspection:",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Photos attached of defect before remedial",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "754f162b-92cc-5ef2-b787-5a351edebbe5": {
+          "title": "Date of remedial:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Date of remedial:",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Photos attached of defect after remedial",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "d7b23a67-98ed-58e6-9a53-17adbaa2a888": {
+          "title": "Who is responsible for fixing Defect:",
+          "type": "enum",
+          "subtype": "radio",
+          "values": [
+            "Client",
+            "Conslab",
+            "Main Contractor"
+          ],
+          "order": 1
+        },
+        "b738639d-7385-5f32-a422-0eea9380f55e": {
+          "title": "Who is responsible for managing the fixing of defect (Conslab)",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "3112cf5b-52a2-587e-8181-1c469af48f8e": {
+          "title": "Cost of remedial work:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Remedial:",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Add Final Sign Off",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Defect has been closed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 7
+      }
+    }
+  ],
+  "meta": {
+    "name": "Defect Number:",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

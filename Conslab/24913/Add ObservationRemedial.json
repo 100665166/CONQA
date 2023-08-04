@@ -1,0 +1,59 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Request Observation Approval",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "data": {
+        "0eb09db0-b139-5023-8a32-2493ee9085cf": {
+          "title": "Location",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "f7d128fa-3d27-5a97-90a0-9575d6086e4c": {
+          "title": "Action Required",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "c76a3cc5-c694-55c7-a1f2-79a8273f840d": {
+          "title": "Remedial Reference (if applicable)",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "meta": {
+        "name": "Remedial Required",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Observation Remedial:",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

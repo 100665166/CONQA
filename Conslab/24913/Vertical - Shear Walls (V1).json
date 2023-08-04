@@ -1,0 +1,957 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Plan- Drawing No, Rev:",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Sections- Drawing No, Rev:",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Additional Plan Reviews",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "RFI's Aconex reference details",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Plans/RFI's",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "6c878180-4df5-501a-b8cb-8c1757a05013": {
+              "title": "Works Started Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "679bb744-9184-5955-819a-ae9b1095c3ea": {
+              "title": "Pour Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "b46cddc2-f73b-5074-b0d6-050b9fbd8f33": {
+              "title": "Handover Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "8636aab8-21e0-52e1-8f8f-38423351cbf7": {
+              "title": "Area Received Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "All Dates recorded below",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Area and substrates acceptable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Workface Start/Pour/Completion Dates",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "1627f703-9ae1-5af0-ba01-21743c56785e": {
+              "title": "Offset from Grid lines",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "af357be3-5af6-5035-ae4b-476e7f1fcc9a": {
+              "title": "Shear Wall Reference",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "f3cfc855-07c4-5660-8718-b620cf6b6982": {
+              "title": "Concrete Volume: (m3)",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "66562b8a-0afa-5e59-b613-a52a19a88b49": {
+              "title": "Grid line reference",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "General Pour Information Complete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Formwork checked for line & height against FFL",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Formwork are propped & supported based on installation spec",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Shutters are plumbed in both ways and securely supported",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "57be34ab-e7e9-5823-9be5-f092bea09ad0": {
+              "title": "Reference Line (R.L) at the top of the Shear wall:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Formwork exterior corners tied",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Reinforcing in place",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Reo spacings checked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Correct Cover Top & Bottom & Sides",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "66a3becc-a2c9-50f9-9699-2aad438f1476": {
+              "title": "Date and Time",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Engineer Inspection / Reo Sign off Required",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Supplementary pour information complete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Reinforcing type/ Detail Sheet for the Steel",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "94aaac04-8621-5b85-b480-210c8b33bbc8": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "000ad0b9-acde-56da-a945-a02f9dd6a457": {
+              "title": "",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Other",
+                "Complete Reo"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Supplier Approved:",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 11
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "20de83da-82e5-5fcf-8a07-9bedf3621573": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "4ee00056-a756-59a6-976e-8f465bb5ea1f": {
+              "title": "",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Conslab",
+                " Other",
+                "Complete Reo"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Installed by:",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 12
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Cover to reinforcing recorded",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 13
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Checked against shop drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 14
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Reo inspection and sign off",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 15
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Shear Wall Pre Pour",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Template orientation check",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Dimensions cl to grids measured",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Bolt height above FFL",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "HD Bolts (if applicable)",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "fb11d3f8-88b1-5ff2-8231-edaf6806ba45": {
+              "title": "Pour time & date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Concrete pour time & date:",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Additive",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Volume expected/Actual",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Pump booked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Concrete booked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Placers available",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "RL & finish given to placing team",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "4a2e063e-4c81-5af6-89be-f2d77e567707": {
+              "title": "Technician booked:",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Not required",
+                "Yes"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Technician booked",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Concrete",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "26238aaf-df37-5d2b-abec-2bb7e010b021": {
+              "title": "Inspection carried out by:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "0059b681-7f05-5ea0-9bb5-4e0aa471b86b": {
+              "title": "Pour date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "d3b67abb-e7c7-5e62-b5d9-e38f0d890fb5": {
+              "title": "Date of inspection:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Pour Information",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Level checked and correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5053bfcb-f7ca-5c12-b08e-e3fa3cfdb97a": {
+              "title": "Curing Compound used:",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Others",
+                "Sinak S102"
+              ],
+              "order": 3
+            },
+            "63489790-01a4-5b8e-95d1-16227b0e5f4e": {
+              "title": "Surface treatment applied (record date:)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "003bbfb1-3682-5b7c-abb7-1a6c2ed7c755": {
+              "title": "Curing method",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Hessian ",
+                " Spray on membrane",
+                " Wet under poly",
+                "Curing blankets"
+              ],
+              "order": 0
+            },
+            "034a95ad-80ba-5b56-a3a8-962a13791a2a": {
+              "title": "Surface treatment applied",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "No",
+                " Yes",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "3a8cca35-bbc2-5fb1-8d5c-ba065e3bf9ed": {
+              "title": "If other please specify product name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "Curing",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "87c26972-eb00-5895-9e1a-62479f150895": {
+              "title": "Surface defects",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Aggregate shadowing",
+                " Cracking/crazing",
+                " Evidence of delam",
+                " Honey Combing",
+                " Other",
+                "Aggregate pop outs"
+              ],
+              "order": 0
+            },
+            "cdc32074-eaae-59a5-8e2f-5501360aa4aa": {
+              "title": "If other please specify :",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Concrete finish review",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Edge finishing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Edge forms straight",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Level across edges of the Shear Walls",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Isolation and formwork removed and tidy",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "df040138-747a-5874-a29e-cae19db1e65e": {
+              "title": "Confirmed by:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Main Contractor sign off required",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Post-pour",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Observation/Remedials:",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Observation/Remedials",
+        "dependant": true,
+        "type": "step",
+        "order": 6
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Bolt location, height and orientation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Concrete dockets attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Concrete test results",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Curing completed and signed off",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Shutter stripped and area cleaned",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Close Out",
+        "dependant": true,
+        "type": "step",
+        "order": 7
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Request Sign Off",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Conslab Rep Sign Off",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Request Sign Off",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Client Sign Off",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Handover",
+        "dependant": true,
+        "type": "step",
+        "order": 8
+      }
+    }
+  ],
+  "meta": {
+    "name": "Shear Walls -",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

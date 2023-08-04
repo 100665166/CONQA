@@ -1,0 +1,541 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "4a1a2272-712f-4077-b8b5-9b63288f4848": {
+              "float": "left",
+              "title": "Offset from Grid lines",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "1f949ae7-76b9-4b0e-9cf7-fc4b645ec385": {
+              "float": "left",
+              "title": "Pour time & date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "c27e0070-d9be-483f-9dd4-bc5d01760278": {
+              "float": "left",
+              "title": "Column Reference",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "09319459-2883-4360-ac24-1655c34a0ce1": {
+              "float": "left",
+              "title": "Pour size: (m2)",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "75d1aa06-434c-4d5c-b70a-2937417bff33": {
+              "float": "left",
+              "title": "Please specify Revision Number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 10
+            },
+            "60445fb6-311c-466b-ab64-15b5988bb5d8": {
+              "float": "left",
+              "title": "Grid line reference",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "acf3ee28-9346-4154-a9a9-d192a0650308": {
+              "float": "left",
+              "title": "Concrete Volume: (m3)",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            },
+            "0c66c616-055f-4408-8e3d-299fbe2d97c3": {
+              "float": "left",
+              "title": "Latest drawings used:",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            }
+          },
+          "meta": {
+            "name": "General Pour Information Complete",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 0,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "name": "Formwork checked for line and level",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 1,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "7d22ee76-ee3f-4eda-9079-d9bf0bfb7ce4": {
+              "float": "left",
+              "title": "Reference Line (R.L) at the top of the Column:",
+              "type": "input",
+              "subtype": "text",
+              "order": 13
+            }
+          },
+          "meta": {
+            "name": "Datum sited and correct",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 2,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "name": "Reinforcing in place",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 3,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "name": "Reo spacings checked",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 4,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "1bbf8500-58cf-4dc3-b8f6-deef4a180d5a": {
+              "float": "left",
+              "title": "Date and Time",
+              "type": "input",
+              "subtype": "text",
+              "order": 17
+            }
+          },
+          "meta": {
+            "name": "Engineer Inspection / Reo Sign off Required",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 5,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "cb79b3b0-3af0-4fb6-b767-392580c55ecd": {
+              "float": "left",
+              "title": "Reinforcing type/ Detail Sheet for the Steel",
+              "type": "input",
+              "subtype": "text",
+              "order": 19
+            }
+          },
+          "meta": {
+            "name": "Supplementary pour information complete",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 6,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5e5284aa-0642-411a-a115-4d3dd7adf15e": {
+              "unsettable": false,
+              "float": "left",
+              "type": "enum",
+              "subtype": "select",
+              "order": 21,
+              "values": [
+                " Other",
+                "Complete Reo"
+              ]
+            },
+            "bd3b0e83-dc98-48ea-8bdb-333cc93a1b80": {
+              "float": "left",
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 22
+            }
+          },
+          "meta": {
+            "name": "Supplier Approved:",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 7,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "365c6a9d-a583-410e-b4ac-5aea0a0e661a": {
+              "unsettable": false,
+              "float": "left",
+              "type": "enum",
+              "subtype": "select",
+              "order": 24,
+              "values": [
+                " Other",
+                "Conslab"
+              ]
+            },
+            "c67f6e04-5ae0-4680-a78f-7ba00f455320": {
+              "float": "left",
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 25
+            }
+          },
+          "meta": {
+            "name": "Installed by:",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 8,
+            "display": "normal"
+          }
+        }
+      ],
+      "data": null,
+      "meta": {
+        "name": "Column Pre Pour",
+        "dependant": true,
+        "type": "step",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "order": 1,
+        "display": "flat"
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "351694ed-ea22-4cc4-8297-146e477f2c0a": {
+              "float": "left",
+              "title": "Inspection carried out by:",
+              "type": "input",
+              "subtype": "text",
+              "order": 30
+            },
+            "5868027f-b3dd-4a15-b317-302e50a9d3ea": {
+              "float": "left",
+              "title": "Pour date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 28
+            },
+            "55e7e855-c10e-4ab0-905f-c56c753147d2": {
+              "float": "left",
+              "title": "Date of inspection:",
+              "type": "input",
+              "subtype": "text",
+              "order": 29
+            }
+          },
+          "meta": {
+            "name": "Pour Information (true)",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 0,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "name": "Flatness/Level testing (true)",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 1,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "name": "Curing (true)",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 2,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "0cbf0998-25e1-4870-8be4-ae745c1f8e96": {
+              "float": "left",
+              "title": "If other please specify product name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 38
+            },
+            "566537be-5c05-4b66-a36a-fb4e836018c1": {
+              "float": "left",
+              "title": "Surface treatment applied (record date:)",
+              "type": "input",
+              "subtype": "text",
+              "order": 35
+            },
+            "978f9c6d-cd03-429e-9f00-d95fccf3019a": {
+              "unsettable": false,
+              "subtype": "select",
+              "values": [
+                " Sinak S102",
+                " others "
+              ],
+              "float": "left",
+              "title": "Curing Compound used:",
+              "type": "enum",
+              "order": 37
+            },
+            "98b32b5e-131f-4038-b98e-838c572effd4": {
+              "unsettable": false,
+              "subtype": "select",
+              "values": [
+                " Spray on membrane",
+                " Wet under poly",
+                "Curing blankets"
+              ],
+              "float": "left",
+              "title": "Curing method",
+              "type": "enum",
+              "order": 34
+            },
+            "78624bde-9320-40dc-bdb2-a2214f0c6769": {
+              "unsettable": false,
+              "subtype": "select",
+              "values": [
+                " No",
+                " Yes",
+                "N/A"
+              ],
+              "float": "left",
+              "title": "Surface treatment applied",
+              "type": "enum",
+              "order": 36
+            },
+            "ea70fb86-9946-46c4-b562-613bc22557a5": {
+              "float": "left",
+              "title": "If other please specify :",
+              "type": "input",
+              "subtype": "text",
+              "order": 39
+            }
+          },
+          "meta": {
+            "name": "Curing method",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 3,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "name": "Edge finishing",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 4,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "name": "Edge forms straight",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 5,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "name": "Level across edges of the columns",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 6,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "name": "Isolation and formwork removed and tidy",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 7,
+            "display": "normal"
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "ede03890-127b-4410-916b-862d74fbf1e4": {
+              "float": "left",
+              "title": "Confirmed by:",
+              "type": "input",
+              "subtype": "text",
+              "order": 45
+            }
+          },
+          "meta": {
+            "name": "Main Contractor sign off required",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 8,
+            "display": "normal"
+          }
+        }
+      ],
+      "data": null,
+      "meta": {
+        "name": "Post-pour",
+        "dependant": true,
+        "type": "step",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "order": 2,
+        "display": "flat"
+      }
+    },
+    {
+      "tree": [],
+      "data": null,
+      "meta": {
+        "name": "Observation/Remedials",
+        "dependant": true,
+        "type": "step",
+        "permissions": {
+          "addStep": true,
+          "addPost": false
+        },
+        "order": 3,
+        "display": "normal"
+      }
+    }
+  ],
+  "data": {},
+  "meta": {
+    "name": "Concrete Column",
+    "dependant": true,
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

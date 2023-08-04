@@ -1,0 +1,534 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "d4973902-2ddc-5858-8065-fde0e95de53b": {
+              "title": "Column Reference",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "6e27e378-a27c-5e8d-817c-b2b17971f3ba": {
+              "title": "Pour time & date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "c099b987-1d78-5ee4-87d3-9c1416b15354": {
+              "title": "Pour size: (m2)",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "7f585474-3366-55a8-b895-6fc3218080f1": {
+              "title": "Concrete Volume: (m3)",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "c6f6f763-1e3d-5c55-872f-89c0c79f0336": {
+              "title": "Latest drawings used:",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "94761876-a619-5fbd-ac9d-f4d02d279d67": {
+              "title": "Grid line reference",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "dbba5095-4cba-5e8f-828c-daa4601fc477": {
+              "title": "Offset from Grid lines",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "20593bfb-ad44-5db7-b8a2-00d90aa7566b": {
+              "title": "Please specify Revision Number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "General Pour Information Complete",
+            "dependant": false,
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Formwork checked for line and level",
+            "dependant": false,
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "740edef3-ab06-58c9-818d-3ecee5fc4462": {
+              "title": "Reference Line (R.L) at the top of the Column:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Datum sited and correct",
+            "dependant": false,
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Reinforcing in place",
+            "dependant": false,
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Reo spacings checked",
+            "dependant": false,
+            "type": "step",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "f7034d66-32f9-559b-b2a7-6bf70e6854fc": {
+              "title": "Date and Time",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Engineer Inspection / Reo Sign off Required",
+            "dependant": false,
+            "type": "step",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "e7839dd4-59de-5175-bb10-0fc25c69666f": {
+              "title": "Reinforcing type/ Detail Sheet for the Steel",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Supplementary pour information complete",
+            "dependant": false,
+            "type": "step",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5c0ca4ac-178d-5270-9536-1082400bc8be": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "1b5b79ae-c65f-58ed-8040-c37231838768": {
+              "title": "Supplier Approved:",
+              "type": "enum",
+              "subtype": "select",
+              "order": 0,
+              "values": [
+                "Other",
+                "Complete Reo"
+              ]
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Supplier Approved:",
+            "dependant": false,
+            "type": "step",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "3afd8633-2fd1-519b-8a7f-41cc501fa832": {
+              "title": "Installed by:",
+              "type": "enum",
+              "subtype": "select",
+              "order": 0,
+              "values": [
+                "Other",
+                "Conslab"
+              ]
+            },
+            "6de40810-2e21-5ef4-9f9a-c33f9d127956": {
+              "title": "If other please specify:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Installed by:",
+            "dependant": false,
+            "type": "step",
+            "order": 8
+          }
+        }
+      ],
+      "data": null,
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Beam Pre Pour",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "aab5b9d0-62eb-5c3b-bf1b-85b2f10798fa": {
+              "title": "Date of inspection:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "f45ab6d1-76cc-56bd-a4c7-97aee827925a": {
+              "title": "Inspection carried out by:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "c9582c0f-d16e-58ab-b84d-ad23edcff1a4": {
+              "title": "Pour date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Pour Information (true)",
+            "dependant": false,
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Flatness/Level testing (true)",
+            "dependant": false,
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Curing (true)",
+            "dependant": false,
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "c6302981-acab-5472-9383-1e3a74c45abf": {
+              "title": "Curing method",
+              "type": "enum",
+              "subtype": "select",
+              "order": 0,
+              "values": [
+                "Spray on membrane",
+                " Wet under poly",
+                "Curing blankets"
+              ]
+            },
+            "5404cbb3-6ea0-570e-b149-3fc352975e96": {
+              "title": "If other please specify :",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "d97613e9-e243-5c91-b47f-ead14af921e8": {
+              "title": "If other please specify product name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "d1f2b941-0b30-53e4-84d7-a3910acc1505": {
+              "title": "Surface treatment applied (record date:)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "eed823e6-7b95-54f2-b2a4-a151ca2c4f7c": {
+              "title": "Surface treatment applied",
+              "type": "enum",
+              "subtype": "select",
+              "order": 2,
+              "values": [
+                "No",
+                " Yes",
+                "N/A"
+              ]
+            },
+            "5371d839-d993-5a22-98c4-c4800e01f1fa": {
+              "title": "Curing Compound used:",
+              "type": "enum",
+              "subtype": "select",
+              "order": 3,
+              "values": [
+                "Sinak S102",
+                " others"
+              ]
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Curing method",
+            "dependant": false,
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Edge finishing",
+            "dependant": false,
+            "type": "step",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Edge forms straight",
+            "dependant": false,
+            "type": "step",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Level across edges of the columns",
+            "dependant": false,
+            "type": "step",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "data": null,
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Isolation and formwork removed and tidy",
+            "dependant": false,
+            "type": "step",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "b68e38a1-37be-5694-8914-b92c05bd2060": {
+              "title": "Confirmed by:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "display": "normal",
+            "name": "Main Contractor sign off required",
+            "dependant": false,
+            "type": "step",
+            "order": 8
+          }
+        }
+      ],
+      "data": null,
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Post-pour",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "permissions": {
+          "addStep": true,
+          "addPost": false
+        },
+        "display": "normal",
+        "name": "Observation/Remedials",
+        "dependant": true,
+        "type": "step",
+        "order": 3,
+        "tags": {}
+      }
+    }
+  ],
+  "data": {},
+  "meta": {
+    "name": "Concrete Beam",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

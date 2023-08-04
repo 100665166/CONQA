@@ -1,0 +1,212 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "1e14e173-ab9f-582f-8b3e-1b33750d3513": {
+          "title": "Main Contractor:",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "05c20132-3468-54b3-8d8c-a064b0d4f2ea": {
+          "title": "Client:",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "ab10bbcd-49e6-5533-be9e-1b34bf7f2f23": {
+          "title": "Foreman / Supervisor:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "cc563ad4-5767-5d52-97b0-5d728525856c": {
+          "title": "Date:",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "meta": {
+        "name": "Toolbox Talk Details",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "f8dc11d1-dace-524d-8532-922479403467": {
+          "title": "Carried Out by:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "40b5c34f-99d4-5309-a636-0eabafcc562d": {
+          "title": "Signed:",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "94f1539d-a664-5c7a-80d8-d7b3153f6d45": {
+          "title": "All attendees names listed below and signature / photo attached (click on paperclip to add photo / signatures)",
+          "type": "label",
+          "order": 2
+        }
+      },
+      "meta": {
+        "name": "Meeting Details / Attendees",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "4260bd7c-3970-53b1-b420-fc30e3a66213": {
+          "title": "Site activity, safe work practices, accident, incident investigations discussed",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Site Activities Listed - any corrective actions discussed, actioned, reviewed and closed out",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "5236d839-188c-5b4f-90ba-81208c4d5a0b": {
+          "title": "Near Misses / Incidents to report (name of person involved, type of injury)",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Near Misses / Incidents to report - any corrective actions discussed, actioned, reviewed and closed out",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "57e448e7-5dec-5f31-8fc4-8180536768c2": {
+          "title": "Employee issues raised:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "e57c00e9-d96e-5f23-ab5f-34aa4a4be098": {
+          "title": "Date to be resolved by:",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "meta": {
+        "name": "Employee issues raised and resolved within specified timeframe (Pass once issues have been resolved)",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "c1713d8c-80ee-5a9f-a116-4a24642d5ced": {
+          "title": "Review Date:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Safe Observations reviewed / discussed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Request Signoff",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "data": {
+        "f55b0dec-6a94-56b6-b37d-2694202d70c6": {
+          "title": "Date:",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        },
+        "66c0f718-d7b0-5202-8ce2-57bbde75a787": {
+          "title": "Received By",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "acb6f978-7d52-5138-b165-b820a3165207": {
+          "title": "Checked By:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "c043934e-f4f4-5825-b4eb-dbee256a128f": {
+          "title": "Date:",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "meta": {
+        "name": "Task Analysis/Job Safety Analysis (JSA) completed/reviewed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 6
+      }
+    }
+  ],
+  "meta": {
+    "name": "Toolbox Talk -",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

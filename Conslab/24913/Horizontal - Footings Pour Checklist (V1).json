@@ -1,0 +1,130 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "Footings Pre Pour",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "cde0efa8-a58a-5724-b1bf-82e9d5d07290": {
+          "title": "Pour time & date:",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "43e467cd-4b2c-5ad7-b574-252531a7e038": {
+          "title": "Latest drawings used:",
+          "type": "input",
+          "subtype": "text",
+          "order": 4
+        },
+        "b9e0c95f-b296-5d42-84ca-0bf8281fdc7a": {
+          "title": "What grid lines are being poured",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "509f8281-9127-5221-b6ec-1170b8dad7a6": {
+          "postfix": "m2",
+          "title": "Pour size:",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "5d1653ac-6a2b-5d24-a14b-7d6064c79128": {
+          "postfix": "m3",
+          "title": "Concrete Volume:",
+          "type": "input",
+          "subtype": "text",
+          "order": 3
+        }
+      },
+      "meta": {
+        "name": "General Pour Information Complete",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Water on Site",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Power on Site",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "ad2194b5-9f24-56d9-a7a3-7330b0bad561": {
+          "title": "Select most appropriate description",
+          "type": "enum",
+          "subtype": "select",
+          "values": [
+            "Fine/Sunny",
+            "Heavy Rain",
+            "Light showers",
+            "Moderate Rain",
+            "Overcast"
+          ],
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Weather Conditions",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "Preliminary Pour Information",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "name": "Footings Pour -",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

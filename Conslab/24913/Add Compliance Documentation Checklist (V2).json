@@ -1,0 +1,88 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "name": "PS1 - Completed & Attached",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "PS2 - Completed & Attached",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "PS3 - Completed & Attached",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "name": "PS4 - Completed & Attached",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "fd92cc20-1920-5c48-827a-9dede6419ce0": {
+          "title": "If Yes, please specify:",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "364c0b05-f728-5276-9d0a-9a29124b4308": {
+          "title": "Any additional compliance documents required?",
+          "type": "enum",
+          "subtype": "button",
+          "values": [
+            "Yes",
+            " No"
+          ],
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Additional Compliance",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "name": "Compliance Documentation",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

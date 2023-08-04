@@ -1,0 +1,83 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Request Variation Acknowledgement",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "data": {
+        "3cf3f414-2a69-5afd-aba8-6f3575de7791": {
+          "title": "Reference/Drawing/Instruction Number",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "f50cc8cc-cfd5-5f29-8a8b-5e760db9edcd": {
+          "title": "Materials & Labour Breakdown",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        },
+        "5d0f793a-860f-513a-82a0-28459a5faf91": {
+          "title": "Variation Area",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "meta": {
+        "name": "Variation Details Approved",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Request Variation Signoff",
+            "dependant": true,
+            "signoffs": true,
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "name": "Variation Completed",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "Variation Details:",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}
