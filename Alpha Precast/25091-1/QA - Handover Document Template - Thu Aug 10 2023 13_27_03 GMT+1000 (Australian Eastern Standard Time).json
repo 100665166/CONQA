@@ -1,0 +1,61 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {},
+          "meta": {
+            "name": "Close Out - all required information captured",
+            "dependant": false,
+            "type": "step",
+            "permissions": {
+              "addStep": false,
+              "addPost": false
+            },
+            "order": 0,
+            "display": "normal"
+          }
+        }
+      ],
+      "data": {},
+      "meta": {
+        "name": "Close Out",
+        "dependant": true,
+        "type": "step",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "order": 1,
+        "display": "flat"
+      }
+    },
+    {
+      "tree": [],
+      "data": {},
+      "meta": {
+        "name": "Handover Documents",
+        "dependant": true,
+        "type": "step",
+        "permissions": {
+          "addStep": true,
+          "addPost": false
+        },
+        "order": 2,
+        "display": "normal"
+      }
+    }
+  ],
+  "data": {},
+  "meta": {
+    "name": "Handover Documents",
+    "dependant": true,
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
