@@ -1,0 +1,964 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "All studs are set out correct, and are plumb level, square & installed as per manufacturer's recommendations",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "H3.2 bottom plate used",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Studs are correctly fixed to pre-cast panels",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Ceiling fixing installed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Request Sign Off",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "c26beb39-7786-55cd-a9fa-34e4f7a061ec": {
+              "title": "FINAL - Pass when work(s) are completed, area clean & tidy (any issues please comment below)",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Lintels above window openings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Interior framing",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "All studs are set out correct, and are plumb level, square & installed as per manufacturer's recommendations",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "H3.2 bottom plate used",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Studs are correctly fixed to pre-cast panels",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Request Sign Off",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "6a006bc1-5187-5718-8889-4ab96c593db1": {
+              "title": "FINAL - Pass when work(s) are completed, area clean & tidy (any issues please comment below)",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Ceiling fixing installed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Interior strapping",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Trades QA received & attached as applicable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Steel Stud",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "7ae6be3b-41f4-5a38-a2e6-82602252701f": {
+              "title": "Mixers are in correct position (hole allowance to work with tiles)",
+              "type": "boolean",
+              "order": 0
+            },
+            "13e24f0c-e8b4-5b6f-a5b8-aa28a7fe9ff8": {
+              "title": "All water & gas risers are complete",
+              "type": "boolean",
+              "order": 1
+            },
+            "d3a84685-733e-5180-b9b7-37e5349958bd": {
+              "title": "All stacks are level/plumb",
+              "type": "boolean",
+              "order": 2
+            },
+            "ba36eb65-74e0-501d-9920-581584b1c296": {
+              "title": "All pipe insulated",
+              "type": "boolean",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "Plumbing first fix complete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Trades QA received & attached as applicable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Plumbing fitout have been tested & commissioned",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Plumbing First Fix",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "c6f4845d-ac9b-50a9-b789-ff279baf76d1": {
+              "title": "Power points have been installed as per the electrical plans",
+              "type": "boolean",
+              "order": 0
+            },
+            "ec7c915c-b322-5471-8520-6e0c4290a771": {
+              "title": "All comms are installed to allow for good detailing around",
+              "type": "boolean",
+              "order": 1
+            },
+            "161a2dd9-ac0c-59bb-ad8d-c60ae34603b9": {
+              "title": "GPO's are correct for air conditioning & functional",
+              "type": "boolean",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Electrical first fix complete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Trades QA received & attached as applicable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Electrical fitout have been tested & commissioned",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Electrical First Fix",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "ba3cfc9d-6755-50dd-b621-5891b88fbded": {
+              "title": "All services that go through fire rated walls to be treated with collars/fire rated sealant",
+              "type": "boolean",
+              "order": 2
+            },
+            "0f5076ff-837c-5e79-936d-3e943f8c986d": {
+              "title": "Duct work to be tear free & sealed prior to cleaning",
+              "type": "boolean",
+              "order": 4
+            },
+            "c9692955-e2de-5ea4-b65b-22995deb5449": {
+              "title": "All mech has been roughed in & completed",
+              "type": "boolean",
+              "order": 1
+            },
+            "75e66a89-0c53-53bb-8918-a8f418c50772": {
+              "title": "All aircon has been roughed in & tested",
+              "type": "boolean",
+              "order": 0
+            },
+            "bf71cf6b-6d38-582f-a2cc-3d950fe285e9": {
+              "title": "Service going through exterior wall on a slope",
+              "type": "boolean",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "Electrical first fix complete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Trades QA received & attached as applicable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Air Conditioning / Mech fitout have been tested & commissioned",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Mechanical First Fix",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Ensure all penetrations have been installed as per specifications",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Ensure all fire collars have been installed in accordance with manufacturer's specifications",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Ensure that mechanical ductwork is suitably sealed when passing through firewalls",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Ensure that suitable access is provided to mechanical fire dampers",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Ensure electrical cables have been suitably sealed when passing through a fire element in",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Check that fire doors have been filled",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Trades QA received & attached as applicable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Passive Fire",
+        "dependant": true,
+        "type": "step",
+        "order": 6
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Ensure installation guide has been followed for insulation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "773a91e7-afa8-5469-9d2c-a594022c98b3": {
+              "title": "All insulation fitting snug",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Ensure installation guide has been followed for fire rated walls",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "All service noggs and fixing noggs complete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Trades QA received & attached as applicable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Preline/ Wall Linings",
+        "dependant": true,
+        "type": "step",
+        "order": 7
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Plywood in bathrooms correctly installed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Gib screwed off correctly",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Gib in bathroom correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Trades QA received & attached as applicable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Postline/Wall Linings",
+        "dependant": true,
+        "type": "step",
+        "order": 8
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "0c59df38-1145-5a32-afef-b879c34a01a2": {
+              "title": "Light check complete",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "All stopping completed and specified level of finish achieved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Trades QA received & attached as applicable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Gib stopping",
+        "dependant": true,
+        "type": "step",
+        "order": 9
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Trades QA received & attached as applicable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Painting",
+        "dependant": true,
+        "type": "step",
+        "order": 10
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Waterproofing completed as per specifications",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Trades QA received & attached as applicable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Bathroom & Laundry Waterproofing",
+        "dependant": true,
+        "type": "step",
+        "order": 11
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "All bathroom joinery installed as per specifications",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "All kitchen joinery installed as per specifications",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Trades QA received & attached as applicable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Joinery Fit Out",
+        "dependant": true,
+        "type": "step",
+        "order": 12
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Vinyl installed as per specifications",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Carpet installed as per specifications",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Trades QA received & attached as applicable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Floor coverings",
+        "dependant": true,
+        "type": "step",
+        "order": 13
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Smoke detectors & sensors fit off completed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Smoke detectors & sensors tested as per manufacturer's instructions",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Sprinkler rough fit off completed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Sprinklers commissioned",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Trades QA received & attached as applicable",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Fire System",
+        "dependant": true,
+        "type": "step",
+        "order": 14
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "6e5de6b1-7f98-557e-b235-1931e5f6c638": {
+              "title": "Click to attach signature sign off below",
+              "type": "label",
+              "order": 1
+            },
+            "ab8d9e06-315c-550a-b22a-d8d9fa859dda": {
+              "title": "Woodview - apartment final sign off",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "All apartment work is completed as per specifications / drawings. All relevant trade QA reviewed & approved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Woodview Final Sign - Off",
+        "dependant": true,
+        "type": "step",
+        "order": 15
+      }
+    }
+  ],
+  "meta": {
+    "name": "QA - Interior Fitout",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
