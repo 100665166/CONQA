@@ -1,0 +1,56 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "10ada595-0d9d-5abd-8c54-d7cc291d4fab": {
+              "title": "Delivery Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "ba0b964e-33b0-5f8c-8ddd-0f9d84c2acf9": {
+              "title": "Production Actual Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Current, approved & attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-Pour",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Precast Product Pre-Pour & Post-Pour Checklist",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
