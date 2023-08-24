@@ -1,0 +1,334 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "68fe7e95-f059-5264-86a7-e41cd66e05ca": {
+              "title": "Record Batch Number",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Enviro BSM",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "201e76cb-67d5-570f-a170-1983c6b96e6e": {
+              "title": "Record Batch Number",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Enviro Epoxy Grout 100",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "bff83030-6f65-5710-af4d-7a3ae10db8d4": {
+              "title": "Record Batch Number",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Enviro 700X",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "f89a36b9-a1b4-51ea-a693-cf79b8b78a38": {
+              "title": "Record Batch Number",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Enviro Flex FC/ Sika FC",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "BATCH DETAIL NUMBER OF PRODUCTS",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "4dda983e-76f7-51ef-ac6e-044873143abf": {
+              "title": "Enviro BSM should be stored upright (not laying down) in dry, cool conditions out of direct UV and weather. Maximum storage temperature is 45°C. - Record by time stamped photograph.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Material Management & Storage - Witness Point",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "43837305-55ca-556b-9cbc-69493bdbe9e0": {
+              "title": "The substrate should be sound and even, thus preventing movement or subsidence during concrete placement. The substrate in which BSM is to be installed should have no protrusions, gaps or voids greater than 10mm. Penetrations such as plumbing and electrical pipes should be stabilized to prevent movement during membrane and concrete placement. For horizontal membrane placement, ensure that the substrate is sound, especially when installing over compacted fill so to avoid displacement from traffic or pouring of concrete. For vertical placement, ensure substrate is sound to provide required support for membrane during concrete placement. - Record by time stamped photograph.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Acceptance of Substrate - Witness Point",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "9298e06f-875f-5b39-8cad-a473d235982b": {
+              "title": "Has the sample been approved for the following area?",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Sample Approval - Witness Point",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "data": {
+            "51c8542d-b0ee-5c89-a1ae-2f4240f9a38b": {
+              "title": "Has the builder conducted an inspection to the area before commencing works?",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Builders Pre Commencement Witness Point - Sign Off",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "First Type Inspection - Witness Point",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "PRE COMMENCEMENT",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "03ee53c8-40b1-5064-bc4c-9c1befd6d4a2": {
+              "title": "For horizontal applications, Enviro BSM should be placed with the coloured protective layer facing upwards and the white HDPE layer facing the substrate. Stagger end laps of each run to avoid a build-up of layers. Overlap each previous sheet by 75mm ensuring membranes overlap edge is positioned correctly. Ensure the back of each subsequent roll is clean prior to overlapping and once in place remove the plastic film (on the overlap section) to bond the sheets together. Ensure a complete bond with no creases by using a heavy roller across overlap areas. Once overlap bond is complete the plastic film can be completely removed. -Record by time stamped photograph.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Horizontal application - Witness Point",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "a10dc566-1da6-58a2-866c-ed24650feea7": {
+              "title": "Enviro BSM should be mechanically fixed to the substrate using (substrate dependent) fixings with the coloured protective layer facing the concrete pour. These fixings should only be placed in the overlap section of the membrane and have a low-profile head so that the sheet overlaps can lay flat and rolled evenly for optimum adhesion. Overlapping in vertical applications should be done in the same manner as horizontal applications ensuring subsequent sheet is overlapped by 75mm, adhered, and mechanically fixed correctly before proceeding with the next. The plastic film can be removed immediately in vertical applications. All cut edges and roll ends should be overlapped by 75mm, be clean and dry and sealed with Enviro BSM SeamTape. -Record by time stamped photograph.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Builders Application Witness Point - Sign Off",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Vertical application - Witness Point",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "APPLICATION",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "data": {
+            "b3acb2bb-0dde-5411-976a-ae843eb1d3b4": {
+              "title": "Ensure bars are chemset and fully cured prior to detailing. Use Flex FC/ Sikaflex FC to caulk around reo bars and overcoat with Enviro 700X. Membrane to return out minimum 50mm. - Record by time stamped photograph.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Reo Bars - Witness Point",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "f62f8c1b-1965-5bd4-9a9e-42122e4ae1a8": {
+              "title": "Pile cap to be encapsulated with Enviro epoxy grout 100 achieving minimum 50mm finished height. -Record by time stamped photograph.",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Builders Detailing Witness Point - Sign Off",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Pile Caps - Witness Point",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "DETAILING",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "name": "Enviro BSM V1.0",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
