@@ -1,0 +1,842 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Prefab Structure",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "1642fdc6-396a-5b1f-89b6-7bf8b63dce28": {
+              "title": "Checked by Steel & Tube Checker",
+              "type": "boolean",
+              "order": 1
+            },
+            "72f35ead-7ed5-547e-b408-128db07107ea": {
+              "title": "Checked by Prefabricator",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Steel Grade Checked & Approved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "98e9a589-8b83-55bc-a291-1c685b553d91": {
+              "title": "Checked by Steel & Tube Checker",
+              "type": "boolean",
+              "order": 1
+            },
+            "56a409ba-7a7b-533b-b32f-0dad74f1e51b": {
+              "title": "Checked by Prefabricator",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Bar Size(s) Checked & Approved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "461cfff8-2d7b-5882-b440-943dca55a5b8": {
+              "title": "Checked by Prefabricator",
+              "type": "boolean",
+              "order": 0
+            },
+            "5d1fa824-c207-5042-a9c7-3fe9f5a3032e": {
+              "title": "Checked by Steel & Tube Checker",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Bar Spacings Checked & Approved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "4582a3a0-ef72-5611-9e7b-c1c775bb3a02": {
+              "title": "Checked by Prefabricator",
+              "type": "boolean",
+              "order": 0
+            },
+            "1d342b99-fdf6-56b6-8b4f-c7200c61c2cd": {
+              "title": "Checked by Steel & Tube Checker",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Spiral Spacings Checked & Approved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "bc61fdc6-bcb7-5e68-9056-4ab437d9a367": {
+              "title": "Checked by Prefabricator",
+              "type": "boolean",
+              "order": 0
+            },
+            "f7642043-194e-52c2-80e3-d419d41166ae": {
+              "title": "Checked by Steel & Tube Checker",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "ALL Dimensions Checked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "7ee0d733-51ff-5281-a17e-150e310dec11": {
+              "title": "Checked by Prefabricator",
+              "type": "boolean",
+              "order": 0
+            },
+            "33380def-e987-5016-95aa-820eaf1e055b": {
+              "title": "Checked by Steel & Tube Checker",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Adequate Bracing (if required for handling/transport",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "1298068e-4426-5152-84d6-1748d2987690": {
+              "title": "Checked by Steel & Tube Checker",
+              "type": "boolean",
+              "order": 1
+            },
+            "ed35dae6-de61-5e22-953c-4e696766271f": {
+              "title": "Checked by Prefabricator",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Lap Lengths Checked & Approved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Welding QA Checks",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "0548131c-1e1c-5a8e-b341-83ac3252fa0e": {
+              "postfix": "If yes, add documents",
+              "title": "Approved Methodology/Procedures in place",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Preparation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Welding Procedures",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "b305ea33-9fc4-528f-a6d4-ed8c376cb432": {
+              "title": "Checked by Welder",
+              "type": "boolean",
+              "order": 0
+            },
+            "dbfa00a4-d7c0-545d-b251-a3bac9792366": {
+              "title": "Checked by Steel & Tube Checker",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Prepwork according to specification",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre Testing",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Welding testing required",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Testing Procedures",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "bcd89e80-64fd-581f-be9f-ab906e989f1f": {
+              "title": "Welding Inspection Date:",
+              "type": "input",
+              "subtype": "date",
+              "order": 4
+            },
+            "05513760-b1a1-5443-b6f9-f60c50d80394": {
+              "title": "Who will perform NDT",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Client",
+                " 3rd Party"
+              ],
+              "order": 0
+            },
+            "5aebb10c-2617-559e-a948-1e8453a6fbf5": {
+              "title": "Welding Inspection By:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "65e9b3b1-11fd-54d7-814f-34c7de2eec4b": {
+              "postfix": "If yes, add documents",
+              "title": "NDT Standards to be used",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 2
+            },
+            "745bbfe4-62c0-5285-b39b-76ee9ee082c1": {
+              "title": "Inspection Report",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "d70ab703-8069-5371-aa37-053ae12226f7": {
+              "postfix": "If yes, add documents",
+              "title": "Procedures for each NDT Activity",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Non Destructive Test",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Area completed as per required specifications, attached min 4 photos for reference",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "NDT - Non Destructive Test",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "d63a68b1-2673-52a9-991e-f41fd2295fe7": {
+              "postfix": "If yes, add documents",
+              "title": "Procedures for each MPI Activity",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 1
+            },
+            "909b6578-f26e-5b77-ba2d-4980251731db": {
+              "title": "Welding Inspection By:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "a9d839b5-050c-59a3-8ab3-dd4768f298fa": {
+              "postfix": "If yes, add documents",
+              "title": "MPI Standards to be used",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 2
+            },
+            "0473f39a-b77d-5957-8d29-2ba0cb702758": {
+              "title": "Welding Inspection Date:",
+              "type": "input",
+              "subtype": "date",
+              "order": 4
+            },
+            "95140289-6327-5e32-af23-aae858813b86": {
+              "title": "Who will perform MPI",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Client",
+                " 3rd Party"
+              ],
+              "order": 0
+            },
+            "7941c9d7-58f3-51a8-ad3e-994c2ae4f210": {
+              "title": "Inspection Report",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "Magnetic Particle Inspection",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Area completed as per required specifications, attached min 4 photos for reference",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "MPI - Magnetic Particle Inspection",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "f99fc5de-d173-5474-8750-a54d695afb85": {
+              "title": "Who will perform LPT",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Client",
+                " 3rd Party"
+              ],
+              "order": 0
+            },
+            "05d8d565-f878-5361-a8df-26a9c69b6c11": {
+              "postfix": "If yes, add documents",
+              "title": "Procedures for each LPT Activity",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 1
+            },
+            "ae65ef63-72f6-59c2-a580-f4c02b809d95": {
+              "title": "Inspection Report",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "a58e7ca5-89ef-58d9-b8a7-0915eb34838d": {
+              "title": "Welding Inspection Date:",
+              "type": "input",
+              "subtype": "date",
+              "order": 4
+            },
+            "871191d5-13bd-56aa-9a9a-ccb64049d4c8": {
+              "postfix": "If yes, add documents",
+              "title": "LPT Standards to be used",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 2
+            },
+            "aa82f990-57f7-5d3a-87b4-b2186e46c27a": {
+              "title": "Welding Inspection By:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "Liquid Penetrant Test",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Area completed as per required specifications, attached min 4 photos for reference",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "LPT - Liquid Penetrant Test",
+        "dependant": true,
+        "type": "step",
+        "order": 6
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "9ea5c9e3-80c7-5ec2-9c69-0c18de367078": {
+              "postfix": "If yes, add documents",
+              "title": "Procedures for each EcT Activity",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 1
+            },
+            "a5675254-041d-5d61-8f9a-ed61c6f7b153": {
+              "title": "Welding Inspection By:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "fad77481-9ed3-599e-b269-a0d0f3bd65a0": {
+              "title": "Welding Inspection Date:",
+              "type": "input",
+              "subtype": "date",
+              "order": 4
+            },
+            "229179c6-9ecb-5f3f-992a-362afebf7f24": {
+              "title": "Who will perform EcT",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Client",
+                " 3rd Party"
+              ],
+              "order": 0
+            },
+            "a8b65f4d-f706-5852-9aa8-662c753eb56e": {
+              "title": "Inspection Report",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "eb27f3d9-ed3e-52c0-af12-45351de62143": {
+              "postfix": "If yes, add documents",
+              "title": "EcT Standards to be used",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Eddy-current Test",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Area completed as per required specifications, attached min 4 photos for reference",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "ECT - Eddy-current Test",
+        "dependant": true,
+        "type": "step",
+        "order": 7
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "f3be8881-8140-5865-82eb-ed6761865796": {
+              "title": "Any other requirements",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 3
+            },
+            "4adfe140-3d2c-54af-8452-b80e198b25c0": {
+              "title": "Are Qualification records available",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 4
+            },
+            "71161af8-bec0-56c9-8c91-4bc2f03945fc": {
+              "title": "Add documentation",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "80550041-dca4-5c65-a5c5-e35337870be5": {
+              "title": "Acceptance Standards",
+              "type": "boolean",
+              "order": 1
+            },
+            "8c79aac7-77b1-532d-b8d5-6d6a1baa6fb5": {
+              "title": "How will WPS be Qualified",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Client approval",
+                " 3rd Party approval"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "WPS",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "WPS Qualification",
+        "dependant": true,
+        "type": "step",
+        "order": 8
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Request fabricator Signoff",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Area left clean, neat and tidy",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Request Contractor Acceptance",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Area completed as per required specifications, attached min 4 photos for reference",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Signature Request",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Signature Required",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Handover",
+        "dependant": true,
+        "type": "step",
+        "order": 9
+      }
+    },
+    {
+      "tree": [],
+      "data": {},
+      "meta": {
+        "name": "Observations",
+        "dependant": true,
+        "type": "step",
+        "permissions": {
+          "addStep": true,
+          "addPost": false
+        },
+        "order": 10,
+        "display": "normal"
+      }
+    }
+  ],
+  "meta": {
+    "name": "Welding -",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
