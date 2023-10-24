@@ -1,0 +1,547 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "b034e671-5464-480c-b898-4c0b89db9eb5",
+            "display": "normal",
+            "name": "Insulation Damage",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "13a23277-0fe8-4374-aaef-aa7b3bdea9b0",
+            "display": "normal",
+            "name": "Correct Type of Termination",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "7d2acd0a-24f3-41f1-8549-e0698682b9c2",
+            "display": "normal",
+            "name": "Correct Colour Code",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "templateReference": "2b157562-56a6-401e-8bcc-9ec02d6a4f20",
+                "display": "flat",
+                "name": "Checked By (Heyday):",
+                "dependant": true,
+                "signoffs": true,
+                "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "4919545e-b812-4b77-8115-4ff5721c7d27",
+            "display": "normal",
+            "name": "Correct Outlet Rating and Size",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "templateReference": "9651f89d-30c2-4e7a-bcfc-71e3f432b905",
+                "display": "flat",
+                "name": "Checked By (Heyday):",
+                "dependant": true,
+                "signoffs": true,
+                "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "e48a685a-85d6-54ef-b8a5-009f1248d667": {
+              "title": "Resistance (Ω)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "c60c77ee-1713-51d3-a35f-5f17b87af27b": {
+              "title": "Target Resistance (Ω)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "8e34e536-54ec-4939-8934-3f3d3f7f4d4a",
+            "display": "normal",
+            "name": "Earth Continuity",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 4
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "templateReference": "7e72d887-01d0-4b08-807c-8f60e783ce6c",
+                "display": "flat",
+                "name": "Checked By (Heyday):",
+                "dependant": true,
+                "signoffs": true,
+                "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "26306414-0fa5-5acb-b63b-66c528b70448": {
+              "title": "Switch in Active",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "YES",
+                "NO"
+              ],
+              "order": 1
+            },
+            "6cc45da1-047c-5b14-889c-43bb3bc119b7": {
+              "title": "No Transposition",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "YES",
+                "NO"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "25bc796b-0c2c-4d75-b91c-136cda9c846e",
+            "display": "normal",
+            "name": "Polarity Check",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "22ad59a6-cf64-407d-8f90-5890e12e2bfe",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-requisite Works",
+        "dependant": true,
+        "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "9a5cb2d1-5579-5a1d-9b00-9e4805b0f7da": {
+              "title": "Insulation Resistance shall not be less than 1MΩ (Tested at 250VDC/500VDC)",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                ">200MΩ",
+                ">500MΩ",
+                "N/A"
+              ],
+              "order": 0
+            },
+            "83ef69cd-1925-58cc-9adc-7a97c9360e5b": {
+              "title": "Actual Reading if <200MΩ/<500MΩ",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "5ee7f7ee-54b7-45c5-b7e2-fe4ee37eba30",
+            "display": "normal",
+            "name": "R-W",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "2f711467-3548-5a70-a738-dbe6cf167542": {
+              "title": "Insulation Resistance shall not be less than 1MΩ (Tested at 250VDC/500VDC)",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                ">200MΩ",
+                ">500MΩ",
+                "N/A"
+              ],
+              "order": 0
+            },
+            "a9de846a-1cbb-541d-bedc-8a41e4f24ce2": {
+              "title": "Actual Reading if <200MΩ/<500MΩ",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "3dea09e1-3881-45ef-a781-85a5a88bdc6a",
+            "display": "normal",
+            "name": "R-B",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "12bdb9a2-bf23-546e-a4ec-6cf6665c5f2e": {
+              "title": "Actual Reading if <200MΩ/<500MΩ",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "d41ed56f-5193-5bba-93eb-44438fc6873d": {
+              "title": "Insulation Resistance shall not be less than 1MΩ (Tested at 250VDC/500VDC)",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                ">200MΩ",
+                ">500MΩ",
+                "N/A"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "2eb786e6-ef15-4e2b-97b7-eecdb2e097a7",
+            "display": "normal",
+            "name": "W-B",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "f05704aa-afd2-5e64-9910-56add5f5e59d": {
+              "title": "Insulation Resistance shall not be less than 1MΩ (Tested at 250VDC/500VDC)",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                ">200MΩ",
+                ">500MΩ",
+                "N/A"
+              ],
+              "order": 0
+            },
+            "707778f0-646b-5a67-906a-34920889dd38": {
+              "title": "Actual Reading if <200MΩ/<500MΩ",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "4ea2dc4b-195a-4c12-9876-230d5ac2040c",
+            "display": "normal",
+            "name": "R-N",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "9c6102a6-6af6-582f-b34c-d0eb93785a4f": {
+              "title": "Insulation Resistance shall not be less than 1MΩ (Tested at 250VDC/500VDC)",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                ">200MΩ",
+                ">500MΩ",
+                "N/A"
+              ],
+              "order": 0
+            },
+            "b720d213-3f51-53b6-a5a5-14d9b877255c": {
+              "title": "Actual Reading if <200MΩ/<500MΩ",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "ec507b52-7f69-4bbc-b10d-2c56e359c3bb",
+            "display": "normal",
+            "name": "W-N",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "a2c3311f-319b-5340-a658-d46d17c2bd77": {
+              "title": "Insulation Resistance shall not be less than 1MΩ (Tested at 250VDC/500VDC)",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                ">200MΩ",
+                ">500MΩ",
+                "N/A"
+              ],
+              "order": 0
+            },
+            "4877c8c8-eef6-5ecd-8bfb-b83bbd4b904a": {
+              "title": "Actual Reading if <200MΩ/<500MΩ",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "3ff57f6f-7d61-4328-ae9a-889cc6d2ee6c",
+            "display": "normal",
+            "name": "B-N",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "ccbea4e6-80ce-5526-a285-93b56c1384df": {
+              "title": "Insulation Resistance shall not be less than 1MΩ (Tested at 250VDC/500VDC)",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                ">200MΩ",
+                ">500MΩ",
+                "N/A"
+              ],
+              "order": 0
+            },
+            "96871594-a87a-5d28-8a5b-cfc2b9dc9d0b": {
+              "title": "Actual Reading if <200MΩ/<500MΩ",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "cac2b1f3-b411-4ec9-8814-87c194603224",
+            "display": "normal",
+            "name": "R-E",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "8965c822-04f9-55cf-951f-5ba61123f22c": {
+              "title": "Insulation Resistance shall not be less than 1MΩ (Tested at 250VDC/500VDC)",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                ">200MΩ",
+                ">500MΩ",
+                "N/A"
+              ],
+              "order": 0
+            },
+            "0d686dc2-1a52-5be8-b36d-6909a37f2c4f": {
+              "title": "Actual Reading if <200MΩ/<500MΩ",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "3ffd3ec4-dbde-4082-b569-5d08acbec281",
+            "display": "normal",
+            "name": "W-E",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "213182a6-0653-5767-9dc0-31a947da6ceb": {
+              "title": "Actual Reading if <200MΩ/<500MΩ",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "820de140-0575-5936-9d37-3b64d320489a": {
+              "title": "Insulation Resistance shall not be less than 1MΩ (Tested at 250VDC/500VDC)",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                ">200MΩ",
+                ">500MΩ",
+                "N/A"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "e9083a50-4c3b-4382-9700-a8de9e654525",
+            "display": "normal",
+            "name": "B-E",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 8
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "templateReference": "101aba1c-8202-4327-9a19-cdc1f43535a6",
+                "display": "flat",
+                "name": "Checked By (Heyday):",
+                "dependant": true,
+                "signoffs": true,
+                "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "5be7cda6-dacf-5b45-9a4c-09f61f5c2f3b": {
+              "title": "Insulation Resistance shall not be less than 1MΩ (Tested at 250VDC/500VDC)",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                ">200MΩ",
+                ">500MΩ",
+                "N/A"
+              ],
+              "order": 0
+            },
+            "4e5f42a4-56dd-5ff3-ac48-cc3a42e72347": {
+              "title": "Actual Reading if <200MΩ/<500MΩ",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "e64ac7ba-1607-4ff5-8cb6-d0567d4db251",
+            "display": "normal",
+            "name": "N-E",
+            "dependant": false,
+            "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+            "type": "step",
+            "order": 9
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "d305aeea-8fea-4098-a7dc-afe9deff4cac",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Insulation Resistance",
+        "dependant": true,
+        "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "templateReference": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "Subcircuits (Pre-Energisation)",
+    "dependant": true,
+    "templateId": "8007dcfc-3ab6-4e51-b178-76b596a74764",
+    "type": "step"
+  }
+}
