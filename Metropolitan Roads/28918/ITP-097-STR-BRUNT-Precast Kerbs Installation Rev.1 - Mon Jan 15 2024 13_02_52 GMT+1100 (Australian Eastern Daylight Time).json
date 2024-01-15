@@ -1,0 +1,88 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Sign ITP",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "9b2b0748-88c1-525e-83d5-0cf07d861d41": {
+              "title": "Position:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "ea39fa9b-56af-5f87-8244-7e99395114f6": {
+              "title": "On behalf of Metropolitan Roads Program Alliance, it is hereby certified that the Works represented by the item of work listed have been tested in accordance with the Project Quality Plan and conform in all respects with the requirements of the Contract.",
+              "type": "label",
+              "order": 0
+            },
+            "dac3ea14-5e25-5986-89d1-91cdaf6b09e2": {
+              "title": "FH Environmental Team",
+              "type": "label",
+              "order": 1
+            },
+            "c50704af-c1f2-58df-8925-cf9ce268fb1d": {
+              "title": "Name:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "134986e4-3b0d-5b80-b1c3-fa380cd97557": {
+              "title": "Date Completed:",
+              "type": "input",
+              "subtype": "date",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "Final Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "6. Post-installation Activities",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "ITP-097-STR-BRUNT-Precast Kerbs Installation Rev.1",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}
