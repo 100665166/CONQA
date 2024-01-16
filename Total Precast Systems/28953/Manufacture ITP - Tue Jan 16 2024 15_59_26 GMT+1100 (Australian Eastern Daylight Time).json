@@ -1,0 +1,701 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Internal set out - Rebates",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Internal set out - Far Side Ferrules",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Internal set out - Vertical Joint",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Internal set out - Horizontal Joint",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Internal set out - Penos",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Panel ID Tag fitted",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Formwork Set Out",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "e7bbbe3d-0d64-5482-9235-a702823b0270": {
+              "title": "Dimensions",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "da830005-91c0-5a7d-b695-3fa9708cc132": {
+              "title": "Stability",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Formwork",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "0e4d3189-5eda-5f76-8be8-67efba877e51": {
+              "title": "Penetrations",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "bff4de33-f799-5686-b44d-405d0a61f87a": {
+              "title": "Details",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Panel edge",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "dd02f5fa-61ba-5f20-bf64-ce11f0f88248": {
+              "title": "Location",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "0c83d9ac-c8c7-5f86-ba27-403c529fe550": {
+              "title": "Fixing",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "402b1c00-53f5-5069-b828-c55bf6c9627c": {
+              "title": "Sizes",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Reinforcement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "ec7c4d75-9705-5b46-b76c-a42a8bf22b38": {
+              "title": "Type",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "af10a275-cdcb-5676-8786-a4510aa8b245": {
+              "title": "Location",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Lifters",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "4c14e2b0-f98a-5bae-8149-f8c39ba3d3d8": {
+              "title": "Location",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "3b3733a9-3058-574f-bb21-9f1bae776b6b": {
+              "title": "Type",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Grout Tubes",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "4fbe82dc-6026-520c-b2fd-1065f42a2bb0": {
+              "title": "Type",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "db7b1ac6-ddf0-50d9-b4ab-2ef6dd9a6ad3": {
+              "title": "Location",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Connectors",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "a0306ba5-a84c-5caf-bc7b-9007a41be313": {
+              "title": "Type",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "e5f94f3b-1fee-529a-a2af-f4ce9d265fdd": {
+              "title": "Location",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Other ferrules",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "d475ada6-801c-5673-b2cc-6510d7b396c9": {
+              "title": "Type",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "a6063623-b1be-53fe-9499-99b57059403b": {
+              "title": "Location",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Other Inserts",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Cover Check",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-Pour Inspection",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "ed5a4b00-35f9-5719-9ecf-4bd0b0065179": {
+              "title": "Docket No:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "a7528cc8-9d9f-5dd4-b0f8-f716b950e7a9": {
+              "title": "Time:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "7d123380-af05-5264-998a-a7259fe1e116": {
+              "title": "Finished By:",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "7b5f16aa-42df-5c9b-a198-120b2dd25764": {
+              "title": "Water:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "0e6ede77-6d19-5d86-8934-060cefad53ad": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "9b1ce40d-ddfc-538e-ad09-602d597b038a": {
+              "title": "Placed By:",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "d79ae53b-c2ad-5b83-8dc2-0a4b35fabfe9": {
+              "title": "Air Temp:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Test",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Panel Stripped - Grout tubes cleared",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Panel Stripped - Lifters cleared & clutch tested",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pour",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "cb3cc01c-e111-59a8-b00c-3dd54af023d4": {
+              "title": "Crane or Forklift",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Crane",
+                " Forklift"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Attach any relevant documents or photos",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Removed from mould",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "All perimeter dimensions",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Square check",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "All penetration dimensions",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Rebates",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Top lifters",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Side lifters",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Propoints",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Grout tube location",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Ferrules checked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Ferrules cleared with tap & spray",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "All arisis rubbed smooth",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "9a5e6946-a0e4-5070-82ef-95e4a5ea1fb8": {
+              "title": "Patching to trowel face: Patch type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1",
+                "2",
+                "3",
+                "5"
+              ],
+              "order": 1
+            },
+            "cde21ae6-e30d-5f48-8855-351d487e3851": {
+              "title": "Patching to edges: Patch type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "order": 0
+            },
+            "e772dfb9-df39-55ba-baf0-4d08de51a097": {
+              "title": "Patching to table face: Patch type",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "1",
+                "2",
+                "3",
+                "6"
+              ],
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Grout tube fill points cleared",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 11
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "c16e7b16-1fc6-525e-8bcc-bc763cfa2a38": {
+              "title": "Rack No.",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "b071df80-36cf-53ac-b6e7-2d3299f77766": {
+              "title": "Crane",
+              "type": "boolean",
+              "order": 1
+            },
+            "26bdaafa-886e-5b57-857f-d977afb5e457": {
+              "title": "Forklift",
+              "type": "boolean",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Panel Racked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 12
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Signed By",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Completed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 13
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "As Built Panel Inspection",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "name": "Manufacture ITP",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
