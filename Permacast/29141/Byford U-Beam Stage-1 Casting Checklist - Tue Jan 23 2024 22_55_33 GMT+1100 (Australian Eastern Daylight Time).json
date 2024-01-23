@@ -1,0 +1,1530 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "75a33415-823d-5126-accd-f72809d0c49b": {
+              "title": "Beam Number and Orientation",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "4c40ea98-703e-5a88-971d-0e5838a1947d": {
+              "title": "Strand Arrangement Type",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "680f5732-e19a-5002-9534-d84f51fa7bb4": {
+              "title": "End Diaphragm",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "84eac92c-86ff-5566-8337-b87e1ef14eb6": {
+              "title": "Cast Number",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Details",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Shop Drawings approved for Works",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "a6c4756d-8491-5a2c-8fef-c5154dc5f7f7": {
+              "title": "Height",
+              "type": "label",
+              "order": 2
+            },
+            "680f89df-1b74-5e63-9f59-f8799a7ad308": {
+              "title": "Length",
+              "type": "label",
+              "order": 0
+            },
+            "b51604f1-02a2-5440-83f1-3d0aeb55bde2": {
+              "title": "Cross-section",
+              "type": "label",
+              "order": 4
+            },
+            "7194fabe-f0ee-5be9-8f99-a7423d45323e": {
+              "title": "Straightness",
+              "type": "label",
+              "order": 3
+            },
+            "3c33b51a-3cbc-50f3-93eb-6c7590cae521": {
+              "title": "Width",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Mould Dimensions are within Shop Drawings Tolerance",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "1bfc6f7b-aae5-5e2e-9088-c8d6b4de8a9e": {
+              "title": "Cleaned",
+              "type": "label",
+              "order": 0
+            },
+            "94f4d1ab-6d65-5851-892b-115f1e586c1a": {
+              "title": "Sealed",
+              "type": "label",
+              "order": 1
+            },
+            "b2e0da86-c42e-56d1-9030-39bacada7fb4": {
+              "title": "Oiled",
+              "type": "label",
+              "order": 3
+            },
+            "0b367e3c-bf5a-5ee0-8368-658cbcf44ff3": {
+              "title": "Rubbers in Place",
+              "type": "label",
+              "order": 2
+            },
+            "97e29f26-b5d6-55ea-9ddd-bd6e9e88e3e3": {
+              "title": "Chamfers in Place",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "Mould Surface Checked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "8315cd7f-ce76-5a99-b36c-5a7f0fdf2c97": {
+              "title": "Splicing",
+              "type": "label",
+              "order": 2
+            },
+            "db0fffd1-8336-5af1-9463-af8265ed743d": {
+              "title": "Bar Chairs",
+              "type": "label",
+              "order": 3
+            },
+            "49b53a33-9b54-5098-917e-55cdba66c91e": {
+              "title": "Reinforcement bars with couplers",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "6f5d001f-932f-5ae7-8115-3ad8bbbb8098": {
+              "title": "Lap Length",
+              "type": "label",
+              "order": 1
+            },
+            "b476357f-248b-5b10-abc1-d42d03816a8e": {
+              "title": "Reinforcement size",
+              "type": "label",
+              "order": 0
+            },
+            "80919775-87b1-590c-9ca3-d4cb161e9e60": {
+              "title": "Reinforcement around lifting loops",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "Reinforcement in Accordance with Drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Detailed inspection of Mould and cage",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Cover maintained and within tolerance",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "8685bdbd-bb9e-5e95-8334-dce0cbc1386a": {
+              "title": "Ferrules (Other type, specify)",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "45645bb9-a703-58c4-8d0e-65d8bd2296ca": {
+              "title": "Ferrules M16x70 (Web, Laingorourke Formwork)",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "5e2a1847-41d2-530b-9fa9-4cf64e68df9a": {
+              "title": "Ferrules KSN16M (Web)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "e9ada671-1b5b-58a4-a99e-f530176c0cc3": {
+              "title": "Ferrules M20x96 (Bottom Flange)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "75fc6791-ed0c-5a86-a260-96a9d7622c35": {
+              "postfix": "Size not confirmed",
+              "title": "Ferrules M16x45 (Ladder)",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "All Stainless Steel Ferrules are installed in accordance with Drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5f80c6de-b98e-53ff-ba1d-8ad3d9a53f6a": {
+              "title": "Other type, specify",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "All Stainless Items are installed in accordance with Drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "21d53c60-f325-5c19-9fe0-fa15ad759824": {
+              "title": "20NB PVC Pipe",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "All Blockout Conduits are installed in accordance with Drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "2b55e49e-5a59-584c-8811-9b25b6343349": {
+              "title": "Lifting Hoops",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "All Lifting Inserts are installed in accordance with Drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "c700dabb-ef68-5077-88f3-67d5d942f34e": {
+              "title": "BPB28",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "b5aee04a-e510-5aee-9709-21141122f742": {
+              "title": "BPB36",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "ed98930b-1a7c-53c3-9ee5-3e79aeb82fb2": {
+              "title": "BPB20",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "All Bartek Couplers are installed in accordance with Drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 11
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "cc0e0ef4-342e-58b4-b477-05411c0d50d8": {
+              "title": "LENTON EL20A12",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "All LENTON Couplers are installed in accordance with Drawings and staggered with KSN16M in web",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 12
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "bb71e454-6a7e-571a-af19-a0aa625a7ff1": {
+              "title": "Specify Bearing plate Size/Type",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "All Bearing plates in Diaphragms are installed as per drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 13
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "abb17c43-bb30-581a-8764-791d88ae9397": {
+              "title": "<20 mOhm across cage Length",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "03f2c87f-f42e-50ea-ae46-4819f1f74dbb": {
+              "title": "Earthing Terminals (FDB-16)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "88a643de-b2ad-5b34-bb61-f01864ddd335": {
+              "title": "Checklist Completed (attach results)",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "a767f51c-e95d-5a15-a991-a3ecd21931cb": {
+              "title": "100mm long 6mm fillet welds between bars/ 55mm long butt welds",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Earthing and Bonding is installed in accordance with Drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 14
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "4966043b-97c1-5923-889b-a979f69eddae": {
+              "title": "Coil Number Used for this Cast",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "de160996-9edb-59e3-a614-d4537ec95dd6": {
+              "title": "Multi-Stress as per Pre-stressing Procedures",
+              "type": "label",
+              "order": 4
+            },
+            "afab0b2f-1cd4-56d8-ab47-1ce1d55163de": {
+              "title": "Strands arrangements verified",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "fce23d34-bfc8-5931-bc15-396166fe50f1": {
+              "title": "Dia and No. of strands",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "4f01fd3d-2e5f-58d3-a45c-bacce9f5c9c8": {
+              "title": "Sag Load all Strands",
+              "type": "label",
+              "order": 3
+            },
+            "46296c35-9e45-5fac-8a30-a7879817b087": {
+              "title": "Verify debonding strands if any",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "Prestressing Strands",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 15
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "HOLD POINT FOR CLIENT TO SIGN OFF",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "name": "Stressing Records subject to Client Review",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 16
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "11270652-5c46-5496-960d-62f8e87a5af7": {
+              "title": "Ensure All temperature Loggers are Working (Check Maturix)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "All Temperature Loggers are installed as per Approved WMS",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 17
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "All Cooling tubes installed as per drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 18
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "816660b8-2669-5678-a1f2-9f6f5d3f2be7": {
+              "title": "Tubs are tightened and positioned correctly",
+              "type": "label",
+              "order": 0
+            },
+            "62294d53-0f5e-5084-a28e-af2a8444db2f": {
+              "title": "All feet for tubs resting on mould & bolted down",
+              "type": "label",
+              "order": 4
+            },
+            "dbc035e3-e77a-527a-9838-af412f46e224": {
+              "title": "All Sliding arms are locked in position",
+              "type": "label",
+              "order": 1
+            },
+            "50a4732b-f130-5d16-9374-980e801e00b4": {
+              "title": "All accrow props are locked in position",
+              "type": "label",
+              "order": 2
+            },
+            "14f3bf7d-041f-57e4-8c12-b5d81574ae58": {
+              "title": "Dimensions of Tub and Webb are correct",
+              "type": "label",
+              "order": 3
+            },
+            "a758a314-83ed-5e9c-b5e8-c4438ca441c2": {
+              "title": "Tubs have release agent",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "Installation of tubs",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 19
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "QA Engineer Check Completed by",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 20
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Client Inspector (if present)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 21
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-Pour Checklist",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Supervisor Release to Engineering Team",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Supervisor Release",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "06533039-ce09-58fb-9d67-4a1a88419714": {
+              "title": "Cast Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Casting Information",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "edb15e75-557c-552f-bdd8-bc51a1f190c8": {
+              "title": "Concrete Delivery Dockets (list all)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Concrete Delivery Dockets",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "4471e4f4-eb75-5de5-8a96-28f2d19a67b2": {
+              "title": "Volume (m3)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Total Concrete Volume",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "3c381e37-ec23-52a9-98d2-458a151f3da5": {
+              "title": "Specify mix used",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Mix Design Verified",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "f22424b4-83fe-57c1-9c5a-a1e8be3d4e0c": {
+              "title": "max 38°C",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Ambient Temperature within Limits",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "1f816455-4ea0-530a-a522-938704426215": {
+              "title": "max 32°C",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Concrete Temperature",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "ddeeae4d-65b5-5238-8db0-d3c954bf8722": {
+              "title": "Slump (list all)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Slump within Allowable Tolerance (180+/-40) (Tested 1st truck and subsequently for every 20m3)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "2cb7bd22-3a3b-5e2a-85bf-d6ff176e2ae1": {
+              "title": "Test Report Reference Number (list all)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Trucks Tested for strength",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Time Lag Between Trucks not exceeded 20 minutes",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Concrete Placed within allowable time from Batching Plant",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "No Free Fall During Pour (not more than 2 metres from ground)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Required Finish Applied as per Drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 11
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Retarders applied on Green Cut areas as shown in drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 12
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Concrete Covered Overnight",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 13
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Cylinders Stored next to Bed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 14
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Casting Checklist",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "5d5d3825-48cb-5137-8a1b-913727a9a156": {
+              "title": "Enter Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Date Stripped",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "b2f06dfb-0a24-5b8e-834c-f0845fd530af": {
+              "title": "Stripping strength 45.5MPa",
+              "type": "label",
+              "order": 1
+            },
+            "86a95e24-144f-554a-a852-cbf0778c2285": {
+              "title": "Conversion KN to MPa = Reading / 7.851",
+              "type": "label",
+              "order": 0
+            },
+            "61c985c8-560e-55c1-9375-a9a1e181026f": {
+              "title": "Stripping Strength (Stage-1 Casting)",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Concrete Cylinders Crushed and Checked for stripping strength",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "82bed7df-c8c4-594b-8379-cdb40b9ed36f": {
+              "title": "Destress at 45.5MPa",
+              "type": "label",
+              "order": 0
+            },
+            "8fc99148-2253-53c6-9364-d6f1a47d1eed": {
+              "title": "Specify Strength at time of destressing",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Verify Destressing/Transfer of stress required strength",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "c2002260-6794-5a8a-85b2-f3bdaafc0669": {
+              "title": "Lifting strength required for stage 1 casting - 40MPa",
+              "type": "label",
+              "order": 0
+            },
+            "0edb6e72-9025-5215-adb8-64d55f2d38fd": {
+              "title": "Specify strength at time of lifting",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Lifting Strength Achieved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "70e29e2c-bada-54fb-b525-34784d33223f": {
+              "title": "Mould and Steam Cured until the curing strength achieved",
+              "type": "label",
+              "order": 1
+            },
+            "3a2279aa-862d-54cf-972c-f3a24f8ff27b": {
+              "title": "45.5MPa - 70% of fc (Characteristic design strength 65MPa)",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Curing strength (Stage-1 Casting)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Lifted and Handled as per Drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Product Clearly Labelled",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Storage as per Approved Temporary Works Drawings",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "36ae9ce6-b2ae-5d21-8d9d-03c1d1889bd2": {
+              "title": "Temperature 5 degrees less than its peak value",
+              "type": "label",
+              "order": 0
+            },
+            "e7f352e5-4475-5356-8cbe-e9732c413159": {
+              "title": "Differential between Core and Cover within 25°C",
+              "type": "label",
+              "order": 3
+            },
+            "bf472b03-0cdd-51e3-95a8-72fb49a0b484": {
+              "title": "Max temperature does not exceed 70°C",
+              "type": "label",
+              "order": 1
+            },
+            "9020a31c-1699-5f14-8de5-0e965cb554b9": {
+              "title": "Differential between Core and Ambient within 30°C",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Secondary Curing as per Approved Methodology if required",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "3623ef49-bc71-5143-a19b-77b46e62a3fa": {
+              "title": "Length",
+              "type": "label",
+              "order": 0
+            },
+            "ebeb0b65-36f5-53ea-93de-bedcac9d8320": {
+              "title": "Width",
+              "type": "label",
+              "order": 1
+            },
+            "41fe9fd4-0604-5daa-b1fe-b7f247d63607": {
+              "title": "Straightness",
+              "type": "label",
+              "order": 3
+            },
+            "a7aae39a-4425-5218-b2f1-74a7fb644c6d": {
+              "title": "Height",
+              "type": "label",
+              "order": 2
+            },
+            "c17424ee-d019-552e-b666-96fb936eda3c": {
+              "title": "Cross-section",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "Product Dimensions Achieved and are within Specified Tolerance",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Specified Finish Achieved",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "3bc39844-eaf8-5b72-af90-3bd4206e9ca4": {
+              "title": "Couplers",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "9f60ae23-ea2a-5950-9617-bd7575abd6ff": {
+              "title": "Ferrules",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "39b376a6-f073-5359-9137-905dd42ae620": {
+              "title": "Blockouts",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "6e79de90-817f-537f-ac39-f47f454ba290": {
+              "title": "Stainless Items",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "666d9cb3-04f1-557f-812d-c116e0625b5e": {
+              "title": "Lifters",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "Cast-in Items are all in Place and within Specified Tolerance",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 11
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "787e9a74-5d8d-57ec-8927-fc4d1b197e65": {
+              "title": "Strands are Cut Flush and Epoxied except debonding strands",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "79303072-88ba-5e1d-b7ee-e9b30ee6ab98": {
+              "title": "Water Removed out of Cooling Pipes",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "ebf97a14-eb3b-50aa-bb4c-b1725eeed2cc": {
+              "title": "All Miscellaneous Items are Completed",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "8698f9e6-b507-5bf5-947d-42d9481f618f": {
+              "title": "Bottom surface clear from tie wire (Attach Pictures)",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "02502447-d30e-51b6-89fb-751c4fdc9a97": {
+              "title": "Roughened Surfaces are Greencut",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "b393264c-8248-5af0-8c80-89b93db73a8b": {
+              "title": "Couplers are Cleaned and Capped",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Post-Pour Works Completed (As Required)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 12
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "a49a273a-d8be-5e4e-be3d-46673489cd83": {
+              "title": "First Reading (Within 2 days of Stripping)",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "40b90e4d-e5f2-55fd-8945-130eb08b17a2": {
+              "title": "Third Reading (At 28 days after stage 1 casting)",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "552cd361-fbb9-5dfe-94a6-f95910f1d211": {
+              "title": "Second Reading (After casting stage 2 top slab and at least 7days after stage 1 casting)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "c8bce997-9181-56ff-ac96-2b314604cdcd": {
+              "title": "Final Reading (7 days prior to scheduled delivery)",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "Survey Hog of Beams (Dumpy)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 13
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Temperature Logging Completed and Conforming. Attach Results",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 14
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Stripping Checklist",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Punchlist Completed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Repairs Required (if applicable)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Repairs Completed as per approved WMS (if applicable)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Crack Map Completed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Any NCR Required (if applicable)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "NCR Approved by Client and Repairs Completed (if applicable)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Any Defect Identified",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "As-Built Drawings Completed, Stamped and Attached",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "As-Built Drawings",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "8a9a50ff-d4ac-58e1-8dc6-0c6d34fc25d6": {
+              "title": "Concrete Test Report",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "787cebda-6ab9-5fc2-9497-4450a4efbda7": {
+              "title": "28 Day Strength (List all)",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "ca1bcf36-7597-52c4-8784-5c1fdd1c1310": {
+              "title": "7 Day Strength (List all)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Concrete Strength Test Report Received",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Concrete Strength Test Report",
+        "dependant": true,
+        "type": "step",
+        "order": 6
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Certificate of Conformance",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Inspection Release Certificate",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Punchlist signed copy",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Delivery Notes",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Delivery Docket",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Transportation Requirements",
+        "dependant": true,
+        "type": "step",
+        "order": 7
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Completed by",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Reviewed by",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Client Representative (if applicable)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Final Acceptance",
+        "dependant": true,
+        "type": "step",
+        "order": 8
+      }
+    }
+  ],
+  "meta": {
+    "name": "Byford U-Beam Stage-1 Casting",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
