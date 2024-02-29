@@ -1,0 +1,61 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "41e15d1a-0d3c-5753-9ec3-9448b9ee7325": {
+          "title": "If variation/modification required, click FAIL and add Variation/Modification checklist",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Cladding has been installed correctly and is free from defects",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "8c6da18e-f0ee-5f01-bd29-3aa263c75b3e": {
+          "title": "Brackets installed with correct fixings",
+          "type": "label",
+          "order": 0
+        },
+        "b60faca2-0340-5d4a-8a1f-84a650277781": {
+          "title": "Cladding installed",
+          "type": "label",
+          "order": 1
+        },
+        "ee6e40f8-140b-5fc9-aa25-c905f66bf0b3": {
+          "title": "Cladding level and square",
+          "type": "label",
+          "order": 2
+        }
+      },
+      "meta": {
+        "name": "Cladding",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "name": "Cladding Completion",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}

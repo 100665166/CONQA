@@ -1,0 +1,162 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "6bd3b0e3-9e57-5918-8f87-086d287ea925": {
+          "title": "Window Wall",
+          "type": "boolean",
+          "order": 0
+        },
+        "14f5bd69-e4e9-5ada-a28b-6575f77d237a": {
+          "title": "Balustrade",
+          "type": "boolean",
+          "order": 1
+        },
+        "b8ddc6a2-9157-5656-b053-eb301c232f32": {
+          "title": "If variation/modification required, click FAIL and add Variation/Modification checklist",
+          "type": "label",
+          "order": 3
+        },
+        "ebc24c18-166d-5147-a0f8-a74a2f61da22": {
+          "title": "Sliding Door",
+          "type": "boolean",
+          "order": 2
+        }
+      },
+      "meta": {
+        "name": "Panel has been installed correctly and is free from defects",
+        "dependant": false,
+        "stepType": "checkpoint-status",
+        "type": "step",
+        "display": "normal",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "7efca9ab-e669-5f84-9b7f-d198f5ffb743": {
+          "title": "Window wall installed to grid and RL achieved",
+          "type": "label",
+          "order": 9
+        },
+        "c5096940-45b7-513d-9f39-e109445b59f9": {
+          "title": "Door position and alignment",
+          "type": "label",
+          "order": 3
+        },
+        "7f5e6ea1-48d0-5e12-a531-b22432aaa767": {
+          "title": "Swing door square and functional",
+          "type": "label",
+          "order": 4
+        },
+        "40c479e5-e7e2-5d94-90c0-09ef2586c9f0": {
+          "title": "Sliding door hardware",
+          "type": "label",
+          "order": 7
+        },
+        "d81c7f8c-57c9-56cd-a01c-8e850aa70876": {
+          "title": "Grids and RL's in place",
+          "type": "label",
+          "order": 0
+        },
+        "21f073cd-8020-518c-8db3-04cb9e1885cf": {
+          "title": "Swing door hardware installed",
+          "type": "label",
+          "order": 5
+        },
+        "6e944ab8-3bdb-56ec-aeba-92562d170484": {
+          "title": "Head bead installed",
+          "type": "label",
+          "order": 10
+        },
+        "06848655-ed2d-5649-8f71-77c134fdc245": {
+          "title": "Structural tolerance check",
+          "type": "label",
+          "order": 1
+        },
+        "e541c9bd-a032-5bcc-b2aa-3f32e1b47bf9": {
+          "title": "No damages / scratches",
+          "type": "label",
+          "order": 8
+        },
+        "3023863a-0f52-54df-b54a-accda1e8a1f9": {
+          "title": "Sliding doors operational",
+          "type": "label",
+          "order": 6
+        },
+        "146cabf0-6dcf-589c-b5a9-6661781dfd7f": {
+          "title": "Window position / alignment",
+          "type": "label",
+          "order": 2
+        },
+        "60553715-2917-5074-8a10-ede32ff620ec": {
+          "title": "Window wall panel square and set",
+          "type": "label",
+          "order": 11
+        }
+      },
+      "meta": {
+        "name": "Window Walls",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "313badfb-df0d-5925-a9ba-8274f5da5852": {
+          "title": "Screws and fixings in place",
+          "type": "label",
+          "order": 1
+        },
+        "5e00f80e-52e6-58cf-a3b6-a00efe40e451": {
+          "title": "Sub Frame/Stanchion/Bracket complete and caulked",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Balustrades",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "d01bf9fc-7ff6-5a40-855c-f70674d9d249": {
+          "title": "Sliding doors installed correctly and operational",
+          "type": "label",
+          "order": 0
+        }
+      },
+      "meta": {
+        "name": "Sliding Doors",
+        "dependant": true,
+        "stepType": "checkpoint-no-status",
+        "type": "step",
+        "display": "normal",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "name": "Panel Completion",
+    "dependant": true,
+    "stepType": "checklist-flat",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat"
+  }
+}
