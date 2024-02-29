@@ -1,0 +1,87 @@
+{
+  "tree": [],
+  "data": {
+    "7e86f849-51c3-5d1f-8067-3a60f759a264": {
+      "title": "Lot verified By",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "Babak Rudd-Project Quality Manager",
+        "Nicola Lodo (Area 2 Manager)",
+        " Nicolas Terpstra (Delivery Manager)",
+        "Other:"
+      ],
+      "order": 311
+    },
+    "95be6a48-168f-439f-9015-64b8156fa4ea": {
+      "type": "input",
+      "float": "left",
+      "title": "Other:",
+      "subtype": "text",
+      "order": 312
+    },
+    "ea6ba6f0-6088-58af-911b-e2521376a02c": {
+      "title": "Is the relevant RFI attached to the Lot?",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "YES",
+        " NO",
+        " N/A"
+      ],
+      "order": 308
+    },
+    "4d8f824f-9a68-55f0-a65f-755a899bff7d": {
+      "title": "Lot Closed On",
+      "type": "input",
+      "subtype": "text",
+      "order": 314
+    },
+    "da2a95d9-0410-555c-9d36-803f4866e864": {
+      "title": "Is the relevant NCR attached to the Lot?",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "YES",
+        " NO",
+        " N/A"
+      ],
+      "order": 309
+    },
+    "be4ab3ed-673d-53e9-99c4-dad81eadbd22": {
+      "title": "Are any relevant Mails/ Transmittals attached to the Lot?",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "YES",
+        " NO",
+        " N/A"
+      ],
+      "order": 310
+    },
+    "25dfa9ff-f90d-5687-bfc2-fba10d08e790": {
+      "title": "Lot Status",
+      "type": "enum",
+      "subtype": "select",
+      "values": [
+        "OUTSTANDING",
+        " CLOSED"
+      ],
+      "order": 313
+    },
+    "a47583af-7ffe-5672-aa8e-4d1c54142a71": {
+      "title": "comments",
+      "type": "input",
+      "subtype": "text",
+      "order": 315
+    }
+  },
+  "meta": {
+    "name": "Lot Verification.",
+    "dependant": false,
+    "stepType": "checkpoint-status",
+    "type": "step",
+    "display": "normal",
+    "order": 0
+  }
+}
