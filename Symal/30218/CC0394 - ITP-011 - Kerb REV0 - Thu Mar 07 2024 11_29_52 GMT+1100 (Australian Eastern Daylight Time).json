@@ -1,0 +1,502 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "3efbc0e7-3d5c-5e15-a1d8-e9f31764d729": {
+              "title": "NCR Raised Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "218666c2-27ba-502e-9cad-2c3bad812763": {
+              "title": "Lot Status",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Awaiting Hold Point Release",
+                " Awaiting NCR Closure",
+                " Awaiting Test Results",
+                " Awaiting Verification",
+                " Cancelled",
+                " Closed-out",
+                " Outstanding",
+                " Work In Progress"
+              ],
+              "order": 0
+            },
+            "33008354-9542-54d8-8706-063820a39c07": {
+              "title": "Lot opened date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "4c5c8cf6-caa0-5fe4-b6bf-4ce7a42d07a6": {
+              "title": "Lot opened by:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "cb21b33f-809a-51d7-bbf4-3c03ea3076d3": {
+              "title": "NCR raised?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 4
+            },
+            "c524888a-664f-582f-ba74-89f01fa78830": {
+              "title": "Date lot closed:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "a5f20f96-6cd2-5ca3-82f3-dd3c021d3477": {
+              "title": "Comments",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "0a017936-6f22-5b77-a33e-1e48b0456b1c": {
+              "title": "NCR closed?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 6
+            },
+            "1372566d-0ac5-5331-9193-b6df4e8ecf3a": {
+              "title": "NCR Closed Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "1633ecbd-1986-5a84-8245-2a6f49ec29a2": {
+              "title": "NCR Number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 8
+            }
+          },
+          "meta": {
+            "name": "Lot Conformance",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Lot Conformance.",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "0ae6d879-0ae1-5286-81bb-b2a75801a83a": {
+              "title": "Ref docs - IFC Drawings",
+              "type": "label",
+              "order": 0
+            },
+            "927beacf-0c07-518d-ada5-7ce49d6ca835": {
+              "title": "Resp - SE",
+              "type": "label",
+              "order": 4
+            },
+            "35863936-8604-5e6b-8120-4845cb85e794": {
+              "title": "Acceptance criteria - Prior to the commencement of works, the contractor shall engage a suitably qualified surveyor to set out the works and clearly mark its limits.",
+              "type": "label",
+              "order": 1
+            },
+            "abc86fe8-48cc-524d-8214-9cb8f8a3ab46": {
+              "title": "Key - W",
+              "type": "label",
+              "order": 3
+            },
+            "36c858ab-3aef-5d22-a709-2119c76a191e": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "26078f25-9f57-55ba-b62d-0e525c4aaeea": {
+              "title": "Work Lot Map",
+              "type": "boolean",
+              "order": 6
+            },
+            "c9957923-1178-591a-a41a-e29da33ed7e8": {
+              "title": "Remarks/record (e.g. Test frequency reports, certificates, checklist etc.) -",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "1.1 - Survey Set-out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "49c41681-404a-56dd-bba4-6ca212f9df95": {
+              "title": "Ref docs - IFC Drawings",
+              "type": "label",
+              "order": 0
+            },
+            "4481e486-9152-53d5-ad78-9d7bced254cc": {
+              "title": "Acceptance criteria -",
+              "type": "label",
+              "order": 1
+            },
+            "3b4af81c-52ce-5c6e-8e6f-fbbdf7c07a1d": {
+              "title": "Approved kerb mix:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "7633aa1c-2594-584f-b1f5-040956ecccba": {
+              "title": "Resp - SE",
+              "type": "label",
+              "order": 5
+            },
+            "03142c48-01bb-515d-9af0-9fbb6e3dbc3f": {
+              "title": "Acceptance",
+              "type": "label",
+              "order": 2
+            },
+            "5d1bd4e7-9dcc-5c4e-a64f-11eac0d74552": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "1.2 - Approved Material Type",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "53c2c47e-355d-59e6-81e6-b7556041d397": {
+              "title": "Ref docs - AS2876",
+              "type": "label",
+              "order": 0
+            },
+            "d051ef3c-824b-5a51-8f20-8d66e5f3702b": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 3
+            },
+            "2ee6adde-c78c-5f37-8ab0-e3f0ee19ec8e": {
+              "title": "○ Where edgings are not constructed over pavement layers, bedding shall be greater than 100mm compacted thickness.",
+              "type": "label",
+              "order": 2
+            },
+            "db75f9f2-6612-5071-9bea-dc20ada939aa": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 4
+            },
+            "013933fc-6ec8-598a-bcf2-d2297410e03b": {
+              "title": "Resp - SE",
+              "type": "label",
+              "order": 5
+            },
+            "13b31c32-eec0-5c9c-b7dc-92f29c542613": {
+              "title": "Acceptance criteria - Where kerb is constructed over pavement layers, bedding shall be provided between the pavement layer & the underside of the edging, or the edging thickened to match the pavement layer.",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "1.3 - Preparation of Bedding",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "789c82ec-323f-5dc3-9d10-e9399cb36e15": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 3
+            },
+            "dad0a39e-2262-5362-b56d-b3e5bd075ca2": {
+              "title": "Resp - SE",
+              "type": "label",
+              "order": 4
+            },
+            "e96201d9-3214-573a-b891-05563b986953": {
+              "title": "Acceptance criteria - Concrete shall not be mixed when the temperature is lower than 5⁰C or greater than 35⁰C.",
+              "type": "label",
+              "order": 1
+            },
+            "06096772-3cf5-5619-8b6e-9886b1161e25": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "2630eaa2-e72a-5bad-a028-b819a8e1f9e9": {
+              "title": "Ref docs - AS2876",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "1.4 - Air Temperature",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "1d13dab3-b156-54c9-b6a5-f5b5a44b37a1": {
+              "title": "○ Concrete shall be finished to ensure a smooth surface with a uniform colour & appearance, & screeded to achieve the specified level, dimensions, falls & tolerances.",
+              "type": "label",
+              "order": 2
+            },
+            "7e7d8020-1cdc-5608-a3e1-d9dc919d9060": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 3
+            },
+            "bc0f26c2-5584-520b-b0bf-e7d4c3e7ab8c": {
+              "title": "Resp - SE",
+              "type": "label",
+              "order": 5
+            },
+            "de757d1f-7d44-5c3e-a712-e62b6e281d59": {
+              "title": "Ref docs - AS3610 AS2876",
+              "type": "label",
+              "order": 0
+            },
+            "6b6ab994-342e-554e-9b12-f99916d6c1b2": {
+              "title": "Acceptance criteria - Concrete shall be thoroughly compacted by means of continuous tamping & internal vibration shall be worked around any embedment’s & into corners of formwork to produce a dense concrete free from voids, honeycombing, segregation, or surface defects.",
+              "type": "label",
+              "order": 1
+            },
+            "500df396-f791-52d5-b810-b7c9b8466110": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "1.5 - Concrete Placement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "ebf13f6b-3fe9-54cc-ad52-1c97b2029869": {
+              "title": "Resp - SE",
+              "type": "label",
+              "order": 6
+            },
+            "993425b7-1371-5c9c-b201-cd825ec9c568": {
+              "title": "Ref docs - AS3610 AS2876",
+              "type": "label",
+              "order": 0
+            },
+            "54fb89f2-8687-592c-a7e6-7d54e1bee095": {
+              "title": "Acceptance criteria - Transverse joints shall be constructed at regular intervals not exceeding 3m. For extruded edgings this shall be done by a method which does not damage or distort the adjacent surfaces.",
+              "type": "label",
+              "order": 1
+            },
+            "605f3fe8-313a-5dd0-9d21-acc787dc4597": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 4
+            },
+            "36636ede-8f00-5a5d-84b9-bb643e6de99b": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 5
+            },
+            "7a7c17c0-c366-5aca-bad3-5f06373d793a": {
+              "title": "○ 6mm saw cut joints within 24-72hrs post pour",
+              "type": "label",
+              "order": 2
+            },
+            "1cef008c-e77f-5762-b01e-bfb76c29c4cb": {
+              "title": "○ Sikaflex polyurethane joint sealant or equivalent used to fill saw cuts.",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "1.6 - Joints",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "6e926377-d864-594d-a0af-e92f657e695b": {
+              "title": "Ref docs - IFC Drawings",
+              "type": "label",
+              "order": 0
+            },
+            "1f22de03-75b1-5a57-9d73-e762c0fe8f12": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 5
+            },
+            "cdfcd75b-23ab-406c-a36e-d6cbdfad4619": {
+              "title": "○ As-built survey completed and As-built data attached to ITP",
+              "type": "label",
+              "order": 3
+            },
+            "ee7821e4-6360-5c7b-b186-129b1cebde04": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 4
+            },
+            "3956a781-879e-5070-beeb-1a0cf2d048e3": {
+              "title": "Resp - SE",
+              "type": "label",
+              "order": 6
+            },
+            "3cd62c15-f223-52c4-a389-236adca77f9a": {
+              "title": "Acceptance criteria - Correct kerb type installed as per IFC drawings.",
+              "type": "label",
+              "order": 1
+            },
+            "c0d83e38-00b9-58f5-94e9-ffb9bc10c719": {
+              "title": "○ Line & level confirmed at time of pour.",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "1.7 - Completion of Works",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "1.0",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "CC0394 - ITP-011 - Kerb",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}
