@@ -1,0 +1,38 @@
+{
+    "tree": [
+      {
+        "tree": [],
+        "meta": {
+          "name": "Cables for wall controllers are installed.",
+          "dependant": false,
+          "stepType": "checkpoint-status",
+          "type": "step",
+          "display": "normal",
+          "order": 0
+        }
+      },
+      {
+        "tree": [],
+        "meta": {
+          "name": "Penetrations in fire-rated (SOU) walls are sealed using an approved method.",
+          "dependant": false,
+          "stepType": "checkpoint-status",
+          "type": "step",
+          "display": "normal",
+          "order": 1
+        }
+      }
+    ],
+    "meta": {
+      "stepType": "checkpoint-group",
+      "permissions": {
+        "addStep": false,
+        "addPost": false
+      },
+      "display": "flat",
+      "name": "Walls:",
+      "dependant": true,
+      "type": "step",
+      "order": 1
+    }
+}

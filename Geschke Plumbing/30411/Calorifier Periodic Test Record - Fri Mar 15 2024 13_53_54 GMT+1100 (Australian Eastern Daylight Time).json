@@ -1,0 +1,172 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "data": {
+            "cde7680e-612a-54c8-bc92-c714902e5cda": {
+              "title": "Location:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "dba1c1fc-6d93-5043-a9d9-9a12062e21a9": {
+              "title": "Inspector:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "13950ba2-779b-5de9-afec-b96c073dff89": {
+              "title": "Year of Manufacturer:",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "4d261301-279f-5a1b-a15e-d0537ddfff4c": {
+              "title": "Date:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "3e3966d0-ceab-58d6-af96-ca4e44beaab2": {
+              "title": "Serial Number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "fa42814e-2a58-5250-bd7b-f83c714de0e0": {
+              "title": "Barcode:",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Details:",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "data": {
+            "d1b949ca-e98e-5951-8a2e-70fa0f1dc1b6": {
+              "title": "Are cassette/coil supplies fitted with test/drain points?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 1
+            },
+            "fdf27224-2f97-5fe5-a1f6-f61daf3880bf": {
+              "title": "Are inlet/outlet valves in good order, can the unit be isolated?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 2
+            },
+            "1ae4f71c-32f8-51de-9eb9-3da43543239d": {
+              "postfix": "kPa",
+              "title": "Confirm operating pressure through cassette (if possible)",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "f3b78c01-342b-59d5-a6cb-b64f2cb31fcd": {
+              "title": "Is the lagging in good condition?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 5
+            },
+            "506eb8f1-d709-57f6-89ba-7b0be67601f0": {
+              "title": "Observations:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "dcaec7d2-6049-5955-9043-d1404b59bff2": {
+              "title": "Confirm presence of back pressure through cassette (if possible)",
+              "type": "enum",
+              "subtype": "radio",
+              "values": [
+                "Yes",
+                "No",
+                "Unable to check"
+              ],
+              "order": 4
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Inspect Tank Connections for signs of wear, rust, corrosion - Inlet, Outlet, PTR, Drain, test/gauge point",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "data": {
+            "fbc91134-60ee-56b8-b7a9-dfd10b03580e": {
+              "title": "Observations:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "038ce57b-101f-5869-b805-0d1438c56502": {
+              "title": "Other Comments:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "tree": [],
+          "meta": {
+            "name": "Observations",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Details",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "Calorifier Periodic Test Record",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

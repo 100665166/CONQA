@@ -1,0 +1,60 @@
+{
+    "tree": [
+      {
+        "tree": [],
+        "meta": {
+          "name": "Drain has been tested for leakage.",
+          "dependant": false,
+          "stepType": "checkpoint-status",
+          "type": "step",
+          "display": "normal",
+          "order": 0
+        }
+      },
+      {
+        "tree": [],
+        "meta": {
+          "name": "Make sure the drain is fixed to the structure with an adequate fall to tundish.",
+          "dependant": false,
+          "stepType": "checkpoint-status",
+          "type": "step",
+          "display": "normal",
+          "order": 1
+        }
+      },
+      {
+        "tree": [],
+        "meta": {
+          "name": "Tundish is installed correctly.",
+          "dependant": false,
+          "stepType": "checkpoint-status",
+          "type": "step",
+          "display": "normal",
+          "order": 2
+        }
+      },
+      {
+        "tree": [],
+        "meta": {
+          "name": "Condensate drains are insulated for the first 1m length.",
+          "dependant": false,
+          "stepType": "checkpoint-status",
+          "type": "step",
+          "display": "normal",
+          "order": 3
+        }
+      }
+    ],
+    "meta": {
+      "stepType": "checkpoint-group",
+      "permissions": {
+        "addStep": false,
+        "addPost": false
+      },
+      "display": "flat",
+      "name": "Drain:",
+      "dependant": true,
+      "type": "step",
+      "order": 5
+    }
+}
