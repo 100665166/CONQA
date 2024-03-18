@@ -1,0 +1,609 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "144bc0cf-6ac2-529f-aeb8-b179ac77fc06": {
+              "title": "Cast Date",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "99d8af21-64dd-5f18-9072-0d007fa7a950": {
+              "title": "Enter Drawing Revision Number",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "16a7da93-6bcf-5272-88f3-abd2ed7a4bf0": {
+              "title": "Admixture Required",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "b4836dcb-3774-548b-a056-9e5a1a0bedd4": {
+              "title": "Concrete Strength",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "f6c682e7-7836-5603-8f1c-1db7d523537b": {
+              "title": "Concrete Volume",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "e9fa7135-ca54-4eee-b9cf-cd0222bbd7eb",
+            "display": "normal",
+            "name": "Concrete Details Complete",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "150d418a-0306-4576-92e3-b98562b1d7a7",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Precast Element Details",
+        "dependant": true,
+        "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "14867a0b-50a4-4189-80eb-c7f9f6f3cd1a",
+            "display": "normal",
+            "name": "Reinforcing details checked/highlighted off against shop drawing (Bar sizes, grades and spacings)",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "6b0ead97-aee9-4e5e-8a0e-4d9ea1ef4fc3",
+            "display": "normal",
+            "name": "Cast in Items coordinated and marked on cage (Dross Ducts, Inserts Weld Plates)",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "95be3891-78cd-4ee5-a9c2-34a098b3613c",
+            "display": "normal",
+            "name": "Overall cage dimensions in plan checked and there will be sufficent concrete cover to edges",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "3000ad9b-59e1-455b-9191-2eb998e18fb5",
+            "display": "normal",
+            "name": "Overall cage thickness checked and there will be sufficient cover to MF and TF",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "91b63a57-f2f1-443a-87d3-39951b4d115a",
+            "display": "normal",
+            "name": "There is sufficient cover to rebates around openings or weatherproofing details",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "b6be1ccd-a26a-403e-84cd-cffe77295c42",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Reinforcing Yard Checks",
+        "dependant": true,
+        "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "46b80d32-56f7-47d8-b0b3-184e1f5d8dfc",
+            "display": "normal",
+            "name": "Length/Width/Thickness/Cutouts/Diagonals",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "cd68ed2f-c6c4-4d08-a62f-44819ecc14bc",
+            "display": "normal",
+            "name": "Edge Details & Rebates",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "5fd46339-fa76-4ff7-ba6b-77b097d3ab45",
+            "display": "normal",
+            "name": "Inserts on MF (Weld plates, RB's, TIM's, Penetrations, DB Bottoms)",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "ef5a6a5a-baba-4028-ae86-ce4c936b2749",
+            "display": "normal",
+            "name": "MF roughening's",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "c30c2447-18e0-435f-8198-f62c68d51ed3",
+            "display": "normal",
+            "name": "Sides Straight & Magnets Fastened",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "b34a0ebe-6cf0-48ab-b397-7bf80351b3f6",
+            "display": "normal",
+            "name": "Mould Face Clean",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "96793282-78a7-47df-8ea7-274d2eaacb88",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Formwork Set Up Checks",
+        "dependant": true,
+        "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "26aa39ed-6e1d-4a89-8f50-e37dfa55ef7c",
+            "display": "normal",
+            "name": "Mould Cleaned & Oiled",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "e2a16b08-5a92-49c7-9acd-ce789f624ab5",
+            "display": "normal",
+            "name": "Check covers on all sides, MF and TF, openings",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "1adb7770-8781-480d-be0a-fdfffe20ee6d",
+            "display": "normal",
+            "name": "Starters (Size, Grade, Setout and Length)",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "205fc51b-924a-4787-b7c2-aba1e51d78d9",
+            "display": "normal",
+            "name": "Inserts on TF (Weld plates, RB's, TIM's, Penetrations, DB's, Rebates)",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "a5082184-78d3-49b2-8b51-3dfffc4cfca6",
+            "display": "normal",
+            "name": "Lifters",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "ed6f8a12-bc44-4ca3-804f-2f4f640dd007",
+            "display": "normal",
+            "name": "Tie wire Trimmed",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "8fadcc08-c318-4d9c-a1a0-66045cd8b266",
+            "display": "normal",
+            "name": "Panel fully clean",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "1ea68154-bf2c-414c-a3b6-7298a792f74e",
+            "display": "normal",
+            "name": "General Photos Attached",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "c07f8a24-1637-438e-a006-e193f868789e",
+            "display": "normal",
+            "name": "Concrete Docket Attached",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 8
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "a16081a4-639a-4879-80c8-3c82bd9ba07e",
+            "display": "normal",
+            "name": "Shop Drawing Checked Off (attach photo)",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 9
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "14d86442-9788-4f72-8cc7-c29d7a1c6dbf",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Prepour Checks",
+        "dependant": true,
+        "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "77e6891d-d01b-41f6-ac31-42950dee38c1",
+            "display": "normal",
+            "name": "Confirm formwork has not shifted during placing of concrete",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "563a2c07-366b-4b26-abd7-5c2dd61e4eba",
+            "display": "normal",
+            "name": "Face lifters placed in correct location",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "f33449ed-5710-4d19-88f5-dd2c1a94ff23",
+            "display": "normal",
+            "name": "Roughening Lines Correct",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "96c3473a-05cd-4c00-8a3c-c60e7893926c",
+            "display": "normal",
+            "name": "Ecotia2 Sealer AG Applied",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "bc6f0511-8b4b-4148-a1e0-55db4725cef6",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Post Pour",
+        "dependant": true,
+        "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "85d3228f-c615-4a37-bc15-cdcd93d1b390",
+            "display": "normal",
+            "name": "Demould Inspection complete",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "d9fd0bd9-a41a-4848-8b0f-5b80c9f5bbec",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Demould Inspection",
+        "dependant": true,
+        "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+        "type": "step",
+        "order": 5
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "b3224522-e9d6-413f-8bec-532013c48cb3",
+            "display": "normal",
+            "name": "Photo taken of Panel on Truck",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "bc981129-0f5d-4c15-9fe4-6578044baa95",
+            "display": "normal",
+            "name": "No remedial work required on site",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "1ac7df39-b0e2-47f7-bf67-380291fdea25",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Loading Out",
+        "dependant": true,
+        "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+        "type": "step",
+        "order": 6
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "ee10e996-9d09-4f54-951a-a1ccea6e8480",
+            "display": "normal",
+            "name": "Upload reinforcing detail sheets",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "90120410-5501-4854-9965-85c343e0fc83",
+            "display": "normal",
+            "name": "Upload Photo of Reinforcing Stock Bundle Tags (Cast # Tracking)",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "7deb5cba-6d88-4734-bd83-4eeb221d72b1",
+            "display": "normal",
+            "name": "Upload Concrete test results",
+            "dependant": false,
+            "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+            "type": "step",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "7e877226-431c-4527-828f-8e4a363f4830",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Test Results, Certificates and Documentation",
+        "dependant": true,
+        "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+        "type": "step",
+        "order": 7
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "templateReference": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "1. Standard",
+    "dependant": true,
+    "templateId": "6b986356-468b-49cf-bfa4-c7076ad417c1",
+    "type": "step"
+  }
+}
