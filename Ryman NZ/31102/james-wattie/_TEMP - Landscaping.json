@@ -1,0 +1,37 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "holdpoint",
+        "display": "flat",
+        "name": "Raise remedial as required.",
+        "dependant": true,
+        "signoffs": true,
+        "type": "step",
+        "order": 0
+      }
+    }
+  ],
+  "data": {
+    "0a12241a-1a06-5489-bb8c-0b29a2edcef4": {
+      "title": "Note remedial work needed",
+      "type": "enum",
+      "subtype": "button",
+      "values": [
+        "None",
+        " Minor",
+        " Major"
+      ],
+      "order": 0
+    }
+  },
+  "meta": {
+    "name": "Irrigation system installed as per plan and working correctly",
+    "dependant": false,
+    "stepType": "checkpoint-status",
+    "type": "step",
+    "display": "normal",
+    "order": 9
+  }
+}

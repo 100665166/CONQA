@@ -1,0 +1,37 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "holdpoint",
+        "display": "flat",
+        "name": "Raise remedial as required.",
+        "dependant": true,
+        "signoffs": true,
+        "type": "step",
+        "order": 0
+      }
+    }
+  ],
+  "data": {
+    "df3b80b0-16f2-58f5-9194-326c5d069837": {
+      "title": "Note remedial work needed",
+      "type": "enum",
+      "subtype": "button",
+      "values": [
+        "None",
+        " Minor",
+        " Major"
+      ],
+      "order": 0
+    }
+  },
+  "meta": {
+    "name": "Consultant inspection completed and passed",
+    "dependant": false,
+    "stepType": "checkpoint-status",
+    "type": "step",
+    "display": "normal",
+    "order": 25
+  }
+}
