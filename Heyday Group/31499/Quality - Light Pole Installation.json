@@ -1,0 +1,141 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "ab2d546b-f890-4fc1-81ae-7bc52acf70ba",
+            "display": "normal",
+            "name": "Receipt of Pole Lights to site & storage. (ITP Reference Item 1)",
+            "dependant": false,
+            "templateId": "443eca7d-a2e8-4c87-9677-f00b0242b663",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "1f8e819f-a4c7-406e-825d-37a9e6f5c53a",
+            "display": "normal",
+            "name": "Select correct Pole Light Type for location. (ITP Reference Item 2) HOLD POINT",
+            "dependant": false,
+            "templateId": "443eca7d-a2e8-4c87-9677-f00b0242b663",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "d7ce0c2f-d79b-4f14-817d-8498cb0cc100",
+            "display": "normal",
+            "name": "Install to the location as per Heyday IFC Drawings (ITP Reference Item 3)",
+            "dependant": false,
+            "templateId": "443eca7d-a2e8-4c87-9677-f00b0242b663",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "0e2a6517-9ab1-4b35-85b0-3ce2f0bd3a56",
+            "display": "normal",
+            "name": "Connection to footing and levelling (ITP Reference Item 4)",
+            "dependant": false,
+            "templateId": "443eca7d-a2e8-4c87-9677-f00b0242b663",
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "2370bfe8-a969-4806-8e87-158d373a1720",
+            "display": "normal",
+            "name": "Base Plate Grouting (ITP Reference Item 5)",
+            "dependant": false,
+            "templateId": "443eca7d-a2e8-4c87-9677-f00b0242b663",
+            "type": "step",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "767d3422-cd9a-4ace-abe0-d8e0cf04d7e7",
+            "display": "normal",
+            "name": "Termination of Light Pole (ITP Reference Item 6)",
+            "dependant": false,
+            "templateId": "443eca7d-a2e8-4c87-9677-f00b0242b663",
+            "type": "step",
+            "order": 5
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "templateReference": "eb807203-b6aa-40ce-bc9c-3a9203c55658",
+                "display": "flat",
+                "name": "Signoff Required from Heyday & Multiplex",
+                "dependant": true,
+                "signoffs": true,
+                "templateId": "443eca7d-a2e8-4c87-9677-f00b0242b663",
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "e3fca214-7759-443c-952c-8c2daf00b1b9",
+            "display": "normal",
+            "name": "Photo evidence captured of Light Pole Installation. (ITP Reference Item 7)",
+            "dependant": false,
+            "templateId": "443eca7d-a2e8-4c87-9677-f00b0242b663",
+            "type": "step",
+            "order": 6
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "b332fb7b-427d-414c-b5cb-8e86f4847882",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Details",
+        "dependant": true,
+        "templateId": "443eca7d-a2e8-4c87-9677-f00b0242b663",
+        "type": "step",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "templateReference": "443eca7d-a2e8-4c87-9677-f00b0242b663",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "Quality - Light Pole Installation",
+    "dependant": true,
+    "templateId": "443eca7d-a2e8-4c87-9677-f00b0242b663",
+    "type": "step"
+  }
+}
