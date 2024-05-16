@@ -1,0 +1,180 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "data": {
+        "af37a30c-4285-55dd-9fd1-2417458c6f97": {
+          "title": "CCT Ref:",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        },
+        "9ee5fdff-7f3a-56af-a937-9a15aa750fdb": {
+          "title": "Reference and Revision:",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "2ec69ea9-2635-509d-9002-8d7bb1fefefc": {
+          "title": "Pour Location (e.g. Document Gridlines):",
+          "type": "input",
+          "subtype": "text",
+          "order": 2
+        }
+      },
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "cbe80638-0dfc-4432-946b-4afe77ee5f48",
+        "display": "normal",
+        "name": "Ensure that the latest revision drawings and specifications are being referred to",
+        "dependant": false,
+        "templateId": "289fb117-46f9-472a-b07d-e7d5ce5d832b",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "02c2ebda-af66-4882-9f38-f856660b048f",
+        "display": "normal",
+        "name": "No Structural Implications",
+        "dependant": false,
+        "templateId": "289fb117-46f9-472a-b07d-e7d5ce5d832b",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "08876d29-cb79-48d0-bc2f-6dde50cbbf3b",
+        "display": "normal",
+        "name": "Marked Out Correctly",
+        "dependant": false,
+        "templateId": "289fb117-46f9-472a-b07d-e7d5ce5d832b",
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [],
+      "data": {
+        "e78a93cc-3672-519d-8cc7-b9f0df0dc325": {
+          "title": "Conduit Size",
+          "type": "input",
+          "subtype": "text",
+          "order": 0
+        },
+        "c086a5b2-0fc0-5c2e-b38f-abae4f655644": {
+          "title": "Approx Lengths of Conduit",
+          "type": "input",
+          "subtype": "text",
+          "order": 1
+        }
+      },
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "5fc09cc1-491f-4ceb-98d5-6f849688d8c8",
+        "display": "normal",
+        "name": "Glued & Tied Securely",
+        "dependant": false,
+        "templateId": "289fb117-46f9-472a-b07d-e7d5ce5d832b",
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "3a0eb9d8-7aa2-43e2-99e6-d68e2d3ba4ba",
+        "display": "normal",
+        "name": "As Installed Drawing Attached",
+        "dependant": false,
+        "templateId": "289fb117-46f9-472a-b07d-e7d5ce5d832b",
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "d799ed04-f749-4583-9689-d5d76b6b0082",
+        "display": "normal",
+        "name": "Conduit Ends Capped",
+        "dependant": false,
+        "templateId": "289fb117-46f9-472a-b07d-e7d5ce5d832b",
+        "type": "step",
+        "order": 5
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "templateReference": "939a4c1e-c3e0-47b9-a250-cfa4dd8b0971",
+        "display": "normal",
+        "name": "Signed off by Installing Tradesman",
+        "dependant": false,
+        "templateId": "289fb117-46f9-472a-b07d-e7d5ce5d832b",
+        "type": "step",
+        "order": 6
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "holdpoint",
+            "display": "flat",
+            "name": "Complete Sign Off",
+            "dependant": true,
+            "signoffs": true,
+            "templateId": "289fb117-46f9-472a-b07d-e7d5ce5d832b",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "display": "normal",
+        "name": "SDC Foreman Sign Off",
+        "dependant": false,
+        "templateId": "289fb117-46f9-472a-b07d-e7d5ce5d832b",
+        "type": "step",
+        "order": 7
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "checkpoint-status",
+        "display": "normal",
+        "name": "Passive Fire Sealing",
+        "dependant": false,
+        "templateId": "289fb117-46f9-472a-b07d-e7d5ce5d832b",
+        "type": "step",
+        "order": 8
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-flat",
+    "templateReference": "289fb117-46f9-472a-b07d-e7d5ce5d832b",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "flat",
+    "name": "ITC 171.1 In Slab - Works",
+    "dependant": true,
+    "templateId": "289fb117-46f9-472a-b07d-e7d5ce5d832b",
+    "type": "step"
+  }
+}
