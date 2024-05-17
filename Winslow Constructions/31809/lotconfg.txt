@@ -1,0 +1,38 @@
+LOT DETAILS:
+* (RENAME) Lot number
+** Rename to "Internal Lot Number".
+* (ADD, textbox, optional) External Lot Number
+** To be ordered after the existing (and to be renamed) "Lot Number" field.
+* (RENAME) Lot name
+** Rename to "Lot Description".
+* (RENAME) Status
+** Rename to "Lot Status".
+
+
+
+LOT INFORMATION:
+* (ADD, dropdown) Zone
+** To be ordered after the existing "Area" field.
+* (ADD, dropdown) Discipline
+** To be ordered after the new "Zone" field.
+* (ADD, dropdown) Construction Element
+** To be ordered after the existing "Lot type" field.
+* (ADD, dropdown) Activity
+** To be ordered after the new "Construction Element" field.
+
+
+LOT CONFORMANCE:
+* (RENAME) Physical works completed date
+** Rename to "Works completed on:".
+* (RENAME) All hold points released
+** Rename to "All Hold Points released?".
+* (RENAME) Conforming Test Results attached
+** Rename to "All Test Reports conforming?".
+* (RENAME) NCR raised
+** Rename to "NCR raised?".
+* (ADD, dropdown) Lot verified By
+** To be ordered after the existing "NCR closed date" field.
+* (ADD, date) Lot Verified on:
+** To be ordered after the new "Lot verified By" field.
+* (RENAME) Submitted date
+** Rename to "Date Submitted to Client:".
