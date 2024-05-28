@@ -1,0 +1,1860 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "38dc39c1-97aa-5987-bc61-8cc1a17d59b7": {
+              "title": "Ref docs - AS 3600 235929-000- CV-SP-00007",
+              "type": "label",
+              "order": 0
+            },
+            "0b478f3b-221b-593b-bd2a-27904927049d": {
+              "title": "○ Has Steel Reinforcement schedule provided to MDR for review and approved?",
+              "type": "label",
+              "order": 4
+            },
+            "de1c3c54-5e6f-59fd-9d9f-cc7d4a4f11f6": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 8
+            },
+            "fd49ac14-fc4c-577d-b810-d73735edd6c8": {
+              "title": "○ Do admixtures shall conform with AS 1478.1 and are permitted if used in accordance with manufacturers instructions?",
+              "type": "label",
+              "order": 5
+            },
+            "1e83a2a2-1a47-58b0-9171-77d1d5b38a78": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 7
+            },
+            "bfd4a202-eac0-583a-8d60-53ff6f4a61f1": {
+              "title": "○ Mixtures containing calcium chloride shall not be used.",
+              "type": "label",
+              "order": 6
+            },
+            "66bc53e2-f270-563e-a4b5-d9d15ed3de85": {
+              "title": "Acceptance criteria - Has the mix design to be approved prior to placement. Material properties meet project specification, AS 3600, AS 1379?",
+              "type": "label",
+              "order": 1
+            },
+            "2051261c-d26c-51f1-a53b-15cc5181a8cd": {
+              "title": "○ Do Structural Elements meet: Minimum Concrete strength 40 MPa or as specified in Drawings?",
+              "type": "label",
+              "order": 2
+            },
+            "5f725601-87d4-5f25-98f8-ff0c4a102d4e": {
+              "title": "○ Do Non-Structural Elements meet: Minimum Concrete strength 15 MPa or as specified in Drawings?",
+              "type": "label",
+              "order": 3
+            },
+            "dc65c313-7a5a-5d5d-a677-e787b15d0c60": {
+              "title": "MDR/VIVA Key - H",
+              "type": "label",
+              "order": 9
+            },
+            "556114eb-a1b4-5385-b989-cb03ac46bf52": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - Mix Design Number, Bar Bending Schedules, Material compliance certificates",
+              "type": "label",
+              "order": 10
+            }
+          },
+          "meta": {
+            "name": "1.1 - Material Submission / Approval",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5ae5a78b-cf2a-597c-bce9-680c9cdad51c": {
+              "title": "Acceptance criteria -",
+              "type": "label",
+              "order": 0
+            },
+            "dfe7de41-a4ef-5ac9-b818-c1a6c13751da": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 2
+            },
+            "9cc93c84-89f3-523e-af5a-3b1a4e2623ca": {
+              "title": "Lot Size = Each pour section per day (location or m2) or each structural (Pilecap)",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "c76448c8-724e-5395-b5f5-34fc6089ff77": {
+              "title": "MDR/VIVA Key - S",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "1.2 - Determine lot size",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "da668d64-52b7-55d5-b6ed-31b53edc1a2d": {
+              "title": "– Hot works permit",
+              "type": "label",
+              "order": 2
+            },
+            "9bff6d0e-771e-52a8-946a-8d127d399758": {
+              "title": "Acceptance criteria - The following are relevant, in place and signed onto:",
+              "type": "label",
+              "order": 0
+            },
+            "138c99c4-157f-5bbc-9974-29302a05cf6b": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 6
+            },
+            "1b6ccd4a-1282-5b7c-b04d-9e07d17fb828": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 5
+            },
+            "f304070e-4b95-5b82-a3d3-695a812a5b09": {
+              "title": "– Temporary work permit",
+              "type": "label",
+              "order": 3
+            },
+            "5af0f85a-9817-5358-b330-02e31e30ebc7": {
+              "title": "– Penetration permit",
+              "type": "label",
+              "order": 1
+            },
+            "79378160-af0d-5fa8-97d6-79591e53e5bc": {
+              "title": "– Working at heights permit",
+              "type": "label",
+              "order": 4
+            },
+            "51da0678-2edf-5890-9cd5-b33a628dca49": {
+              "title": "MDR/VIVA Key - S",
+              "type": "label",
+              "order": 7
+            }
+          },
+          "meta": {
+            "name": "1.3 - Permits",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "1.0 General",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "f591230a-d954-5fcf-a8ca-acc37573e700": {
+              "title": "Key - W",
+              "type": "label",
+              "order": 3
+            },
+            "a4ef8778-38d4-53a9-b6bb-1d5f4a174358": {
+              "title": "MDR/VIVA Key - W",
+              "type": "label",
+              "order": 4
+            },
+            "089626ac-9bbd-548e-bd18-dacf51ff92f9": {
+              "title": "Acceptance criteria - Extents, grades and levels correct to relevant drawings. All services have been marked out.",
+              "type": "label",
+              "order": 1
+            },
+            "33a08e2f-ba2f-5484-a2b9-57125200af6a": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "86fe4bc4-62ff-5c40-9bb9-3a7cd82075f1": {
+              "title": "Ref docs - IFC drawings",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "2.1 - Set out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "508b44c2-a4d5-5b6a-8064-f431605ab32e": {
+              "title": "Acceptance criteria - Has a pre-pour inspection been completed with the client, and they have verified in writing that the pour is able to commence?",
+              "type": "label",
+              "order": 2
+            },
+            "be854e56-748b-562b-b097-10edb85de43e": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 7
+            },
+            "ca558a49-2270-58c0-a08d-98204cced2cc": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - Pre-Pour Checklist, 235929-000-CV-SP-00007 Appendix 7.1 Pre-Concrete Placement Checklist",
+              "type": "label",
+              "order": 10
+            },
+            "ae86cf42-f983-5714-ab6c-42571514a449": {
+              "title": "○ The foundation location, depth and dimensions shall also be checked and confirmed prior. to placing the blinding.",
+              "type": "label",
+              "order": 4
+            },
+            "01eabe0a-10f8-5400-9041-d074788419d5": {
+              "title": "○ The foundation base excavation shall be tested, surface compacted and approved prior to placement of the blinding.",
+              "type": "label",
+              "order": 3
+            },
+            "85c6c7fb-2f8a-53f4-b9f3-8d5eac4d1f55": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 8
+            },
+            "d6ed777d-3d29-5f36-8e20-774571a70ff7": {
+              "title": "Underlying lot number: ---------------------------",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "ec7ee693-13c8-5626-ab42-5d7cca6da121": {
+              "title": "Ref docs - Bulk Earthworks ITP 02",
+              "type": "label",
+              "order": 0
+            },
+            "e6e9c8c3-c1d8-54f1-88e0-e11486688fa5": {
+              "title": "MDR/VIVA Key - H",
+              "type": "label",
+              "order": 9
+            },
+            "4de94789-0a5f-514d-b31d-d228bee0d2aa": {
+              "title": "○ Approval shall be provided, in writing, by McDermott to the foundation. subcontractor before commencing with concrete placement.",
+              "type": "label",
+              "order": 5
+            },
+            "766f8803-c430-5e51-9098-f4c55463bf94": {
+              "title": "○ Has this been completed?",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "2.2 - Pre-Pour Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "6983f950-b771-5c06-850e-ab5b59e303b2": {
+              "title": "Key - W",
+              "type": "label",
+              "order": 3
+            },
+            "15a44087-ddb2-5c30-a1fc-a12f8ba0a5ef": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - Dockets",
+              "type": "label",
+              "order": 5
+            },
+            "d4c31910-d804-590a-8b32-76c475a8e69a": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "0c5e9dcb-64e5-5698-8cf9-c92c8380d069": {
+              "title": "MDR/VIVA Key - W",
+              "type": "label",
+              "order": 4
+            },
+            "b999404c-0268-5609-b37f-fe95f278faf5": {
+              "title": "Acceptance criteria - Approved Concrete Mix Design.",
+              "type": "label",
+              "order": 1
+            },
+            "c0181690-db59-5f12-936c-d0cb9382f4ec": {
+              "title": "Ref docs - Section 5.1.2 of document 235929-000- CV-SP-00007",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "2.3 - Lean Mix Concrete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "0a030111-d672-5aef-a44c-b2489fda43a8": {
+              "title": "Key - W",
+              "type": "label",
+              "order": 4
+            },
+            "6e9a8561-a3de-5bbf-a3cd-386009a4c82c": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 3
+            },
+            "7387a6ed-a301-5b0b-b17e-e8e79b0d6977": {
+              "title": "MDR/VIVA Key - W",
+              "type": "label",
+              "order": 5
+            },
+            "49209e33-c527-599b-bd12-ae606910c89e": {
+              "title": "Ref docs - 235929-000-CV-SP-00007",
+              "type": "label",
+              "order": 0
+            },
+            "d5da4906-4e10-5691-b7c4-785fe3ed91e4": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - As-built Survey",
+              "type": "label",
+              "order": 6
+            },
+            "a84414c6-b35c-56cf-b14c-8fc6cd13cf02": {
+              "title": "Acceptance criteria - Has the blinding been poured to the correct level? The following are acceptable:",
+              "type": "label",
+              "order": 1
+            },
+            "5a62b3de-cf3f-5125-bd5e-4329bb47d03b": {
+              "title": "– Minimum Thickness = 50mm",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "2.4 - Placement of Lean Mix",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "2.0 Blinding/Lean Concrete",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "2ab242e7-9df3-5ef7-8398-aa12988d9771": {
+              "title": "○ Has design to be undertaken by external consultant complying with AS1170 and AS3610 plus any project specification requirements?",
+              "type": "label",
+              "order": 2
+            },
+            "f8449bb5-6135-5252-a322-90a42793f594": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 4
+            },
+            "fb975dca-1c9e-50e7-9e2d-f87b208c3eeb": {
+              "title": "Acceptance criteria - Formwork above 1.0m to be designed by temporary works engineer.",
+              "type": "label",
+              "order": 1
+            },
+            "4478758b-9afd-5146-93d3-af9f63a08daf": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 3
+            },
+            "1f9c2ac4-53bd-5031-986d-94e9fcfd3364": {
+              "title": "MDR/VIVA Key - S",
+              "type": "label",
+              "order": 5
+            },
+            "c7819eff-ac8d-5ff9-b597-0f2b6f3a4a78": {
+              "title": "Ref docs - SYM-INF-Temporary Work Procedure IFU 05122",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "3.1 - Temporary works requirements",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "20309ffe-f6ee-590f-9186-18ba5bd6f161": {
+              "title": "Acceptance criteria - Pile C.O.L to penetrate 50mm above blinding of pile cap (+/- 25mm).",
+              "type": "label",
+              "order": 1
+            },
+            "344e6758-6c88-5409-8f2f-0a58e050cf22": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 4
+            },
+            "ca94c097-afa7-5f79-a50e-916650438797": {
+              "title": "Ref docs - Civil Drawings IFC",
+              "type": "label",
+              "order": 0
+            },
+            "854479c7-f6e2-581e-8033-e770c58f9fef": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - Survey Report",
+              "type": "label",
+              "order": 6
+            },
+            "9de46810-e107-5e8a-96c8-6c10f3f048d1": {
+              "title": "MDR/VIVA Key - H",
+              "type": "label",
+              "order": 5
+            },
+            "7b063ac0-ac9b-5948-9e3a-1146ce759369": {
+              "title": "○ Has the pile been determined to be free of cracking and concrete damage following cropping?",
+              "type": "label",
+              "order": 2
+            },
+            "9f1bb396-e983-53ed-ba99-e6d9d34cd1a8": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "3.2 - Pile Penetration",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "7d1dcfdb-096d-5461-ab3a-78ebee5e310f": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 4
+            },
+            "7ad068b9-91fc-590d-b608-0150ab8ff736": {
+              "title": "Key - W",
+              "type": "label",
+              "order": 5
+            },
+            "e7480757-5b6f-5994-b7b2-b90610675b29": {
+              "title": "Acceptance criteria - Is formwork checked for potential loose sections, ensuring no movement upon placement of concrete?",
+              "type": "label",
+              "order": 1
+            },
+            "7f7dd498-3c4f-5eff-9bc5-ce271fcbfc67": {
+              "title": "○ Have chamfers (if required) been attached to formwork in level manner?",
+              "type": "label",
+              "order": 3
+            },
+            "1b82924b-a9bb-5542-aacf-0703c64a07b0": {
+              "title": "MDR/VIVA Key - W",
+              "type": "label",
+              "order": 6
+            },
+            "5535dc21-45a0-5166-aeaa-70a54f48f3ca": {
+              "title": "Ref docs - Civil drawings 235929-000- CV-SP-00008; Section 6",
+              "type": "label",
+              "order": 0
+            },
+            "5b47baf0-737f-596f-9bbf-ebb400095fe0": {
+              "title": "○ Is formwork in line with survey markings?",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "3.3 - Formwork Setout and positioning correct",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "4f59ced6-d6b0-5831-837d-bf1581fcd594": {
+              "title": "Ref docs - Civil drawings",
+              "type": "label",
+              "order": 0
+            },
+            "91eede06-c374-5b5f-92ff-d89a7db6e3f2": {
+              "title": "Acceptance criteria - Have construction joints to be installed as detailed on Drawings and notes using correct materials?",
+              "type": "label",
+              "order": 1
+            },
+            "0228c326-27c4-510e-b07a-cb7faf01793e": {
+              "title": "Key - W",
+              "type": "label",
+              "order": 3
+            },
+            "4c1d22f1-532a-514d-9c9b-f26cbffbb870": {
+              "title": "MDR/VIVA Key - S",
+              "type": "label",
+              "order": 4
+            },
+            "5721c9c0-a3fc-546a-97d9-092302ebc07b": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "3.4 - Concrete jointing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "3.0 Formwork",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "e59386e9-e209-5aaa-82f8-cdd0697773db": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 3
+            },
+            "8221f792-3caa-5c2e-ba97-26cff7f5ab2f": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - Delivery Dockets / certificates / product tags, Incoming material checklist Photo’s",
+              "type": "label",
+              "order": 5
+            },
+            "f42931b2-66a1-51f1-be50-2c7e599cc49e": {
+              "title": "Acceptance criteria - Have steel tags checked against supply schedule prior to installation?",
+              "type": "label",
+              "order": 0
+            },
+            "fd813473-0387-5126-a63b-b569baf3b18c": {
+              "title": "○ Is reinforcement is free from rust and other contaminates that may affect bonding?",
+              "type": "label",
+              "order": 2
+            },
+            "890a24d8-f366-56c7-b083-3bffc08bdef2": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 4
+            },
+            "61b24da6-4ac4-5952-8d6b-4337b1843aec": {
+              "title": "○ Does the manufacturer hold a valid ACRS certificate?",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "4.1 - Steel reinforcement supply",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5d6b38f5-845a-5e80-993e-560195f284be": {
+              "title": "MDR/VIVA Key - S",
+              "type": "label",
+              "order": 29
+            },
+            "0973c0aa-da2f-5900-88f6-b3260841c5fc": {
+              "title": "○ EXPOSED TO WASH DOWN WATER AND/OR PROCESS SPILLAGE = 50 mm",
+              "type": "label",
+              "order": 23
+            },
+            "ee259f74-8863-5c36-899c-9be71202c541": {
+              "title": "– – – – – – – – – – – – – –",
+              "type": "label",
+              "order": 15
+            },
+            "7e9e464f-63c6-50ef-a40b-8ee9989570f8": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 27
+            },
+            "c7557033-23b8-54df-98eb-9909d90dc9ca": {
+              "title": "○ CFA PILES = 70 mm",
+              "type": "label",
+              "order": 25
+            },
+            "16a1861c-5b6b-5fc6-846f-36200d7dcc3b": {
+              "title": "○ Has minimum cover to inside face of wall must be maintained? All reinforcement shall be in accordance with AS 3600 & Civil drawings.",
+              "type": "label",
+              "order": 16
+            },
+            "bf01ae81-1011-5a6a-81c4-8f7e5eb74919": {
+              "title": "(a) For positions controlled by cover –",
+              "type": "label",
+              "order": 6
+            },
+            "b9133cb8-cb80-5600-aaaf-d6ee1eb8d8d1": {
+              "title": "(i) the location of tendons on a profile: 5 mm;",
+              "type": "label",
+              "order": 12
+            },
+            "d22409ec-ccf9-5370-b6eb-4dbbf8715b67": {
+              "title": "Ref docs - 235929-000- CV-SP-00009, AS3600 17.5.3, 235929-000- CV-01-92002- 010002",
+              "type": "label",
+              "order": 0
+            },
+            "a4f8bc42-4867-53e0-b2a1-65ce6b07823a": {
+              "title": "where a positive value indicates the amount the cover increases and a negative value indicates the amount the cover decreases.",
+              "type": "label",
+              "order": 10
+            },
+            "021a922d-e5d0-513f-890d-c06debe22372": {
+              "title": "○ FOUNDATIONS CAST AGAINST GROUND = 65 mm",
+              "type": "label",
+              "order": 22
+            },
+            "ea7f388f-2b47-5ff4-8246-2e841888ff04": {
+              "title": "(iii) in footings cast in the ground: -10, +40 mm,",
+              "type": "label",
+              "order": 9
+            },
+            "6d8f4b08-39eb-5b25-8d96-a62bdab591f1": {
+              "title": "○ PAVING (BOTTOM - AGAINST GROUND) = 50 mm",
+              "type": "label",
+              "order": 20
+            },
+            "99065f29-b07c-594f-841c-6df3a506c4d7": {
+              "title": "(ii) the position of the ends of reinforcement: 50 mm; and",
+              "type": "label",
+              "order": 13
+            },
+            "216d941c-878a-5ede-ab23-3d86b51297ec": {
+              "title": "The deviation from the specified position of reinforcement and tendons shall not exceed the following:",
+              "type": "label",
+              "order": 5
+            },
+            "e7b5e44b-7575-5e12-a0c2-ecaff87cd733": {
+              "title": "(i) in beams, slabs, columns and walls: -5, +10 mm;",
+              "type": "label",
+              "order": 7
+            },
+            "70f1ae2d-0b63-5ef3-8fa0-1d2c9a22913e": {
+              "title": "○ Does steel reinforcement conform with Steel Reinforcement Specification?",
+              "type": "label",
+              "order": 2
+            },
+            "823636fa-9bb5-59e4-b47f-57b5832f0b1c": {
+              "title": "(b) For positions not controlled by cover, namely –",
+              "type": "label",
+              "order": 11
+            },
+            "81964aa0-8a8f-543e-8519-793fafead59f": {
+              "title": "○ CAST ON LEAN CONCRETE = 45 mm",
+              "type": "label",
+              "order": 24
+            },
+            "f8f39c39-2cfc-51fd-ba00-ce6cfa6e2b3f": {
+              "title": "(ii) in slabs-on-ground: -10, +20 mm; and",
+              "type": "label",
+              "order": 8
+            },
+            "d63c2bfc-fe63-5578-a6d5-82ffca82744a": {
+              "title": "8.1 CONCRETE COVER SHALL BE IN ACCORDANCE WITH AUSTRALIAN STANDARD AS 3600 OR THE VALUES STATED BELOW, WHICHEVER IS GREATER.",
+              "type": "label",
+              "order": 18
+            },
+            "0f40a8cf-669f-53ed-9c92-6f5ebb5f02ac": {
+              "title": "○ PAVING (TOP) = 30 mm",
+              "type": "label",
+              "order": 19
+            },
+            "6810c17f-d835-59a0-ac94-7a3df2f24a31": {
+              "title": "Acceptance criteria - Is steel installed as per the latest IFC drawings?",
+              "type": "label",
+              "order": 1
+            },
+            "4fdf6b1d-4ff2-5ef9-9362-2baa7e9ab501": {
+              "title": "17.5.3 Tolerance on position of reinforcement and tendons",
+              "type": "label",
+              "order": 4
+            },
+            "af268ade-110f-5716-a4cf-67cdaebfb06a": {
+              "title": "(iii) the spacing of bars in walls and slabs and of fitments in beams and columns: 10% of the specified spacing or 15 mm, whichever is greater.",
+              "type": "label",
+              "order": 14
+            },
+            "16e94149-4024-5b9f-9d6f-42ae460a5559": {
+              "title": "○ FOUNDATIONS CAST AGAINST FORMWORK (INCL. EXPOSED WEATHER FACE) = 45 mm",
+              "type": "label",
+              "order": 21
+            },
+            "9926baa2-c277-5d16-8aa2-294dd6120c87": {
+              "title": "– – – – – – – – – – – – – –",
+              "type": "label",
+              "order": 26
+            },
+            "05102a51-0c35-550a-ad38-1a1984d66084": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - IFC Drawing Number and Revision",
+              "type": "label",
+              "order": 30
+            },
+            "d2fe726d-b515-5987-9f1d-bbd12508d9b8": {
+              "title": "– – – – – – – – – – – – – –",
+              "type": "label",
+              "order": 17
+            },
+            "9f00da5c-02b5-57c6-9ee4-45d014933309": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 28
+            },
+            "866f16bd-0658-51b0-95d6-2bc197050c44": {
+              "title": "– – – – – – – – – – – – – –",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "4.2 - Steel reinforcement installation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "4.0 Reinforcement",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "4db2740b-4bb6-5ccc-b27e-5b092ab54960": {
+              "title": "Acceptance criteria - Has a pre-pour inspection checklist completed prior to placement?",
+              "type": "label",
+              "order": 1
+            },
+            "b137a84d-23cd-5150-ada7-fac772779c01": {
+              "title": "MDR/VIVA Key - H",
+              "type": "label",
+              "order": 4
+            },
+            "239ffe9e-5ec3-5fd1-b0c4-f20c7e67ae4b": {
+              "title": "Ref docs - 235929-000-CV-SP-00007 Appendix 7.1 Pre-Concrete Placement Checklist",
+              "type": "label",
+              "order": 0
+            },
+            "0b4afb99-2b27-5759-b940-2528358e76b5": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "52f81244-cb49-539d-80e2-05c4178e5004": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - 235929-000-CVSP-00007 Appendix 7.1 Pre-Concrete Placement Checklist",
+              "type": "label",
+              "order": 5
+            },
+            "9236e013-4ce8-5ec0-bf67-f3a5d594cb12": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "5.1 - Pre-pour Inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "3b518dbe-f4ef-51f9-a0de-f4b0f17e3944": {
+              "title": "○ Concrete shall be transported, handled and placed to prevent segregation, loss or leakage of materials.",
+              "type": "label",
+              "order": 2
+            },
+            "5f46a6c2-e296-59d7-83f1-6aece02703d6": {
+              "title": "○ Concrete shall be discharge within 90 minutes of dispatch from plant.",
+              "type": "label",
+              "order": 4
+            },
+            "74c06dfc-9064-5b62-9ade-07340b55e3cf": {
+              "title": "MDR/VIVA Key - W",
+              "type": "label",
+              "order": 10
+            },
+            "895d47a5-a1aa-549c-a38c-11b1e0dd2ae1": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 8
+            },
+            "b20d327c-4997-5b05-b905-9173ff44a912": {
+              "title": "Acceptance criteria - Concrete shall not be placed when temperature is less the 5°C or greater than 36°C. Between 32°C and 36°C admixtures and placing requirements must be met.",
+              "type": "label",
+              "order": 1
+            },
+            "0d5bea98-5a15-51b4-a762-f1c9019ae34c": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - 235929-000-CVSP-00007 Appendix 7.3 Concrete Truck Pour Record/Dockets",
+              "type": "label",
+              "order": 11
+            },
+            "cf45ad69-6304-520e-ac92-0418c788afea": {
+              "title": "Ref docs - 235929-000- CV-SP-00007 Appendix 7.3 Concrete Truck Record",
+              "type": "label",
+              "order": 0
+            },
+            "2deae49a-8fe0-535d-9ff4-94c49e292fcc": {
+              "title": "○ For continuous pours, the maximum time lag between truck loads shall not exceed 25 minutes.",
+              "type": "label",
+              "order": 5
+            },
+            "a8eeefbb-ca7c-5b1d-9a41-e4a56283a0b2": {
+              "title": "○ Concrete shall be thoroughly vibrated to ensure no honey combing, voids or surface defects occurs and compaction is achieve throughout structure.",
+              "type": "label",
+              "order": 6
+            },
+            "90b508b7-9702-5ee3-921a-475378d98e79": {
+              "title": "○ Concrete shall not be dropped from a height greater than 2m.",
+              "type": "label",
+              "order": 3
+            },
+            "77a59b85-24df-5680-8886-66f8739d49d4": {
+              "title": "○ Water shall not be added to achieve slump greater than that specified. Slump test to be completed after water is added.",
+              "type": "label",
+              "order": 7
+            },
+            "2f23a380-2723-599a-8be2-b9d622724aab": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 9
+            }
+          },
+          "meta": {
+            "name": "5.2 - Placement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "f6a24409-a0b3-536c-afca-48d362553b0f": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - Test docket",
+              "type": "label",
+              "order": 7
+            },
+            "d1ef89bb-380e-5796-91f7-2829c0908bde": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 4
+            },
+            "86df0126-48a2-5e18-bd77-5ff70ac53d96": {
+              "title": "○ Approved mix design slump",
+              "type": "label",
+              "order": 3
+            },
+            "16baa9ec-1bc4-597c-b27e-8406c7aa512f": {
+              "title": "MDR/VIVA Key - S",
+              "type": "label",
+              "order": 6
+            },
+            "ecd5aa8f-f4ed-54d6-a786-af29109ff584": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 5
+            },
+            "df23455f-3b5a-5d55-8fac-fa1d22e46fe8": {
+              "title": "Ref docs - Section 5.1.1 235929-000- CV-SP-00007",
+              "type": "label",
+              "order": 0
+            },
+            "32e1fcef-a061-5f7c-ba59-e3482e2575f3": {
+              "title": "Acceptance criteria - Slump must be within tolerance of designed slump.",
+              "type": "label",
+              "order": 1
+            },
+            "c2171f33-7ce8-5763-adaf-bb6787dbadbf": {
+              "title": "○ Testing shall be +- 15% of stated.",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "5.3 - Slump Test",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "35fcfc0c-c309-5d8d-9de0-4c58c778f5bf": {
+              "title": "○ Frequency reduce to 1 test per 80m3 for pours over 400m3",
+              "type": "label",
+              "order": 4
+            },
+            "80c633b5-0611-5e1b-861a-88805ff61a31": {
+              "title": "4 || 100-140",
+              "type": "label",
+              "order": 12
+            },
+            "322fdf96-ea09-5a44-ad31-dbc9ae3f6d98": {
+              "title": "Acceptance",
+              "type": "label",
+              "order": 5
+            },
+            "436c519e-acfa-54a4-9e8c-583a2586890a": {
+              "title": "Acceptance criteria - Samples to be taken from chute. 5 cylinders collected per sample – 1x 7day, 3x 28day, 1x reserve.",
+              "type": "label",
+              "order": 1
+            },
+            "9983feff-0c46-5f99-948b-86aed595806f": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 14
+            },
+            "bbc71923-925e-575e-98d7-466e7be68a57": {
+              "title": "1 || <20",
+              "type": "label",
+              "order": 9
+            },
+            "45500009-804d-54b6-8fed-29d19bac0829": {
+              "title": "MDR/VIVA Key - S",
+              "type": "label",
+              "order": 15
+            },
+            "e2ab1c0c-441c-5b5d-9c66-11b4d40eb400": {
+              "title": "– – – – – – – – – – – – – –",
+              "type": "label",
+              "order": 13
+            },
+            "eeedf888-d6b9-54ea-a141-1f1d40027f74": {
+              "title": "– – – – – – – – – – – – – –",
+              "type": "label",
+              "order": 8
+            },
+            "a0426478-4d97-538c-b10c-52d69069e918": {
+              "title": "– – – – – – – – – – – – – –",
+              "type": "label",
+              "order": 6
+            },
+            "5a9c0c7a-b950-5538-a8d8-739efd701cfe": {
+              "title": "2 || 20-60",
+              "type": "label",
+              "order": 10
+            },
+            "180eefb4-5dcc-5324-a1ed-2aaee9d8ddcc": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - Test report",
+              "type": "label",
+              "order": 16
+            },
+            "5d6827c1-535d-50ae-b753-418f1a284471": {
+              "title": "○ 1 test per 40n3 thereafter",
+              "type": "label",
+              "order": 3
+            },
+            "e971d102-313c-5225-a980-fd95f29b565d": {
+              "title": "3 || 60-100",
+              "type": "label",
+              "order": 11
+            },
+            "36fa5d97-aa53-5a90-b994-98f5f4f0ebc9": {
+              "title": "○ 1 test for the first 20m3",
+              "type": "label",
+              "order": 2
+            },
+            "1d705805-ea00-5501-94af-40d2904998cb": {
+              "title": "No. of samples || Volume of concrete (m3)",
+              "type": "label",
+              "order": 7
+            },
+            "6a712eec-24b0-515d-b216-0914620452ee": {
+              "title": "Ref docs - 235929-000- CV-SP-00007 Section 6.8",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "5.4 - Strength Testing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "f7c0712b-8955-55e8-ab27-f69d4626a3a7": {
+              "title": "Ref docs - 235929-000-CV-SP-00007 Section 6.5",
+              "type": "label",
+              "order": 0
+            },
+            "cb076cc0-2c21-551d-bb2e-620e61c15228": {
+              "title": "– Rate of 5m2/L",
+              "type": "label",
+              "order": 4
+            },
+            "17874744-6164-5a97-933e-416f164d96fc": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 7
+            },
+            "adf2a0c3-8e3f-5603-81f6-b2380f89ae5a": {
+              "title": "– Applied once bleed water has gone",
+              "type": "label",
+              "order": 2
+            },
+            "65f5950e-d5e8-54bd-8253-75674123c1e6": {
+              "title": "– Continuous uniform film achieved",
+              "type": "label",
+              "order": 3
+            },
+            "92fa07e0-a3fe-5057-a34f-dd18e3de53c6": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - Approved Curing Technical Data Sheet",
+              "type": "label",
+              "order": 9
+            },
+            "1e74c937-5f23-5ec4-bba8-f6195146f428": {
+              "title": "MDR/VIVA Key - W",
+              "type": "label",
+              "order": 8
+            },
+            "b5547988-aa51-55c8-a251-12d415d7da7d": {
+              "title": "○ Has curing been conducted as per approved curing methodology?",
+              "type": "label",
+              "order": 5
+            },
+            "c1edee11-ee08-5473-b83b-4a2a6ed25110": {
+              "title": "Acceptance criteria - As per the approved Curing Methodology.",
+              "type": "label",
+              "order": 1
+            },
+            "817fae1c-00a7-52d5-a06c-fbc361bf5901": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "5.6 - Curing of Concrete",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "a11f21c5-2d68-555f-8348-706701894c3a": {
+              "title": "○ Interior slabs to accept additional finish: steel trowel.",
+              "type": "label",
+              "order": 8
+            },
+            "ca172474-abe9-5707-9354-92222823cb7e": {
+              "title": "Ref docs - 235929-000-CV-SP-00007 Section 6.4",
+              "type": "label",
+              "order": 0
+            },
+            "a30e398c-0496-5a92-b198-9caff7926968": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 10
+            },
+            "c5f50b3a-6d8c-5caf-9989-bb2fea7549bf": {
+              "title": "○ Exterior walls or columns exposed: smooth form/rubbed finish.",
+              "type": "label",
+              "order": 3
+            },
+            "1c75f4e8-aabf-5861-9841-72c7b9f3affc": {
+              "title": "MDR/VIVA Key - S",
+              "type": "label",
+              "order": 12
+            },
+            "bc06f7d0-e86b-5d4f-a708-03e036c88fd7": {
+              "title": "○ Interior slabs: steel trowel.",
+              "type": "label",
+              "order": 7
+            },
+            "a0814925-0f71-561b-b587-d7a05fccbb1e": {
+              "title": "○ Interior walls or columns exposed: smooth form/rubbed finish.",
+              "type": "label",
+              "order": 2
+            },
+            "a6b1b127-b96e-5e22-9317-4a01d53b7d2c": {
+              "title": "○ Other exterior slabs (i.e. foot traffic): broom finish.",
+              "type": "label",
+              "order": 6
+            },
+            "315fb1fd-846f-5914-a953-3709828694a0": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - 235929-000-CVSP-00007 Appendix 7.3 Concrete Truck Pour",
+              "type": "label",
+              "order": 13
+            },
+            "860f64e1-1579-5c3c-ad59-70ce5fcc6bdd": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 11
+            },
+            "5ecdd4ef-02b2-56c3-bb96-20a75b791a03": {
+              "title": "○ Walls below grade: rough form finish.",
+              "type": "label",
+              "order": 4
+            },
+            "9dea0913-2eda-5e7d-b7bc-d4c125d26d0b": {
+              "title": "○ Surfaces to be grouted: rough [6 mm amplitude] but even finish with laitance removed to provide good bond between grout and concrete.",
+              "type": "label",
+              "order": 9
+            },
+            "0e6e3ad2-49b5-5869-92fb-3e51d525d504": {
+              "title": "Acceptance criteria - Finish concrete per schedule below:",
+              "type": "label",
+              "order": 1
+            },
+            "d6ea72f1-fd74-5653-ad3c-401c3053c4f9": {
+              "title": "○ Exterior slabs for spill containment: float finish.",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "5.7 - Concrete Finishing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "501e0beb-5a27-5550-b675-c737dea147cd": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 5
+            },
+            "a95a6b67-8daf-5635-8665-fea3aa2b89dd": {
+              "title": "MDR/VIVA Key - S",
+              "type": "label",
+              "order": 7
+            },
+            "621e2dc8-4940-5541-bdf8-c42a4b914fca": {
+              "title": "○ Has this been completed?",
+              "type": "label",
+              "order": 4
+            },
+            "0c2c6fda-7612-55fb-aefd-5e0c545ef761": {
+              "title": "○ Has the formwork been removed in the same sequence as concrete placement to achieve similar concrete surface coloration?",
+              "type": "label",
+              "order": 2
+            },
+            "8b21296e-c06f-5993-954b-ae76c7df9417": {
+              "title": "Acceptance criteria - Has Remove formwork progressively so no unbalanced loads are applied to the structure, or concrete is damaged?",
+              "type": "label",
+              "order": 1
+            },
+            "50ba77fb-2509-5919-89c0-9c478a004902": {
+              "title": "○ In accordance with AS3600 Table 4.4 and Section 17.1.5, removal of forms before 7 days would require a curing membrane conforming to AS3799 to be applied immediately or any other approved acceptable method of water retention in the concrete.",
+              "type": "label",
+              "order": 3
+            },
+            "fa3a5756-6946-57eb-acac-9d5d87d55622": {
+              "title": "Ref docs - 235929-000-CV-SP-00007, AS1510, AS1509, Section 6.6 of 235929-000-CV SP-00008 CONC FORMWORK",
+              "type": "label",
+              "order": 0
+            },
+            "396cd9db-d4ed-5070-8c8c-3651e219380c": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "5.8 - Formwork Stripping",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "ec247bc9-a2be-5b86-9e16-1a94cc9299f9": {
+              "title": "MDR/VIVA Key - H",
+              "type": "label",
+              "order": 3
+            },
+            "1700a992-191f-5f1d-82cb-31f02e3c63b6": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 2
+            },
+            "481205fd-06dc-5e83-86f2-969975dc853b": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 1
+            },
+            "83b22758-b60c-5795-93f8-c10d1940174c": {
+              "title": "Acceptance criteria - All abovementioned works have been completed in-line with the drawings and specification and backfilling around structure can be completed (if applicable)",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "5.9 - Post Pour inspection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "5.0 Structural Concrete Pour",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "2eae9447-6a3d-5a16-9da6-e962fa10673d": {
+              "title": "MDR/VIVA Key - H",
+              "type": "label",
+              "order": 3
+            },
+            "a4a248be-348c-596f-bb94-db2e17b0b3ee": {
+              "title": "Acceptance criteria - As built to be submitted after pour, showing set out, RLs, grades, extents, bolts, grout tubes, starter bars, etc.",
+              "type": "label",
+              "order": 0
+            },
+            "f461e7b7-35df-5ee5-b3f2-3cd1c91fea8e": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - Survey Conformance report",
+              "type": "label",
+              "order": 4
+            },
+            "dd426662-ba58-5d08-a428-ffd5f9a65067": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 1
+            },
+            "31c043f2-f95a-5193-af01-8d294bcbac7a": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "6.1 - As Built",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "62736c2b-c383-51eb-814a-f744b74d40ff": {
+              "title": "MDR/VIVA Key - S",
+              "type": "label",
+              "order": 4
+            },
+            "da0c4da8-e8c2-5f85-8aaa-0ab3912af901": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - NATA endorsed test report",
+              "type": "label",
+              "order": 5
+            },
+            "b0567501-b655-5047-805f-92a97030f726": {
+              "title": "Ref docs - 235929-000-CV-SP-00007 AS3600, AS1379, AS3610 IFC drawings",
+              "type": "label",
+              "order": 0
+            },
+            "882fd5d6-c066-5d45-ac9e-f6265108dcbe": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "4c830c25-5a30-5cde-8b1c-c4ad69c131fd": {
+              "title": "Acceptance criteria - Submission of 28 days results. Results meet requirements of 40MPa.",
+              "type": "label",
+              "order": 1
+            },
+            "9378086f-efbb-56df-a8d4-c7f36335e80d": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "6.2 - Concrete Test Results",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "318f2ad8-d665-5344-8acb-3bf3225ac2b9": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 11
+            },
+            "a11b7ea0-7c7b-5a1f-afef-85f410f63e8c": {
+              "title": "– – – – – – – – – – – – – –",
+              "type": "label",
+              "order": 5
+            },
+            "ef164b3f-5bce-5145-a896-fd14f3aa7aa9": {
+              "title": "– – – – – – – – – – – – – –",
+              "type": "label",
+              "order": 1
+            },
+            "34360a93-ec16-558c-8d16-8eaae13492ef": {
+              "title": "Service Exposure Condition || Crack Width, μm",
+              "type": "label",
+              "order": 4
+            },
+            "75e83a5f-9507-5d54-aefc-f438730e4bd0": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 10
+            },
+            "f5b4a7d2-f20c-59ea-b522-91085f645b10": {
+              "title": "– – – – – – – – – – – – – –",
+              "type": "label",
+              "order": 9
+            },
+            "843c554a-8132-52c5-9c68-020dd3a3602f": {
+              "title": "– – – – – – – – – – – – – –",
+              "type": "label",
+              "order": 3
+            },
+            "7c9647fa-d9e2-5392-b4b3-156699739c90": {
+              "title": "Interior || 300",
+              "type": "label",
+              "order": 6
+            },
+            "c19c26dc-0b16-532a-bdcc-050cae2b75d3": {
+              "title": "Maximum Allowable Crack Widths in New Concrete",
+              "type": "label",
+              "order": 2
+            },
+            "320853ad-9ad1-5686-87f5-fd0b0b860ad3": {
+              "title": "Water-retaining structures || 100",
+              "type": "label",
+              "order": 8
+            },
+            "3105f302-a6da-57b6-aee1-73160c8d4993": {
+              "title": "Exterior air (or soil) || 200",
+              "type": "label",
+              "order": 7
+            },
+            "b16419de-1901-5fd9-bfea-cc56b3ed6245": {
+              "title": "MDR/VIVA Key - H",
+              "type": "label",
+              "order": 12
+            },
+            "ee34ac15-e616-59bb-8540-c270d0479483": {
+              "title": "Acceptance criteria - Contractor is to submit a concrete crack repair methodology to MDR prior to commencing any crack repair. Has this been approved?",
+              "type": "label",
+              "order": 0
+            },
+            "6d3a76c9-6037-5d0a-be16-9752f81fb2ae": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - Concrete Repair Method Document Approval",
+              "type": "label",
+              "order": 13
+            }
+          },
+          "meta": {
+            "name": "6.3 - Concrete cracking approval",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "cb75cf7c-87e6-551c-a1d3-29fc188af5aa": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - Photo’s",
+              "type": "label",
+              "order": 4
+            },
+            "4690863e-91d7-573c-928b-0dc622373387": {
+              "title": "Acceptance criteria - Has concrete crack repair been undertaken as per the approved method?",
+              "type": "label",
+              "order": 0
+            },
+            "d5217aab-b234-5307-ba82-f79ac01566e9": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 1
+            },
+            "0a981ae8-f477-5408-a8fb-c610b4e47dfc": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 2
+            },
+            "b6f635be-858e-52e8-b614-4c5c61f0214a": {
+              "title": "MDR/VIVA Key - H",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "6.4 - Concrete cracking repair",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "ad1590fb-52e5-5324-9352-8b43e5d1fbb2": {
+              "title": "Acceptance criteria - Has the nominated structure had leak testing completed and passed as per the approved testing procedure.",
+              "type": "label",
+              "order": 1
+            },
+            "235c43bb-6a7e-51e4-bd2a-d180ad9dea00": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 3
+            },
+            "f0bc5ff6-a703-5ea3-94ad-c84071958231": {
+              "title": "Ref docs - 235929-DM-AT-000002",
+              "type": "label",
+              "order": 0
+            },
+            "e4da6402-2ff7-5c05-9008-d7774e20e814": {
+              "title": "MDR/VIVA Key - H",
+              "type": "label",
+              "order": 4
+            },
+            "bc84f206-8228-5747-819f-45f42a58d86f": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "a9b4c81b-fe00-5038-b395-33a02fd6f0bc": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) - Water Test Check-list",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "6.5 - Leak Testing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "6.0 Completion",
+        "dependant": true,
+        "type": "step",
+        "order": 5
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "INF-HSEQ CC0398-ITP-031 Blinding, Pile Caps and Slab Footings Rev 3",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}
