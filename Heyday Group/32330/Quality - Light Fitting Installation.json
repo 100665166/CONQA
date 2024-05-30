@@ -1,0 +1,115 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "89ecbeb9-1176-423a-a888-6e80c6c51b71",
+            "display": "normal",
+            "name": "Installed to the correct location as per drawings",
+            "dependant": false,
+            "templateId": "cd19afae-43c1-494e-97bd-9a30d61e02a9",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "0168e49d-c352-4cae-8363-eed09392b39c",
+            "display": "normal",
+            "name": "Installed correct size and light fitting type",
+            "dependant": false,
+            "templateId": "cd19afae-43c1-494e-97bd-9a30d61e02a9",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "c53357d7-708d-4ff4-8f0b-7f960ca71412",
+            "display": "normal",
+            "name": "Correct Operation",
+            "dependant": false,
+            "templateId": "cd19afae-43c1-494e-97bd-9a30d61e02a9",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "04d30ae1-e08f-42ea-8806-db9349c16e3d",
+            "display": "normal",
+            "name": "Installed to the correct Circuit & DB Destination",
+            "dependant": false,
+            "templateId": "cd19afae-43c1-494e-97bd-9a30d61e02a9",
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "templateReference": "eb0747c8-65ab-474a-930b-ad1bca04f6de",
+                "display": "flat",
+                "name": "Signoff Required from Heyday",
+                "dependant": true,
+                "signoffs": true,
+                "templateId": "cd19afae-43c1-494e-97bd-9a30d61e02a9",
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "5b70a775-2872-4c45-919a-788a71d64678",
+            "display": "normal",
+            "name": "Correct labelling of light fitting (if required)",
+            "dependant": false,
+            "templateId": "cd19afae-43c1-494e-97bd-9a30d61e02a9",
+            "type": "step",
+            "order": 4
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "fad17488-ad94-4b71-80cd-90db66bcd739",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Quality - Light Fitting Installation",
+        "dependant": true,
+        "templateId": "cd19afae-43c1-494e-97bd-9a30d61e02a9",
+        "type": "step",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "templateReference": "cd19afae-43c1-494e-97bd-9a30d61e02a9",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "Quality - Light Fitting Installation",
+    "dependant": true,
+    "templateId": "cd19afae-43c1-494e-97bd-9a30d61e02a9",
+    "type": "step"
+  }
+}

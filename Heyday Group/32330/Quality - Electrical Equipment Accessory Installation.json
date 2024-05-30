@@ -1,0 +1,128 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "585c5f70-3264-4601-aca9-9f6dc7a514ed",
+            "display": "normal",
+            "name": "Installed Correct Type/Colour of Equipment or Accessory",
+            "dependant": false,
+            "templateId": "649a71d7-064d-465e-ba05-320512b949a3",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "cac01609-7c33-4cab-af93-fbd489f9fe06",
+            "display": "normal",
+            "name": "Installed to the correct location as per drawings",
+            "dependant": false,
+            "templateId": "649a71d7-064d-465e-ba05-320512b949a3",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "912552dd-470f-4970-90de-7ef32e3bc3fa",
+            "display": "normal",
+            "name": "Installed with correct fixings and made safe",
+            "dependant": false,
+            "templateId": "649a71d7-064d-465e-ba05-320512b949a3",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "3c9b09ea-59d1-4090-b937-0a7ad38b7c63",
+            "display": "normal",
+            "name": "Installed to the correct Circuit & DB Destination",
+            "dependant": false,
+            "templateId": "649a71d7-064d-465e-ba05-320512b949a3",
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "47fca860-7d93-449d-8125-dc0d57e93b9d",
+            "display": "normal",
+            "name": "Installed correct labelling",
+            "dependant": false,
+            "templateId": "649a71d7-064d-465e-ba05-320512b949a3",
+            "type": "step",
+            "order": 4
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "templateReference": "8cad35c9-294a-40ec-9219-3986eeb6d95b",
+                "display": "flat",
+                "name": "Signoff Required from Heyday",
+                "dependant": true,
+                "signoffs": true,
+                "templateId": "649a71d7-064d-465e-ba05-320512b949a3",
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "03dffa92-dc6d-46f4-a357-8a4226f1f897",
+            "display": "normal",
+            "name": "Final Check and No Damage to item",
+            "dependant": false,
+            "templateId": "649a71d7-064d-465e-ba05-320512b949a3",
+            "type": "step",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "d18315df-1b72-43cc-9143-5c9bc3430f85",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Quality - Electrical Equipment/Accessory Installation",
+        "dependant": true,
+        "templateId": "649a71d7-064d-465e-ba05-320512b949a3",
+        "type": "step",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "templateReference": "649a71d7-064d-465e-ba05-320512b949a3",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "Quality - Electrical Equipment/Accessory Installation",
+    "dependant": true,
+    "templateId": "649a71d7-064d-465e-ba05-320512b949a3",
+    "type": "step"
+  }
+}
