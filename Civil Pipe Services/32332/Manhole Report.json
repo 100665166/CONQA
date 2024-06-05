@@ -1,0 +1,443 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "b8dba9be-3648-5e5d-9bf9-4fc41b50047c": {
+              "title": "Design LL",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "e70f99c3-b332-5297-a82d-677abf92c189": {
+              "title": "Identification",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "c5aa50f9-f955-5c40-96eb-fcd52f297437": {
+              "title": "As-built LL",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "1c387115-5129-5fd0-9bfb-820f97ea1ddb": {
+              "title": "Diameter",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "bfc88c10-10c4-4664-8f4a-cb20aa676dc9",
+            "display": "normal",
+            "name": "Manhole details",
+            "dependant": false,
+            "templateId": "47702ef5-bdbc-4422-8198-4984b668bdb2",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "81b8c6c4-2b4a-48d1-b3d3-fb50e250202f",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Manhole details",
+        "dependant": true,
+        "templateId": "47702ef5-bdbc-4422-8198-4984b668bdb2",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "ea167e41-38f6-5c49-997a-370de040013c": {
+              "title": "Undercut Depth",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "168031cc-3a30-538f-affc-986b1766c95a": {
+              "title": "Geotextile Grade",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "70427881-6879-5d12-bbe8-eb9287cc5cef": {
+              "title": "Geotextile",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 4
+            },
+            "8c8753c4-5f8e-55d2-868b-83d6f565ffdc": {
+              "title": "Base test - please select",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "None",
+                " Scala",
+                " Shearvane"
+              ],
+              "order": 0
+            },
+            "e128774c-70fd-5cb7-b9e2-b6c707635390": {
+              "title": "Please upload test sheet and photos",
+              "type": "label",
+              "order": 1
+            },
+            "1667cc60-9abd-5d79-a8dc-9b7d6c6eb4b7": {
+              "title": "Geotextile Position",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Bottom",
+                " Sides",
+                " Top"
+              ],
+              "order": 6
+            },
+            "18fd1bc8-ab6d-58eb-ac91-793811fd3413": {
+              "title": "Clegg test",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 7
+            },
+            "f598ebd0-149b-5431-b6c9-ed6c173a0493": {
+              "title": "Bedding",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Gap7",
+                " Gap10",
+                " Gap20"
+              ],
+              "order": 8
+            },
+            "f2e7829b-74b9-5886-b754-e0eb86c4732f": {
+              "title": "Subject to engineer's instruction",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 2
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "fd4af94e-0b4a-4c86-b71e-6b7b927bfa62",
+            "display": "normal",
+            "name": "Base",
+            "dependant": false,
+            "templateId": "47702ef5-bdbc-4422-8198-4984b668bdb2",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "90b9ef11-f34a-4344-85c7-53246943b5ba",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Base",
+        "dependant": true,
+        "templateId": "47702ef5-bdbc-4422-8198-4984b668bdb2",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "384ab25b-f8ff-5daf-9a83-40bd0ee60036": {
+              "title": "Benching Complete",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 2
+            },
+            "d5791727-c3c8-5816-9c67-5735924ad92a": {
+              "title": "Penetrations sealed",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 0
+            },
+            "c9b5432a-4086-5ea2-a370-dde2e14c2937": {
+              "title": "Step location",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "Over bench",
+                " Over outlet"
+              ],
+              "order": 1
+            },
+            "f4506e7c-4852-5e5e-815d-1ad922c0f530": {
+              "title": "Sides clean",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 3
+            },
+            "a5ec431c-40f3-5c27-b1e0-796cc0b849b6": {
+              "title": "Riser Joints epoxy sealed",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 4
+            },
+            "2acb835a-8684-5f5a-8750-311f1660afec": {
+              "title": "Opening over steps",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 5
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "0dae1eca-fa18-41a2-a201-7f801bd05d71",
+            "display": "normal",
+            "name": "Internal",
+            "dependant": false,
+            "templateId": "47702ef5-bdbc-4422-8198-4984b668bdb2",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "87b7a411-f7b7-476d-9d99-9a3efc7363fa",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Internal",
+        "dependant": true,
+        "templateId": "47702ef5-bdbc-4422-8198-4984b668bdb2",
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "9bf0291f-4758-4cb4-8933-3dedaecfcc2b": {
+              "title": "Shearband installed",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 4
+            },
+            "89a5abbb-6256-4075-ae19-a4d41803ba86": {
+              "title": "Foot finished",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 3
+            },
+            "fcfcba41-f848-4978-89b6-0bf855ae8f39": {
+              "title": "Diameter",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "100",
+                " 150"
+              ],
+              "order": 0
+            },
+            "12ead75b-45fa-4944-89ea-83cdff4b0283": {
+              "title": "Fitup satisfactory",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 1
+            },
+            "2b720c7e-b895-4046-ae5f-33eed4af8720": {
+              "title": "Brackets installed",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 2
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "7e85ad4c-97dd-4701-87b3-da2f05d7a959",
+            "display": "normal",
+            "name": "Internal Drop Junction",
+            "dependant": false,
+            "templateId": "47702ef5-bdbc-4422-8198-4984b668bdb2",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "4416d569-b76c-49d4-a4ca-95d6abe82548",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Internal Drop Junction Report",
+        "dependant": true,
+        "templateId": "47702ef5-bdbc-4422-8198-4984b668bdb2",
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "ae2da8d6-985d-563b-a9eb-b45d52412340": {
+              "title": "Opening size",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "530",
+                " 610"
+              ],
+              "order": 0
+            },
+            "5e1e9707-9f3e-557f-9809-fc4b89c3030f": {
+              "title": "Safety grille fitted",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No",
+                " N/A"
+              ],
+              "order": 2
+            },
+            "42de9db0-6260-560a-b637-1050d6220f34": {
+              "title": "Depth FLL to top step",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "3e56588d-8e25-5fee-a912-acc80f4b4e35": {
+              "title": "Throat sealed",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                " No"
+              ],
+              "order": 3
+            },
+            "0e93b08b-57e3-5356-952f-fdd501777520": {
+              "title": "Hinge orientation",
+              "type": "enum",
+              "subtype": "select",
+              "values": [
+                "90 deg. to steps",
+                " Traffic flow"
+              ],
+              "order": 1
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "fcde03b0-0f5b-4cb8-a6ef-ec26edc7b2c3",
+            "display": "normal",
+            "name": "Cover",
+            "dependant": false,
+            "templateId": "47702ef5-bdbc-4422-8198-4984b668bdb2",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "33e64da9-b531-4c73-ae73-4418b9fb44f4",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Cover",
+        "dependant": true,
+        "templateId": "47702ef5-bdbc-4422-8198-4984b668bdb2",
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "templateReference": "47702ef5-bdbc-4422-8198-4984b668bdb2",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "Manhole Report",
+    "dependant": true,
+    "templateId": "47702ef5-bdbc-4422-8198-4984b668bdb2",
+    "type": "step"
+  }
+}
