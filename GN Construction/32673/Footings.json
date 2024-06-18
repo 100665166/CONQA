@@ -1,0 +1,310 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "GL and datum provided",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Geotechnical Eng subgrade inspection report received and closed-out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Check for clash",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Upload drawings, detail /Mark up plan",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-start",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Service trade sign off/QA",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Waterproof sign off/QA",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Formwork signoff/QA",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Check levels",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "f7bd4f24-eb8c-5624-b00a-362ef018334b": {
+              "title": "Drawings UpToDate, check for CAN’s",
+              "type": "boolean",
+              "order": 1
+            },
+            "74cbf223-aa2a-5067-a82a-359ef2f7a809": {
+              "title": "Starters, scabbling, cover checked",
+              "type": "boolean",
+              "order": 2
+            },
+            "584da06d-898d-523c-b9f4-22a18cbc177b": {
+              "title": "Reo details checked",
+              "type": "boolean",
+              "order": 0
+            },
+            "53503008-e82f-5299-ab6d-bed590ee638f": {
+              "title": "Clean formwork and ready to pour",
+              "type": "boolean",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "GN inspection- Prepour",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Structural Eng inspection report received and close-out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Council inspection report received and close-out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Stop-End checked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Pour sequence mark-up",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-Pour",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Clear access for trucks/pump",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Exposed reo capped",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Safe access to all areas of pour",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Access/Safety",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Concrete Dockets and test report received",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Curing agent",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Pour QA received",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pour",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "name": "Footings",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}

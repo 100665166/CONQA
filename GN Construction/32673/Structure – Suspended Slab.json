@@ -1,0 +1,399 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Structural Steel sign-off for TT/ comflor install",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "PCP wall installation sign-off/QA received",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "85695f0f-aaf4-5399-8774-5d677d5289ed": {
+              "title": "Hydraulic",
+              "type": "boolean",
+              "order": 2
+            },
+            "2d259985-4707-5933-8546-1f08542568d1": {
+              "title": "Comms and Fibre",
+              "type": "boolean",
+              "order": 3
+            },
+            "f90b520e-5359-5c06-93e8-c26208810539": {
+              "title": "Electrical",
+              "type": "boolean",
+              "order": 0
+            },
+            "99dbef99-587b-580f-a6af-f7d77645737a": {
+              "title": "Fire",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Services sign-off/QA received",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "GL and datum provided",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Double Tee QA/ inspection done and signed off",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Clean work area",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-Check",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Double Tee's checked on arrival & installed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Comflor laid and Studs welded",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "e7b40caf-8f42-5907-ad24-d6daf16f0b7e": {
+              "title": "Service penetration marked & sealed",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Formwork/Edge Trim installed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "c1ea84d2-d018-5f05-81da-0d6073cb1bc1": {
+              "title": "Reo details checked",
+              "type": "boolean",
+              "order": 0
+            },
+            "f398323f-c24d-5ea5-bb87-0446afbb8b2c": {
+              "title": "Drawings UpToDate, check for CAN’s",
+              "type": "boolean",
+              "order": 1
+            },
+            "2e3f3436-1c52-59f3-b1e6-bd8b44e8d19f": {
+              "title": "Starters, scabbling, cover checked",
+              "type": "boolean",
+              "order": 2
+            },
+            "0438ade7-61b1-5182-9fc6-b506720ea07b": {
+              "title": "Clean formwork and ready to pour",
+              "type": "boolean",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "GN inspection- Prepour",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Structural Eng inspection report received and close-out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Council inspection report received and close-out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Pour sequence mark-up",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pre-pour",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Clear access for trucks/pump",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Safe access to all areas of pour",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Panel and steel protection",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Access/Safety",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Confirm mix & test",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Confirm Finish",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Levels Checked",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Pour",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Concrete Dockets and test report received",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Curing agent",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Saw cuts within 24h of pour and slurry removing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Pour QA received",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Post pour",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "name": "Structure – Suspended Slab",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
