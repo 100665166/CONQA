@@ -1,0 +1,434 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "38cab569-f797-59d2-a049-f646b6e97043": {
+              "title": "Enter SOW description",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Scope Description (from Bravada SOW) and item numbers",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Attach TDS for application (Download from Simpro)",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "f41d6911-96e6-577d-a0a7-3bc6758a5b91": {
+              "title": "Adequate fall in substrate?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 0
+            },
+            "2fb105ca-3ae1-5199-8670-340d33612898": {
+              "title": "Provide description, photos and plan identifying any areas where the client is required to repair/remediate the substrate",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Preliminary Substrate Assessment for Potential Rectification",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "6f113128-51af-5511-afe9-b111a1405d48": {
+              "title": "Substrate deemed acceptable for membrane application as per VicRoads specification 691",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Substrate Assessment for Acceptance, and Adhesion Testing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "44d93ac6-2650-5282-858a-ada13a24f8de": {
+              "title": "Substrate ready for membrane application.",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 2
+            },
+            "9057495b-9b53-5c2c-ba18-2cad305afcf9": {
+              "title": "If any damage has occurred since initial assessment and/or rectification please identify and alert builder.",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "c8000910-8c67-5b7b-8c2a-a032b00cc875": {
+              "title": "Substrate to be washed/cleaned",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Substrate Preparation",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "78849dc7-9782-5f12-8217-7915df27cfee": {
+              "title": "Primer installed before pot life expiry?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 6
+            },
+            "b2e763ad-ba95-5878-9ceb-d191ec72b4d9": {
+              "title": "Substrate free from surface water",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 0
+            },
+            "2e23fcae-2653-52a0-9b3b-b20cf00e106a": {
+              "title": "Moisture content > 7%",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 2
+            },
+            "dd1c3c2f-d81d-5557-8f40-c94e88b66aab": {
+              "title": "Substrate free from surface water - record moisture reading",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 5
+            },
+            "2b996476-a1fd-528d-8c26-d21078ddf33e": {
+              "title": "Record date and time of quartz broadcast",
+              "type": "input",
+              "subtype": "text",
+              "order": 9
+            },
+            "09b6bf38-9d29-5890-8c21-128961194399": {
+              "title": "Record date/time, temperature and % catalyst at time of mixing primer",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            },
+            "dafb7bc2-5c48-585f-9c09-6238793b147a": {
+              "title": "Record date and time of primer installation",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "0047e4db-c33f-50cc-a488-27d2d58cd341": {
+              "title": "Quartz aggregate broadcast into primer",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 8
+            },
+            "c4407f4d-94f2-5785-90e4-6c9c1fafe4e7": {
+              "title": "Substrate temperature is not less then 10*C and no greater then 35*C",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 1
+            },
+            "dfb596f3-5d9a-5cdc-a8d6-ed6591ff52ae": {
+              "title": "Record (Photo) batch number and date of manufacture of primer",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "Matacryl Primer H Application",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "c47a9f01-191c-5a16-8384-4ca01a01d005": {
+              "title": "MataCryl Thix installed to upturns before pot life expiry?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 4
+            },
+            "9c80f2c8-47e3-58ff-bea7-93c26122775d": {
+              "title": "Record date and time of MataCryl Manual installation",
+              "type": "input",
+              "subtype": "text",
+              "order": 5
+            },
+            "729a8143-5e4a-5026-a183-f590e573f797": {
+              "title": "MataCryl Manual installed before pot life expiry?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 3
+            },
+            "2f0ba8f8-7f37-58c8-ba58-3e124f427971": {
+              "title": "Record date/time, temperature and % catalyst at time of mixing MataCryl Manual",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "368ed5cd-c4a2-5018-bda3-6b671be97c16": {
+              "title": "Substrate temperature is not less then 10*C and no greater then 35*C",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 0
+            },
+            "2e758321-1bdd-514b-95d9-202a9e3702f9": {
+              "title": "Record (Photo) batch number and date of manufacture of MataCryl Manual",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Matacryl Manual Base Coat Application",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "efbb8808-ae77-5500-a1ba-f93dab1eefc9": {
+              "title": "Record date/time, temperature and % catalyst at time of mixing MataCryl WL",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "d6105bab-218a-515f-849d-db54237fc03b": {
+              "title": "Record date and time of quartz broadcast",
+              "type": "input",
+              "subtype": "text",
+              "order": 6
+            },
+            "9d2a4f39-2829-5fb2-a71a-9a7dc7e6f4e0": {
+              "title": "MataCryl WL installed before pot life expiry?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 3
+            },
+            "6d5ae0fd-b8c2-5833-be4b-b89312d071dd": {
+              "title": "Quartz aggregate broadcast into primer",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 5
+            },
+            "1cf936e9-0f91-590f-bdd9-fc996ce92fe5": {
+              "title": "Substrate temperature is not less then 10*C and no greater then 35*C",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 0
+            },
+            "e5b60403-f58a-5aa5-8667-982b9c9f69cc": {
+              "title": "Record (Photo) batch number and date of manufacture of MataCryl WL",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "e8b9541a-975f-5a87-ab76-a8fe6fe4eec1": {
+              "title": "Record date and time of MataCryl WL installation",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "Matacryl WL (Wearing Layer) First Top Coat Application",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "dde7f578-1156-5dcc-b3f2-a431c0e4af3e": {
+              "title": "Substrate temperature is not less then 10*C and no greater then 35*C",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 0
+            },
+            "b1943c27-30de-5334-b646-cb3b2c7a11e0": {
+              "title": "Record date/time, temperature and % catalyst at time of mixing MataCryl WL",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "80604813-719d-5f55-a9d6-41532438344e": {
+              "title": "MataCryl WL installed before pot life expiry?",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No"
+              ],
+              "order": 3
+            },
+            "c0c55c1a-ad57-569d-8d12-725b9f986e1d": {
+              "title": "Attach Client Signature Below",
+              "type": "label",
+              "order": 5
+            },
+            "1fa3c3c4-f5ce-5867-97a6-7b2de1276155": {
+              "title": "Record (Photo) batch number and date of manufacture of MataCryl WL",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "961a91c7-443d-5cbb-b2d9-6dbb76882ba8": {
+              "title": "Record date and time of MataCryl WL installation",
+              "type": "input",
+              "subtype": "text",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "Matacryl WL (Wearing Layer) Second Top Coat Application",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Details",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "name": "MataCryl Trafficable",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
