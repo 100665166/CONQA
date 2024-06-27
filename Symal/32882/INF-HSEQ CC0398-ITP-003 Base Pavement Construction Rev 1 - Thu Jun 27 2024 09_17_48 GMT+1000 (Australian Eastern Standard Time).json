@@ -1,0 +1,1246 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "5f18f051-a676-5e3f-ba60-44534e570e48": {
+              "title": "Lot Mark-Up",
+              "type": "boolean",
+              "order": 7
+            },
+            "5b2bd2ef-3e75-540d-8649-4edd104a0c67": {
+              "postfix": "m2",
+              "title": "Acceptance",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "54c4c5c8-e11c-59fa-87eb-3fd3e9d0f909": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 4
+            },
+            "43d09c37-555c-5265-aaf5-711e3df335c7": {
+              "title": "VIVA - S",
+              "type": "label",
+              "order": 5
+            },
+            "26acb492-9acd-5d06-9f7a-caaa1143b6cb": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) -",
+              "type": "label",
+              "order": 6
+            },
+            "8f839c3d-0f6f-57fd-ba40-2524e8f064c0": {
+              "title": "Acceptance criteria - Lot sizes is determined by the lesser of: One day’s production or 4000m2",
+              "type": "label",
+              "order": 1
+            },
+            "cca7cbfa-c2a2-5d83-aafb-5efa18c67deb": {
+              "title": "Maximum lot size = 4000m2",
+              "type": "label",
+              "order": 3
+            },
+            "6501d8b1-cb43-5bdf-9dd5-67d2dba00fa2": {
+              "title": "Ref docs - 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "1.1 - Determine lot size",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "8aa7e653-16c3-56d5-a513-2a0363d44dbf": {
+              "title": "Acceptance criteria - Is the work area clearly pegged out for line and level?",
+              "type": "label",
+              "order": 1
+            },
+            "0cf98971-5246-5cfd-bb65-0aeee80bd42a": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "80487666-1cd6-59d5-9be7-ddf3c4831cbf": {
+              "title": "VIVA - S",
+              "type": "label",
+              "order": 4
+            },
+            "e8633a6d-758b-59ef-888f-cfbd143e64c6": {
+              "title": "Ref docs - IFC Drawings",
+              "type": "label",
+              "order": 0
+            },
+            "f05c6e9a-36fd-54f4-9394-97ae24b54482": {
+              "title": "Key - W",
+              "type": "label",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "1.2 - Survey set-out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "e7cdf885-173b-58de-9df0-d8f3b7831e41": {
+              "title": "Acceptance criteria - Has the nominated materials been approved for use on the project?",
+              "type": "label",
+              "order": 1
+            },
+            "c8bdf585-db77-5229-bb64-061071d89421": {
+              "title": "Ref docs - 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            },
+            "a0b6986c-2be2-535f-9125-dee4d5976015": {
+              "title": "iDocs Number",
+              "type": "input",
+              "subtype": "text",
+              "order": 7
+            },
+            "da0fb1c6-15c0-5f0d-b6cd-10bfcd11bd24": {
+              "title": "VIVA - H",
+              "type": "label",
+              "order": 4
+            },
+            "09c71a68-3758-568f-9a6d-6c9c77bb59ac": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 3
+            },
+            "50b1f835-aba7-5703-b6c1-ad3b1bee2549": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) -",
+              "type": "label",
+              "order": 5
+            },
+            "de56d295-db70-5412-bccf-81f55a7a0d9e": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "0b95c8ae-2a21-58f2-83fd-e8a8b36dcac9": {
+              "title": "iDocs Approval Document",
+              "type": "boolean",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "1.3 - Material classification and source",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "1.0 Preliminaries",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "81e0e4e3-8ddc-5612-87a0-8bea0288a50d": {
+              "title": "Acceptance criteria - Has the previous layer passed acceptance criteria?",
+              "type": "label",
+              "order": 0
+            },
+            "b612900e-50a7-53c2-9c3e-25418ac21c1e": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 1
+            },
+            "7189376a-d627-5626-ac23-398505e4b612": {
+              "title": "VIVA - H",
+              "type": "label",
+              "order": 3
+            },
+            "1dfb806b-055f-532e-a775-2f5f663def65": {
+              "title": "ITP Number",
+              "type": "boolean",
+              "order": 5
+            },
+            "69de0e78-36f8-56fa-8320-0efe083ebfcc": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) -",
+              "type": "label",
+              "order": 4
+            },
+            "20018853-84de-5729-a379-0079ffd0af5d": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "2.1 - Conformance of previous layer",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "bb8147f6-6b95-58d6-9639-45561ac2fbe2": {
+              "title": "○ For Crushed Rock Placement for Gravel Pavement Refer to Section 4.0",
+              "type": "label",
+              "order": 1
+            },
+            "92c74975-23d8-5dba-ac9b-cfbc0807f4fd": {
+              "title": "○ For Crushed Rock Placement Below Concrete Pavement Refer to Section 3.0",
+              "type": "label",
+              "order": 0
+            },
+            "fa1f7190-e811-5ac9-aa81-8394c776142d": {
+              "title": "○ Please strikeout not applicable sections",
+              "type": "label",
+              "order": 3
+            },
+            "6f7016fe-c9ef-5f8e-96f6-14ac56a767c4": {
+              "title": "○ If multiple pavement types exist please complete as applicable",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Type of Pavement:",
+            "dependant": true,
+            "stepType": "checkpoint-no-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "2.0 Conformance of previous layer",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "d33cfb8c-8769-50e6-b2c3-6b5e9d1a63ec": {
+              "title": "VIVA - S",
+              "type": "label",
+              "order": 5
+            },
+            "01389caa-4b1a-5fa6-bc77-a97e7bfdaf7c": {
+              "title": "Ref docs - IFC Drawings 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            },
+            "eedb55a1-590d-5c8e-bd12-a9b3399987a2": {
+              "title": "Acceptance criteria - Has Class 2 Crushed Rock been placed to be a minimum of 250mm Thick as per IFC Drawings?",
+              "type": "label",
+              "order": 1
+            },
+            "13d22732-d375-567f-ae22-91ec50f1151b": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 4
+            },
+            "aa11b76c-a823-5d46-b72f-3ab49ffe384d": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 3
+            },
+            "49a7d8d8-0a74-59b1-a156-b8b99f0eca12": {
+              "title": "○ Crushed Rock Layers must not exceed 250mm thick lifts if additional Crushed Rock is required.",
+              "type": "label",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "3.1 - Placement",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "d9a60ee9-b6a9-5faf-94b2-132f3ffa344e": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 3
+            },
+            "35ca5b69-0a83-52dd-90db-9a5dd46b3dcf": {
+              "title": "Ref docs - IFC Drawings 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            },
+            "56384fb5-6c00-5e73-9829-9bc53e2d806e": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "dfbb937b-ae3c-5a8e-b34e-c057068ebd28": {
+              "title": "VIVA - S",
+              "type": "label",
+              "order": 4
+            },
+            "d36c6c8c-68d5-5902-a3df-69c08681e1ac": {
+              "title": "Acceptance criteria - Has the material maintained at optimum moisture content (>85%), with additional water being added if required during compaction?",
+              "type": "label",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "3.2 - Moisture",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "b13d3546-2115-5f3d-a10f-5ad32e2d15eb": {
+              "title": "Acceptance criteria - Compaction Testing is to be completed at 3 tests per lot to the below requirements:",
+              "type": "label",
+              "order": 4
+            },
+            "3caeb15a-4034-5a12-9768-059f494dea8f": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 9
+            },
+            "6f254900-fcbe-5d4b-8fd3-ef732cce8350": {
+              "title": "Ref docs - IFC Drawings 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            },
+            "d4759b59-4e66-559e-8bf6-e84562d8c480": {
+              "title": "– If testing of the first 3 consecutive lots have achieved the above requirements testing is to be reduced to testing per 2 lots until such time that a lot fails to meet the specified requirements.",
+              "type": "label",
+              "order": 7
+            },
+            "777dfafa-dd95-5ab7-84cf-43a2ea10dcb4": {
+              "title": "○ +-3% of Modified Moisture Content",
+              "type": "label",
+              "order": 6
+            },
+            "fc38b74e-a939-5072-bb4d-f2930e7803e7": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 8
+            },
+            "9e51b6f7-df24-5291-853d-8e637d5708dd": {
+              "title": "○ 98% MDD",
+              "type": "label",
+              "order": 5
+            },
+            "ced06147-f3a9-5f5e-8a88-a800e350c339": {
+              "title": "Compaction test reports",
+              "type": "boolean",
+              "order": 12
+            },
+            "0b93ef45-aedf-4281-93b0-8d235b2a6aff": {
+              "title": "○ DoT 304.11",
+              "type": "label",
+              "order": 2
+            },
+            "15b9e5e0-0d48-574a-8e61-7d86ed4b494d": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) -",
+              "type": "label",
+              "order": 11
+            },
+            "c5812e5c-1512-46fc-bbf0-45478166e4d4": {
+              "title": "○ DoT 304.09",
+              "type": "label",
+              "order": 1
+            },
+            "c354666d-5886-45a9-b59d-58f25b3e3039": {
+              "title": "○ DoT 304.121",
+              "type": "label",
+              "order": 3
+            },
+            "cc0b4ae2-f2cb-50c8-9a1f-3885365cab1b": {
+              "title": "VIVA - S",
+              "type": "label",
+              "order": 10
+            }
+          },
+          "meta": {
+            "name": "3.3 - Compaction",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "f612c7e6-fcca-5810-a8f0-6ec9ace8f618": {
+              "title": "VIVA - W",
+              "type": "label",
+              "order": 7
+            },
+            "96a4c8b6-a202-5e3e-a455-8cf8a1489620": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 3
+            },
+            "3d64c171-4402-579f-80a6-972f4c57472a": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) -",
+              "type": "label",
+              "order": 8
+            },
+            "60e4dcc6-7e37-5a9a-8641-39b5671cd033": {
+              "title": "If ‘yes’ please proceed",
+              "type": "label",
+              "order": 5
+            },
+            "a8f60c05-766d-5571-addc-cbcb1fc24664": {
+              "title": "Acceptance criteria - Does the layer withstand test rolling without visible deformation?",
+              "type": "label",
+              "order": 1
+            },
+            "9121f4ae-077d-5192-9de9-8264c6fc4043": {
+              "title": "If ‘no’ please see below",
+              "type": "label",
+              "order": 4
+            },
+            "823e135f-1efe-55b0-add1-ccb87dbe91b1": {
+              "title": "Proof Roll Sheet",
+              "type": "boolean",
+              "order": 9
+            },
+            "8417ed8f-2d33-52ef-a780-bd97adf43f18": {
+              "title": "Ref docs - IFC Drawings 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            },
+            "e3bad8fa-53d1-560a-af29-9e43dcc80a08": {
+              "title": "List attendees:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "dd985b01-e537-5220-bc7c-0a7c3b8bebe5": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "3.5 - Test rolling",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "97ec0340-9dee-5e5e-b847-719c46b8fabb": {
+              "title": "Ref docs - IFC Drawings 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            },
+            "4cde47f5-e32c-561b-b519-d786462843ab": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 4
+            },
+            "bb6b736c-dcf1-52ac-8f40-6f3784b729f9": {
+              "title": "Acceptance criteria - What quantity of soft, wet or unstable material is present?",
+              "type": "label",
+              "order": 1
+            },
+            "9d156093-5a40-585f-813e-1c1b080e35b6": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "711c6f8c-97d8-5f7f-aed0-21b69f7e8ea8": {
+              "title": "VIVA - W",
+              "type": "label",
+              "order": 5
+            },
+            "e576fcb6-bb54-5c0f-8724-31107bfd1a20": {
+              "title": "",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "3.6 - Identification of soft wet or unstable material",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "7cee4b29-d1cb-58e1-8c35-56348ddcbb6c": {
+              "title": "Ref docs - IFC Drawings 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            },
+            "45041a27-b536-5253-abd1-fa5e6a8ccc1e": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 3
+            },
+            "ac86a90b-0949-513b-8285-c65a5a3f4e25": {
+              "title": "VIVA - W",
+              "type": "label",
+              "order": 4
+            },
+            "99bdd0a0-8ccf-522e-94f1-0e32eeec3810": {
+              "title": "Acceptance criteria - Has the nominated soft/wet spot been rectified by a remove and replace method?",
+              "type": "label",
+              "order": 1
+            },
+            "64a62daa-c37e-54dd-b280-2dd59e017376": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "3.7 - Treatment of unsuitable material",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "c5623489-4e10-5d5e-abbc-4fd16d806e60": {
+              "title": "Acceptance criteria - Has the Polythene Membrane been installed above the completed Crushed Rock layer?",
+              "type": "label",
+              "order": 1
+            },
+            "cf22dba4-bc72-5cf7-b78c-84e43e394556": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "7ba0d442-51ce-5efd-8ef4-30b7ca7ed19d": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 3
+            },
+            "d828a38b-e40c-5ade-94aa-c9a127b199e4": {
+              "title": "Ref docs - IFC Drawings",
+              "type": "label",
+              "order": 0
+            },
+            "e4125fc3-a679-5ef3-aa19-0754b7f8a6c9": {
+              "title": "VIVA - S",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "3.8 - Placement of Polythene Membrane",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "3.0 Crushed Rock Placement Below Concrete Paving",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "6add77c9-adf0-5e59-8097-b90ed6bf983e": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "0dfc6fcf-b3d8-54cb-be50-3a61746a69f7": {
+              "title": "Ref docs - IFC Drawings",
+              "type": "label",
+              "order": 0
+            },
+            "6f887263-f3e7-51de-b4bc-4c53f829ef5d": {
+              "title": "Acceptance criteria - Has Geogrid been installed where non-paved areas have been excavated?",
+              "type": "label",
+              "order": 1
+            },
+            "e9c174ad-573b-5fa3-84ff-93dea5f41103": {
+              "title": "Key - W",
+              "type": "label",
+              "order": 3
+            },
+            "f3ff3c71-43a1-54e0-8bdb-05d75404f2e3": {
+              "title": "Material Approval",
+              "type": "boolean",
+              "order": 6
+            },
+            "b1571a35-8fd3-55ca-8946-26ccf49e833f": {
+              "title": "VIVA - S",
+              "type": "label",
+              "order": 4
+            },
+            "0de21b6f-e82a-575c-aefb-940a38bbfcfa": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) -",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "4.1 - Placement of Geogrid",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "a903b078-bc18-51df-b13c-98e9eaabc123": {
+              "title": "Ref docs - IFC Drawings 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            },
+            "853dda95-b172-5def-a1dc-8a3763e8c205": {
+              "title": "○ Crushed Rock Layers must not exceed 250mm thick",
+              "type": "label",
+              "order": 2
+            },
+            "5a401019-1e96-5ec9-af57-9ee3a4591000": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 3
+            },
+            "cd392d81-4008-5da9-9916-cc3bdabb4f79": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 4
+            },
+            "d72fa877-9882-5c97-bf6e-e26e10174d14": {
+              "title": "Acceptance criteria - Has 20mm Class 3 Crushed Rock been placed to be 400mm thick?",
+              "type": "label",
+              "order": 1
+            },
+            "fa358042-4cbf-5c10-91c1-e7292a11b583": {
+              "title": "VIVA - S",
+              "type": "label",
+              "order": 5
+            }
+          },
+          "meta": {
+            "name": "4.2 - Placement of Crushed Rock",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "2331b14f-f1d0-57ed-870e-6dbaa9f9ee1a": {
+              "title": "Ref docs - IFC Drawings 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            },
+            "6c99e8bd-c06d-578b-be29-711ddc8e0327": {
+              "title": "Key - S",
+              "type": "label",
+              "order": 3
+            },
+            "43495157-14fb-57dd-940e-3c1945e4c980": {
+              "title": "Acceptance criteria - Has the material maintained at optimum moisture content (>85%), with additional water being added if required during compaction?",
+              "type": "label",
+              "order": 1
+            },
+            "6ec08d96-7bff-5e62-9518-0224f15059c6": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            },
+            "156e0296-e4be-5c66-b962-6dbc51d53533": {
+              "title": "VIVA - S",
+              "type": "label",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "4.3 - Moisture",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5e43bae2-a18c-5b73-802c-99b64fe06a10": {
+              "title": "VIVA - S",
+              "type": "label",
+              "order": 10
+            },
+            "bbc07bbe-5011-5668-b581-002833c721dc": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 9
+            },
+            "ff870aea-f513-41dc-b928-aa14702d4cd8": {
+              "title": "○ DoT 304.11",
+              "type": "label",
+              "order": 2
+            },
+            "cae85642-5db5-5937-8890-cff42144a5c2": {
+              "title": "If testing of the first 3 consecutive lots have achieved the above requirements testing is to be reduced to testing per 2 lots until such time that a lot fails to meet the specified requirements.",
+              "type": "label",
+              "order": 7
+            },
+            "077a6c37-c1ca-518a-a2fe-3f5d83345928": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 8
+            },
+            "7d6e1f91-a934-5645-955d-5a669e035a9e": {
+              "title": "○ +-3% of Modified Moisture Content",
+              "type": "label",
+              "order": 6
+            },
+            "89d3e070-4413-528d-a4ab-06f872de98b9": {
+              "title": "○ 100% Standard Compaction",
+              "type": "label",
+              "order": 5
+            },
+            "2ab9353d-83ac-5c89-8b8b-fff09aebef9c": {
+              "title": "Compaction test reports",
+              "type": "boolean",
+              "order": 12
+            },
+            "992fb4f9-436a-40ad-9d9f-b51fc1d38104": {
+              "title": "○ DoT 304.121",
+              "type": "label",
+              "order": 3
+            },
+            "323c7877-ecd9-418a-b9d7-7ab2eaffa700": {
+              "title": "○ DoT 304.09",
+              "type": "label",
+              "order": 1
+            },
+            "31de37d4-20c8-5b82-ac43-255a2389f771": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) -",
+              "type": "label",
+              "order": 11
+            },
+            "d3209243-9c30-5573-a1c7-30fafcce5b85": {
+              "title": "Acceptance criteria - Compaction Testing is to be completed at 3 tests per lot to the below requirements:",
+              "type": "label",
+              "order": 4
+            },
+            "429d6bce-33c6-59a5-8d64-2ad478c6f108": {
+              "title": "Ref docs - IFC Drawings 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "4.4 - Compaction",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "73e1ee2b-08c7-59b8-8150-983da127d3d2": {
+              "title": "List attendees:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "d94bbfa0-63bf-5cb6-84b5-b96884759f4e": {
+              "title": "If ‘no’ please see below",
+              "type": "label",
+              "order": 4
+            },
+            "b404bfbf-5950-599a-85c1-593556c3903a": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 6
+            },
+            "92ec5bda-49ea-54a3-997a-d6a6a08fec5c": {
+              "title": "VIVA - W",
+              "type": "label",
+              "order": 7
+            },
+            "e2b50d78-d3a3-5c10-8da2-5bbaef359853": {
+              "title": "Acceptance criteria - Does the layer withstand test rolling without visible deformation?",
+              "type": "label",
+              "order": 1
+            },
+            "b44fcef6-f2ee-5175-8a9e-11575b2a3639": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) -",
+              "type": "label",
+              "order": 8
+            },
+            "9ed16321-b204-5483-84c0-64512d1e5bb4": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 3
+            },
+            "88894f45-536d-5d61-9345-5e915faf41f9": {
+              "title": "Proof Roll Sheet",
+              "type": "boolean",
+              "order": 9
+            },
+            "99f6596e-bfaa-57ed-976b-bf8607a2d7da": {
+              "title": "If ‘yes’ please proceed",
+              "type": "label",
+              "order": 5
+            },
+            "97553362-56f8-5ff2-96e9-adceb75265b9": {
+              "title": "Ref docs - IFC Drawings 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "4.5 - Test rolling",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "2dc07789-628d-5968-8330-be11e9005f8e": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) -",
+              "type": "label",
+              "order": 3
+            },
+            "49f6f314-8b5e-5f7f-a09d-2ea51e17b811": {
+              "title": "Acceptance criteria - What quantity of soft, wet or unstable material is present?",
+              "type": "label",
+              "order": 1
+            },
+            "d9af96d1-8e5a-5322-b353-453a3f02f9b6": {
+              "title": "Ref docs - IFC Drawings 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            },
+            "57d94117-c5d9-5bab-9a31-aedeb125c5ff": {
+              "postfix": "m2",
+              "title": "Acceptance",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "14f24b55-a5a3-5dec-bcae-aeeaa06a36b3": {
+              "title": "Photos",
+              "type": "boolean",
+              "order": 4
+            }
+          },
+          "meta": {
+            "name": "4.6 - Identification of soft wet or unstable material",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "7e103013-e4ba-5867-b406-eb6bdcf54080": {
+              "title": "Ref docs - IFC Drawings 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            },
+            "e0c726a2-a991-5162-a318-691e492d7a7e": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) -",
+              "type": "label",
+              "order": 3
+            },
+            "e99da963-0e22-5ffe-b518-56c61c6bc0b1": {
+              "title": "Proof Roll Sheet",
+              "type": "boolean",
+              "order": 4
+            },
+            "8b850234-8a5d-5309-94cb-d3464137601c": {
+              "title": "Acceptance criteria - Has the nominated soft/wet spot been rectified by a remove and replace method?",
+              "type": "label",
+              "order": 1
+            },
+            "cd5e9e8a-b263-5276-817a-74fadbaa2bd3": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "4.7 - Treatment of unsuitable material",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "4.0 Crushed Rock Paving",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "e3602dc3-74e4-5984-a2d1-dc831e4cf811": {
+              "title": "Ref docs - IFC Drawings 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            },
+            "5ae04c9c-9fe2-5dab-9a1f-ccbd33dd9cbf": {
+              "title": "Acceptance criteria - Has the crushed rock layer been finished to a smooth and uniform surface?",
+              "type": "label",
+              "order": 1
+            },
+            "2717a8ab-24fb-5764-8c65-53db17151273": {
+              "title": "Key - W",
+              "type": "label",
+              "order": 3
+            },
+            "cc0f4e16-2509-583f-9afe-298f60b0c4e7": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "5.1 - Pavement finish",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "AUTHORITY HOLDPOINT",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "fbe17cc5-0a4e-58f6-8614-779e62dcaadb": {
+              "title": "Acceptance",
+              "type": "enum",
+              "subtype": "button",
+              "values": [
+                "Yes",
+                "No",
+                "N/A"
+              ],
+              "order": 3
+            },
+            "8128f3ee-2a3d-56f1-9e6a-fb0a34a30417": {
+              "title": "As built reports",
+              "type": "boolean",
+              "order": 7
+            },
+            "b56f3ef5-c7f8-51f5-8117-6ae41b140ee4": {
+              "title": "○ Tolerance: +-15mm",
+              "type": "label",
+              "order": 2
+            },
+            "053d23a8-26a5-5bff-87cd-6177a5936e8f": {
+              "title": "Ref docs - IFC Drawings 235929-000-CV-SP-002",
+              "type": "label",
+              "order": 0
+            },
+            "563af117-9dcf-54aa-b1e7-1c84bd60befc": {
+              "title": "VIVA - H",
+              "type": "label",
+              "order": 5
+            },
+            "6ecc219a-e6f4-5a30-bc48-062c3d1071c0": {
+              "title": "Key - H",
+              "type": "label",
+              "order": 4
+            },
+            "52c172d6-67d7-5bb0-95e7-f4602e1d0206": {
+              "title": "Acceptance criteria - Has the prepared layer been surveyed in accordance with and verifying specified requirements?",
+              "type": "label",
+              "order": 1
+            },
+            "26c1a71c-e3c7-54f6-8619-3035514505c5": {
+              "title": "Remarks / record (eg. test frequency, reports, certificates, checklist etc) -",
+              "type": "label",
+              "order": 6
+            }
+          },
+          "meta": {
+            "name": "5.2 - Surface level of pavement courses",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "5.0 Conformance check",
+        "dependant": true,
+        "type": "step",
+        "order": 4
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "INF-HSEQ CC0398-ITP-003 Base Pavement Construction Rev 1",
+    "dependant": true,
+    "type": "step",
+    "tags": {
+      "itp": true
+    }
+  }
+}
