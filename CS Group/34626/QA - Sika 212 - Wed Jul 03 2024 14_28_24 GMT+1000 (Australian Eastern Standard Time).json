@@ -1,0 +1,113 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "21986698-4654-49ad-a170-f90d09031ac6",
+            "display": "normal",
+            "name": "Check Correct Product Supplied",
+            "dependant": false,
+            "templateId": "5e19d851-8e92-471f-942f-214efb13ed9e",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "cc39a047-cdf0-47d8-b859-1fb78ba2893b",
+            "display": "normal",
+            "name": "Is surface free from dust, oils, grease or loosely adhering contaminents",
+            "dependant": false,
+            "templateId": "5e19d851-8e92-471f-942f-214efb13ed9e",
+            "type": "step",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "202f84c1-f8cb-4cd0-8545-e05aefaabad5",
+            "display": "normal",
+            "name": "Remove any weak cement laitance",
+            "dependant": false,
+            "templateId": "5e19d851-8e92-471f-942f-214efb13ed9e",
+            "type": "step",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "d7f377b9-9da6-4ad5-b717-dc4d57c425f6",
+            "display": "normal",
+            "name": "Mix prepared to temp, ratio and mix speed requirements",
+            "dependant": false,
+            "templateId": "5e19d851-8e92-471f-942f-214efb13ed9e",
+            "type": "step",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "53549d82-1bb3-479f-9829-647296277d26",
+            "display": "normal",
+            "name": "Flush with water prior to grout placement",
+            "dependant": false,
+            "templateId": "5e19d851-8e92-471f-942f-214efb13ed9e",
+            "type": "step",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "74b52b9b-2f04-4974-ae5f-3aa5e72f0c01",
+            "display": "normal",
+            "name": "Place grout",
+            "dependant": false,
+            "templateId": "5e19d851-8e92-471f-942f-214efb13ed9e",
+            "type": "step",
+            "order": 5
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "cb80c75b-18b4-49ef-b6b2-eeb60e61a55d",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Details",
+        "dependant": true,
+        "templateId": "5e19d851-8e92-471f-942f-214efb13ed9e",
+        "type": "step",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "templateReference": "5e19d851-8e92-471f-942f-214efb13ed9e",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "Sika 212 Date:",
+    "dependant": true,
+    "templateId": "5e19d851-8e92-471f-942f-214efb13ed9e",
+    "type": "step"
+  }
+}
