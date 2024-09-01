@@ -1,0 +1,74 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "f0e3810b-6cad-5e36-b0dd-e6fb59047ccf": {
+              "title": "Time Frames:",
+              "type": "input",
+              "subtype": "text",
+              "order": 3
+            },
+            "cc372db3-42a2-5c3e-9564-debfa454b71b": {
+              "title": "Building:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "439e8c08-29f4-572d-a1b9-b6cca23bcb2f": {
+              "title": "Employee Names:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            },
+            "7ed0d602-fabc-5143-9a0a-d4dfbc03be0e": {
+              "title": "Work Area:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "00654115-a5b9-4631-b8e9-eebd852a3dcf",
+            "display": "normal",
+            "name": "All COVID Contact Tracing Register details inputted below",
+            "dependant": false,
+            "templateId": "c3e63a49-038d-4055-893c-3ef97860d098",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "6cdb4613-04d4-4833-bbc3-1b16349f0a7e",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Details",
+        "dependant": true,
+        "templateId": "c3e63a49-038d-4055-893c-3ef97860d098",
+        "type": "step",
+        "order": 0
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "templateReference": "c3e63a49-038d-4055-893c-3ef97860d098",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "Record COVID Contact Tracing Details",
+    "dependant": true,
+    "templateId": "c3e63a49-038d-4055-893c-3ef97860d098",
+    "type": "step"
+  }
+}
