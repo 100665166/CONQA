@@ -1,0 +1,44 @@
+{
+  "tree": [
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "holdpoint",
+        "display": "flat",
+        "name": "Add Signature",
+        "dependant": true,
+        "signoffs": true,
+        "type": "step",
+        "order": 0
+      }
+    }
+  ],
+  "data": {
+    "cc55fd5e-aa33-557d-bf7f-0f811d993e64": {
+      "title": "Contractor's Rep Name:",
+      "type": "input",
+      "subtype": "text",
+      "order": 0
+    },
+    "7921be36-d225-5295-ba04-205bee4975d0": {
+      "title": "Engineer's Rep. Name:",
+      "type": "input",
+      "subtype": "text",
+      "order": 1
+    },
+    "3316de49-878a-51d9-9ab5-0136179f6cbd": {
+      "title": "Date:",
+      "type": "input",
+      "subtype": "date",
+      "order": 2
+    }
+  },
+  "meta": {
+    "name": "Client Final Inspection - the signature below verifies that this ITP has been completed in accordance with the Specifications and verifies lot compliance.",
+    "dependant": false,
+    "stepType": "checkpoint-status",
+    "type": "step",
+    "display": "normal",
+    "order": 99
+  }
+}
