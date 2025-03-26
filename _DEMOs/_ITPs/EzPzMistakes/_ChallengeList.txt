@@ -1,0 +1,46 @@
+====================================
+AllInternalHoldPoints.xlsx
+====================================
+Is HP* a holdpoint?
+Do you leave it as a normal checkpoint or do you add a signoff option?
+Do you even need signoff options for this ITP?
+
+
+
+
+====================================
+DifferentColumnHeaders.xlsx
+====================================
+
+Something's off with the column headers in this ITP.
+Try comparing the CONCAT formula in Downer_CONCAT_FORMULA_DWN-T2W.xlsx to the one in the example and find the discrepancy. (hint: something's different with columns E/L)
+
+
+
+
+====================================
+ExternalHoldPointsVersusInternalHoldPoints.xlsx
+====================================
+
+Does an Internal Hold Point (H) differ from an Engineer Hold Point (HP)? What does one have that the other doesn't?
+How do you know the difference? (hint: check ITP's cover page)
+
+
+
+
+====================================
+LessThansAndAmpersands.xlsx
+====================================
+
+The FILTERXML function on the CONCAT formula spready won't work with these two symbols ('&' and '<') in the source text.
+What placeholder should you temporarily replace them with?
+Do you need to convert these ampersands and less than symbols back into their original symbols? (hint: yes)
+
+
+
+
+====================================
+MergedCellsSomewhereInHere.xlsx
+====================================
+
+Merged cells are bad news for CONCAT formulas. How do you identify them and avoid getting issues when digitising the ITP? (hint: see MergedCellsHowToFindGuide.txt)
