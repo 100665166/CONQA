@@ -1,0 +1,16 @@
+○ When making updates to existing ITP templates and instances, you can use https://www.diffchecker.com/excel-compare/ to quickly identify differences between the new and older revisions.* Adobe Acrobat has its own (premium) Compare tool for ITPs supplied as PDFs, as does Microsoft Word (Review -> Compare) in the case of ITPs that were sent through as Word documents.
+(*) You won't need to worry about these if the client has already highlighted the required changes. This only applies if the client hasn't marked the changes for you.
+
+
+○ Just like when it comes to updating regular checklists, IDs (column A) are crucial to preserve when making edits to ITP templates, especially if you are updating live instances where the quality engineers are actively working on them.
+
+
+○ Remember to watch out for missing IDs and/or mismatches. This can result in lost QA if you accidentally delete or forget to include the ID(s),* especially if the edits are being made to checkpoints that have textboxes/checkboxes/number fields/buttons/dropdowns/radios/signoffs.
+(*) The only times where leaving out IDs is permissible is if the item is: [A] a new item addition like a new checkpoint, or, [B] if it's for labels/notes under an existing checkpoint.
+
+
+○ If the ID cell is deliberately left blank, CONQA will automatically generate them for that specific item on the checklist.
+
+
+○ When making updates to ITPs that have a mix of started, unstarted, and completed instances, be sure to clarify with the quality engineer first if they want the edits applied to everything or if it's only for unstarted/new ITPs. If they only want it for unstarted/new ITPs going forward, you will need to create a "new" version of the ITP template.*
+(*) "New" versions of the existing template will use the exact same IDs for its contents. The only difference is that you make the required changes/additions to the ITP, but get rid of the checklist's ID so that the system will generate a new ID for it. Once you've added this "new" template to the library, replace all unstarted instances within the project to use the "new" ITP's template.
