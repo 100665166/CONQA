@@ -1,0 +1,615 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "5e08fb26-5fd6-5885-952d-28d12d4b8925": {
+              "title": "Sealant brand, type, batch number, production date, shelf life:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Confirm sealant product to be used",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "3addff85-4144-5ff4-942e-dd1a6eeeb012": {
+              "title": "Wall to wall:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            },
+            "a91db5ca-5162-5921-9ebe-81a653b21d2d": {
+              "title": "Floor to wall:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "38772396-f7e0-5f61-bd7f-9aa813848ac0": {
+              "title": "Wall to ceiling:",
+              "type": "input",
+              "subtype": "text",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Confirm corner details to be used within cleanroom",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "3d3507f5-707e-53b0-a47f-787ad335c94a": {
+              "title": "Hydraulic ipework",
+              "type": "boolean",
+              "order": 2
+            },
+            "f558e634-64b0-5e2c-ae8c-aac592ec3e6b": {
+              "title": "Windows",
+              "type": "boolean",
+              "order": 6
+            },
+            "1dfe7521-a637-58db-9e27-9f787feb0888": {
+              "title": "Lights",
+              "type": "boolean",
+              "order": 5
+            },
+            "ff9a1d33-5802-57b5-8db6-abce14ec45e7": {
+              "title": "HEPA filters",
+              "type": "boolean",
+              "order": 3
+            },
+            "ed2c2b35-804a-583f-8152-3178eaf30814": {
+              "title": "Doors",
+              "type": "boolean",
+              "order": 7
+            },
+            "b3ad0c61-a7da-5010-b90b-0a1f1f5cbd85": {
+              "title": "Mechanical ductwork",
+              "type": "boolean",
+              "order": 1
+            },
+            "7ab2b65a-877c-5919-91a4-a512e92e1492": {
+              "title": "Grilles",
+              "type": "boolean",
+              "order": 4
+            },
+            "3dded79a-abf5-5a93-ba12-5b25197d965b": {
+              "title": "Sandwich panels",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Cleanroom material delivered clean, protected, and undamaged (plastic wrap), provide photos",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "017a1621-a748-531a-98a5-42f7cfd439e8": {
+              "title": "Refer Shop Drawings, confirm dwg no. and revision no.",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Confirm relevant approved design drawing",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Prior to Works",
+        "dependant": true,
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "192803cc-e462-56ab-9fa0-d51f33bfdd89": {
+              "title": "Wall to wall joints are coved and sealed",
+              "type": "boolean",
+              "order": 2
+            },
+            "6944bec1-4156-5641-b35d-2f63e163fbc9": {
+              "title": "All penetrations fully sealed",
+              "type": "boolean",
+              "order": 5
+            },
+            "fa21c054-36b9-5c53-b64e-b770c8971487": {
+              "title": "Panel joints fully sealed",
+              "type": "boolean",
+              "order": 1
+            },
+            "f44f2af8-3097-588d-a770-896650999d43": {
+              "title": "Wall to floor joints are coved and sealed",
+              "type": "boolean",
+              "order": 4
+            },
+            "a160683f-409a-5c06-9e01-cb6326add596": {
+              "title": "Support framing installed as specified",
+              "type": "boolean",
+              "order": 0
+            },
+            "06ca06b4-0040-5282-be00-adabe89a79b0": {
+              "title": "Wall to ceiling joints are coved and sealed",
+              "type": "boolean",
+              "order": 3
+            }
+          },
+          "meta": {
+            "name": "Cleanroom walls checklist, provide photos",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "8477f378-8363-52c0-a49e-4c1573e13302": {
+              "title": "Panel joints fully sealed",
+              "type": "boolean",
+              "order": 1
+            },
+            "e6c57845-e18a-5fed-b873-f6212765385c": {
+              "title": "All penetrations fully sealed",
+              "type": "boolean",
+              "order": 3
+            },
+            "97f28338-32b2-51c3-a3c1-94d4fb4825bc": {
+              "title": "Ceiling to wall joints are coved and sealed",
+              "type": "boolean",
+              "order": 2
+            },
+            "f6d5411c-9a61-5b44-90d3-0767f8b303fd": {
+              "title": "Support framing installed as specified",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Cleanroom ceilings checklist, provide photos",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "d3bfecef-f1b1-594d-bb73-544c1f3de7f8": {
+              "title": "HEPA installation complete & test points installed either side",
+              "type": "boolean",
+              "order": 6
+            },
+            "f9152dfa-37cb-5e34-b23b-91051749f5b9": {
+              "title": "Supply & return air grilles completed",
+              "type": "boolean",
+              "order": 4
+            },
+            "af767a96-846c-5816-9d29-37a04bb7f589": {
+              "title": "Pressure testing completed",
+              "type": "boolean",
+              "order": 3
+            },
+            "51b87076-6b72-54f9-98a6-7b0414fa6925": {
+              "title": "Confirm ductwork flanges ae bolted & sealed",
+              "type": "boolean",
+              "order": 0
+            },
+            "990b137b-3133-5e18-a058-1831fa90f4e0": {
+              "title": "Confirm inside of ductwork is clean",
+              "type": "boolean",
+              "order": 2
+            },
+            "4916ca91-ea39-5f23-9870-5f1a78376acb": {
+              "title": "HEPA factory certificates of conformity saved",
+              "type": "boolean",
+              "order": 5
+            },
+            "4c83fd83-48f8-5b7d-a023-f52f9aaba0b1": {
+              "title": "Confirm insulation installed and sealed",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Mechanical checklist, provide photos",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "38e130a5-ef64-5d75-90f5-cf0af96b513b": {
+              "title": "Attach commissioning tests",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Pass Through Hatches installed, cleaned and sealed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 3
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "a3d17c21-e37c-5459-9f75-5e0401ba447f": {
+              "title": "All penetrations & cables sealed",
+              "type": "boolean",
+              "order": 1
+            },
+            "ba81f989-933a-504c-93a3-f837b8f977e4": {
+              "title": "Confirm sub mains power & distribution boards are installed",
+              "type": "boolean",
+              "order": 0
+            },
+            "4090d4db-3e77-5c91-8da2-ba09facd2ab2": {
+              "title": "Confirm light fittings installed and tested",
+              "type": "boolean",
+              "order": 2
+            }
+          },
+          "meta": {
+            "name": "Electrical checklist, provide photos",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 4
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "469ea038-81d9-5157-9551-9da2ca24585e": {
+              "title": "Backflow protection installed",
+              "type": "boolean",
+              "order": 2
+            },
+            "4c624b1f-6be0-514e-bb4b-d78cbdab9dc5": {
+              "title": "Pipework labelled for contents and directional flow",
+              "type": "boolean",
+              "order": 1
+            },
+            "e5e7ae11-9519-5696-8d91-5d874f72a9c0": {
+              "title": "Pressure testing completed",
+              "type": "boolean",
+              "order": 3
+            },
+            "3d4bd1a0-3217-5642-94cf-91c16e182d12": {
+              "title": "Hose connections within cleanroom sealed",
+              "type": "boolean",
+              "order": 4
+            },
+            "0579643a-7276-549c-9c62-f8b0f7fbc74c": {
+              "title": "Pipework and Isolation valves installed as per approved specification",
+              "type": "boolean",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Compressed Air checklist, provide photos",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 5
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "c614b307-92ca-52ee-a362-ad37774cf20c": {
+              "title": "Confirm no wood is exposed, all must be sealed, no gaps",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Confirm joinery is installed and completed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 6
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "9f5fd685-4747-5981-96d3-89282634e7e1": {
+              "title": "Hardware fitting flush & sealed to surface",
+              "type": "boolean",
+              "order": 2
+            },
+            "1772844c-3436-5ffa-85ab-e9d0c7459c5b": {
+              "title": "Glass supplied as per specification & Australian Standards",
+              "type": "boolean",
+              "order": 0
+            },
+            "d8830554-de6e-58e3-b885-18c4ff1dcfbb": {
+              "title": "Interlocks installed in accordance with approved design",
+              "type": "boolean",
+              "order": 3
+            },
+            "f8956fc9-634b-502b-a02e-968384b9dddd": {
+              "title": "Sealant to hinges, frame, glazing, and door closers all complete",
+              "type": "boolean",
+              "order": 4
+            },
+            "4dd0d9ee-d712-5948-aba5-c4598fe3ec71": {
+              "title": "Doors closing flush and sealed when in closed position",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Doors & Access Control checklist",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 7
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "515987f1-8c37-5596-a2fe-0c91ebfef7e9": {
+              "title": "Glass supplied as per specification & Australian Standards",
+              "type": "boolean",
+              "order": 0
+            },
+            "bd087fd0-4f81-5ed1-91e0-a3104a6b3dd1": {
+              "title": "Window glass finishing flush and sealed",
+              "type": "boolean",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Windows checklist",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 8
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Confirm sealing works are completed throughout",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 9
+          }
+        },
+        {
+          "tree": [],
+          "data": {
+            "5b5bebc9-3f28-57f0-8170-6c1bc2ce7998": {
+              "title": "BMS: Make, model, serial number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 0
+            },
+            "32aa883d-f1e7-5421-a163-7cbe48c23b27": {
+              "title": "EMS: Make, model, serial number:",
+              "type": "input",
+              "subtype": "text",
+              "order": 1
+            }
+          },
+          "meta": {
+            "name": "Confirm testing & monitoring instrumentation is calibrated",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 10
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Attach Cleanroom Consultant Inspection Report(s), and confirm all actions are closed out",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 11
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Confirm all ceiling tiles are sealed",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 12
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "During Works",
+        "dependant": true,
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "meta": {
+            "name": "Review panels & joints to ensure no visible damage/cracks/misalignments",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Confirm final cleaning completed for area",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 1
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "name": "Attach subcontractor ITP for Sandwich Panels",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 2
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "After Works",
+        "dependant": true,
+        "type": "step",
+        "order": 2
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [
+            {
+              "tree": [],
+              "meta": {
+                "stepType": "holdpoint",
+                "display": "flat",
+                "name": "Request Sign Off",
+                "dependant": true,
+                "signoffs": true,
+                "type": "step",
+                "order": 0
+              }
+            }
+          ],
+          "data": {
+            "cd444a3f-0837-57b0-9fb3-ec5b5d60e221": {
+              "title": "Issue Date: 24.06.2023",
+              "type": "label",
+              "order": 1
+            },
+            "f7c807cf-ca55-5f6f-ae3d-d18a5f6aecdc": {
+              "title": "Authorised By: DL",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "name": "Orwell Sign Off",
+            "dependant": false,
+            "stepType": "checkpoint-status",
+            "type": "step",
+            "display": "normal",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Sign Offs",
+        "dependant": true,
+        "type": "step",
+        "order": 3
+      }
+    }
+  ],
+  "meta": {
+    "name": "Cleanroom Checklist - GPL-QSE-ITP-FIT-012 (Rev00)",
+    "dependant": true,
+    "stepType": "checklist-sectioned",
+    "type": "step",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress"
+  }
+}
