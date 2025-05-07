@@ -1,0 +1,41 @@
+Every now and then, you'll get infrastructure clients sending through ITPs that are in PDF or Word document format. This ITP from United Civil is a perfect example.
+
+For obvious reasons, we can't copy data directly from these PDF/Word documents since the layout will almost always be lost in the process.
+
+Then there's also the problem that the source ITP may have empty cells that can screw up the ITP converter formulae that you'll be using.
+
+Lastly, converting from a Word document to a PDF and then finally into a usable Excel spreadsheet will inevitably result in more issues like extra rows cropping up or formatting not being preserved.
+
+In these scenarios, what we need to do first is to sanitise the source ITP so that we can minimise these issues that can crop up during the Word doc -> PDF -> Excel process.
+
+Filling in blank cells is the first step. You want to make sure that each item is numbered accordingly.
+
+As we can see in this example, the source ITP has a bunch of missing item numbers and names. By taking in the context of the ITP, we know that the two empty rows below "2. Material" are a part of the same item, but are actually considered to be two sub-tasks that the quality engineer needs to go through in addition to the first instance.
+
+This means that "2. Material" actually consists of three checkpoints:
+* Checkpoint #1's 2. Material has an ACTIVITY TASK of "Filter Cloth"
+* Checkpoint #2's 2. Material has an ACTIVITY TASK of "Rock Boulders criteria"
+* Checkpoint #3's 2. Material has an ACTIVITY TASK of "RIP-RAP grading"
+
+We'll need to fill in the missing cells on the source ITP. Once we've done that, we can see that "4. Subgrade Prep" has the same issue.
+
+Let's do the same thing here for "4. Subgrade Prep" (which has two checkpoints):
+* Checkpoint #1's 4. Subgrade Prep has an ACTIVITY TASK of "Trim subgrade to suit"
+* Checkpoint #2's 4. Subgrade Prep has an ACTIVITY TASK of "Place Geotextile"
+
+All other items after "4. Subgrade Prep" look okay, so we won't need to sanitise anything else.
+
+One more thing: before converting to a PDF and then to Excel, you can also get rid of things like footers and headers to further make things less messy in the conversion process, though it's not always necessary if the ITP isn't particularly large to begin with.
+
+
+
+== '''After conversion''' ==
+Now that we've converted the source ITP into a PDF, and then finally, into an Excel spreadsheet, we'll need to do one final sweep of the ITP to make sure nothing was lost during the conversion.
+
+Everything appears to check out, so all that's needed is to delete any header rows in the middle of the document.
+
+Once you're happy with everything, open a new blank spreadsheet in Excel and copy the rows for all items from "1. Site Preparation" down to "7. As-Built Plans".
+
+Select all cells (Left Control + A for shortcut keys), then press Left Control + G to open the "Go To" menu. Click on "Special..." on the bottom-left hand corner of the window and make sure the "Blank" radio is selected, then click on OK.
+
+Excel will automatically highlight all of the blank columns. Press Left Control + Minus. Make sure the "Shift cells left" radio is selected, then click on OK. If done right, the ITP will now be ready to plug into the ITP converter formula sheet.
