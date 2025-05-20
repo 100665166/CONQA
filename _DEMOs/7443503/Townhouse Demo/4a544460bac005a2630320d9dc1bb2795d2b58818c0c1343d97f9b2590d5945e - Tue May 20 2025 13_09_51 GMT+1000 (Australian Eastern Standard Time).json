@@ -1,0 +1,123 @@
+{
+  "tree": [
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "04c4a4b2-55a3-5160-9205-6ea98b13b74e": {
+              "title": "Attach confirmation of CCC lodgement and PASS above checkpoint when CCC has been applied for",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "b60ffff7-526c-4daa-ae4f-e49d3ae7feae",
+            "display": "normal",
+            "name": "Code Compliance Certificate lodgement form completed, received and attached",
+            "dependant": false,
+            "templateId": "c7377436-9a6a-445e-9a06-58439668468f",
+            "type": "step",
+            "order": 0
+          }
+        },
+        {
+          "tree": [],
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "19afeed4-52ff-44c4-9d8b-c3e90553201e",
+            "display": "normal",
+            "name": "Code Compliance Certificate RFI's",
+            "dependant": false,
+            "templateId": "c7377436-9a6a-445e-9a06-58439668468f",
+            "type": "step",
+            "order": 1
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "81c846ca-4817-4e1d-aff7-d743fe9673f0",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Code Compliance Certificate Lodgement",
+        "dependant": true,
+        "templateId": "c7377436-9a6a-445e-9a06-58439668468f",
+        "type": "step",
+        "order": 0
+      }
+    },
+    {
+      "tree": [
+        {
+          "tree": [],
+          "data": {
+            "54b9f588-840d-5143-8fb6-55d42521430e": {
+              "title": "Attach approved Code Compliance Certificate and PASS above checkpoint when CCC has been approved",
+              "type": "label",
+              "order": 0
+            }
+          },
+          "meta": {
+            "stepType": "checkpoint-status",
+            "templateReference": "37153a06-6c3f-461b-ae66-0e81691ce2ee",
+            "display": "normal",
+            "name": "Final Code Compliance Certificate (approved & attached)",
+            "dependant": false,
+            "templateId": "c7377436-9a6a-445e-9a06-58439668468f",
+            "type": "step",
+            "order": 0
+          }
+        }
+      ],
+      "meta": {
+        "stepType": "checkpoint-group",
+        "templateReference": "1fd3100f-f39e-48d0-8703-cfe3398360d9",
+        "permissions": {
+          "addStep": false,
+          "addPost": false
+        },
+        "display": "flat",
+        "name": "Code Compliance Certificate Approval",
+        "dependant": true,
+        "templateId": "c7377436-9a6a-445e-9a06-58439668468f",
+        "type": "step",
+        "order": 1
+      }
+    },
+    {
+      "tree": [],
+      "meta": {
+        "stepType": "section-nested-checklists",
+        "templateReference": "8e741348-9131-4c78-bdc4-6bafd9adff5e",
+        "permissions": {
+          "addStep": true,
+          "addPost": false
+        },
+        "display": "normal",
+        "name": "Code Compliance Certificate RFI's",
+        "dependant": true,
+        "templateId": "c7377436-9a6a-445e-9a06-58439668468f",
+        "type": "step",
+        "order": 2
+      }
+    }
+  ],
+  "meta": {
+    "stepType": "checklist-sectioned",
+    "templateReference": "c7377436-9a6a-445e-9a06-58439668468f",
+    "permissions": {
+      "addStep": false,
+      "addPost": false
+    },
+    "display": "progress",
+    "name": "4a544460bac005a2630320d9dc1bb2795d2b58818c0c1343d97f9b2590d5945e",
+    "dependant": true,
+    "templateId": "c7377436-9a6a-445e-9a06-58439668468f",
+    "type": "step"
+  }
+}
